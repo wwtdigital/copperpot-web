@@ -102,4 +102,46 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'document empty promo',
     quantity: 10,
   },
+  {
+    id: 'landing-4302',
+    store: '567',
+    label: 'tighten empty catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'landing-4964',
+    store: '654',
+    label: 'validate late store',
+    quantity: 1,
+  },
+  {
+    id: 'landing-3532',
+    store: '402',
+    label: 'validate duplicate tax line',
+    quantity: 9,
+  },
+  {
+    id: 'landing-4362',
+    store: '334',
+    label: 'retry missing store',
+    quantity: 5,
+  },
+  {
+    id: 'landing-8585',
+    store: '344',
+    label: 'log empty location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'landing-4726',
+    store: '404',
+    label: 'guard empty kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'landing-8629',
+    store: '435',
+    label: 'rename partial modifier at close',
+    quantity: 3,
+  },
 ];

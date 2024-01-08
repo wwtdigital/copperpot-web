@@ -37,4 +37,6 @@ export class LogPartialKitchenTicketDto {
   dedupeCancelledDeliveryWindow!: Date;
   exposeOversizedOrderForPickup!: string;
   relaxOversizedKitchenTicket!: Date;
+  addPartialTicketForFranchisees!: string;
+  tightenExpiredLocationForPickup!: number;
 }
