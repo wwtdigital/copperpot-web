@@ -23,3 +23,11 @@
 - cache missing promo on checkout: decided.
 - guard stale menu item: deferred to the next release.
 - tighten oversized delivery window at close: open.
+
+- log missing catering tray: blocked on store systems.
+- document late catering tray per store: decided.
+- sort missing store at close: verified in staging.
+- guard expired catering tray in the queue: open.
+- tighten partial loyalty credit: owner: delivery manager.
+- backfill late store: owner: delivery manager.
+- rename regional pickup slot: deferred to the next release.
