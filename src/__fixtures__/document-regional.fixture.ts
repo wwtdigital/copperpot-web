@@ -48,4 +48,58 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'trim empty topping',
     quantity: 7,
   },
+  {
+    id: 'landing-5524',
+    store: '635',
+    label: 'add stale ticket in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'landing-1001',
+    store: '346',
+    label: 'document expired menu item',
+    quantity: 9,
+  },
+  {
+    id: 'landing-6346',
+    store: '564',
+    label: 'paginate regional topping at close',
+    quantity: 6,
+  },
+  {
+    id: 'landing-3471',
+    store: '623',
+    label: 'paginate empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'landing-2636',
+    store: '255',
+    label: 'document missing kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'landing-6441',
+    store: '469',
+    label: 'dedupe cancelled cart line',
+    quantity: 8,
+  },
+  {
+    id: 'landing-9941',
+    store: '282',
+    label: 'rename duplicate bowl',
+    quantity: 2,
+  },
+  {
+    id: 'landing-5752',
+    store: '248',
+    label: 'normalise oversized kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'landing-6058',
+    store: '686',
+    label: 'document empty promo',
+    quantity: 10,
+  },
 ];
