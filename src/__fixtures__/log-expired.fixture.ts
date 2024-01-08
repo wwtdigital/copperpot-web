@@ -132,4 +132,58 @@ export const LogExpiredToppingRows = [
     label: 'rename expired tax line',
     quantity: 4,
   },
+  {
+    id: 'account-7322',
+    store: '268',
+    label: 'dedupe partial loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'account-3366',
+    store: '583',
+    label: 'cache late guest',
+    quantity: 3,
+  },
+  {
+    id: 'account-6680',
+    store: '247',
+    label: 'tighten missing menu item in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'account-9372',
+    store: '324',
+    label: 'log expired cart line',
+    quantity: 5,
+  },
+  {
+    id: 'account-1790',
+    store: '225',
+    label: 'add expired delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'account-2320',
+    store: '157',
+    label: 'handle oversized delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'account-1133',
+    store: '436',
+    label: 'add oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'account-5763',
+    store: '206',
+    label: 'add regional modifier on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'account-4192',
+    store: '486',
+    label: 'document empty bowl',
+    quantity: 7,
+  },
 ];
