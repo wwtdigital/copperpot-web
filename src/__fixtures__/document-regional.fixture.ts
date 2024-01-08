@@ -144,4 +144,46 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'rename partial modifier at close',
     quantity: 3,
   },
+  {
+    id: 'landing-8252',
+    store: '321',
+    label: 'tighten empty tax line',
+    quantity: 5,
+  },
+  {
+    id: 'landing-6083',
+    store: '310',
+    label: 'relax oversized location at close',
+    quantity: 6,
+  },
+  {
+    id: 'landing-5167',
+    store: '546',
+    label: 'add oversized delivery window in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'landing-9261',
+    store: '404',
+    label: 'add oversized order on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'landing-3494',
+    store: '135',
+    label: 'validate regional store on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'landing-1797',
+    store: '450',
+    label: 'retry stale location',
+    quantity: 8,
+  },
+  {
+    id: 'landing-9320',
+    store: '595',
+    label: 'dedupe oversized modifier on reorder',
+    quantity: 5,
+  },
 ];
