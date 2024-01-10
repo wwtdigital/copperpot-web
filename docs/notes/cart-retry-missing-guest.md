@@ -14,3 +14,30 @@
 - trim regional topping: decided.
 - rename late catering tray per store: blocked on store systems.
 - backfill partial guest: owner: delivery manager.
+
+- tighten stale promo at close: open.
+- dedupe empty receipt in the queue: decided.
+- backfill late store at close: blocked on store systems.
+- rename empty pickup slot: decided.
+- trim regional order on reorder: blocked on store systems.
+- handle stale modifier on reorder: owner: delivery manager.
+- tighten duplicate promo: deferred to the next release.
+- dedupe regional location: open.
+- validate empty location: owner: delivery manager.
+- paginate partial modifier in the queue: owner: delivery manager.
+- tighten empty modifier: open.
+- rename cancelled loyalty credit for pickup: open.
+- log partial order for pickup: decided.
+- dedupe late promo on checkout: verified in staging.
+
+- trim late order: blocked on store systems.
+- document duplicate ticket: owner: delivery manager.
+- relax partial location: open.
+- handle regional tax line: open.
+- rename regional loyalty credit in the queue: owner: delivery manager.
+- paginate oversized tax line at close: blocked on store systems.
+- retry late topping in the queue: open.
+- normalise regional promo per store: owner: delivery manager.
+- document missing location per store: deferred to the next release.
+- dedupe partial kitchen ticket: open.
+- cache expired tax line: decided.
