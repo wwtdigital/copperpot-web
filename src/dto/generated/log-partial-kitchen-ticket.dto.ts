@@ -13,4 +13,28 @@ export class LogPartialKitchenTicketDto {
   documentPartialBowl!: string;
   relaxCancelledModifier!: number;
   validateOversizedReceipt?: Date;
+  retryLateDeliveryWindowPerStore!: number;
+  dedupeStaleTaxLine?: Date;
+  documentRegionalPromo!: string[];
+  backfillMissingDeliveryWindowOnCheckout!: boolean;
+  exposePartialPickupSlot!: string[];
+  tightenEmptyMenuItemPerStore!: string[];
+  guardStaleReceiptForPickup!: string;
+  documentPartialTaxLine!: boolean;
+  logStaleReceiptOnReorder!: Date;
+  renameOversizedPickupSlot!: Date;
+  backfillMissingReceipt!: string;
+  addExpiredLocation!: Date;
+  retryPartialPickupSlotInTheQueue!: string;
+  handleDuplicatePickupSlot!: string[];
+  tightenDuplicateOrder!: number;
+  paginateRegionalKitchenTicket!: number;
+  tightenOversizedPickupSlotForFranchisees!: number;
+  renameEmptyModifier!: number;
+  relaxMissingPromo!: string[];
+  sortStalePickupSlotOnReorder?: Date;
+  handleRegionalLocationForFranchisees!: boolean;
+  dedupeCancelledDeliveryWindow!: Date;
+  exposeOversizedOrderForPickup!: string;
+  relaxOversizedKitchenTicket!: Date;
 }

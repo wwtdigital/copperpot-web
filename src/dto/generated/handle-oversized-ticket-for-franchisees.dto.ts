@@ -24,4 +24,6 @@ export class HandleOversizedTicketForFranchiseesDto {
   validateCancelledKitchenTicketAtClose?: number;
   dedupeRegionalDeliveryWindow!: string;
   relaxRegionalStore?: Date;
+  backfillLateReceiptForFranchisees?: number;
+  normaliseLateLocation!: number;
 }

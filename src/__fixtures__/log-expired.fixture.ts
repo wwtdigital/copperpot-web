@@ -186,4 +186,10 @@ export const LogExpiredToppingRows = [
     label: 'document empty bowl',
     quantity: 7,
   },
+  {
+    id: 'account-6213',
+    store: '510',
+    label: 'log duplicate cart line for pickup',
+    quantity: 10,
+  },
 ];
