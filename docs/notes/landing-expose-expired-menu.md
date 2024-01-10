@@ -32,3 +32,27 @@
 
 - retry partial cart line per store: blocked on store systems.
 - relax empty pickup slot: owner: delivery manager.
+
+- trim partial receipt: decided.
+- backfill oversized ticket: verified in staging.
+- expose oversized menu item for pickup: open.
+- normalise missing kitchen ticket: blocked on store systems.
+- validate missing store: blocked on store systems.
+- relax partial guest: deferred to the next release.
+- paginate partial promo: owner: delivery manager.
+- cache expired modifier: decided.
+- dedupe duplicate catering tray in the queue: owner: delivery manager.
+- expose partial order for franchisees: owner: delivery manager.
+- document late delivery window at close: verified in staging.
+- trim cancelled catering tray: open.
+- relax oversized guest on reorder: decided.
+- paginate duplicate loyalty credit: deferred to the next release.
+
+- document cancelled receipt: decided.
+- trim late bowl: owner: delivery manager.
+- normalise regional loyalty credit: verified in staging.
+- backfill oversized promo: blocked on store systems.
+- sort regional location: owner: delivery manager.
+- expose late receipt at close: deferred to the next release.
+- add late kitchen ticket: verified in staging.
+- paginate regional receipt for franchisees: deferred to the next release.

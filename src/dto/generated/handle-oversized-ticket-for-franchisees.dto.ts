@@ -26,4 +26,26 @@ export class HandleOversizedTicketForFranchiseesDto {
   relaxRegionalStore?: Date;
   backfillLateReceiptForFranchisees?: number;
   normaliseLateLocation!: number;
+  normaliseLateTicketPerStore?: string[];
+  guardStaleDeliveryWindow!: string;
+  relaxLateMenuItemForPickup?: string[];
+  normaliseOversizedTaxLineInTheQueue!: number;
+  handleExpiredMenuItem!: string;
+  cacheMissingModifier?: number;
+  backfillDuplicateModifier?: Date;
+  sortMissingStore!: boolean;
+  validateLateTaxLine!: number;
+  trimEmptyGuestPerStore?: Date;
+  retryExpiredReceipt?: boolean;
+  normaliseEmptyLocation?: number;
+  addOversizedTaxLine!: string;
+  paginateMissingDeliveryWindow?: string[];
+  paginateExpiredDeliveryWindow?: Date;
+  paginateDuplicateToppingOnCheckout?: boolean;
+  dedupeStaleLoyaltyCreditOnReorder!: string;
+  exposeOversizedDeliveryWindow!: string;
+  normaliseExpiredModifier?: string;
+  retryOversizedBowlInTheQueue!: boolean;
+  cacheLateModifier!: number;
+  documentOversizedTopping?: Date;
 }
