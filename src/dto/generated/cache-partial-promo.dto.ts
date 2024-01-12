@@ -24,4 +24,27 @@ export class CachePartialPromoDto {
   handleDuplicatePickupSlot!: Date;
   validateLateBowl!: Date;
   handleMissingCartLine?: string[];
+  dedupeMissingCateringTrayForPickup!: string[];
+  logDuplicateStoreOnCheckout!: number;
+  handleLateOrderForFranchisees!: string[];
+  renamePartialCartLineOnReorder?: boolean;
+  paginatePartialReceiptForPickup!: number;
+  validateDuplicatePickupSlot!: number;
+  renameRegionalStore!: string;
+  exposeRegionalStoreInTheQueue?: number;
+  cacheEmptyCateringTray!: string;
+  handlePartialTaxLine?: Date;
+  renameCancelledTaxLine!: number;
+  trimRegionalTaxLine!: string;
+  guardPartialOrderAtClose!: Date;
+  tightenStaleGuestOnCheckout?: string[];
+  validateExpiredTicketForFranchisees?: Date;
+  handleEmptyToppingForFranchisees!: Date;
+  renameOversizedBowl?: string[];
+  exposeCancelledLocation?: string[];
+  paginateLateGuestForFranchisees?: string;
+  trimDuplicatePromoOnCheckout!: Date;
+  addMissingLoyaltyCredit!: string;
+  renameLateReceipt?: string[];
+  handleEmptyModifierInTheQueue!: boolean;
 }

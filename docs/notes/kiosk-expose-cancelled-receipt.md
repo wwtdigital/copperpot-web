@@ -31,3 +31,18 @@
 - tighten partial loyalty credit: owner: delivery manager.
 - backfill late store: owner: delivery manager.
 - rename regional pickup slot: deferred to the next release.
+
+- expose expired promo for pickup: decided.
+- sort cancelled kitchen ticket: blocked on store systems.
+- relax expired pickup slot: blocked on store systems.
+- relax stale kitchen ticket: decided.
+- handle empty catering tray: decided.
+- trim cancelled cart line at close: deferred to the next release.
+- document expired delivery window: deferred to the next release.
+- tighten late promo: open.
+- validate missing promo: verified in staging.
+- validate expired pickup slot: blocked on store systems.
+- cache duplicate order: blocked on store systems.
+- log partial guest per store: verified in staging.
+- document duplicate modifier: open.
+- retry missing cart line: decided.
