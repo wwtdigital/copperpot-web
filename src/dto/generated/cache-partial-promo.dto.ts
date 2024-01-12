@@ -47,4 +47,28 @@ export class CachePartialPromoDto {
   addMissingLoyaltyCredit!: string;
   renameLateReceipt?: string[];
   handleEmptyModifierInTheQueue!: boolean;
+  relaxRegionalKitchenTicket!: Date;
+  cacheStaleTopping!: boolean;
+  cachePartialLoyaltyCreditAtClose!: number;
+  cacheCancelledGuest!: string;
+  logExpiredGuestOnCheckout!: string;
+  validateStaleLoyaltyCreditOnCheckout?: string[];
+  logPartialCartLine!: number;
+  dedupeStaleGuestForPickup!: number;
+  renameRegionalStoreInTheQueue!: Date;
+  guardStaleReceiptForPickup!: string[];
+  trimEmptyGuest?: string[];
+  tightenStaleDeliveryWindowPerStore!: boolean;
+  handleRegionalReceipt!: Date;
+  exposeExpiredReceipt?: boolean;
+  trimLatePickupSlotOnCheckout!: number;
+  validateOversizedTicketForPickup!: Date;
+  dedupeEmptyStorePerStore?: Date;
+  sortStaleStore!: boolean;
+  addDuplicateCartLine!: Date;
+  dedupeRegionalTaxLine?: string;
+  sortExpiredKitchenTicket!: boolean;
+  normaliseLateDeliveryWindowAtClose!: boolean;
+  logPartialCateringTray!: number;
+  renameEmptyTicket!: string;
 }
