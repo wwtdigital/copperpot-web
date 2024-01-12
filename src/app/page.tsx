@@ -4,8 +4,7 @@ import { useEffect, useMemo, useState, useCallback, useRef } from "react";
 import { io, Socket } from "socket.io-client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { QRCodeSVG } from "qrcode.react";
-import { API_BASE_URL, MENU_API, ORDER_API, PAYMENT_API as PAY_API, SOCKET_URL, SETTINGS_API } from "./config";
+import { API_BASE_URL, MENU_API, ORDER_API, PAYMENT_API as PAY_API, SOCKET_URL, SETTINGS_API } from "@/lib/config";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type MenuItem = {
@@ -76,186 +75,88 @@ function PaymentModal({
   const [processing, setProcessing] = useState(false);
   const [statusMsg, setStatusMsg] = useState<string | null>(null);
 
-  // Base UPI params shared by QR + app links
-  const upiParams = `pa=${encodeURIComponent(config.upiId)}&pn=${encodeURIComponent(config.storeName)}&am=${total}&cu=USD&tn=${encodeURIComponent("Copperpot Bowls Order")}`;
-  const upiLink = `upi://pay?${upiParams}`;
-
-  const UPI_ICONS = {
-    gpay: (
-      <svg viewBox="0 0 24 24" className="w-5 h-5">
-        <path d="M11.96 9.87v4.14h5.88c-.24 1.76-1.39 3.26-3.32 4.19l5.35 4.15c3.13-2.88 4.93-7.12 4.93-11.83 0-.84-.08-1.65-.22-2.45h-12.62z" fill="#4285F4"/>
-        <path d="M12.04 24c3.55 0 6.53-1.18 8.7-3.19l-5.35-4.15c-1.17.78-2.67 1.25-4.35 1.25-3.35 0-6.19-2.26-7.2-5.32h-5.54v4.29C1.03 22.37 5.8 24 12.04 24z" fill="#34A853"/>
-        <path d="M4.84 15.68c-.26-.78-.41-1.62-.41-2.48s.15-1.7.41-2.48V6.43H-.7C-.14 7.56-1.5 8.74-1.5 10c0 1.26.24 2.44.7 3.57l5.54-4.29z" fill="#FBBC05"/>
-        <path d="M12.04 4.8c1.93 0 3.66.66 5.03 1.96l3.77-3.77C18.5 1.13 15.53 0 12.04 0 5.8 0 1.03 1.63-2.74 6.43l5.54 4.29c1.01-3.06 3.85-5.32 7.2-5.32z" fill="#EA4335"/>
-      </svg>
-    ),
-    phonepe: <span className="font-heading font-black text-lg text-white">Pě</span>,
-    paytm: <span className="font-heading font-black text-xs tracking-tighter text-white">Paytm</span>,
-    bhim: <span className="font-heading font-black text-[11px] tracking-tight text-white"><span className="text-[#ff9933]">BH</span><span className="text-[#138808]">IM</span></span>,
-    cred: <span className="font-heading font-black text-xl leading-none tracking-tighter text-white">C</span>,
-    amazon: <span className="font-heading font-black text-[10px] tracking-tight text-slate-900 mt-1">amazon<span className="text-[#ff9900] text-lg leading-[0] relative top-0.5">.</span></span>
-  };
-
-  const appLinks = [
-    { name: "GPay", bg: "bg-white", tc: "text-slate-800", icon: UPI_ICONS.gpay, href: `tez://upi/pay?${upiParams}` },
-    { name: "PhonePe", bg: "bg-[#5f259f]", tc: "text-white", icon: UPI_ICONS.phonepe, href: `phonepe://pay?${upiParams}` },
-    { name: "Paytm", bg: "bg-[#00b9f1]", tc: "text-white", icon: UPI_ICONS.paytm, href: `paytmmp://pay?${upiParams}` },
-    { name: "BHIM", bg: "bg-[#00a676]", tc: "text-white", icon: UPI_ICONS.bhim, href: `upi://pay?${upiParams}` },
-    { name: "Cred", bg: "bg-[#1c1c1c]", tc: "text-white", icon: UPI_ICONS.cred, href: `credpay://upi/pay?${upiParams}` },
-    { name: "Amazon", bg: "bg-white", tc: "text-slate-900", icon: UPI_ICONS.amazon, href: `amazonpay://pay?${upiParams}` },
-  ];
-
-  // ── CopperPay checkout ─────────────────────────────────────────────────────
-  const handleCopperPay = async () => {
+  // ── Card checkout through the hosted provider ─────────────────────────────
+  const handleCard = async () => {
     setProcessing(true);
     setStatusMsg(null);
     try {
-      // 1. Create CopperPay order on backend
       const res = await fetch(`${PAY_API}/create-order`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ amount: total }),
       });
       const data = await res.json();
-
       if (!res.ok || !data.configured) {
-        setStatusMsg(data.message || "Payment gateway not configured. Add CopperPay keys to server/.env");
+        setStatusMsg(data.message || "Card payments are not configured for this store yet.");
         setProcessing(false);
         return;
       }
-
-      // 2. Load CopperPay script
       const loaded = await loadCopperPay();
       if (!loaded) {
-        setStatusMsg("Failed to load CopperPay SDK. Check your internet connection.");
+        setStatusMsg("Could not load the payment form. Check your connection and try again.");
         setProcessing(false);
         return;
       }
-
-      // 3. Open checkout
-      const rzp = new window.CopperPay({
+      const gateway = new window.CopperPay({
         key: data.keyId,
         amount: data.amount,
         currency: data.currency,
-        name: "Copperpot Bowls",
+        name: config.storeName,
         description: `Order for ${user.name} (${user.loyalty_no})`,
         order_id: data.orderId,
         prefill: { name: user.name },
-        theme: { color: "#10b981" },
+        theme: { color: "#b45309" },
         handler: async (response: { copperpay_order_id: string; copperpay_payment_id: string; copperpay_signature: string }) => {
-          // 4. Verify signature on backend
           const vRes = await fetch(`${PAY_API}/verify`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(response),
           });
           const vData = await vRes.json();
-          if (vData.verified) {
-            onSuccess("card");
-          } else {
-            setStatusMsg("Payment verification failed. Contact support.");
-          }
+          if (vData.verified) onSuccess("card");
+          else setStatusMsg("Payment verification failed. Ask a team member for help.");
         },
-        modal: {
-          ondismiss: () => setProcessing(false),
-        },
+        modal: { ondismiss: () => setProcessing(false) },
       });
-      rzp.open();
+      gateway.open();
     } catch {
       setStatusMsg("Something went wrong. Please try again.");
       setProcessing(false);
     }
   };
 
-  const handlePaid = () => {
+  const handlePayAtPickup = () => {
     setProcessing(true);
-    setStatusMsg("Confirming...");
-    setTimeout(() => { onSuccess("upi"); }, 1200);
+    setStatusMsg("Placing your order...");
+    setTimeout(() => { onSuccess("cash"); }, 600);
   };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4 bg-black/75 backdrop-blur-sm">
       <div className="w-full max-w-sm glass-panel rounded-3xl overflow-hidden shadow-2xl animate-slide-up border border-white/10">
-
-        {/* Header */}
         <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-white/5">
           <div>
-            <h3 className="font-heading font-extrabold text-lg text-slate-50">Scan &amp; Pay</h3>
-            <p className="text-xs text-slate-400 mt-0.5">Amount: <span className="font-heading font-bold text-emerald-400">${total}</span></p>
+            <h3 className="font-heading font-extrabold text-lg text-slate-50">Pay for your order</h3>
+            <p className="text-xs text-slate-400 mt-0.5">{config.storeName} · <span className="font-heading font-bold text-emerald-400">${total.toFixed(2)}</span></p>
           </div>
-          <button onClick={onClose}
+          <button onClick={onClose} aria-label="Close"
             className="h-8 w-8 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all">&#x2715;</button>
         </div>
-
-        <div className="px-5 py-5 space-y-4">
-          {/* QR Code */}
-          <div className="flex flex-col items-center gap-3 bg-white rounded-2xl p-5 shadow-inner">
-            <QRCodeSVG
-              value={upiLink} size={190}
-              bgColor="#ffffff" fgColor="#020617" level="M"
-              imageSettings={{ src: "/favicon.ico", excavate: true, height: 22, width: 22 }}
-            />
-            <div className="text-center">
-              <p className="text-slate-700 font-bold text-sm">{config.storeName}</p>
-              <p className="text-slate-400 text-xs font-mono mt-0.5">{config.upiId}</p>
-              <p className="text-[#00a676] font-extrabold text-2xl mt-1 font-heading">${total}</p>
-            </div>
-          </div>
-
-          {/* Divider */}
-          <div className="flex items-center gap-3">
-            <div className="flex-1 h-px bg-white/5" />
-            <span className="text-[10px] text-slate-600 uppercase tracking-widest font-bold">Open app</span>
-            <div className="flex-1 h-px bg-white/5" />
-          </div>
-
-          {/* UPI App buttons */}
-          <div className="grid grid-cols-6 gap-2">
-            {appLinks.map(app => (
-              <a key={app.name} href={app.href}
-                onClick={e => { e.preventDefault(); window.location.href = app.href; }}
-                className="flex flex-col items-center gap-1.5 group cursor-pointer">
-                <div className={`h-11 w-11 rounded-2xl ${app.bg} flex items-center justify-center font-black text-[13px] ${app.tc} shadow-lg group-hover:scale-110 group-active:scale-95 transition-transform duration-150 border border-slate-200/20`}>
-                  {app.icon}
-                </div>
-                <span className="text-[9px] text-slate-500 font-semibold truncate w-full text-center">{app.name}</span>
-              </a>
-            ))}
-          </div>
-
-          {/* Status */}
+        <div className="px-5 py-5 space-y-3">
           {statusMsg && (
-            <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 text-xs text-emerald-300 text-center animate-fade-in">
-              {statusMsg}
-            </div>
+            <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 text-xs text-emerald-300 text-center">{statusMsg}</div>
           )}
-
-          {/* Primary confirm */}
-          <button onClick={handlePaid} disabled={processing}
-            className="group relative w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:scale-100 flex items-center justify-center gap-2 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity" />
-            <span className="relative">{processing ? "Confirming..." : "\u2705 I\u2019ve Paid \u2014 Place My Order"}</span>
+          <button onClick={handleCard} disabled={processing}
+            className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg disabled:opacity-50">
+            {processing ? "Working..." : "Pay by card"}
           </button>
-
-          {/* Secondary: card + cash */}
-          <div className="flex gap-2">
-            <button onClick={handleCopperPay} disabled={processing}
-              className="flex-1 py-2.5 rounded-xl bg-[#1a73e8]/10 border border-[#1a73e8]/30 text-[#5b9cf6] text-xs font-bold hover:bg-[#1a73e8]/20 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-1">
-              &#128179; Pay by Card
-            </button>
-            <button onClick={() => onSuccess("cash")} disabled={processing}
-              className="flex-1 py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-400 text-xs font-bold hover:bg-white/10 hover:text-slate-200 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-1">
-              &#128181; Cash
-            </button>
-          </div>
+          <button onClick={handlePayAtPickup} disabled={processing}
+            className="w-full py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 text-xs font-bold hover:bg-white/10 disabled:opacity-50">
+            Pay at pickup
+          </button>
         </div>
-
-        {/* Footer */}
-        <div className="px-5 pb-4 flex items-center justify-center gap-1.5 text-[9px] text-slate-700">
-          <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-          </svg>
-          UPI &#183; 256-bit SSL &#183; CopperPay secured
+        <div className="px-5 pb-4 text-center text-[9px] text-slate-700">
+          Card details are entered on the payment provider&apos;s form; the storefront never sees a card number.
         </div>
       </div>
     </div>
