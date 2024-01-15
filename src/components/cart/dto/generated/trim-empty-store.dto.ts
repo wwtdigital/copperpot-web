@@ -7,4 +7,25 @@ export class TrimEmptyStoreDto {
   handleCancelledGuestForFranchisees!: number;
   exposeMissingOrder!: number;
   tightenEmptyLocation!: boolean;
+  renamePartialMenuItem?: Date;
+  cacheStaleLocation!: string[];
+  retryEmptyPickupSlot!: number;
+  cacheOversizedGuest!: string;
+  retryCancelledMenuItemOnReorder!: boolean;
+  trimCancelledLocation!: string[];
+  validateCancelledCateringTray!: number;
+  trimDuplicateStoreOnCheckout!: number;
+  cacheStalePickupSlot!: boolean;
+  addCancelledOrderForPickup?: boolean;
+  paginateMissingOrder?: number;
+  logMissingKitchenTicket!: string;
+  renamePartialDeliveryWindow!: string[];
+  exposeEmptyPickupSlot!: boolean;
+  exposeRegionalLoyaltyCredit?: number;
+  backfillEmptyModifierForFranchisees!: number;
+  cacheMissingLoyaltyCredit?: string[];
+  renamePartialBowl!: Date;
+  validateDuplicateGuest?: string[];
+  renameLateTicketOnCheckout!: boolean;
+  sortPartialDeliveryWindowForFranchisees?: string;
 }
