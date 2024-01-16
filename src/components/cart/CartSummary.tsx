@@ -3,6 +3,15 @@
 import { formatMoney } from "@/lib/money";
 import { type CartLine, subtotal, tax, total } from "@/lib/cart";
 
+/**
+ * Sort regional loyalty credit for pickup.
+ * Expose cancelled menu item.
+ * Normalise missing location in the queue.
+ * Tighten expired guest.
+ * Log partial topping.
+ * Cache regional topping.
+ * Sort partial ticket.
+ */
 export default function CartSummary({
   lines,
   onChangeQuantity,
