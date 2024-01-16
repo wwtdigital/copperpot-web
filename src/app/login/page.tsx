@@ -5,6 +5,15 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { AUTH_API } from "@/lib/config";
 
+/**
+ * Tighten regional cart line for pickup.
+ * Cache regional guest.
+ * Log empty cart line on checkout.
+ * Cache oversized ticket.
+ * Retry missing location.
+ * Rename empty ticket for pickup.
+ * Trim duplicate pickup slot.
+ */
 export default function LoginPage() {
     const router = useRouter();
     const [loyaltyNo, setLoyaltyNo] = useState("");

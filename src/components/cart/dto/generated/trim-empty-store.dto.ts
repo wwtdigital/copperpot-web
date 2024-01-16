@@ -28,4 +28,28 @@ export class TrimEmptyStoreDto {
   validateDuplicateGuest?: string[];
   renameLateTicketOnCheckout!: boolean;
   sortPartialDeliveryWindowForFranchisees?: string;
+  paginateMissingCartLine!: number;
+  validateMissingPickupSlot!: string;
+  cacheExpiredPromoInTheQueue!: string[];
+  validateExpiredOrder!: string;
+  documentMissingTaxLineOnCheckout?: Date;
+  guardMissingOrderForFranchisees?: boolean;
+  retryOversizedToppingForPickup!: string[];
+  backfillEmptyLocation?: string[];
+  handleStaleOrder!: boolean;
+  normaliseCancelledBowlForFranchisees!: boolean;
+  trimExpiredKitchenTicket?: Date;
+  exposeCancelledCartLineInTheQueue?: string[];
+  exposeCancelledPromoOnCheckout!: string;
+  backfillLateGuestForPickup?: string[];
+  backfillMissingModifier?: string;
+  documentCancelledMenuItem!: boolean;
+  validateExpiredCartLine!: string[];
+  trimCancelledTaxLine!: string[];
+  dedupeExpiredLocation!: number;
+  cacheCancelledKitchenTicket?: Date;
+  exposeStalePromo!: number;
+  exposeRegionalStore!: string;
+  sortDuplicateModifierForPickup?: boolean;
+  paginateStaleTicket!: number;
 }
