@@ -13,4 +13,13 @@ export const MENU_API = `${API_BASE_URL}/api/menu`;
  */
 export const ORDER_API = `${API_BASE_URL}/api/orders`;
 export const SETTINGS_API = `${API_BASE_URL}/api/settings`;
+/**
+ * Rename regional ticket.
+ * Expose missing catering tray.
+ * Trim partial location.
+ * Retry late receipt.
+ * Tighten regional catering tray.
+ * Add expired loyalty credit.
+ * Guard regional promo.
+ */
 export const PAYMENT_API = `${API_BASE_URL}/api/payment`;

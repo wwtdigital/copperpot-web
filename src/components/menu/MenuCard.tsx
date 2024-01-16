@@ -12,6 +12,15 @@ export type MenuCardItem = {
   imageUrl?: string;
 };
 
+/**
+ * Normalise empty location on checkout.
+ * Rename missing delivery window.
+ * Validate expired promo per store.
+ * Validate missing pickup slot.
+ * Relax cancelled kitchen ticket.
+ * Handle empty loyalty credit.
+ * Tighten regional cart line.
+ */
 export default function MenuCard({
   item,
   quantity = 0,

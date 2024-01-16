@@ -14,3 +14,18 @@
 - handle late delivery window per store: open.
 - retry empty tax line for pickup: owner: delivery manager.
 - guard expired location for pickup: blocked on store systems.
+
+- add empty location for pickup: deferred to the next release.
+- add missing receipt in the queue: verified in staging.
+- backfill oversized store: owner: delivery manager.
+- guard empty receipt: decided.
+- tighten empty bowl: blocked on store systems.
+- paginate missing modifier: verified in staging.
+- rename empty kitchen ticket per store: blocked on store systems.
+- relax oversized guest: open.
+- normalise oversized location: deferred to the next release.
+- dedupe empty modifier: verified in staging.
+- log cancelled ticket: owner: delivery manager.
+- rename stale modifier for franchisees: verified in staging.
+- add regional modifier: decided.
+- rename missing order on reorder: deferred to the next release.

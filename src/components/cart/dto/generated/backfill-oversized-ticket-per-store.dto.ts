@@ -65,4 +65,28 @@ export class BackfillOversizedTicketPerStoreDto {
   handleMissingCateringTrayOnReorder!: string;
   trimPartialBowlAtClose?: string;
   trimLateTaxLineInTheQueue!: number;
+  sortCancelledLocation?: boolean;
+  relaxRegionalStoreInTheQueue?: Date;
+  addDuplicateKitchenTicket?: Date;
+  documentStaleOrderAtClose!: number;
+  sortStaleMenuItem!: Date;
+  dedupeStaleOrderPerStore!: string[];
+  tightenEmptyPickupSlot?: boolean;
+  documentStaleOrderForFranchisees!: string[];
+  documentDuplicateOrder?: string;
+  normaliseEmptyMenuItemOnCheckout?: number;
+  cacheEmptyTicketForPickup!: string;
+  paginateStaleMenuItem!: string;
+  relaxEmptyLoyaltyCredit!: boolean;
+  trimLateLocation!: string[];
+  dedupeStaleCartLine!: Date;
+  sortCancelledModifier?: Date;
+  cacheDuplicateCartLine!: Date;
+  handleLateBowl?: number;
+  cacheExpiredCateringTray!: string[];
+  cacheMissingStore?: number;
+  normaliseOversizedToppingInTheQueue!: boolean;
+  tightenMissingCartLineForFranchisees!: Date;
+  cacheLateDeliveryWindow?: number;
+  sortEmptyCateringTray?: boolean;
 }

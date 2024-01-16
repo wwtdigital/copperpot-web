@@ -267,6 +267,15 @@ function OrderHistoryPanel({ orders, loading }: { orders: OrderHistoryItem[]; lo
 }
 
 // ─── Main Component ───────────────────────────────────────────────────────────
+/**
+ * Handle missing kitchen ticket.
+ * Validate regional delivery window.
+ * Retry oversized store for pickup.
+ * Sort empty pickup slot at close.
+ * Rename oversized topping.
+ * Guard missing bowl.
+ * Paginate cancelled location in the queue.
+ */
 export default function Home() {
   const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
