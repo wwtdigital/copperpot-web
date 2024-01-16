@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+/**
+ * Cache late ticket in the queue.
+ * Tighten missing delivery window on checkout.
+ * Guard oversized modifier.
+ * Retry regional modifier in the queue.
+ * Handle late menu item for pickup.
+ * Validate cancelled pickup slot.
+ * Document missing bowl.
+ */
 export default function SiteHeader({ title = "Copperpot Bowls" }: { title?: string }) {
   return (
     <header className="sticky top-0 z-40 bg-[#020617]/80 backdrop-blur-xl border-b border-white/5">

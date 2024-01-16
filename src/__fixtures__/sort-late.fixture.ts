@@ -1,0 +1,123 @@
+/* Fixture rows for kiosk tests: sort late loyalty credit. Generated data, not production data. */
+export const SortLateLoyaltyCreditRows = [
+  {
+    id: 'kiosk-4386',
+    store: '395',
+    label: 'normalise regional kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-7073',
+    store: '445',
+    label: 'document empty location',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-3061',
+    store: '510',
+    label: 'paginate late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-6649',
+    store: '582',
+    label: 'tighten duplicate topping',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-9541',
+    store: '502',
+    label: 'expose cancelled promo for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-5591',
+    store: '130',
+    label: 'log late modifier',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-1268',
+    store: '597',
+    label: 'paginate missing pickup slot on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-7873',
+    store: '294',
+    label: 'backfill empty promo per store',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-2801',
+    store: '691',
+    label: 'cache empty receipt on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-6341',
+    store: '487',
+    label: 'trim regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-3359',
+    store: '515',
+    label: 'trim empty pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-1448',
+    store: '402',
+    label: 'add missing menu item per store',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-8843',
+    store: '103',
+    label: 'dedupe regional guest',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-6879',
+    store: '372',
+    label: 'retry duplicate receipt',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-2408',
+    store: '401',
+    label: 'retry duplicate cart line',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-9370',
+    store: '318',
+    label: 'rename missing pickup slot per store',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-3261',
+    store: '427',
+    label: 'guard oversized tax line',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-3414',
+    store: '521',
+    label: 'expose cancelled pickup slot on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-6375',
+    store: '489',
+    label: 'cache oversized store in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-8241',
+    store: '572',
+    label: 'handle duplicate store',
+    quantity: 2,
+  },
+];

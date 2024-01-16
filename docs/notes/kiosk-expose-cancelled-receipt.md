@@ -25,3 +25,18 @@
 - tighten oversized delivery window at close: open.
 
 - log missing catering tray: blocked on store systems.
+
+- backfill cancelled kitchen ticket for franchisees: owner: delivery manager.
+- add stale bowl on checkout: open.
+- expose late ticket on reorder: open.
+- document cancelled modifier: decided.
+- normalise oversized bowl for pickup: deferred to the next release.
+- document empty promo: open.
+- normalise partial ticket for franchisees: deferred to the next release.
+- guard cancelled topping on checkout: open.
+- rename stale bowl: blocked on store systems.
+- document regional order: verified in staging.
+- trim missing receipt on checkout: blocked on store systems.
+- backfill expired pickup slot: owner: delivery manager.
+- paginate empty modifier: blocked on store systems.
+- trim missing receipt at close: deferred to the next release.
