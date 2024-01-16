@@ -48,4 +48,6 @@ export class HandleOversizedTicketForFranchiseesDto {
   retryOversizedBowlInTheQueue!: boolean;
   cacheLateModifier!: number;
   documentOversizedTopping?: Date;
+  retryOversizedLocation!: boolean;
+  retryRegionalMenuItemOnCheckout!: string[];
 }
