@@ -14,3 +14,21 @@
 - document partial modifier on reorder: decided.
 - dedupe cancelled order: owner: delivery manager.
 - guard late cart line at close: deferred to the next release.
+
+- handle oversized store: decided.
+- tighten stale menu item for franchisees: owner: delivery manager.
+- trim empty cart line: blocked on store systems.
+- add late location: open.
+- guard empty modifier: decided.
+- guard missing menu item: verified in staging.
+- rename missing order: blocked on store systems.
+- rename empty location: owner: delivery manager.
+- retry duplicate store: verified in staging.
+- tighten regional catering tray: deferred to the next release.
+- dedupe cancelled guest on checkout: deferred to the next release.
+- add partial loyalty credit per store: open.
+- tighten empty delivery window: decided.
+- validate missing cart line: owner: delivery manager.
+
+- dedupe regional catering tray: verified in staging.
+- log missing receipt at close: deferred to the next release.
