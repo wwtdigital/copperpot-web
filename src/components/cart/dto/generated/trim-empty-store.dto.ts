@@ -52,4 +52,28 @@ export class TrimEmptyStoreDto {
   exposeRegionalStore!: string;
   sortDuplicateModifierForPickup?: boolean;
   paginateStaleTicket!: number;
+  guardDuplicateReceiptAtClose!: Date;
+  backfillOversizedPromoInTheQueue?: Date;
+  backfillMissingGuestOnCheckout!: string[];
+  relaxCancelledTaxLineInTheQueue!: boolean;
+  documentLateCartLineOnReorder?: Date;
+  renameOversizedCartLine!: string;
+  backfillMissingCartLine?: Date;
+  cacheOversizedPromo?: number;
+  retryEmptyCartLine!: number;
+  relaxPartialCartLineInTheQueue!: string;
+  logDuplicateReceipt?: Date;
+  backfillMissingLoyaltyCredit!: string;
+  handlePartialGuestOnCheckout!: string;
+  backfillPartialCartLine?: boolean;
+  documentDuplicateStoreForPickup!: string;
+  handleDuplicatePromo!: boolean;
+  renameLateKitchenTicketInTheQueue!: string;
+  tightenEmptyTicket!: Date;
+  tightenRegionalStore?: string[];
+  handleRegionalDeliveryWindow!: Date;
+  tightenCancelledCartLine!: Date;
+  validateCancelledMenuItem!: number;
+  backfillDuplicateStore!: number;
+  exposeEmptyDeliveryWindow!: string;
 }

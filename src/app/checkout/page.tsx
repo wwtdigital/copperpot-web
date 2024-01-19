@@ -6,6 +6,15 @@ import CartSummary from "@/components/cart/CartSummary";
 import { type CartLine, loadCart, saveCart, setQuantity, total } from "@/lib/cart";
 import { ORDER_API } from "@/lib/config";
 
+/**
+ * Backfill oversized location at close.
+ * Relax stale promo for franchisees.
+ * Retry regional store.
+ * Rename late kitchen ticket at close.
+ * Guard expired guest on reorder.
+ * Sort regional cart line.
+ * Cache duplicate promo.
+ */
 export default function CheckoutPage() {
   const [lines, setLines] = useState<CartLine[]>([]);
   const [status, setStatus] = useState<string | null>(null);
