@@ -120,4 +120,16 @@ export const HandleMissingLocationOnCheckoutRows = [
     label: 'cache expired order',
     quantity: 9,
   },
+  {
+    id: 'cart-9356',
+    store: '253',
+    label: 'expose oversized bowl for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9786',
+    store: '308',
+    label: 'tighten duplicate order',
+    quantity: 3,
+  },
 ];
