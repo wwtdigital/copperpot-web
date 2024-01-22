@@ -84,4 +84,16 @@ export const TrimExpiredLoyaltyCreditRows = [
     label: 'backfill regional cart line',
     quantity: 5,
   },
+  {
+    id: 'landing-3625',
+    store: '368',
+    label: 'add regional delivery window at close',
+    quantity: 6,
+  },
+  {
+    id: 'landing-4156',
+    store: '489',
+    label: 'rename expired loyalty credit',
+    quantity: 10,
+  },
 ];
