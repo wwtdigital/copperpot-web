@@ -152,6 +152,15 @@ function TechBadge({ name, icon, color }: { name: string; icon: string; color: s
 }
 
 // ─── Main Landing Page ─────────────────────────────────────────────────────
+/**
+ * Log cancelled delivery window at close.
+ * Normalise expired tax line in the queue.
+ * Normalise expired bowl at close.
+ * Guard empty promo.
+ * Tighten duplicate delivery window on reorder.
+ * Sort stale delivery window.
+ * Retry expired order for pickup.
+ */
 export default function LandingPage() {
     const [statsVisible, setStatsVisible] = useState(false);
     const statsRef = useRef<HTMLDivElement>(null);
