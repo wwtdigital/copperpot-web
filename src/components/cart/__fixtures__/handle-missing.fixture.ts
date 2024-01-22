@@ -1,0 +1,123 @@
+/* Fixture rows for cart tests: handle missing location on checkout. Generated data, not production data. */
+export const HandleMissingLocationOnCheckoutRows = [
+  {
+    id: 'cart-5218',
+    store: '128',
+    label: 'dedupe duplicate store on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9546',
+    store: '330',
+    label: 'add missing pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7850',
+    store: '344',
+    label: 'paginate regional ticket',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3843',
+    store: '378',
+    label: 'backfill partial promo',
+    quantity: 1,
+  },
+  {
+    id: 'cart-7808',
+    store: '466',
+    label: 'normalise regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2361',
+    store: '691',
+    label: 'validate duplicate tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6209',
+    store: '580',
+    label: 'handle regional pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'cart-8402',
+    store: '146',
+    label: 'tighten missing guest',
+    quantity: 1,
+  },
+  {
+    id: 'cart-4736',
+    store: '265',
+    label: 'retry partial pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2125',
+    store: '406',
+    label: 'log partial order for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'cart-1726',
+    store: '105',
+    label: 'dedupe partial store at close',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2562',
+    store: '561',
+    label: 'guard cancelled menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2824',
+    store: '116',
+    label: 'cache oversized menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-3267',
+    store: '170',
+    label: 'backfill regional ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6792',
+    store: '292',
+    label: 'expose regional cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8386',
+    store: '666',
+    label: 'paginate partial delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4911',
+    store: '400',
+    label: 'relax partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5612',
+    store: '205',
+    label: 'tighten late promo',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5060',
+    store: '137',
+    label: 'rename regional kitchen ticket for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8420',
+    store: '648',
+    label: 'cache expired order',
+    quantity: 9,
+  },
+];

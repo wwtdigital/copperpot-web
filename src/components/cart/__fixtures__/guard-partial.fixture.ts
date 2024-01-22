@@ -54,4 +54,10 @@ export const GuardPartialModifierForPickupRows = [
     label: 'validate empty cart line',
     quantity: 6,
   },
+  {
+    id: 'cart-8020',
+    store: '596',
+    label: 'handle late menu item',
+    quantity: 4,
+  },
 ];
