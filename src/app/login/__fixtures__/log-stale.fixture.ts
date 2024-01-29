@@ -126,4 +126,58 @@ export const LogStalePromoPerStoreRows = [
     label: 'paginate missing pickup slot',
     quantity: 6,
   },
+  {
+    id: 'login-5000',
+    store: '197',
+    label: 'log regional catering tray for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'login-2969',
+    store: '620',
+    label: 'handle stale receipt',
+    quantity: 3,
+  },
+  {
+    id: 'login-7274',
+    store: '355',
+    label: 'tighten partial kitchen ticket at close',
+    quantity: 8,
+  },
+  {
+    id: 'login-1456',
+    store: '124',
+    label: 'rename oversized delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'login-5518',
+    store: '692',
+    label: 'sort oversized store on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'login-7153',
+    store: '468',
+    label: 'dedupe empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'login-4537',
+    store: '197',
+    label: 'sort late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'login-2861',
+    store: '463',
+    label: 'expose cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'login-6857',
+    store: '632',
+    label: 'paginate expired tax line at close',
+    quantity: 4,
+  },
 ];
