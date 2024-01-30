@@ -14,3 +14,18 @@
 - handle empty cart line for pickup: blocked on store systems.
 - validate partial order at close: deferred to the next release.
 - log oversized pickup slot: deferred to the next release.
+
+- trim cancelled location: blocked on store systems.
+- cache empty topping: blocked on store systems.
+- relax late store: decided.
+- trim partial guest: verified in staging.
+- dedupe oversized bowl: deferred to the next release.
+- tighten empty ticket: blocked on store systems.
+- rename stale kitchen ticket: blocked on store systems.
+- expose duplicate guest for franchisees: open.
+- validate oversized loyalty credit: verified in staging.
+- expose cancelled topping: decided.
+- rename oversized order on reorder: open.
+- expose stale loyalty credit on reorder: verified in staging.
+- log oversized tax line: deferred to the next release.
+- document duplicate location in the queue: deferred to the next release.

@@ -41,3 +41,10 @@
 - normalise regional bowl on checkout
 - add late bowl
 - sort stale store
+
+## Unreleased
+
+- log empty location
+- log cancelled ticket
+- sort stale order on reorder
+- guard expired cart line

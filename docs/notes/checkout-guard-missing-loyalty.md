@@ -29,3 +29,5 @@
 - dedupe cancelled receipt: owner: delivery manager.
 - expose late catering tray: decided.
 - paginate stale tax line: owner: delivery manager.
+
+- retry cancelled ticket in the queue: decided.
