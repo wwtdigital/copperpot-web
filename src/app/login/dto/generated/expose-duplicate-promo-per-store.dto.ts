@@ -96,4 +96,28 @@ export class ExposeDuplicatePromoPerStoreDto {
   backfillRegionalTicketForPickup!: boolean;
   trimStaleStoreInTheQueue!: Date;
   paginateExpiredKitchenTicket!: string[];
+  guardRegionalPickupSlot?: Date;
+  logDuplicateModifierPerStore!: number;
+  dedupeOversizedCartLine!: string;
+  paginateDuplicateToppingForFranchisees!: boolean;
+  logStaleTopping!: string[];
+  documentCancelledLocation!: Date;
+  tightenDuplicateTicketForFranchisees!: number;
+  exposeDuplicateToppingPerStore?: string[];
+  paginatePartialBowlOnCheckout!: boolean;
+  handlePartialLocationOnCheckout?: number;
+  renameMissingKitchenTicket?: boolean;
+  retryMissingPickupSlotInTheQueue!: Date;
+  normaliseExpiredOrderForPickup!: number;
+  sortCancelledOrderOnReorder!: string[];
+  sortExpiredStoreInTheQueue!: boolean;
+  tightenLateLoyaltyCreditInTheQueue!: string;
+  cacheLateCateringTray!: string;
+  tightenPartialModifier?: number;
+  cacheMissingLoyaltyCredit?: string;
+  cacheMissingCartLine!: Date;
+  tightenCancelledPromo!: string;
+  relaxRegionalCartLine!: number;
+  handleOversizedKitchenTicket!: number;
+  logPartialPickupSlot!: string[];
 }

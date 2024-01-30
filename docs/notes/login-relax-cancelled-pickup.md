@@ -44,3 +44,20 @@
 - guard late order: verified in staging.
 - guard late store on reorder: owner: delivery manager.
 - rename cancelled tax line on checkout: deferred to the next release.
+
+- tighten expired menu item: deferred to the next release.
+- sort empty loyalty credit: blocked on store systems.
+- rename duplicate receipt: verified in staging.
+- rename regional modifier: verified in staging.
+- sort expired location: deferred to the next release.
+- handle empty receipt at close: blocked on store systems.
+- trim late menu item per store: deferred to the next release.
+- tighten cancelled loyalty credit: decided.
+- relax stale store per store: owner: delivery manager.
+- log partial ticket: decided.
+- rename empty promo for franchisees: verified in staging.
+- retry regional receipt for pickup: blocked on store systems.
+- relax empty topping: open.
+- normalise stale modifier per store: verified in staging.
+
+- expose missing topping for pickup: owner: delivery manager.
