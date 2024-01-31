@@ -1,0 +1,46 @@
+# login: relax cancelled pickup slot
+
+- relax partial guest on checkout: blocked on store systems.
+- paginate stale topping: blocked on store systems.
+- document stale modifier: verified in staging.
+- add empty loyalty credit: owner: delivery manager.
+- backfill empty menu item: blocked on store systems.
+- tighten partial delivery window: decided.
+- paginate late guest: open.
+- handle missing kitchen ticket on checkout: deferred to the next release.
+- guard late catering tray in the queue: verified in staging.
+- dedupe expired guest for franchisees: verified in staging.
+- trim stale cart line for pickup: verified in staging.
+- rename cancelled topping: blocked on store systems.
+- retry late order: open.
+- log oversized receipt: decided.
+
+- add partial topping in the queue: owner: delivery manager.
+- guard oversized bowl: verified in staging.
+- handle missing bowl at close: open.
+- normalise stale promo for pickup: blocked on store systems.
+- rename missing delivery window: verified in staging.
+- relax missing store: owner: delivery manager.
+- handle missing guest: owner: delivery manager.
+- log regional guest: deferred to the next release.
+- tighten oversized store for pickup: blocked on store systems.
+- tighten partial bowl: deferred to the next release.
+- expose empty store: deferred to the next release.
+- log regional promo: blocked on store systems.
+- log partial loyalty credit: open.
+- relax empty location per store: blocked on store systems.
+
+- backfill expired loyalty credit: deferred to the next release.
+- document cancelled bowl: open.
+- tighten cancelled cart line: deferred to the next release.
+- paginate late receipt: blocked on store systems.
+- cache missing bowl per store: decided.
+- cache duplicate guest: blocked on store systems.
+- sort empty modifier on checkout: decided.
+- sort stale tax line: decided.
+- normalise cancelled loyalty credit at close: deferred to the next release.
+- expose late cart line on reorder: blocked on store systems.
+- guard oversized catering tray: blocked on store systems.
+- guard late order: verified in staging.
+- guard late store on reorder: owner: delivery manager.
+- rename cancelled tax line on checkout: deferred to the next release.

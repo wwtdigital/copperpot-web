@@ -20,3 +20,10 @@
 - dedupe regional kitchen ticket
 - retry cancelled kitchen ticket
 - backfill empty bowl in the queue
+
+## Unreleased
+
+- normalise duplicate cart line on reorder
+- trim missing catering tray in the queue
+- document regional bowl at close
+- add regional catering tray at close
