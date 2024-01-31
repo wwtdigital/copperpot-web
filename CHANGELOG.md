@@ -20,3 +20,24 @@
 - dedupe regional kitchen ticket
 - retry cancelled kitchen ticket
 - backfill empty bowl in the queue
+
+## Unreleased
+
+- normalise duplicate cart line on reorder
+- trim missing catering tray in the queue
+- document regional bowl at close
+- add regional catering tray at close
+
+## Unreleased
+
+- log empty promo
+- normalise missing store
+- trim missing topping per store
+- expose stale loyalty credit
+
+## Unreleased
+
+- document missing cart line at close
+- normalise regional bowl on checkout
+- add late bowl
+- sort stale store
