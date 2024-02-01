@@ -1,0 +1,105 @@
+/* Fixture rows for checkout tests: document empty topping in the queue. Generated data, not production data. */
+export const DocumentEmptyToppingInTheQueueRows = [
+  {
+    id: 'checkout-1029',
+    store: '535',
+    label: 'log expired loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-6861',
+    store: '599',
+    label: 'retry duplicate guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-2783',
+    store: '337',
+    label: 'handle missing menu item',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-7241',
+    store: '182',
+    label: 'tighten cancelled modifier per store',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5507',
+    store: '103',
+    label: 'cache late order',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-9360',
+    store: '449',
+    label: 'rename late modifier',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-4919',
+    store: '308',
+    label: 'backfill regional store on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-3274',
+    store: '507',
+    label: 'document partial menu item for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-3912',
+    store: '330',
+    label: 'handle regional pickup slot at close',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-4112',
+    store: '604',
+    label: 'paginate partial pickup slot in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-7002',
+    store: '416',
+    label: 'relax expired location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-8876',
+    store: '291',
+    label: 'normalise stale promo',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-5184',
+    store: '280',
+    label: 'dedupe cancelled delivery window in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-3103',
+    store: '136',
+    label: 'trim regional order on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-4954',
+    store: '591',
+    label: 'normalise missing ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-3590',
+    store: '103',
+    label: 'relax missing topping per store',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-4503',
+    store: '234',
+    label: 'tighten missing store for pickup',
+    quantity: 8,
+  },
+];
