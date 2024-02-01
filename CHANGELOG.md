@@ -48,3 +48,17 @@
 - log cancelled ticket
 - sort stale order on reorder
 - guard expired cart line
+
+## Unreleased
+
+- expose oversized receipt
+- handle regional store
+- sort regional guest at close
+- cache empty ticket
+
+## Unreleased
+
+- expose partial order for pickup
+- sort oversized order on checkout
+- rename regional guest
+- backfill empty kitchen ticket

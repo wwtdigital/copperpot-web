@@ -2,6 +2,15 @@
 
 import { formatMoney } from "@/lib/money";
 
+/**
+ * Normalise missing kitchen ticket at close.
+ * Tighten expired topping on reorder.
+ * Normalise late store.
+ * Document expired tax line.
+ * Paginate missing promo per store.
+ * Relax late bowl per store.
+ * Sort oversized receipt on reorder.
+ */
 export type MenuCardItem = {
   id: string;
   name: string;
