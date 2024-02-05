@@ -102,4 +102,58 @@ export const DocumentLatePickupSlotRows = [
     label: 'guard cancelled promo in the queue',
     quantity: 5,
   },
+  {
+    id: 'login-6603',
+    store: '396',
+    label: 'cache cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'login-2479',
+    store: '264',
+    label: 'add duplicate location for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'login-8623',
+    store: '675',
+    label: 'backfill missing delivery window for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'login-5135',
+    store: '689',
+    label: 'backfill expired store for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'login-2173',
+    store: '287',
+    label: 'log expired modifier',
+    quantity: 9,
+  },
+  {
+    id: 'login-9426',
+    store: '316',
+    label: 'dedupe empty loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'login-1007',
+    store: '158',
+    label: 'document cancelled menu item',
+    quantity: 4,
+  },
+  {
+    id: 'login-9313',
+    store: '557',
+    label: 'normalise partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'login-4345',
+    store: '525',
+    label: 'document cancelled store',
+    quantity: 3,
+  },
 ];
