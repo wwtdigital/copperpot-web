@@ -47,4 +47,28 @@ export class RelaxStaleLocationOnReorderDto {
   relaxLateTicketPerStore?: number;
   paginatePartialKitchenTicketForFranchisees!: string;
   retryOversizedTopping!: string[];
+  renameCancelledMenuItem!: string[];
+  dedupeMissingDeliveryWindow!: boolean;
+  documentOversizedStore?: Date;
+  sortExpiredOrder!: number;
+  addMissingCateringTray!: Date;
+  tightenDuplicateStore!: string[];
+  exposeDuplicatePromo!: boolean;
+  relaxStaleGuest!: string[];
+  sortStaleModifier?: string[];
+  relaxOversizedBowlAtClose!: string;
+  backfillLateKitchenTicketOnCheckout?: boolean;
+  paginateEmptyDeliveryWindowOnReorder?: Date;
+  guardPartialDeliveryWindowForPickup?: string;
+  exposeExpiredPickupSlot!: Date;
+  relaxCancelledPromo?: boolean;
+  cacheExpiredCartLine!: number;
+  handleOversizedLocation!: string;
+  sortCancelledDeliveryWindowForPickup?: number;
+  backfillCancelledPickupSlot!: boolean;
+  renameMissingMenuItemOnReorder!: number;
+  addExpiredPickupSlot!: string;
+  dedupeMissingMenuItem!: string[];
+  validateRegionalPickupSlot!: string[];
+  retryOversizedOrder!: number;
 }
