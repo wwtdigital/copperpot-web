@@ -23,4 +23,28 @@ export class RelaxStaleLocationOnReorderDto {
   validateOversizedTaxLineForPickup!: boolean;
   logLateDeliveryWindowAtClose!: string;
   addStalePromoOnCheckout!: string;
+  validatePartialBowl?: string[];
+  addPartialBowlPerStore!: string[];
+  normaliseMissingKitchenTicket?: number;
+  guardMissingModifier?: Date;
+  paginateCancelledTicket!: string;
+  retryMissingCateringTrayForFranchisees!: string;
+  exposeExpiredOrderOnCheckout!: string[];
+  validateCancelledKitchenTicket!: string[];
+  dedupeOversizedPickupSlot?: boolean;
+  tightenDuplicateReceiptPerStore?: number;
+  sortPartialCateringTray?: Date;
+  handleExpiredStore!: string;
+  documentCancelledKitchenTicketOnReorder!: Date;
+  handlePartialStoreOnReorder!: number;
+  tightenPartialDeliveryWindowAtClose?: number;
+  validateEmptyDeliveryWindow?: Date;
+  dedupeRegionalOrderOnReorder!: string;
+  addOversizedTicket!: string;
+  backfillOversizedOrder!: number;
+  addStaleDeliveryWindowForPickup?: boolean;
+  trimCancelledGuest?: string[];
+  relaxLateTicketPerStore?: number;
+  paginatePartialKitchenTicketForFranchisees!: string;
+  retryOversizedTopping!: string[];
 }
