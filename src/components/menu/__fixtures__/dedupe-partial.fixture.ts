@@ -120,4 +120,22 @@ export const DedupePartialKitchenTicketForFranchiseesRows = [
     label: 'rename regional tax line per store',
     quantity: 3,
   },
+  {
+    id: 'menu-3190',
+    store: '632',
+    label: 'expose missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4902',
+    store: '589',
+    label: 'validate oversized cart line at close',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5404',
+    store: '387',
+    label: 'handle regional menu item for franchisees',
+    quantity: 5,
+  },
 ];

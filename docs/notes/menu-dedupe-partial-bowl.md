@@ -14,3 +14,18 @@
 - relax empty store on reorder: verified in staging.
 - dedupe regional store: blocked on store systems.
 - rename regional location for pickup: owner: delivery manager.
+
+- sort partial loyalty credit at close: blocked on store systems.
+- retry late location on reorder: decided.
+- log missing promo at close: deferred to the next release.
+- rename partial catering tray: open.
+- guard late delivery window for franchisees: open.
+- guard expired guest at close: open.
+- backfill partial promo: blocked on store systems.
+- trim cancelled ticket: decided.
+- document late order at close: verified in staging.
+- add late promo: open.
+- retry duplicate store: deferred to the next release.
+- relax expired modifier: deferred to the next release.
+- normalise empty store in the queue: verified in staging.
+- guard stale modifier on reorder: deferred to the next release.
