@@ -156,4 +156,58 @@ export const DocumentLatePickupSlotRows = [
     label: 'document cancelled store',
     quantity: 3,
   },
+  {
+    id: 'login-6556',
+    store: '410',
+    label: 'validate empty receipt',
+    quantity: 7,
+  },
+  {
+    id: 'login-6729',
+    store: '570',
+    label: 'handle regional pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'login-9325',
+    store: '693',
+    label: 'guard empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'login-7254',
+    store: '598',
+    label: 'add duplicate topping',
+    quantity: 10,
+  },
+  {
+    id: 'login-2186',
+    store: '478',
+    label: 'add oversized cart line',
+    quantity: 5,
+  },
+  {
+    id: 'login-9844',
+    store: '194',
+    label: 'tighten duplicate topping',
+    quantity: 9,
+  },
+  {
+    id: 'login-5064',
+    store: '207',
+    label: 'validate oversized order for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'login-8889',
+    store: '129',
+    label: 'tighten duplicate bowl per store',
+    quantity: 9,
+  },
+  {
+    id: 'login-5868',
+    store: '638',
+    label: 'tighten stale cart line on reorder',
+    quantity: 3,
+  },
 ];
