@@ -300,4 +300,10 @@ export const LogStalePromoPerStoreRows = [
     label: 'document oversized promo',
     quantity: 7,
   },
+  {
+    id: 'login-5284',
+    store: '509',
+    label: 'document oversized order',
+    quantity: 12,
+  },
 ];

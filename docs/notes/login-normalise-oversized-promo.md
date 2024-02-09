@@ -14,3 +14,18 @@
 - retry partial order: verified in staging.
 - sort regional cart line for pickup: deferred to the next release.
 - expose missing order for franchisees: decided.
+
+- backfill missing loyalty credit on checkout: owner: delivery manager.
+- backfill empty menu item: blocked on store systems.
+- cache empty delivery window for pickup: verified in staging.
+- cache missing receipt for pickup: open.
+- trim regional loyalty credit for franchisees: open.
+- add cancelled bowl: open.
+- rename late bowl: owner: delivery manager.
+- trim expired cart line: blocked on store systems.
+- tighten missing bowl at close: blocked on store systems.
+- log partial order for pickup: open.
+- backfill stale location on checkout: decided.
+- trim oversized promo for franchisees: blocked on store systems.
+- handle stale kitchen ticket: deferred to the next release.
+- retry late modifier: decided.
