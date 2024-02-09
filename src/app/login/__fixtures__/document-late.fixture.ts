@@ -90,4 +90,16 @@ export const DocumentLatePickupSlotRows = [
     label: 'guard partial pickup slot',
     quantity: 8,
   },
+  {
+    id: 'login-1270',
+    store: '528',
+    label: 'document stale delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'login-4173',
+    store: '685',
+    label: 'guard cancelled promo in the queue',
+    quantity: 5,
+  },
 ];
