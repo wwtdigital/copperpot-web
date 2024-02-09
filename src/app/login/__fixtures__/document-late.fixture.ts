@@ -210,4 +210,58 @@ export const DocumentLatePickupSlotRows = [
     label: 'tighten stale cart line on reorder',
     quantity: 3,
   },
+  {
+    id: 'login-1513',
+    store: '279',
+    label: 'add oversized modifier',
+    quantity: 3,
+  },
+  {
+    id: 'login-9426',
+    store: '616',
+    label: 'backfill oversized tax line per store',
+    quantity: 8,
+  },
+  {
+    id: 'login-9270',
+    store: '594',
+    label: 'cache stale kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'login-4387',
+    store: '679',
+    label: 'sort regional location on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'login-2717',
+    store: '424',
+    label: 'relax empty cart line',
+    quantity: 2,
+  },
+  {
+    id: 'login-4145',
+    store: '681',
+    label: 'handle missing bowl on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'login-2197',
+    store: '502',
+    label: 'add regional delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'login-4603',
+    store: '489',
+    label: 'handle empty order in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'login-9184',
+    store: '454',
+    label: 'paginate regional cart line',
+    quantity: 6,
+  },
 ];
