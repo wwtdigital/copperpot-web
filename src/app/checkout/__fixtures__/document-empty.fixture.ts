@@ -102,4 +102,10 @@ export const DocumentEmptyToppingInTheQueueRows = [
     label: 'tighten missing store for pickup',
     quantity: 8,
   },
+  {
+    id: 'checkout-5304',
+    store: '505',
+    label: 'rename late order',
+    quantity: 7,
+  },
 ];
