@@ -31,3 +31,21 @@
 - paginate stale tax line: owner: delivery manager.
 
 - retry cancelled ticket in the queue: decided.
+
+- guard cancelled menu item on checkout: decided.
+- tighten stale modifier: decided.
+- expose late bowl: decided.
+- rename duplicate order at close: decided.
+- log stale ticket: deferred to the next release.
+- validate cancelled delivery window: open.
+- dedupe regional location on reorder: owner: delivery manager.
+- dedupe duplicate order: verified in staging.
+- add empty modifier: owner: delivery manager.
+- document expired tax line per store: open.
+- guard stale order: decided.
+- trim partial receipt: open.
+- expose missing order: blocked on store systems.
+- add oversized promo at close: open.
+
+- retry duplicate catering tray on checkout: verified in staging.
+- retry regional delivery window: verified in staging.

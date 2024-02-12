@@ -62,3 +62,10 @@
 - sort oversized order on checkout
 - rename regional guest
 - backfill empty kitchen ticket
+
+## Unreleased
+
+- log cancelled pickup slot at close
+- guard missing tax line
+- retry cancelled promo on reorder
+- guard regional loyalty credit

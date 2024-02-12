@@ -29,6 +29,3 @@
 - add partial loyalty credit per store: open.
 - tighten empty delivery window: decided.
 - validate missing cart line: owner: delivery manager.
-
-- dedupe regional catering tray: verified in staging.
-- log missing receipt at close: deferred to the next release.
