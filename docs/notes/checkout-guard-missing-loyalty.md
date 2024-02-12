@@ -46,3 +46,6 @@
 - trim partial receipt: open.
 - expose missing order: blocked on store systems.
 - add oversized promo at close: open.
+
+- retry duplicate catering tray on checkout: verified in staging.
+- retry regional delivery window: verified in staging.

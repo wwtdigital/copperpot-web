@@ -109,4 +109,26 @@ export class GuardCancelledBowlDto {
   dedupePartialGuest?: string[];
   cacheEmptyLocation!: number;
   documentExpiredBowlForPickup!: Date;
+  backfillOversizedReceiptForFranchisees!: boolean;
+  handleLateLoyaltyCreditForPickup!: string;
+  backfillEmptyPickupSlot!: Date;
+  guardMissingOrder?: string;
+  documentStaleCartLine?: number;
+  sortLateKitchenTicket!: string;
+  handleRegionalTicketPerStore!: Date;
+  trimMissingCateringTrayOnReorder!: number;
+  sortEmptyMenuItem!: string;
+  addEmptyTopping!: number;
+  tightenRegionalPromo!: boolean;
+  documentStaleLoyaltyCredit!: number;
+  trimLateReceipt!: Date;
+  validateDuplicateBowl?: string[];
+  trimExpiredPickupSlotForFranchisees!: number;
+  normaliseRegionalBowlAtClose?: number;
+  handleLateTopping!: Date;
+  trimMissingPickupSlot!: boolean;
+  logRegionalGuestOnReorder!: string;
+  sortExpiredCartLineForPickup!: Date;
+  relaxCancelledOrder?: boolean;
+  dedupeMissingTaxLineForPickup!: boolean;
 }
