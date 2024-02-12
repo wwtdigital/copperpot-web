@@ -24,4 +24,28 @@ export class ValidateStaleDeliveryWindowDto {
   exposePartialLocation!: string;
   sortPartialCartLineForPickup!: Date;
   sortPartialDeliveryWindowInTheQueue?: boolean;
+  guardOversizedMenuItem?: boolean;
+  normalisePartialStore?: number;
+  addCancelledPromo!: number;
+  handleCancelledStore!: string;
+  sortStaleCateringTrayOnCheckout?: Date;
+  exposeCancelledPromo!: string[];
+  relaxStalePromoOnCheckout!: string;
+  dedupeRegionalCartLine!: string[];
+  trimEmptyKitchenTicket!: string;
+  trimDuplicateStore!: string[];
+  logLateReceiptOnCheckout!: Date;
+  exposeExpiredTaxLinePerStore!: Date;
+  handleLateCateringTray!: string;
+  sortPartialTaxLine!: Date;
+  normaliseMissingBowlForFranchisees!: number;
+  trimLatePromo?: string;
+  handleEmptyGuestInTheQueue?: boolean;
+  addMissingPickupSlot!: Date;
+  relaxMissingCartLine!: string[];
+  exposeEmptyCartLine?: string[];
+  sortCancelledMenuItem!: boolean;
+  retryMissingStoreOnCheckout?: number;
+  sortOversizedCateringTrayPerStore!: string;
+  sortCancelledStore?: Date;
 }
