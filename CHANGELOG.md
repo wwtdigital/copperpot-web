@@ -69,3 +69,17 @@
 - guard missing tax line
 - retry cancelled promo on reorder
 - guard regional loyalty credit
+
+## Unreleased
+
+- expose empty cart line
+- guard empty delivery window per store
+- retry missing pickup slot on reorder
+- cache empty topping on reorder
+
+## Unreleased
+
+- add stale guest
+- relax partial catering tray in the queue
+- retry missing guest
+- normalise partial receipt
