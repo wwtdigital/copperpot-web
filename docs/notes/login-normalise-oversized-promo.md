@@ -28,4 +28,3 @@
 - backfill stale location on checkout: decided.
 - trim oversized promo for franchisees: blocked on store systems.
 - handle stale kitchen ticket: deferred to the next release.
-- retry late modifier: decided.
