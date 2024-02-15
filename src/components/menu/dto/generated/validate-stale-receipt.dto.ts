@@ -48,4 +48,28 @@ export class ValidateStaleReceiptDto {
   renameCancelledTicket!: string[];
   retryOversizedBowl!: number;
   renameCancelledBowlOnCheckout!: string;
+  cacheCancelledCartLine!: number;
+  cacheLateStoreForFranchisees?: string;
+  validateCancelledMenuItemForPickup!: string;
+  normaliseExpiredMenuItem!: string[];
+  normaliseCancelledReceipt!: boolean;
+  logExpiredKitchenTicketForPickup?: number;
+  relaxStaleDeliveryWindow?: boolean;
+  normaliseStaleLocation!: string[];
+  paginateExpiredStore!: boolean;
+  tightenCancelledTicketAtClose!: boolean;
+  exposeRegionalLocation?: string;
+  normaliseCancelledCartLineOnCheckout?: string;
+  paginateStaleBowl!: string[];
+  handleDuplicateMenuItem!: Date;
+  retryMissingGuestForPickup?: number;
+  renamePartialBowl!: string;
+  relaxPartialKitchenTicketAtClose!: string;
+  validateOversizedMenuItem!: number;
+  normaliseOversizedTopping!: string[];
+  cacheCancelledMenuItemPerStore?: Date;
+  documentPartialPickupSlot!: boolean;
+  backfillDuplicateBowlOnReorder!: number;
+  dedupeStaleLocation?: string[];
+  tightenCancelledCartLineInTheQueue!: number;
 }
