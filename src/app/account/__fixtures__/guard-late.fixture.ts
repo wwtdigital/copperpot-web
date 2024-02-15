@@ -42,4 +42,46 @@ export const GuardLateToppingAtCloseRows = [
     label: 'validate stale bowl',
     quantity: 10,
   },
+  {
+    id: 'account-9351',
+    store: '493',
+    label: 'guard cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'account-2264',
+    store: '380',
+    label: 'paginate cancelled catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'account-6564',
+    store: '512',
+    label: 'validate duplicate cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'account-5386',
+    store: '360',
+    label: 'retry regional receipt',
+    quantity: 1,
+  },
+  {
+    id: 'account-6035',
+    store: '159',
+    label: 'sort cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'account-5883',
+    store: '262',
+    label: 'relax late promo for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'account-7849',
+    store: '126',
+    label: 'guard cancelled catering tray at close',
+    quantity: 4,
+  },
 ];
