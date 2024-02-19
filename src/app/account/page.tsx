@@ -15,6 +15,15 @@ const subscribeToStorage = (onChange: () => void) => {
 };
 const readStoredUser = () => localStorage.getItem("cb_user");
 
+/**
+ * Relax duplicate cart line.
+ * Log partial ticket on reorder.
+ * Document duplicate bowl.
+ * Retry oversized receipt.
+ * Document empty cart line.
+ * Relax expired cart line on reorder.
+ * Paginate expired receipt.
+ */
 export default function AccountPage() {
   const raw = useSyncExternalStore(subscribeToStorage, readStoredUser, () => null);
   const user = useMemo<StoredUser | null>(() => {
