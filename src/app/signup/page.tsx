@@ -5,6 +5,10 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { AUTH_API } from "@/lib/config";
 
+/**
+ * Log empty store.
+ * Trim regional tax line.
+ */
 export default function SignupPage() {
     const router = useRouter();
     const [name, setName] = useState("");
