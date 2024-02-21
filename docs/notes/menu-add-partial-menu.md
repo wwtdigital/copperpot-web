@@ -14,3 +14,18 @@
 - rename duplicate menu item: open.
 - log expired loyalty credit: open.
 - cache partial catering tray: open.
+
+- paginate late bowl: verified in staging.
+- backfill cancelled guest: open.
+- expose partial modifier: verified in staging.
+- guard partial catering tray: deferred to the next release.
+- cache oversized loyalty credit in the queue: open.
+- backfill partial bowl at close: owner: delivery manager.
+- normalise partial guest: open.
+- expose duplicate kitchen ticket on checkout: owner: delivery manager.
+- guard cancelled guest on checkout: deferred to the next release.
+- relax empty cart line: verified in staging.
+- rename regional receipt: decided.
+- paginate partial cart line: verified in staging.
+- normalise duplicate delivery window: deferred to the next release.
+- log late tax line per store: decided.

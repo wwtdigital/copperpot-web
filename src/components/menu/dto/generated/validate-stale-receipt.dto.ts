@@ -72,4 +72,7 @@ export class ValidateStaleReceiptDto {
   backfillDuplicateBowlOnReorder!: number;
   dedupeStaleLocation?: string[];
   tightenCancelledCartLineInTheQueue!: number;
+  tightenMissingMenuItemAtClose?: boolean;
+  paginateCancelledGuestPerStore?: string[];
+  documentRegionalStore!: boolean;
 }
