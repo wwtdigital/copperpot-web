@@ -83,3 +83,10 @@
 - relax partial catering tray in the queue
 - retry missing guest
 - normalise partial receipt
+
+## Unreleased
+
+- paginate regional receipt
+- handle late modifier
+- document regional promo
+- document regional location
