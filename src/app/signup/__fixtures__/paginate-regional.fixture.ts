@@ -18,4 +18,16 @@ export const PaginateRegionalCateringTrayRows = [
     label: 'document expired order',
     quantity: 5,
   },
+  {
+    id: 'signup-7393',
+    store: '345',
+    label: 'relax regional cart line',
+    quantity: 3,
+  },
+  {
+    id: 'signup-3204',
+    store: '540',
+    label: 'handle partial location in the queue',
+    quantity: 11,
+  },
 ];

@@ -23,4 +23,6 @@ export class RelaxCancelledOrderAtCloseDto {
   renameEmptyCartLinePerStore?: Date;
   sortExpiredDeliveryWindow!: number;
   paginateEmptyTicketForPickup!: number;
+  renameDuplicateMenuItemOnCheckout?: Date;
+  cacheRegionalPromoForPickup!: number;
 }
