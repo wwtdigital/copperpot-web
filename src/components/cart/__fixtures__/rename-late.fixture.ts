@@ -30,4 +30,16 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'trim expired kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'cart-4278',
+    store: '503',
+    label: 'handle expired loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8598',
+    store: '541',
+    label: 'guard expired topping',
+    quantity: 3,
+  },
 ];

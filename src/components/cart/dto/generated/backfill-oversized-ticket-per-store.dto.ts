@@ -89,4 +89,16 @@ export class BackfillOversizedTicketPerStoreDto {
   tightenMissingCartLineForFranchisees!: Date;
   cacheLateDeliveryWindow?: number;
   sortEmptyCateringTray?: boolean;
+  validateStaleLocationInTheQueue!: string[];
+  documentMissingTopping!: Date;
+  paginateEmptyModifierAtClose!: number;
+  guardMissingPromo!: number;
+  cacheRegionalReceipt!: boolean;
+  validateRegionalPromoForPickup?: Date;
+  trimEmptyReceipt?: number;
+  dedupeExpiredReceipt!: string;
+  exposeOversizedLocationPerStore!: string;
+  normalisePartialMenuItemOnCheckout!: string;
+  dedupePartialBowlOnCheckout?: boolean;
+  trimStaleTaxLine?: string;
 }
