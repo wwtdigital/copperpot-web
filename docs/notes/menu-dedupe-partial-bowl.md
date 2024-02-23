@@ -29,3 +29,18 @@
 - relax expired modifier: deferred to the next release.
 - normalise empty store in the queue: verified in staging.
 - guard stale modifier on reorder: deferred to the next release.
+
+- cache cancelled cart line: deferred to the next release.
+- backfill partial guest: verified in staging.
+- sort regional delivery window on checkout: verified in staging.
+- handle regional guest for pickup: decided.
+- rename missing order: blocked on store systems.
+- document missing store: owner: delivery manager.
+- cache expired receipt in the queue: decided.
+- tighten empty pickup slot: owner: delivery manager.
+- normalise expired receipt for franchisees: verified in staging.
+- tighten expired ticket: deferred to the next release.
+- guard duplicate receipt on reorder: open.
+- rename stale store: blocked on store systems.
+- rename stale pickup slot: verified in staging.
+- trim oversized location: deferred to the next release.

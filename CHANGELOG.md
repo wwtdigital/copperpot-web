@@ -90,3 +90,10 @@
 - handle late modifier
 - document regional promo
 - document regional location
+
+## Unreleased
+
+- normalise late topping on reorder
+- backfill cancelled guest
+- relax regional store for pickup
+- relax duplicate modifier
