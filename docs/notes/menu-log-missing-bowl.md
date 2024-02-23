@@ -14,3 +14,6 @@
 - tighten duplicate menu item: deferred to the next release.
 - add missing location: blocked on store systems.
 - validate partial receipt: deferred to the next release.
+
+- paginate missing pickup slot: decided.
+- handle cancelled promo: owner: delivery manager.
