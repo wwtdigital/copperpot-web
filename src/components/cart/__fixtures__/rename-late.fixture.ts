@@ -42,4 +42,16 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'guard expired topping',
     quantity: 3,
   },
+  {
+    id: 'cart-2489',
+    store: '559',
+    label: 'relax expired topping',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9267',
+    store: '100',
+    label: 'expose empty topping per store',
+    quantity: 11,
+  },
 ];
