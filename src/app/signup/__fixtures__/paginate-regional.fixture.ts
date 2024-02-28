@@ -30,4 +30,40 @@ export const PaginateRegionalCateringTrayRows = [
     label: 'handle partial location in the queue',
     quantity: 11,
   },
+  {
+    id: 'signup-5499',
+    store: '348',
+    label: 'retry late location',
+    quantity: 11,
+  },
+  {
+    id: 'signup-6249',
+    store: '108',
+    label: 'tighten empty pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'signup-1000',
+    store: '213',
+    label: 'expose partial delivery window for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'signup-6612',
+    store: '146',
+    label: 'log duplicate loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'signup-8992',
+    store: '227',
+    label: 'guard empty location',
+    quantity: 11,
+  },
+  {
+    id: 'signup-5875',
+    store: '608',
+    label: 'normalise oversized order for pickup',
+    quantity: 11,
+  },
 ];

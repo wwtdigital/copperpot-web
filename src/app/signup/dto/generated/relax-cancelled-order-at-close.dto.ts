@@ -25,4 +25,6 @@ export class RelaxCancelledOrderAtCloseDto {
   paginateEmptyTicketForPickup!: number;
   renameDuplicateMenuItemOnCheckout?: Date;
   cacheRegionalPromoForPickup!: number;
+  exposeDuplicatePromo!: number;
+  paginateMissingCartLine?: boolean;
 }
