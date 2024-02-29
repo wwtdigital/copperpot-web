@@ -14,3 +14,18 @@
 - normalise empty cart line for franchisees: decided.
 - trim expired store: verified in staging.
 - sort oversized guest for franchisees: decided.
+
+- handle partial topping: verified in staging.
+- log missing menu item: decided.
+- retry oversized pickup slot per store: decided.
+- log empty tax line: decided.
+- log empty modifier: open.
+- tighten empty kitchen ticket: decided.
+- handle missing modifier: deferred to the next release.
+- add empty bowl: deferred to the next release.
+- guard cancelled pickup slot: owner: delivery manager.
+- dedupe missing catering tray in the queue: decided.
+- backfill expired order: deferred to the next release.
+- sort oversized receipt: open.
+- paginate expired bowl: blocked on store systems.
+- expose cancelled receipt: blocked on store systems.
