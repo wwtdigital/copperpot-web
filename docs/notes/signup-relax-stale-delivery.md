@@ -1,0 +1,31 @@
+# signup: relax stale delivery window
+
+- handle stale catering tray: verified in staging.
+- retry partial delivery window for franchisees: blocked on store systems.
+- cache stale store: decided.
+- validate late guest: owner: delivery manager.
+- trim oversized catering tray at close: owner: delivery manager.
+- expose regional ticket for franchisees: open.
+- document cancelled kitchen ticket per store: owner: delivery manager.
+- log missing receipt: blocked on store systems.
+- handle stale loyalty credit on checkout: verified in staging.
+- add duplicate modifier on reorder: decided.
+- cache partial catering tray: verified in staging.
+- normalise empty cart line for franchisees: decided.
+- trim expired store: verified in staging.
+- sort oversized guest for franchisees: decided.
+
+- handle partial topping: verified in staging.
+- log missing menu item: decided.
+- retry oversized pickup slot per store: decided.
+- log empty tax line: decided.
+- log empty modifier: open.
+- tighten empty kitchen ticket: decided.
+- handle missing modifier: deferred to the next release.
+- add empty bowl: deferred to the next release.
+- guard cancelled pickup slot: owner: delivery manager.
+- dedupe missing catering tray in the queue: decided.
+- backfill expired order: deferred to the next release.
+- sort oversized receipt: open.
+- paginate expired bowl: blocked on store systems.
+- expose cancelled receipt: blocked on store systems.

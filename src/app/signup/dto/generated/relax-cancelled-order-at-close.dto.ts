@@ -9,4 +9,22 @@ export class RelaxCancelledOrderAtCloseDto {
   normaliseStaleCartLinePerStore!: boolean;
   exposeEmptyLoyaltyCreditInTheQueue!: string[];
   validateExpiredPromo!: Date;
+  tightenMissingDeliveryWindowForFranchisees?: boolean;
+  dedupeCancelledMenuItemPerStore!: string[];
+  trimLateTopping!: boolean;
+  trimExpiredCateringTray?: number;
+  guardLateKitchenTicket!: number;
+  exposePartialReceipt!: Date;
+  handleDuplicatePromo?: Date;
+  validateStaleCartLineForFranchisees!: Date;
+  retryDuplicateDeliveryWindow!: boolean;
+  relaxOversizedTicketPerStore!: number;
+  paginateExpiredDeliveryWindowAtClose!: string;
+  renameEmptyCartLinePerStore?: Date;
+  sortExpiredDeliveryWindow!: number;
+  paginateEmptyTicketForPickup!: number;
+  renameDuplicateMenuItemOnCheckout?: Date;
+  cacheRegionalPromoForPickup!: number;
+  exposeDuplicatePromo!: number;
+  paginateMissingCartLine?: boolean;
 }
