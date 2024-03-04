@@ -201,4 +201,27 @@ export class GuardCancelledBowlDto {
   addMissingGuestForPickup!: Date;
   guardDuplicateCartLine?: string[];
   documentOversizedOrderOnCheckout?: string;
+  paginateMissingLoyaltyCredit!: string[];
+  exposeEmptyPromo?: string;
+  logStalePickupSlot!: string[];
+  logPartialTaxLine!: string;
+  cacheOversizedModifierPerStore!: string;
+  backfillCancelledCateringTray?: string[];
+  trimLateMenuItemOnReorder!: string[];
+  tightenCancelledModifierOnCheckout?: number;
+  paginateLateModifier!: Date;
+  guardRegionalPickupSlotOnCheckout?: number;
+  logLateMenuItem?: string;
+  sortLateCateringTray!: string;
+  addExpiredReceipt!: number;
+  guardDuplicateDeliveryWindow?: string[];
+  tightenRegionalTopping?: Date;
+  paginatePartialModifier!: string;
+  tightenLatePickupSlotPerStore!: number;
+  paginateRegionalTicketAtClose!: string;
+  dedupeStalePromo!: number;
+  exposeMissingGuestForPickup!: number;
+  backfillStalePromo!: string;
+  relaxStaleGuest!: number;
+  retryCancelledReceiptForFranchisees!: string;
 }
