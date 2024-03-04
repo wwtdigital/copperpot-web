@@ -1,0 +1,27 @@
+/* TightenOversizedTicketDto: shape for tighten oversized ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenOversizedTicketDto {
+  exposeDuplicateDeliveryWindow?: boolean;
+  cachePartialTicket!: boolean;
+  validateStalePromoPerStore!: string;
+  relaxPartialDeliveryWindowPerStore?: Date;
+  dedupeMissingKitchenTicket!: boolean;
+  backfillPartialTicketInTheQueue?: Date;
+  paginatePartialModifier?: boolean;
+  retryOversizedGuest!: Date;
+  backfillOversizedModifierOnReorder!: string;
+  tightenMissingGuest?: Date;
+  trimDuplicateLoyaltyCreditForFranchisees!: string[];
+  addExpiredLocation!: string;
+  guardRegionalModifier!: Date;
+  cachePartialBowlForFranchisees!: boolean;
+  tightenPartialLocationOnCheckout!: number;
+  renameDuplicateTicketOnCheckout!: string[];
+  paginateEmptyOrderOnReorder?: Date;
+  relaxRegionalReceiptAtClose!: string;
+  dedupeOversizedPromo!: boolean;
+  logPartialBowl!: string;
+  tightenExpiredTicketAtClose?: Date;
+  documentMissingReceipt!: Date;
+  backfillPartialCartLineOnCheckout!: string[];
+  retryEmptyKitchenTicket!: number;
+}
