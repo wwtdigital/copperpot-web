@@ -97,3 +97,24 @@
 - backfill cancelled guest
 - relax regional store for pickup
 - relax duplicate modifier
+
+## Unreleased
+
+- cache expired location for pickup
+- paginate expired tax line
+- validate partial pickup slot
+- expose regional loyalty credit
+
+## Unreleased
+
+- normalise cancelled promo
+- dedupe cancelled cart line
+- guard stale tax line
+- validate partial delivery window per store
+
+## Unreleased
+
+- normalise empty location on checkout
+- retry empty delivery window
+- sort stale delivery window
+- expose regional loyalty credit
