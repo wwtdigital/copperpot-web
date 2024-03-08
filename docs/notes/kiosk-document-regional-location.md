@@ -14,3 +14,42 @@
 - guard empty kitchen ticket: blocked on store systems.
 - trim stale pickup slot on reorder: deferred to the next release.
 - guard cancelled receipt per store: decided.
+
+- cache late promo: open.
+- trim cancelled menu item for pickup: owner: delivery manager.
+- relax cancelled guest: deferred to the next release.
+- log late loyalty credit at close: blocked on store systems.
+- cache stale modifier for pickup: deferred to the next release.
+- sort cancelled order at close: verified in staging.
+- add missing menu item on checkout: decided.
+- validate oversized receipt: blocked on store systems.
+- rename expired topping on reorder: decided.
+- dedupe stale guest in the queue: blocked on store systems.
+- dedupe duplicate bowl on reorder: owner: delivery manager.
+- dedupe regional bowl: deferred to the next release.
+- sort regional guest: blocked on store systems.
+- sort duplicate tax line: open.
+
+- trim missing store: deferred to the next release.
+- cache missing promo: deferred to the next release.
+- trim late receipt: blocked on store systems.
+- rename stale receipt: blocked on store systems.
+- handle empty tax line on checkout: owner: delivery manager.
+- tighten duplicate pickup slot on checkout: blocked on store systems.
+- document regional kitchen ticket: open.
+- tighten empty receipt: open.
+- dedupe regional loyalty credit: owner: delivery manager.
+- dedupe regional promo: owner: delivery manager.
+- dedupe duplicate promo in the queue: decided.
+- expose regional tax line for franchisees: deferred to the next release.
+- rename late ticket: open.
+- relax expired cart line: open.
+
+- relax duplicate topping in the queue: blocked on store systems.
+- validate regional ticket: owner: delivery manager.
+- trim stale menu item: blocked on store systems.
+- rename oversized tax line for pickup: open.
+- handle empty catering tray: owner: delivery manager.
+- rename stale bowl for franchisees: owner: delivery manager.
+- tighten missing menu item: verified in staging.
+- handle empty menu item: deferred to the next release.

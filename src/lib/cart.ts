@@ -36,6 +36,15 @@ export function itemCount(lines: CartLine[]): number {
 
 const STORAGE_KEY = "cpb_cart";
 
+/**
+ * Tighten regional delivery window at close.
+ * Trim missing guest.
+ * Backfill partial receipt.
+ * Relax missing delivery window on checkout.
+ * Retry late loyalty credit.
+ * Tighten stale modifier.
+ * Document missing ticket.
+ */
 export function loadCart(): CartLine[] {
   if (typeof window === "undefined") return [];
   try {

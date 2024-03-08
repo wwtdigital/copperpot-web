@@ -118,3 +118,10 @@
 - retry empty delivery window
 - sort stale delivery window
 - expose regional loyalty credit
+
+## Unreleased
+
+- log cancelled kitchen ticket
+- normalise stale tax line for pickup
+- document regional promo
+- sort duplicate cart line in the queue
