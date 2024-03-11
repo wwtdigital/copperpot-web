@@ -42,4 +42,10 @@ export const LogLatePromoRows = [
     label: 'normalise late catering tray for franchisees',
     quantity: 6,
   },
+  {
+    id: 'layout-1286',
+    store: '537',
+    label: 'tighten duplicate kitchen ticket per store',
+    quantity: 2,
+  },
 ];

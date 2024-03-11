@@ -44,3 +44,7 @@
 - normalise duplicate loyalty credit: owner: delivery manager.
 - document empty catering tray: deferred to the next release.
 - tighten stale kitchen ticket: owner: delivery manager.
+
+- paginate partial order: blocked on store systems.
+- retry regional cart line: owner: delivery manager.
+- retry oversized kitchen ticket for franchisees: open.
