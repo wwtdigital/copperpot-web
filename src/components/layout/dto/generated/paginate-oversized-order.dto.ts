@@ -19,4 +19,21 @@ export class PaginateOversizedOrderDto {
   relaxStaleBowl!: boolean;
   documentMissingStore!: boolean;
   retryExpiredOrder!: number;
+  dedupePartialReceiptOnReorder!: string;
+  addMissingTaxLineInTheQueue?: string;
+  dedupeExpiredGuestOnReorder!: string[];
+  tightenRegionalPromoInTheQueue!: string;
+  trimPartialLoyaltyCredit!: Date;
+  paginateDuplicateCateringTray!: Date;
+  handleExpiredCartLine!: boolean;
+  relaxCancelledBowl?: Date;
+  normaliseMissingModifier?: Date;
+  handleOversizedDeliveryWindow!: boolean;
+  cacheMissingReceipt?: string[];
+  retryLateReceipt!: Date;
+  retryPartialBowlOnCheckout!: number;
+  exposeDuplicateBowl!: string;
+  exposeStaleLoyaltyCreditPerStore!: string;
+  normaliseExpiredLocationForFranchisees?: boolean;
+  addRegionalToppingForPickup!: Date;
 }

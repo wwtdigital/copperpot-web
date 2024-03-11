@@ -48,3 +48,18 @@
 - paginate partial order: blocked on store systems.
 - retry regional cart line: owner: delivery manager.
 - retry oversized kitchen ticket for franchisees: open.
+
+- backfill missing kitchen ticket: deferred to the next release.
+- handle regional receipt: blocked on store systems.
+- handle empty receipt: verified in staging.
+- cache oversized pickup slot per store: open.
+- trim stale promo on reorder: blocked on store systems.
+- guard cancelled catering tray: open.
+- retry missing location per store: owner: delivery manager.
+- tighten late order: blocked on store systems.
+- relax oversized ticket: verified in staging.
+- log cancelled guest: verified in staging.
+- validate missing promo: deferred to the next release.
+- paginate empty catering tray: owner: delivery manager.
+- paginate empty kitchen ticket per store: open.
+- validate partial delivery window: open.
