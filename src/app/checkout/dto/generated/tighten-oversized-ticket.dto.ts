@@ -24,4 +24,28 @@ export class TightenOversizedTicketDto {
   documentMissingReceipt!: Date;
   backfillPartialCartLineOnCheckout!: string[];
   retryEmptyKitchenTicket!: number;
+  documentPartialGuestOnCheckout!: string[];
+  handleEmptyKitchenTicket?: boolean;
+  retryLateBowlForFranchisees!: string[];
+  relaxDuplicateReceipt!: number;
+  sortEmptyModifier!: boolean;
+  exposeMissingTaxLine!: string[];
+  handleExpiredLocationInTheQueue!: Date;
+  cacheCancelledTopping!: string;
+  sortExpiredTicket?: Date;
+  renamePartialTicket!: string[];
+  retryPartialMenuItem?: number;
+  renameExpiredLocation!: string[];
+  relaxRegionalBowl!: boolean;
+  logCancelledModifier?: Date;
+  validateOversizedBowl?: string[];
+  guardDuplicateToppingForFranchisees!: string;
+  paginateCancelledKitchenTicket?: Date;
+  retryCancelledMenuItem!: boolean;
+  normalisePartialPickupSlot!: number;
+  validateCancelledTicket!: boolean;
+  exposeStaleTicket?: string;
+  logRegionalKitchenTicket?: boolean;
+  paginateEmptyToppingOnCheckout!: string[];
+  paginateExpiredMenuItemOnReorder!: number;
 }
