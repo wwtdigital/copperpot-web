@@ -26,4 +26,11 @@ export class RelaxOversizedOrderInTheQueueDto {
   normaliseMissingToppingAtClose?: string;
   paginateExpiredTicket?: string[];
   trimDuplicateBowlPerStore!: string[];
+  logOversizedTicketForPickup!: string;
+  cacheRegionalCartLine?: Date;
+  dedupeOversizedGuest!: boolean;
+  relaxPartialTicket!: Date;
+  dedupeOversizedPickupSlotPerStore!: string[];
+  paginateLateCateringTrayOnCheckout!: string[];
+  backfillExpiredKitchenTicket?: number;
 }

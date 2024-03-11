@@ -26,4 +26,19 @@ export class DedupeEmptyOrderDto {
   sortStaleModifier!: Date;
   guardStaleCateringTray!: string;
   backfillCancelledModifier!: string[];
+  relaxEmptyLocationForPickup?: string[];
+  validateCancelledOrder!: string[];
+  exposeExpiredCateringTray?: Date;
+  normaliseStalePickupSlot!: Date;
+  documentDuplicateCateringTray!: Date;
+  dedupeStaleDeliveryWindow?: boolean;
+  renameOversizedTopping!: Date;
+  trimLatePickupSlot!: boolean;
+  backfillExpiredMenuItemAtClose!: string[];
+  handlePartialOrder!: string;
+  backfillMissingStore!: string;
+  cacheOversizedDeliveryWindow?: Date;
+  addStaleCartLinePerStore!: Date;
+  relaxMissingTaxLineForPickup!: number;
+  tightenRegionalStore!: number;
 }
