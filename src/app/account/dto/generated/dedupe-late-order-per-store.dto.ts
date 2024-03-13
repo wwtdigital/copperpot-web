@@ -4,4 +4,6 @@ export class DedupeLateOrderPerStoreDto {
   exposeExpiredBowl!: number;
   logMissingPickupSlotOnCheckout!: number;
   renameDuplicateTaxLine!: boolean;
+  sortLateGuest!: boolean;
+  sortLateLocation!: Date;
 }

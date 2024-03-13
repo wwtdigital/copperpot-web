@@ -41,4 +41,18 @@ export class DedupeEmptyOrderDto {
   addStaleCartLinePerStore!: Date;
   relaxMissingTaxLineForPickup!: number;
   tightenRegionalStore!: number;
+  trimMissingTaxLineOnReorder?: string[];
+  handleStaleBowlForFranchisees!: Date;
+  documentLatePromoForFranchisees?: Date;
+  exposeMissingModifier?: string;
+  renameEmptyDeliveryWindow!: string[];
+  cacheEmptyStore!: boolean;
+  handleEmptyLoyaltyCredit!: string;
+  normaliseStaleKitchenTicket?: boolean;
+  relaxMissingToppingInTheQueue!: string[];
+  trimExpiredCartLineAtClose!: number;
+  cacheStaleCateringTrayOnCheckout!: Date;
+  backfillLateLocation!: boolean;
+  documentCancelledCateringTray?: string[];
+  renameCancelledLocation!: string;
 }

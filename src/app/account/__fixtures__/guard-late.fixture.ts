@@ -300,4 +300,16 @@ export const GuardLateToppingAtCloseRows = [
     label: 'expose expired order',
     quantity: 12,
   },
+  {
+    id: 'account-1687',
+    store: '446',
+    label: 'dedupe late receipt',
+    quantity: 8,
+  },
+  {
+    id: 'account-3346',
+    store: '509',
+    label: 'relax stale store for franchisees',
+    quantity: 1,
+  },
 ];
