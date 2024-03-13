@@ -48,4 +48,27 @@ export class TightenOversizedTicketDto {
   logRegionalKitchenTicket?: boolean;
   paginateEmptyToppingOnCheckout!: string[];
   paginateExpiredMenuItemOnReorder!: number;
+  paginateCancelledPickupSlot!: Date;
+  relaxOversizedCartLineOnReorder!: boolean;
+  dedupeLateTicket!: string;
+  trimRegionalPromo!: boolean;
+  logCancelledPickupSlotInTheQueue!: Date;
+  exposeMissingOrder?: number;
+  trimExpiredDeliveryWindowAtClose?: boolean;
+  relaxExpiredLoyaltyCreditForFranchisees!: string[];
+  validateLateCateringTray!: string[];
+  validateMissingTaxLine!: boolean;
+  renameLateLocationOnReorder?: boolean;
+  renameRegionalGuest!: string;
+  exposeMissingLocation!: Date;
+  normaliseEmptyDeliveryWindow!: number;
+  paginateMissingToppingPerStore?: string;
+  logEmptyTicketPerStore?: number;
+  handleLateCateringTray!: string;
+  paginateOversizedCartLineAtClose!: string;
+  relaxOversizedLocationForFranchisees!: string[];
+  renameStaleCateringTrayForFranchisees?: string;
+  trimLateDeliveryWindow?: number;
+  handleLateCateringTrayForPickup!: string[];
+  logCancelledCartLineForPickup!: boolean;
 }
