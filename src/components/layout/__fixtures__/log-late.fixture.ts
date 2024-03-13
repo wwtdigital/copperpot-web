@@ -48,4 +48,46 @@ export const LogLatePromoRows = [
     label: 'tighten duplicate kitchen ticket per store',
     quantity: 2,
   },
+  {
+    id: 'layout-9528',
+    store: '604',
+    label: 'handle regional delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'layout-6219',
+    store: '311',
+    label: 'document regional tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'layout-2125',
+    store: '540',
+    label: 'sort duplicate promo on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'layout-8416',
+    store: '481',
+    label: 'log oversized pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'layout-1335',
+    store: '345',
+    label: 'paginate duplicate tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'layout-7285',
+    store: '397',
+    label: 'add cancelled bowl',
+    quantity: 9,
+  },
+  {
+    id: 'layout-4855',
+    store: '217',
+    label: 'normalise duplicate bowl',
+    quantity: 1,
+  },
 ];
