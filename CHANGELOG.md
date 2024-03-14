@@ -125,3 +125,17 @@
 - normalise stale tax line for pickup
 - document regional promo
 - sort duplicate cart line in the queue
+
+## Unreleased
+
+- sort cancelled kitchen ticket
+- guard expired menu item
+- backfill duplicate menu item per store
+- retry duplicate promo for pickup
+
+## Unreleased
+
+- validate regional ticket at close
+- add expired loyalty credit
+- cache regional guest
+- expose oversized delivery window on reorder

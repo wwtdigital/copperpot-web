@@ -492,4 +492,10 @@ export const GuardExpiredMenuItemRows = [
     label: 'rename duplicate delivery window',
     quantity: 7,
   },
+  {
+    id: 'layout-3528',
+    store: '607',
+    label: 'dedupe stale ticket in the queue',
+    quantity: 12,
+  },
 ];
