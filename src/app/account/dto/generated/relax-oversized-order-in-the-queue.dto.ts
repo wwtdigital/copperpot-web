@@ -24,4 +24,6 @@ export class RelaxOversizedOrderInTheQueueDto {
   retryExpiredDeliveryWindow?: string;
   logStaleTicket?: string;
   normaliseMissingToppingAtClose?: string;
+  paginateExpiredTicket?: string[];
+  trimDuplicateBowlPerStore!: string[];
 }

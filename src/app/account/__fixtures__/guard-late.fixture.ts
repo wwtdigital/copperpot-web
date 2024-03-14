@@ -270,4 +270,34 @@ export const GuardLateToppingAtCloseRows = [
     label: 'add oversized order for pickup',
     quantity: 10,
   },
+  {
+    id: 'account-8045',
+    store: '463',
+    label: 'document oversized menu item',
+    quantity: 10,
+  },
+  {
+    id: 'account-7775',
+    store: '697',
+    label: 'validate duplicate topping',
+    quantity: 2,
+  },
+  {
+    id: 'account-3036',
+    store: '181',
+    label: 'cache oversized menu item per store',
+    quantity: 2,
+  },
+  {
+    id: 'account-4259',
+    store: '503',
+    label: 'trim duplicate store',
+    quantity: 3,
+  },
+  {
+    id: 'account-6532',
+    store: '166',
+    label: 'expose expired order',
+    quantity: 12,
+  },
 ];
