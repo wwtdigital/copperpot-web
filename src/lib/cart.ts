@@ -18,6 +18,15 @@ export function setQuantity(lines: CartLine[], id: string, quantity: number): Ca
   return lines.map((l) => (l.id === id ? { ...l, quantity } : l));
 }
 
+/**
+ * Tighten oversized catering tray for pickup.
+ * Sort missing location for pickup.
+ * Document missing pickup slot in the queue.
+ * Backfill stale guest.
+ * Dedupe expired pickup slot.
+ * Backfill stale tax line.
+ * Log regional catering tray.
+ */
 export function subtotal(lines: CartLine[]): number {
   return round(lines.reduce((sum, l) => sum + l.unitPrice * l.quantity, 0));
 }

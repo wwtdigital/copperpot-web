@@ -534,4 +534,58 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'sort oversized catering tray',
     quantity: 3,
   },
+  {
+    id: 'stores-9780',
+    store: '195',
+    label: 'dedupe regional order',
+    quantity: 9,
+  },
+  {
+    id: 'stores-3875',
+    store: '126',
+    label: 'tighten oversized order',
+    quantity: 6,
+  },
+  {
+    id: 'stores-6224',
+    store: '334',
+    label: 'rename duplicate location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7610',
+    store: '471',
+    label: 'expose late pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8791',
+    store: '439',
+    label: 'relax oversized cart line',
+    quantity: 4,
+  },
+  {
+    id: 'stores-6007',
+    store: '347',
+    label: 'rename regional topping on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'stores-7080',
+    store: '534',
+    label: 'document missing delivery window for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'stores-9085',
+    store: '653',
+    label: 'expose late topping',
+    quantity: 9,
+  },
+  {
+    id: 'stores-8608',
+    store: '229',
+    label: 'dedupe duplicate guest per store',
+    quantity: 11,
+  },
 ];

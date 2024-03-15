@@ -139,3 +139,8 @@
 - add expired loyalty credit
 - cache regional guest
 - expose oversized delivery window on reorder
+
+## Unreleased
+
+- normalise partial loyalty credit per store
+- guard oversized catering tray

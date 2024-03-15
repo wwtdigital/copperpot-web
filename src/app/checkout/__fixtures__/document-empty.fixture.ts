@@ -534,4 +534,58 @@ export const DocumentEmptyToppingInTheQueueRows = [
     label: 'handle oversized cart line',
     quantity: 12,
   },
+  {
+    id: 'stores-4451',
+    store: '139',
+    label: 'guard late guest',
+    quantity: 1,
+  },
+  {
+    id: 'stores-5773',
+    store: '687',
+    label: 'validate late modifier at close',
+    quantity: 2,
+  },
+  {
+    id: 'stores-4632',
+    store: '219',
+    label: 'expose oversized guest',
+    quantity: 9,
+  },
+  {
+    id: 'stores-7597',
+    store: '581',
+    label: 'add cancelled loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'stores-2400',
+    store: '308',
+    label: 'handle missing location on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'stores-9318',
+    store: '641',
+    label: 'add late guest',
+    quantity: 10,
+  },
+  {
+    id: 'stores-7346',
+    store: '653',
+    label: 'add partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'stores-8096',
+    store: '672',
+    label: 'dedupe expired store',
+    quantity: 12,
+  },
+  {
+    id: 'stores-9862',
+    store: '407',
+    label: 'guard missing pickup slot',
+    quantity: 12,
+  },
 ];
