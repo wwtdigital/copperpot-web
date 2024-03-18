@@ -53,3 +53,18 @@
 - rename stale bowl for franchisees: owner: delivery manager.
 - tighten missing menu item: verified in staging.
 - handle empty menu item: deferred to the next release.
+
+- cache expired location: owner: delivery manager.
+- add late menu item: owner: delivery manager.
+- document regional kitchen ticket: owner: delivery manager.
+- trim missing order: owner: delivery manager.
+- trim empty ticket: deferred to the next release.
+- guard partial loyalty credit: deferred to the next release.
+- document partial topping: decided.
+- sort late cart line: blocked on store systems.
+- normalise cancelled menu item on checkout: open.
+- retry stale order on reorder: decided.
+- paginate duplicate store on reorder: deferred to the next release.
+- normalise duplicate bowl for pickup: open.
+- document cancelled order on reorder: deferred to the next release.
+- retry duplicate loyalty credit on checkout: verified in staging.

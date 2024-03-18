@@ -6,4 +6,28 @@ export class DedupeLateOrderPerStoreDto {
   renameDuplicateTaxLine!: boolean;
   sortLateGuest!: boolean;
   sortLateLocation!: Date;
+  normaliseRegionalKitchenTicketOnReorder!: string[];
+  sortMissingTaxLineForFranchisees!: boolean;
+  paginateLateStore!: number;
+  paginateRegionalOrder?: Date;
+  normaliseLateTaxLine!: string[];
+  trimPartialLocation!: number;
+  handlePartialTaxLine!: Date;
+  sortStaleTicket!: string[];
+  retryMissingPromo!: string[];
+  cacheDuplicateMenuItem?: string[];
+  documentMissingMenuItemOnCheckout?: number;
+  normalisePartialTicket!: string[];
+  renameCancelledLocationForPickup!: string[];
+  exposeDuplicateOrderAtClose?: boolean;
+  dedupeOversizedCartLine!: string;
+  sortRegionalPickupSlot!: Date;
+  renameCancelledOrder!: boolean;
+  documentCancelledStoreForFranchisees!: boolean;
+  backfillCancelledMenuItem!: string[];
+  normaliseCancelledCartLine?: Date;
+  handleLateToppingInTheQueue!: string[];
+  tightenEmptyMenuItem?: string;
+  documentDuplicateTaxLine!: string[];
+  renameMissingCateringTrayOnReorder!: string[];
 }

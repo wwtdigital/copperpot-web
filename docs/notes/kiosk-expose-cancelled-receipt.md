@@ -4,3 +4,48 @@
 - dedupe missing loyalty credit: decided.
 - paginate partial receipt in the queue: deferred to the next release.
 - add duplicate kitchen ticket: verified in staging.
+
+- handle duplicate receipt: blocked on store systems.
+- sort expired catering tray at close: blocked on store systems.
+- handle cancelled pickup slot at close: owner: delivery manager.
+- normalise expired topping: owner: delivery manager.
+- relax missing cart line on reorder: verified in staging.
+- add missing topping: blocked on store systems.
+- validate duplicate bowl: decided.
+- normalise oversized order: open.
+- guard duplicate menu item on reorder: blocked on store systems.
+- tighten missing kitchen ticket at close: deferred to the next release.
+- validate partial order: decided.
+- handle cancelled menu item: owner: delivery manager.
+- rename missing location: blocked on store systems.
+- backfill duplicate loyalty credit: decided.
+
+- tighten late cart line: decided.
+- dedupe stale modifier per store: owner: delivery manager.
+- rename partial menu item in the queue: blocked on store systems.
+- sort stale menu item for pickup: decided.
+- normalise oversized catering tray on reorder: open.
+- document oversized location in the queue: open.
+- add partial location: owner: delivery manager.
+- add oversized catering tray: deferred to the next release.
+- handle expired order: decided.
+- backfill empty topping per store: blocked on store systems.
+- retry cancelled ticket: decided.
+- tighten late topping: owner: delivery manager.
+- trim late modifier for pickup: decided.
+- handle missing receipt: verified in staging.
+
+- handle duplicate catering tray: decided.
+- paginate expired pickup slot: open.
+- document duplicate cart line: deferred to the next release.
+- expose empty loyalty credit at close: owner: delivery manager.
+- add cancelled tax line: verified in staging.
+- paginate empty catering tray: deferred to the next release.
+- handle partial topping for pickup: blocked on store systems.
+- rename missing tax line in the queue: owner: delivery manager.
+- dedupe missing store per store: verified in staging.
+- guard expired catering tray for pickup: blocked on store systems.
+- validate missing tax line: decided.
+- dedupe expired kitchen ticket: deferred to the next release.
+- dedupe late bowl: owner: delivery manager.
+- normalise cancelled guest: open.
