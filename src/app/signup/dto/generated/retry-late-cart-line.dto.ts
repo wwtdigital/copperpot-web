@@ -26,4 +26,10 @@ export class RetryLateCartLineDto {
   exposeDuplicateTopping!: number;
   logCancelledTopping?: number;
   retryRegionalKitchenTicket?: string[];
+  relaxDuplicateGuest?: string;
+  guardMissingLoyaltyCredit!: string;
+  handlePartialReceipt?: boolean;
+  documentExpiredToppingOnCheckout?: string[];
+  sortPartialKitchenTicket!: Date;
+  backfillStaleReceipt?: boolean;
 }

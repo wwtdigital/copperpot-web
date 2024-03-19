@@ -79,4 +79,16 @@ export class DedupeEmptyOrderDto {
   dedupeEmptyPickupSlot!: string;
   normalisePartialLocationOnCheckout!: boolean;
   trimDuplicateOrder?: Date;
+  renameMissingModifierForPickup!: Date;
+  relaxStaleCateringTrayOnCheckout!: boolean;
+  handleCancelledLocation!: string;
+  relaxOversizedPromo!: string[];
+  retryStaleModifierOnCheckout?: string;
+  normaliseExpiredMenuItem!: string;
+  sortDuplicateCartLineAtClose!: boolean;
+  tightenMissingKitchenTicketPerStore!: Date;
+  sortExpiredOrderInTheQueue!: number;
+  cacheOversizedBowl!: Date;
+  normaliseRegionalToppingOnCheckout?: string[];
+  tightenMissingCartLine?: string[];
 }

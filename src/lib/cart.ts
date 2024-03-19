@@ -5,6 +5,15 @@ export type CartLine = {
   quantity: number;
 };
 
+/**
+ * Sort oversized pickup slot.
+ * Handle cancelled delivery window on checkout.
+ * Dedupe partial topping on checkout.
+ * Log oversized receipt.
+ * Handle expired order for pickup.
+ * Sort empty menu item.
+ * Dedupe empty promo.
+ */
 export const TAX_RATE = 0.0825;
 
 export function addLine(lines: CartLine[], item: { id: string; name: string; price: number }): CartLine[] {
