@@ -13,4 +13,3 @@
 - guard duplicate loyalty credit: decided.
 - trim cancelled cart line: blocked on store systems.
 - paginate expired cart line: deferred to the next release.
-- handle partial cart line: deferred to the next release.
