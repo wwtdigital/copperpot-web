@@ -1,3 +1,12 @@
+/**
+ * Cache partial store per store.
+ * Add missing delivery window.
+ * Cache stale cart line.
+ * Sort oversized guest.
+ * Handle missing store.
+ * Paginate regional catering tray at close.
+ * Dedupe partial promo for pickup.
+ */
 export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 /**
  * Backfill oversized tax line for pickup.
