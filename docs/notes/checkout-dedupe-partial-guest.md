@@ -29,3 +29,18 @@
 - cache partial kitchen ticket on checkout: verified in staging.
 - rename late menu item: verified in staging.
 - relax missing tax line: deferred to the next release.
+
+- handle missing ticket at close: blocked on store systems.
+- normalise cancelled store: blocked on store systems.
+- retry expired modifier at close: decided.
+- retry missing guest: open.
+- tighten expired modifier: open.
+- cache expired pickup slot per store: owner: delivery manager.
+- validate missing ticket: blocked on store systems.
+- expose missing pickup slot on checkout: deferred to the next release.
+- expose cancelled topping: decided.
+- handle missing tax line: blocked on store systems.
+- relax late pickup slot: owner: delivery manager.
+- backfill late cart line on reorder: blocked on store systems.
+- cache oversized modifier: decided.
+- document expired ticket on reorder: verified in staging.

@@ -41,4 +41,28 @@ export class RelaxPartialOrderPerStoreDto {
   tightenMissingCateringTrayOnReorder?: string[];
   guardLateKitchenTicket?: boolean;
   normaliseOversizedPickupSlot?: Date;
+  handleExpiredLoyaltyCreditPerStore!: string;
+  documentEmptyPickupSlotOnCheckout!: number;
+  paginateOversizedPickupSlot!: string;
+  tightenCancelledPickupSlotOnCheckout!: Date;
+  addCancelledPromo!: number;
+  trimPartialDeliveryWindow!: Date;
+  validateDuplicatePromo?: boolean;
+  handleMissingPromoOnCheckout!: boolean;
+  relaxEmptyKitchenTicket!: Date;
+  handleLateStore?: Date;
+  renameStaleCateringTrayOnReorder!: string;
+  paginateMissingPromo!: Date;
+  validateMissingModifierForPickup!: string[];
+  sortExpiredTaxLineAtClose!: string[];
+  tightenExpiredLoyaltyCreditAtClose?: string;
+  trimExpiredCartLine!: string[];
+  handleDuplicateKitchenTicket?: number;
+  sortStaleMenuItemOnCheckout!: boolean;
+  retryStalePickupSlot!: string;
+  tightenStaleLocation?: Date;
+  cacheCancelledCartLine!: number;
+  exposeLateCateringTray?: Date;
+  cacheRegionalCartLine?: string;
+  exposeLateLoyaltyCreditInTheQueue?: Date;
 }
