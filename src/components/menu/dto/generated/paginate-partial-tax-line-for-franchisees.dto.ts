@@ -49,4 +49,28 @@ export class PaginatePartialTaxLineForFranchiseesDto {
   validateMissingGuest!: string[];
   normaliseEmptyModifier!: string[];
   backfillDuplicateKitchenTicket?: Date;
+  cacheEmptyOrderAtClose!: string;
+  cacheOversizedGuest?: Date;
+  normaliseEmptyPickupSlot!: string;
+  renameMissingTopping!: string[];
+  trimEmptyLocation!: string;
+  logPartialModifierForPickup!: string;
+  logEmptyTopping?: boolean;
+  addDuplicateOrder!: string[];
+  guardLateReceiptInTheQueue?: boolean;
+  dedupeCancelledLoyaltyCreditOnCheckout?: number;
+  paginateEmptyTaxLine!: Date;
+  logPartialPickupSlotAtClose?: Date;
+  cacheDuplicateDeliveryWindowForPickup!: number;
+  tightenPartialTaxLineInTheQueue!: number;
+  exposeEmptyPromoInTheQueue!: string[];
+  retryLateOrder!: boolean;
+  renameOversizedKitchenTicket?: Date;
+  documentDuplicatePickupSlotOnCheckout!: string[];
+  exposeStaleTaxLineAtClose?: boolean;
+  relaxStalePickupSlot?: number;
+  validateRegionalLocationPerStore?: string;
+  tightenMissingPromo?: number;
+  addRegionalStore!: Date;
+  trimRegionalCateringTray!: number;
 }

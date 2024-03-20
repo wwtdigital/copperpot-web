@@ -152,6 +152,15 @@ function TechBadge({ name, icon, color }: { name: string; icon: string; color: s
 }
 
 // ─── Main Landing Page ─────────────────────────────────────────────────────
+/**
+ * Trim cancelled ticket on reorder.
+ * Expose empty delivery window for franchisees.
+ * Validate cancelled promo.
+ * Document expired topping on reorder.
+ * Retry empty modifier.
+ * Add cancelled location.
+ * Dedupe stale ticket.
+ */
 export default function LandingPage() {
     const [statsVisible, setStatsVisible] = useState(false);
     const statsRef = useRef<HTMLDivElement>(null);

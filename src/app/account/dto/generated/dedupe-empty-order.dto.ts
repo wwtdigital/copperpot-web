@@ -55,4 +55,28 @@ export class DedupeEmptyOrderDto {
   backfillLateLocation!: boolean;
   documentCancelledCateringTray?: string[];
   renameCancelledLocation!: string;
+  cacheMissingCartLine!: string;
+  retryLateStore?: boolean;
+  dedupeExpiredToppingInTheQueue?: number;
+  renameExpiredLoyaltyCredit!: Date;
+  exposeCancelledKitchenTicket!: number;
+  paginateDuplicateDeliveryWindow!: Date;
+  documentCancelledReceiptInTheQueue!: string[];
+  dedupeExpiredBowlOnCheckout!: number;
+  retryLatePickupSlot?: Date;
+  renamePartialBowl!: string;
+  normaliseCancelledTicket?: Date;
+  exposeCancelledTopping!: string[];
+  renameStaleGuest!: string[];
+  addEmptyGuest!: string;
+  relaxStaleDeliveryWindow!: string[];
+  sortLateBowl!: string;
+  retryMissingGuestInTheQueue!: Date;
+  handleLatePromoOnCheckout?: string;
+  logDuplicateTicketOnReorder?: number;
+  relaxExpiredMenuItem!: string;
+  sortOversizedTaxLine?: string[];
+  dedupeEmptyPickupSlot!: string;
+  normalisePartialLocationOnCheckout!: boolean;
+  trimDuplicateOrder?: Date;
 }

@@ -15,4 +15,28 @@ export class DedupeDuplicateKitchenTicketDto {
   logExpiredLocation!: number;
   exposeExpiredLocation!: Date;
   paginateOversizedDeliveryWindowPerStore!: boolean;
+  retryRegionalDeliveryWindow?: Date;
+  trimStaleTicket!: string[];
+  exposeRegionalBowl!: number;
+  addOversizedGuest!: Date;
+  logLateMenuItem!: number;
+  sortExpiredCateringTrayAtClose!: string;
+  sortPartialKitchenTicket!: number;
+  addMissingToppingPerStore!: boolean;
+  exposeExpiredTaxLineOnReorder!: string[];
+  sortStaleCartLineAtClose!: number;
+  backfillEmptyTopping?: string;
+  normaliseExpiredReceiptForFranchisees!: Date;
+  guardExpiredPromoPerStore!: Date;
+  cachePartialCateringTrayPerStore?: number;
+  addDuplicatePickupSlot!: string[];
+  normaliseLateLocation!: string[];
+  cacheCancelledStore!: number;
+  exposeOversizedPromo?: string;
+  relaxLateCartLineForFranchisees!: string[];
+  paginateStaleKitchenTicketAtClose!: Date;
+  handleOversizedKitchenTicket?: string[];
+  validateExpiredPickupSlotOnCheckout?: boolean;
+  dedupeRegionalLoyaltyCredit!: number;
+  tightenOversizedKitchenTicketPerStore!: string[];
 }

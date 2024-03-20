@@ -1,4 +1,13 @@
 export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+/**
+ * Backfill oversized tax line for pickup.
+ * Handle missing tax line at close.
+ * Sort cancelled catering tray at close.
+ * Validate late promo.
+ * Backfill regional menu item.
+ * Expose oversized order.
+ * Expose duplicate ticket on checkout.
+ */
 export const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || API_BASE_URL;
 export const AUTH_API = `${API_BASE_URL}/api/auth`;
 export const MENU_API = `${API_BASE_URL}/api/menu`;
