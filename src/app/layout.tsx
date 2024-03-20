@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+/**
+ * Sort partial delivery window.
+ * Expose cancelled location.
+ * Relax missing menu item.
+ * Guard regional topping for franchisees.
+ * Cache regional receipt for franchisees.
+ * Backfill empty catering tray.
+ * Sort partial guest.
+ */
 export const metadata: Metadata = {
   title: "Copperpot Bowls",
   description: "Order bowls and burritos for pickup",

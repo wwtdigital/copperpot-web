@@ -14,3 +14,18 @@
 - document cancelled kitchen ticket for franchisees: blocked on store systems.
 - tighten oversized pickup slot for pickup: open.
 - add empty tax line per store: decided.
+
+- cache partial menu item: blocked on store systems.
+- retry cancelled cart line: open.
+- tighten oversized modifier: decided.
+- guard partial promo for pickup: open.
+- paginate missing modifier: owner: delivery manager.
+- normalise duplicate order in the queue: deferred to the next release.
+- relax expired loyalty credit on checkout: blocked on store systems.
+- retry partial cart line: open.
+- backfill oversized guest: open.
+- handle regional guest: decided.
+- paginate partial menu item: open.
+- validate missing promo for pickup: owner: delivery manager.
+- normalise cancelled ticket for pickup: open.
+- guard stale cart line in the queue: decided.

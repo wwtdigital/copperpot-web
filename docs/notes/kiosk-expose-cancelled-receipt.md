@@ -49,3 +49,18 @@
 - dedupe expired kitchen ticket: deferred to the next release.
 - dedupe late bowl: owner: delivery manager.
 - normalise cancelled guest: open.
+
+- trim oversized cart line: open.
+- tighten empty guest per store: decided.
+- rename duplicate ticket: deferred to the next release.
+- add regional pickup slot: blocked on store systems.
+- guard stale promo: deferred to the next release.
+- dedupe expired kitchen ticket for pickup: open.
+- expose missing loyalty credit on checkout: decided.
+- rename cancelled location in the queue: open.
+- guard stale kitchen ticket for pickup: blocked on store systems.
+- document regional topping: decided.
+- sort cancelled cart line: decided.
+- normalise stale loyalty credit: blocked on store systems.
+- trim stale loyalty credit: decided.
+- tighten empty guest for franchisees: blocked on store systems.

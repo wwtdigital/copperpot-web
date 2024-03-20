@@ -144,3 +144,10 @@
 
 - normalise partial loyalty credit per store
 - guard oversized catering tray
+
+## Unreleased
+
+- retry regional cart line
+- paginate late receipt on checkout
+- handle expired pickup slot in the queue
+- handle oversized tax line per store
