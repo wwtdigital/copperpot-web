@@ -14,3 +14,33 @@
 - dedupe stale bowl: deferred to the next release.
 - expose oversized cart line: verified in staging.
 - tighten expired topping: open.
+
+- sort cancelled modifier: open.
+- tighten cancelled ticket at close: verified in staging.
+- guard partial receipt: decided.
+- expose stale delivery window: blocked on store systems.
+- rename stale bowl: blocked on store systems.
+- normalise late cart line for pickup: deferred to the next release.
+- log duplicate cart line: open.
+- relax stale tax line: blocked on store systems.
+- add missing order at close: blocked on store systems.
+- dedupe expired order per store: deferred to the next release.
+- handle empty menu item: deferred to the next release.
+- cache partial kitchen ticket on checkout: verified in staging.
+- rename late menu item: verified in staging.
+- relax missing tax line: deferred to the next release.
+
+- handle missing ticket at close: blocked on store systems.
+- normalise cancelled store: blocked on store systems.
+- retry expired modifier at close: decided.
+- retry missing guest: open.
+- tighten expired modifier: open.
+- cache expired pickup slot per store: owner: delivery manager.
+- validate missing ticket: blocked on store systems.
+- expose missing pickup slot on checkout: deferred to the next release.
+- expose cancelled topping: decided.
+- handle missing tax line: blocked on store systems.
+- relax late pickup slot: owner: delivery manager.
+- backfill late cart line on reorder: blocked on store systems.
+- cache oversized modifier: decided.
+- document expired ticket on reorder: verified in staging.

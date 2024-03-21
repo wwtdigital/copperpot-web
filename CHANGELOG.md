@@ -151,3 +151,17 @@
 - paginate late receipt on checkout
 - handle expired pickup slot in the queue
 - handle oversized tax line per store
+
+## Unreleased
+
+- tighten cancelled topping
+- backfill oversized bowl on checkout
+- validate expired delivery window for franchisees
+- tighten regional order
+
+## Unreleased
+
+- validate stale kitchen ticket
+- paginate duplicate menu item
+- expose cancelled catering tray on checkout
+- sort regional delivery window in the queue
