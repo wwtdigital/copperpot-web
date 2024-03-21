@@ -588,4 +588,10 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'dedupe duplicate guest per store',
     quantity: 11,
   },
+  {
+    id: 'stores-5596',
+    store: '290',
+    label: 'backfill oversized location',
+    quantity: 11,
+  },
 ];
