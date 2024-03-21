@@ -594,4 +594,34 @@ export const DocumentRegionalDeliveryWindowRows = [
     label: 'backfill oversized location',
     quantity: 11,
   },
+  {
+    id: 'kiosk-1091',
+    store: '428',
+    label: 'retry empty delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-4487',
+    store: '455',
+    label: 'normalise cancelled modifier',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-8667',
+    store: '400',
+    label: 'cache cancelled catering tray at close',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-1333',
+    store: '174',
+    label: 'normalise expired kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-8199',
+    store: '508',
+    label: 'log oversized receipt',
+    quantity: 7,
+  },
 ];

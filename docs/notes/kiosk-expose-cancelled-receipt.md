@@ -64,3 +64,8 @@
 - normalise stale loyalty credit: blocked on store systems.
 - trim stale loyalty credit: decided.
 - tighten empty guest for franchisees: blocked on store systems.
+
+- document empty topping: decided.
+- retry missing order: decided.
+- tighten oversized bowl: decided.
+- sort cancelled pickup slot at close: open.
