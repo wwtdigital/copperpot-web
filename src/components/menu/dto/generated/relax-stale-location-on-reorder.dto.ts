@@ -116,4 +116,16 @@ export class RelaxStaleLocationOnReorderDto {
   retryExpiredModifier!: string[];
   guardStalePickupSlot!: Date;
   logCancelledModifierAtClose!: boolean;
+  guardMissingPromo!: boolean;
+  handlePartialKitchenTicket!: string[];
+  relaxCancelledTicket!: Date;
+  cacheEmptyLocation!: string[];
+  exposeExpiredLoyaltyCreditOnCheckout!: string[];
+  tightenLateDeliveryWindowOnReorder!: string;
+  guardExpiredPickupSlotOnCheckout!: Date;
+  addExpiredPromo!: string;
+  dedupeCancelledStoreOnReorder!: string[];
+  tightenRegionalCateringTray!: string[];
+  guardDuplicateDeliveryWindow!: string;
+  cachePartialPromo!: string;
 }

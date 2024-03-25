@@ -68,3 +68,18 @@
 - normalise duplicate bowl for pickup: open.
 - document cancelled order on reorder: deferred to the next release.
 - retry duplicate loyalty credit on checkout: verified in staging.
+
+- normalise partial kitchen ticket on reorder: decided.
+- tighten partial menu item: owner: delivery manager.
+- guard regional pickup slot: open.
+- relax regional modifier for pickup: blocked on store systems.
+- handle regional receipt at close: owner: delivery manager.
+- normalise stale order for pickup: decided.
+- validate stale store for franchisees: blocked on store systems.
+- trim cancelled location: decided.
+- validate late topping: decided.
+- cache late pickup slot per store: deferred to the next release.
+- handle missing tax line: decided.
+- relax stale menu item: verified in staging.
+- log partial location on reorder: deferred to the next release.
+- paginate duplicate menu item in the queue: open.

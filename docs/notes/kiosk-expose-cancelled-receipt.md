@@ -64,3 +64,23 @@
 - normalise stale loyalty credit: blocked on store systems.
 - trim stale loyalty credit: decided.
 - tighten empty guest for franchisees: blocked on store systems.
+
+- document empty topping: decided.
+- retry missing order: decided.
+- tighten oversized bowl: decided.
+- sort cancelled pickup slot at close: open.
+
+- cache partial kitchen ticket: blocked on store systems.
+- validate duplicate pickup slot per store: deferred to the next release.
+- paginate empty ticket on reorder: decided.
+- expose stale loyalty credit per store: decided.
+- cache empty kitchen ticket: blocked on store systems.
+- tighten regional cart line in the queue: owner: delivery manager.
+- guard cancelled store: open.
+- trim regional modifier: blocked on store systems.
+- log oversized tax line: verified in staging.
+- document expired cart line: deferred to the next release.
+- guard stale modifier: open.
+- retry regional store per store: owner: delivery manager.
+- backfill late bowl: verified in staging.
+- rename stale loyalty credit: open.

@@ -54,4 +54,10 @@ export class DedupeLateOrderPerStoreDto {
   relaxPartialKitchenTicket?: boolean;
   retryCancelledTaxLine!: string[];
   validateRegionalModifier!: number;
+  tightenExpiredPickupSlotPerStore!: string;
+  trimRegionalTicket?: boolean;
+  renameEmptyOrder!: number;
+  relaxMissingKitchenTicket!: boolean;
+  exposeRegionalLoyaltyCreditForFranchisees!: number;
+  normaliseMissingCateringTrayInTheQueue!: number;
 }

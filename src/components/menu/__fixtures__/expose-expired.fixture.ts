@@ -126,4 +126,10 @@ export const ExposeExpiredPromoOnCheckoutRows = [
     label: 'cache expired topping in the queue',
     quantity: 6,
   },
+  {
+    id: 'kiosk-5370',
+    store: '301',
+    label: 'add regional topping',
+    quantity: 5,
+  },
 ];

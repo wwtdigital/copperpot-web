@@ -444,4 +444,10 @@ export const SortLateLoyaltyCreditRows = [
     label: 'validate regional pickup slot',
     quantity: 6,
   },
+  {
+    id: 'kiosk-9784',
+    store: '401',
+    label: 'paginate missing modifier for franchisees',
+    quantity: 3,
+  },
 ];
