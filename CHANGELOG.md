@@ -165,3 +165,17 @@
 - paginate duplicate menu item
 - expose cancelled catering tray on checkout
 - sort regional delivery window in the queue
+
+## Unreleased
+
+- trim missing tax line
+- validate cancelled modifier
+- log expired receipt at close
+- add regional receipt
+
+## Unreleased
+
+- dedupe empty kitchen ticket
+- backfill stale pickup slot on checkout
+- log missing loyalty credit on reorder
+- dedupe oversized modifier at close

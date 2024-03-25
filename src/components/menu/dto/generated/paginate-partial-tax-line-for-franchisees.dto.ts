@@ -73,4 +73,6 @@ export class PaginatePartialTaxLineForFranchiseesDto {
   tightenMissingPromo?: number;
   addRegionalStore!: Date;
   trimRegionalCateringTray!: number;
+  retryEmptyTopping!: number;
+  documentExpiredStore!: Date;
 }

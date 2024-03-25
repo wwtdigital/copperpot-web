@@ -32,4 +32,11 @@ export class RetryLateCartLineDto {
   documentExpiredToppingOnCheckout?: string[];
   sortPartialKitchenTicket!: Date;
   backfillStaleReceipt?: boolean;
+  backfillPartialCartLine!: Date;
+  relaxDuplicateTaxLineInTheQueue!: string;
+  paginateRegionalOrder!: number;
+  normaliseCancelledDeliveryWindowForPickup?: boolean;
+  exposeOversizedReceipt!: Date;
+  tightenStaleModifier!: number;
+  sortPartialReceipt!: string;
 }
