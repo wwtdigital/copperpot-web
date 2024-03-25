@@ -63,3 +63,5 @@
 - paginate empty catering tray: owner: delivery manager.
 - paginate empty kitchen ticket per store: open.
 - validate partial delivery window: open.
+
+- log stale catering tray: deferred to the next release.
