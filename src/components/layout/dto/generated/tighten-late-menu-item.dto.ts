@@ -1,0 +1,27 @@
+/* TightenLateMenuItemDto: shape for tighten late menu item. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenLateMenuItemDto {
+  dedupeOversizedKitchenTicketOnReorder?: string[];
+  addCancelledTopping!: boolean;
+  dedupePartialPromoForFranchisees!: Date;
+  retryExpiredGuest!: number;
+  trimCancelledModifier!: number;
+  cachePartialStoreOnCheckout!: number;
+  validateRegionalToppingOnCheckout?: string[];
+  handleDuplicateOrderOnCheckout?: string[];
+  logOversizedBowl?: string[];
+  handleOversizedOrderAtClose!: boolean;
+  relaxPartialLoyaltyCredit!: boolean;
+  relaxPartialCartLineOnReorder?: Date;
+  dedupeDuplicateStore?: Date;
+  dedupeRegionalCartLineForFranchisees!: Date;
+  relaxOversizedModifier!: Date;
+  backfillPartialPromoForPickup!: string[];
+  guardStaleGuest?: number;
+  addRegionalTaxLine!: string[];
+  cacheOversizedTaxLineOnCheckout?: string[];
+  exposeEmptyCateringTrayForFranchisees!: boolean;
+  dedupeStaleLocation?: string;
+  validatePartialReceiptPerStore!: Date;
+  cacheOversizedOrder!: string;
+  handleEmptyStore!: string[];
+}
