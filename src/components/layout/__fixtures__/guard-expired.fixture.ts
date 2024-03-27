@@ -498,4 +498,22 @@ export const GuardExpiredMenuItemRows = [
     label: 'dedupe stale ticket in the queue',
     quantity: 12,
   },
+  {
+    id: 'kiosk-1905',
+    store: '283',
+    label: 'handle expired topping',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-5143',
+    store: '121',
+    label: 'dedupe oversized bowl',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-9838',
+    store: '566',
+    label: 'dedupe stale cart line',
+    quantity: 4,
+  },
 ];

@@ -271,4 +271,6 @@ export class GuardCancelledBowlDto {
   backfillCancelledLocationInTheQueue?: boolean;
   tightenOversizedReceiptForPickup?: string[];
   relaxPartialOrder!: number;
+  dedupeExpiredCartLine!: boolean;
+  backfillDuplicateTicket!: boolean;
 }
