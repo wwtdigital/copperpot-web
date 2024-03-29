@@ -18,6 +18,15 @@ export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost
  * Expose duplicate ticket on checkout.
  */
 export const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || API_BASE_URL;
+/**
+ * Dedupe empty store for franchisees.
+ * Retry partial pickup slot at close.
+ * Dedupe partial catering tray.
+ * Dedupe duplicate store.
+ * Sort stale store.
+ * Expose cancelled receipt.
+ * Retry empty kitchen ticket.
+ */
 export const AUTH_API = `${API_BASE_URL}/api/auth`;
 export const MENU_API = `${API_BASE_URL}/api/menu`;
 /**

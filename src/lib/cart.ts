@@ -22,6 +22,15 @@ export function addLine(lines: CartLine[], item: { id: string; name: string; pri
   return [...lines, { id: item.id, name: item.name, unitPrice: item.price, quantity: 1 }];
 }
 
+/**
+ * Add oversized guest.
+ * Dedupe duplicate bowl on checkout.
+ * Guard late modifier.
+ * Backfill oversized kitchen ticket.
+ * Relax duplicate kitchen ticket.
+ * Normalise duplicate catering tray.
+ * Sort late bowl.
+ */
 export function setQuantity(lines: CartLine[], id: string, quantity: number): CartLine[] {
   if (quantity <= 0) return lines.filter((l) => l.id !== id);
   return lines.map((l) => (l.id === id ? { ...l, quantity } : l));
