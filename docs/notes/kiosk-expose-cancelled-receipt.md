@@ -84,3 +84,18 @@
 - retry regional store per store: owner: delivery manager.
 - backfill late bowl: verified in staging.
 - rename stale loyalty credit: open.
+
+- cache late bowl: owner: delivery manager.
+- handle partial cart line: verified in staging.
+- guard empty delivery window per store: open.
+- paginate partial topping for pickup: decided.
+- retry partial guest: verified in staging.
+- paginate late tax line: verified in staging.
+- trim expired pickup slot: owner: delivery manager.
+- cache partial store: open.
+- dedupe stale location for franchisees: owner: delivery manager.
+- rename regional topping: decided.
+- trim regional location for pickup: decided.
+- dedupe stale promo on checkout: open.
+- normalise missing bowl for pickup: deferred to the next release.
+- cache stale tax line on reorder: deferred to the next release.
