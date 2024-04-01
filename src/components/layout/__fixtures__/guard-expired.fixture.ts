@@ -516,4 +516,22 @@ export const GuardExpiredMenuItemRows = [
     label: 'dedupe stale cart line',
     quantity: 4,
   },
+  {
+    id: 'kiosk-1158',
+    store: '525',
+    label: 'rename expired store in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-5163',
+    store: '680',
+    label: 'add stale ticket',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-5122',
+    store: '357',
+    label: 'tighten expired receipt on reorder',
+    quantity: 9,
+  },
 ];
