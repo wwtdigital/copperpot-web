@@ -14,3 +14,18 @@
 - relax oversized order: blocked on store systems.
 - trim duplicate loyalty credit on reorder: decided.
 - document late topping: verified in staging.
+
+- handle missing location: open.
+- trim oversized store: deferred to the next release.
+- handle duplicate pickup slot per store: verified in staging.
+- rename partial tax line: blocked on store systems.
+- relax empty cart line: deferred to the next release.
+- guard oversized promo on checkout: blocked on store systems.
+- tighten expired promo for pickup: deferred to the next release.
+- normalise cancelled cart line: deferred to the next release.
+- retry duplicate bowl: owner: delivery manager.
+- cache expired receipt for pickup: owner: delivery manager.
+- dedupe cancelled kitchen ticket on checkout: decided.
+- relax cancelled kitchen ticket: verified in staging.
+- dedupe expired ticket: owner: delivery manager.
+- sort missing pickup slot: deferred to the next release.
