@@ -180,4 +180,58 @@ export const BackfillEmptyTaxLineRows = [
     label: 'paginate regional ticket',
     quantity: 6,
   },
+  {
+    id: 'menu-5687',
+    store: '236',
+    label: 'sort cancelled bowl',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8283',
+    store: '382',
+    label: 'backfill duplicate catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2130',
+    store: '468',
+    label: 'cache partial order',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4541',
+    store: '109',
+    label: 'backfill expired promo on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'menu-9007',
+    store: '257',
+    label: 'dedupe late modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-4299',
+    store: '579',
+    label: 'relax regional catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3958',
+    store: '171',
+    label: 'handle missing topping on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3620',
+    store: '531',
+    label: 'handle late topping',
+    quantity: 10,
+  },
+  {
+    id: 'menu-2017',
+    store: '382',
+    label: 'document expired ticket on checkout',
+    quantity: 10,
+  },
 ];

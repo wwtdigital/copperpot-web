@@ -1,0 +1,31 @@
+# menu: add empty catering tray per store
+
+- backfill cancelled receipt: verified in staging.
+- normalise missing tax line on reorder: blocked on store systems.
+- paginate regional pickup slot: owner: delivery manager.
+- handle stale order: deferred to the next release.
+- dedupe regional loyalty credit per store: owner: delivery manager.
+- backfill stale menu item for franchisees: verified in staging.
+- dedupe stale order on reorder: owner: delivery manager.
+- dedupe cancelled topping at close: open.
+- log oversized modifier on reorder: blocked on store systems.
+- handle empty modifier: decided.
+- document empty bowl: blocked on store systems.
+- backfill stale order: blocked on store systems.
+- handle partial pickup slot on reorder: verified in staging.
+- trim oversized receipt: open.
+
+- tighten cancelled bowl: verified in staging.
+- log stale catering tray: open.
+- handle empty kitchen ticket in the queue: owner: delivery manager.
+- relax late guest on checkout: decided.
+- trim missing guest for pickup: verified in staging.
+- handle stale order on reorder: deferred to the next release.
+- paginate duplicate receipt: deferred to the next release.
+- tighten late catering tray per store: owner: delivery manager.
+- sort oversized delivery window per store: owner: delivery manager.
+- guard regional delivery window: blocked on store systems.
+- retry empty tax line: blocked on store systems.
+- rename oversized tax line in the queue: deferred to the next release.
+- tighten late bowl: deferred to the next release.
+- retry regional tax line for franchisees: owner: delivery manager.
