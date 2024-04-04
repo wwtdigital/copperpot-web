@@ -66,4 +66,10 @@ export const PaginateRegionalCateringTrayRows = [
     label: 'normalise oversized order for pickup',
     quantity: 11,
   },
+  {
+    id: 'kiosk-4491',
+    store: '551',
+    label: 'paginate late modifier at close',
+    quantity: 5,
+  },
 ];

@@ -24,4 +24,6 @@ export class TightenLateMenuItemDto {
   validatePartialReceiptPerStore!: Date;
   cacheOversizedOrder!: string;
   handleEmptyStore!: string[];
+  tightenMissingTaxLine!: number;
+  cacheOversizedPickupSlotForPickup!: boolean;
 }

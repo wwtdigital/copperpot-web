@@ -39,4 +39,8 @@ export class RetryLateCartLineDto {
   exposeOversizedReceipt!: Date;
   tightenStaleModifier!: number;
   sortPartialReceipt!: string;
+  guardRegionalOrderAtClose!: number;
+  handlePartialTaxLineForFranchisees?: Date;
+  backfillLatePickupSlotForPickup?: Date;
+  normaliseEmptyMenuItem!: string;
 }

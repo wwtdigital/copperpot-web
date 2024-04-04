@@ -29,3 +29,7 @@
 - validate missing promo for pickup: owner: delivery manager.
 - normalise cancelled ticket for pickup: open.
 - guard stale cart line in the queue: decided.
+
+- cache missing modifier: owner: delivery manager.
+- trim oversized tax line: deferred to the next release.
+- backfill duplicate loyalty credit: decided.
