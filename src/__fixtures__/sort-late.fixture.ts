@@ -450,4 +450,22 @@ export const SortLateLoyaltyCreditRows = [
     label: 'paginate missing modifier for franchisees',
     quantity: 3,
   },
+  {
+    id: 'kiosk-9484',
+    store: '606',
+    label: 'paginate expired order at close',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-5417',
+    store: '186',
+    label: 'tighten stale receipt for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-6264',
+    store: '575',
+    label: 'relax partial menu item',
+    quantity: 2,
+  },
 ];
