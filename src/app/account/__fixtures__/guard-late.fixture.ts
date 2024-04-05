@@ -312,4 +312,10 @@ export const GuardLateToppingAtCloseRows = [
     label: 'relax stale store for franchisees',
     quantity: 1,
   },
+  {
+    id: 'kiosk-1327',
+    store: '455',
+    label: 'sort cancelled delivery window',
+    quantity: 4,
+  },
 ];
