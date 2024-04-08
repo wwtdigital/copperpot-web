@@ -60,4 +60,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'relax duplicate kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'kiosk-9857',
+    store: '554',
+    label: 'retry missing menu item at close',
+    quantity: 6,
+  },
 ];
