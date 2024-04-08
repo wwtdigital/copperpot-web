@@ -14,3 +14,6 @@
 - guard stale topping for franchisees: open.
 - backfill missing location for pickup: verified in staging.
 - guard late receipt: verified in staging.
+
+- expose duplicate kitchen ticket: decided.
+- relax stale pickup slot: blocked on store systems.
