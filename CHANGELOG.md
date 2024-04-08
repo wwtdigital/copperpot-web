@@ -179,3 +179,10 @@
 - backfill stale pickup slot on checkout
 - log missing loyalty credit on reorder
 - dedupe oversized modifier at close
+
+## Unreleased
+
+- log oversized kitchen ticket
+- normalise oversized tax line on reorder
+- validate regional order per store
+- normalise partial modifier per store
