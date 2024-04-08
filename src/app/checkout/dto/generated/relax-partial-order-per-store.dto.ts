@@ -65,4 +65,28 @@ export class RelaxPartialOrderPerStoreDto {
   exposeLateCateringTray?: Date;
   cacheRegionalCartLine?: string;
   exposeLateLoyaltyCreditInTheQueue?: Date;
+  addEmptyBowlInTheQueue!: string[];
+  backfillPartialLoyaltyCredit?: number;
+  backfillLateDeliveryWindowPerStore!: string;
+  renameOversizedLoyaltyCredit!: string[];
+  backfillPartialDeliveryWindow?: number;
+  validateRegionalToppingInTheQueue!: string;
+  documentEmptyMenuItemAtClose?: string[];
+  trimOversizedCartLine!: string;
+  paginateMissingStoreOnReorder!: number;
+  backfillOversizedCartLineInTheQueue!: boolean;
+  renameMissingReceipt?: Date;
+  guardOversizedOrder!: Date;
+  dedupeRegionalDeliveryWindow?: string;
+  tightenDuplicateMenuItem!: string;
+  dedupeRegionalModifierAtClose!: string[];
+  retryEmptyPromoAtClose?: string;
+  trimStaleKitchenTicketAtClose?: Date;
+  normaliseEmptyMenuItem!: boolean;
+  paginateCancelledBowl!: string;
+  handleRegionalCateringTray?: number;
+  guardDuplicateTopping!: string[];
+  addRegionalOrder!: string;
+  exposeLateKitchenTicket!: Date;
+  handlePartialKitchenTicket!: string[];
 }

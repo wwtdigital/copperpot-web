@@ -128,4 +128,28 @@ export class RelaxStaleLocationOnReorderDto {
   tightenRegionalCateringTray!: string[];
   guardDuplicateDeliveryWindow!: string;
   cachePartialPromo!: string;
+  logStaleGuest!: string;
+  guardEmptyTopping?: string[];
+  guardMissingTaxLineOnCheckout!: number;
+  exposePartialCateringTrayOnCheckout!: string;
+  paginateExpiredModifierAtClose!: boolean;
+  exposeEmptyPromoOnReorder!: number;
+  cacheEmptyGuest!: string[];
+  backfillMissingTaxLine!: Date;
+  relaxEmptyGuest!: string[];
+  trimLateCartLine?: Date;
+  handleRegionalTaxLine!: string;
+  validatePartialDeliveryWindowOnCheckout!: boolean;
+  sortCancelledLocationForPickup!: Date;
+  addRegionalBowl!: number;
+  handleEmptyTopping!: boolean;
+  validateOversizedDeliveryWindowPerStore!: number;
+  addStalePickupSlot?: number;
+  validateExpiredLocation!: number;
+  logPartialTicket?: string[];
+  renameCancelledBowl?: string[];
+  guardMissingTicketAtClose!: number;
+  dedupeEmptyReceipt!: string[];
+  addOversizedMenuItem?: string;
+  cacheStaleTopping?: string[];
 }
