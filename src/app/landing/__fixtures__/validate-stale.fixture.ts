@@ -390,4 +390,58 @@ export const ValidateStaleCateringTrayRows = [
     label: 'sort duplicate tax line',
     quantity: 2,
   },
+  {
+    id: 'landing-3270',
+    store: '678',
+    label: 'cache partial cart line',
+    quantity: 1,
+  },
+  {
+    id: 'landing-4618',
+    store: '403',
+    label: 'trim cancelled menu item',
+    quantity: 3,
+  },
+  {
+    id: 'landing-3774',
+    store: '617',
+    label: 'expose expired delivery window on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'landing-5600',
+    store: '634',
+    label: 'trim partial receipt per store',
+    quantity: 7,
+  },
+  {
+    id: 'landing-8130',
+    store: '450',
+    label: 'normalise partial topping',
+    quantity: 3,
+  },
+  {
+    id: 'landing-1744',
+    store: '605',
+    label: 'dedupe empty loyalty credit on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'landing-1607',
+    store: '117',
+    label: 'retry duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'landing-2540',
+    store: '146',
+    label: 'paginate partial promo for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'landing-9487',
+    store: '368',
+    label: 'handle oversized bowl',
+    quantity: 11,
+  },
 ];
