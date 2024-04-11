@@ -336,4 +336,58 @@ export const ValidateStaleCateringTrayRows = [
     label: 'normalise partial bowl',
     quantity: 11,
   },
+  {
+    id: 'landing-4189',
+    store: '254',
+    label: 'add missing ticket on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9569',
+    store: '533',
+    label: 'retry missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'landing-7949',
+    store: '616',
+    label: 'handle oversized guest on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'landing-1576',
+    store: '386',
+    label: 'backfill cancelled receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'landing-3357',
+    store: '694',
+    label: 'document late cart line for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'landing-9559',
+    store: '426',
+    label: 'rename late receipt per store',
+    quantity: 1,
+  },
+  {
+    id: 'landing-6876',
+    store: '213',
+    label: 'add late delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9811',
+    store: '278',
+    label: 'cache empty ticket',
+    quantity: 2,
+  },
+  {
+    id: 'landing-2840',
+    store: '384',
+    label: 'sort duplicate tax line',
+    quantity: 2,
+  },
 ];
