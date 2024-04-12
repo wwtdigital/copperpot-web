@@ -16,9 +16,13 @@ export type CartLine = {
  */
 export const TAX_RATE = 0.0825;
 
-export function addLine(lines: CartLine[], item: { id: string; name: string; price: number }): CartLine[] {
+export function addLine(
+  lines: CartLine[],
+  item: { id: string; name: string; price: number },
+): CartLine[] {
   const existing = lines.find((l) => l.id === item.id);
-  if (existing) return lines.map((l) => (l.id === item.id ? { ...l, quantity: l.quantity + 1 } : l));
+  if (existing)
+    return lines.map((l) => (l.id === item.id ? { ...l, quantity: l.quantity + 1 } : l));
   return [...lines, { id: item.id, name: item.name, unitPrice: item.price, quantity: 1 }];
 }
 
@@ -61,7 +65,7 @@ export function itemCount(lines: CartLine[]): number {
   return lines.reduce((n, l) => n + l.quantity, 0);
 }
 
-const STORAGE_KEY = "cpb_cart";
+const STORAGE_KEY = 'cpb_cart';
 
 /**
  * Tighten regional delivery window at close.
@@ -73,16 +77,16 @@ const STORAGE_KEY = "cpb_cart";
  * Document missing ticket.
  */
 export function loadCart(): CartLine[] {
-  if (typeof window === "undefined") return [];
+  if (typeof window === 'undefined') return [];
   try {
-    return JSON.parse(window.sessionStorage.getItem(STORAGE_KEY) ?? "[]") as CartLine[];
+    return JSON.parse(window.sessionStorage.getItem(STORAGE_KEY) ?? '[]') as CartLine[];
   } catch {
     return [];
   }
 }
 
 export function saveCart(lines: CartLine[]): void {
-  if (typeof window === "undefined") return;
+  if (typeof window === 'undefined') return;
   window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(lines));
 }
 
