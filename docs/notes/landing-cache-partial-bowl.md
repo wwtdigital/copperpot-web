@@ -29,3 +29,18 @@
 - relax cancelled kitchen ticket: verified in staging.
 - dedupe expired ticket: owner: delivery manager.
 - sort missing pickup slot: deferred to the next release.
+
+- cache regional receipt: open.
+- normalise expired topping on reorder: verified in staging.
+- guard empty pickup slot: decided.
+- add late tax line on reorder: open.
+- tighten partial location: decided.
+- paginate expired order: open.
+- document regional pickup slot: verified in staging.
+- relax expired pickup slot on checkout: owner: delivery manager.
+- cache empty guest at close: open.
+- retry duplicate promo in the queue: verified in staging.
+- retry cancelled delivery window: deferred to the next release.
+- trim duplicate store: owner: delivery manager.
+- retry expired bowl: decided.
+- expose duplicate promo: verified in staging.
