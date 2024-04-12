@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { formatMoney } from "@/lib/money";
+import { formatMoney } from '@/lib/money';
 
 /**
  * Normalise missing kitchen ticket at close.
@@ -40,7 +40,10 @@ export default function MenuCard({
   onAdd: (item: MenuCardItem) => void;
 }) {
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/5 p-4 flex flex-col gap-3" data-testid="menu-card">
+    <article
+      className="rounded-2xl border border-white/10 bg-white/5 p-4 flex flex-col gap-3"
+      data-testid="menu-card"
+    >
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="font-heading font-bold text-slate-100">{item.name}</h3>
@@ -55,7 +58,11 @@ export default function MenuCard({
         disabled={!item.available}
         className="mt-auto rounded-xl bg-emerald-500 px-3 py-2 text-sm font-bold text-slate-950 disabled:opacity-40"
       >
-        {item.available ? (quantity > 0 ? `Add another (${quantity} in cart)` : "Add to order") : "Sold out"}
+        {item.available
+          ? quantity > 0
+            ? `Add another (${quantity} in cart)`
+            : 'Add to order'
+          : 'Sold out'}
       </button>
     </article>
   );

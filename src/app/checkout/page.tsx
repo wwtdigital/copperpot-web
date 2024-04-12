@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import SiteHeader from "@/components/layout/SiteHeader";
-import CartSummary from "@/components/cart/CartSummary";
-import { type CartLine, loadCart, saveCart, setQuantity, total } from "@/lib/cart";
-import { ORDER_API } from "@/lib/config";
+import { useEffect, useState } from 'react';
+import SiteHeader from '@/components/layout/SiteHeader';
+import CartSummary from '@/components/cart/CartSummary';
+import { type CartLine, loadCart, saveCart, setQuantity, total } from '@/lib/cart';
+import { ORDER_API } from '@/lib/config';
 
 /**
  * Backfill oversized location at close.
@@ -31,19 +31,22 @@ export default function CheckoutPage() {
   };
 
   const placeOrder = async () => {
-    setStatus("Placing your order...");
+    setStatus('Placing your order...');
     try {
       const res = await fetch(ORDER_API, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: lines.map((l) => ({ menuItem: l.id, quantity: l.quantity })), totalAmount: total(lines) }),
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          items: lines.map((l) => ({ menuItem: l.id, quantity: l.quantity })),
+          totalAmount: total(lines),
+        }),
       });
       if (!res.ok) throw new Error(`order failed: ${res.status}`);
       saveCart([]);
       setLines([]);
-      setStatus("Order placed. Head to the pickup shelf when your name is called.");
+      setStatus('Order placed. Head to the pickup shelf when your name is called.');
     } catch {
-      setStatus("We could not place the order. Try again or order at the counter.");
+      setStatus('We could not place the order. Try again or order at the counter.');
     }
   };
 
@@ -54,7 +57,12 @@ export default function CheckoutPage() {
         <h1 className="font-heading text-2xl font-extrabold">Checkout</h1>
         <CartSummary lines={lines} onChangeQuantity={change} />
         {status && <p className="text-sm text-emerald-300">{status}</p>}
-        <button type="button" onClick={placeOrder} disabled={lines.length === 0} className="rounded-xl bg-emerald-500 px-4 py-2 font-bold text-slate-950 disabled:opacity-40">
+        <button
+          type="button"
+          onClick={placeOrder}
+          disabled={lines.length === 0}
+          className="rounded-xl bg-emerald-500 px-4 py-2 font-bold text-slate-950 disabled:opacity-40"
+        >
           Place order
         </button>
       </section>

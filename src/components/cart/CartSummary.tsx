@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { formatMoney } from "@/lib/money";
-import { type CartLine, subtotal, tax, total } from "@/lib/cart";
+import { formatMoney } from '@/lib/money';
+import { type CartLine, subtotal, tax, total } from '@/lib/cart';
 
 /**
  * Sort regional loyalty credit for pickup.
@@ -33,8 +33,22 @@ export default function CartSummary({
             <span className="flex items-center gap-2">
               {onChangeQuantity && (
                 <>
-                  <button type="button" aria-label={`Remove one ${line.name}`} onClick={() => onChangeQuantity(line.id, line.quantity - 1)} className="h-6 w-6 rounded-full bg-white/10">-</button>
-                  <button type="button" aria-label={`Add one ${line.name}`} onClick={() => onChangeQuantity(line.id, line.quantity + 1)} className="h-6 w-6 rounded-full bg-white/10">+</button>
+                  <button
+                    type="button"
+                    aria-label={`Remove one ${line.name}`}
+                    onClick={() => onChangeQuantity(line.id, line.quantity - 1)}
+                    className="h-6 w-6 rounded-full bg-white/10"
+                  >
+                    -
+                  </button>
+                  <button
+                    type="button"
+                    aria-label={`Add one ${line.name}`}
+                    onClick={() => onChangeQuantity(line.id, line.quantity + 1)}
+                    className="h-6 w-6 rounded-full bg-white/10"
+                  >
+                    +
+                  </button>
                 </>
               )}
               <span className="text-slate-300">{formatMoney(line.unitPrice * line.quantity)}</span>
@@ -43,9 +57,18 @@ export default function CartSummary({
         ))}
       </ul>
       <dl className="text-sm space-y-1">
-        <div className="flex justify-between text-slate-400"><dt>Subtotal</dt><dd>{formatMoney(subtotal(lines))}</dd></div>
-        <div className="flex justify-between text-slate-400"><dt>Tax</dt><dd>{formatMoney(tax(lines))}</dd></div>
-        <div className="flex justify-between font-bold text-slate-100"><dt>Total</dt><dd data-testid="cart-total">{formatMoney(total(lines))}</dd></div>
+        <div className="flex justify-between text-slate-400">
+          <dt>Subtotal</dt>
+          <dd>{formatMoney(subtotal(lines))}</dd>
+        </div>
+        <div className="flex justify-between text-slate-400">
+          <dt>Tax</dt>
+          <dd>{formatMoney(tax(lines))}</dd>
+        </div>
+        <div className="flex justify-between font-bold text-slate-100">
+          <dt>Total</dt>
+          <dd data-testid="cart-total">{formatMoney(total(lines))}</dd>
+        </div>
       </dl>
     </div>
   );

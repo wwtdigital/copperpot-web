@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 /**
  * Sort partial delivery window.
@@ -11,8 +11,8 @@ import "./globals.css";
  * Sort partial guest.
  */
 export const metadata: Metadata = {
-  title: "Copperpot Bowls",
-  description: "Order bowls and burritos for pickup",
+  title: 'Copperpot Bowls',
+  description: 'Order bowls and burritos for pickup',
 };
 
 /**

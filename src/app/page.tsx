@@ -1,46 +1,85 @@
-"use client";
+'use client';
 
-import { useEffect, useMemo, useState, useCallback, useRef } from "react";
-import { io, Socket } from "socket.io-client";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { API_BASE_URL, MENU_API, ORDER_API, PAYMENT_API as PAY_API, SOCKET_URL, SETTINGS_API } from "@/lib/config";
+import { useEffect, useMemo, useState, useCallback, useRef } from 'react';
+import { io, Socket } from 'socket.io-client';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+import {
+  API_BASE_URL,
+  MENU_API,
+  ORDER_API,
+  PAYMENT_API as PAY_API,
+  SOCKET_URL,
+  SETTINGS_API,
+} from '@/lib/config';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type MenuItem = {
-  _id: string; name: string; category: string; price: number;
-  isAvailable: boolean; imageUrl?: string; veg_or_nonveg: "veg" | "non-veg";
+  _id: string;
+  name: string;
+  category: string;
+  price: number;
+  isAvailable: boolean;
+  imageUrl?: string;
+  veg_or_nonveg: 'veg' | 'non-veg';
 };
 type CartItem = { item: MenuItem; quantity: number };
 type User = { _id: string; name: string; loyalty_no: string; role: string };
-type PaymentMethod = "upi" | "card" | "cash";
+type PaymentMethod = 'upi' | 'card' | 'cash';
 type OrderHistoryItem = {
-  _id: string; createdAt: string; totalAmount: number;
+  _id: string;
+  createdAt: string;
+  totalAmount: number;
   orderNumber?: number;
-  status: "Queued" | "Pending" | "Cooking" | "Ready" | "Completed";
+  status: 'Queued' | 'Pending' | 'Cooking' | 'Ready' | 'Completed';
   paymentMethod: PaymentMethod;
   items: { menuItem: { name: string; price: number } | null; quantity: number }[];
 };
-type PaymentConfig = { configured: boolean; keyId: string | null; upiId: string; storeName: string };
+type PaymentConfig = {
+  configured: boolean;
+  keyId: string | null;
+  upiId: string;
+  storeName: string;
+};
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 // Constants removed - using central config
 
 const CATEGORY_META: Record<string, { icon: string; color: string }> = {
-  Breakfast: { icon: "🍳", color: "from-amber-500/20 to-yellow-500/10" },
-  "Bowls": { icon: "🍚", color: "from-emerald-500/20 to-teal-500/10" },
-  Burritos: { icon: "🍛", color: "from-orange-500/20 to-red-500/10" },
-  Sides: { icon: "🍟", color: "from-yellow-500/20 to-orange-500/10" },
-  Drinks: { icon: "☕", color: "from-sky-500/20 to-blue-500/10" },
+  Breakfast: { icon: '🍳', color: 'from-amber-500/20 to-yellow-500/10' },
+  Bowls: { icon: '🍚', color: 'from-emerald-500/20 to-teal-500/10' },
+  Burritos: { icon: '🍛', color: 'from-orange-500/20 to-red-500/10' },
+  Sides: { icon: '🍟', color: 'from-yellow-500/20 to-orange-500/10' },
+  Drinks: { icon: '☕', color: 'from-sky-500/20 to-blue-500/10' },
 };
-const catIcon = (c: string) => CATEGORY_META[c]?.icon ?? "🍽️";
+const catIcon = (c: string) => CATEGORY_META[c]?.icon ?? '🍽️';
 
 const STATUS_CONFIG: Record<string, { label: string; color: string; icon: string }> = {
-  Queued: { label: "In Queue", color: "bg-blue-500/15 text-blue-400 border-blue-500/30", icon: "🕒" },
-  Pending: { label: "Pending", color: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30", icon: "⏳" },
-  Cooking: { label: "Cooking", color: "bg-orange-500/15 text-orange-400 border-orange-500/30", icon: "👨‍🍳" },
-  Ready: { label: "Ready", color: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30", icon: "✅" },
-  Completed: { label: "Completed", color: "bg-slate-500/15 text-slate-400 border-slate-500/30", icon: "🎉" },
+  Queued: {
+    label: 'In Queue',
+    color: 'bg-blue-500/15 text-blue-400 border-blue-500/30',
+    icon: '🕒',
+  },
+  Pending: {
+    label: 'Pending',
+    color: 'bg-yellow-500/15 text-yellow-400 border-yellow-500/30',
+    icon: '⏳',
+  },
+  Cooking: {
+    label: 'Cooking',
+    color: 'bg-orange-500/15 text-orange-400 border-orange-500/30',
+    icon: '👨‍🍳',
+  },
+  Ready: {
+    label: 'Ready',
+    color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+    icon: '✅',
+  },
+  Completed: {
+    label: 'Completed',
+    color: 'bg-slate-500/15 text-slate-400 border-slate-500/30',
+    icon: '🎉',
+  },
 };
 
 // ─── Declare CopperPay global ──────────────────────────────────────────────────
@@ -52,10 +91,10 @@ declare global {
 
 // ─── Load CopperPay script helper ──────────────────────────────────────────────
 function loadCopperPay(): Promise<boolean> {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     if (window.CopperPay) return resolve(true);
-    const s = document.createElement("script");
-    s.src = "https://pay.copperpotbowls.example/v1/checkout.js";
+    const s = document.createElement('script');
+    s.src = 'https://pay.copperpotbowls.example/v1/checkout.js';
     s.onload = () => resolve(true);
     s.onerror = () => resolve(false);
     document.body.appendChild(s);
@@ -64,7 +103,11 @@ function loadCopperPay(): Promise<boolean> {
 
 // ─── Payment Modal ────────────────────────────────────────────────────────────
 function PaymentModal({
-  total, config, user, onSuccess, onClose,
+  total,
+  config,
+  user,
+  onSuccess,
+  onClose,
 }: {
   total: number;
   config: PaymentConfig;
@@ -81,19 +124,19 @@ function PaymentModal({
     setStatusMsg(null);
     try {
       const res = await fetch(`${PAY_API}/create-order`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ amount: total }),
       });
       const data = await res.json();
       if (!res.ok || !data.configured) {
-        setStatusMsg(data.message || "Card payments are not configured for this store yet.");
+        setStatusMsg(data.message || 'Card payments are not configured for this store yet.');
         setProcessing(false);
         return;
       }
       const loaded = await loadCopperPay();
       if (!loaded) {
-        setStatusMsg("Could not load the payment form. Check your connection and try again.");
+        setStatusMsg('Could not load the payment form. Check your connection and try again.');
         setProcessing(false);
         return;
       }
@@ -105,30 +148,36 @@ function PaymentModal({
         description: `Order for ${user.name} (${user.loyalty_no})`,
         order_id: data.orderId,
         prefill: { name: user.name },
-        theme: { color: "#b45309" },
-        handler: async (response: { copperpay_order_id: string; copperpay_payment_id: string; copperpay_signature: string }) => {
+        theme: { color: '#b45309' },
+        handler: async (response: {
+          copperpay_order_id: string;
+          copperpay_payment_id: string;
+          copperpay_signature: string;
+        }) => {
           const vRes = await fetch(`${PAY_API}/verify`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(response),
           });
           const vData = await vRes.json();
-          if (vData.verified) onSuccess("card");
-          else setStatusMsg("Payment verification failed. Ask a team member for help.");
+          if (vData.verified) onSuccess('card');
+          else setStatusMsg('Payment verification failed. Ask a team member for help.');
         },
         modal: { ondismiss: () => setProcessing(false) },
       });
       gateway.open();
     } catch {
-      setStatusMsg("Something went wrong. Please try again.");
+      setStatusMsg('Something went wrong. Please try again.');
       setProcessing(false);
     }
   };
 
   const handlePayAtPickup = () => {
     setProcessing(true);
-    setStatusMsg("Placing your order...");
-    setTimeout(() => { onSuccess("cash"); }, 600);
+    setStatusMsg('Placing your order...');
+    setTimeout(() => {
+      onSuccess('cash');
+    }, 600);
   };
 
   return (
@@ -136,27 +185,46 @@ function PaymentModal({
       <div className="w-full max-w-sm glass-panel rounded-3xl overflow-hidden shadow-2xl animate-slide-up border border-white/10">
         <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-white/5">
           <div>
-            <h3 className="font-heading font-extrabold text-lg text-slate-50">Pay for your order</h3>
-            <p className="text-xs text-slate-400 mt-0.5">{config.storeName} · <span className="font-heading font-bold text-emerald-400">${total.toFixed(2)}</span></p>
+            <h3 className="font-heading font-extrabold text-lg text-slate-50">
+              Pay for your order
+            </h3>
+            <p className="text-xs text-slate-400 mt-0.5">
+              {config.storeName} ·{' '}
+              <span className="font-heading font-bold text-emerald-400">${total.toFixed(2)}</span>
+            </p>
           </div>
-          <button onClick={onClose} aria-label="Close"
-            className="h-8 w-8 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all">&#x2715;</button>
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            className="h-8 w-8 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all"
+          >
+            &#x2715;
+          </button>
         </div>
         <div className="px-5 py-5 space-y-3">
           {statusMsg && (
-            <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 text-xs text-emerald-300 text-center">{statusMsg}</div>
+            <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-2 text-xs text-emerald-300 text-center">
+              {statusMsg}
+            </div>
           )}
-          <button onClick={handleCard} disabled={processing}
-            className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg disabled:opacity-50">
-            {processing ? "Working..." : "Pay by card"}
+          <button
+            onClick={handleCard}
+            disabled={processing}
+            className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg disabled:opacity-50"
+          >
+            {processing ? 'Working...' : 'Pay by card'}
           </button>
-          <button onClick={handlePayAtPickup} disabled={processing}
-            className="w-full py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 text-xs font-bold hover:bg-white/10 disabled:opacity-50">
+          <button
+            onClick={handlePayAtPickup}
+            disabled={processing}
+            className="w-full py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 text-xs font-bold hover:bg-white/10 disabled:opacity-50"
+          >
             Pay at pickup
           </button>
         </div>
         <div className="px-5 pb-4 text-center text-[9px] text-slate-700">
-          Card details are entered on the payment provider&apos;s form; the storefront never sees a card number.
+          Card details are entered on the payment provider&apos;s form; the storefront never sees a
+          card number.
         </div>
       </div>
     </div>
@@ -177,28 +245,43 @@ function OrderCard({ order }: { order: OrderHistoryItem }) {
           )}
           <div>
             <p className="text-xs font-bold text-slate-500">
-              {new Date(order.createdAt).toLocaleString("en-IN", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" })}
+              {new Date(order.createdAt).toLocaleString('en-IN', {
+                day: '2-digit',
+                month: 'short',
+                hour: '2-digit',
+                minute: '2-digit',
+              })}
             </p>
             <p className="text-[10px] text-slate-600 mt-0.5 capitalize">
-              {order.paymentMethod === "upi" ? "Wallet" : order.paymentMethod === "card" ? "Card / CopperPay" : "Cash"}
+              {order.paymentMethod === 'upi'
+                ? 'Wallet'
+                : order.paymentMethod === 'card'
+                  ? 'Card / CopperPay'
+                  : 'Cash'}
             </p>
           </div>
         </div>
-        <span className={`inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full border ${cfg.color}`}>
+        <span
+          className={`inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full border ${cfg.color}`}
+        >
           {cfg.icon} {cfg.label}
         </span>
       </div>
       <div className="space-y-1">
         {order.items.map((it, i) => (
           <div key={i} className="flex justify-between text-xs text-slate-400">
-            <span>{it.menuItem?.name ?? "Item"} × {it.quantity}</span>
+            <span>
+              {it.menuItem?.name ?? 'Item'} × {it.quantity}
+            </span>
             <span>${(it.menuItem?.price ?? 0) * it.quantity}</span>
           </div>
         ))}
       </div>
       <div className="flex justify-between items-center pt-2 border-t border-white/5">
         <span className="text-xs text-slate-500">Total</span>
-        <span className="font-bold text-emerald-400 font-heading text-sm">${order.totalAmount}</span>
+        <span className="font-bold text-emerald-400 font-heading text-sm">
+          ${order.totalAmount}
+        </span>
       </div>
     </div>
   );
@@ -212,12 +295,22 @@ function OrderHistoryPanel({ orders, loading }: { orders: OrderHistoryItem[]; lo
     <div className="glass-panel rounded-2xl overflow-hidden">
       {/* Header — click anywhere to toggle */}
       <button
-        onClick={() => setOpen(o => !o)}
+        onClick={() => setOpen((o) => !o)}
         className="w-full px-5 py-4 border-b border-white/5 flex items-center justify-between group hover:bg-white/3 transition-colors"
       >
         <h3 className="font-heading font-extrabold text-slate-50 text-base flex items-center gap-2">
-          <svg className="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+          <svg
+            className="w-4 h-4 text-cyan-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+            />
           </svg>
           Your Orders
         </h3>
@@ -229,8 +322,10 @@ function OrderHistoryPanel({ orders, loading }: { orders: OrderHistoryItem[]; lo
           )}
           {/* Chevron rotates on collapse */}
           <svg
-            className={`w-4 h-4 text-slate-500 group-hover:text-slate-300 transition-all duration-300 ${open ? "rotate-0" : "rotate-[-90deg]"}`}
-            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            className={`w-4 h-4 text-slate-500 group-hover:text-slate-300 transition-all duration-300 ${open ? 'rotate-0' : 'rotate-[-90deg]'}`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
@@ -238,11 +333,13 @@ function OrderHistoryPanel({ orders, loading }: { orders: OrderHistoryItem[]; lo
       </button>
 
       {/* Collapsible body */}
-      <div className={`transition-all duration-300 ease-in-out overflow-hidden ${open ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"}`}>
+      <div
+        className={`transition-all duration-300 ease-in-out overflow-hidden ${open ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}
+      >
         {/* Scrollable orders list — independent scroll, ~4 cards visible */}
         <div
           className="overflow-y-auto px-4 pt-3 pb-4 space-y-3"
-          style={{ maxHeight: "min(22rem, 45vh)" }}
+          style={{ maxHeight: 'min(22rem, 45vh)' }}
         >
           {loading ? (
             <div className="flex justify-center py-6">
@@ -255,10 +352,12 @@ function OrderHistoryPanel({ orders, loading }: { orders: OrderHistoryItem[]; lo
               <p className="text-[11px] text-slate-600 mt-1">Your order history will appear here</p>
             </div>
           ) : (
-            orders.map(order => <OrderCard key={order._id} order={order} />)
+            orders.map((order) => <OrderCard key={order._id} order={order} />)
           )}
           {orders.length > 3 && (
-            <p className="text-center text-[10px] text-slate-700 pb-1 select-none">↑ scroll for more</p>
+            <p className="text-center text-[10px] text-slate-700 pb-1 select-none">
+              ↑ scroll for more
+            </p>
           )}
         </div>
       </div>
@@ -283,33 +382,38 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [cart, setCart] = useState<CartItem[]>([]);
-  const [activeCategory, setActiveCategory] = useState("All");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filter, setFilter] = useState<"all" | "veg" | "non-veg">("all");
+  const [activeCategory, setActiveCategory] = useState('All');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filter, setFilter] = useState<'all' | 'veg' | 'non-veg'>('all');
   const [showPayment, setShowPayment] = useState(false);
   const [orderMsg, setOrderMsg] = useState<string | null>(null);
   const [lastStatus, setLastStatus] = useState<string | null>(null);
   const [orderHistory, setOrderHistory] = useState<OrderHistoryItem[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
-  const [payConfig, setPayConfig] = useState<PaymentConfig>({ configured: false, keyId: null, upiId: "orders@copperpotbowls.example", storeName: "Copperpot Bowls" });
+  const [payConfig, setPayConfig] = useState<PaymentConfig>({
+    configured: false,
+    keyId: null,
+    upiId: 'orders@copperpotbowls.example',
+    storeName: 'Copperpot Bowls',
+  });
   const [cartPulse, setCartPulse] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [isStoreOpen, setIsStoreOpen] = useState(true);
   const menuRef = useRef<HTMLDivElement>(null);
   const profileRef = useRef<HTMLDivElement>(null);
 
   // Load + apply theme from localStorage
   useEffect(() => {
-    const saved = (localStorage.getItem("cb_theme") ?? "dark") as "dark" | "light";
+    const saved = (localStorage.getItem('cb_theme') ?? 'dark') as 'dark' | 'light';
     setTheme(saved);
     document.documentElement.dataset.theme = saved;
   }, []);
 
   const toggleTheme = () => {
-    const next = theme === "dark" ? "light" : "dark";
+    const next = theme === 'dark' ? 'light' : 'dark';
     setTheme(next);
-    localStorage.setItem("cb_theme", next);
+    localStorage.setItem('cb_theme', next);
     document.documentElement.dataset.theme = next;
   };
 
@@ -321,119 +425,201 @@ export default function Home() {
         setShowProfile(false);
       }
     };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
   }, [showProfile]);
 
   // ── Auth ─────────────────────────────────────────────────────────────────
   useEffect(() => {
-    const stored = localStorage.getItem("cb_user");
-    if (!stored) { router.push("/login"); return; }
+    const stored = localStorage.getItem('cb_user');
+    if (!stored) {
+      router.push('/login');
+      return;
+    }
     setUser(JSON.parse(stored));
   }, [router]);
 
   useEffect(() => {
-    fetch(`${SETTINGS_API}`).then(r => r.json()).then(d => setIsStoreOpen(d.isOpen)).catch(e => setError(`Settings: ${e.message}`));
-    fetch(MENU_API).then(r => r.json()).then((d: MenuItem[]) => setMenu(d.filter(m => m.isAvailable)))
-      .catch(e => setError(`Menu: ${e.message} (Is API URL correct?)`))
+    fetch(`${SETTINGS_API}`)
+      .then((r) => r.json())
+      .then((d) => setIsStoreOpen(d.isOpen))
+      .catch((e) => setError(`Settings: ${e.message}`));
+    fetch(MENU_API)
+      .then((r) => r.json())
+      .then((d: MenuItem[]) => setMenu(d.filter((m) => m.isAvailable)))
+      .catch((e) => setError(`Menu: ${e.message} (Is API URL correct?)`))
       .finally(() => setLoading(false));
   }, []);
 
   // ── Order history ────────────────────────────────────────────────────────
   const fetchHistory = useCallback(async (uid: string) => {
     setHistoryLoading(true);
-    try { const r = await fetch(`${ORDER_API}/${uid}`); setOrderHistory(await r.json()); }
-    catch { /* silent */ } finally { setHistoryLoading(false); }
+    try {
+      const r = await fetch(`${ORDER_API}/${uid}`);
+      setOrderHistory(await r.json());
+    } catch {
+      /* silent */
+    } finally {
+      setHistoryLoading(false);
+    }
   }, []);
 
-  useEffect(() => { if (user) fetchHistory(user._id); }, [user, fetchHistory]);
+  useEffect(() => {
+    if (user) fetchHistory(user._id);
+  }, [user, fetchHistory]);
 
   // ── Socket.IO ────────────────────────────────────────────────────────────
   useEffect(() => {
-    const socket: Socket = io(`${SOCKET_URL}`, { transports: ["websocket"] });
-    socket.on("orderStatusUpdated", (order: { userId?: string | { _id?: string }; status: string }) => {
-      const uid = typeof order.userId === "string" ? order.userId : order.userId?._id;
-      const stored = JSON.parse(localStorage.getItem("cb_user") || "{ }");
-      if (uid === stored._id) {
-        setLastStatus(order.status);
-        const msg = order.status === "Ready" ? "Your order is ready for pickup! 🎉" : `Order is now ${order.status}...`;
-        setOrderMsg(msg);
-        fetchHistory(stored._id);
-        // Push browser notification
-        if (typeof window !== "undefined" && Notification.permission === "granted") {
-          new Notification("🍴 Copperpot Bowls Order Update", {
-            body: msg,
-            icon: "/logo.png",
-          });
+    const socket: Socket = io(`${SOCKET_URL}`, { transports: ['websocket'] });
+    socket.on(
+      'orderStatusUpdated',
+      (order: { userId?: string | { _id?: string }; status: string }) => {
+        const uid = typeof order.userId === 'string' ? order.userId : order.userId?._id;
+        const stored = JSON.parse(localStorage.getItem('cb_user') || '{ }');
+        if (uid === stored._id) {
+          setLastStatus(order.status);
+          const msg =
+            order.status === 'Ready'
+              ? 'Your order is ready for pickup! 🎉'
+              : `Order is now ${order.status}...`;
+          setOrderMsg(msg);
+          fetchHistory(stored._id);
+          // Push browser notification
+          if (typeof window !== 'undefined' && Notification.permission === 'granted') {
+            new Notification('🍴 Copperpot Bowls Order Update', {
+              body: msg,
+              icon: '/logo.png',
+            });
+          }
         }
-      }
-    });
+      },
+    );
 
-    socket.on("storeStatusUpdate", (data: { isOpen: boolean }) => {
+    socket.on('storeStatusUpdate', (data: { isOpen: boolean }) => {
       setIsStoreOpen(data.isOpen);
       if (!data.isOpen) {
-        setOrderMsg("The store is now closed. Ordering is paused.");
+        setOrderMsg('The store is now closed. Ordering is paused.');
       }
     });
 
-    return () => { socket.disconnect(); };
+    return () => {
+      socket.disconnect();
+    };
   }, [fetchHistory]);
 
   // ── Cart helpers ─────────────────────────────────────────────────────────
-  const triggerPulse = useCallback(() => { setCartPulse(true); setTimeout(() => setCartPulse(false), 400); }, []);
-  const addToCart = useCallback((item: MenuItem) => {
-    setCart(p => { const e = p.find(c => c.item._id === item._id); return e ? p.map(c => c.item._id === item._id ? { ...c, quantity: c.quantity + 1 } : c) : [...p, { item, quantity: 1 }]; });
-    triggerPulse();
-  }, [triggerPulse]);
-  const decrease = useCallback((id: string) => setCart(p => p.map(c => c.item._id === id ? { ...c, quantity: c.quantity - 1 } : c).filter(c => c.quantity > 0)), []);
-  const increase = useCallback((id: string) => { setCart(p => p.map(c => c.item._id === id ? { ...c, quantity: c.quantity + 1 } : c)); triggerPulse(); }, [triggerPulse]);
+  const triggerPulse = useCallback(() => {
+    setCartPulse(true);
+    setTimeout(() => setCartPulse(false), 400);
+  }, []);
+  const addToCart = useCallback(
+    (item: MenuItem) => {
+      setCart((p) => {
+        const e = p.find((c) => c.item._id === item._id);
+        return e
+          ? p.map((c) => (c.item._id === item._id ? { ...c, quantity: c.quantity + 1 } : c))
+          : [...p, { item, quantity: 1 }];
+      });
+      triggerPulse();
+    },
+    [triggerPulse],
+  );
+  const decrease = useCallback(
+    (id: string) =>
+      setCart((p) =>
+        p
+          .map((c) => (c.item._id === id ? { ...c, quantity: c.quantity - 1 } : c))
+          .filter((c) => c.quantity > 0),
+      ),
+    [],
+  );
+  const increase = useCallback(
+    (id: string) => {
+      setCart((p) => p.map((c) => (c.item._id === id ? { ...c, quantity: c.quantity + 1 } : c)));
+      triggerPulse();
+    },
+    [triggerPulse],
+  );
 
   const cartTotal = useMemo(() => cart.reduce((s, c) => s + c.quantity * c.item.price, 0), [cart]);
   const cartCount = useMemo(() => cart.reduce((s, c) => s + c.quantity, 0), [cart]);
-  const categories = useMemo(() => ["All", ...Array.from(new Set(menu.map(m => m.category)))], [menu]);
-  const filtered = useMemo(() => menu.filter(i => (activeCategory === "All" || i.category === activeCategory) && i.name.toLowerCase().includes(searchQuery.toLowerCase()) && (filter === "all" || i.veg_or_nonveg === filter)), [menu, activeCategory, searchQuery, filter]);
-  const grouped = useMemo(() => filtered.reduce((a, i) => { if (!a[i.category]) a[i.category] = []; a[i.category].push(i); return a; }, {} as Record<string, MenuItem[]>), [filtered]);
+  const categories = useMemo(
+    () => ['All', ...Array.from(new Set(menu.map((m) => m.category)))],
+    [menu],
+  );
+  const filtered = useMemo(
+    () =>
+      menu.filter(
+        (i) =>
+          (activeCategory === 'All' || i.category === activeCategory) &&
+          i.name.toLowerCase().includes(searchQuery.toLowerCase()) &&
+          (filter === 'all' || i.veg_or_nonveg === filter),
+      ),
+    [menu, activeCategory, searchQuery, filter],
+  );
+  const grouped = useMemo(
+    () =>
+      filtered.reduce(
+        (a, i) => {
+          if (!a[i.category]) a[i.category] = [];
+          a[i.category].push(i);
+          return a;
+        },
+        {} as Record<string, MenuItem[]>,
+      ),
+    [filtered],
+  );
 
   // ── Place order (called after payment is verified) ───────────────────────
-  const handlePaymentSuccess = useCallback(async (method: PaymentMethod) => {
-    if (!user) return;
-    try {
-      const res = await fetch(ORDER_API, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ userId: user._id, paymentMethod: method, items: cart.map(c => ({ menuItem: c.item._id, quantity: c.quantity })) }),
-      });
-      if (!res.ok) throw new Error((await res.json()).message);
-      const placed = await res.json();
-      setCart([]);
-      setShowPayment(false);
-      setLastStatus("Pending");
-      
-      const tokens = (placed.orders || [])
-        .filter((o: any) => o.orderNumber)
-        .map((o: any) => `#${o.orderNumber}`)
-        .join(", ");
-      const tokenMsg = tokens ? ` Your token(s): ${tokens} 🎫` : "";
-      
-      setOrderMsg(`Payment confirmed! Kitchen has been notified.${tokenMsg}`);
-      fetchHistory(user._id);
-    } catch (e) {
-      setOrderMsg(`Error: ${(e as Error).message}`);
-      setShowPayment(false);
-    }
-  }, [user, cart, fetchHistory]);
+  const handlePaymentSuccess = useCallback(
+    async (method: PaymentMethod) => {
+      if (!user) return;
+      try {
+        const res = await fetch(ORDER_API, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: user._id,
+            paymentMethod: method,
+            items: cart.map((c) => ({ menuItem: c.item._id, quantity: c.quantity })),
+          }),
+        });
+        if (!res.ok) throw new Error((await res.json()).message);
+        const placed = await res.json();
+        setCart([]);
+        setShowPayment(false);
+        setLastStatus('Pending');
 
-  const handleLogout = () => { localStorage.removeItem("cb_user"); router.push("/login"); };
+        const tokens = (placed.orders || [])
+          .filter((o: any) => o.orderNumber)
+          .map((o: any) => `#${o.orderNumber}`)
+          .join(', ');
+        const tokenMsg = tokens ? ` Your token(s): ${tokens} 🎫` : '';
+
+        setOrderMsg(`Payment confirmed! Kitchen has been notified.${tokenMsg}`);
+        fetchHistory(user._id);
+      } catch (e) {
+        setOrderMsg(`Error: ${(e as Error).message}`);
+        setShowPayment(false);
+      }
+    },
+    [user, cart, fetchHistory],
+  );
+
+  const handleLogout = () => {
+    localStorage.removeItem('cb_user');
+    router.push('/login');
+  };
   const scrollToCategory = (cat: string) => {
     setActiveCategory(cat);
-    if (cat === "All") menuRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-    else document.getElementById(`cat-${cat}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (cat === 'All') menuRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+    else
+      document.getElementById(`cat-${cat}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   // ─── Render ───────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-[#020617] text-slate-50 font-sans flex flex-col selection:bg-emerald-500/30 selection:text-emerald-400">
-
       {/* Blobs */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-0">
         <div className="absolute top-[-15%] left-[-5%] w-[45%] h-[45%] rounded-full bg-emerald-900/20 blur-[130px]" />
@@ -442,8 +628,13 @@ export default function Home() {
       </div>
 
       {showPayment && user && (
-        <PaymentModal total={cartTotal} config={payConfig} user={user}
-          onSuccess={handlePaymentSuccess} onClose={() => setShowPayment(false)} />
+        <PaymentModal
+          total={cartTotal}
+          config={payConfig}
+          user={user}
+          onSuccess={handlePaymentSuccess}
+          onClose={() => setShowPayment(false)}
+        />
       )}
 
       {/* Navbar */}
@@ -451,168 +642,292 @@ export default function Home() {
         <div className="max-w-[1400px] mx-auto px-6 h-16 flex items-center gap-5">
           <div className="flex items-center gap-3 shrink-0">
             <div className="h-10 w-10 rounded-xl overflow-hidden shadow-lg shadow-emerald-500/25 shrink-0">
-              <Image src="/logo.png" alt="Copperpot Bowls Logo" width={40} height={40} className="object-cover w-full h-full" priority />
+              <Image
+                src="/logo.png"
+                alt="Copperpot Bowls Logo"
+                width={40}
+                height={40}
+                className="object-cover w-full h-full"
+                priority
+              />
             </div>
-            <span className="font-heading font-extrabold text-xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Copperpot Bowls</span>
+            <span className="font-heading font-extrabold text-xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+              Copperpot Bowls
+            </span>
           </div>
           <div className="flex-1 max-w-xl mx-auto relative">
             <div className="absolute inset-y-0 left-3.5 flex items-center pointer-events-none">
-              <svg className="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              <svg
+                className="w-4 h-4 text-slate-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
             </div>
-            <input type="text" value={searchQuery} onChange={e => setSearchQuery(e.target.value)} placeholder="Search dishes..."
-              className="w-full bg-slate-900/60 border border-white/8 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-200 placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/30 transition-all" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search dishes..."
+              className="w-full bg-slate-900/60 border border-white/8 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-200 placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/30 transition-all"
+            />
           </div>
           <div className="flex items-center gap-2 shrink-0">
-            {(["all", "veg", "non-veg"] as const).map(f => (
-              <button key={f} onClick={() => setFilter(f)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all border ${filter === f ? (f === "veg" ? "bg-emerald-500/20 text-emerald-400 border-emerald-500/40" : f === "non-veg" ? "bg-red-500/20 text-red-400 border-red-500/40" : "bg-white/10 text-white border-white/20") : "text-slate-500 border-white/8 hover:text-slate-300"}`}>
-                {f === "veg" && <span className="h-2 w-2 rounded-full bg-emerald-400" />}
-                {f === "non-veg" && <span className="h-2 w-2 rounded-full bg-red-400" />}
-                {f === "all" ? "All" : f === "veg" ? "Veg" : "Non-Veg"}
+            {(['all', 'veg', 'non-veg'] as const).map((f) => (
+              <button
+                key={f}
+                onClick={() => setFilter(f)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all border ${filter === f ? (f === 'veg' ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40' : f === 'non-veg' ? 'bg-red-500/20 text-red-400 border-red-500/40' : 'bg-white/10 text-white border-white/20') : 'text-slate-500 border-white/8 hover:text-slate-300'}`}
+              >
+                {f === 'veg' && <span className="h-2 w-2 rounded-full bg-emerald-400" />}
+                {f === 'non-veg' && <span className="h-2 w-2 rounded-full bg-red-400" />}
+                {f === 'all' ? 'All' : f === 'veg' ? 'Veg' : 'Non-Veg'}
               </button>
             ))}
           </div>
 
           {/* ── Theme toggle ─── */}
-          <button onClick={toggleTheme} title={theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
-            className="h-9 w-9 rounded-full glass-panel border border-white/10 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/30 transition-all hover:scale-105 shrink-0">
-            {theme === "dark" ? (
+          <button
+            onClick={toggleTheme}
+            title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            className="h-9 w-9 rounded-full glass-panel border border-white/10 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/30 transition-all hover:scale-105 shrink-0"
+          >
+            {theme === 'dark' ? (
               /* Sun icon */
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                />
               </svg>
             ) : (
               /* Moon icon */
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
               </svg>
             )}
           </button>
 
-          {user && (() => {
-            // Weekly spend: sum of all orders placed in the last 7 days
-            const weekAgo = new Date();
-            weekAgo.setDate(weekAgo.getDate() - 7);
-            const weekOrders = orderHistory.filter(o => new Date(o.createdAt) >= weekAgo);
-            const weekSpend = weekOrders.reduce((s, o) => s + o.totalAmount, 0);
+          {user &&
+            (() => {
+              // Weekly spend: sum of all orders placed in the last 7 days
+              const weekAgo = new Date();
+              weekAgo.setDate(weekAgo.getDate() - 7);
+              const weekOrders = orderHistory.filter((o) => new Date(o.createdAt) >= weekAgo);
+              const weekSpend = weekOrders.reduce((s, o) => s + o.totalAmount, 0);
 
-            return (
-              <div className="relative shrink-0" ref={profileRef}>
-                {/* Clickable pill */}
-                <button
-                  onClick={() => setShowProfile(p => !p)}
-                  className="flex items-center gap-2 glass-panel rounded-full pl-1.5 pr-3 py-1 hover:bg-white/8 transition-all"
-                >
-                  <div className="h-6 w-6 rounded-full bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center text-xs font-black text-slate-950">{user.name[0].toUpperCase()}</div>
-                  <span className="text-xs font-semibold text-slate-300">{user.name.split(" ")[0]}</span>
-                  <svg className={`w-3 h-3 text-slate-500 transition-transform duration-200 ${showProfile ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-                </button>
+              return (
+                <div className="relative shrink-0" ref={profileRef}>
+                  {/* Clickable pill */}
+                  <button
+                    onClick={() => setShowProfile((p) => !p)}
+                    className="flex items-center gap-2 glass-panel rounded-full pl-1.5 pr-3 py-1 hover:bg-white/8 transition-all"
+                  >
+                    <div className="h-6 w-6 rounded-full bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center text-xs font-black text-slate-950">
+                      {user.name[0].toUpperCase()}
+                    </div>
+                    <span className="text-xs font-semibold text-slate-300">
+                      {user.name.split(' ')[0]}
+                    </span>
+                    <svg
+                      className={`w-3 h-3 text-slate-500 transition-transform duration-200 ${showProfile ? 'rotate-180' : ''}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
 
-                {/* Profile dropdown */}
-                {showProfile && (
-                  <div className="absolute right-0 top-10 z-50 w-64 bg-[#0d1526] border border-white/12 rounded-2xl shadow-2xl shadow-black/60 animate-slide-up overflow-hidden">
-                    {/* Avatar + name */}
-                    <div className="px-5 py-4 flex items-center gap-3 border-b border-white/5">
-                      <div className="h-11 w-11 rounded-full bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center text-lg font-black text-slate-950 shrink-0 shadow-lg shadow-emerald-500/25">
-                        {user.name[0].toUpperCase()}
+                  {/* Profile dropdown */}
+                  {showProfile && (
+                    <div className="absolute right-0 top-10 z-50 w-64 bg-[#0d1526] border border-white/12 rounded-2xl shadow-2xl shadow-black/60 animate-slide-up overflow-hidden">
+                      {/* Avatar + name */}
+                      <div className="px-5 py-4 flex items-center gap-3 border-b border-white/5">
+                        <div className="h-11 w-11 rounded-full bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center text-lg font-black text-slate-950 shrink-0 shadow-lg shadow-emerald-500/25">
+                          {user.name[0].toUpperCase()}
+                        </div>
+                        <div className="min-w-0">
+                          <p className="font-bold text-slate-100 text-sm truncate">{user.name}</p>
+                          <p className="text-[11px] text-slate-500 font-mono mt-0.5">
+                            {user.loyalty_no}
+                          </p>
+                        </div>
                       </div>
-                      <div className="min-w-0">
-                        <p className="font-bold text-slate-100 text-sm truncate">{user.name}</p>
-                        <p className="text-[11px] text-slate-500 font-mono mt-0.5">{user.loyalty_no}</p>
+
+                      {/* This-week stats */}
+                      <div className="px-5 py-4 space-y-3">
+                        <p className="text-[10px] font-bold text-slate-600 uppercase tracking-widest">
+                          Last 7 Days
+                        </p>
+                        <div className="grid grid-cols-2 gap-2">
+                          <div className="bg-slate-900/60 rounded-xl p-3 border border-white/5">
+                            <p className="text-[10px] text-slate-500 font-semibold">Orders</p>
+                            <p className="font-heading font-extrabold text-xl text-slate-100 mt-0.5">
+                              {weekOrders.length}
+                            </p>
+                          </div>
+                          <div className="bg-emerald-500/10 rounded-xl p-3 border border-emerald-500/20">
+                            <p className="text-[10px] text-emerald-500 font-semibold">Spent</p>
+                            <p className="font-heading font-extrabold text-xl text-emerald-400 mt-0.5">
+                              ${weekSpend}
+                            </p>
+                          </div>
+                        </div>
+                        {weekOrders.length > 0 && (
+                          <div className="rounded-xl bg-slate-900/40 border border-white/5 px-3 py-2">
+                            <p className="text-[10px] text-slate-500 mb-1">Recent</p>
+                            {weekOrders.slice(0, 2).map((o) => (
+                              <div key={o._id} className="flex justify-between text-xs py-0.5">
+                                <span className="text-slate-400 truncate mr-2">
+                                  {new Date(o.createdAt).toLocaleDateString('en-IN', {
+                                    weekday: 'short',
+                                    day: '2-digit',
+                                    month: 'short',
+                                  })}
+                                </span>
+                                <span className="text-emerald-400 font-bold shrink-0">
+                                  ${o.totalAmount}
+                                </span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Logout */}
+                      <div className="px-4 pb-4">
+                        <button
+                          onClick={handleLogout}
+                          className="w-full py-2 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-bold hover:bg-red-500/20 transition-all flex items-center justify-center gap-2"
+                        >
+                          <svg
+                            className="w-3.5 h-3.5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                            />
+                          </svg>
+                          Sign Out
+                        </button>
                       </div>
                     </div>
-
-                    {/* This-week stats */}
-                    <div className="px-5 py-4 space-y-3">
-                      <p className="text-[10px] font-bold text-slate-600 uppercase tracking-widest">Last 7 Days</p>
-                      <div className="grid grid-cols-2 gap-2">
-                        <div className="bg-slate-900/60 rounded-xl p-3 border border-white/5">
-                          <p className="text-[10px] text-slate-500 font-semibold">Orders</p>
-                          <p className="font-heading font-extrabold text-xl text-slate-100 mt-0.5">{weekOrders.length}</p>
-                        </div>
-                        <div className="bg-emerald-500/10 rounded-xl p-3 border border-emerald-500/20">
-                          <p className="text-[10px] text-emerald-500 font-semibold">Spent</p>
-                          <p className="font-heading font-extrabold text-xl text-emerald-400 mt-0.5">${weekSpend}</p>
-                        </div>
-                      </div>
-                      {weekOrders.length > 0 && (
-                        <div className="rounded-xl bg-slate-900/40 border border-white/5 px-3 py-2">
-                          <p className="text-[10px] text-slate-500 mb-1">Recent</p>
-                          {weekOrders.slice(0, 2).map(o => (
-                            <div key={o._id} className="flex justify-between text-xs py-0.5">
-                              <span className="text-slate-400 truncate mr-2">{new Date(o.createdAt).toLocaleDateString("en-IN", { weekday: "short", day: "2-digit", month: "short" })}</span>
-                              <span className="text-emerald-400 font-bold shrink-0">${o.totalAmount}</span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Logout */}
-                    <div className="px-4 pb-4">
-                      <button onClick={handleLogout}
-                        className="w-full py-2 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-bold hover:bg-red-500/20 transition-all flex items-center justify-center gap-2">
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" /></svg>
-                        Sign Out
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          })()}
-
+                  )}
+                </div>
+              );
+            })()}
         </div>
       </header>
 
       {/* 3-column body */}
       <div className="relative z-10 flex-1 max-w-[1400px] mx-auto w-full px-6 py-6 grid grid-cols-[220px_1fr_340px] gap-5 items-start">
-
         {/* LEFT sidebar */}
         <aside className="sticky top-[4.5rem] glass-panel rounded-2xl overflow-hidden">
-          <div className="px-4 py-3 border-b border-white/5"><p className="text-[11px] font-bold text-slate-500 uppercase tracking-widest">Browse Menu</p></div>
+          <div className="px-4 py-3 border-b border-white/5">
+            <p className="text-[11px] font-bold text-slate-500 uppercase tracking-widest">
+              Browse Menu
+            </p>
+          </div>
           <nav className="py-1.5">
-            {categories.map(cat => {
+            {categories.map((cat) => {
               const isActive = activeCategory === cat;
               return (
-                <button key={cat} onClick={() => scrollToCategory(cat)}
-                  className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm font-semibold transition-all text-left relative ${isActive ? "text-emerald-400 bg-emerald-500/10" : "text-slate-400 hover:text-slate-100 hover:bg-white/5"}`}>
-                  {isActive && <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-emerald-400 rounded-r-full" />}
-                  <span className="text-base shrink-0">{cat === "All" ? "🍴" : catIcon(cat)}</span>
+                <button
+                  key={cat}
+                  onClick={() => scrollToCategory(cat)}
+                  className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm font-semibold transition-all text-left relative ${isActive ? 'text-emerald-400 bg-emerald-500/10' : 'text-slate-400 hover:text-slate-100 hover:bg-white/5'}`}
+                >
+                  {isActive && (
+                    <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-emerald-400 rounded-r-full" />
+                  )}
+                  <span className="text-base shrink-0">{cat === 'All' ? '🍴' : catIcon(cat)}</span>
                   <span className="flex-1 truncate">{cat}</span>
-                  {cat !== "All" && <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full ${isActive ? "bg-emerald-500/20 text-emerald-400" : "bg-white/5 text-slate-600"}`}>{menu.filter(m => m.category === cat).length}</span>}
+                  {cat !== 'All' && (
+                    <span
+                      className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full ${isActive ? 'bg-emerald-500/20 text-emerald-400' : 'bg-white/5 text-slate-600'}`}
+                    >
+                      {menu.filter((m) => m.category === cat).length}
+                    </span>
+                  )}
                 </button>
               );
             })}
           </nav>
-          <div className={`m-3 rounded-xl border p-3 ${isStoreOpen ? "bg-gradient-to-br from-emerald-500/10 to-cyan-500/5 border-emerald-500/15" : "bg-red-500/10 border-red-500/20"}`}>
+          <div
+            className={`m-3 rounded-xl border p-3 ${isStoreOpen ? 'bg-gradient-to-br from-emerald-500/10 to-cyan-500/5 border-emerald-500/15' : 'bg-red-500/10 border-red-500/20'}`}
+          >
             <div className="flex items-center gap-2 mb-1.5">
               {isStoreOpen ? (
                 <>
-                  <span className="relative flex h-2 w-2"><span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" /><span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" /></span>
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+                  </span>
                   <p className="text-xs font-bold text-emerald-400">Store Open</p>
                 </>
               ) : (
                 <>
-                  <span className="relative flex h-2 w-2"><span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" /></span>
+                  <span className="relative flex h-2 w-2">
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
+                  </span>
                   <p className="text-xs font-bold text-red-500">Store Closed</p>
                 </>
               )}
             </div>
-            <p className="text-[10px] text-slate-500">{isStoreOpen ? "UPI QR · CopperPay · Cash · Pick up at counter" : "Ordering is currently paused."}</p>
+            <p className="text-[10px] text-slate-500">
+              {isStoreOpen
+                ? 'UPI QR · CopperPay · Cash · Pick up at counter'
+                : 'Ordering is currently paused.'}
+            </p>
           </div>
         </aside>
 
         {/* CENTRE: menu */}
         <main ref={menuRef} className="min-w-0">
           {orderMsg && (
-            <div className={`mb-5 rounded-2xl p-4 text-sm flex items-center gap-3 animate-fade-in border ${lastStatus === "Ready" ? "bg-emerald-500/10 border-emerald-500/25 text-emerald-300" : lastStatus === "Pending" ? "bg-blue-500/10 border-blue-500/25 text-blue-300" : "bg-orange-500/10 border-orange-500/25 text-orange-300"}`}>
-              <span className="text-lg shrink-0">{lastStatus === "Ready" ? "✅" : "⏳"}</span>
+            <div
+              className={`mb-5 rounded-2xl p-4 text-sm flex items-center gap-3 animate-fade-in border ${lastStatus === 'Ready' ? 'bg-emerald-500/10 border-emerald-500/25 text-emerald-300' : lastStatus === 'Pending' ? 'bg-blue-500/10 border-blue-500/25 text-blue-300' : 'bg-orange-500/10 border-orange-500/25 text-orange-300'}`}
+            >
+              <span className="text-lg shrink-0">{lastStatus === 'Ready' ? '✅' : '⏳'}</span>
               <p className="font-semibold flex-1">{orderMsg}</p>
-              <button onClick={() => setOrderMsg(null)} className="text-slate-500 hover:text-white transition-colors shrink-0">✕</button>
+              <button
+                onClick={() => setOrderMsg(null)}
+                className="text-slate-500 hover:text-white transition-colors shrink-0"
+              >
+                ✕
+              </button>
             </div>
           )}
-          {error && <div className="mb-5 rounded-2xl bg-red-500/10 border border-red-500/25 p-4 text-sm text-red-400">{error}</div>}
+          {error && (
+            <div className="mb-5 rounded-2xl bg-red-500/10 border border-red-500/25 p-4 text-sm text-red-400">
+              {error}
+            </div>
+          )}
           {loading ? (
             <div className="flex flex-col items-center py-28 gap-4">
               <div className="h-12 w-12 border-4 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin" />
@@ -620,44 +935,105 @@ export default function Home() {
             </div>
           ) : Object.keys(grouped).length === 0 ? (
             <div className="glass-panel rounded-3xl text-center py-24 px-10">
-              <p className="text-4xl mb-3">{menu.length === 0 ? "😴" : "🔍"}</p>
-              <p className="font-heading font-bold text-lg text-slate-300">{menu.length === 0 ? "Store is Closed" : "No Items Found"}</p>
+              <p className="text-4xl mb-3">{menu.length === 0 ? '😴' : '🔍'}</p>
+              <p className="font-heading font-bold text-lg text-slate-300">
+                {menu.length === 0 ? 'Store is Closed' : 'No Items Found'}
+              </p>
             </div>
           ) : (
             Object.entries(grouped).map(([category, items], sIdx) => (
-              <section key={category} id={`cat-${category}`} className="mb-8 scroll-mt-20 animate-slide-up" style={{ animationDelay: `${sIdx * 0.06}s` }}>
+              <section
+                key={category}
+                id={`cat-${category}`}
+                className="mb-8 scroll-mt-20 animate-slide-up"
+                style={{ animationDelay: `${sIdx * 0.06}s` }}
+              >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className={`h-10 w-10 rounded-xl bg-gradient-to-br ${CATEGORY_META[category]?.color ?? "from-slate-700 to-slate-800"} border border-white/8 flex items-center justify-center text-xl`}>{catIcon(category)}</div>
-                  <div><h2 className="font-heading font-extrabold text-xl text-slate-50">{category}</h2><p className="text-xs text-slate-500">{items.length} item{items.length !== 1 ? "s" : ""}</p></div>
+                  <div
+                    className={`h-10 w-10 rounded-xl bg-gradient-to-br ${CATEGORY_META[category]?.color ?? 'from-slate-700 to-slate-800'} border border-white/8 flex items-center justify-center text-xl`}
+                  >
+                    {catIcon(category)}
+                  </div>
+                  <div>
+                    <h2 className="font-heading font-extrabold text-xl text-slate-50">
+                      {category}
+                    </h2>
+                    <p className="text-xs text-slate-500">
+                      {items.length} item{items.length !== 1 ? 's' : ''}
+                    </p>
+                  </div>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   {items.map((item, iIdx) => {
-                    const qty = cart.find(c => c.item._id === item._id)?.quantity ?? 0;
+                    const qty = cart.find((c) => c.item._id === item._id)?.quantity ?? 0;
                     return (
-                      <div key={item._id} className="group flex gap-4 bg-slate-900/60 hover:bg-slate-800/80 rounded-2xl p-4 border border-white/5 hover:border-emerald-500/20 hover:shadow-lg hover:shadow-emerald-900/20 transition-all duration-300 animate-fade-in" style={{ animationDelay: `${iIdx * 0.04}s` }}>
+                      <div
+                        key={item._id}
+                        className="group flex gap-4 bg-slate-900/60 hover:bg-slate-800/80 rounded-2xl p-4 border border-white/5 hover:border-emerald-500/20 hover:shadow-lg hover:shadow-emerald-900/20 transition-all duration-300 animate-fade-in"
+                        style={{ animationDelay: `${iIdx * 0.04}s` }}
+                      >
                         <div className="flex-1 min-w-0 flex flex-col">
-                          <div className={`inline-flex items-center gap-1 mb-1.5 px-1.5 py-0.5 rounded border text-[10px] font-bold w-fit ${item.veg_or_nonveg === "veg" ? "border-emerald-500/60 text-emerald-400" : "border-red-500/60 text-red-400"}`}>
-                            <span className={`h-1.5 w-1.5 rounded-full ${item.veg_or_nonveg === "veg" ? "bg-emerald-400" : "bg-red-400"}`} />
-                            {item.veg_or_nonveg === "veg" ? "VEG" : "NON-VEG"}
+                          <div
+                            className={`inline-flex items-center gap-1 mb-1.5 px-1.5 py-0.5 rounded border text-[10px] font-bold w-fit ${item.veg_or_nonveg === 'veg' ? 'border-emerald-500/60 text-emerald-400' : 'border-red-500/60 text-red-400'}`}
+                          >
+                            <span
+                              className={`h-1.5 w-1.5 rounded-full ${item.veg_or_nonveg === 'veg' ? 'bg-emerald-400' : 'bg-red-400'}`}
+                            />
+                            {item.veg_or_nonveg === 'veg' ? 'VEG' : 'NON-VEG'}
                           </div>
-                          <h3 className="font-bold text-slate-100 text-base leading-snug line-clamp-2 group-hover:text-white transition-colors">{item.name}</h3>
-                          <p className="mt-auto pt-3 font-extrabold text-emerald-400 text-lg font-heading">${item.price}</p>
+                          <h3 className="font-bold text-slate-100 text-base leading-snug line-clamp-2 group-hover:text-white transition-colors">
+                            {item.name}
+                          </h3>
+                          <p className="mt-auto pt-3 font-extrabold text-emerald-400 text-lg font-heading">
+                            ${item.price}
+                          </p>
                         </div>
                         <div className="flex flex-col items-center gap-2.5 shrink-0">
                           <div className="relative h-24 w-24 rounded-xl overflow-hidden bg-slate-800 border border-white/5">
-                            {item.imageUrl ? <Image src={item.imageUrl} alt={item.name} fill className="object-cover group-hover:scale-110 transition-transform duration-500" unoptimized />
-                              : <div className="h-full w-full flex items-center justify-center text-3xl">{catIcon(item.category)}</div>}
+                            {item.imageUrl ? (
+                              <Image
+                                src={item.imageUrl}
+                                alt={item.name}
+                                fill
+                                className="object-cover group-hover:scale-110 transition-transform duration-500"
+                                unoptimized
+                              />
+                            ) : (
+                              <div className="h-full w-full flex items-center justify-center text-3xl">
+                                {catIcon(item.category)}
+                              </div>
+                            )}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                           </div>
                           {!isStoreOpen ? (
-                            <button disabled className="w-24 py-1.5 rounded-lg bg-slate-800 text-slate-500 border border-white/5 text-sm font-black cursor-not-allowed">CLOSED</button>
+                            <button
+                              disabled
+                              className="w-24 py-1.5 rounded-lg bg-slate-800 text-slate-500 border border-white/5 text-sm font-black cursor-not-allowed"
+                            >
+                              CLOSED
+                            </button>
                           ) : qty === 0 ? (
-                            <button onClick={() => addToCart(item)} className="w-24 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-sm font-black hover:bg-emerald-500 hover:text-slate-950 hover:shadow-lg hover:shadow-emerald-500/25 transition-all active:scale-95">ADD</button>
+                            <button
+                              onClick={() => addToCart(item)}
+                              className="w-24 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-sm font-black hover:bg-emerald-500 hover:text-slate-950 hover:shadow-lg hover:shadow-emerald-500/25 transition-all active:scale-95"
+                            >
+                              ADD
+                            </button>
                           ) : (
                             <div className="flex items-center bg-emerald-500 rounded-lg overflow-hidden w-24 justify-between shadow-lg shadow-emerald-500/20">
-                              <button onClick={() => decrease(item._id)} className="w-8 h-8 flex items-center justify-center font-bold text-slate-950 hover:bg-emerald-600 text-lg active:scale-90 transition-colors">−</button>
+                              <button
+                                onClick={() => decrease(item._id)}
+                                className="w-8 h-8 flex items-center justify-center font-bold text-slate-950 hover:bg-emerald-600 text-lg active:scale-90 transition-colors"
+                              >
+                                −
+                              </button>
                               <span className="font-extrabold text-slate-950 text-sm">{qty}</span>
-                              <button onClick={() => increase(item._id)} className="w-8 h-8 flex items-center justify-center font-bold text-slate-950 hover:bg-emerald-600 text-lg active:scale-90 transition-colors">+</button>
+                              <button
+                                onClick={() => increase(item._id)}
+                                className="w-8 h-8 flex items-center justify-center font-bold text-slate-950 hover:bg-emerald-600 text-lg active:scale-90 transition-colors"
+                              >
+                                +
+                              </button>
                             </div>
                           )}
                         </div>
@@ -673,22 +1049,51 @@ export default function Home() {
 
         {/* RIGHT: Cart + Orders */}
         <aside className="sticky top-[4.5rem] flex flex-col gap-4">
-
           {/* Cart — flex-col so the checkout button is always visible */}
-          <div className={`glass-panel rounded-2xl flex flex-col transition-all duration-300 ${cartPulse ? "ring-2 ring-emerald-400/40 shadow-lg shadow-emerald-500/10" : ""}`}>
+          <div
+            className={`glass-panel rounded-2xl flex flex-col transition-all duration-300 ${cartPulse ? 'ring-2 ring-emerald-400/40 shadow-lg shadow-emerald-500/10' : ''}`}
+          >
             {/* Cart header */}
             <div className="px-5 py-4 border-b border-white/5 flex items-center justify-between shrink-0">
               <h3 className="font-heading font-extrabold text-slate-50 text-lg flex items-center gap-2">
-                <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                <svg
+                  className="w-5 h-5 text-emerald-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 Your Cart
               </h3>
-              {cartCount > 0 && <span className="text-xs bg-emerald-500 text-slate-950 font-black px-2.5 py-0.5 rounded-full shadow-lg shadow-emerald-500/30">{cartCount}</span>}
+              {cartCount > 0 && (
+                <span className="text-xs bg-emerald-500 text-slate-950 font-black px-2.5 py-0.5 rounded-full shadow-lg shadow-emerald-500/30">
+                  {cartCount}
+                </span>
+              )}
             </div>
 
             {cartCount === 0 ? (
               <div className="flex flex-col items-center py-10 px-5 text-center gap-3">
                 <div className="h-14 w-14 rounded-2xl bg-slate-800/50 border border-white/5 flex items-center justify-center">
-                  <svg className="w-7 h-7 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                  <svg
+                    className="w-7 h-7 text-slate-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
                 </div>
                 <p className="font-semibold text-slate-400 text-sm">Cart is empty</p>
                 <p className="text-[11px] text-slate-600">Click ADD on a dish to begin</p>
@@ -696,22 +1101,55 @@ export default function Home() {
             ) : (
               <>
                 {/* Scrollable items list — capped at ~4 rows */}
-                <div className="overflow-y-auto divide-y divide-white/5" style={{ maxHeight: "min(13rem, 35vh)" }}>
-                  {cart.map(c => (
+                <div
+                  className="overflow-y-auto divide-y divide-white/5"
+                  style={{ maxHeight: 'min(13rem, 35vh)' }}
+                >
+                  {cart.map((c) => (
                     <div key={c.item._id} className="flex items-center gap-3 px-5 py-3">
                       <div className="relative h-9 w-9 rounded-lg overflow-hidden bg-slate-800 shrink-0 border border-white/5">
-                        {c.item.imageUrl ? <Image src={c.item.imageUrl} alt={c.item.name} fill className="object-cover" unoptimized /> : <div className="h-full w-full flex items-center justify-center text-base">{catIcon(c.item.category)}</div>}
+                        {c.item.imageUrl ? (
+                          <Image
+                            src={c.item.imageUrl}
+                            alt={c.item.name}
+                            fill
+                            className="object-cover"
+                            unoptimized
+                          />
+                        ) : (
+                          <div className="h-full w-full flex items-center justify-center text-base">
+                            {catIcon(c.item.category)}
+                          </div>
+                        )}
                       </div>
                       <div className="flex-1 min-w-0">
-                        <p className="font-semibold text-xs text-slate-200 truncate">{c.item.name}</p>
-                        <p className="text-[10px] text-slate-500">${c.item.price} × {c.quantity}</p>
+                        <p className="font-semibold text-xs text-slate-200 truncate">
+                          {c.item.name}
+                        </p>
+                        <p className="text-[10px] text-slate-500">
+                          ${c.item.price} × {c.quantity}
+                        </p>
                       </div>
                       <div className="flex items-center gap-1 shrink-0">
-                        <button onClick={() => decrease(c.item._id)} className="h-6 w-6 flex items-center justify-center bg-slate-800 hover:bg-red-500/20 hover:text-red-400 rounded-full text-slate-400 text-sm font-bold transition-all border border-white/5">−</button>
-                        <span className="font-bold text-slate-200 text-xs w-4 text-center">{c.quantity}</span>
-                        <button onClick={() => increase(c.item._id)} className="h-6 w-6 flex items-center justify-center bg-slate-800 hover:bg-emerald-500/20 hover:text-emerald-400 rounded-full text-slate-400 text-sm font-bold transition-all border border-white/5">+</button>
+                        <button
+                          onClick={() => decrease(c.item._id)}
+                          className="h-6 w-6 flex items-center justify-center bg-slate-800 hover:bg-red-500/20 hover:text-red-400 rounded-full text-slate-400 text-sm font-bold transition-all border border-white/5"
+                        >
+                          −
+                        </button>
+                        <span className="font-bold text-slate-200 text-xs w-4 text-center">
+                          {c.quantity}
+                        </span>
+                        <button
+                          onClick={() => increase(c.item._id)}
+                          className="h-6 w-6 flex items-center justify-center bg-slate-800 hover:bg-emerald-500/20 hover:text-emerald-400 rounded-full text-slate-400 text-sm font-bold transition-all border border-white/5"
+                        >
+                          +
+                        </button>
                       </div>
-                      <span className="text-xs font-bold text-emerald-400 shrink-0 w-12 text-right">${c.item.price * c.quantity}</span>
+                      <span className="text-xs font-bold text-emerald-400 shrink-0 w-12 text-right">
+                        ${c.item.price * c.quantity}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -719,20 +1157,42 @@ export default function Home() {
                 {/* Total + CTA — always visible, never scrolled away */}
                 <div className="px-5 py-4 bg-slate-950/40 border-t border-white/5 shrink-0">
                   <div className="flex justify-between font-black text-base mb-4">
-                    <span className="text-slate-200">Total <span className="text-xs font-medium text-slate-500">({cartCount} item{cartCount !== 1 ? "s" : ""})</span></span>
+                    <span className="text-slate-200">
+                      Total{' '}
+                      <span className="text-xs font-medium text-slate-500">
+                        ({cartCount} item{cartCount !== 1 ? 's' : ''})
+                      </span>
+                    </span>
                     <span className="font-heading text-emerald-400">${cartTotal}</span>
                   </div>
                   {isStoreOpen ? (
-                    <button onClick={() => setShowPayment(true)}
-                      className="group relative w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2 overflow-hidden">
+                    <button
+                      onClick={() => setShowPayment(true)}
+                      className="group relative w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 font-extrabold text-slate-950 text-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2 overflow-hidden"
+                    >
                       <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                       <span className="relative flex items-center gap-2">
                         Proceed to Pay 🔒
-                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                        <svg
+                          className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2.5}
+                            d="M14 5l7 7m0 0l-7 7m7-7H3"
+                          />
+                        </svg>
                       </span>
                     </button>
                   ) : (
-                    <button disabled className="w-full py-3.5 rounded-xl bg-slate-800 text-slate-500 text-sm font-extrabold cursor-not-allowed border border-white/5">
+                    <button
+                      disabled
+                      className="w-full py-3.5 rounded-xl bg-slate-800 text-slate-500 text-sm font-extrabold cursor-not-allowed border border-white/5"
+                    >
                       Store Closed
                     </button>
                   )}

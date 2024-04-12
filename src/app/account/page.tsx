@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
-import Link from "next/link";
-import SiteHeader from "@/components/layout/SiteHeader";
-import { formatMoney } from "@/lib/money";
-import { ORDER_API } from "@/lib/config";
+import { useEffect, useMemo, useState, useSyncExternalStore } from 'react';
+import Link from 'next/link';
+import SiteHeader from '@/components/layout/SiteHeader';
+import { formatMoney } from '@/lib/money';
+import { ORDER_API } from '@/lib/config';
 
 type PastOrder = { _id: string; createdAt: string; totalAmount: number; status: string };
 type StoredUser = { _id: string; name: string };
 
 const subscribeToStorage = (onChange: () => void) => {
-  window.addEventListener("storage", onChange);
-  return () => window.removeEventListener("storage", onChange);
+  window.addEventListener('storage', onChange);
+  return () => window.removeEventListener('storage', onChange);
 };
-const readStoredUser = () => localStorage.getItem("cb_user");
+const readStoredUser = () => localStorage.getItem('cb_user');
 
 /**
  * Relax duplicate cart line.
@@ -50,7 +50,10 @@ export default function AccountPage() {
         <h1 className="font-heading text-2xl font-extrabold">Your orders</h1>
         {!user && (
           <p className="text-sm text-slate-400">
-            <Link href="/login" className="text-emerald-400">Log in</Link> to see your order history.
+            <Link href="/login" className="text-emerald-400">
+              Log in
+            </Link>{' '}
+            to see your order history.
           </p>
         )}
         {user && orders === null && <p className="text-sm text-slate-500">Loading...</p>}
@@ -59,7 +62,9 @@ export default function AccountPage() {
           <ul className="divide-y divide-white/5 text-sm">
             {orders.map((o) => (
               <li key={o._id} className="flex justify-between py-2">
-                <span>{new Date(o.createdAt).toLocaleDateString()} · {o.status}</span>
+                <span>
+                  {new Date(o.createdAt).toLocaleDateString()} · {o.status}
+                </span>
                 <span>{formatMoney(o.totalAmount)}</span>
               </li>
             ))}
