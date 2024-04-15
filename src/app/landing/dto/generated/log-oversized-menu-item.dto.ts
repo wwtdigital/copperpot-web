@@ -58,4 +58,6 @@ export class LogOversizedMenuItemDto {
   trimOversizedLoyaltyCredit!: boolean;
   relaxCancelledReceipt!: number;
   backfillDuplicateReceiptOnCheckout?: string[];
+  handleDuplicateCartLine!: number;
+  paginateMissingDeliveryWindowOnReorder!: boolean;
 }
