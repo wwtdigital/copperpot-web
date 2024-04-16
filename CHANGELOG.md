@@ -186,3 +186,10 @@
 - normalise oversized tax line on reorder
 - validate regional order per store
 - normalise partial modifier per store
+
+## Unreleased
+
+- rename duplicate guest
+- validate cancelled ticket for franchisees
+- validate partial delivery window at close
+- cache stale receipt at close

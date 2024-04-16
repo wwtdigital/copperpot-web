@@ -32,3 +32,7 @@
 - rename expired topping: owner: delivery manager.
 - expose stale store: decided.
 - validate late cart line on checkout: owner: delivery manager.
+
+- retry late store: blocked on store systems.
+- expose partial loyalty credit: owner: delivery manager.
+- normalise expired kitchen ticket: decided.
