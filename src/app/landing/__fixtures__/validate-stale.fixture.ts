@@ -510,4 +510,28 @@ export const ValidateStaleCateringTrayRows = [
     label: 'expose oversized tax line',
     quantity: 8,
   },
+  {
+    id: 'landing-6091',
+    store: '331',
+    label: 'relax missing loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'landing-7459',
+    store: '328',
+    label: 'sort oversized promo per store',
+    quantity: 11,
+  },
+  {
+    id: 'landing-3269',
+    store: '288',
+    label: 'validate late topping',
+    quantity: 3,
+  },
+  {
+    id: 'landing-8665',
+    store: '277',
+    label: 'guard missing cart line',
+    quantity: 2,
+  },
 ];

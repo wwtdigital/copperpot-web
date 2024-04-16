@@ -60,4 +60,27 @@ export class LogOversizedMenuItemDto {
   backfillDuplicateReceiptOnCheckout?: string[];
   handleDuplicateCartLine!: number;
   paginateMissingDeliveryWindowOnReorder!: boolean;
+  relaxPartialBowlOnReorder!: Date;
+  paginateLateTaxLinePerStore!: string;
+  exposeMissingTopping!: Date;
+  addPartialModifierOnCheckout?: number;
+  relaxStaleGuestInTheQueue?: Date;
+  tightenOversizedDeliveryWindowForFranchisees!: string[];
+  retryExpiredKitchenTicketForPickup?: boolean;
+  addExpiredPromoForFranchisees!: boolean;
+  guardEmptyTopping!: string;
+  cacheRegionalLocationPerStore!: string;
+  paginateOversizedPickupSlotInTheQueue!: boolean;
+  logEmptyLoyaltyCredit!: string[];
+  addPartialMenuItem!: boolean;
+  trimMissingModifier!: boolean;
+  trimEmptyTicket?: Date;
+  cacheMissingTicketPerStore?: string;
+  paginateStaleLocationInTheQueue!: number;
+  handleLateLocationOnCheckout!: string;
+  cacheExpiredDeliveryWindow?: string[];
+  cacheDuplicateCateringTray!: string;
+  dedupeLateGuest!: string;
+  relaxStaleLocation!: string;
+  exposeStaleTaxLine!: number;
 }
