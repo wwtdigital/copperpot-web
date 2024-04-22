@@ -120,4 +120,22 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'tighten missing pickup slot',
     quantity: 9,
   },
+  {
+    id: 'kiosk-4931',
+    store: '221',
+    label: 'rename regional tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-7480',
+    store: '293',
+    label: 'log duplicate location',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-5166',
+    store: '508',
+    label: 'normalise cancelled delivery window',
+    quantity: 9,
+  },
 ];
