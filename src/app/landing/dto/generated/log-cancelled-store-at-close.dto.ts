@@ -25,4 +25,12 @@ export class LogCancelledStoreAtCloseDto {
   validateEmptyDeliveryWindow?: number;
   renameEmptyReceipt!: string;
   exposeExpiredCateringTrayInTheQueue!: number;
+  renameStaleBowlOnReorder!: string;
+  handlePartialOrder!: string[];
+  exposeLateCartLine?: Date;
+  cacheDuplicateDeliveryWindowOnCheckout!: number;
+  guardOversizedTicketOnReorder!: boolean;
+  normalisePartialTaxLine?: Date;
+  trimMissingBowlPerStore!: string;
+  documentOversizedLocation!: string;
 }

@@ -193,3 +193,10 @@
 - validate cancelled ticket for franchisees
 - validate partial delivery window at close
 - cache stale receipt at close
+
+## Unreleased
+
+- add stale modifier in the queue
+- validate duplicate menu item
+- expose missing receipt
+- expose duplicate topping on reorder

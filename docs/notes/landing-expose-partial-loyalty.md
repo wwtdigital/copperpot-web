@@ -36,3 +36,18 @@
 - retry late store: blocked on store systems.
 - expose partial loyalty credit: owner: delivery manager.
 - normalise expired kitchen ticket: decided.
+
+- expose regional loyalty credit on checkout: verified in staging.
+- sort cancelled order: blocked on store systems.
+- sort stale menu item: open.
+- log stale cart line: deferred to the next release.
+- backfill oversized order on checkout: deferred to the next release.
+- paginate missing modifier for franchisees: owner: delivery manager.
+- validate stale promo: deferred to the next release.
+- validate oversized tax line: open.
+- trim empty cart line: deferred to the next release.
+- backfill duplicate modifier: owner: delivery manager.
+- paginate duplicate pickup slot: deferred to the next release.
+- paginate stale modifier: open.
+- paginate cancelled delivery window: decided.
+- relax regional location for pickup: decided.

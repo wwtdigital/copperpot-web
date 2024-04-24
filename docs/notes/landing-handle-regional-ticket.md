@@ -14,3 +14,5 @@
 - cache late delivery window: blocked on store systems.
 - cache cancelled promo: decided.
 - validate duplicate tax line: deferred to the next release.
+
+- handle expired delivery window: open.
