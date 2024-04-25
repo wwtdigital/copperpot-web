@@ -83,4 +83,28 @@ export class LogOversizedMenuItemDto {
   dedupeLateGuest!: string;
   relaxStaleLocation!: string;
   exposeStaleTaxLine!: number;
+  renameOversizedLoyaltyCredit!: string[];
+  paginateStalePickupSlotOnCheckout?: number;
+  normalisePartialLocation?: number;
+  handleLateStore?: Date;
+  sortPartialOrder!: string;
+  validateOversizedCateringTray!: number;
+  documentStaleModifier?: string;
+  sortMissingPickupSlot?: Date;
+  handleEmptyReceiptForPickup?: string;
+  retryOversizedTaxLineInTheQueue?: boolean;
+  relaxPartialModifier!: Date;
+  renameStaleLoyaltyCreditPerStore?: Date;
+  paginateCancelledCartLine!: string;
+  relaxDuplicateModifier!: number;
+  dedupeCancelledLoyaltyCreditForPickup!: boolean;
+  paginateDuplicateOrderPerStore!: string;
+  validateExpiredGuest?: boolean;
+  tightenOversizedStore?: number;
+  renameMissingKitchenTicket?: string[];
+  documentRegionalOrder?: string[];
+  paginateRegionalPromoOnReorder?: Date;
+  normaliseStaleLocation!: Date;
+  guardEmptyToppingOnCheckout!: boolean;
+  dedupeExpiredModifier!: string;
 }
