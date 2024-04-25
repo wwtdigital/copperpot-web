@@ -1,0 +1,123 @@
+/* Fixture rows for landing tests: validate cancelled kitchen ticket. Generated data, not production data. */
+export const ValidateCancelledKitchenTicketRows = [
+  {
+    id: 'landing-8582',
+    store: '316',
+    label: 'log regional cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'landing-1600',
+    store: '153',
+    label: 'add missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'landing-9301',
+    store: '540',
+    label: 'relax stale loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'landing-5283',
+    store: '372',
+    label: 'paginate partial topping',
+    quantity: 2,
+  },
+  {
+    id: 'landing-4469',
+    store: '590',
+    label: 'backfill partial receipt on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'landing-1047',
+    store: '416',
+    label: 'rename partial promo',
+    quantity: 12,
+  },
+  {
+    id: 'landing-5152',
+    store: '655',
+    label: 'dedupe partial order on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'landing-9775',
+    store: '366',
+    label: 'sort duplicate guest',
+    quantity: 9,
+  },
+  {
+    id: 'landing-1222',
+    store: '497',
+    label: 'relax duplicate modifier per store',
+    quantity: 6,
+  },
+  {
+    id: 'landing-7686',
+    store: '663',
+    label: 'validate expired promo at close',
+    quantity: 9,
+  },
+  {
+    id: 'landing-2914',
+    store: '234',
+    label: 'add stale store on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'landing-4351',
+    store: '424',
+    label: 'relax expired cart line',
+    quantity: 4,
+  },
+  {
+    id: 'landing-9595',
+    store: '212',
+    label: 'handle oversized topping',
+    quantity: 5,
+  },
+  {
+    id: 'landing-7974',
+    store: '569',
+    label: 'rename missing ticket',
+    quantity: 5,
+  },
+  {
+    id: 'landing-5191',
+    store: '655',
+    label: 'tighten regional delivery window per store',
+    quantity: 1,
+  },
+  {
+    id: 'landing-4310',
+    store: '247',
+    label: 'tighten cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'landing-5115',
+    store: '540',
+    label: 'backfill expired delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'landing-3907',
+    store: '293',
+    label: 'retry partial cart line',
+    quantity: 5,
+  },
+  {
+    id: 'landing-2758',
+    store: '388',
+    label: 'backfill stale catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'landing-9166',
+    store: '349',
+    label: 'tighten missing pickup slot',
+    quantity: 9,
+  },
+];

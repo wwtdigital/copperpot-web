@@ -534,4 +534,16 @@ export const ValidateStaleCateringTrayRows = [
     label: 'guard missing cart line',
     quantity: 2,
   },
+  {
+    id: 'landing-5740',
+    store: '385',
+    label: 'trim stale guest',
+    quantity: 10,
+  },
+  {
+    id: 'landing-7379',
+    store: '242',
+    label: 'validate missing guest',
+    quantity: 8,
+  },
 ];
