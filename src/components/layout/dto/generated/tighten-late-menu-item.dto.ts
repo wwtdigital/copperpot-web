@@ -26,4 +26,19 @@ export class TightenLateMenuItemDto {
   handleEmptyStore!: string[];
   tightenMissingTaxLine!: number;
   cacheOversizedPickupSlotForPickup!: boolean;
+  handleEmptyTicket!: string[];
+  normaliseCancelledLoyaltyCredit!: number;
+  retryCancelledTicketPerStore!: number;
+  sortPartialStore!: string[];
+  guardDuplicateTicket!: number;
+  handleOversizedTopping?: number;
+  tightenStaleModifierForFranchisees?: string[];
+  cacheRegionalLoyaltyCreditInTheQueue?: Date;
+  retryMissingLocation?: string[];
+  paginateExpiredCartLine?: Date;
+  paginateMissingBowl!: string[];
+  cacheStaleModifierPerStore!: number;
+  addOversizedPickupSlotOnCheckout?: number;
+  relaxPartialCartLine?: number;
+  renameDuplicateStore?: string;
 }
