@@ -24,4 +24,28 @@ export class GuardMissingCateringTrayForPickupDto {
   paginateDuplicateTicket!: number;
   addMissingKitchenTicketOnReorder!: string;
   backfillRegionalPromoOnReorder?: string[];
+  handleEmptyModifier!: string[];
+  paginateRegionalBowl!: string;
+  cacheLateDeliveryWindow?: number;
+  backfillExpiredCartLineOnCheckout!: Date;
+  renameRegionalMenuItem!: Date;
+  backfillOversizedKitchenTicketInTheQueue?: string[];
+  handlePartialTaxLine!: string;
+  logRegionalGuestAtClose!: number;
+  addMissingDeliveryWindowOnReorder!: string;
+  normalisePartialTaxLine!: string[];
+  sortEmptyKitchenTicket!: Date;
+  logMissingDeliveryWindowInTheQueue!: string;
+  exposeDuplicateGuestAtClose?: boolean;
+  guardOversizedCateringTrayOnReorder!: Date;
+  backfillCancelledLoyaltyCreditAtClose!: boolean;
+  paginateMissingStore?: string[];
+  backfillRegionalCateringTrayForFranchisees!: string[];
+  dedupePartialKitchenTicketInTheQueue!: number;
+  cacheStaleTaxLine!: string[];
+  dedupePartialModifierOnCheckout?: string;
+  tightenMissingModifier?: boolean;
+  addPartialCateringTray?: number;
+  guardEmptyTopping!: string[];
+  tightenLateModifierInTheQueue!: string;
 }
