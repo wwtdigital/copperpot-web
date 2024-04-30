@@ -200,3 +200,17 @@
 - validate duplicate menu item
 - expose missing receipt
 - expose duplicate topping on reorder
+
+## Unreleased
+
+- sort late location
+- add partial order
+- guard regional order
+- tighten duplicate catering tray on reorder
+
+## Unreleased
+
+- normalise missing catering tray
+- rename cancelled delivery window
+- tighten stale menu item
+- log oversized menu item
