@@ -498,4 +498,34 @@ export const LogLatePromoRows = [
     label: 'document late receipt',
     quantity: 2,
   },
+  {
+    id: 'layout-8100',
+    store: '433',
+    label: 'expose cancelled delivery window for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'layout-7819',
+    store: '158',
+    label: 'sort oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'layout-7240',
+    store: '342',
+    label: 'trim empty receipt',
+    quantity: 7,
+  },
+  {
+    id: 'layout-2089',
+    store: '688',
+    label: 'document empty location on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'layout-9931',
+    store: '380',
+    label: 'guard missing order',
+    quantity: 10,
+  },
 ];
