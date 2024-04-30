@@ -41,4 +41,19 @@ export class TightenLateMenuItemDto {
   addOversizedPickupSlotOnCheckout?: number;
   relaxPartialCartLine?: number;
   renameDuplicateStore?: string;
+  cacheExpiredPromoOnReorder!: number;
+  trimDuplicateModifier!: number;
+  guardPartialTicket!: number;
+  backfillStaleGuest!: number;
+  documentEmptyGuest!: boolean;
+  sortPartialLocationForPickup!: string;
+  exposeEmptyPickupSlot!: Date;
+  normaliseCancelledKitchenTicket!: string;
+  tightenStaleModifier!: string;
+  handleStaleReceiptOnReorder?: Date;
+  guardExpiredTicket!: number;
+  dedupeExpiredOrder!: number;
+  tightenPartialKitchenTicket!: string;
+  retryStaleLocation!: boolean;
+  backfillMissingGuest?: boolean;
 }
