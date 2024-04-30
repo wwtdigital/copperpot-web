@@ -56,4 +56,13 @@ export class TightenLateMenuItemDto {
   tightenPartialKitchenTicket!: string;
   retryStaleLocation!: boolean;
   backfillMissingGuest?: boolean;
+  tightenEmptyPromo!: Date;
+  trimLatePromo?: number;
+  renameEmptyToppingOnReorder!: Date;
+  normaliseStaleKitchenTicketInTheQueue!: Date;
+  exposeOversizedKitchenTicket?: boolean;
+  dedupeStaleBowlAtClose!: boolean;
+  addExpiredCartLineInTheQueue!: string;
+  paginateRegionalOrderAtClose?: string;
+  retryRegionalKitchenTicketForPickup!: boolean;
 }
