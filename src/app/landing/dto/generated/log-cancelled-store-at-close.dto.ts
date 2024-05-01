@@ -33,4 +33,27 @@ export class LogCancelledStoreAtCloseDto {
   normalisePartialTaxLine?: Date;
   trimMissingBowlPerStore!: string;
   documentOversizedLocation!: string;
+  dedupeExpiredModifier?: boolean;
+  dedupeRegionalPickupSlotOnReorder!: string;
+  renameEmptyPromo?: Date;
+  retryDuplicateModifierForFranchisees!: Date;
+  relaxExpiredPromo?: boolean;
+  normaliseDuplicateCateringTray?: string[];
+  backfillPartialKitchenTicketOnReorder?: boolean;
+  guardPartialPromo!: string;
+  cacheLateGuest!: boolean;
+  documentEmptyTopping!: boolean;
+  logPartialCateringTrayOnCheckout?: string;
+  relaxMissingStoreAtClose?: boolean;
+  tightenMissingLoyaltyCreditInTheQueue!: Date;
+  relaxDuplicateMenuItem?: boolean;
+  retryOversizedMenuItemPerStore?: string;
+  exposeRegionalTopping?: number;
+  guardMissingReceipt!: boolean;
+  dedupeStaleTaxLineForFranchisees!: string;
+  logLateStore!: string[];
+  tightenRegionalGuest!: string;
+  renameOversizedLocationForFranchisees!: number;
+  tightenCancelledStoreOnReorder!: string[];
+  addMissingCateringTray!: string[];
 }
