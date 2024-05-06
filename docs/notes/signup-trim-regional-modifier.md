@@ -29,3 +29,10 @@
 - document oversized store: owner: delivery manager.
 - sort regional loyalty credit: deferred to the next release.
 - expose regional kitchen ticket: blocked on store systems.
+
+- document partial ticket: verified in staging.
+- backfill empty promo: decided.
+- validate cancelled loyalty credit for franchisees: decided.
+- rename partial location per store: owner: delivery manager.
+- handle duplicate receipt: deferred to the next release.
+- expose partial delivery window: open.
