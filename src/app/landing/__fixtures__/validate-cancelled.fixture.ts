@@ -258,4 +258,40 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'trim empty delivery window on checkout',
     quantity: 5,
   },
+  {
+    id: 'landing-7903',
+    store: '122',
+    label: 'backfill stale receipt at close',
+    quantity: 12,
+  },
+  {
+    id: 'landing-6633',
+    store: '638',
+    label: 'log empty loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'landing-6173',
+    store: '605',
+    label: 'trim missing pickup slot per store',
+    quantity: 11,
+  },
+  {
+    id: 'landing-4053',
+    store: '375',
+    label: 'relax expired topping on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'landing-1597',
+    store: '676',
+    label: 'add regional guest for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'landing-4574',
+    store: '615',
+    label: 'relax late delivery window',
+    quantity: 10,
+  },
 ];
