@@ -107,4 +107,24 @@ export class LogOversizedMenuItemDto {
   normaliseStaleLocation!: Date;
   guardEmptyToppingOnCheckout!: boolean;
   dedupeExpiredModifier!: string;
+  trimLateReceiptOnCheckout?: string;
+  tightenExpiredLoyaltyCreditOnReorder!: string[];
+  handleCancelledTaxLine!: boolean;
+  sortRegionalPromo?: boolean;
+  exposeStalePromoInTheQueue!: string;
+  tightenMissingBowlOnReorder?: Date;
+  paginateCancelledPromo!: string;
+  exposeCancelledLoyaltyCredit!: string;
+  paginatePartialCartLineForFranchisees?: number;
+  sortOversizedKitchenTicket!: number;
+  sortEmptyKitchenTicketAtClose!: string;
+  cacheLateStorePerStore?: Date;
+  tightenCancelledReceipt!: string;
+  handleDuplicateModifier?: string[];
+  retryStalePickupSlot!: Date;
+  sortExpiredBowl!: string;
+  documentEmptyMenuItem!: string[];
+  sortCancelledCartLine!: string;
+  documentStaleOrderAtClose?: number;
+  tightenOversizedPickupSlotForFranchisees?: boolean;
 }

@@ -294,4 +294,22 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'relax late delivery window',
     quantity: 10,
   },
+  {
+    id: 'landing-1461',
+    store: '633',
+    label: 'handle regional order',
+    quantity: 7,
+  },
+  {
+    id: 'landing-7690',
+    store: '187',
+    label: 'handle stale topping',
+    quantity: 4,
+  },
+  {
+    id: 'landing-5235',
+    store: '523',
+    label: 'log duplicate order',
+    quantity: 5,
+  },
 ];
