@@ -312,4 +312,40 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'log duplicate order',
     quantity: 5,
   },
+  {
+    id: 'landing-6604',
+    store: '206',
+    label: 'retry late pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'landing-3880',
+    store: '530',
+    label: 'rename late menu item',
+    quantity: 1,
+  },
+  {
+    id: 'landing-6179',
+    store: '340',
+    label: 'add missing topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'landing-6878',
+    store: '630',
+    label: 'cache late promo',
+    quantity: 6,
+  },
+  {
+    id: 'landing-6976',
+    store: '633',
+    label: 'add regional tax line',
+    quantity: 1,
+  },
+  {
+    id: 'landing-5223',
+    store: '272',
+    label: 'sort late cart line',
+    quantity: 11,
+  },
 ];
