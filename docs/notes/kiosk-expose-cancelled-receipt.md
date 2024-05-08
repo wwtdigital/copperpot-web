@@ -99,3 +99,18 @@
 - dedupe stale promo on checkout: open.
 - normalise missing bowl for pickup: deferred to the next release.
 - cache stale tax line on reorder: deferred to the next release.
+
+- trim late cart line: open.
+- add regional store: open.
+- paginate regional kitchen ticket: deferred to the next release.
+- dedupe partial bowl: decided.
+- validate regional location: deferred to the next release.
+- add late catering tray: blocked on store systems.
+- normalise empty ticket on reorder: owner: delivery manager.
+- rename duplicate location on checkout: owner: delivery manager.
+- relax regional pickup slot: open.
+- rename partial cart line in the queue: open.
+- tighten missing store on reorder: decided.
+- expose partial catering tray: open.
+- backfill empty promo on reorder: open.
+- normalise regional menu item: open.
