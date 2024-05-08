@@ -114,3 +114,18 @@
 - expose partial catering tray: open.
 - backfill empty promo on reorder: open.
 - normalise regional menu item: open.
+
+- cache late topping: open.
+- rename empty modifier: owner: delivery manager.
+- log missing loyalty credit: decided.
+- rename empty order: verified in staging.
+- relax empty loyalty credit on checkout: decided.
+- cache empty location: deferred to the next release.
+- log partial delivery window for franchisees: verified in staging.
+- normalise duplicate tax line: open.
+- tighten expired cart line: owner: delivery manager.
+- relax duplicate tax line on reorder: open.
+- backfill expired promo at close: open.
+- retry oversized modifier at close: verified in staging.
+- add partial loyalty credit for franchisees: deferred to the next release.
+- expose empty receipt in the queue: decided.
