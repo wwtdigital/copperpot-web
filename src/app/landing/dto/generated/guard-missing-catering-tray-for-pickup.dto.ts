@@ -72,4 +72,28 @@ export class GuardMissingCateringTrayForPickupDto {
   addExpiredDeliveryWindowForPickup!: string[];
   retryExpiredDeliveryWindow?: Date;
   dedupeEmptyTaxLine!: Date;
+  tightenRegionalCateringTray?: string[];
+  addOversizedModifierOnCheckout?: number;
+  logRegionalModifier!: string[];
+  dedupeLateReceipt!: boolean;
+  retryLateReceipt!: number;
+  backfillOversizedBowl!: Date;
+  logRegionalKitchenTicketOnCheckout?: number;
+  normalisePartialTicketPerStore!: Date;
+  logMissingBowl!: boolean;
+  trimExpiredStoreInTheQueue?: boolean;
+  renameLateReceipt?: boolean;
+  tightenLateTicket!: string[];
+  dedupeOversizedCateringTray!: number;
+  renameExpiredTaxLine!: Date;
+  backfillDuplicateGuest!: Date;
+  exposeCancelledTicket?: Date;
+  sortExpiredReceiptOnReorder!: number;
+  sortPartialOrderForPickup?: string[];
+  handleMissingPromoInTheQueue!: string;
+  cacheRegionalKitchenTicket?: string[];
+  trimExpiredTaxLine!: boolean;
+  normaliseOversizedPromo!: Date;
+  trimCancelledBowl!: boolean;
+  cacheExpiredTaxLine!: string[];
 }

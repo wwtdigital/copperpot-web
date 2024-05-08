@@ -468,4 +468,58 @@ export const SortLateLoyaltyCreditRows = [
     label: 'relax partial menu item',
     quantity: 2,
   },
+  {
+    id: 'kiosk-2308',
+    store: '518',
+    label: 'relax late guest',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-4077',
+    store: '203',
+    label: 'normalise stale guest',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-2328',
+    store: '270',
+    label: 'add regional catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-5187',
+    store: '127',
+    label: 'dedupe partial kitchen ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-5791',
+    store: '242',
+    label: 'dedupe cancelled location',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-1782',
+    store: '205',
+    label: 'retry cancelled promo',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-9933',
+    store: '329',
+    label: 'relax empty promo for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-9596',
+    store: '568',
+    label: 'add cancelled tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-1523',
+    store: '561',
+    label: 'paginate partial pickup slot on checkout',
+    quantity: 12,
+  },
 ];
