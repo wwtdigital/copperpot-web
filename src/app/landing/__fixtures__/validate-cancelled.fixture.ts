@@ -348,4 +348,10 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'sort late cart line',
     quantity: 11,
   },
+  {
+    id: 'landing-8457',
+    store: '414',
+    label: 'trim empty store per store',
+    quantity: 3,
+  },
 ];

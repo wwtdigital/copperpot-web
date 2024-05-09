@@ -30,4 +30,16 @@ export const GuardCancelledPickupSlotRows = [
     label: 'paginate empty promo per store',
     quantity: 3,
   },
+  {
+    id: 'landing-7399',
+    store: '278',
+    label: 'log partial guest',
+    quantity: 3,
+  },
+  {
+    id: 'landing-5264',
+    store: '426',
+    label: 'backfill expired topping',
+    quantity: 7,
+  },
 ];
