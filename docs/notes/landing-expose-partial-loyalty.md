@@ -51,3 +51,8 @@
 - paginate stale modifier: open.
 - paginate cancelled delivery window: decided.
 - relax regional location for pickup: decided.
+
+- sort stale bowl: open.
+- expose cancelled kitchen ticket: deferred to the next release.
+- handle late kitchen ticket for franchisees: blocked on store systems.
+- retry duplicate topping: deferred to the next release.

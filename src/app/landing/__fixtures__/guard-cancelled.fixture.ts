@@ -24,4 +24,22 @@ export const GuardCancelledPickupSlotRows = [
     label: 'sort late loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'landing-5367',
+    store: '536',
+    label: 'paginate empty promo per store',
+    quantity: 3,
+  },
+  {
+    id: 'landing-7399',
+    store: '278',
+    label: 'log partial guest',
+    quantity: 3,
+  },
+  {
+    id: 'landing-5264',
+    store: '426',
+    label: 'backfill expired topping',
+    quantity: 7,
+  },
 ];

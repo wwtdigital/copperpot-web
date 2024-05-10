@@ -96,4 +96,23 @@ export class GuardMissingCateringTrayForPickupDto {
   normaliseOversizedPromo!: Date;
   trimCancelledBowl!: boolean;
   cacheExpiredTaxLine!: string[];
+  addPartialLoyaltyCredit!: string;
+  backfillEmptyBowlForPickup!: Date;
+  dedupeMissingModifierForFranchisees!: number;
+  normaliseCancelledTaxLineAtClose!: string[];
+  handleEmptyStoreOnCheckout!: number;
+  backfillExpiredPickupSlot!: string;
+  renameStaleLocation!: boolean;
+  paginateOversizedTicket?: string[];
+  addOversizedMenuItemForPickup?: boolean;
+  retryRegionalTaxLine?: number;
+  handleRegionalCartLine?: string[];
+  paginateMissingBowl!: number;
+  relaxPartialTaxLine!: Date;
+  paginateOversizedOrder?: string;
+  addPartialTaxLineOnCheckout!: boolean;
+  tightenMissingPickupSlot!: number;
+  renameEmptyTicketAtClose!: string;
+  normaliseCancelledModifierPerStore!: number;
+  backfillExpiredMenuItemAtClose!: Date;
 }
