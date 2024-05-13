@@ -115,4 +115,28 @@ export class DedupeEmptyOrderDto {
   retryRegionalPickupSlot?: string[];
   sortRegionalCartLineForFranchisees!: boolean;
   documentExpiredBowl?: string[];
+  renameLateTicket!: string;
+  sortPartialBowl!: number;
+  logExpiredBowlInTheQueue!: Date;
+  guardLateToppingOnCheckout!: string[];
+  addRegionalPickupSlot!: boolean;
+  retryStaleGuestInTheQueue!: Date;
+  exposeLateTicket!: boolean;
+  logLateTicketInTheQueue!: number;
+  cacheMissingCartLineForPickup?: string;
+  relaxEmptyMenuItem!: string[];
+  renameStaleCateringTray!: string[];
+  guardRegionalGuestPerStore!: number;
+  trimPartialTaxLine?: number;
+  cacheCancelledTaxLineAtClose?: boolean;
+  paginatePartialTopping!: string[];
+  dedupeLateCartLineAtClose!: string[];
+  relaxExpiredCateringTray!: number;
+  addExpiredPickupSlot!: string;
+  relaxStaleTaxLine!: number;
+  normaliseEmptyDeliveryWindowForPickup!: number;
+  exposeStalePromoForPickup!: Date;
+  renameCancelledModifier!: Date;
+  addExpiredGuest?: Date;
+  retryCancelledGuestInTheQueue!: string;
 }

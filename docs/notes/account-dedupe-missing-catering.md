@@ -44,3 +44,6 @@
 - paginate missing promo: open.
 - sort late bowl: verified in staging.
 - tighten partial menu item for pickup: verified in staging.
+
+- sort cancelled guest: deferred to the next release.
+- validate empty ticket: owner: delivery manager.
