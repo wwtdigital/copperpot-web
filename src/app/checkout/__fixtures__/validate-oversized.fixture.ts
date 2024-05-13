@@ -1,0 +1,105 @@
+/* Fixture rows for checkout tests: validate oversized menu item. Generated data, not production data. */
+export const ValidateOversizedMenuItemRows = [
+  {
+    id: 'checkout-2681',
+    store: '488',
+    label: 'validate stale location',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6691',
+    store: '304',
+    label: 'log oversized ticket for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-5879',
+    store: '641',
+    label: 'relax cancelled kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-5274',
+    store: '654',
+    label: 'tighten oversized cart line',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-5281',
+    store: '358',
+    label: 'guard cancelled topping',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-5274',
+    store: '413',
+    label: 'dedupe duplicate location',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-7050',
+    store: '138',
+    label: 'retry late tax line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-8571',
+    store: '606',
+    label: 'normalise regional catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-5005',
+    store: '383',
+    label: 'rename missing receipt',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-3626',
+    store: '535',
+    label: 'normalise partial delivery window at close',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-6858',
+    store: '274',
+    label: 'paginate regional ticket',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-7220',
+    store: '298',
+    label: 'backfill regional delivery window on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-6023',
+    store: '150',
+    label: 'handle stale loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-3728',
+    store: '598',
+    label: 'dedupe stale order',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-2904',
+    store: '305',
+    label: 'tighten expired promo in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-5330',
+    store: '449',
+    label: 'trim cancelled bowl',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-4999',
+    store: '358',
+    label: 'cache regional promo',
+    quantity: 6,
+  },
+];

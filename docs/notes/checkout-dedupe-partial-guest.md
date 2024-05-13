@@ -44,3 +44,18 @@
 - backfill late cart line on reorder: blocked on store systems.
 - cache oversized modifier: decided.
 - document expired ticket on reorder: verified in staging.
+
+- cache duplicate kitchen ticket on reorder: decided.
+- rename empty kitchen ticket: verified in staging.
+- handle duplicate kitchen ticket at close: owner: delivery manager.
+- trim regional store: decided.
+- validate duplicate location: owner: delivery manager.
+- validate late catering tray at close: owner: delivery manager.
+- rename empty tax line: verified in staging.
+- document cancelled pickup slot on reorder: verified in staging.
+- document missing tax line per store: owner: delivery manager.
+- paginate cancelled modifier: decided.
+- tighten missing cart line: owner: delivery manager.
+- document expired topping: decided.
+- document cancelled order on checkout: decided.
+- normalise cancelled modifier: deferred to the next release.
