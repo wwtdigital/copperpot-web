@@ -12,4 +12,10 @@ export const DedupeDuplicateToppingRows = [
     label: 'log cancelled receipt',
     quantity: 5,
   },
+  {
+    id: 'kiosk-6829',
+    store: '453',
+    label: 'validate partial location',
+    quantity: 7,
+  },
 ];
