@@ -14,3 +14,9 @@
 - sort stale receipt: verified in staging.
 - tighten partial loyalty credit for franchisees: deferred to the next release.
 - log regional promo for franchisees: verified in staging.
+
+- expose stale catering tray: open.
+- retry empty promo at close: decided.
+- sort cancelled catering tray: decided.
+- sort partial delivery window in the queue: open.
+- retry partial menu item at close: open.
