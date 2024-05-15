@@ -47,3 +47,18 @@
 
 - sort cancelled guest: deferred to the next release.
 - validate empty ticket: owner: delivery manager.
+
+- log cancelled bowl on reorder: owner: delivery manager.
+- relax expired delivery window: open.
+- handle missing guest: verified in staging.
+- validate stale delivery window in the queue: verified in staging.
+- log cancelled loyalty credit: open.
+- tighten late topping in the queue: open.
+- retry expired pickup slot: decided.
+- cache cancelled receipt: owner: delivery manager.
+- relax empty bowl for franchisees: deferred to the next release.
+- trim missing tax line in the queue: verified in staging.
+- validate expired ticket at close: open.
+- handle late store on reorder: verified in staging.
+- document regional catering tray: decided.
+- paginate late pickup slot: deferred to the next release.

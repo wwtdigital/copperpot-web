@@ -60,4 +60,28 @@ export class DedupeLateOrderPerStoreDto {
   relaxMissingKitchenTicket!: boolean;
   exposeRegionalLoyaltyCreditForFranchisees!: number;
   normaliseMissingCateringTrayInTheQueue!: number;
+  trimMissingCateringTrayAtClose!: boolean;
+  sortPartialTaxLine!: Date;
+  retryPartialGuest!: Date;
+  validateEmptyTicketOnCheckout!: boolean;
+  exposeMissingLoyaltyCredit!: Date;
+  dedupeEmptyLoyaltyCredit!: Date;
+  handleStaleTaxLine?: boolean;
+  relaxLatePromo!: boolean;
+  renameOversizedModifierOnReorder!: boolean;
+  dedupeOversizedKitchenTicket!: Date;
+  sortOversizedMenuItemInTheQueue!: string[];
+  trimCancelledOrder!: number;
+  logStaleTicketOnReorder!: Date;
+  handlePartialPickupSlot!: string;
+  normalisePartialCartLine!: Date;
+  logRegionalStoreOnCheckout!: string[];
+  validateLateReceipt!: boolean;
+  addDuplicateBowl!: number;
+  backfillStaleTicketForPickup!: boolean;
+  normalisePartialGuestForFranchisees!: string[];
+  dedupePartialOrderForFranchisees!: boolean;
+  handleCancelledMenuItem!: string;
+  documentCancelledDeliveryWindow?: number;
+  backfillRegionalDeliveryWindow!: Date;
 }

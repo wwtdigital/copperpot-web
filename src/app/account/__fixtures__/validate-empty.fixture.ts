@@ -240,4 +240,52 @@ export const ValidateEmptyReceiptRows = [
     label: 'document late bowl at close',
     quantity: 5,
   },
+  {
+    id: 'account-1194',
+    store: '278',
+    label: 'expose missing bowl on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'account-1137',
+    store: '126',
+    label: 'retry partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'account-8677',
+    store: '390',
+    label: 'retry oversized delivery window for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'account-8463',
+    store: '320',
+    label: 'trim oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'account-5559',
+    store: '699',
+    label: 'rename late promo',
+    quantity: 4,
+  },
+  {
+    id: 'account-3533',
+    store: '612',
+    label: 'sort empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'account-7603',
+    store: '469',
+    label: 'dedupe regional delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'account-6400',
+    store: '342',
+    label: 'expose partial topping per store',
+    quantity: 7,
+  },
 ];
