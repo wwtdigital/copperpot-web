@@ -1,0 +1,123 @@
+/* Fixture rows for checkout tests: cache duplicate loyalty credit. Generated data, not production data. */
+export const CacheDuplicateLoyaltyCreditRows = [
+  {
+    id: 'checkout-5631',
+    store: '149',
+    label: 'sort expired bowl',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-4051',
+    store: '204',
+    label: 'retry late receipt',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-5702',
+    store: '135',
+    label: 'dedupe oversized modifier',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-4731',
+    store: '282',
+    label: 'relax expired store',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-7089',
+    store: '199',
+    label: 'expose empty topping at close',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-9400',
+    store: '561',
+    label: 'dedupe duplicate delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-6682',
+    store: '565',
+    label: 'document late pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-4744',
+    store: '475',
+    label: 'retry regional location',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-2579',
+    store: '255',
+    label: 'sort expired delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-3778',
+    store: '333',
+    label: 'cache missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-1207',
+    store: '265',
+    label: 'validate duplicate promo',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-6987',
+    store: '566',
+    label: 'expose duplicate pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-8930',
+    store: '113',
+    label: 'sort partial loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-4318',
+    store: '289',
+    label: 'document late promo',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-1183',
+    store: '388',
+    label: 'cache cancelled pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-8627',
+    store: '335',
+    label: 'document regional ticket',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-2107',
+    store: '517',
+    label: 'rename partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-8650',
+    store: '487',
+    label: 'sort regional order',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-5049',
+    store: '323',
+    label: 'sort oversized tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-8897',
+    store: '625',
+    label: 'handle expired tax line',
+    quantity: 2,
+  },
+];
