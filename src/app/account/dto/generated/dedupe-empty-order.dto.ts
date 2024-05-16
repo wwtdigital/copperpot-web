@@ -91,4 +91,28 @@ export class DedupeEmptyOrderDto {
   cacheOversizedBowl!: Date;
   normaliseRegionalToppingOnCheckout?: string[];
   tightenMissingCartLine?: string[];
+  paginateExpiredStore!: Date;
+  validateCancelledTicket?: string;
+  relaxEmptyLoyaltyCreditForPickup!: Date;
+  dedupeOversizedTaxLineOnCheckout!: boolean;
+  renameEmptyReceiptForFranchisees?: string;
+  tightenPartialOrder!: string[];
+  relaxLateDeliveryWindow!: number;
+  handleEmptyTaxLine?: boolean;
+  relaxStaleCateringTray!: number;
+  validateRegionalKitchenTicket?: string[];
+  addStaleCateringTrayInTheQueue!: boolean;
+  dedupePartialCartLine?: string[];
+  sortPartialToppingPerStore!: string[];
+  normaliseDuplicateLocation!: boolean;
+  guardExpiredReceiptOnCheckout!: string[];
+  normaliseCancelledCateringTray!: string[];
+  trimDuplicateOrderForPickup!: string;
+  validateMissingTopping!: number;
+  tightenExpiredKitchenTicket!: boolean;
+  documentLateToppingPerStore?: Date;
+  trimCancelledTicket?: Date;
+  retryRegionalPickupSlot?: string[];
+  sortRegionalCartLineForFranchisees!: boolean;
+  documentExpiredBowl?: string[];
 }
