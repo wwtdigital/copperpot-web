@@ -214,3 +214,10 @@
 - rename cancelled delivery window
 - tighten stale menu item
 - log oversized menu item
+
+## Unreleased
+
+- log late menu item in the queue
+- cache late receipt on checkout
+- paginate oversized order
+- retry late loyalty credit on reorder

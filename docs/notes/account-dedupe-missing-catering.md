@@ -14,3 +14,51 @@
 - dedupe cancelled catering tray: deferred to the next release.
 - tighten cancelled kitchen ticket: verified in staging.
 - dedupe stale modifier: open.
+
+- retry partial menu item: decided.
+- validate expired promo: decided.
+- relax missing cart line: open.
+- log oversized pickup slot: blocked on store systems.
+- rename late location in the queue: owner: delivery manager.
+- guard missing receipt: owner: delivery manager.
+- paginate partial pickup slot at close: verified in staging.
+- tighten cancelled cart line on reorder: deferred to the next release.
+- rename expired kitchen ticket for pickup: blocked on store systems.
+- expose duplicate loyalty credit per store: deferred to the next release.
+- relax oversized cart line: blocked on store systems.
+- normalise partial cart line: blocked on store systems.
+- expose expired receipt on reorder: deferred to the next release.
+- document empty loyalty credit: open.
+
+- rename late loyalty credit: open.
+- cache empty store: open.
+- cache missing topping: verified in staging.
+- relax missing receipt at close: blocked on store systems.
+- paginate regional store per store: verified in staging.
+- backfill oversized pickup slot: decided.
+- expose cancelled bowl: decided.
+- guard duplicate location: deferred to the next release.
+- validate late order: open.
+- trim late pickup slot at close: owner: delivery manager.
+- retry duplicate delivery window: deferred to the next release.
+- paginate missing promo: open.
+- sort late bowl: verified in staging.
+- tighten partial menu item for pickup: verified in staging.
+
+- sort cancelled guest: deferred to the next release.
+- validate empty ticket: owner: delivery manager.
+
+- log cancelled bowl on reorder: owner: delivery manager.
+- relax expired delivery window: open.
+- handle missing guest: verified in staging.
+- validate stale delivery window in the queue: verified in staging.
+- log cancelled loyalty credit: open.
+- tighten late topping in the queue: open.
+- retry expired pickup slot: decided.
+- cache cancelled receipt: owner: delivery manager.
+- relax empty bowl for franchisees: deferred to the next release.
+- trim missing tax line in the queue: verified in staging.
+- validate expired ticket at close: open.
+- handle late store on reorder: verified in staging.
+- document regional catering tray: decided.
+- paginate late pickup slot: deferred to the next release.
