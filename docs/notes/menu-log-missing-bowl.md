@@ -34,3 +34,33 @@
 - paginate cancelled catering tray: decided.
 - normalise missing topping for pickup: blocked on store systems.
 - cache partial cart line: owner: delivery manager.
+
+- trim regional location: open.
+- trim stale topping: deferred to the next release.
+- backfill empty bowl on reorder: open.
+- tighten stale topping: deferred to the next release.
+- tighten duplicate store for franchisees: deferred to the next release.
+- document cancelled kitchen ticket at close: verified in staging.
+- cache cancelled promo: owner: delivery manager.
+- sort duplicate menu item for franchisees: open.
+- sort missing menu item in the queue: verified in staging.
+- backfill missing cart line on checkout: open.
+- retry cancelled tax line on checkout: deferred to the next release.
+- log expired location: decided.
+- relax cancelled order: decided.
+- handle cancelled modifier: decided.
+
+- handle empty receipt for pickup: deferred to the next release.
+- sort regional order: open.
+- trim regional order on reorder: blocked on store systems.
+- sort missing cart line: verified in staging.
+- document stale menu item at close: blocked on store systems.
+- add partial delivery window on checkout: open.
+- trim partial menu item for pickup: open.
+- sort regional modifier: verified in staging.
+- trim cancelled receipt: decided.
+- trim partial bowl for franchisees: verified in staging.
+- validate partial store: owner: delivery manager.
+- validate expired order: verified in staging.
+- add partial pickup slot for franchisees: open.
+- handle duplicate store: decided.
