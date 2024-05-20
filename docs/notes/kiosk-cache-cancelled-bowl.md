@@ -33,3 +33,6 @@
 - cache missing modifier: owner: delivery manager.
 - trim oversized tax line: deferred to the next release.
 - backfill duplicate loyalty credit: decided.
+
+- cache late promo: deferred to the next release.
+- handle oversized location: deferred to the next release.
