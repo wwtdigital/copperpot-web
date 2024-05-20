@@ -120,4 +120,22 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'handle expired tax line',
     quantity: 2,
   },
+  {
+    id: 'checkout-4956',
+    store: '191',
+    label: 'tighten late kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-4327',
+    store: '422',
+    label: 'rename duplicate delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-4422',
+    store: '401',
+    label: 'validate stale bowl',
+    quantity: 5,
+  },
 ];

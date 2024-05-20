@@ -24,4 +24,28 @@ export class BackfillMissingCateringTrayOnCheckoutDto {
   logMissingTaxLine?: boolean;
   addMissingModifierOnCheckout!: string[];
   renameStaleDeliveryWindow?: string;
+  validateCancelledLocationForPickup!: number;
+  paginateDuplicateMenuItem!: Date;
+  addExpiredCateringTrayOnReorder!: boolean;
+  exposeExpiredDeliveryWindowPerStore!: string[];
+  logDuplicateCateringTrayOnReorder!: number;
+  paginateEmptyLocation!: number;
+  paginateLateStore!: boolean;
+  renameStaleKitchenTicket!: number;
+  dedupePartialTaxLineInTheQueue!: Date;
+  cacheStaleKitchenTicketPerStore!: number;
+  dedupeEmptyKitchenTicket!: string;
+  cacheStaleMenuItemOnReorder!: boolean;
+  retryEmptyGuest!: string[];
+  trimCancelledTopping!: Date;
+  retryOversizedCartLine?: string;
+  addEmptyCartLine?: string;
+  guardStaleCartLineAtClose!: string[];
+  logCancelledReceiptForPickup!: boolean;
+  documentDuplicateStore?: string[];
+  addMissingToppingForFranchisees!: Date;
+  guardCancelledKitchenTicket!: string;
+  exposeMissingTicket!: boolean;
+  addEmptyTaxLine!: Date;
+  exposeEmptyReceipt!: boolean;
 }

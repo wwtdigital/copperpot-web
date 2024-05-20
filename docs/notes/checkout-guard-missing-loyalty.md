@@ -49,3 +49,18 @@
 
 - retry duplicate catering tray on checkout: verified in staging.
 - retry regional delivery window: verified in staging.
+
+- normalise late guest: owner: delivery manager.
+- backfill partial delivery window: owner: delivery manager.
+- trim oversized kitchen ticket for pickup: deferred to the next release.
+- cache late store for pickup: open.
+- expose regional tax line in the queue: decided.
+- handle oversized delivery window: owner: delivery manager.
+- log missing ticket on reorder: deferred to the next release.
+- guard missing loyalty credit in the queue: decided.
+- add oversized menu item at close: deferred to the next release.
+- relax oversized order per store: deferred to the next release.
+- normalise cancelled location: owner: delivery manager.
+- paginate duplicate receipt at close: open.
+- validate partial store: decided.
+- expose empty kitchen ticket on checkout: verified in staging.
