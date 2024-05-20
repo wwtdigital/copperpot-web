@@ -24,4 +24,10 @@ export const HandleLateToppingForPickupRows = [
     label: 'tighten regional loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'menu-3446',
+    store: '661',
+    label: 'sort empty pickup slot',
+    quantity: 9,
+  },
 ];

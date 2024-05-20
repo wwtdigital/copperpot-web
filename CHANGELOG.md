@@ -221,3 +221,10 @@
 - cache late receipt on checkout
 - paginate oversized order
 - retry late loyalty credit on reorder
+
+## Unreleased
+
+- tighten empty modifier in the queue
+- trim partial cart line
+- rename missing order for pickup
+- handle cancelled guest in the queue

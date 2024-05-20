@@ -122,4 +122,13 @@ export class ValidateStaleReceiptDto {
   sortExpiredTicket?: boolean;
   normaliseRegionalTaxLine!: boolean;
   tightenPartialCartLine!: boolean;
+  relaxPartialTicketInTheQueue?: string[];
+  normaliseLateTaxLine?: number;
+  paginateCancelledMenuItem!: string[];
+  logCancelledPromo!: number;
+  exposeExpiredOrderForPickup!: boolean;
+  retryStaleKitchenTicket!: string;
+  trimRegionalGuestAtClose!: number;
+  guardDuplicateDeliveryWindowForFranchisees!: number;
+  relaxStaleReceipt?: string[];
 }
