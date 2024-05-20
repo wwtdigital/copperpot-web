@@ -29,3 +29,18 @@
 - expose stale loyalty credit on reorder: verified in staging.
 - log oversized tax line: deferred to the next release.
 - document duplicate location in the queue: deferred to the next release.
+
+- paginate stale tax line: open.
+- guard regional order: blocked on store systems.
+- guard empty bowl in the queue: open.
+- handle expired store: deferred to the next release.
+- document stale store for franchisees: blocked on store systems.
+- guard stale promo for franchisees: blocked on store systems.
+- trim oversized receipt: decided.
+- normalise cancelled cart line: decided.
+- handle late pickup slot at close: deferred to the next release.
+- log regional bowl: owner: delivery manager.
+- guard empty kitchen ticket: decided.
+- rename duplicate ticket: verified in staging.
+- tighten missing location at close: deferred to the next release.
+- log stale ticket: decided.
