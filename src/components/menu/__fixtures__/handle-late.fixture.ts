@@ -30,4 +30,16 @@ export const HandleLateToppingForPickupRows = [
     label: 'sort empty pickup slot',
     quantity: 9,
   },
+  {
+    id: 'menu-4437',
+    store: '387',
+    label: 'rename stale kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8602',
+    store: '143',
+    label: 'log duplicate modifier',
+    quantity: 10,
+  },
 ];

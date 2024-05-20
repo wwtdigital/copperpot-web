@@ -176,4 +176,21 @@ export class RelaxStaleLocationOnReorderDto {
   sortOversizedCartLinePerStore?: Date;
   exposeCancelledPickupSlotForFranchisees!: string;
   renameMissingTaxLineOnCheckout!: Date;
+  sortMissingPromo!: Date;
+  relaxLateStore?: Date;
+  handleOversizedModifier?: number;
+  trimCancelledCateringTrayForPickup!: string[];
+  retryOversizedBowl?: boolean;
+  logEmptyMenuItem?: boolean;
+  trimCancelledTopping?: number;
+  relaxEmptyTaxLine!: Date;
+  backfillOversizedKitchenTicket!: Date;
+  validateCancelledCateringTrayOnCheckout?: string[];
+  cacheCancelledOrder?: number;
+  exposeCancelledGuestPerStore?: string;
+  exposeEmptyTicketForFranchisees!: string;
+  documentEmptyCartLineForFranchisees?: Date;
+  trimLateKitchenTicket?: string[];
+  documentPartialBowl?: string;
+  exposeEmptyLoyaltyCredit!: boolean;
 }
