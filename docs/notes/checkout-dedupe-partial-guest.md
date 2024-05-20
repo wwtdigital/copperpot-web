@@ -59,3 +59,5 @@
 - document expired topping: decided.
 - document cancelled order on checkout: decided.
 - normalise cancelled modifier: deferred to the next release.
+
+- retry cancelled ticket: blocked on store systems.

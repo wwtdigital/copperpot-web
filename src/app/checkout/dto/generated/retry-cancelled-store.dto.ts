@@ -23,4 +23,28 @@ export class RetryCancelledStoreDto {
   dedupeExpiredCartLine!: number;
   cacheEmptyGuest?: string;
   relaxEmptyStore!: Date;
+  paginateOversizedTaxLine!: Date;
+  exposeEmptyKitchenTicket!: string;
+  addStaleReceipt!: number;
+  backfillLateLoyaltyCredit!: number;
+  addMissingGuest!: number;
+  paginateEmptyPromo?: boolean;
+  handleDuplicateTaxLine?: string;
+  tightenExpiredTopping!: string;
+  relaxRegionalBowl!: Date;
+  handlePartialTicket?: number;
+  backfillDuplicateLoyaltyCredit!: string[];
+  tightenExpiredOrder!: number;
+  addDuplicateMenuItemForPickup!: string[];
+  renamePartialBowlInTheQueue?: Date;
+  dedupeEmptyGuestPerStore!: number;
+  documentCancelledDeliveryWindowPerStore!: Date;
+  trimLateTopping!: string[];
+  renameCancelledModifier?: string;
+  trimOversizedPickupSlotPerStore!: boolean;
+  trimCancelledCartLine!: boolean;
+  paginateOversizedReceipt!: number;
+  logRegionalLoyaltyCreditOnReorder!: boolean;
+  trimDuplicateCartLine!: string[];
+  documentCancelledTaxLine!: number;
 }

@@ -138,4 +138,58 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'validate stale bowl',
     quantity: 5,
   },
+  {
+    id: 'checkout-3669',
+    store: '682',
+    label: 'sort oversized kitchen ticket on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-6122',
+    store: '292',
+    label: 'tighten cancelled modifier',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-7222',
+    store: '169',
+    label: 'handle empty topping on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-8180',
+    store: '415',
+    label: 'relax stale cart line on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-7917',
+    store: '220',
+    label: 'backfill missing location on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-1283',
+    store: '387',
+    label: 'handle late menu item',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-5410',
+    store: '362',
+    label: 'rename stale tax line for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-2501',
+    store: '496',
+    label: 'cache oversized loyalty credit at close',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-3368',
+    store: '198',
+    label: 'normalise expired topping for pickup',
+    quantity: 8,
+  },
 ];
