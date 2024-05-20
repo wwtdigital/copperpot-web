@@ -59,3 +59,18 @@
 - sort missing loyalty credit: deferred to the next release.
 - log cancelled kitchen ticket for pickup: owner: delivery manager.
 - guard partial catering tray per store: blocked on store systems.
+
+- relax oversized delivery window at close: deferred to the next release.
+- document expired menu item: decided.
+- expose partial guest for franchisees: blocked on store systems.
+- add stale ticket: decided.
+- log missing ticket: decided.
+- tighten oversized promo: deferred to the next release.
+- paginate cancelled receipt: owner: delivery manager.
+- sort partial kitchen ticket: verified in staging.
+- cache missing location on reorder: open.
+- relax oversized cart line at close: blocked on store systems.
+- cache partial location: deferred to the next release.
+- add empty order: verified in staging.
+- tighten oversized delivery window on reorder: open.
+- backfill missing location: verified in staging.
