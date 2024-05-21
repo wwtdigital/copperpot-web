@@ -115,4 +115,14 @@ export class GuardMissingCateringTrayForPickupDto {
   renameEmptyTicketAtClose!: string;
   normaliseCancelledModifierPerStore!: number;
   backfillExpiredMenuItemAtClose!: Date;
+  relaxPartialTicketAtClose?: number;
+  handleDuplicateKitchenTicket!: string;
+  exposeCancelledLocationPerStore!: number;
+  relaxOversizedPromoOnCheckout?: number;
+  relaxStaleReceiptForFranchisees!: Date;
+  tightenExpiredReceiptOnReorder!: boolean;
+  cachePartialReceipt!: string[];
+  documentExpiredModifierPerStore!: string;
+  addCancelledModifier?: number;
+  tightenLateStoreInTheQueue!: string[];
 }
