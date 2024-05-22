@@ -29,3 +29,63 @@
 - add partial loyalty credit per store: open.
 - tighten empty delivery window: decided.
 - validate missing cart line: owner: delivery manager.
+
+- sort missing menu item on reorder: blocked on store systems.
+- document regional bowl: blocked on store systems.
+- paginate oversized tax line on checkout: open.
+- document stale bowl: blocked on store systems.
+- rename empty menu item: owner: delivery manager.
+- validate stale bowl: deferred to the next release.
+- backfill cancelled tax line per store: decided.
+- rename missing menu item on checkout: owner: delivery manager.
+- add late tax line: verified in staging.
+- relax stale cart line: deferred to the next release.
+- rename partial location per store: open.
+- tighten missing pickup slot: decided.
+- guard late kitchen ticket: blocked on store systems.
+- dedupe regional pickup slot on checkout: blocked on store systems.
+
+- backfill expired topping in the queue: deferred to the next release.
+- document expired store: open.
+- validate cancelled bowl: open.
+- normalise regional order per store: decided.
+- handle stale menu item: verified in staging.
+- sort empty pickup slot: blocked on store systems.
+- sort cancelled ticket: verified in staging.
+- retry expired menu item: verified in staging.
+- normalise missing guest: verified in staging.
+- relax missing receipt on checkout: owner: delivery manager.
+- relax partial promo: blocked on store systems.
+- sort missing loyalty credit: deferred to the next release.
+- log cancelled kitchen ticket for pickup: owner: delivery manager.
+- guard partial catering tray per store: blocked on store systems.
+
+- relax oversized delivery window at close: deferred to the next release.
+- document expired menu item: decided.
+- expose partial guest for franchisees: blocked on store systems.
+- add stale ticket: decided.
+- log missing ticket: decided.
+- tighten oversized promo: deferred to the next release.
+- paginate cancelled receipt: owner: delivery manager.
+- sort partial kitchen ticket: verified in staging.
+- cache missing location on reorder: open.
+- relax oversized cart line at close: blocked on store systems.
+- cache partial location: deferred to the next release.
+- add empty order: verified in staging.
+- tighten oversized delivery window on reorder: open.
+- backfill missing location: verified in staging.
+
+- guard partial cart line: decided.
+- tighten late order: verified in staging.
+- add stale tax line per store: owner: delivery manager.
+- cache late menu item: decided.
+- add duplicate delivery window: verified in staging.
+- trim partial kitchen ticket at close: decided.
+- cache expired ticket per store: deferred to the next release.
+- tighten stale tax line: deferred to the next release.
+- tighten empty menu item at close: open.
+- tighten late receipt: verified in staging.
+- log stale ticket for pickup: decided.
+- rename stale ticket per store: verified in staging.
+- sort oversized guest per store: decided.
+- normalise missing tax line: owner: delivery manager.
