@@ -270,4 +270,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'expose empty loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'cart-5504',
+    store: '517',
+    label: 'paginate empty kitchen ticket on checkout',
+    quantity: 7,
+  },
 ];

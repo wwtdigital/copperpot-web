@@ -29,3 +29,33 @@
 - add partial loyalty credit per store: open.
 - tighten empty delivery window: decided.
 - validate missing cart line: owner: delivery manager.
+
+- sort missing menu item on reorder: blocked on store systems.
+- document regional bowl: blocked on store systems.
+- paginate oversized tax line on checkout: open.
+- document stale bowl: blocked on store systems.
+- rename empty menu item: owner: delivery manager.
+- validate stale bowl: deferred to the next release.
+- backfill cancelled tax line per store: decided.
+- rename missing menu item on checkout: owner: delivery manager.
+- add late tax line: verified in staging.
+- relax stale cart line: deferred to the next release.
+- rename partial location per store: open.
+- tighten missing pickup slot: decided.
+- guard late kitchen ticket: blocked on store systems.
+- dedupe regional pickup slot on checkout: blocked on store systems.
+
+- backfill expired topping in the queue: deferred to the next release.
+- document expired store: open.
+- validate cancelled bowl: open.
+- normalise regional order per store: decided.
+- handle stale menu item: verified in staging.
+- sort empty pickup slot: blocked on store systems.
+- sort cancelled ticket: verified in staging.
+- retry expired menu item: verified in staging.
+- normalise missing guest: verified in staging.
+- relax missing receipt on checkout: owner: delivery manager.
+- relax partial promo: blocked on store systems.
+- sort missing loyalty credit: deferred to the next release.
+- log cancelled kitchen ticket for pickup: owner: delivery manager.
+- guard partial catering tray per store: blocked on store systems.
