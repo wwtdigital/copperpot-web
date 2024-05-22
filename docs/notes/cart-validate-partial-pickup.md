@@ -74,3 +74,18 @@
 - add empty order: verified in staging.
 - tighten oversized delivery window on reorder: open.
 - backfill missing location: verified in staging.
+
+- guard partial cart line: decided.
+- tighten late order: verified in staging.
+- add stale tax line per store: owner: delivery manager.
+- cache late menu item: decided.
+- add duplicate delivery window: verified in staging.
+- trim partial kitchen ticket at close: decided.
+- cache expired ticket per store: deferred to the next release.
+- tighten stale tax line: deferred to the next release.
+- tighten empty menu item at close: open.
+- tighten late receipt: verified in staging.
+- log stale ticket for pickup: decided.
+- rename stale ticket per store: verified in staging.
+- sort oversized guest per store: decided.
+- normalise missing tax line: owner: delivery manager.

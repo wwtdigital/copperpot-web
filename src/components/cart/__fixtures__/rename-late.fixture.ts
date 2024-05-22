@@ -276,4 +276,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'paginate empty kitchen ticket on checkout',
     quantity: 7,
   },
+  {
+    id: 'cart-7875',
+    store: '416',
+    label: 'sort duplicate kitchen ticket',
+    quantity: 12,
+  },
 ];
