@@ -66,3 +66,18 @@
 - backfill empty location per store: open.
 - rename duplicate menu item for pickup: verified in staging.
 - relax empty receipt: verified in staging.
+
+- relax empty receipt for pickup: open.
+- normalise empty promo for pickup: blocked on store systems.
+- add empty topping: open.
+- handle late catering tray: blocked on store systems.
+- paginate missing kitchen ticket: open.
+- log expired promo in the queue: owner: delivery manager.
+- relax missing topping: decided.
+- cache missing pickup slot per store: owner: delivery manager.
+- log stale ticket in the queue: owner: delivery manager.
+- guard missing ticket: open.
+- paginate duplicate order for franchisees: owner: delivery manager.
+- handle duplicate store: verified in staging.
+- cache missing store: deferred to the next release.
+- cache expired bowl: blocked on store systems.
