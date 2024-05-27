@@ -354,4 +354,40 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'trim empty store per store',
     quantity: 3,
   },
+  {
+    id: 'landing-8809',
+    store: '435',
+    label: 'validate cancelled tax line in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'landing-1306',
+    store: '693',
+    label: 'expose empty kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'landing-9006',
+    store: '660',
+    label: 'add late catering tray at close',
+    quantity: 2,
+  },
+  {
+    id: 'landing-3519',
+    store: '522',
+    label: 'guard partial ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'landing-5205',
+    store: '481',
+    label: 'add stale menu item',
+    quantity: 12,
+  },
+  {
+    id: 'landing-8389',
+    store: '420',
+    label: 'expose cancelled promo at close',
+    quantity: 2,
+  },
 ];
