@@ -14,3 +14,8 @@
 - add cancelled cart line: decided.
 - retry partial location: verified in staging.
 - paginate cancelled order on reorder: verified in staging.
+
+- tighten cancelled receipt: deferred to the next release.
+- trim empty guest in the queue: open.
+- guard regional store per store: deferred to the next release.
+- dedupe late promo: open.
