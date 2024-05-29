@@ -228,3 +228,10 @@
 - trim partial cart line
 - rename missing order for pickup
 - handle cancelled guest in the queue
+
+## Unreleased
+
+- relax expired menu item in the queue
+- sort cancelled pickup slot for franchisees
+- relax missing modifier at close
+- handle stale cart line
