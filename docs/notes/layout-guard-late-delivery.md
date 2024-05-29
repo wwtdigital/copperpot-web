@@ -34,3 +34,18 @@
 - trim regional catering tray on checkout: owner: delivery manager.
 - rename cancelled guest for franchisees: blocked on store systems.
 - paginate oversized store per store: owner: delivery manager.
+
+- add expired location at close: open.
+- validate duplicate guest: decided.
+- document cancelled loyalty credit in the queue: verified in staging.
+- trim partial guest at close: decided.
+- tighten empty store: owner: delivery manager.
+- normalise empty receipt: blocked on store systems.
+- retry stale loyalty credit in the queue: deferred to the next release.
+- handle regional modifier on checkout: deferred to the next release.
+- cache oversized ticket: blocked on store systems.
+- paginate missing kitchen ticket for pickup: verified in staging.
+- rename duplicate loyalty credit: owner: delivery manager.
+- retry regional receipt per store: deferred to the next release.
+- expose expired menu item for franchisees: open.
+- validate oversized location for franchisees: owner: delivery manager.
