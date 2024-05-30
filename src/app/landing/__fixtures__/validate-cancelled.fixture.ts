@@ -390,4 +390,58 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'expose cancelled promo at close',
     quantity: 2,
   },
+  {
+    id: 'landing-5733',
+    store: '216',
+    label: 'tighten late promo',
+    quantity: 3,
+  },
+  {
+    id: 'landing-8547',
+    store: '452',
+    label: 'cache missing menu item on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'landing-6734',
+    store: '524',
+    label: 'backfill expired kitchen ticket at close',
+    quantity: 6,
+  },
+  {
+    id: 'landing-4734',
+    store: '408',
+    label: 'dedupe late topping for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'landing-7682',
+    store: '105',
+    label: 'normalise missing pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'landing-6096',
+    store: '160',
+    label: 'guard missing kitchen ticket for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'landing-6449',
+    store: '683',
+    label: 'backfill late order per store',
+    quantity: 11,
+  },
+  {
+    id: 'landing-4358',
+    store: '100',
+    label: 'handle oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'landing-1501',
+    store: '690',
+    label: 'paginate partial guest for franchisees',
+    quantity: 6,
+  },
 ];
