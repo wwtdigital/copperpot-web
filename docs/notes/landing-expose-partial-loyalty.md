@@ -51,3 +51,18 @@
 - paginate stale modifier: open.
 - paginate cancelled delivery window: decided.
 - relax regional location for pickup: decided.
+
+- dedupe oversized pickup slot on reorder: decided.
+- log duplicate topping on reorder: decided.
+- add late promo: deferred to the next release.
+- retry cancelled menu item on reorder: owner: delivery manager.
+- validate cancelled delivery window: decided.
+- guard duplicate cart line: blocked on store systems.
+- dedupe duplicate guest for franchisees: owner: delivery manager.
+- retry cancelled receipt at close: decided.
+- backfill expired bowl: open.
+- paginate stale location for franchisees: open.
+- retry oversized topping: verified in staging.
+- backfill empty location per store: open.
+- rename duplicate menu item for pickup: verified in staging.
+- relax empty receipt: verified in staging.
