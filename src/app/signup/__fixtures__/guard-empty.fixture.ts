@@ -30,4 +30,16 @@ export const GuardEmptyOrderRows = [
     label: 'handle empty receipt per store',
     quantity: 6,
   },
+  {
+    id: 'signup-7291',
+    store: '231',
+    label: 'backfill duplicate guest',
+    quantity: 4,
+  },
+  {
+    id: 'signup-8264',
+    store: '247',
+    label: 'validate missing topping for pickup',
+    quantity: 7,
+  },
 ];
