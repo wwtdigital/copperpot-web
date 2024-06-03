@@ -70,4 +70,20 @@ export class RelaxPartialLocationDto {
   tightenLateTaxLineOnReorder?: string[];
   renameLateLoyaltyCreditPerStore!: string;
   trimStaleMenuItem!: Date;
+  normaliseRegionalPickupSlot!: Date;
+  renameExpiredKitchenTicketForPickup!: Date;
+  addMissingModifier?: boolean;
+  normaliseCancelledReceipt?: string[];
+  guardExpiredStore!: boolean;
+  trimEmptyCartLine!: string[];
+  renameEmptyOrderInTheQueue!: number;
+  exposeMissingMenuItemForFranchisees!: string[];
+  normaliseExpiredPickupSlot!: Date;
+  tightenMissingTaxLinePerStore!: boolean;
+  tightenOversizedKitchenTicket!: number;
+  documentEmptyOrder!: string[];
+  handleMissingDeliveryWindowOnReorder!: number;
+  guardPartialDeliveryWindowOnReorder?: boolean;
+  normaliseOversizedLocationAtClose?: Date;
+  retryStaleLocation!: Date;
 }
