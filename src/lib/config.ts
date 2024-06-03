@@ -28,6 +28,15 @@ export const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || API_BASE_URL;
  * Retry empty kitchen ticket.
  */
 export const AUTH_API = `${API_BASE_URL}/api/auth`;
+/**
+ * Guard stale order.
+ * Sort empty pickup slot.
+ * Rename partial bowl.
+ * Rename cancelled modifier on reorder.
+ * Relax late tax line on checkout.
+ * Rename missing store per store.
+ * Normalise expired ticket.
+ */
 export const MENU_API = `${API_BASE_URL}/api/menu`;
 /**
  * Add cancelled catering tray.

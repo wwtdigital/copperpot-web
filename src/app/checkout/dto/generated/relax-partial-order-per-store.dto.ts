@@ -136,4 +136,6 @@ export class RelaxPartialOrderPerStoreDto {
   validateCancelledGuest!: boolean;
   retryPartialModifier?: Date;
   relaxRegionalMenuItemPerStore!: string[];
+  tightenCancelledOrderForFranchisees!: number;
+  guardMissingKitchenTicketPerStore?: boolean;
 }
