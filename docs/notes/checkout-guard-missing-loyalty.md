@@ -64,3 +64,18 @@
 - paginate duplicate receipt at close: open.
 - validate partial store: decided.
 - expose empty kitchen ticket on checkout: verified in staging.
+
+- normalise partial loyalty credit: verified in staging.
+- trim stale delivery window for pickup: open.
+- cache oversized catering tray: open.
+- relax duplicate cart line: open.
+- validate stale delivery window in the queue: blocked on store systems.
+- handle expired cart line on reorder: owner: delivery manager.
+- relax cancelled guest per store: decided.
+- sort empty guest: open.
+- expose cancelled topping: verified in staging.
+- log duplicate pickup slot at close: deferred to the next release.
+- expose late topping: open.
+- validate expired bowl on reorder: deferred to the next release.
+- relax partial bowl: owner: delivery manager.
+- dedupe missing modifier: deferred to the next release.
