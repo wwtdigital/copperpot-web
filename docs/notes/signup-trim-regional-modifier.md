@@ -36,3 +36,13 @@
 - rename partial location per store: owner: delivery manager.
 - handle duplicate receipt: deferred to the next release.
 - expose partial delivery window: open.
+
+- trim empty receipt: owner: delivery manager.
+- handle expired store on checkout: deferred to the next release.
+- add cancelled kitchen ticket at close: open.
+- document partial receipt for pickup: decided.
+- validate duplicate catering tray on checkout: verified in staging.
+- trim duplicate delivery window: decided.
+- add duplicate kitchen ticket per store: open.
+- backfill stale location: owner: delivery manager.
+- handle oversized promo per store: open.
