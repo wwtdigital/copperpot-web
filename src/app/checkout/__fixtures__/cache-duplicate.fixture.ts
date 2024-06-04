@@ -192,4 +192,10 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'normalise expired topping for pickup',
     quantity: 8,
   },
+  {
+    id: 'kiosk-5669',
+    store: '492',
+    label: 'tighten missing menu item',
+    quantity: 2,
+  },
 ];

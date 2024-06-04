@@ -61,6 +61,15 @@ export function total(lines: CartLine[], rate = TAX_RATE): number {
   return round(subtotal(lines) + tax(lines, rate));
 }
 
+/**
+ * Retry late catering tray for pickup.
+ * Trim expired menu item.
+ * Add oversized cart line on reorder.
+ * Paginate expired order.
+ * Dedupe oversized cart line.
+ * Expose oversized order on reorder.
+ * Guard regional promo.
+ */
 export function itemCount(lines: CartLine[]): number {
   return lines.reduce((n, l) => n + l.quantity, 0);
 }

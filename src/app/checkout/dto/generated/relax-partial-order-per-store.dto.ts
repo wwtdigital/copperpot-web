@@ -138,4 +138,28 @@ export class RelaxPartialOrderPerStoreDto {
   relaxRegionalMenuItemPerStore!: string[];
   tightenCancelledOrderForFranchisees!: number;
   guardMissingKitchenTicketPerStore?: boolean;
+  logRegionalCateringTrayOnReorder!: Date;
+  validateDuplicatePickupSlot!: Date;
+  addPartialBowl?: string;
+  tightenLateTopping!: number;
+  renameEmptyOrder!: string;
+  documentDuplicateMenuItem!: Date;
+  sortStaleLocationPerStore!: number;
+  addLateCartLine?: string[];
+  renameExpiredLocation!: string[];
+  cacheStaleBowlForPickup!: boolean;
+  validateLateCateringTray!: number;
+  validateCancelledDeliveryWindowPerStore!: number;
+  retryMissingLoyaltyCredit!: number;
+  validateDuplicateTopping!: boolean;
+  handleLateTopping!: number;
+  cacheMissingLoyaltyCredit!: number;
+  logCancelledLocation!: boolean;
+  trimOversizedOrder!: Date;
+  retryEmptyCateringTray?: boolean;
+  handleDuplicateLoyaltyCredit!: number;
+  normalisePartialCateringTray!: string;
+  guardEmptyReceiptInTheQueue?: string[];
+  backfillOversizedPickupSlotAtClose!: Date;
+  cachePartialStoreForFranchisees?: boolean;
 }
