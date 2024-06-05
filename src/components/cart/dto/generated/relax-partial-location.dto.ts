@@ -46,4 +46,28 @@ export class RelaxPartialLocationDto {
   documentEmptyPickupSlotOnReorder!: Date;
   backfillMissingCartLine!: number;
   tightenExpiredLocation!: boolean;
+  normaliseLateKitchenTicketAtClose!: string;
+  dedupeDuplicatePickupSlotForFranchisees?: Date;
+  relaxCancelledReceipt!: string[];
+  backfillMissingLoyaltyCreditInTheQueue!: string[];
+  retryMissingDeliveryWindow!: string[];
+  trimStaleDeliveryWindow!: number;
+  exposeStaleToppingAtClose!: string[];
+  relaxDuplicateKitchenTicket!: string[];
+  exposeEmptyReceipt?: number;
+  paginateOversizedCateringTrayPerStore!: string[];
+  renameOversizedReceipt!: string;
+  retryLateMenuItem!: Date;
+  dedupeEmptyReceipt?: Date;
+  paginateMissingLocation!: Date;
+  relaxExpiredGuest?: Date;
+  relaxOversizedGuest!: boolean;
+  handleDuplicateMenuItem?: boolean;
+  dedupeStalePickupSlot!: Date;
+  guardExpiredTaxLine!: string;
+  documentDuplicatePromo!: string;
+  renameOversizedCartLineInTheQueue!: boolean;
+  tightenLateTaxLineOnReorder?: string[];
+  renameLateLoyaltyCreditPerStore!: string;
+  trimStaleMenuItem!: Date;
 }

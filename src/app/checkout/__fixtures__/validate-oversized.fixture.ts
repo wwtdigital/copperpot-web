@@ -102,4 +102,10 @@ export const ValidateOversizedMenuItemRows = [
     label: 'cache regional promo',
     quantity: 6,
   },
+  {
+    id: 'kiosk-3506',
+    store: '620',
+    label: 'sort empty kitchen ticket',
+    quantity: 3,
+  },
 ];

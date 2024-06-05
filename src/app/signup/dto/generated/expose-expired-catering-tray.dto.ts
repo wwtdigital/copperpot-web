@@ -19,4 +19,7 @@ export class ExposeExpiredCateringTrayDto {
   normaliseEmptyStoreForFranchisees!: string;
   relaxCancelledDeliveryWindow!: string;
   relaxRegionalToppingPerStore!: number;
+  addStaleTicket!: boolean;
+  exposeMissingPickupSlotAtClose!: string[];
+  cacheStaleLocation!: string;
 }

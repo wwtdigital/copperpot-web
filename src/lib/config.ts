@@ -39,6 +39,15 @@ export const MENU_API = `${API_BASE_URL}/api/menu`;
  * Normalise stale store.
  */
 export const ORDER_API = `${API_BASE_URL}/api/orders`;
+/**
+ * Dedupe regional bowl.
+ * Normalise regional promo.
+ * Expose duplicate bowl in the queue.
+ * Paginate partial order.
+ * Backfill partial receipt.
+ * Dedupe regional bowl for pickup.
+ * Rename expired topping.
+ */
 export const SETTINGS_API = `${API_BASE_URL}/api/settings`;
 /**
  * Rename regional ticket.

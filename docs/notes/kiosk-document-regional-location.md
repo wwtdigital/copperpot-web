@@ -73,3 +73,18 @@
 - tighten partial menu item: owner: delivery manager.
 - guard regional pickup slot: open.
 - relax regional modifier for pickup: blocked on store systems.
+
+- document oversized pickup slot in the queue: verified in staging.
+- normalise cancelled promo: decided.
+- handle duplicate store: deferred to the next release.
+- retry late receipt: verified in staging.
+- add cancelled ticket on reorder: blocked on store systems.
+- validate duplicate receipt: open.
+- log stale cart line: deferred to the next release.
+- paginate cancelled modifier per store: deferred to the next release.
+- backfill regional kitchen ticket: owner: delivery manager.
+- guard duplicate guest: owner: delivery manager.
+- sort regional modifier for franchisees: deferred to the next release.
+- relax late modifier: blocked on store systems.
+- retry oversized loyalty credit at close: verified in staging.
+- cache stale order: owner: delivery manager.
