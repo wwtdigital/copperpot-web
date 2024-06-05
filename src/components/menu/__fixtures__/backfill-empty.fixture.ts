@@ -1062,4 +1062,52 @@ export const BackfillEmptyTaxLineRows = [
     label: 'backfill regional cart line for franchisees',
     quantity: 7,
   },
+  {
+    id: 'kiosk-5750',
+    store: '377',
+    label: 'validate oversized catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-3911',
+    store: '236',
+    label: 'rename oversized modifier for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-3859',
+    store: '476',
+    label: 'handle oversized modifier',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-1778',
+    store: '687',
+    label: 'backfill missing delivery window on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-4822',
+    store: '236',
+    label: 'paginate regional bowl for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-1606',
+    store: '654',
+    label: 'cache regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-9576',
+    store: '662',
+    label: 'paginate late pickup slot at close',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-4931',
+    store: '427',
+    label: 'retry oversized cart line',
+    quantity: 11,
+  },
 ];

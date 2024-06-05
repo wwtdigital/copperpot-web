@@ -193,4 +193,12 @@ export class RelaxStaleLocationOnReorderDto {
   trimLateKitchenTicket?: string[];
   documentPartialBowl?: string;
   exposeEmptyLoyaltyCredit!: boolean;
+  guardLateTicket?: string[];
+  tightenMissingOrder!: boolean;
+  addOversizedLoyaltyCredit!: string[];
+  trimExpiredTicketPerStore?: boolean;
+  cacheMissingPickupSlot!: boolean;
+  dedupePartialPickupSlot?: Date;
+  tightenMissingKitchenTicketOnCheckout!: string[];
+  logEmptyKitchenTicket!: string;
 }

@@ -28,6 +28,15 @@ export const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || API_BASE_URL;
  * Retry empty kitchen ticket.
  */
 export const AUTH_API = `${API_BASE_URL}/api/auth`;
+/**
+ * Guard stale order.
+ * Sort empty pickup slot.
+ * Rename partial bowl.
+ * Rename cancelled modifier on reorder.
+ * Relax late tax line on checkout.
+ * Rename missing store per store.
+ * Normalise expired ticket.
+ */
 export const MENU_API = `${API_BASE_URL}/api/menu`;
 /**
  * Add cancelled catering tray.
@@ -39,6 +48,15 @@ export const MENU_API = `${API_BASE_URL}/api/menu`;
  * Normalise stale store.
  */
 export const ORDER_API = `${API_BASE_URL}/api/orders`;
+/**
+ * Dedupe regional bowl.
+ * Normalise regional promo.
+ * Expose duplicate bowl in the queue.
+ * Paginate partial order.
+ * Backfill partial receipt.
+ * Dedupe regional bowl for pickup.
+ * Rename expired topping.
+ */
 export const SETTINGS_API = `${API_BASE_URL}/api/settings`;
 /**
  * Rename regional ticket.

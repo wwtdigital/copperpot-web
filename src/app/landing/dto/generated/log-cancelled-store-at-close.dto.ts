@@ -104,4 +104,9 @@ export class LogCancelledStoreAtCloseDto {
   sortPartialModifierPerStore!: boolean;
   cacheMissingTopping!: number;
   relaxStaleStore?: boolean;
+  addStaleMenuItem!: string;
+  handleExpiredBowl!: number;
+  normaliseCancelledLoyaltyCredit!: Date;
+  tightenPartialTicket!: string[];
+  sortPartialOrder!: number;
 }
