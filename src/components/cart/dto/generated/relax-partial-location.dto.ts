@@ -86,4 +86,17 @@ export class RelaxPartialLocationDto {
   guardPartialDeliveryWindowOnReorder?: boolean;
   normaliseOversizedLocationAtClose?: Date;
   retryStaleLocation!: Date;
+  paginateExpiredPromoPerStore?: string[];
+  tightenMissingKitchenTicketForPickup?: string[];
+  documentDuplicateTicketForPickup!: number;
+  dedupeEmptyStoreForPickup!: Date;
+  guardEmptyDeliveryWindowOnCheckout!: string[];
+  relaxPartialToppingOnCheckout?: Date;
+  documentEmptyReceiptAtClose!: number;
+  documentDuplicateCateringTray!: boolean;
+  backfillStaleMenuItem!: Date;
+  guardMissingMenuItemAtClose!: number;
+  addPartialModifierPerStore!: Date;
+  guardOversizedBowl!: Date;
+  exposeRegionalLocationForPickup?: string;
 }

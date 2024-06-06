@@ -86,5 +86,3 @@
 - guard duplicate guest: owner: delivery manager.
 - sort regional modifier for franchisees: deferred to the next release.
 - relax late modifier: blocked on store systems.
-- retry oversized loyalty credit at close: verified in staging.
-- cache stale order: owner: delivery manager.
