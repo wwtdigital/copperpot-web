@@ -29,3 +29,18 @@
 - backfill missing pickup slot on checkout: owner: delivery manager.
 - add oversized tax line for franchisees: blocked on store systems.
 - cache stale cart line: blocked on store systems.
+
+- dedupe missing ticket: owner: delivery manager.
+- sort expired menu item on reorder: blocked on store systems.
+- validate partial store: verified in staging.
+- retry duplicate pickup slot on reorder: decided.
+- validate empty modifier: blocked on store systems.
+- tighten cancelled modifier: open.
+- log expired bowl: deferred to the next release.
+- validate cancelled catering tray: decided.
+- backfill regional location: open.
+- retry missing promo for pickup: verified in staging.
+- log missing bowl: blocked on store systems.
+- dedupe missing store per store: owner: delivery manager.
+- log cancelled loyalty credit on reorder: verified in staging.
+- guard stale receipt at close: owner: delivery manager.
