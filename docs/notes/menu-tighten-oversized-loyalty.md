@@ -14,3 +14,18 @@
 - normalise regional delivery window: verified in staging.
 - relax missing promo for franchisees: blocked on store systems.
 - relax partial modifier for pickup: owner: delivery manager.
+
+- log late kitchen ticket: open.
+- expose missing kitchen ticket in the queue: deferred to the next release.
+- backfill stale menu item in the queue: verified in staging.
+- dedupe missing store: deferred to the next release.
+- tighten oversized ticket in the queue: deferred to the next release.
+- backfill partial location: owner: delivery manager.
+- sort duplicate promo: verified in staging.
+- guard partial loyalty credit: blocked on store systems.
+- rename stale tax line: blocked on store systems.
+- validate stale promo: deferred to the next release.
+- rename duplicate kitchen ticket: verified in staging.
+- backfill missing pickup slot on checkout: owner: delivery manager.
+- add oversized tax line for franchisees: blocked on store systems.
+- cache stale cart line: blocked on store systems.
