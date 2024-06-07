@@ -24,4 +24,28 @@ export class CacheMissingLoyaltyCreditDto {
   trimPartialBowl!: number;
   exposeLateReceiptInTheQueue!: string;
   tightenStaleMenuItem!: number;
+  backfillEmptyOrderOnReorder!: boolean;
+  tightenDuplicatePickupSlotOnReorder!: string[];
+  relaxCancelledCateringTray!: string;
+  sortMissingCateringTrayAtClose!: number;
+  sortEmptyPromo!: string[];
+  renameDuplicateCateringTrayForFranchisees?: boolean;
+  backfillDuplicateStoreOnCheckout!: Date;
+  logEmptyTopping?: boolean;
+  logRegionalPromo?: Date;
+  guardStaleModifier!: number;
+  tightenLateLoyaltyCredit!: Date;
+  logExpiredDeliveryWindowForPickup!: boolean;
+  trimOversizedDeliveryWindow!: string;
+  handleLateGuestOnCheckout!: boolean;
+  sortExpiredBowl!: Date;
+  exposeStaleBowl!: string;
+  cacheMissingPromo!: Date;
+  logMissingKitchenTicket!: string[];
+  trimStaleCartLineForFranchisees!: Date;
+  relaxMissingMenuItem!: string[];
+  exposePartialTopping!: string;
+  paginateOversizedOrder!: Date;
+  addMissingMenuItem!: boolean;
+  retryRegionalDeliveryWindow!: Date;
 }

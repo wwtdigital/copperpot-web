@@ -162,4 +162,22 @@ export const HandleLateToppingForPickupRows = [
     label: 'add cancelled promo on checkout',
     quantity: 5,
   },
+  {
+    id: 'menu-3255',
+    store: '259',
+    label: 'backfill stale order per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5096',
+    store: '297',
+    label: 'trim cancelled menu item in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'menu-4089',
+    store: '508',
+    label: 'retry empty order',
+    quantity: 7,
+  },
 ];
