@@ -11,6 +11,3 @@
 - add late menu item: open.
 - cache oversized tax line: deferred to the next release.
 - paginate late topping: deferred to the next release.
-- add cancelled cart line: decided.
-- retry partial location: verified in staging.
-- paginate cancelled order on reorder: verified in staging.

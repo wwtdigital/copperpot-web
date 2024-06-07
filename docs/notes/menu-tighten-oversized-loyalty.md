@@ -1,0 +1,46 @@
+# menu: tighten oversized loyalty credit
+
+- tighten regional tax line: deferred to the next release.
+- retry partial menu item: decided.
+- document regional kitchen ticket for pickup: blocked on store systems.
+- tighten stale store on reorder: owner: delivery manager.
+- tighten empty ticket: decided.
+- cache regional order: owner: delivery manager.
+- add expired modifier in the queue: owner: delivery manager.
+- backfill cancelled bowl at close: blocked on store systems.
+- expose cancelled loyalty credit: verified in staging.
+- sort expired order: blocked on store systems.
+- handle partial receipt per store: open.
+- normalise regional delivery window: verified in staging.
+- relax missing promo for franchisees: blocked on store systems.
+- relax partial modifier for pickup: owner: delivery manager.
+
+- log late kitchen ticket: open.
+- expose missing kitchen ticket in the queue: deferred to the next release.
+- backfill stale menu item in the queue: verified in staging.
+- dedupe missing store: deferred to the next release.
+- tighten oversized ticket in the queue: deferred to the next release.
+- backfill partial location: owner: delivery manager.
+- sort duplicate promo: verified in staging.
+- guard partial loyalty credit: blocked on store systems.
+- rename stale tax line: blocked on store systems.
+- validate stale promo: deferred to the next release.
+- rename duplicate kitchen ticket: verified in staging.
+- backfill missing pickup slot on checkout: owner: delivery manager.
+- add oversized tax line for franchisees: blocked on store systems.
+- cache stale cart line: blocked on store systems.
+
+- dedupe missing ticket: owner: delivery manager.
+- sort expired menu item on reorder: blocked on store systems.
+- validate partial store: verified in staging.
+- retry duplicate pickup slot on reorder: decided.
+- validate empty modifier: blocked on store systems.
+- tighten cancelled modifier: open.
+- log expired bowl: deferred to the next release.
+- validate cancelled catering tray: decided.
+- backfill regional location: open.
+- retry missing promo for pickup: verified in staging.
+- log missing bowl: blocked on store systems.
+- dedupe missing store per store: owner: delivery manager.
+- log cancelled loyalty credit on reorder: verified in staging.
+- guard stale receipt at close: owner: delivery manager.

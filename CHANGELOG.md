@@ -228,3 +228,17 @@
 - trim partial cart line
 - rename missing order for pickup
 - handle cancelled guest in the queue
+
+## Unreleased
+
+- guard duplicate loyalty credit
+- log oversized pickup slot on reorder
+- expose duplicate order
+- cache regional pickup slot at close
+
+## Unreleased
+
+- tighten stale tax line per store
+- trim partial cart line
+- tighten partial store
+- document stale kitchen ticket
