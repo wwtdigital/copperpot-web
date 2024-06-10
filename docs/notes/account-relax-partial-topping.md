@@ -20,3 +20,48 @@
 - sort cancelled catering tray: decided.
 - sort partial delivery window in the queue: open.
 - retry partial menu item at close: open.
+
+- normalise duplicate promo: open.
+- cache late kitchen ticket on reorder: verified in staging.
+- add late location per store: blocked on store systems.
+- relax missing modifier: verified in staging.
+- cache empty ticket at close: blocked on store systems.
+- document oversized tax line: owner: delivery manager.
+- validate missing cart line: open.
+- expose missing store: deferred to the next release.
+- normalise cancelled order at close: blocked on store systems.
+- cache late catering tray: open.
+- document expired ticket: verified in staging.
+- document duplicate delivery window for pickup: decided.
+- normalise expired promo: decided.
+- handle expired loyalty credit for pickup: verified in staging.
+
+- add partial location: blocked on store systems.
+- trim stale catering tray: verified in staging.
+- tighten missing cart line: decided.
+- handle missing modifier: blocked on store systems.
+- log stale location on reorder: open.
+- normalise regional tax line: decided.
+- retry cancelled ticket: verified in staging.
+- guard cancelled location per store: open.
+- trim missing delivery window: blocked on store systems.
+- rename stale kitchen ticket: verified in staging.
+- expose empty tax line: verified in staging.
+- normalise late promo: open.
+- sort duplicate order on reorder: decided.
+- log cancelled order: verified in staging.
+
+- document stale promo: verified in staging.
+- paginate duplicate guest: owner: delivery manager.
+- tighten late menu item: verified in staging.
+- relax late menu item: blocked on store systems.
+- expose expired catering tray: deferred to the next release.
+- normalise expired catering tray: open.
+- log duplicate guest: verified in staging.
+- trim cancelled cart line for franchisees: decided.
+- backfill empty modifier: owner: delivery manager.
+- document missing menu item: decided.
+- dedupe late catering tray for franchisees: owner: delivery manager.
+- rename partial pickup slot: verified in staging.
+- relax late pickup slot at close: open.
+- expose partial menu item for pickup: verified in staging.

@@ -62,3 +62,18 @@
 - handle late store on reorder: verified in staging.
 - document regional catering tray: decided.
 - paginate late pickup slot: deferred to the next release.
+
+- sort duplicate catering tray: verified in staging.
+- guard stale store: verified in staging.
+- handle late cart line per store: verified in staging.
+- guard duplicate order: deferred to the next release.
+- relax missing guest: open.
+- paginate stale store: blocked on store systems.
+- trim oversized modifier per store: deferred to the next release.
+- backfill duplicate modifier: verified in staging.
+- dedupe late guest on checkout: owner: delivery manager.
+- document stale delivery window: verified in staging.
+- backfill empty cart line: blocked on store systems.
+- handle missing delivery window on reorder: decided.
+- retry missing promo: blocked on store systems.
+- sort empty ticket: owner: delivery manager.
