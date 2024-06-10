@@ -1,0 +1,123 @@
+/* Fixture rows for account tests: sort cancelled order. Generated data, not production data. */
+export const SortCancelledOrderRows = [
+  {
+    id: 'account-7492',
+    store: '335',
+    label: 'rename duplicate topping in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'account-8999',
+    store: '461',
+    label: 'trim stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'account-3353',
+    store: '187',
+    label: 'guard partial location',
+    quantity: 3,
+  },
+  {
+    id: 'account-2232',
+    store: '243',
+    label: 'retry partial menu item at close',
+    quantity: 9,
+  },
+  {
+    id: 'account-5280',
+    store: '568',
+    label: 'dedupe partial location',
+    quantity: 2,
+  },
+  {
+    id: 'account-2896',
+    store: '303',
+    label: 'tighten partial tax line',
+    quantity: 5,
+  },
+  {
+    id: 'account-4404',
+    store: '121',
+    label: 'handle oversized receipt for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'account-7173',
+    store: '229',
+    label: 'paginate late loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'account-5734',
+    store: '168',
+    label: 'expose late delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'account-2064',
+    store: '378',
+    label: 'cache stale store',
+    quantity: 10,
+  },
+  {
+    id: 'account-6709',
+    store: '643',
+    label: 'retry duplicate topping in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'account-3701',
+    store: '654',
+    label: 'dedupe duplicate cart line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'account-8621',
+    store: '333',
+    label: 'dedupe stale delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'account-2804',
+    store: '490',
+    label: 'log oversized bowl',
+    quantity: 1,
+  },
+  {
+    id: 'account-8951',
+    store: '220',
+    label: 'add expired cart line for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'account-2385',
+    store: '257',
+    label: 'guard empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'account-5651',
+    store: '371',
+    label: 'expose oversized store on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'account-9970',
+    store: '467',
+    label: 'sort stale receipt at close',
+    quantity: 5,
+  },
+  {
+    id: 'account-9262',
+    store: '410',
+    label: 'backfill partial catering tray on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'account-9731',
+    store: '295',
+    label: 'sort empty order',
+    quantity: 11,
+  },
+];

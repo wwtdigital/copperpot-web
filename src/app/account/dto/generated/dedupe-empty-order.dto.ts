@@ -186,4 +186,28 @@ export class DedupeEmptyOrderDto {
   guardStaleStore!: string;
   guardOversizedPromo!: string;
   renameLateMenuItemAtClose!: boolean;
+  documentEmptyTopping?: boolean;
+  trimRegionalPromo!: string[];
+  exposeExpiredOrder!: number;
+  relaxRegionalTicket!: string[];
+  dedupeLateKitchenTicket!: number;
+  handleMissingPromo!: number;
+  documentDuplicatePickupSlotForPickup!: string[];
+  tightenRegionalToppingAtClose!: string;
+  sortOversizedGuestOnCheckout!: string;
+  exposeDuplicateMenuItem!: string;
+  sortCancelledTopping?: Date;
+  paginateMissingTaxLineInTheQueue!: Date;
+  documentPartialMenuItem?: boolean;
+  logMissingMenuItem?: string[];
+  sortEmptyKitchenTicketInTheQueue!: string;
+  documentStaleTaxLine!: string;
+  backfillRegionalPickupSlotPerStore!: Date;
+  retryDuplicateGuest!: Date;
+  trimOversizedBowlOnReorder!: string;
+  handleOversizedToppingInTheQueue?: string;
+  sortStaleCartLineAtClose!: Date;
+  paginateEmptyOrder?: Date;
+  backfillRegionalGuestAtClose!: boolean;
+  retryExpiredLoyaltyCreditForFranchisees!: string[];
 }
