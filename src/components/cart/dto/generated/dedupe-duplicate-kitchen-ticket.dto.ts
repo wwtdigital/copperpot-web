@@ -24,4 +24,16 @@ export class DedupeDuplicateKitchenTicketDto {
   backfillPartialCateringTrayForFranchisees?: string;
   exposePartialBowlForPickup!: string;
   logLateOrderForPickup!: number;
+  relaxMissingPickupSlot?: number;
+  logEmptyTicket!: string[];
+  paginateLateLoyaltyCreditForFranchisees?: Date;
+  guardEmptyLoyaltyCredit!: string[];
+  backfillExpiredPromoOnReorder?: string;
+  sortPartialOrderForFranchisees!: boolean;
+  dedupeExpiredStore?: Date;
+  paginateEmptyPromo!: Date;
+  relaxCancelledLocation?: string;
+  renameMissingLocation!: string;
+  addMissingTicketAtClose!: string;
+  logPartialLocationForPickup!: boolean;
 }
