@@ -210,4 +210,28 @@ export class DedupeEmptyOrderDto {
   paginateEmptyOrder?: Date;
   backfillRegionalGuestAtClose!: boolean;
   retryExpiredLoyaltyCreditForFranchisees!: string[];
+  dedupeStaleBowlOnReorder?: Date;
+  validateMissingPromo!: string;
+  normalisePartialModifierOnReorder!: string[];
+  retryMissingOrder!: boolean;
+  cacheMissingDeliveryWindow?: Date;
+  handleOversizedModifierOnCheckout!: number;
+  cacheLatePromo?: string;
+  addLateBowlForPickup!: number;
+  tightenLateStoreOnCheckout?: Date;
+  paginatePartialModifier?: string[];
+  handleRegionalModifier!: number;
+  relaxRegionalDeliveryWindow!: Date;
+  logRegionalOrder!: number;
+  paginateMissingMenuItemForPickup!: number;
+  backfillLateReceipt!: number;
+  normaliseMissingPromo!: string[];
+  relaxLatePickupSlotPerStore!: Date;
+  backfillOversizedLoyaltyCredit?: boolean;
+  guardEmptyLoyaltyCreditAtClose!: Date;
+  cacheDuplicatePickupSlot?: number;
+  trimMissingLoyaltyCreditAtClose?: string;
+  sortStalePromo!: boolean;
+  relaxCancelledReceipt?: Date;
+  tightenPartialLoyaltyCreditForPickup!: string[];
 }

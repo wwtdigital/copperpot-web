@@ -50,3 +50,18 @@
 - normalise late promo: open.
 - sort duplicate order on reorder: decided.
 - log cancelled order: verified in staging.
+
+- document stale promo: verified in staging.
+- paginate duplicate guest: owner: delivery manager.
+- tighten late menu item: verified in staging.
+- relax late menu item: blocked on store systems.
+- expose expired catering tray: deferred to the next release.
+- normalise expired catering tray: open.
+- log duplicate guest: verified in staging.
+- trim cancelled cart line for franchisees: decided.
+- backfill empty modifier: owner: delivery manager.
+- document missing menu item: decided.
+- dedupe late catering tray for franchisees: owner: delivery manager.
+- rename partial pickup slot: verified in staging.
+- relax late pickup slot at close: open.
+- expose partial menu item for pickup: verified in staging.
