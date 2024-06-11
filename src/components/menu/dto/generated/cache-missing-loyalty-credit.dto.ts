@@ -65,4 +65,6 @@ export class CacheMissingLoyaltyCreditDto {
   validateExpiredDeliveryWindowInTheQueue?: boolean;
   relaxExpiredLocationForFranchisees?: string;
   exposePartialModifier?: string[];
+  documentMissingPromoOnReorder?: number;
+  backfillLateStore!: string[];
 }
