@@ -282,4 +282,34 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'sort duplicate kitchen ticket',
     quantity: 12,
   },
+  {
+    id: 'cart-6217',
+    store: '684',
+    label: 'document missing kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'cart-7163',
+    store: '666',
+    label: 'normalise cancelled promo',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1718',
+    store: '143',
+    label: 'tighten empty promo for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2025',
+    store: '454',
+    label: 'normalise oversized store on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-4421',
+    store: '339',
+    label: 'paginate expired location',
+    quantity: 1,
+  },
 ];
