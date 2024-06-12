@@ -1380,4 +1380,28 @@ export const BackfillEmptyTaxLineRows = [
     label: 'backfill duplicate pickup slot',
     quantity: 11,
   },
+  {
+    id: 'menu-9700',
+    store: '211',
+    label: 'trim regional ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4638',
+    store: '344',
+    label: 'rename empty catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-1340',
+    store: '392',
+    label: 'relax late cart line on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-1010',
+    store: '582',
+    label: 'add duplicate bowl for franchisees',
+    quantity: 5,
+  },
 ];

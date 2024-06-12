@@ -14,3 +14,6 @@
 - rename empty guest: decided.
 - dedupe partial promo: open.
 - tighten partial delivery window on checkout: decided.
+
+- relax partial promo: owner: delivery manager.
+- dedupe late tax line in the queue: owner: delivery manager.
