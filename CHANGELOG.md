@@ -256,3 +256,10 @@
 - guard partial receipt on reorder
 - backfill cancelled kitchen ticket
 - paginate late promo at close
+
+## Unreleased
+
+- log oversized receipt on checkout
+- document duplicate kitchen ticket for franchisees
+- relax missing receipt on reorder
+- add empty order
