@@ -1404,4 +1404,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'add duplicate bowl for franchisees',
     quantity: 5,
   },
+  {
+    id: 'menu-6994',
+    store: '239',
+    label: 'document expired kitchen ticket',
+    quantity: 11,
+  },
 ];
