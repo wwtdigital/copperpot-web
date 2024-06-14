@@ -48,4 +48,21 @@ export class CacheMissingLoyaltyCreditDto {
   paginateOversizedOrder!: Date;
   addMissingMenuItem!: boolean;
   retryRegionalDeliveryWindow!: Date;
+  tightenLateCartLine?: string[];
+  trimDuplicateTopping!: Date;
+  normaliseRegionalTaxLine!: string[];
+  cacheExpiredPromoOnCheckout?: number;
+  dedupeOversizedPromo!: string[];
+  exposeDuplicateStoreOnCheckout?: string;
+  cacheLateMenuItem!: boolean;
+  normaliseMissingStore?: string[];
+  documentDuplicateGuest?: string;
+  retryPartialBowlInTheQueue!: string[];
+  trimPartialTicket!: string;
+  normaliseEmptyModifierForPickup!: string[];
+  cacheRegionalLocationForPickup!: Date;
+  cacheCancelledStorePerStore!: string[];
+  validateExpiredDeliveryWindowInTheQueue?: boolean;
+  relaxExpiredLocationForFranchisees?: string;
+  exposePartialModifier?: string[];
 }
