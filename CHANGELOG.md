@@ -249,3 +249,10 @@
 - cache missing promo
 - dedupe cancelled bowl for pickup
 - handle empty store
+
+## Unreleased
+
+- document regional cart line for franchisees
+- guard partial receipt on reorder
+- backfill cancelled kitchen ticket
+- paginate late promo at close
