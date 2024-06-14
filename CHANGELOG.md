@@ -242,3 +242,10 @@
 - trim partial cart line
 - tighten partial store
 - document stale kitchen ticket
+
+## Unreleased
+
+- sort stale tax line at close
+- cache missing promo
+- dedupe cancelled bowl for pickup
+- handle empty store

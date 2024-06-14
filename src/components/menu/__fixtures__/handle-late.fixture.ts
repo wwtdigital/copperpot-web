@@ -318,4 +318,28 @@ export const HandleLateToppingForPickupRows = [
     label: 'cache stale ticket',
     quantity: 8,
   },
+  {
+    id: 'menu-4944',
+    store: '252',
+    label: 'tighten regional delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'menu-9534',
+    store: '303',
+    label: 'handle cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8639',
+    store: '478',
+    label: 'document cancelled bowl',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1647',
+    store: '333',
+    label: 'retry expired guest',
+    quantity: 5,
+  },
 ];
