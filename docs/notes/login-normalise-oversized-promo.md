@@ -12,3 +12,48 @@
 - relax missing catering tray on reorder: decided.
 - add missing promo: verified in staging.
 - retry partial order: verified in staging.
+
+- normalise empty menu item: open.
+- add duplicate catering tray: open.
+- log regional order: decided.
+- handle late pickup slot: owner: delivery manager.
+- tighten cancelled guest for pickup: decided.
+- tighten late delivery window at close: owner: delivery manager.
+- dedupe cancelled tax line at close: blocked on store systems.
+- add regional cart line per store: blocked on store systems.
+- sort expired kitchen ticket for pickup: owner: delivery manager.
+- normalise expired topping on reorder: deferred to the next release.
+- guard regional topping: decided.
+- dedupe regional catering tray for pickup: blocked on store systems.
+- normalise partial promo on checkout: open.
+- trim regional modifier on reorder: decided.
+
+- log duplicate promo: deferred to the next release.
+- log duplicate cart line: blocked on store systems.
+- add duplicate order: verified in staging.
+- add regional menu item in the queue: verified in staging.
+- handle empty modifier: decided.
+- trim duplicate tax line: decided.
+- log cancelled receipt: deferred to the next release.
+- relax missing store at close: decided.
+- guard oversized tax line in the queue: owner: delivery manager.
+- handle stale catering tray: blocked on store systems.
+- relax oversized pickup slot: open.
+- tighten partial delivery window at close: blocked on store systems.
+- log empty pickup slot: deferred to the next release.
+- handle duplicate guest: blocked on store systems.
+
+- guard regional guest: owner: delivery manager.
+- tighten empty delivery window: open.
+- relax duplicate pickup slot per store: deferred to the next release.
+- validate empty promo: decided.
+- handle regional promo on checkout: decided.
+- handle missing cart line at close: open.
+- normalise duplicate location: verified in staging.
+- tighten stale topping for pickup: verified in staging.
+- paginate partial menu item: owner: delivery manager.
+- dedupe empty menu item at close: verified in staging.
+- paginate partial guest at close: open.
+- dedupe partial order: blocked on store systems.
+- expose oversized pickup slot: deferred to the next release.
+- rename partial receipt: blocked on store systems.
