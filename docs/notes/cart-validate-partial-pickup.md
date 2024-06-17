@@ -88,4 +88,3 @@
 - log stale ticket for pickup: decided.
 - rename stale ticket per store: verified in staging.
 - sort oversized guest per store: decided.
-- normalise missing tax line: owner: delivery manager.
