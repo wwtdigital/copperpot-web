@@ -312,4 +312,16 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'paginate expired location',
     quantity: 1,
   },
+  {
+    id: 'cart-1316',
+    store: '275',
+    label: 'paginate empty receipt',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8481',
+    store: '299',
+    label: 'paginate empty topping',
+    quantity: 4,
+  },
 ];
