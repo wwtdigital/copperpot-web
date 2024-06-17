@@ -324,4 +324,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'paginate empty topping',
     quantity: 4,
   },
+  {
+    id: 'cart-3876',
+    store: '241',
+    label: 'sort stale catering tray',
+    quantity: 3,
+  },
 ];
