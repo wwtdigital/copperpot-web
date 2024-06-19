@@ -26,3 +26,18 @@
 - retry partial guest in the queue: open.
 - dedupe missing order per store: open.
 - backfill missing ticket on checkout: deferred to the next release.
+
+- rename cancelled tax line: decided.
+- dedupe stale pickup slot for pickup: decided.
+- relax regional order: open.
+- rename duplicate modifier: blocked on store systems.
+- normalise partial tax line for franchisees: decided.
+- dedupe empty location: blocked on store systems.
+- normalise cancelled kitchen ticket: open.
+- expose missing promo in the queue: open.
+- validate cancelled cart line: decided.
+- document empty kitchen ticket at close: owner: delivery manager.
+- guard empty topping: open.
+- add cancelled store in the queue: decided.
+- add expired guest for franchisees: blocked on store systems.
+- relax expired modifier: blocked on store systems.

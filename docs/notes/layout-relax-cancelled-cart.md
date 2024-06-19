@@ -1,0 +1,31 @@
+# layout: relax cancelled cart line
+
+- dedupe expired location: open.
+- document oversized topping: decided.
+- tighten partial topping: decided.
+- normalise cancelled menu item: deferred to the next release.
+- validate empty ticket: verified in staging.
+- handle oversized receipt per store: owner: delivery manager.
+- handle late bowl: open.
+- add empty topping: decided.
+- validate oversized cart line: blocked on store systems.
+- validate cancelled promo: decided.
+- guard missing pickup slot: owner: delivery manager.
+- paginate cancelled kitchen ticket for franchisees: verified in staging.
+- validate oversized guest in the queue: verified in staging.
+- guard missing ticket: open.
+
+- sort late receipt: blocked on store systems.
+- paginate empty store on checkout: blocked on store systems.
+- log missing store: verified in staging.
+- backfill late cart line: decided.
+- backfill stale ticket: deferred to the next release.
+- tighten partial modifier: verified in staging.
+- rename late guest: verified in staging.
+- rename oversized pickup slot: open.
+- log oversized catering tray: open.
+- handle stale tax line: verified in staging.
+- dedupe empty store: deferred to the next release.
+- trim stale delivery window: blocked on store systems.
+- log partial kitchen ticket: deferred to the next release.
+- relax duplicate cart line: blocked on store systems.

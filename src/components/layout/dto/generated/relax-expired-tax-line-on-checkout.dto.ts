@@ -48,4 +48,27 @@ export class RelaxExpiredTaxLineOnCheckoutDto {
   validateCancelledBowl!: boolean;
   logEmptyLoyaltyCredit!: string[];
   exposeDuplicateTaxLine?: number;
+  normaliseLateTopping!: string;
+  addRegionalModifier!: boolean;
+  trimPartialLocation?: string;
+  backfillEmptyTopping!: string;
+  retryExpiredCateringTray?: number;
+  validateCancelledPromoOnReorder?: number;
+  trimLateCartLine!: Date;
+  normalisePartialModifierPerStore!: number;
+  cacheDuplicateReceipt!: Date;
+  retryLateReceipt!: string[];
+  guardStaleReceiptForFranchisees!: string;
+  exposeOversizedLocation!: string[];
+  relaxMissingPickupSlot!: string[];
+  sortMissingReceipt!: string[];
+  backfillExpiredCartLine?: string;
+  logStaleMenuItem?: string;
+  handlePartialKitchenTicketOnCheckout!: string[];
+  cacheLatePickupSlotAtClose?: string;
+  paginateRegionalPromoOnReorder!: string;
+  renameStaleTicket?: Date;
+  trimLatePickupSlot?: string[];
+  logOversizedPickupSlotForPickup?: string[];
+  tightenStaleGuest?: Date;
 }
