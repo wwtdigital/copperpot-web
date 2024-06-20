@@ -14,3 +14,18 @@
 - relax partial kitchen ticket in the queue: blocked on store systems.
 - cache regional store for pickup: verified in staging.
 - tighten duplicate store in the queue: blocked on store systems.
+
+- tighten stale promo for franchisees: owner: delivery manager.
+- expose late location: decided.
+- add stale catering tray: owner: delivery manager.
+- add duplicate modifier: decided.
+- relax cancelled catering tray: decided.
+- guard late topping on checkout: deferred to the next release.
+- expose partial modifier on reorder: deferred to the next release.
+- guard duplicate topping at close: owner: delivery manager.
+- guard missing modifier: verified in staging.
+- relax oversized tax line: verified in staging.
+- trim empty guest: owner: delivery manager.
+- relax stale tax line: deferred to the next release.
+- validate partial receipt: blocked on store systems.
+- retry duplicate promo: verified in staging.
