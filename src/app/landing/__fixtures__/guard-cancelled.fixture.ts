@@ -162,4 +162,10 @@ export const GuardCancelledPickupSlotRows = [
     label: 'log missing ticket in the queue',
     quantity: 11,
   },
+  {
+    id: 'landing-1702',
+    store: '697',
+    label: 'log stale tax line',
+    quantity: 2,
+  },
 ];
