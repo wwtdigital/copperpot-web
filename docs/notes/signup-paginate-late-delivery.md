@@ -14,3 +14,18 @@
 - trim regional menu item: open.
 - paginate oversized cart line: verified in staging.
 - normalise late guest: deferred to the next release.
+
+- document stale store per store: verified in staging.
+- guard regional store: verified in staging.
+- sort regional menu item at close: deferred to the next release.
+- log regional menu item per store: open.
+- log late guest: deferred to the next release.
+- normalise stale order: verified in staging.
+- log stale tax line: owner: delivery manager.
+- relax missing promo for pickup: blocked on store systems.
+- normalise cancelled topping: open.
+- guard cancelled menu item on reorder: decided.
+- handle missing tax line: decided.
+- rename missing ticket at close: decided.
+- sort duplicate bowl: owner: delivery manager.
+- retry cancelled catering tray on reorder: decided.
