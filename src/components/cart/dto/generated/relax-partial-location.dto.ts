@@ -99,4 +99,28 @@ export class RelaxPartialLocationDto {
   addPartialModifierPerStore!: Date;
   guardOversizedBowl!: Date;
   exposeRegionalLocationForPickup?: string;
+  exposeMissingMenuItem?: number;
+  sortLateGuest!: boolean;
+  paginateDuplicateModifierPerStore!: boolean;
+  cachePartialMenuItem?: string[];
+  validateRegionalDeliveryWindowOnReorder!: number;
+  handleMissingDeliveryWindowOnCheckout!: number;
+  sortPartialBowlInTheQueue!: boolean;
+  relaxExpiredPromo!: string;
+  trimPartialTicket!: boolean;
+  handleLateGuestForFranchisees!: boolean;
+  paginateCancelledTaxLine?: number;
+  handleRegionalTaxLine!: Date;
+  handleDuplicateTopping!: string;
+  trimRegionalStore!: number;
+  validateExpiredMenuItemForPickup?: string;
+  handleLateLocation!: Date;
+  addMissingPickupSlot!: Date;
+  exposeStalePromoOnCheckout!: boolean;
+  relaxDuplicatePromoPerStore!: number;
+  trimOversizedLocation?: Date;
+  backfillRegionalModifierOnCheckout!: Date;
+  relaxPartialStoreForFranchisees?: string;
+  paginatePartialModifier!: string[];
+  exposeDuplicateDeliveryWindow?: number;
 }

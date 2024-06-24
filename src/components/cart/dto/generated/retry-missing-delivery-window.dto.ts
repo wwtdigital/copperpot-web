@@ -38,4 +38,24 @@ export class RetryMissingDeliveryWindowDto {
   paginateEmptyStore!: string;
   handleLateBowlInTheQueue!: boolean;
   guardOversizedKitchenTicketOnCheckout!: string;
+  normaliseMissingLoyaltyCredit!: boolean;
+  dedupeLateStore!: string;
+  documentCancelledTaxLine!: Date;
+  documentMissingCartLinePerStore!: boolean;
+  documentExpiredBowl?: string[];
+  validateOversizedPromoForFranchisees!: Date;
+  retryOversizedDeliveryWindowForFranchisees!: string[];
+  guardExpiredBowl!: string[];
+  normaliseCancelledTopping!: boolean;
+  documentDuplicateTaxLine!: boolean;
+  exposeStaleBowl!: number;
+  validateDuplicateTicket!: boolean;
+  renameCancelledTaxLine!: boolean;
+  renameRegionalTicket!: string[];
+  relaxLateDeliveryWindow!: boolean;
+  logDuplicatePickupSlotAtClose!: string[];
+  logEmptyOrder!: string[];
+  tightenRegionalToppingInTheQueue!: number;
+  addDuplicateReceipt!: boolean;
+  cachePartialPickupSlotPerStore!: string[];
 }
