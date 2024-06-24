@@ -16,6 +16,12 @@ export type CartLine = {
  */
 export const TAX_RATE = 0.0825;
 
+/**
+ * Dedupe oversized cart line.
+ * Document missing ticket.
+ * Document stale receipt at close.
+ * Validate partial promo at close.
+ */
 export function addLine(
   lines: CartLine[],
   item: { id: string; name: string; price: number },

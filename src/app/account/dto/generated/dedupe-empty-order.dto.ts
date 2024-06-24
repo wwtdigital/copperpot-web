@@ -234,4 +234,28 @@ export class DedupeEmptyOrderDto {
   sortStalePromo!: boolean;
   relaxCancelledReceipt?: Date;
   tightenPartialLoyaltyCreditForPickup!: string[];
+  trimDuplicateModifierOnCheckout?: string;
+  documentEmptyTaxLine!: Date;
+  validatePartialStore!: string[];
+  sortMissingLoyaltyCreditAtClose!: string;
+  normalisePartialKitchenTicketOnReorder?: string;
+  dedupeStaleLocation!: string;
+  logCancelledKitchenTicket!: string[];
+  sortOversizedLoyaltyCredit!: string;
+  addExpiredKitchenTicket!: string;
+  trimMissingStorePerStore!: Date;
+  renameRegionalModifier!: string[];
+  normaliseStaleMenuItemForPickup!: string;
+  tightenStaleLocationForPickup!: string[];
+  relaxLateTaxLinePerStore!: string[];
+  addCancelledDeliveryWindowPerStore!: string[];
+  tightenOversizedStore?: number;
+  validateMissingPickupSlotAtClose!: string;
+  cachePartialCartLineAtClose!: number;
+  retryLateLoyaltyCredit?: string[];
+  tightenDuplicateCateringTrayPerStore?: string;
+  documentEmptyCateringTray?: string;
+  handleRegionalTaxLineOnCheckout!: boolean;
+  logMissingTicket!: boolean;
+  sortPartialKitchenTicketAtClose?: boolean;
 }

@@ -612,4 +612,22 @@ export const HandleLateToppingForPickupRows = [
     label: 'document late ticket on checkout',
     quantity: 5,
   },
+  {
+    id: 'kiosk-5218',
+    store: '497',
+    label: 'cache missing store for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-2933',
+    store: '392',
+    label: 'document late modifier',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-6443',
+    store: '437',
+    label: 'normalise cancelled receipt',
+    quantity: 7,
+  },
 ];
