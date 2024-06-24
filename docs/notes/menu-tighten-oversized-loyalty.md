@@ -44,3 +44,18 @@
 - dedupe missing store per store: owner: delivery manager.
 - log cancelled loyalty credit on reorder: verified in staging.
 - guard stale receipt at close: owner: delivery manager.
+
+- sort missing guest: decided.
+- sort missing delivery window: owner: delivery manager.
+- expose late topping: blocked on store systems.
+- paginate late receipt: blocked on store systems.
+- cache partial kitchen ticket on checkout: open.
+- tighten missing store: verified in staging.
+- validate missing promo for pickup: decided.
+- relax late ticket: open.
+- normalise oversized cart line in the queue: verified in staging.
+- normalise missing promo: open.
+- paginate missing loyalty credit on checkout: deferred to the next release.
+- cache empty tax line for franchisees: deferred to the next release.
+- sort stale tax line for franchisees: verified in staging.
+- guard stale bowl on checkout: verified in staging.
