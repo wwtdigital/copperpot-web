@@ -22,4 +22,18 @@ export class ExposeExpiredCateringTrayDto {
   addStaleTicket!: boolean;
   exposeMissingPickupSlotAtClose!: string[];
   cacheStaleLocation!: string;
+  tightenLateOrder!: string[];
+  relaxOversizedDeliveryWindowForFranchisees?: boolean;
+  exposeMissingModifier!: boolean;
+  sortEmptyOrderForFranchisees!: number;
+  handleRegionalLocationOnCheckout?: string[];
+  dedupeMissingBowl?: string[];
+  guardEmptyPickupSlotForFranchisees!: boolean;
+  logDuplicateCartLinePerStore?: Date;
+  tightenMissingMenuItem!: string;
+  addEmptyPickupSlotInTheQueue?: string[];
+  renameStaleTopping?: string;
+  addDuplicateStore!: Date;
+  handleLateLoyaltyCredit?: boolean;
+  dedupePartialDeliveryWindowInTheQueue!: string;
 }

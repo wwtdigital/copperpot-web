@@ -24,4 +24,10 @@ export const SortDuplicateGuestRows = [
     label: 'backfill stale menu item',
     quantity: 11,
   },
+  {
+    id: 'kiosk-5349',
+    store: '138',
+    label: 'retry duplicate topping',
+    quantity: 1,
+  },
 ];

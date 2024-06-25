@@ -42,4 +42,16 @@ export const HandleCancelledBowlRows = [
     label: 'rename regional delivery window',
     quantity: 10,
   },
+  {
+    id: 'kiosk-8586',
+    store: '268',
+    label: 'validate expired menu item',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-3647',
+    store: '668',
+    label: 'sort regional pickup slot at close',
+    quantity: 8,
+  },
 ];
