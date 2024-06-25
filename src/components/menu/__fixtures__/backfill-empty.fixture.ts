@@ -1410,4 +1410,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'document expired kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'menu-9226',
+    store: '569',
+    label: 'sort expired guest',
+    quantity: 8,
+  },
 ];

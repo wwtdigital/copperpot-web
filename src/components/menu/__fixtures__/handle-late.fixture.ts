@@ -342,4 +342,58 @@ export const HandleLateToppingForPickupRows = [
     label: 'retry expired guest',
     quantity: 5,
   },
+  {
+    id: 'menu-1375',
+    store: '468',
+    label: 'relax duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5122',
+    store: '510',
+    label: 'add partial store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6914',
+    store: '301',
+    label: 'paginate cancelled ticket',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6019',
+    store: '595',
+    label: 'dedupe late tax line',
+    quantity: 1,
+  },
+  {
+    id: 'menu-5975',
+    store: '329',
+    label: 'add duplicate tax line',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3353',
+    store: '367',
+    label: 'rename late topping',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3169',
+    store: '616',
+    label: 'relax partial location on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4078',
+    store: '489',
+    label: 'paginate duplicate kitchen ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8155',
+    store: '135',
+    label: 'tighten partial order',
+    quantity: 12,
+  },
 ];
