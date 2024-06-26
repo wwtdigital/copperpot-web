@@ -81,3 +81,18 @@
 - handle duplicate store: verified in staging.
 - cache missing store: deferred to the next release.
 - cache expired bowl: blocked on store systems.
+
+- rename missing order on reorder: open.
+- handle expired store: decided.
+- handle partial pickup slot at close: deferred to the next release.
+- dedupe late modifier: open.
+- dedupe duplicate kitchen ticket at close: verified in staging.
+- document empty location: owner: delivery manager.
+- backfill regional order: verified in staging.
+- retry cancelled topping: verified in staging.
+- cache expired cart line for franchisees: blocked on store systems.
+- dedupe stale pickup slot: open.
+- expose oversized topping at close: deferred to the next release.
+- expose duplicate ticket: owner: delivery manager.
+- cache missing guest: deferred to the next release.
+- add regional catering tray: verified in staging.

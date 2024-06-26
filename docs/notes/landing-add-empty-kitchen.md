@@ -14,3 +14,24 @@
 - document regional topping: deferred to the next release.
 - retry cancelled location: verified in staging.
 - validate missing receipt: verified in staging.
+
+- validate empty kitchen ticket: open.
+- guard cancelled cart line: deferred to the next release.
+- relax late modifier on reorder: verified in staging.
+- trim missing ticket in the queue: deferred to the next release.
+- dedupe empty promo: blocked on store systems.
+- retry cancelled guest: decided.
+- guard regional store per store: blocked on store systems.
+- add expired cart line: verified in staging.
+- rename stale catering tray: blocked on store systems.
+- validate expired modifier: blocked on store systems.
+- dedupe missing menu item per store: owner: delivery manager.
+- rename expired cart line: deferred to the next release.
+- log duplicate promo: decided.
+- relax stale ticket: verified in staging.
+
+- guard regional catering tray: deferred to the next release.
+- paginate regional kitchen ticket in the queue: blocked on store systems.
+- trim regional loyalty credit: owner: delivery manager.
+- dedupe missing guest: decided.
+- paginate regional cart line per store: open.
