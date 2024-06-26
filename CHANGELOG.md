@@ -263,3 +263,10 @@
 - document duplicate kitchen ticket for franchisees
 - relax missing receipt on reorder
 - add empty order
+
+## Unreleased
+
+- backfill late menu item
+- backfill missing cart line
+- relax expired pickup slot
+- document late loyalty credit on reorder

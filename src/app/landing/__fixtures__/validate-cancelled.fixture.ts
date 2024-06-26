@@ -684,4 +684,22 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'retry regional ticket',
     quantity: 12,
   },
+  {
+    id: 'landing-9076',
+    store: '103',
+    label: 'sort stale store',
+    quantity: 4,
+  },
+  {
+    id: 'landing-8766',
+    store: '411',
+    label: 'guard oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'landing-1331',
+    store: '394',
+    label: 'paginate stale order',
+    quantity: 5,
+  },
 ];
