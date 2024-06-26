@@ -29,3 +29,9 @@
 - rename expired cart line: deferred to the next release.
 - log duplicate promo: decided.
 - relax stale ticket: verified in staging.
+
+- guard regional catering tray: deferred to the next release.
+- paginate regional kitchen ticket in the queue: blocked on store systems.
+- trim regional loyalty credit: owner: delivery manager.
+- dedupe missing guest: decided.
+- paginate regional cart line per store: open.

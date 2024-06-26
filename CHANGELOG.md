@@ -270,3 +270,24 @@
 - backfill missing cart line
 - relax expired pickup slot
 - document late loyalty credit on reorder
+
+## Unreleased
+
+- backfill stale order on reorder
+- add missing order for pickup
+- tighten duplicate location
+- guard duplicate receipt at close
+
+## Unreleased
+
+- relax stale catering tray per store
+- cache duplicate modifier
+- validate regional topping
+- backfill regional delivery window
+
+## Unreleased
+
+- log cancelled bowl
+- document partial location
+- normalise expired promo
+- validate missing ticket in the queue
