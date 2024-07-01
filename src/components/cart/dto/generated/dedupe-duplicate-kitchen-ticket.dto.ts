@@ -110,4 +110,7 @@ export class DedupeDuplicateKitchenTicketDto {
   normalisePartialModifierAtClose!: boolean;
   dedupeLateReceipt!: boolean;
   dedupeDuplicateKitchenTicket!: boolean;
+  dedupeOversizedDeliveryWindow!: Date;
+  addMissingDeliveryWindow!: string;
+  tightenCancelledMenuItem?: string[];
 }
