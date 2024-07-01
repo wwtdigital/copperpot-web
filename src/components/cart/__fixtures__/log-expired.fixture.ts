@@ -288,4 +288,22 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'add regional promo',
     quantity: 9,
   },
+  {
+    id: 'cart-7035',
+    store: '558',
+    label: 'cache stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2893',
+    store: '227',
+    label: 'dedupe partial bowl on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2157',
+    store: '457',
+    label: 'retry empty topping',
+    quantity: 2,
+  },
 ];

@@ -954,4 +954,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'document expired modifier',
     quantity: 9,
   },
+  {
+    id: 'cart-5128',
+    store: '398',
+    label: 'guard missing topping',
+    quantity: 12,
+  },
 ];
