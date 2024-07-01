@@ -305,3 +305,10 @@
 - cache stale store per store
 - add oversized kitchen ticket
 - validate oversized topping
+
+## Unreleased
+
+- expose stale kitchen ticket
+- paginate late delivery window
+- guard empty ticket
+- trim duplicate guest
