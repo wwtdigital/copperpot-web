@@ -312,3 +312,10 @@
 - paginate late delivery window
 - guard empty ticket
 - trim duplicate guest
+
+## Unreleased
+
+- cache stale delivery window at close
+- expose regional tax line at close
+- handle empty location
+- rename oversized ticket

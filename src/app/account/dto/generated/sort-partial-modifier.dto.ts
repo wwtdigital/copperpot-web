@@ -24,4 +24,28 @@ export class SortPartialModifierDto {
   trimStaleCateringTray?: boolean;
   trimEmptyPickupSlot!: Date;
   documentRegionalTaxLine!: Date;
+  trimMissingModifierForFranchisees!: string[];
+  sortMissingTopping?: number;
+  handleStaleBowlPerStore!: string;
+  sortOversizedKitchenTicket!: string;
+  trimDuplicatePickupSlotPerStore!: string[];
+  paginatePartialModifier!: string[];
+  documentCancelledModifierForFranchisees!: string[];
+  backfillDuplicateBowl!: Date;
+  relaxExpiredLoyaltyCredit!: number;
+  logStaleCartLine!: string[];
+  sortEmptyGuest!: Date;
+  documentCancelledReceiptOnReorder?: number;
+  documentPartialPromo!: number;
+  validateRegionalTaxLinePerStore!: boolean;
+  exposeStaleCartLineForFranchisees!: Date;
+  backfillOversizedPickupSlotPerStore!: number;
+  backfillEmptyGuest!: Date;
+  dedupeMissingBowl!: number;
+  tightenRegionalGuestForPickup?: string[];
+  trimExpiredKitchenTicket!: Date;
+  validateExpiredPickupSlot?: boolean;
+  exposeExpiredLocation!: boolean;
+  paginateOversizedTaxLine?: string[];
+  sortDuplicatePromo!: number;
 }
