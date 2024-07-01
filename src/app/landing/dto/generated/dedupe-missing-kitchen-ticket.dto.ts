@@ -76,4 +76,28 @@ export class DedupeMissingKitchenTicketDto {
   trimCancelledTaxLineOnCheckout!: boolean;
   validateRegionalPickupSlotAtClose!: string;
   trimMissingOrder!: string[];
+  logEmptyTicketForPickup!: Date;
+  documentMissingMenuItemOnCheckout?: boolean;
+  dedupeEmptyLocation?: boolean;
+  validateOversizedTaxLineInTheQueue!: string;
+  tightenStaleLocation?: string;
+  tightenCancelledPromo!: number;
+  trimEmptyLoyaltyCreditPerStore?: Date;
+  retryExpiredGuest!: number;
+  documentDuplicateKitchenTicket!: number;
+  retryMissingReceipt!: string[];
+  backfillExpiredKitchenTicketInTheQueue!: Date;
+  dedupeExpiredModifierForFranchisees!: string;
+  handleExpiredMenuItem!: boolean;
+  dedupeLatePromo!: Date;
+  sortOversizedCateringTray?: string[];
+  backfillLateKitchenTicket!: Date;
+  guardDuplicateMenuItemPerStore!: number;
+  retryPartialDeliveryWindow!: Date;
+  trimEmptyKitchenTicketForFranchisees!: string;
+  trimCancelledGuestOnReorder?: boolean;
+  handleRegionalTopping!: boolean;
+  retryExpiredPickupSlotInTheQueue?: number;
+  paginateExpiredPromoForFranchisees?: boolean;
+  cacheLateStoreForFranchisees!: Date;
 }
