@@ -270,4 +270,22 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'expose missing ticket',
     quantity: 11,
   },
+  {
+    id: 'cart-7510',
+    store: '187',
+    label: 'trim partial loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8873',
+    store: '212',
+    label: 'expose expired location on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2846',
+    store: '662',
+    label: 'add regional promo',
+    quantity: 9,
+  },
 ];
