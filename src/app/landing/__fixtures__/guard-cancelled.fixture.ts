@@ -378,4 +378,16 @@ export const GuardCancelledPickupSlotRows = [
     label: 'handle duplicate tax line',
     quantity: 2,
   },
+  {
+    id: 'landing-2891',
+    store: '156',
+    label: 'trim empty promo',
+    quantity: 8,
+  },
+  {
+    id: 'landing-6504',
+    store: '653',
+    label: 'document cancelled receipt on reorder',
+    quantity: 5,
+  },
 ];

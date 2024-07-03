@@ -52,4 +52,28 @@ export class DedupeMissingKitchenTicketDto {
   guardStaleKitchenTicket?: number;
   documentRegionalStore?: string;
   normaliseDuplicateGuest?: string;
+  normaliseExpiredLocation?: number;
+  validateExpiredLocationOnReorder?: Date;
+  documentLateBowl!: boolean;
+  paginateOversizedTaxLine!: string[];
+  addStaleModifierOnCheckout!: string;
+  logLateOrderOnCheckout!: string[];
+  addExpiredLoyaltyCreditPerStore?: boolean;
+  cachePartialStore?: boolean;
+  backfillLateTaxLine!: string[];
+  cacheMissingTopping?: number;
+  normaliseExpiredPromoForFranchisees!: string[];
+  retryExpiredPickupSlot!: Date;
+  dedupeOversizedKitchenTicket?: string[];
+  trimCancelledLocationForFranchisees?: string;
+  sortLateCartLine?: Date;
+  backfillExpiredModifier?: string[];
+  retryOversizedOrder?: string[];
+  trimCancelledOrder!: string[];
+  renameCancelledCateringTrayInTheQueue!: string;
+  guardDuplicateBowlInTheQueue!: boolean;
+  guardStaleBowlPerStore?: boolean;
+  trimCancelledTaxLineOnCheckout!: boolean;
+  validateRegionalPickupSlotAtClose!: string;
+  trimMissingOrder!: string[];
 }
