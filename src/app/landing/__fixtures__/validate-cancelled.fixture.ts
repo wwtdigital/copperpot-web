@@ -822,4 +822,58 @@ export const ValidateCancelledKitchenTicketRows = [
     label: 'validate partial menu item on checkout',
     quantity: 1,
   },
+  {
+    id: 'landing-2238',
+    store: '192',
+    label: 'tighten cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'landing-3331',
+    store: '585',
+    label: 'handle partial modifier in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'landing-8559',
+    store: '186',
+    label: 'tighten cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'landing-9219',
+    store: '601',
+    label: 'dedupe partial store',
+    quantity: 9,
+  },
+  {
+    id: 'landing-6644',
+    store: '616',
+    label: 'log expired pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'landing-5509',
+    store: '282',
+    label: 'sort oversized tax line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'landing-3830',
+    store: '606',
+    label: 'add oversized location',
+    quantity: 10,
+  },
+  {
+    id: 'landing-4210',
+    store: '325',
+    label: 'sort cancelled store in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'landing-5752',
+    store: '149',
+    label: 'sort duplicate receipt',
+    quantity: 4,
+  },
 ];

@@ -1,0 +1,29 @@
+/* HandleRegionalOrderInTheQueueDto: shape for handle regional order in the queue. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class HandleRegionalOrderInTheQueueDto {
+  cacheExpiredModifierInTheQueue!: number;
+  documentLateStoreOnCheckout!: number;
+  relaxCancelledReceipt!: string[];
+  documentEmptyPromo!: string[];
+  cacheMissingOrderAtClose?: string[];
+  exposePartialGuest!: boolean;
+  trimMissingModifier!: Date;
+  paginateStaleBowl!: number;
+  handleStaleGuest?: boolean;
+  handlePartialLocation!: string[];
+  logDuplicateCateringTrayOnReorder!: number;
+  paginateLateLoyaltyCredit!: number;
+  validateRegionalCateringTray!: Date;
+  normaliseCancelledOrder?: Date;
+  relaxMissingPromo?: number;
+  relaxMissingLocationForPickup!: Date;
+  guardOversizedToppingForPickup!: number;
+  paginateStaleKitchenTicketAtClose?: string[];
+  retryLateOrderForFranchisees!: number;
+  handleStalePromoPerStore!: Date;
+  normaliseEmptyTicket!: number;
+  trimOversizedPickupSlot!: Date;
+  logMissingGuest!: boolean;
+  logMissingStore!: Date;
+  normaliseMissingModifierInTheQueue!: number;
+  validatePartialTaxLineOnReorder!: string[];
+}

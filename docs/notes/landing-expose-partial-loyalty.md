@@ -96,3 +96,18 @@
 - expose duplicate ticket: owner: delivery manager.
 - cache missing guest: deferred to the next release.
 - add regional catering tray: verified in staging.
+
+- dedupe missing store: open.
+- normalise stale topping: blocked on store systems.
+- cache oversized delivery window on checkout: blocked on store systems.
+- document regional pickup slot at close: decided.
+- trim cancelled kitchen ticket: owner: delivery manager.
+- paginate cancelled promo: decided.
+- add missing cart line: owner: delivery manager.
+- relax expired modifier: blocked on store systems.
+- backfill stale location on reorder: decided.
+- add regional location for franchisees: decided.
+- normalise regional loyalty credit for franchisees: verified in staging.
+- handle empty location: deferred to the next release.
+- add stale loyalty credit on reorder: verified in staging.
+- validate late menu item: verified in staging.
