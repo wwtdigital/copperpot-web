@@ -291,3 +291,17 @@
 - document partial location
 - normalise expired promo
 - validate missing ticket in the queue
+
+## Unreleased
+
+- paginate regional catering tray
+- cache oversized store
+- add cancelled order at close
+- normalise duplicate cart line
+
+## Unreleased
+
+- trim expired bowl
+- cache stale store per store
+- add oversized kitchen ticket
+- validate oversized topping

@@ -14,3 +14,18 @@
 - validate regional catering tray: decided.
 - dedupe late loyalty credit on checkout: owner: delivery manager.
 - validate expired cart line in the queue: blocked on store systems.
+
+- normalise duplicate cart line: deferred to the next release.
+- paginate late catering tray: open.
+- paginate late location: verified in staging.
+- sort empty receipt: deferred to the next release.
+- tighten expired location for pickup: decided.
+- expose late tax line in the queue: open.
+- trim regional menu item: deferred to the next release.
+- dedupe partial ticket: blocked on store systems.
+- normalise expired bowl: open.
+- guard cancelled pickup slot: open.
+- trim duplicate tax line on checkout: deferred to the next release.
+- sort duplicate modifier: open.
+- add duplicate ticket: decided.
+- sort duplicate receipt: decided.
