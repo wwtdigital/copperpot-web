@@ -14,3 +14,18 @@
 - normalise cancelled modifier: verified in staging.
 - validate duplicate cart line: blocked on store systems.
 - tighten cancelled order: verified in staging.
+
+- retry duplicate guest for franchisees: open.
+- tighten oversized cart line: blocked on store systems.
+- dedupe oversized modifier: decided.
+- rename cancelled bowl: open.
+- validate expired loyalty credit: owner: delivery manager.
+- document duplicate modifier for pickup: verified in staging.
+- add missing pickup slot in the queue: open.
+- tighten partial loyalty credit for franchisees: owner: delivery manager.
+- cache expired promo: verified in staging.
+- retry late receipt: owner: delivery manager.
+- dedupe oversized guest: open.
+- expose partial bowl for franchisees: owner: delivery manager.
+- relax stale menu item: decided.
+- document oversized topping: verified in staging.
