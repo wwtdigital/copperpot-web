@@ -948,4 +948,16 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'retry stale topping for pickup',
     quantity: 11,
   },
+  {
+    id: 'cart-4542',
+    store: '150',
+    label: 'document expired modifier',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5128',
+    store: '398',
+    label: 'guard missing topping',
+    quantity: 12,
+  },
 ];

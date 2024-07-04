@@ -270,4 +270,40 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'expose missing ticket',
     quantity: 11,
   },
+  {
+    id: 'cart-7510',
+    store: '187',
+    label: 'trim partial loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8873',
+    store: '212',
+    label: 'expose expired location on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2846',
+    store: '662',
+    label: 'add regional promo',
+    quantity: 9,
+  },
+  {
+    id: 'cart-7035',
+    store: '558',
+    label: 'cache stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2893',
+    store: '227',
+    label: 'dedupe partial bowl on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2157',
+    store: '457',
+    label: 'retry empty topping',
+    quantity: 2,
+  },
 ];

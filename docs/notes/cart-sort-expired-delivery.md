@@ -29,3 +29,18 @@
 - sort duplicate modifier: open.
 - add duplicate ticket: decided.
 - sort duplicate receipt: decided.
+
+- sort empty menu item: open.
+- rename late topping: verified in staging.
+- backfill expired guest: owner: delivery manager.
+- handle cancelled promo on reorder: deferred to the next release.
+- backfill duplicate bowl on reorder: blocked on store systems.
+- cache regional pickup slot: open.
+- normalise expired cart line: owner: delivery manager.
+- add empty menu item for pickup: deferred to the next release.
+- sort missing pickup slot at close: open.
+- relax late topping on reorder: deferred to the next release.
+- paginate missing delivery window on reorder: blocked on store systems.
+- guard oversized modifier: open.
+- normalise stale kitchen ticket: owner: delivery manager.
+- rename late receipt: open.

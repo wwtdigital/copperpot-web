@@ -82,4 +82,12 @@ export class RetryMissingDeliveryWindowDto {
   backfillStaleTicket!: string;
   trimDuplicateOrder?: boolean;
   normaliseDuplicateStore!: string;
+  guardLateOrder!: string[];
+  cacheStaleTopping?: boolean;
+  retryRegionalPickupSlotForPickup?: string[];
+  retryStaleCateringTray!: string[];
+  documentRegionalReceiptInTheQueue!: number;
+  documentOversizedGuestForPickup!: string[];
+  normaliseMissingStoreAtClose!: Date;
+  guardStaleLoyaltyCreditForPickup?: string;
 }

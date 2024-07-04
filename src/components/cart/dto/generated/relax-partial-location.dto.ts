@@ -171,4 +171,14 @@ export class RelaxPartialLocationDto {
   trimMissingLoyaltyCredit!: Date;
   trimEmptyStore!: string;
   backfillCancelledCateringTray?: Date;
+  paginateCancelledLocation!: boolean;
+  tightenOversizedStoreAtClose?: string;
+  handlePartialTopping!: string;
+  handleMissingTaxLine?: Date;
+  renamePartialDeliveryWindowPerStore!: string[];
+  tightenRegionalCartLine!: boolean;
+  addPartialModifier?: string;
+  validatePartialCateringTrayOnCheckout?: number;
+  retryDuplicateMenuItem!: number;
+  paginateLateCartLineAtClose?: string[];
 }
