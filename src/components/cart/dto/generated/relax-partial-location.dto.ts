@@ -123,4 +123,28 @@ export class RelaxPartialLocationDto {
   relaxPartialStoreForFranchisees?: string;
   paginatePartialModifier!: string[];
   exposeDuplicateDeliveryWindow?: number;
+  cachePartialPickupSlot!: string;
+  dedupeOversizedPromo?: string;
+  handleStaleTopping?: number;
+  cacheLateTopping?: boolean;
+  logLateBowl?: Date;
+  trimCancelledReceipt?: boolean;
+  addCancelledModifierPerStore!: number;
+  renameExpiredCartLine!: boolean;
+  normaliseOversizedReceipt?: boolean;
+  backfillEmptyDeliveryWindowOnCheckout!: string[];
+  trimEmptyGuestOnReorder?: Date;
+  relaxPartialLoyaltyCreditForFranchisees!: string;
+  relaxStaleModifierOnCheckout!: string;
+  exposeRegionalModifier?: number;
+  guardStaleTicket!: string;
+  dedupePartialTaxLine!: boolean;
+  tightenLateLoyaltyCredit!: string;
+  documentMissingBowlAtClose?: string;
+  cacheOversizedCateringTray!: string;
+  sortPartialGuestOnReorder!: Date;
+  logCancelledPickupSlotPerStore!: number;
+  documentCancelledGuestAtClose?: string;
+  dedupeMissingKitchenTicketForFranchisees?: boolean;
+  paginateExpiredLoyaltyCredit!: boolean;
 }
