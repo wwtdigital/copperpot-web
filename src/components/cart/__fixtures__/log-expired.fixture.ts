@@ -306,4 +306,10 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'retry empty topping',
     quantity: 2,
   },
+  {
+    id: 'stores-6076',
+    store: '675',
+    label: 'add partial modifier in the queue',
+    quantity: 2,
+  },
 ];

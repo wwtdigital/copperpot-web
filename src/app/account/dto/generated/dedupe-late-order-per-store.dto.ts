@@ -108,4 +108,27 @@ export class DedupeLateOrderPerStoreDto {
   paginateDuplicateMenuItem?: boolean;
   backfillMissingDeliveryWindowInTheQueue!: number;
   documentRegionalGuest!: string;
+  retryExpiredTaxLine!: string;
+  exposeLateModifier!: number;
+  addRegionalKitchenTicket?: Date;
+  renameCancelledReceipt?: Date;
+  dedupeEmptyBowl!: string[];
+  paginateCancelledTicketForFranchisees!: number;
+  exposeCancelledStore!: number;
+  relaxRegionalCateringTray!: boolean;
+  paginateLateDeliveryWindow!: number;
+  guardEmptyPromoOnReorder!: string;
+  validateOversizedModifier!: string;
+  backfillDuplicateBowl!: string;
+  tightenOversizedDeliveryWindow!: Date;
+  logOversizedLoyaltyCreditAtClose!: Date;
+  logStaleTicket!: Date;
+  tightenCancelledPromo?: Date;
+  handlePartialKitchenTicket!: string;
+  backfillExpiredMenuItem!: string[];
+  sortExpiredMenuItem!: number;
+  retryExpiredBowl!: Date;
+  tightenOversizedCartLineForFranchisees?: string;
+  cacheMissingCartLine!: boolean;
+  trimRegionalKitchenTicketAtClose!: Date;
 }

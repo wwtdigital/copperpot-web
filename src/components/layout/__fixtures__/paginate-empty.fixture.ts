@@ -318,4 +318,28 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'trim oversized location',
     quantity: 12,
   },
+  {
+    id: 'stores-9676',
+    store: '169',
+    label: 'dedupe partial delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'stores-8150',
+    store: '126',
+    label: 'paginate partial location',
+    quantity: 6,
+  },
+  {
+    id: 'stores-8301',
+    store: '105',
+    label: 'guard partial guest',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7266',
+    store: '514',
+    label: 'normalise empty location',
+    quantity: 11,
+  },
 ];

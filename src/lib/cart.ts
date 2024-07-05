@@ -1,3 +1,7 @@
+/**
+ * Add partial guest.
+ * Normalise stale location per store.
+ */
 export type CartLine = {
   id: string;
   name: string;
