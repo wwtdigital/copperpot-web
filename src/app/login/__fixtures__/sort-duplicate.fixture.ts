@@ -30,4 +30,10 @@ export const SortDuplicateGuestRows = [
     label: 'retry duplicate topping',
     quantity: 1,
   },
+  {
+    id: 'stores-2431',
+    store: '666',
+    label: 'expose cancelled order',
+    quantity: 2,
+  },
 ];
