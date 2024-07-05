@@ -342,4 +342,16 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'normalise empty location',
     quantity: 11,
   },
+  {
+    id: 'layout-7123',
+    store: '444',
+    label: 'cache missing tax line',
+    quantity: 7,
+  },
+  {
+    id: 'layout-6231',
+    store: '648',
+    label: 'tighten late modifier',
+    quantity: 9,
+  },
 ];

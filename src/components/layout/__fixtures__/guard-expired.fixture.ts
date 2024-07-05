@@ -648,4 +648,10 @@ export const GuardExpiredMenuItemRows = [
     label: 'cache expired kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'layout-3656',
+    store: '674',
+    label: 'trim partial cart line',
+    quantity: 6,
+  },
 ];
