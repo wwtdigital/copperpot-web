@@ -114,4 +114,58 @@ export const PaginateEmptyKitchenTicketRows = [
     label: 'handle oversized ticket',
     quantity: 5,
   },
+  {
+    id: 'menu-4159',
+    store: '665',
+    label: 'tighten late guest',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4271',
+    store: '526',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-4531',
+    store: '644',
+    label: 'backfill late location',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8599',
+    store: '439',
+    label: 'tighten missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8989',
+    store: '659',
+    label: 'add duplicate modifier',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8479',
+    store: '529',
+    label: 'dedupe expired topping on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'menu-2211',
+    store: '634',
+    label: 'relax missing topping on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9270',
+    store: '190',
+    label: 'guard missing pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'menu-1521',
+    store: '603',
+    label: 'tighten stale topping at close',
+    quantity: 5,
+  },
 ];
