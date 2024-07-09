@@ -654,4 +654,16 @@ export const GuardExpiredMenuItemRows = [
     label: 'trim partial cart line',
     quantity: 6,
   },
+  {
+    id: 'layout-2135',
+    store: '674',
+    label: 'dedupe expired store on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'layout-6194',
+    store: '579',
+    label: 'normalise stale topping',
+    quantity: 9,
+  },
 ];
