@@ -630,4 +630,40 @@ export const GuardExpiredMenuItemRows = [
     label: 'rename late location on checkout',
     quantity: 5,
   },
+  {
+    id: 'layout-5018',
+    store: '512',
+    label: 'normalise oversized receipt',
+    quantity: 7,
+  },
+  {
+    id: 'layout-9043',
+    store: '543',
+    label: 'add duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'layout-1243',
+    store: '537',
+    label: 'cache expired kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'layout-3656',
+    store: '674',
+    label: 'trim partial cart line',
+    quantity: 6,
+  },
+  {
+    id: 'layout-2135',
+    store: '674',
+    label: 'dedupe expired store on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'layout-6194',
+    store: '579',
+    label: 'normalise stale topping',
+    quantity: 9,
+  },
 ];
