@@ -282,4 +282,26 @@ export class DedupeEmptyOrderDto {
   dedupeMissingGuest!: string[];
   cacheRegionalModifierInTheQueue?: string[];
   guardPartialOrder!: string;
+  cacheRegionalBowl!: string[];
+  exposeCancelledPromo!: number;
+  cacheEmptyTaxLineInTheQueue!: string[];
+  backfillDuplicateLocationOnReorder?: string[];
+  handlePartialPromoAtClose!: number;
+  logRegionalCartLineOnCheckout!: string[];
+  handlePartialMenuItemForFranchisees!: string[];
+  dedupeOversizedModifier?: string;
+  exposeLateLoyaltyCredit?: number;
+  relaxMissingLocation!: boolean;
+  exposePartialBowl?: boolean;
+  paginatePartialBowl!: boolean;
+  trimOversizedPickupSlot!: Date;
+  retryStaleLocation!: number;
+  guardEmptyTaxLineInTheQueue!: Date;
+  tightenRegionalPromo?: Date;
+  guardRegionalStore!: number;
+  dedupePartialTaxLine!: string;
+  relaxStaleMenuItem!: boolean;
+  trimEmptyBowl!: Date;
+  addCancelledPromo!: boolean;
+  retryExpiredTicketForFranchisees!: boolean;
 }
