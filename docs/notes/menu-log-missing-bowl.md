@@ -4,3 +4,5 @@
 - tighten missing promo per store: blocked on store systems.
 - sort cancelled topping: deferred to the next release.
 - add expired cart line on reorder: decided.
+
+- normalise expired cart line for franchisees: open.
