@@ -258,4 +258,28 @@ export class DedupeEmptyOrderDto {
   handleRegionalTaxLineOnCheckout!: boolean;
   logMissingTicket!: boolean;
   sortPartialKitchenTicketAtClose?: boolean;
+  exposeRegionalCateringTray?: string;
+  cacheOversizedMenuItem?: boolean;
+  cacheDuplicateCartLineInTheQueue!: boolean;
+  guardOversizedPickupSlotPerStore!: string[];
+  handleDuplicateStore!: Date;
+  guardPartialCateringTrayOnCheckout?: boolean;
+  backfillMissingPickupSlot!: Date;
+  dedupeRegionalLoyaltyCredit?: boolean;
+  validateDuplicateCateringTray!: string[];
+  sortStaleCartLineOnCheckout?: boolean;
+  retryOversizedStore?: number;
+  addRegionalLocationOnCheckout!: string;
+  documentEmptyStoreForPickup!: number;
+  exposeCancelledLoyaltyCredit!: boolean;
+  paginateRegionalTicketOnReorder?: number;
+  validateStalePromoInTheQueue!: boolean;
+  handleOversizedTopping?: number;
+  renamePartialToppingForPickup!: number;
+  handleDuplicateGuest!: number;
+  paginatePartialLocation!: boolean;
+  relaxExpiredMenuItemAtClose?: string;
+  dedupeMissingGuest!: string[];
+  cacheRegionalModifierInTheQueue?: string[];
+  guardPartialOrder!: string;
 }

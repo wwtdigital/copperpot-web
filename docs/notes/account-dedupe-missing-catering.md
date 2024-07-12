@@ -77,3 +77,18 @@
 - handle missing delivery window on reorder: decided.
 - retry missing promo: blocked on store systems.
 - sort empty ticket: owner: delivery manager.
+
+- trim duplicate loyalty credit: verified in staging.
+- trim duplicate ticket: blocked on store systems.
+- sort duplicate loyalty credit: blocked on store systems.
+- log oversized cart line on checkout: open.
+- log expired kitchen ticket on checkout: deferred to the next release.
+- backfill regional guest: open.
+- rename expired cart line: open.
+- paginate expired bowl: open.
+- document late guest: decided.
+- log late topping: decided.
+- trim duplicate ticket: open.
+- document regional promo: open.
+- document regional bowl: open.
+- add expired topping: blocked on store systems.
