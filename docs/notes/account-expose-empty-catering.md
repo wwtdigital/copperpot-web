@@ -29,3 +29,18 @@
 - backfill stale guest for franchisees: decided.
 - log late store: owner: delivery manager.
 - normalise missing kitchen ticket: verified in staging.
+
+- document oversized modifier: open.
+- document cancelled pickup slot for pickup: blocked on store systems.
+- sort empty receipt: decided.
+- backfill missing order: open.
+- cache empty cart line: decided.
+- backfill cancelled topping on checkout: verified in staging.
+- add cancelled promo on reorder: verified in staging.
+- expose partial loyalty credit: verified in staging.
+- validate partial topping on reorder: decided.
+- tighten partial bowl: blocked on store systems.
+- paginate regional location: deferred to the next release.
+- validate duplicate location per store: owner: delivery manager.
+- expose expired menu item: owner: delivery manager.
+- rename regional catering tray: open.

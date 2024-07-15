@@ -304,4 +304,27 @@ export class DedupeEmptyOrderDto {
   trimEmptyBowl!: Date;
   addCancelledPromo!: boolean;
   retryExpiredTicketForFranchisees!: boolean;
+  logStalePromoAtClose?: string;
+  handleMissingKitchenTicketAtClose!: Date;
+  renameStaleDeliveryWindow?: number;
+  addRegionalTaxLine!: Date;
+  logPartialReceipt!: boolean;
+  paginateDuplicateDeliveryWindowForFranchisees?: number;
+  backfillMissingCartLine!: number;
+  logOversizedPickupSlot!: string;
+  documentMissingOrderInTheQueue!: number;
+  cacheCancelledOrderForFranchisees!: string[];
+  backfillEmptyCateringTrayAtClose!: string;
+  logEmptyPromo?: string;
+  retryExpiredGuest!: number;
+  sortExpiredReceiptOnReorder!: Date;
+  retryOversizedKitchenTicket!: string[];
+  documentPartialStore!: Date;
+  paginateLateTicket!: number;
+  renameCancelledReceipt?: boolean;
+  addRegionalGuest!: boolean;
+  addPartialModifierForPickup!: number;
+  backfillPartialPickupSlot!: string[];
+  logOversizedPromo!: string;
+  renameLateTopping?: Date;
 }
