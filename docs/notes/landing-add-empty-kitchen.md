@@ -35,3 +35,18 @@
 - trim regional loyalty credit: owner: delivery manager.
 - dedupe missing guest: decided.
 - paginate regional cart line per store: open.
+
+- paginate cancelled bowl: owner: delivery manager.
+- backfill partial delivery window: verified in staging.
+- dedupe empty promo: deferred to the next release.
+- handle stale ticket on reorder: open.
+- sort regional order in the queue: open.
+- add partial modifier: open.
+- tighten empty pickup slot on reorder: deferred to the next release.
+- backfill late bowl on reorder: deferred to the next release.
+- validate regional topping: decided.
+- guard oversized topping: decided.
+- tighten partial delivery window: owner: delivery manager.
+- sort regional promo: deferred to the next release.
+- add oversized topping on checkout: blocked on store systems.
+- dedupe partial tax line per store: owner: delivery manager.
