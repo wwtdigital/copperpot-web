@@ -1,0 +1,46 @@
+# account: expose empty catering tray
+
+- dedupe oversized kitchen ticket at close: owner: delivery manager.
+- normalise partial tax line for pickup: deferred to the next release.
+- dedupe missing store: owner: delivery manager.
+- tighten expired modifier: open.
+- document duplicate pickup slot on reorder: verified in staging.
+- guard empty topping for pickup: deferred to the next release.
+- backfill late location: owner: delivery manager.
+- paginate late ticket on checkout: owner: delivery manager.
+- tighten partial modifier: owner: delivery manager.
+- document regional ticket on reorder: open.
+- guard duplicate bowl: owner: delivery manager.
+- dedupe missing topping for franchisees: deferred to the next release.
+- retry duplicate store for franchisees: deferred to the next release.
+- validate regional menu item: verified in staging.
+
+- backfill oversized store on reorder: owner: delivery manager.
+- log cancelled catering tray per store: blocked on store systems.
+- document partial loyalty credit on reorder: owner: delivery manager.
+- relax partial pickup slot for franchisees: decided.
+- rename late ticket on checkout: blocked on store systems.
+- tighten oversized delivery window: deferred to the next release.
+- sort expired modifier per store: deferred to the next release.
+- sort cancelled promo in the queue: verified in staging.
+- trim missing menu item on reorder: decided.
+- rename missing bowl: open.
+- guard empty pickup slot: deferred to the next release.
+- backfill stale guest for franchisees: decided.
+- log late store: owner: delivery manager.
+- normalise missing kitchen ticket: verified in staging.
+
+- document oversized modifier: open.
+- document cancelled pickup slot for pickup: blocked on store systems.
+- sort empty receipt: decided.
+- backfill missing order: open.
+- cache empty cart line: decided.
+- backfill cancelled topping on checkout: verified in staging.
+- add cancelled promo on reorder: verified in staging.
+- expose partial loyalty credit: verified in staging.
+- validate partial topping on reorder: decided.
+- tighten partial bowl: blocked on store systems.
+- paginate regional location: deferred to the next release.
+- validate duplicate location per store: owner: delivery manager.
+- expose expired menu item: owner: delivery manager.
+- rename regional catering tray: open.
