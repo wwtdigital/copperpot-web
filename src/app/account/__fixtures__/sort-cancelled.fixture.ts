@@ -960,4 +960,22 @@ export const SortCancelledOrderRows = [
     label: 'dedupe stale tax line',
     quantity: 4,
   },
+  {
+    id: 'account-1465',
+    store: '251',
+    label: 'trim duplicate tax line at close',
+    quantity: 11,
+  },
+  {
+    id: 'account-9147',
+    store: '142',
+    label: 'backfill oversized delivery window on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'account-8246',
+    store: '352',
+    label: 'document missing store for franchisees',
+    quantity: 5,
+  },
 ];
