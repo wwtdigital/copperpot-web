@@ -111,3 +111,18 @@
 - handle empty location: deferred to the next release.
 - add stale loyalty credit on reorder: verified in staging.
 - validate late menu item: verified in staging.
+
+- tighten cancelled delivery window: open.
+- relax empty guest for pickup: open.
+- relax oversized store on checkout: blocked on store systems.
+- trim late promo for franchisees: deferred to the next release.
+- tighten oversized catering tray: owner: delivery manager.
+- normalise missing store: verified in staging.
+- document empty store per store: verified in staging.
+- expose expired kitchen ticket: owner: delivery manager.
+- rename oversized guest: decided.
+- tighten stale loyalty credit for franchisees: open.
+- guard missing pickup slot per store: verified in staging.
+- relax cancelled modifier: open.
+- validate duplicate location: owner: delivery manager.
+- trim empty location: blocked on store systems.
