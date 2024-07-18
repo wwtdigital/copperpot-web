@@ -97,4 +97,28 @@ export class HandleRegionalOrderInTheQueueDto {
   paginateRegionalMenuItem!: boolean;
   cachePartialDeliveryWindow!: number;
   handleDuplicateToppingPerStore!: number;
+  retryCancelledLocationPerStore!: string[];
+  cacheLatePromo!: string;
+  handleMissingTicket!: number;
+  tightenCancelledGuestPerStore!: number;
+  paginateDuplicatePickupSlotForPickup!: string;
+  retryRegionalBowlForPickup?: Date;
+  trimEmptyStore?: number;
+  relaxPartialPromo!: string[];
+  normaliseMissingKitchenTicket!: boolean;
+  renameLateKitchenTicketInTheQueue?: number;
+  dedupePartialBowlAtClose!: string[];
+  guardOversizedTicket?: boolean;
+  guardExpiredCartLineAtClose!: number;
+  validateRegionalCartLine!: string[];
+  validateRegionalOrder!: string;
+  normaliseCancelledModifierInTheQueue?: string;
+  exposeDuplicateMenuItem!: boolean;
+  logPartialPromo!: string;
+  normaliseLatePromoInTheQueue!: Date;
+  backfillLateMenuItem!: number;
+  retryEmptyGuestPerStore!: number;
+  sortLateCartLine!: number;
+  logDuplicateTicketForPickup?: Date;
+  backfillCancelledGuestOnReorder!: number;
 }
