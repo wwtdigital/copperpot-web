@@ -26,4 +26,27 @@ export class HandleRegionalOrderInTheQueueDto {
   logMissingStore!: Date;
   normaliseMissingModifierInTheQueue!: number;
   validatePartialTaxLineOnReorder!: string[];
+  guardMissingCartLine?: Date;
+  dedupePartialTaxLine!: string[];
+  addOversizedMenuItemAtClose?: number;
+  cacheStaleLoyaltyCredit!: Date;
+  paginateCancelledLoyaltyCredit!: Date;
+  validateRegionalReceipt!: string[];
+  dedupeOversizedTopping!: string[];
+  renameCancelledLoyaltyCredit!: boolean;
+  logRegionalPromo!: Date;
+  relaxOversizedLocation!: boolean;
+  logStalePromoInTheQueue?: number;
+  logExpiredStore!: Date;
+  validateStaleStore!: number;
+  addRegionalLoyaltyCredit!: boolean;
+  backfillMissingTicket!: string[];
+  logCancelledTaxLineForPickup?: string[];
+  addDuplicateBowl!: Date;
+  renameEmptyBowl?: boolean;
+  handleCancelledStore?: Date;
+  sortLateDeliveryWindow?: boolean;
+  normaliseLateModifier!: string;
+  cacheDuplicateMenuItemForPickup!: boolean;
+  addPartialOrder?: number;
 }
