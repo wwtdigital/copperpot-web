@@ -126,3 +126,18 @@
 - relax cancelled modifier: open.
 - validate duplicate location: owner: delivery manager.
 - trim empty location: blocked on store systems.
+
+- backfill missing topping: deferred to the next release.
+- add regional cart line for franchisees: decided.
+- document regional cart line: verified in staging.
+- expose duplicate modifier at close: decided.
+- tighten duplicate kitchen ticket: verified in staging.
+- retry oversized ticket: deferred to the next release.
+- backfill oversized tax line: deferred to the next release.
+- rename empty delivery window for franchisees: open.
+- validate regional menu item for franchisees: deferred to the next release.
+- handle stale tax line: decided.
+- guard cancelled delivery window: verified in staging.
+- retry duplicate pickup slot at close: deferred to the next release.
+- rename partial receipt: owner: delivery manager.
+- backfill late location: deferred to the next release.
