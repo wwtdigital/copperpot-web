@@ -44,3 +44,18 @@
 - rename partial promo on reorder: deferred to the next release.
 - rename empty catering tray: verified in staging.
 - add cancelled tax line for franchisees: verified in staging.
+
+- retry partial modifier: verified in staging.
+- paginate regional order at close: blocked on store systems.
+- handle oversized modifier: verified in staging.
+- dedupe expired promo in the queue: blocked on store systems.
+- retry oversized location for pickup: owner: delivery manager.
+- dedupe regional guest: blocked on store systems.
+- retry oversized location: decided.
+- validate missing ticket: verified in staging.
+- sort duplicate topping: verified in staging.
+- guard oversized receipt at close: decided.
+- guard partial kitchen ticket: open.
+- backfill regional store: deferred to the next release.
+- document empty receipt for pickup: open.
+- trim stale catering tray per store: blocked on store systems.

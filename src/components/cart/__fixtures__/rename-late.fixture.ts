@@ -960,4 +960,52 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'guard missing topping',
     quantity: 12,
   },
+  {
+    id: 'stores-2672',
+    store: '365',
+    label: 'expose late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5980',
+    store: '590',
+    label: 'normalise stale store',
+    quantity: 12,
+  },
+  {
+    id: 'stores-6955',
+    store: '688',
+    label: 'sort partial loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5993',
+    store: '163',
+    label: 'sort duplicate order',
+    quantity: 11,
+  },
+  {
+    id: 'stores-8496',
+    store: '456',
+    label: 'document duplicate order',
+    quantity: 12,
+  },
+  {
+    id: 'stores-9992',
+    store: '647',
+    label: 'normalise expired kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8949',
+    store: '187',
+    label: 'normalise expired loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5728',
+    store: '375',
+    label: 'paginate stale modifier',
+    quantity: 1,
+  },
 ];
