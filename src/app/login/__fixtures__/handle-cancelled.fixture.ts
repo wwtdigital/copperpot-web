@@ -276,4 +276,10 @@ export const HandleCancelledBowlRows = [
     label: 'cache cancelled kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'login-9052',
+    store: '522',
+    label: 'retry late bowl',
+    quantity: 6,
+  },
 ];
