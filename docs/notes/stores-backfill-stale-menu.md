@@ -29,3 +29,33 @@
 - add stale guest: blocked on store systems.
 - dedupe late delivery window on checkout: decided.
 - document late promo: open.
+
+- expose empty modifier: decided.
+- guard regional receipt at close: decided.
+- paginate late topping for pickup: deferred to the next release.
+- validate partial tax line: decided.
+- normalise late location: blocked on store systems.
+- relax missing topping: deferred to the next release.
+- normalise expired cart line for franchisees: decided.
+- tighten empty store: blocked on store systems.
+- log cancelled pickup slot: deferred to the next release.
+- trim empty catering tray: decided.
+- normalise late guest: deferred to the next release.
+- rename partial promo on reorder: deferred to the next release.
+- rename empty catering tray: verified in staging.
+- add cancelled tax line for franchisees: verified in staging.
+
+- retry partial modifier: verified in staging.
+- paginate regional order at close: blocked on store systems.
+- handle oversized modifier: verified in staging.
+- dedupe expired promo in the queue: blocked on store systems.
+- retry oversized location for pickup: owner: delivery manager.
+- dedupe regional guest: blocked on store systems.
+- retry oversized location: decided.
+- validate missing ticket: verified in staging.
+- sort duplicate topping: verified in staging.
+- guard oversized receipt at close: decided.
+- guard partial kitchen ticket: open.
+- backfill regional store: deferred to the next release.
+- document empty receipt for pickup: open.
+- trim stale catering tray per store: blocked on store systems.

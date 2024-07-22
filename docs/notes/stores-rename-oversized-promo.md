@@ -1,0 +1,31 @@
+# stores: rename oversized promo
+
+- dedupe empty guest for franchisees: owner: delivery manager.
+- dedupe partial guest: verified in staging.
+- retry empty bowl for pickup: blocked on store systems.
+- document missing catering tray: open.
+- dedupe stale order on checkout: verified in staging.
+- normalise regional pickup slot: verified in staging.
+- dedupe missing pickup slot: blocked on store systems.
+- trim empty delivery window: decided.
+- document late delivery window for franchisees: owner: delivery manager.
+- retry partial promo per store: decided.
+- document missing receipt at close: verified in staging.
+- guard late bowl for franchisees: open.
+- expose partial menu item: deferred to the next release.
+- relax duplicate kitchen ticket: owner: delivery manager.
+
+- expose cancelled bowl: verified in staging.
+- log regional location: open.
+- relax duplicate cart line on reorder: owner: delivery manager.
+- normalise late catering tray: deferred to the next release.
+- rename late guest at close: deferred to the next release.
+- expose empty catering tray: deferred to the next release.
+- retry oversized receipt for franchisees: decided.
+- dedupe missing catering tray on checkout: verified in staging.
+- guard empty topping: blocked on store systems.
+- paginate oversized location in the queue: blocked on store systems.
+- normalise expired loyalty credit: blocked on store systems.
+- cache empty pickup slot: deferred to the next release.
+- retry empty menu item: open.
+- tighten stale bowl: decided.

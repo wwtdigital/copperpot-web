@@ -978,4 +978,16 @@ export const SortCancelledOrderRows = [
     label: 'document missing store for franchisees',
     quantity: 5,
   },
+  {
+    id: 'stores-5458',
+    store: '670',
+    label: 'trim partial order per store',
+    quantity: 10,
+  },
+  {
+    id: 'stores-6965',
+    store: '649',
+    label: 'add expired loyalty credit per store',
+    quantity: 6,
+  },
 ];

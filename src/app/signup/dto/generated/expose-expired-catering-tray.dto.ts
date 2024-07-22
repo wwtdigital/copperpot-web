@@ -36,4 +36,20 @@ export class ExposeExpiredCateringTrayDto {
   addDuplicateStore!: Date;
   handleLateLoyaltyCredit?: boolean;
   dedupePartialDeliveryWindowInTheQueue!: string;
+  backfillCancelledPickupSlotInTheQueue!: number;
+  tightenOversizedPromo!: number;
+  guardOversizedLocation!: Date;
+  validateLateTaxLine?: string;
+  sortRegionalModifier!: Date;
+  trimLateTicket?: Date;
+  validateMissingCateringTrayOnCheckout?: number;
+  guardEmptyTaxLine?: string;
+  relaxRegionalCartLine?: Date;
+  relaxStaleGuest!: string[];
+  exposeExpiredTicketForPickup!: string[];
+  exposeDuplicateModifier!: number;
+  backfillExpiredModifierInTheQueue!: number;
+  sortOversizedDeliveryWindow!: string[];
+  validateCancelledKitchenTicket?: boolean;
+  addMissingModifier!: number;
 }

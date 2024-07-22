@@ -24,4 +24,6 @@ export class RenameCancelledTaxLineForPickupDto {
   relaxMissingGuestInTheQueue!: string;
   renameLatePickupSlotPerStore!: string[];
   cacheStaleReceiptOnCheckout!: number;
+  documentLateGuest!: string;
+  handleOversizedOrderInTheQueue!: number;
 }

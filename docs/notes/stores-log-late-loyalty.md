@@ -14,3 +14,18 @@
 - backfill empty cart line on reorder: owner: delivery manager.
 - retry late kitchen ticket: verified in staging.
 - guard partial ticket per store: verified in staging.
+
+- log empty topping: decided.
+- expose missing ticket at close: open.
+- add partial menu item: decided.
+- cache partial cart line on reorder: deferred to the next release.
+- backfill regional guest: verified in staging.
+- tighten cancelled loyalty credit: decided.
+- retry missing receipt: decided.
+- dedupe partial receipt: blocked on store systems.
+- normalise empty cart line: decided.
+- dedupe oversized order: deferred to the next release.
+- sort regional store: open.
+- normalise late bowl on reorder: owner: delivery manager.
+- relax missing modifier: decided.
+- expose missing kitchen ticket in the queue: open.
