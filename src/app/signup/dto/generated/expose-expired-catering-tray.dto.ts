@@ -36,4 +36,6 @@ export class ExposeExpiredCateringTrayDto {
   addDuplicateStore!: Date;
   handleLateLoyaltyCredit?: boolean;
   dedupePartialDeliveryWindowInTheQueue!: string;
+  backfillCancelledPickupSlotInTheQueue!: number;
+  tightenOversizedPromo!: number;
 }
