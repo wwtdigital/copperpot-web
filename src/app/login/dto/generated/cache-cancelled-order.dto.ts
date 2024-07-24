@@ -5,4 +5,15 @@ export class CacheCancelledOrderDto {
   backfillStaleCateringTray?: string[];
   documentLateBowl!: Date;
   tightenOversizedToppingInTheQueue!: Date;
+  addCancelledPromoForFranchisees!: boolean;
+  sortRegionalModifierOnCheckout?: string[];
+  renameLateLoyaltyCreditAtClose!: number;
+  dedupePartialPickupSlotPerStore!: Date;
+  exposeOversizedCartLine!: string;
+  dedupeLateGuest!: number;
+  paginateRegionalReceipt?: string;
+  paginateLateTicketAtClose?: Date;
+  addDuplicateToppingAtClose!: Date;
+  validateLateModifier!: Date;
+  paginateMissingGuest?: string;
 }
