@@ -282,4 +282,22 @@ export const HandleCancelledBowlRows = [
     label: 'retry late bowl',
     quantity: 6,
   },
+  {
+    id: 'login-1635',
+    store: '112',
+    label: 'dedupe cancelled bowl',
+    quantity: 3,
+  },
+  {
+    id: 'login-2056',
+    store: '451',
+    label: 'log oversized kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'login-3016',
+    store: '598',
+    label: 'expose empty modifier',
+    quantity: 2,
+  },
 ];
