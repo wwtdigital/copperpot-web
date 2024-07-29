@@ -29,3 +29,5 @@
 - normalise late bowl on reorder: owner: delivery manager.
 - relax missing modifier: decided.
 - expose missing kitchen ticket in the queue: open.
+
+- add late delivery window on reorder: open.

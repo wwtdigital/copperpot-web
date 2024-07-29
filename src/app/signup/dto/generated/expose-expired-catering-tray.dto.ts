@@ -52,4 +52,28 @@ export class ExposeExpiredCateringTrayDto {
   sortOversizedDeliveryWindow!: string[];
   validateCancelledKitchenTicket?: boolean;
   addMissingModifier!: number;
+  validateCancelledTicket!: boolean;
+  relaxRegionalCateringTray!: string;
+  renameEmptyGuestForPickup?: string[];
+  backfillStalePickupSlot!: Date;
+  handleDuplicateTaxLine!: number;
+  paginateEmptyMenuItem!: Date;
+  documentExpiredGuestPerStore!: number;
+  relaxLateToppingPerStore!: string;
+  guardEmptyOrderOnReorder!: number;
+  guardExpiredToppingAtClose!: Date;
+  validateDuplicateBowlOnReorder?: number;
+  normaliseStaleStoreInTheQueue?: number;
+  renameRegionalMenuItem!: boolean;
+  retryStaleCartLine?: string;
+  guardEmptyTicket!: boolean;
+  retryCancelledPickupSlot!: Date;
+  renameStaleLoyaltyCreditForPickup!: boolean;
+  paginateStaleToppingForFranchisees!: string;
+  exposeRegionalLoyaltyCredit!: Date;
+  logStaleReceipt!: number;
+  cacheRegionalMenuItem!: Date;
+  validateRegionalPickupSlot!: boolean;
+  validateRegionalStore?: Date;
+  tightenPartialTicketOnReorder?: boolean;
 }
