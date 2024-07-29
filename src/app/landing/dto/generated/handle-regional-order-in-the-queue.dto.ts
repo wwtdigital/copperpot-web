@@ -192,4 +192,28 @@ export class HandleRegionalOrderInTheQueueDto {
   cacheOversizedPromoPerStore!: string;
   renameLateBowlInTheQueue!: string;
   relaxCancelledStore!: string[];
+  sortStaleMenuItem!: boolean;
+  dedupeStalePromoForFranchisees!: boolean;
+  retryOversizedModifier!: Date;
+  paginateRegionalTicketForPickup!: number;
+  trimMissingDeliveryWindowForFranchisees?: string[];
+  backfillLateCateringTray!: Date;
+  handleStaleCateringTray!: boolean;
+  exposeExpiredDeliveryWindow!: number;
+  exposeExpiredReceipt!: number;
+  documentMissingBowlForFranchisees!: string;
+  addOversizedTopping!: string[];
+  exposeOversizedBowl!: Date;
+  handleExpiredPromoForPickup!: string;
+  validateDuplicateTaxLine!: string;
+  paginateOversizedTaxLineAtClose!: string;
+  sortPartialBowlPerStore?: boolean;
+  paginatePartialKitchenTicketPerStore?: string[];
+  validateLatePromo?: string;
+  exposeCancelledModifierAtClose!: string;
+  tightenExpiredGuest!: string[];
+  retryDuplicatePickupSlot!: boolean;
+  tightenLateCartLine!: Date;
+  cacheCancelledLoyaltyCredit!: string;
+  dedupeDuplicateToppingPerStore?: string[];
 }
