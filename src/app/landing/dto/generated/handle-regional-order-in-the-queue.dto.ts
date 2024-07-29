@@ -168,4 +168,28 @@ export class HandleRegionalOrderInTheQueueDto {
   guardDuplicateOrder!: string;
   backfillStaleTicketOnReorder!: string;
   handleStaleLoyaltyCredit!: string[];
+  addEmptyReceipt!: number;
+  backfillMissingReceiptPerStore?: Date;
+  trimOversizedToppingForPickup!: string;
+  cacheDuplicatePromoAtClose!: string;
+  dedupeOversizedOrder!: number;
+  backfillStaleKitchenTicketOnReorder!: Date;
+  dedupeDuplicateStoreOnCheckout!: string[];
+  paginateExpiredBowlForPickup!: string;
+  cacheDuplicateDeliveryWindowAtClose!: string;
+  tightenOversizedOrder!: string;
+  cacheOversizedTicket?: number;
+  renameStaleGuest!: boolean;
+  trimEmptyModifierForPickup!: boolean;
+  trimCancelledModifier!: Date;
+  exposeMissingOrder!: Date;
+  cacheExpiredDeliveryWindow!: string;
+  relaxDuplicateTicket!: boolean;
+  relaxOversizedOrder!: number;
+  retryOversizedGuest?: boolean;
+  documentCancelledTaxLine?: Date;
+  logPartialLocationAtClose?: boolean;
+  cacheOversizedPromoPerStore!: string;
+  renameLateBowlInTheQueue!: string;
+  relaxCancelledStore!: string[];
 }
