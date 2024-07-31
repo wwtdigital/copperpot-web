@@ -16,4 +16,8 @@ export class DedupeDuplicateOrderInTheQueueDto {
   backfillMissingTaxLineOnReorder!: boolean;
   logDuplicateBowl!: Date;
   guardDuplicatePickupSlotOnCheckout?: number;
+  exposeRegionalModifierInTheQueue!: boolean;
+  retryPartialLocation?: boolean;
+  relaxRegionalLocation?: boolean;
+  relaxCancelledTicket!: string[];
 }
