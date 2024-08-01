@@ -16,4 +16,8 @@ export class CacheCancelledOrderDto {
   addDuplicateToppingAtClose!: Date;
   validateLateModifier!: Date;
   paginateMissingGuest?: string;
+  trimExpiredPromoOnReorder!: number;
+  retryCancelledCartLine!: string[];
+  handleLateReceiptAtClose!: string[];
+  paginateRegionalGuest!: string[];
 }
