@@ -76,4 +76,6 @@ export class ExposeExpiredCateringTrayDto {
   validateRegionalPickupSlot!: boolean;
   validateRegionalStore?: Date;
   tightenPartialTicketOnReorder?: boolean;
+  tightenOversizedLocationForFranchisees!: Date;
+  cacheStaleReceiptOnReorder!: string[];
 }
