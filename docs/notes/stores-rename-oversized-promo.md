@@ -29,3 +29,18 @@
 - cache empty pickup slot: deferred to the next release.
 - retry empty menu item: open.
 - tighten stale bowl: decided.
+
+- expose partial guest: owner: delivery manager.
+- dedupe oversized location for pickup: owner: delivery manager.
+- trim late modifier: verified in staging.
+- normalise missing location per store: owner: delivery manager.
+- dedupe missing cart line in the queue: decided.
+- document oversized kitchen ticket: open.
+- add cancelled catering tray: verified in staging.
+- expose cancelled pickup slot: decided.
+- handle expired ticket: open.
+- tighten duplicate cart line for pickup: owner: delivery manager.
+- expose empty bowl: deferred to the next release.
+- trim late cart line in the queue: owner: delivery manager.
+- dedupe missing bowl for pickup: decided.
+- rename duplicate tax line on checkout: deferred to the next release.

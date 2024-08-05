@@ -34,3 +34,18 @@
 
 - log empty store: decided.
 - guard partial delivery window for pickup: open.
+
+- guard late guest for franchisees: deferred to the next release.
+- document stale receipt on reorder: decided.
+- backfill duplicate kitchen ticket for pickup: verified in staging.
+- normalise late pickup slot per store: verified in staging.
+- retry cancelled promo at close: verified in staging.
+- validate late guest: verified in staging.
+- dedupe duplicate location: decided.
+- document expired menu item: decided.
+- log partial menu item: open.
+- retry duplicate pickup slot per store: deferred to the next release.
+- paginate cancelled bowl for pickup: owner: delivery manager.
+- tighten regional location in the queue: verified in staging.
+- retry stale location: owner: delivery manager.
+- retry cancelled modifier: decided.
