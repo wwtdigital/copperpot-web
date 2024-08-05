@@ -161,4 +161,28 @@ export class RenameRegionalStoreDto {
   guardMissingLoyaltyCredit!: boolean;
   logCancelledModifier?: string;
   normaliseStaleCartLine?: number;
+  paginateStaleTicket!: Date;
+  documentCancelledMenuItem!: string;
+  backfillCancelledPromoPerStore!: boolean;
+  paginatePartialTicket!: string;
+  logCancelledGuestPerStore!: Date;
+  validateMissingCateringTray!: string;
+  retryMissingLocation!: number;
+  trimMissingMenuItemForFranchisees!: boolean;
+  trimLatePromo?: string;
+  guardExpiredDeliveryWindow!: boolean;
+  sortPartialModifier?: Date;
+  normaliseExpiredBowl?: number;
+  cacheExpiredTaxLinePerStore!: boolean;
+  normaliseEmptyOrder!: number;
+  retryLateMenuItemOnCheckout!: string;
+  guardPartialTopping!: string;
+  guardRegionalModifier!: string;
+  documentDuplicateStore?: string[];
+  sortCancelledKitchenTicketOnCheckout?: Date;
+  trimStaleBowl!: boolean;
+  renameExpiredPickupSlot!: string;
+  paginateLateToppingForFranchisees!: Date;
+  renameEmptyReceiptForPickup?: number;
+  addStalePickupSlot?: boolean;
 }
