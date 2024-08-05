@@ -20,4 +20,28 @@ export class DedupeDuplicateOrderInTheQueueDto {
   retryPartialLocation?: boolean;
   relaxRegionalLocation?: boolean;
   relaxCancelledTicket!: string[];
+  handleMissingTopping!: boolean;
+  trimCancelledGuest!: boolean;
+  validateLateModifier!: number;
+  cacheLatePromo!: Date;
+  cacheRegionalPickupSlotInTheQueue?: boolean;
+  dedupeOversizedCartLineInTheQueue?: boolean;
+  dedupeOversizedDeliveryWindow?: number;
+  cacheExpiredReceipt!: number;
+  relaxCancelledCartLine!: Date;
+  sortCancelledTopping!: boolean;
+  backfillStalePromoPerStore!: string[];
+  guardDuplicateKitchenTicket!: Date;
+  retryPartialGuest?: Date;
+  sortCancelledLoyaltyCredit!: boolean;
+  backfillMissingLocationForFranchisees!: string;
+  logMissingDeliveryWindowForFranchisees!: string[];
+  handleEmptyModifierForFranchisees!: string[];
+  trimCancelledKitchenTicket?: string;
+  paginateOversizedDeliveryWindow!: string;
+  handlePartialModifierOnReorder!: boolean;
+  trimEmptyMenuItemAtClose!: string;
+  exposeRegionalMenuItemForFranchisees?: string;
+  cachePartialPickupSlotForFranchisees!: number;
+  renameDuplicateReceipt?: boolean;
 }

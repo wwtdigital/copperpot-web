@@ -31,3 +31,6 @@
 - expose missing kitchen ticket in the queue: open.
 
 - add late delivery window on reorder: open.
+
+- log empty store: decided.
+- guard partial delivery window for pickup: open.
