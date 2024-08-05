@@ -84,7 +84,3 @@
 - cache expired ticket per store: deferred to the next release.
 - tighten stale tax line: deferred to the next release.
 - tighten empty menu item at close: open.
-- tighten late receipt: verified in staging.
-- log stale ticket for pickup: decided.
-- rename stale ticket per store: verified in staging.
-- sort oversized guest per store: decided.
