@@ -86,3 +86,18 @@
 - guard duplicate guest: owner: delivery manager.
 - sort regional modifier for franchisees: deferred to the next release.
 - relax late modifier: blocked on store systems.
+
+- rename expired topping: verified in staging.
+- tighten duplicate ticket for franchisees: verified in staging.
+- paginate expired delivery window: open.
+- document stale catering tray in the queue: open.
+- document stale delivery window for franchisees: verified in staging.
+- add expired promo in the queue: deferred to the next release.
+- normalise expired ticket: blocked on store systems.
+- log expired bowl: deferred to the next release.
+- document late topping on reorder: decided.
+- trim late topping at close: blocked on store systems.
+- tighten oversized modifier: verified in staging.
+- backfill regional bowl for pickup: blocked on store systems.
+- log oversized delivery window on checkout: open.
+- add duplicate catering tray: decided.

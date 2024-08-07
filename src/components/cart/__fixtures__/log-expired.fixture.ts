@@ -402,4 +402,28 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'relax missing modifier in the queue',
     quantity: 4,
   },
+  {
+    id: 'kiosk-6266',
+    store: '372',
+    label: 'relax stale guest for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-7308',
+    store: '559',
+    label: 'cache stale promo for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-9748',
+    store: '578',
+    label: 'relax late modifier per store',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-4299',
+    store: '348',
+    label: 'backfill partial order',
+    quantity: 10,
+  },
 ];
