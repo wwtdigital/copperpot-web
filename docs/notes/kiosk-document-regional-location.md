@@ -101,3 +101,5 @@
 - backfill regional bowl for pickup: blocked on store systems.
 - log oversized delivery window on checkout: open.
 - add duplicate catering tray: decided.
+
+- document partial loyalty credit: verified in staging.
