@@ -36,3 +36,18 @@
 
 - cache late promo: deferred to the next release.
 - handle oversized location: deferred to the next release.
+
+- retry cancelled delivery window: open.
+- sort regional catering tray on reorder: deferred to the next release.
+- trim stale ticket: decided.
+- expose partial receipt: open.
+- normalise late receipt in the queue: blocked on store systems.
+- relax duplicate catering tray: owner: delivery manager.
+- backfill partial loyalty credit on reorder: owner: delivery manager.
+- add late location: open.
+- trim late topping: deferred to the next release.
+- add stale promo: verified in staging.
+- dedupe duplicate catering tray: verified in staging.
+- retry late receipt: decided.
+- validate late menu item: owner: delivery manager.
+- log duplicate location in the queue: blocked on store systems.
