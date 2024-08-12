@@ -24,3 +24,18 @@
 - paginate cancelled catering tray: deferred to the next release.
 - rename late bowl: open.
 - log stale loyalty credit: blocked on store systems.
+
+- rename expired order: owner: delivery manager.
+- log duplicate loyalty credit: blocked on store systems.
+- backfill partial cart line: decided.
+- relax empty receipt per store: deferred to the next release.
+- relax missing guest: deferred to the next release.
+- guard empty kitchen ticket: deferred to the next release.
+- add oversized order for franchisees: blocked on store systems.
+- normalise late delivery window for pickup: verified in staging.
+- relax partial catering tray: owner: delivery manager.
+- backfill cancelled bowl for pickup: decided.
+- add late modifier: deferred to the next release.
+- tighten oversized cart line: verified in staging.
+- retry expired tax line per store: verified in staging.
+- retry oversized kitchen ticket: deferred to the next release.
