@@ -408,4 +408,40 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'cache missing modifier',
     quantity: 2,
   },
+  {
+    id: 'layout-1820',
+    store: '325',
+    label: 'trim cancelled modifier per store',
+    quantity: 5,
+  },
+  {
+    id: 'layout-2189',
+    store: '677',
+    label: 'log expired loyalty credit in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'layout-3719',
+    store: '634',
+    label: 'paginate duplicate promo on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'layout-7709',
+    store: '366',
+    label: 'expose stale ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'layout-1538',
+    store: '594',
+    label: 'expose cancelled store',
+    quantity: 6,
+  },
+  {
+    id: 'layout-9529',
+    store: '576',
+    label: 'rename missing store on checkout',
+    quantity: 8,
+  },
 ];

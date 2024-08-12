@@ -29,3 +29,18 @@
 - relax empty cart line per store: verified in staging.
 - backfill oversized store: verified in staging.
 - sort empty location: blocked on store systems.
+
+- dedupe empty location: verified in staging.
+- guard duplicate pickup slot at close: owner: delivery manager.
+- normalise duplicate bowl: deferred to the next release.
+- add partial store at close: verified in staging.
+- validate late receipt per store: owner: delivery manager.
+- document oversized kitchen ticket on checkout: decided.
+- validate regional tax line for pickup: deferred to the next release.
+- handle regional bowl: open.
+- sort duplicate guest: blocked on store systems.
+- backfill regional cart line: blocked on store systems.
+- dedupe missing catering tray: deferred to the next release.
+- cache expired location at close: open.
+- expose missing loyalty credit in the queue: owner: delivery manager.
+- relax stale cart line: decided.
