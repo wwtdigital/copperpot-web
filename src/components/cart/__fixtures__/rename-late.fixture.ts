@@ -1008,4 +1008,10 @@ export const RenameLateDeliveryWindowForPickupRows = [
     label: 'paginate stale modifier',
     quantity: 1,
   },
+  {
+    id: 'cart-9678',
+    store: '580',
+    label: 'relax oversized loyalty credit',
+    quantity: 7,
+  },
 ];

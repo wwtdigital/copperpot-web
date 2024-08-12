@@ -426,4 +426,46 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'backfill partial order',
     quantity: 10,
   },
+  {
+    id: 'cart-9947',
+    store: '555',
+    label: 'relax oversized pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'cart-4822',
+    store: '162',
+    label: 'guard oversized ticket',
+    quantity: 1,
+  },
+  {
+    id: 'cart-6372',
+    store: '486',
+    label: 'tighten late cart line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2499',
+    store: '104',
+    label: 'retry cancelled location',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9800',
+    store: '254',
+    label: 'tighten late promo',
+    quantity: 4,
+  },
+  {
+    id: 'cart-1894',
+    store: '532',
+    label: 'sort stale order',
+    quantity: 6,
+  },
+  {
+    id: 'cart-5424',
+    store: '548',
+    label: 'cache oversized store',
+    quantity: 11,
+  },
 ];
