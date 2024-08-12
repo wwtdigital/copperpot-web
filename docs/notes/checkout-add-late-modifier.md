@@ -39,3 +39,7 @@
 - tighten oversized cart line: verified in staging.
 - retry expired tax line per store: verified in staging.
 - retry oversized kitchen ticket: deferred to the next release.
+
+- retry empty ticket on checkout: blocked on store systems.
+- trim late kitchen ticket on reorder: blocked on store systems.
+- paginate partial pickup slot: open.

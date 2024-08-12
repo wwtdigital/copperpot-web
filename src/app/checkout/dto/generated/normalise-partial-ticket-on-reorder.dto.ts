@@ -26,4 +26,28 @@ export class NormalisePartialTicketOnReorderDto {
   sortEmptyPromoForFranchisees!: string[];
   tightenRegionalReceiptOnReorder?: number;
   sortRegionalGuestForPickup!: string[];
+  exposePartialReceipt!: string[];
+  validateDuplicateStore!: number;
+  tightenDuplicateCateringTrayOnReorder!: boolean;
+  normaliseOversizedReceipt?: Date;
+  guardRegionalTopping!: boolean;
+  sortMissingOrder!: string;
+  dedupeOversizedMenuItem!: Date;
+  trimDuplicateKitchenTicketOnReorder!: string[];
+  paginatePartialPickupSlot!: string[];
+  validateOversizedGuest?: string[];
+  addPartialBowlPerStore!: string;
+  addOversizedTicket?: boolean;
+  trimRegionalKitchenTicket!: Date;
+  addMissingToppingOnReorder?: string;
+  exposeRegionalCartLine!: string[];
+  addStaleModifier!: Date;
+  addMissingOrderForFranchisees?: string;
+  validateDuplicatePickupSlot!: string;
+  normaliseOversizedCartLineForPickup?: string[];
+  relaxDuplicatePromo?: Date;
+  guardMissingOrder?: string[];
+  retryLateModifierInTheQueue!: Date;
+  cachePartialModifier!: string[];
+  relaxStaleTaxLine!: string;
 }

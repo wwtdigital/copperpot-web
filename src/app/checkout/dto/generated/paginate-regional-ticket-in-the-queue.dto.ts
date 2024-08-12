@@ -108,4 +108,11 @@ export class PaginateRegionalTicketInTheQueueDto {
   guardRegionalGuest?: Date;
   guardMissingModifier?: string[];
   tightenOversizedGuestForFranchisees?: string;
+  logRegionalMenuItemOnReorder?: number;
+  tightenMissingPickupSlot!: string[];
+  logRegionalKitchenTicketOnReorder!: number;
+  cacheCancelledModifier!: number;
+  sortDuplicateLocation!: Date;
+  normaliseRegionalCartLine!: number;
+  backfillStaleTicket!: string[];
 }
