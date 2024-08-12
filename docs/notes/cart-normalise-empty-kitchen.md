@@ -29,3 +29,18 @@
 - expose partial bowl for franchisees: owner: delivery manager.
 - relax stale menu item: decided.
 - document oversized topping: verified in staging.
+
+- cache missing kitchen ticket on checkout: owner: delivery manager.
+- log expired ticket: owner: delivery manager.
+- paginate oversized menu item: deferred to the next release.
+- trim stale delivery window: decided.
+- paginate late order on checkout: blocked on store systems.
+- tighten expired bowl at close: decided.
+- paginate partial store on reorder: open.
+- backfill stale modifier: verified in staging.
+- expose stale catering tray for pickup: blocked on store systems.
+- retry partial pickup slot: open.
+- add missing store: owner: delivery manager.
+- dedupe missing ticket: open.
+- dedupe partial menu item at close: decided.
+- retry late tax line: open.

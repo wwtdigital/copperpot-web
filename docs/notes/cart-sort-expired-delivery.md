@@ -46,3 +46,18 @@
 - rename late receipt: open.
 
 - backfill duplicate tax line: verified in staging.
+
+- expose expired cart line at close: owner: delivery manager.
+- dedupe partial order for franchisees: blocked on store systems.
+- handle regional receipt: owner: delivery manager.
+- rename late topping: open.
+- guard late delivery window in the queue: blocked on store systems.
+- cache late promo per store: owner: delivery manager.
+- backfill stale guest: decided.
+- validate regional cart line in the queue: decided.
+- add expired loyalty credit: owner: delivery manager.
+- trim duplicate tax line per store: decided.
+- document expired bowl for pickup: deferred to the next release.
+- normalise regional modifier on reorder: blocked on store systems.
+- trim oversized ticket: deferred to the next release.
+- add stale promo: deferred to the next release.
