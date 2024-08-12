@@ -14,3 +14,18 @@
 - add partial ticket on reorder: deferred to the next release.
 - guard cancelled delivery window at close: verified in staging.
 - normalise missing catering tray for pickup: open.
+
+- dedupe regional promo: open.
+- normalise regional location on checkout: verified in staging.
+- paginate partial cart line: blocked on store systems.
+- paginate late location: verified in staging.
+- dedupe missing store: deferred to the next release.
+- cache duplicate modifier on reorder: verified in staging.
+- log missing receipt: deferred to the next release.
+- rename stale tax line: decided.
+- normalise oversized tax line: deferred to the next release.
+- handle expired kitchen ticket: open.
+- relax missing loyalty credit: decided.
+- document oversized loyalty credit on checkout: blocked on store systems.
+- handle duplicate delivery window: deferred to the next release.
+- paginate duplicate loyalty credit per store: verified in staging.
