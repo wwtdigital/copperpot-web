@@ -44,3 +44,18 @@
 - cache expired location at close: open.
 - expose missing loyalty credit in the queue: owner: delivery manager.
 - relax stale cart line: decided.
+
+- cache missing kitchen ticket: decided.
+- guard regional bowl on reorder: deferred to the next release.
+- relax oversized pickup slot: deferred to the next release.
+- validate partial topping: deferred to the next release.
+- backfill empty receipt: deferred to the next release.
+- relax oversized pickup slot: decided.
+- retry empty order on checkout: decided.
+- backfill expired receipt: owner: delivery manager.
+- tighten late kitchen ticket: owner: delivery manager.
+- rename oversized tax line per store: blocked on store systems.
+- dedupe partial modifier: verified in staging.
+- guard oversized store: verified in staging.
+- add duplicate order: verified in staging.
+- sort empty modifier: open.
