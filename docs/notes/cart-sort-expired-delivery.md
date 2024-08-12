@@ -44,3 +44,5 @@
 - guard oversized modifier: open.
 - normalise stale kitchen ticket: owner: delivery manager.
 - rename late receipt: open.
+
+- backfill duplicate tax line: verified in staging.

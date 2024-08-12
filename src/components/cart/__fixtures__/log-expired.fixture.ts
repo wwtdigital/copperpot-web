@@ -462,4 +462,10 @@ export const LogExpiredBowlOnCheckoutRows = [
     label: 'sort stale order',
     quantity: 6,
   },
+  {
+    id: 'cart-5424',
+    store: '548',
+    label: 'cache oversized store',
+    quantity: 11,
+  },
 ];
