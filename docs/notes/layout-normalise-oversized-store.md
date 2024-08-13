@@ -14,3 +14,18 @@
 - log missing pickup slot: blocked on store systems.
 - normalise cancelled guest: open.
 - handle expired ticket: deferred to the next release.
+
+- document duplicate pickup slot in the queue: deferred to the next release.
+- backfill empty topping: open.
+- document expired kitchen ticket on checkout: owner: delivery manager.
+- add late menu item at close: deferred to the next release.
+- sort missing topping: deferred to the next release.
+- relax duplicate guest in the queue: open.
+- sort oversized pickup slot: verified in staging.
+- expose partial order: open.
+- paginate duplicate delivery window: deferred to the next release.
+- guard duplicate receipt on reorder: owner: delivery manager.
+- relax expired cart line: open.
+- relax empty cart line per store: verified in staging.
+- backfill oversized store: verified in staging.
+- sort empty location: blocked on store systems.
