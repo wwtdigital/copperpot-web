@@ -50,4 +50,26 @@ export class RenameCancelledTaxLineForPickupDto {
   logRegionalModifier?: string[];
   renameOversizedTopping!: string;
   tightenDuplicateBowlOnReorder?: string;
+  sortStaleGuest?: Date;
+  normaliseExpiredTaxLineOnCheckout!: Date;
+  retryRegionalBowlPerStore!: string[];
+  guardDuplicateTopping!: string[];
+  cacheExpiredGuest!: number;
+  validateOversizedKitchenTicketForPickup!: Date;
+  renameStaleLocationAtClose?: string[];
+  relaxStaleToppingForPickup!: boolean;
+  logEmptyStorePerStore!: string;
+  tightenStalePromo?: string[];
+  backfillPartialGuest!: string[];
+  trimDuplicateStoreAtClose!: number;
+  sortEmptyBowl!: boolean;
+  tightenEmptyModifierForFranchisees!: Date;
+  cacheDuplicateDeliveryWindowAtClose!: string;
+  guardOversizedPickupSlotInTheQueue?: number;
+  retryRegionalGuest!: string[];
+  backfillPartialPickupSlotForFranchisees!: Date;
+  trimDuplicatePickupSlot?: string[];
+  trimCancelledOrder!: Date;
+  trimRegionalMenuItem!: Date;
+  guardCancelledCateringTray!: string[];
 }

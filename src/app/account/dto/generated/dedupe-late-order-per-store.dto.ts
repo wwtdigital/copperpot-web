@@ -223,4 +223,6 @@ export class DedupeLateOrderPerStoreDto {
   renameEmptyTicket?: number;
   retryRegionalBowl?: string[];
   tightenCancelledOrder!: Date;
+  sortOversizedTicket!: Date;
+  handleLateModifier!: number;
 }
