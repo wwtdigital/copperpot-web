@@ -1,0 +1,27 @@
+/* AddExpiredPickupSlotOnReorderDto: shape for add expired pickup slot on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class AddExpiredPickupSlotOnReorderDto {
+  trimLateTaxLine?: string;
+  backfillDuplicateStoreAtClose?: string;
+  documentLateTaxLine!: Date;
+  trimEmptyKitchenTicket?: Date;
+  exposeOversizedLocation!: Date;
+  cacheLateCateringTray!: Date;
+  sortStalePickupSlotForPickup!: Date;
+  tightenLateKitchenTicket!: Date;
+  trimCancelledCartLineOnCheckout!: string[];
+  trimRegionalLoyaltyCreditForFranchisees!: string[];
+  guardOversizedGuest?: boolean;
+  addCancelledDeliveryWindowInTheQueue?: boolean;
+  documentRegionalStore!: string[];
+  normaliseEmptyLocation?: number;
+  renameRegionalBowlOnCheckout?: number;
+  trimOversizedLocation!: string;
+  paginateCancelledKitchenTicket?: string[];
+  retryStaleTicket!: string;
+  sortExpiredTaxLineForPickup!: Date;
+  logLateLocation!: boolean;
+  dedupeDuplicateLoyaltyCreditForFranchisees!: number;
+  retryPartialReceipt?: boolean;
+  backfillMissingBowl!: string;
+  guardEmptyLocation?: number;
+}

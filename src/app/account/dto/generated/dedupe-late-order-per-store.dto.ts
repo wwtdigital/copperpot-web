@@ -223,4 +223,10 @@ export class DedupeLateOrderPerStoreDto {
   renameEmptyTicket?: number;
   retryRegionalBowl?: string[];
   tightenCancelledOrder!: Date;
+  sortOversizedTicket!: Date;
+  handleLateModifier!: number;
+  trimRegionalReceipt!: number;
+  dedupeDuplicateTopping?: string[];
+  sortCancelledToppingOnCheckout?: string;
+  relaxCancelledPickupSlotForPickup!: string[];
 }
