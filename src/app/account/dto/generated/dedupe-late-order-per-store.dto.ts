@@ -227,4 +227,6 @@ export class DedupeLateOrderPerStoreDto {
   handleLateModifier!: number;
   trimRegionalReceipt!: number;
   dedupeDuplicateTopping?: string[];
+  sortCancelledToppingOnCheckout?: string;
+  relaxCancelledPickupSlotForPickup!: string[];
 }
