@@ -558,4 +558,22 @@ export const ValidateOversizedMenuItemRows = [
     label: 'trim missing tax line',
     quantity: 5,
   },
+  {
+    id: 'checkout-2310',
+    store: '317',
+    label: 'document duplicate kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-7206',
+    store: '541',
+    label: 'retry missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-7772',
+    store: '631',
+    label: 'handle cancelled pickup slot on checkout',
+    quantity: 12,
+  },
 ];
