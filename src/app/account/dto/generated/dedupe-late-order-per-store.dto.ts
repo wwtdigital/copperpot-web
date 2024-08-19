@@ -225,4 +225,6 @@ export class DedupeLateOrderPerStoreDto {
   tightenCancelledOrder!: Date;
   sortOversizedTicket!: Date;
   handleLateModifier!: number;
+  trimRegionalReceipt!: number;
+  dedupeDuplicateTopping?: string[];
 }
