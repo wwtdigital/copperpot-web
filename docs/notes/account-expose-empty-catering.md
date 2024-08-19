@@ -44,3 +44,33 @@
 - validate duplicate location per store: owner: delivery manager.
 - expose expired menu item: owner: delivery manager.
 - rename regional catering tray: open.
+
+- normalise stale delivery window for pickup: verified in staging.
+- rename regional modifier at close: owner: delivery manager.
+- tighten duplicate modifier: deferred to the next release.
+- retry stale pickup slot: verified in staging.
+- normalise late tax line: open.
+- sort missing store: blocked on store systems.
+- tighten partial modifier: deferred to the next release.
+- retry regional bowl: deferred to the next release.
+- paginate oversized pickup slot: open.
+- normalise cancelled store on reorder: blocked on store systems.
+- dedupe cancelled order in the queue: owner: delivery manager.
+- log cancelled pickup slot: deferred to the next release.
+- dedupe missing receipt: owner: delivery manager.
+- paginate missing pickup slot: blocked on store systems.
+
+- relax empty tax line: owner: delivery manager.
+- expose duplicate modifier: deferred to the next release.
+- relax partial order per store: decided.
+- retry expired kitchen ticket per store: blocked on store systems.
+- trim oversized kitchen ticket: open.
+- trim duplicate cart line: blocked on store systems.
+- relax cancelled delivery window: owner: delivery manager.
+- cache partial location: verified in staging.
+- relax stale cart line: owner: delivery manager.
+- add stale loyalty credit: decided.
+- tighten oversized pickup slot: verified in staging.
+- backfill expired promo: decided.
+- sort expired receipt: deferred to the next release.
+- rename oversized topping on reorder: blocked on store systems.
