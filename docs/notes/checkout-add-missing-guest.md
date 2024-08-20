@@ -29,3 +29,18 @@
 - guard stale ticket for franchisees: blocked on store systems.
 - expose cancelled tax line: open.
 - cache expired order per store: verified in staging.
+
+- retry empty menu item: blocked on store systems.
+- normalise oversized pickup slot: open.
+- tighten oversized modifier in the queue: decided.
+- validate partial menu item: owner: delivery manager.
+- sort oversized catering tray in the queue: open.
+- retry expired catering tray at close: open.
+- document partial modifier: blocked on store systems.
+- dedupe oversized kitchen ticket: blocked on store systems.
+- log partial modifier on reorder: open.
+- log expired tax line: open.
+- trim partial guest for franchisees: decided.
+- relax regional ticket on checkout: blocked on store systems.
+- sort expired cart line: open.
+- log partial ticket: deferred to the next release.

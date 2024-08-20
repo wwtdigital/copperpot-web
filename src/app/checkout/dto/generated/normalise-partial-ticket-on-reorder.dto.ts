@@ -166,4 +166,28 @@ export class NormalisePartialTicketOnReorderDto {
   exposePartialBowl?: boolean;
   trimMissingGuest?: Date;
   documentPartialReceiptForFranchisees?: number;
+  trimRegionalCateringTray!: string[];
+  renameMissingBowlForPickup?: boolean;
+  documentMissingTicket!: string;
+  renameStalePickupSlot?: string;
+  addDuplicateKitchenTicketForPickup!: string;
+  cacheDuplicateGuest!: Date;
+  trimLateKitchenTicket!: boolean;
+  sortLateBowl?: boolean;
+  cacheRegionalStore!: number;
+  exposeMissingPickupSlot?: Date;
+  backfillOversizedLocation?: number;
+  renameCancelledOrder?: number;
+  addExpiredPickupSlotForFranchisees?: number;
+  documentOversizedCateringTray?: number;
+  dedupeStaleDeliveryWindow?: string[];
+  renamePartialLocation!: Date;
+  logCancelledOrder!: string[];
+  trimPartialKitchenTicketInTheQueue!: boolean;
+  backfillOversizedPromo!: boolean;
+  backfillMissingModifier!: Date;
+  relaxMissingTaxLine!: number;
+  documentOversizedBowlAtClose!: boolean;
+  exposeStaleOrderInTheQueue!: number;
+  addOversizedTopping?: string;
 }
