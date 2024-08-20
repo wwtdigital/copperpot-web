@@ -115,4 +115,26 @@ export class PaginateRegionalTicketInTheQueueDto {
   sortDuplicateLocation!: Date;
   normaliseRegionalCartLine!: number;
   backfillStaleTicket!: string[];
+  logEmptyOrderInTheQueue!: number;
+  sortOversizedOrder!: number;
+  cacheLateStore!: boolean;
+  dedupeDuplicateStore!: Date;
+  retryEmptyDeliveryWindowPerStore!: boolean;
+  normaliseMissingReceipt?: Date;
+  cacheOversizedCateringTrayAtClose!: Date;
+  tightenMissingTaxLineAtClose!: Date;
+  trimCancelledTaxLineOnCheckout!: boolean;
+  handleLateTaxLineForPickup!: number;
+  relaxExpiredMenuItemOnCheckout!: Date;
+  exposeCancelledStoreAtClose!: string;
+  relaxMissingBowl!: string;
+  documentCancelledMenuItemPerStore!: boolean;
+  logExpiredCartLineInTheQueue?: string;
+  logMissingTopping!: number;
+  renameCancelledMenuItem!: Date;
+  addDuplicateGuest?: Date;
+  backfillLateGuest!: boolean;
+  dedupeExpiredTaxLine?: string;
+  dedupeStaleMenuItem!: number;
+  validateStalePromo!: string[];
 }

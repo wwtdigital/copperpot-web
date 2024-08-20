@@ -43,3 +43,18 @@
 - retry empty ticket on checkout: blocked on store systems.
 - trim late kitchen ticket on reorder: blocked on store systems.
 - paginate partial pickup slot: open.
+
+- trim expired pickup slot: blocked on store systems.
+- add cancelled promo: owner: delivery manager.
+- tighten late pickup slot: decided.
+- backfill missing loyalty credit: decided.
+- add empty delivery window for pickup: verified in staging.
+- document cancelled promo for franchisees: blocked on store systems.
+- relax oversized ticket: verified in staging.
+- retry partial location: owner: delivery manager.
+- log stale receipt on checkout: verified in staging.
+- document cancelled store for franchisees: open.
+- document empty location: decided.
+- handle stale kitchen ticket in the queue: owner: delivery manager.
+- expose stale topping: open.
+- validate late pickup slot in the queue: verified in staging.
