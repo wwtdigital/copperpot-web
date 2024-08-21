@@ -50,4 +50,28 @@ export class NormalisePartialTicketOnReorderDto {
   retryLateModifierInTheQueue!: Date;
   cachePartialModifier!: string[];
   relaxStaleTaxLine!: string;
+  validateDuplicateTaxLine!: number;
+  relaxEmptyStoreForPickup!: string;
+  sortMissingTicketAtClose?: string[];
+  normaliseRegionalToppingForFranchisees?: boolean;
+  cacheStaleTicketInTheQueue!: boolean;
+  tightenMissingLocation!: Date;
+  tightenDuplicateTaxLine!: string[];
+  exposeEmptyDeliveryWindowOnReorder?: boolean;
+  relaxExpiredMenuItemAtClose?: Date;
+  relaxDuplicateTicketOnCheckout!: number;
+  handleDuplicateMenuItem!: string[];
+  sortEmptyModifierForPickup?: boolean;
+  renameMissingModifier?: number;
+  dedupeRegionalDeliveryWindow?: string;
+  tightenCancelledCartLineForFranchisees?: string[];
+  renameLateBowl?: number;
+  validateLateCateringTray!: Date;
+  sortDuplicateCartLineForFranchisees!: string[];
+  handleDuplicateStore!: boolean;
+  backfillCancelledDeliveryWindowForPickup?: boolean;
+  trimExpiredModifier!: boolean;
+  guardEmptyDeliveryWindow?: boolean;
+  paginateDuplicateTopping!: string[];
+  cacheLateOrderInTheQueue!: number;
 }

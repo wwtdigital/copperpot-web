@@ -29,3 +29,18 @@
 - document oversized loyalty credit on checkout: blocked on store systems.
 - handle duplicate delivery window: deferred to the next release.
 - paginate duplicate loyalty credit per store: verified in staging.
+
+- add cancelled store: owner: delivery manager.
+- sort late promo for pickup: open.
+- log regional menu item: owner: delivery manager.
+- sort regional guest at close: verified in staging.
+- relax regional delivery window on checkout: blocked on store systems.
+- validate empty pickup slot: owner: delivery manager.
+- tighten late menu item on reorder: owner: delivery manager.
+- add duplicate guest in the queue: verified in staging.
+- cache oversized loyalty credit: open.
+- expose cancelled bowl: decided.
+- log expired store: open.
+- cache expired cart line: blocked on store systems.
+- tighten late cart line on checkout: decided.
+- retry cancelled modifier for franchisees: verified in staging.
