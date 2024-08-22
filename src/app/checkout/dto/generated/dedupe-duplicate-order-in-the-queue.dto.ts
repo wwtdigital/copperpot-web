@@ -151,4 +151,28 @@ export class DedupeDuplicateOrderInTheQueueDto {
   normaliseLateToppingForFranchisees!: boolean;
   backfillEmptyBowlOnReorder!: boolean;
   backfillCancelledPickupSlot!: number;
+  cachePartialModifier!: boolean;
+  backfillRegionalTopping?: string[];
+  validateEmptyTicketAtClose?: string;
+  exposeExpiredLoyaltyCredit!: number;
+  validateLateCartLineForFranchisees?: string[];
+  paginateEmptyLocationPerStore!: string[];
+  dedupeRegionalLoyaltyCreditForFranchisees!: Date;
+  backfillEmptyLoyaltyCredit?: number;
+  paginateExpiredTicket?: number;
+  dedupeLateCartLine?: string;
+  guardPartialMenuItem!: boolean;
+  logMissingMenuItemOnReorder?: boolean;
+  renameStaleOrder!: string;
+  handleCancelledBowlOnReorder?: string[];
+  backfillExpiredOrder!: string;
+  sortRegionalCateringTrayForPickup!: number;
+  renameDuplicatePromoForPickup!: string;
+  retryRegionalGuest!: string;
+  handleEmptyStoreOnCheckout?: number;
+  handleDuplicateCateringTray!: string[];
+  renameMissingReceiptForFranchisees!: string[];
+  addLateTicket!: boolean;
+  documentMissingPickupSlot!: string[];
+  relaxOversizedPickupSlot!: string;
 }

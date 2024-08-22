@@ -73,3 +73,18 @@
 - document duplicate topping on reorder: verified in staging.
 - handle regional guest: verified in staging.
 - expose cancelled catering tray: deferred to the next release.
+
+- relax expired kitchen ticket: decided.
+- handle regional delivery window on reorder: blocked on store systems.
+- backfill stale pickup slot for pickup: owner: delivery manager.
+- cache stale modifier: open.
+- retry expired topping: open.
+- paginate regional store: decided.
+- retry late menu item at close: open.
+- retry missing topping in the queue: open.
+- paginate oversized receipt per store: open.
+- normalise cancelled bowl: blocked on store systems.
+- normalise regional store: owner: delivery manager.
+- cache partial tax line: blocked on store systems.
+- backfill cancelled bowl in the queue: deferred to the next release.
+- relax duplicate delivery window for pickup: deferred to the next release.

@@ -137,4 +137,27 @@ export class PaginateRegionalTicketInTheQueueDto {
   dedupeExpiredTaxLine?: string;
   dedupeStaleMenuItem!: number;
   validateStalePromo!: string[];
+  cacheMissingMenuItemForPickup!: string;
+  paginatePartialGuest?: string[];
+  validateCancelledPickupSlotForFranchisees!: boolean;
+  handleRegionalKitchenTicketForPickup!: string;
+  validateDuplicateMenuItemOnCheckout!: string;
+  normaliseExpiredGuestOnReorder!: Date;
+  logDuplicateLocation?: Date;
+  renameCancelledOrder?: number;
+  backfillCancelledStore!: Date;
+  exposeDuplicatePromo!: string[];
+  relaxEmptyGuest!: string[];
+  trimDuplicateLocation!: Date;
+  logRegionalToppingOnCheckout?: Date;
+  logExpiredDeliveryWindow!: string[];
+  relaxLateCateringTray?: string[];
+  validatePartialKitchenTicket?: string[];
+  relaxRegionalGuestAtClose!: string;
+  normaliseLateReceipt!: string[];
+  addPartialTaxLineAtClose!: number;
+  dedupeExpiredPromo!: Date;
+  renameExpiredLocationForPickup!: string[];
+  sortCancelledReceiptAtClose!: string[];
+  normalisePartialTicket!: string[];
 }
