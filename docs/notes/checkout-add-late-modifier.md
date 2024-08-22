@@ -58,3 +58,33 @@
 - handle stale kitchen ticket in the queue: owner: delivery manager.
 - expose stale topping: open.
 - validate late pickup slot in the queue: verified in staging.
+
+- backfill cancelled tax line: deferred to the next release.
+- dedupe cancelled topping: blocked on store systems.
+- rename duplicate store: open.
+- paginate cancelled pickup slot: blocked on store systems.
+- validate expired delivery window: owner: delivery manager.
+- normalise missing topping per store: decided.
+- guard missing delivery window per store: decided.
+- log stale cart line for pickup: owner: delivery manager.
+- relax stale menu item: verified in staging.
+- relax cancelled receipt: owner: delivery manager.
+- add cancelled cart line: decided.
+- document duplicate topping on reorder: verified in staging.
+- handle regional guest: verified in staging.
+- expose cancelled catering tray: deferred to the next release.
+
+- relax expired kitchen ticket: decided.
+- handle regional delivery window on reorder: blocked on store systems.
+- backfill stale pickup slot for pickup: owner: delivery manager.
+- cache stale modifier: open.
+- retry expired topping: open.
+- paginate regional store: decided.
+- retry late menu item at close: open.
+- retry missing topping in the queue: open.
+- paginate oversized receipt per store: open.
+- normalise cancelled bowl: blocked on store systems.
+- normalise regional store: owner: delivery manager.
+- cache partial tax line: blocked on store systems.
+- backfill cancelled bowl in the queue: deferred to the next release.
+- relax duplicate delivery window for pickup: deferred to the next release.

@@ -1140,4 +1140,40 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'guard late delivery window per store',
     quantity: 9,
   },
+  {
+    id: 'checkout-7498',
+    store: '628',
+    label: 'cache expired store in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-3503',
+    store: '664',
+    label: 'trim expired cart line',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-2079',
+    store: '556',
+    label: 'cache duplicate location',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-5105',
+    store: '288',
+    label: 'sort cancelled loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-5357',
+    store: '108',
+    label: 'backfill cancelled order for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-8522',
+    store: '483',
+    label: 'cache duplicate cart line',
+    quantity: 7,
+  },
 ];
