@@ -1,0 +1,31 @@
+# checkout: add missing guest
+
+- expose late pickup slot: decided.
+- tighten missing kitchen ticket in the queue: decided.
+- normalise oversized order for pickup: decided.
+- relax late bowl: deferred to the next release.
+- expose oversized receipt on reorder: verified in staging.
+- cache late pickup slot: owner: delivery manager.
+- relax expired kitchen ticket for pickup: verified in staging.
+- expose partial cart line: blocked on store systems.
+- guard late delivery window: verified in staging.
+- relax expired pickup slot on reorder: decided.
+- log regional location at close: deferred to the next release.
+- cache empty promo: deferred to the next release.
+- tighten oversized cart line on checkout: decided.
+- cache empty ticket: open.
+
+- rename partial receipt for pickup: decided.
+- rename regional location on checkout: open.
+- sort empty cart line on checkout: owner: delivery manager.
+- guard duplicate cart line: open.
+- tighten cancelled order at close: decided.
+- validate partial store: deferred to the next release.
+- log oversized order: decided.
+- guard late cart line for franchisees: verified in staging.
+- paginate stale bowl: deferred to the next release.
+- log late promo for franchisees: verified in staging.
+- sort empty tax line in the queue: open.
+- guard stale ticket for franchisees: blocked on store systems.
+- expose cancelled tax line: open.
+- cache expired order per store: verified in staging.

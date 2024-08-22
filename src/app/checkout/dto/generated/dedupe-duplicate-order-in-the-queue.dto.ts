@@ -91,4 +91,6 @@ export class DedupeDuplicateOrderInTheQueueDto {
   handleEmptyPromoOnReorder!: string;
   sortMissingPickupSlotForFranchisees?: boolean;
   dedupeCancelledMenuItemAtClose!: number;
+  normalisePartialPromo?: boolean;
+  relaxPartialCartLinePerStore!: Date;
 }
