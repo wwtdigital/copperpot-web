@@ -444,4 +444,28 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'rename missing store on checkout',
     quantity: 8,
   },
+  {
+    id: 'layout-5639',
+    store: '389',
+    label: 'cache oversized topping',
+    quantity: 1,
+  },
+  {
+    id: 'layout-1468',
+    store: '247',
+    label: 'document expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'layout-7686',
+    store: '583',
+    label: 'dedupe expired bowl at close',
+    quantity: 3,
+  },
+  {
+    id: 'layout-6867',
+    store: '573',
+    label: 'retry stale store',
+    quantity: 11,
+  },
 ];
