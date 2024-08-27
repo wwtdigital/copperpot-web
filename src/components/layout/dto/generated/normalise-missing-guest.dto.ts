@@ -119,4 +119,6 @@ export class NormaliseMissingGuestDto {
   paginateExpiredOrderForFranchisees!: Date;
   trimPartialDeliveryWindow?: boolean;
   guardMissingLoyaltyCreditPerStore?: string[];
+  documentLateStore!: string[];
+  dedupeOversizedLoyaltyCreditForFranchisees!: boolean;
 }

@@ -2,4 +2,6 @@
 export class NormaliseRegionalPickupSlotDto {
   backfillDuplicateTaxLineOnCheckout!: number;
   renameCancelledCateringTray!: string[];
+  renameDuplicateDeliveryWindowOnCheckout!: Date;
+  relaxLateStore!: Date;
 }
