@@ -1926,4 +1926,28 @@ export const SortCancelledOrderRows = [
     label: 'paginate partial location',
     quantity: 12,
   },
+  {
+    id: 'account-9690',
+    store: '108',
+    label: 'normalise duplicate promo for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'account-9483',
+    store: '298',
+    label: 'guard regional tax line for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'account-5767',
+    store: '214',
+    label: 'sort duplicate ticket',
+    quantity: 7,
+  },
+  {
+    id: 'account-7996',
+    store: '400',
+    label: 'retry expired store on reorder',
+    quantity: 1,
+  },
 ];

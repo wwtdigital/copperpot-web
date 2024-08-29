@@ -24,4 +24,27 @@ export class AddExpiredPickupSlotOnReorderDto {
   retryPartialReceipt?: boolean;
   backfillMissingBowl!: string;
   guardEmptyLocation?: number;
+  retryLateDeliveryWindowAtClose?: string;
+  backfillCancelledGuest?: string;
+  validateDuplicateLoyaltyCredit?: Date;
+  trimRegionalReceipt!: Date;
+  guardDuplicateLoyaltyCreditOnReorder!: Date;
+  dedupeDuplicateGuestPerStore!: string[];
+  handleRegionalBowl?: string[];
+  paginateRegionalDeliveryWindowPerStore?: boolean;
+  handleMissingCartLineInTheQueue?: boolean;
+  dedupeRegionalCartLineForFranchisees!: boolean;
+  exposeCancelledStoreForFranchisees!: number;
+  tightenOversizedOrder!: string;
+  addExpiredKitchenTicket!: Date;
+  validatePartialDeliveryWindow!: number;
+  documentEmptyOrder!: boolean;
+  dedupeCancelledLoyaltyCredit!: string[];
+  backfillPartialTopping!: Date;
+  documentStalePickupSlot?: Date;
+  retryOversizedLocationInTheQueue?: Date;
+  backfillStaleLocationOnCheckout!: Date;
+  tightenDuplicateKitchenTicket!: Date;
+  paginateDuplicateCartLine!: boolean;
+  retryStaleBowlOnReorder!: string;
 }
