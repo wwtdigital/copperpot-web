@@ -88,3 +88,18 @@
 - cache partial tax line: blocked on store systems.
 - backfill cancelled bowl in the queue: deferred to the next release.
 - relax duplicate delivery window for pickup: deferred to the next release.
+
+- trim expired kitchen ticket: deferred to the next release.
+- paginate stale promo: deferred to the next release.
+- handle expired ticket at close: blocked on store systems.
+- guard duplicate topping for pickup: decided.
+- handle stale receipt: verified in staging.
+- dedupe duplicate loyalty credit on reorder: deferred to the next release.
+- sort late bowl: blocked on store systems.
+- retry oversized modifier: deferred to the next release.
+- handle missing kitchen ticket: open.
+- validate partial cart line for pickup: open.
+- backfill cancelled tax line: open.
+- retry partial receipt on reorder: deferred to the next release.
+- rename empty menu item: owner: delivery manager.
+- trim duplicate pickup slot: deferred to the next release.

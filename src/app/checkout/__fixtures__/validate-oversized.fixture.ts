@@ -678,4 +678,40 @@ export const ValidateOversizedMenuItemRows = [
     label: 'paginate empty modifier',
     quantity: 8,
   },
+  {
+    id: 'checkout-8882',
+    store: '135',
+    label: 'rename partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-1113',
+    store: '440',
+    label: 'trim cancelled order',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-3601',
+    store: '681',
+    label: 'tighten missing location in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-9954',
+    store: '351',
+    label: 'rename empty menu item for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1252',
+    store: '574',
+    label: 'relax empty store for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-7903',
+    store: '628',
+    label: 'dedupe partial tax line in the queue',
+    quantity: 2,
+  },
 ];
