@@ -103,3 +103,18 @@
 - retry partial receipt on reorder: deferred to the next release.
 - rename empty menu item: owner: delivery manager.
 - trim duplicate pickup slot: deferred to the next release.
+
+- sort oversized tax line: deferred to the next release.
+- cache stale location in the queue: decided.
+- dedupe stale location: blocked on store systems.
+- guard oversized loyalty credit: decided.
+- sort oversized loyalty credit: owner: delivery manager.
+- backfill partial promo: blocked on store systems.
+- trim partial catering tray: blocked on store systems.
+- guard regional location on checkout: blocked on store systems.
+- expose duplicate topping on reorder: verified in staging.
+- tighten stale order: decided.
+- retry empty topping in the queue: decided.
+- guard missing delivery window: open.
+- trim late modifier: open.
+- tighten oversized promo: open.

@@ -44,3 +44,18 @@
 - cache expired cart line: blocked on store systems.
 - tighten late cart line on checkout: decided.
 - retry cancelled modifier for franchisees: verified in staging.
+
+- trim missing guest: decided.
+- retry missing location: deferred to the next release.
+- backfill partial receipt for pickup: blocked on store systems.
+- tighten partial order: deferred to the next release.
+- backfill duplicate menu item for pickup: verified in staging.
+- trim empty order: owner: delivery manager.
+- tighten late loyalty credit: open.
+- handle missing bowl for pickup: owner: delivery manager.
+- dedupe missing catering tray: deferred to the next release.
+- handle duplicate promo at close: verified in staging.
+- expose stale ticket for franchisees: owner: delivery manager.
+- sort cancelled store: owner: delivery manager.
+- paginate oversized menu item per store: open.
+- document expired guest: owner: delivery manager.
