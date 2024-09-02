@@ -29,3 +29,18 @@
 - relax stale tax line: deferred to the next release.
 - validate partial receipt: blocked on store systems.
 - retry duplicate promo: verified in staging.
+
+- paginate regional topping: owner: delivery manager.
+- retry partial loyalty credit: decided.
+- paginate empty modifier: owner: delivery manager.
+- add stale menu item for pickup: owner: delivery manager.
+- log oversized tax line for pickup: owner: delivery manager.
+- handle partial pickup slot on checkout: blocked on store systems.
+- add missing receipt: blocked on store systems.
+- add late pickup slot per store: owner: delivery manager.
+- log duplicate promo: owner: delivery manager.
+- tighten stale receipt: verified in staging.
+- expose late cart line in the queue: open.
+- expose regional modifier at close: verified in staging.
+- dedupe duplicate cart line: owner: delivery manager.
+- handle regional loyalty credit: decided.

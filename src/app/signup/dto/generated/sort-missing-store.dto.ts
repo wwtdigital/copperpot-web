@@ -6,4 +6,28 @@ export class SortMissingStoreDto {
   handleOversizedGuest?: number;
   guardCancelledTicket!: string;
   renameOversizedPickupSlotPerStore!: boolean;
+  paginateLateBowl?: Date;
+  backfillExpiredGuestInTheQueue!: number;
+  relaxRegionalStore!: Date;
+  logCancelledLocation?: string;
+  documentPartialCateringTray?: string[];
+  handleRegionalModifierOnCheckout?: boolean;
+  tightenExpiredStorePerStore!: string[];
+  sortCancelledModifier!: number;
+  validateMissingTaxLineOnReorder!: boolean;
+  normaliseEmptyTaxLine!: string[];
+  guardPartialLoyaltyCreditPerStore!: boolean;
+  cacheMissingTaxLine?: string;
+  cacheEmptyTopping!: boolean;
+  backfillPartialTaxLine!: string;
+  renameEmptyBowl!: string[];
+  exposeRegionalGuestForFranchisees?: string[];
+  cacheOversizedKitchenTicketPerStore!: string[];
+  logMissingGuestOnReorder?: boolean;
+  addLateModifier?: Date;
+  tightenRegionalMenuItemPerStore!: string;
+  renamePartialReceipt!: number;
+  sortLateModifier?: string[];
+  documentPartialTopping!: Date;
+  trimDuplicateBowlOnCheckout!: string[];
 }

@@ -1,0 +1,123 @@
+/* Fixture rows for signup tests: guard missing loyalty credit on checkout. Generated data, not production data. */
+export const GuardMissingLoyaltyCreditOnCheckoutRows = [
+  {
+    id: 'signup-6704',
+    store: '187',
+    label: 'log late modifier in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'signup-2810',
+    store: '352',
+    label: 'retry duplicate promo',
+    quantity: 12,
+  },
+  {
+    id: 'signup-6957',
+    store: '548',
+    label: 'tighten expired catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'signup-3550',
+    store: '283',
+    label: 'backfill late pickup slot per store',
+    quantity: 3,
+  },
+  {
+    id: 'signup-8954',
+    store: '214',
+    label: 'normalise regional catering tray for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'signup-5477',
+    store: '492',
+    label: 'rename partial receipt',
+    quantity: 12,
+  },
+  {
+    id: 'signup-9558',
+    store: '168',
+    label: 'tighten late receipt in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'signup-8471',
+    store: '432',
+    label: 'trim cancelled topping',
+    quantity: 8,
+  },
+  {
+    id: 'signup-7900',
+    store: '254',
+    label: 'normalise duplicate delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'signup-1444',
+    store: '393',
+    label: 'sort stale order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'signup-8618',
+    store: '511',
+    label: 'validate duplicate promo on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'signup-3950',
+    store: '253',
+    label: 'validate cancelled bowl for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'signup-2202',
+    store: '269',
+    label: 'validate oversized loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'signup-3188',
+    store: '363',
+    label: 'log expired guest',
+    quantity: 3,
+  },
+  {
+    id: 'signup-3943',
+    store: '536',
+    label: 'handle missing guest',
+    quantity: 3,
+  },
+  {
+    id: 'signup-5494',
+    store: '180',
+    label: 'log late delivery window for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'signup-6938',
+    store: '197',
+    label: 'add late loyalty credit for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'signup-5558',
+    store: '511',
+    label: 'handle oversized ticket',
+    quantity: 6,
+  },
+  {
+    id: 'signup-8644',
+    store: '581',
+    label: 'retry empty pickup slot at close',
+    quantity: 5,
+  },
+  {
+    id: 'signup-5988',
+    store: '148',
+    label: 'dedupe stale catering tray',
+    quantity: 4,
+  },
+];
