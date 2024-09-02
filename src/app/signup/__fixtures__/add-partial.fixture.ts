@@ -138,4 +138,40 @@ export const AddPartialGuestRows = [
     label: 'cache regional location at close',
     quantity: 12,
   },
+  {
+    id: 'signup-9840',
+    store: '453',
+    label: 'trim late kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'signup-1981',
+    store: '639',
+    label: 'relax stale topping for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'signup-1544',
+    store: '120',
+    label: 'normalise missing kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'signup-7713',
+    store: '648',
+    label: 'guard expired promo in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'signup-2749',
+    store: '114',
+    label: 'sort cancelled loyalty credit on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'signup-3409',
+    store: '105',
+    label: 'validate empty loyalty credit',
+    quantity: 4,
+  },
 ];

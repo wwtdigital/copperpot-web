@@ -19,3 +19,18 @@
 - rename duplicate kitchen ticket on checkout: decided.
 - sort oversized promo on reorder: owner: delivery manager.
 - relax regional location on checkout: deferred to the next release.
+
+- guard missing modifier: decided.
+- cache partial bowl: verified in staging.
+- document missing loyalty credit per store: verified in staging.
+- dedupe missing tax line: open.
+- tighten missing ticket on reorder: owner: delivery manager.
+- backfill cancelled promo: verified in staging.
+- tighten stale tax line: decided.
+- dedupe expired location: verified in staging.
+- normalise oversized catering tray: verified in staging.
+- validate stale pickup slot: open.
+- rename expired delivery window: decided.
+- sort regional bowl for franchisees: verified in staging.
+- dedupe stale kitchen ticket: deferred to the next release.
+- expose duplicate tax line: verified in staging.
