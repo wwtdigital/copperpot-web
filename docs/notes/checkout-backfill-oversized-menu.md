@@ -59,3 +59,33 @@
 - sort cancelled store: owner: delivery manager.
 - paginate oversized menu item per store: open.
 - document expired guest: owner: delivery manager.
+
+- trim partial receipt: open.
+- tighten cancelled guest: blocked on store systems.
+- paginate partial tax line: blocked on store systems.
+- sort empty delivery window at close: deferred to the next release.
+- relax missing promo: owner: delivery manager.
+- add cancelled location at close: blocked on store systems.
+- guard empty tax line: verified in staging.
+- normalise duplicate order in the queue: open.
+- log oversized pickup slot: decided.
+- retry expired location: deferred to the next release.
+- rename oversized receipt for pickup: verified in staging.
+- tighten oversized store: verified in staging.
+- expose cancelled kitchen ticket: owner: delivery manager.
+- relax missing cart line: decided.
+
+- paginate duplicate cart line in the queue: owner: delivery manager.
+- expose oversized store: decided.
+- log expired kitchen ticket: owner: delivery manager.
+- cache expired tax line in the queue: verified in staging.
+- guard oversized promo: verified in staging.
+- dedupe stale loyalty credit for pickup: open.
+- retry partial menu item at close: deferred to the next release.
+- relax cancelled promo: deferred to the next release.
+- validate cancelled location: deferred to the next release.
+- guard oversized store: open.
+- log missing ticket: open.
+- paginate late receipt: decided.
+- handle stale bowl: decided.
+- relax stale bowl: open.

@@ -1176,4 +1176,10 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'cache duplicate cart line',
     quantity: 7,
   },
+  {
+    id: 'checkout-1644',
+    store: '631',
+    label: 'sort regional loyalty credit',
+    quantity: 10,
+  },
 ];
