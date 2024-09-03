@@ -714,4 +714,22 @@ export const ValidateOversizedMenuItemRows = [
     label: 'dedupe partial tax line in the queue',
     quantity: 2,
   },
+  {
+    id: 'checkout-4567',
+    store: '263',
+    label: 'trim expired guest',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1732',
+    store: '592',
+    label: 'sort regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-4982',
+    store: '500',
+    label: 'tighten oversized loyalty credit',
+    quantity: 10,
+  },
 ];
