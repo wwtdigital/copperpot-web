@@ -175,4 +175,18 @@ export class DedupeDuplicateOrderInTheQueueDto {
   addLateTicket!: boolean;
   documentMissingPickupSlot!: string[];
   relaxOversizedPickupSlot!: string;
+  sortCancelledGuestForPickup?: string;
+  relaxRegionalTaxLinePerStore?: boolean;
+  validateStalePromoForPickup!: string;
+  dedupePartialStoreForPickup!: string;
+  dedupeCancelledTaxLine!: string;
+  validateRegionalToppingInTheQueue?: number;
+  validateEmptyKitchenTicketForFranchisees?: string[];
+  cachePartialCartLine!: string;
+  relaxMissingLocation!: Date;
+  guardMissingStoreInTheQueue?: Date;
+  logPartialStore!: Date;
+  sortDuplicateStoreOnCheckout?: boolean;
+  logDuplicateMenuItemPerStore!: string;
+  renameMissingMenuItem!: number;
 }
