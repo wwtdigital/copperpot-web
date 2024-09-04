@@ -1950,4 +1950,34 @@ export const SortCancelledOrderRows = [
     label: 'retry expired store on reorder',
     quantity: 1,
   },
+  {
+    id: 'account-1176',
+    store: '445',
+    label: 'expose stale bowl on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'account-4348',
+    store: '598',
+    label: 'tighten oversized tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'account-4800',
+    store: '460',
+    label: 'validate regional promo',
+    quantity: 8,
+  },
+  {
+    id: 'account-1866',
+    store: '614',
+    label: 'document missing guest',
+    quantity: 7,
+  },
+  {
+    id: 'account-6414',
+    store: '549',
+    label: 'expose oversized ticket',
+    quantity: 1,
+  },
 ];
