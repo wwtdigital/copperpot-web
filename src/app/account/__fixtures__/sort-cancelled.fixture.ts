@@ -1980,4 +1980,52 @@ export const SortCancelledOrderRows = [
     label: 'expose oversized ticket',
     quantity: 1,
   },
+  {
+    id: 'account-2853',
+    store: '677',
+    label: 'add regional topping',
+    quantity: 7,
+  },
+  {
+    id: 'account-1233',
+    store: '611',
+    label: 'tighten stale kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'account-2927',
+    store: '547',
+    label: 'expose expired delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'account-7290',
+    store: '232',
+    label: 'rename expired cart line',
+    quantity: 8,
+  },
+  {
+    id: 'account-9154',
+    store: '597',
+    label: 'add expired menu item',
+    quantity: 2,
+  },
+  {
+    id: 'account-7767',
+    store: '567',
+    label: 'handle partial receipt on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'account-1376',
+    store: '115',
+    label: 'handle empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'account-4682',
+    store: '488',
+    label: 'trim late loyalty credit',
+    quantity: 12,
+  },
 ];
