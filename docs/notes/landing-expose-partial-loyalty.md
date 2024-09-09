@@ -80,3 +80,33 @@
 - paginate duplicate order for franchisees: owner: delivery manager.
 - handle duplicate store: verified in staging.
 - cache missing store: deferred to the next release.
+
+- guard regional tax line: blocked on store systems.
+- log missing order for pickup: deferred to the next release.
+- document partial modifier: blocked on store systems.
+- guard missing location: deferred to the next release.
+- add empty pickup slot at close: open.
+- dedupe empty modifier: open.
+- expose empty tax line: verified in staging.
+- log late promo at close: verified in staging.
+- dedupe missing order on checkout: open.
+- document oversized bowl: deferred to the next release.
+- handle oversized pickup slot: decided.
+- add oversized loyalty credit: owner: delivery manager.
+- expose oversized loyalty credit: blocked on store systems.
+- log stale order per store: owner: delivery manager.
+
+- log duplicate ticket: owner: delivery manager.
+- add empty ticket: open.
+- validate partial cart line: owner: delivery manager.
+- trim empty location: blocked on store systems.
+- relax late delivery window: decided.
+- trim regional tax line: blocked on store systems.
+- validate oversized topping: verified in staging.
+- sort stale cart line on checkout: decided.
+- guard partial kitchen ticket: blocked on store systems.
+- log expired pickup slot: deferred to the next release.
+- expose oversized ticket per store: blocked on store systems.
+- add cancelled bowl: blocked on store systems.
+- dedupe expired guest: decided.
+- dedupe regional order in the queue: blocked on store systems.
