@@ -402,4 +402,58 @@ export const PaginateEmptyKitchenTicketRows = [
     label: 'tighten regional ticket',
     quantity: 6,
   },
+  {
+    id: 'menu-8218',
+    store: '321',
+    label: 'relax partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-6122',
+    store: '166',
+    label: 'paginate expired bowl',
+    quantity: 6,
+  },
+  {
+    id: 'menu-5041',
+    store: '542',
+    label: 'handle stale topping at close',
+    quantity: 5,
+  },
+  {
+    id: 'menu-1374',
+    store: '312',
+    label: 'dedupe regional topping for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8264',
+    store: '182',
+    label: 'paginate cancelled location in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2439',
+    store: '227',
+    label: 'paginate oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7844',
+    store: '619',
+    label: 'relax oversized cart line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1730',
+    store: '565',
+    label: 'validate cancelled guest',
+    quantity: 12,
+  },
+  {
+    id: 'menu-1553',
+    store: '622',
+    label: 'retry missing location for pickup',
+    quantity: 10,
+  },
 ];

@@ -1680,4 +1680,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'log empty guest for pickup',
     quantity: 10,
   },
+  {
+    id: 'menu-3982',
+    store: '272',
+    label: 'sort regional ticket',
+    quantity: 4,
+  },
 ];
