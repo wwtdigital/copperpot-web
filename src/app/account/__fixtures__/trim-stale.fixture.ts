@@ -1,0 +1,117 @@
+/* Fixture rows for account tests: trim stale ticket at close. Generated data, not production data. */
+export const TrimStaleTicketAtCloseRows = [
+  {
+    id: 'account-6579',
+    store: '208',
+    label: 'guard missing location',
+    quantity: 8,
+  },
+  {
+    id: 'account-8455',
+    store: '323',
+    label: 'log late guest',
+    quantity: 9,
+  },
+  {
+    id: 'account-3321',
+    store: '336',
+    label: 'add duplicate location',
+    quantity: 1,
+  },
+  {
+    id: 'account-2502',
+    store: '374',
+    label: 'retry regional pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'account-3674',
+    store: '435',
+    label: 'relax stale location',
+    quantity: 8,
+  },
+  {
+    id: 'account-8412',
+    store: '195',
+    label: 'add stale location',
+    quantity: 12,
+  },
+  {
+    id: 'account-3750',
+    store: '184',
+    label: 'guard oversized receipt at close',
+    quantity: 8,
+  },
+  {
+    id: 'account-9822',
+    store: '649',
+    label: 'normalise cancelled pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'account-3376',
+    store: '506',
+    label: 'trim missing kitchen ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'account-5374',
+    store: '211',
+    label: 'backfill late menu item',
+    quantity: 6,
+  },
+  {
+    id: 'account-5171',
+    store: '453',
+    label: 'expose duplicate order per store',
+    quantity: 5,
+  },
+  {
+    id: 'account-4315',
+    store: '403',
+    label: 'paginate partial topping',
+    quantity: 12,
+  },
+  {
+    id: 'account-5125',
+    store: '281',
+    label: 'cache partial loyalty credit on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'account-6220',
+    store: '171',
+    label: 'validate partial bowl for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-2310',
+    store: '389',
+    label: 'rename regional ticket',
+    quantity: 11,
+  },
+  {
+    id: 'account-8688',
+    store: '175',
+    label: 'document oversized topping per store',
+    quantity: 7,
+  },
+  {
+    id: 'account-3863',
+    store: '437',
+    label: 'retry oversized cart line',
+    quantity: 2,
+  },
+  {
+    id: 'account-6291',
+    store: '565',
+    label: 'log empty tax line at close',
+    quantity: 3,
+  },
+  {
+    id: 'account-9910',
+    store: '670',
+    label: 'rename missing pickup slot in the queue',
+    quantity: 7,
+  },
+];
