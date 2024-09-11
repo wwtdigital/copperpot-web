@@ -160,4 +160,28 @@ export class PaginateRegionalTicketInTheQueueDto {
   renameExpiredLocationForPickup!: string[];
   sortCancelledReceiptAtClose!: string[];
   normalisePartialTicket!: string[];
+  dedupeRegionalTicketOnCheckout?: Date;
+  logOversizedPickupSlot!: Date;
+  handleEmptyTaxLine?: Date;
+  retryStaleCateringTray!: string[];
+  normaliseExpiredGuestForPickup?: number;
+  trimRegionalMenuItem!: string;
+  relaxLatePromo!: string;
+  logStaleCateringTray!: Date;
+  sortOversizedReceipt?: string;
+  guardMissingMenuItem?: Date;
+  retryDuplicateTopping!: boolean;
+  dedupeExpiredDeliveryWindowOnCheckout?: string;
+  addDuplicateMenuItem!: string;
+  documentOversizedTaxLinePerStore?: Date;
+  guardDuplicateGuestForPickup?: string;
+  trimCancelledTaxLine!: string;
+  addStaleOrderInTheQueue!: Date;
+  relaxMissingLocation!: string[];
+  normaliseStaleCateringTrayOnReorder?: number;
+  documentDuplicateKitchenTicket?: string;
+  addPartialPromo!: Date;
+  retryOversizedLocationPerStore?: number;
+  renameMissingTaxLineOnReorder!: number;
+  backfillCancelledPickupSlotInTheQueue!: number;
 }
