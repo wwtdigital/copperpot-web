@@ -26,4 +26,27 @@ export class SortExpiredPickupSlotDto {
   normaliseExpiredStore!: string[];
   cacheDuplicateLoyaltyCreditForPickup!: string;
   tightenStaleTopping!: string;
+  normaliseMissingMenuItem!: number;
+  renameExpiredCateringTrayOnCheckout!: number;
+  backfillPartialPickupSlot?: string[];
+  sortRegionalOrder!: number;
+  renameDuplicateBowl?: string;
+  exposeOversizedDeliveryWindowOnReorder!: string;
+  documentCancelledTaxLine!: string;
+  guardRegionalPickupSlotForFranchisees!: Date;
+  exposeDuplicateKitchenTicketForPickup?: boolean;
+  logPartialOrder!: Date;
+  relaxLateMenuItemInTheQueue!: string;
+  normaliseCancelledDeliveryWindow!: Date;
+  sortStalePromo!: string[];
+  validateLateBowl!: boolean;
+  trimLateBowl!: number;
+  renameExpiredModifier!: boolean;
+  validateDuplicateCartLineInTheQueue!: string[];
+  relaxDuplicateMenuItem?: Date;
+  exposeMissingLocation!: number;
+  guardStaleGuest!: string[];
+  dedupeCancelledTicket!: Date;
+  retryLateTaxLine!: boolean;
+  relaxPartialGuest!: string;
 }

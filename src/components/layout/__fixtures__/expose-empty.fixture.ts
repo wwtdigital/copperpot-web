@@ -24,4 +24,10 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'log empty store',
     quantity: 3,
   },
+  {
+    id: 'kiosk-2216',
+    store: '627',
+    label: 'rename missing menu item for franchisees',
+    quantity: 5,
+  },
 ];
