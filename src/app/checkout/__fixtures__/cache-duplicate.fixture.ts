@@ -1182,4 +1182,34 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'sort regional loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'checkout-2677',
+    store: '285',
+    label: 'document duplicate pickup slot on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-9958',
+    store: '644',
+    label: 'guard oversized delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-4330',
+    store: '221',
+    label: 'normalise oversized kitchen ticket for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-8062',
+    store: '628',
+    label: 'normalise partial pickup slot in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-4379',
+    store: '304',
+    label: 'rename empty guest for franchisees',
+    quantity: 7,
+  },
 ];
