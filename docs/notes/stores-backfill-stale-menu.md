@@ -59,3 +59,18 @@
 - backfill regional store: deferred to the next release.
 - document empty receipt for pickup: open.
 - trim stale catering tray per store: blocked on store systems.
+
+- retry cancelled store on reorder: open.
+- trim oversized delivery window in the queue: verified in staging.
+- cache duplicate pickup slot per store: decided.
+- retry cancelled receipt: decided.
+- document stale pickup slot: owner: delivery manager.
+- guard oversized kitchen ticket on reorder: decided.
+- trim missing guest: decided.
+- normalise empty pickup slot for pickup: owner: delivery manager.
+- handle empty delivery window: blocked on store systems.
+- guard partial receipt: deferred to the next release.
+- sort stale menu item: owner: delivery manager.
+- rename cancelled modifier: blocked on store systems.
+- paginate empty catering tray: deferred to the next release.
+- add cancelled bowl on reorder: open.

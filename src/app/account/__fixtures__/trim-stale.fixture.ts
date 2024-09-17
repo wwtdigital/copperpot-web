@@ -114,4 +114,52 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'rename missing pickup slot in the queue',
     quantity: 7,
   },
+  {
+    id: 'stores-1651',
+    store: '298',
+    label: 'trim partial modifier',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4544',
+    store: '256',
+    label: 'handle duplicate promo',
+    quantity: 9,
+  },
+  {
+    id: 'stores-9647',
+    store: '261',
+    label: 'relax partial delivery window on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'stores-5410',
+    store: '165',
+    label: 'dedupe oversized kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'stores-1430',
+    store: '642',
+    label: 'guard cancelled order',
+    quantity: 4,
+  },
+  {
+    id: 'stores-8117',
+    store: '419',
+    label: 'dedupe stale kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'stores-1110',
+    store: '301',
+    label: 'tighten duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'stores-6053',
+    store: '450',
+    label: 'log late bowl',
+    quantity: 11,
+  },
 ];
