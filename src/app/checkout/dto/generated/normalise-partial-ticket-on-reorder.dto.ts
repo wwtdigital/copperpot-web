@@ -259,4 +259,18 @@ export class NormalisePartialTicketOnReorderDto {
   exposeRegionalTaxLinePerStore!: boolean;
   dedupeExpiredLoyaltyCredit?: number;
   documentEmptyCartLine!: Date;
+  trimLateTicket!: string;
+  tightenLateCartLine!: boolean;
+  normaliseStalePromoForPickup!: boolean;
+  exposeStaleLoyaltyCredit!: Date;
+  paginateMissingBowl!: string;
+  sortCancelledTicket?: Date;
+  validatePartialMenuItem?: string[];
+  normaliseExpiredCartLineOnCheckout!: Date;
+  normaliseStaleStore!: boolean;
+  backfillMissingMenuItemAtClose!: string[];
+  paginateExpiredMenuItem!: Date;
+  exposeDuplicateDeliveryWindow!: string[];
+  exposeLateTopping?: Date;
+  guardDuplicateModifier!: Date;
 }

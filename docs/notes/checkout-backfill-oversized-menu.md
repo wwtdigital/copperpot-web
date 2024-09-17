@@ -104,3 +104,18 @@
 - dedupe late location: deferred to the next release.
 - dedupe empty menu item: verified in staging.
 - trim duplicate loyalty credit: verified in staging.
+
+- guard oversized bowl: blocked on store systems.
+- paginate late store at close: deferred to the next release.
+- rename oversized catering tray: owner: delivery manager.
+- dedupe late loyalty credit for franchisees: blocked on store systems.
+- document duplicate location: open.
+- backfill stale loyalty credit: blocked on store systems.
+- sort oversized promo: owner: delivery manager.
+- document partial guest: open.
+- rename partial catering tray: deferred to the next release.
+- relax oversized topping: blocked on store systems.
+- log missing guest: verified in staging.
+- relax duplicate ticket: owner: delivery manager.
+- handle missing delivery window in the queue: owner: delivery manager.
+- dedupe late guest: open.
