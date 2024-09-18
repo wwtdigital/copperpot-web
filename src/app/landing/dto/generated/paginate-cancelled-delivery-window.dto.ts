@@ -24,4 +24,28 @@ export class PaginateCancelledDeliveryWindowDto {
   documentCancelledCateringTray?: string;
   cacheMissingModifier!: string[];
   validateExpiredLoyaltyCreditInTheQueue!: boolean;
+  cacheExpiredStore?: boolean;
+  exposeDuplicateCartLineForPickup!: string;
+  paginateStaleTopping!: string[];
+  trimPartialOrder!: string;
+  retryCancelledGuestAtClose!: number;
+  renameMissingBowlAtClose!: string[];
+  trimDuplicatePickupSlotPerStore!: Date;
+  backfillDuplicateKitchenTicket!: string[];
+  logDuplicatePromo!: string;
+  guardMissingModifier!: number;
+  addEmptyGuest!: Date;
+  paginateExpiredTaxLinePerStore!: string[];
+  normaliseMissingPickupSlot!: string;
+  exposePartialGuestForPickup!: Date;
+  trimEmptyTaxLine!: string;
+  trimExpiredPromo!: number;
+  paginateCancelledPickupSlot?: boolean;
+  normaliseRegionalCartLine!: number;
+  cacheOversizedLocation!: Date;
+  addDuplicateGuest?: string;
+  cacheExpiredTopping!: number;
+  backfillPartialGuestForFranchisees!: Date;
+  documentCancelledMenuItemPerStore!: boolean;
+  validateEmptyBowlOnReorder!: Date;
 }

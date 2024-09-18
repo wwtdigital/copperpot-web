@@ -74,3 +74,18 @@
 - rename cancelled modifier: blocked on store systems.
 - paginate empty catering tray: deferred to the next release.
 - add cancelled bowl on reorder: open.
+
+- add partial store in the queue: decided.
+- sort oversized cart line: decided.
+- cache regional loyalty credit on checkout: owner: delivery manager.
+- sort empty ticket for franchisees: open.
+- tighten oversized pickup slot: owner: delivery manager.
+- expose duplicate loyalty credit: open.
+- sort oversized receipt: owner: delivery manager.
+- validate cancelled topping for franchisees: deferred to the next release.
+- tighten cancelled cart line: blocked on store systems.
+- handle cancelled loyalty credit: verified in staging.
+- log stale topping: verified in staging.
+- tighten late menu item: decided.
+- validate regional guest: open.
+- validate oversized pickup slot: verified in staging.
