@@ -1806,4 +1806,28 @@ export const BackfillEmptyTaxLineRows = [
     label: 'tighten stale store',
     quantity: 1,
   },
+  {
+    id: 'menu-2661',
+    store: '407',
+    label: 'expose cancelled store for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'menu-2865',
+    store: '383',
+    label: 'normalise late topping',
+    quantity: 9,
+  },
+  {
+    id: 'menu-8079',
+    store: '475',
+    label: 'add expired location for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6954',
+    store: '429',
+    label: 'document duplicate receipt per store',
+    quantity: 5,
+  },
 ];
