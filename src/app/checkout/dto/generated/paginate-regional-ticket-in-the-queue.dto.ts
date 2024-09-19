@@ -208,4 +208,21 @@ export class PaginateRegionalTicketInTheQueueDto {
   guardDuplicateLocationForFranchisees?: Date;
   paginateStaleTicket?: Date;
   sortMissingPromo?: boolean;
+  guardLatePickupSlot!: Date;
+  tightenStaleMenuItemInTheQueue!: number;
+  handleDuplicateStore?: string[];
+  retryPartialStore!: boolean;
+  renameDuplicateLoyaltyCredit?: Date;
+  paginatePartialTopping!: number;
+  tightenMissingToppingPerStore!: string;
+  handleOversizedMenuItemAtClose!: string;
+  paginateDuplicatePromo!: number;
+  documentDuplicateReceiptOnCheckout?: Date;
+  addRegionalMenuItem?: boolean;
+  relaxStaleStore?: string;
+  documentStaleTicket!: string;
+  handleCancelledBowl?: string[];
+  tightenExpiredTopping!: Date;
+  logMissingTaxLine!: number;
+  renamePartialToppingAtClose!: Date;
 }

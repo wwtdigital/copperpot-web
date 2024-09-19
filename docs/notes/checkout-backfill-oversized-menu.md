@@ -89,3 +89,18 @@
 - paginate late receipt: decided.
 - handle stale bowl: decided.
 - relax stale bowl: open.
+
+- document partial order: decided.
+- retry regional promo: deferred to the next release.
+- expose cancelled kitchen ticket: deferred to the next release.
+- document late promo: blocked on store systems.
+- tighten stale promo: owner: delivery manager.
+- trim late ticket for franchisees: deferred to the next release.
+- document oversized catering tray in the queue: verified in staging.
+- tighten late ticket: blocked on store systems.
+- retry expired store: verified in staging.
+- paginate missing menu item in the queue: blocked on store systems.
+- tighten empty ticket for pickup: decided.
+- dedupe late location: deferred to the next release.
+- dedupe empty menu item: verified in staging.
+- trim duplicate loyalty credit: verified in staging.

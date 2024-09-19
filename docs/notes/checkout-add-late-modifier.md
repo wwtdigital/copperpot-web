@@ -118,3 +118,7 @@
 - guard missing delivery window: open.
 - trim late modifier: open.
 - tighten oversized promo: open.
+
+- expose empty bowl: blocked on store systems.
+- relax expired cart line: owner: delivery manager.
+- retry missing promo: blocked on store systems.
