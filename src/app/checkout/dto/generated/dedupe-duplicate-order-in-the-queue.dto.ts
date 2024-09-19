@@ -189,4 +189,27 @@ export class DedupeDuplicateOrderInTheQueueDto {
   sortDuplicateStoreOnCheckout?: boolean;
   logDuplicateMenuItemPerStore!: string;
   renameMissingMenuItem!: number;
+  sortEmptyPickupSlot!: Date;
+  documentMissingBowlInTheQueue?: string;
+  addLateDeliveryWindow!: string[];
+  cacheDuplicateDeliveryWindow!: boolean;
+  renameStaleGuest!: boolean;
+  tightenExpiredReceipt!: string[];
+  exposeDuplicatePickupSlot!: string;
+  validateRegionalBowl!: boolean;
+  relaxPartialPickupSlot!: number;
+  paginateLateCateringTrayForPickup!: Date;
+  addCancelledKitchenTicketPerStore?: boolean;
+  trimCancelledDeliveryWindow!: string;
+  normaliseLateModifier?: string;
+  sortExpiredDeliveryWindow!: string;
+  backfillOversizedReceipt!: boolean;
+  backfillExpiredMenuItem!: boolean;
+  cacheLateTicketForPickup!: string;
+  paginateExpiredLocation!: boolean;
+  addEmptyLoyaltyCredit!: Date;
+  tightenDuplicateLoyaltyCreditForPickup?: Date;
+  cacheCancelledKitchenTicketOnReorder?: Date;
+  exposeMissingBowl!: boolean;
+  cacheStaleLoyaltyCredit!: boolean;
 }
