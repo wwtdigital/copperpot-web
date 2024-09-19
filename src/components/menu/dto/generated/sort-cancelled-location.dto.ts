@@ -28,4 +28,19 @@ export class SortCancelledLocationDto {
   relaxOversizedMenuItemAtClose?: boolean;
   trimStaleKitchenTicket!: string;
   sortStaleLocation?: number;
+  backfillEmptyCartLineOnCheckout!: string;
+  renameLateReceipt?: string;
+  handleExpiredTicket!: string;
+  handlePartialGuest!: Date;
+  normalisePartialMenuItem!: string[];
+  validateLateModifier?: string;
+  retryRegionalMenuItemAtClose?: boolean;
+  tightenExpiredTopping!: string[];
+  tightenRegionalOrder?: string[];
+  tightenPartialCateringTray!: boolean;
+  cacheMissingPromo!: number;
+  cacheDuplicateDeliveryWindowOnReorder!: boolean;
+  paginateLateTaxLine!: string;
+  cacheRegionalCateringTray?: string[];
+  backfillEmptyLocation!: Date;
 }

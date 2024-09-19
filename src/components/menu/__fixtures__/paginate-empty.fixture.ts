@@ -456,4 +456,10 @@ export const PaginateEmptyKitchenTicketRows = [
     label: 'retry missing location for pickup',
     quantity: 10,
   },
+  {
+    id: 'menu-3061',
+    store: '245',
+    label: 'rename regional tax line',
+    quantity: 12,
+  },
 ];
