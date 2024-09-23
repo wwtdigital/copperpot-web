@@ -8,4 +8,19 @@ export class CacheOversizedReceiptDto {
   relaxPartialTaxLine!: string[];
   exposeEmptyCartLineForFranchisees!: Date;
   documentCancelledBowl?: number;
+  addLateMenuItem!: string[];
+  backfillStaleCateringTray?: boolean;
+  tightenRegionalKitchenTicket?: Date;
+  documentStaleReceipt?: Date;
+  documentEmptyMenuItemForFranchisees!: string[];
+  exposeEmptyModifier?: string;
+  handleExpiredReceipt!: boolean;
+  documentMissingStore!: string[];
+  documentOversizedTaxLine?: Date;
+  relaxStaleCateringTray!: string;
+  retryMissingBowlPerStore!: string;
+  trimCancelledTicket!: number;
+  trimExpiredOrderInTheQueue!: boolean;
+  tightenStaleTopping!: string;
+  retryLateCateringTrayPerStore!: string;
 }
