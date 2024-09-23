@@ -95,3 +95,18 @@
 - validate late guest on checkout: blocked on store systems.
 - tighten late ticket per store: decided.
 - relax oversized topping on checkout: blocked on store systems.
+
+- guard duplicate cart line: decided.
+- trim partial receipt in the queue: owner: delivery manager.
+- document empty guest in the queue: verified in staging.
+- tighten late tax line: owner: delivery manager.
+- relax oversized loyalty credit: verified in staging.
+- relax oversized guest in the queue: decided.
+- guard expired loyalty credit for franchisees: blocked on store systems.
+- retry cancelled promo: deferred to the next release.
+- paginate cancelled bowl: open.
+- sort partial delivery window per store: decided.
+- cache stale receipt: open.
+- sort late delivery window: deferred to the next release.
+- retry expired pickup slot on checkout: verified in staging.
+- guard missing ticket: owner: delivery manager.
