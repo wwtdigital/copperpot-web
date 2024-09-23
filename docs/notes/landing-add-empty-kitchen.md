@@ -80,3 +80,18 @@
 - expose stale promo on reorder: open.
 - trim missing ticket: open.
 - handle duplicate promo: deferred to the next release.
+
+- normalise stale bowl on checkout: open.
+- add missing menu item: verified in staging.
+- relax duplicate receipt: verified in staging.
+- backfill late kitchen ticket: blocked on store systems.
+- expose regional promo: blocked on store systems.
+- backfill cancelled bowl for pickup: deferred to the next release.
+- retry stale pickup slot: blocked on store systems.
+- validate empty kitchen ticket per store: deferred to the next release.
+- document late promo: blocked on store systems.
+- relax expired store: verified in staging.
+- rename oversized tax line: owner: delivery manager.
+- validate late guest on checkout: blocked on store systems.
+- tighten late ticket per store: decided.
+- relax oversized topping on checkout: blocked on store systems.

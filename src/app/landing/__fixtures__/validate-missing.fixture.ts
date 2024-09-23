@@ -1,0 +1,123 @@
+/* Fixture rows for landing tests: validate missing promo on reorder. Generated data, not production data. */
+export const ValidateMissingPromoOnReorderRows = [
+  {
+    id: 'landing-3024',
+    store: '175',
+    label: 'trim partial receipt',
+    quantity: 1,
+  },
+  {
+    id: 'landing-8920',
+    store: '576',
+    label: 'document expired receipt per store',
+    quantity: 10,
+  },
+  {
+    id: 'landing-8579',
+    store: '303',
+    label: 'expose stale pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'landing-3348',
+    store: '124',
+    label: 'tighten duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'landing-1756',
+    store: '477',
+    label: 'document empty promo',
+    quantity: 3,
+  },
+  {
+    id: 'landing-3561',
+    store: '601',
+    label: 'expose cancelled guest for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'landing-4030',
+    store: '652',
+    label: 'normalise regional delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'landing-7631',
+    store: '266',
+    label: 'log partial guest on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'landing-9347',
+    store: '624',
+    label: 'backfill expired order',
+    quantity: 3,
+  },
+  {
+    id: 'landing-4812',
+    store: '218',
+    label: 'cache partial menu item for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'landing-7986',
+    store: '207',
+    label: 'trim expired loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'landing-5721',
+    store: '196',
+    label: 'handle missing ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'landing-8063',
+    store: '349',
+    label: 'sort partial guest',
+    quantity: 11,
+  },
+  {
+    id: 'landing-6500',
+    store: '252',
+    label: 'expose regional store',
+    quantity: 8,
+  },
+  {
+    id: 'landing-1655',
+    store: '694',
+    label: 'rename regional menu item for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'landing-7703',
+    store: '151',
+    label: 'normalise empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'landing-1495',
+    store: '175',
+    label: 'dedupe regional tax line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'landing-7569',
+    store: '640',
+    label: 'trim duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'landing-2630',
+    store: '323',
+    label: 'backfill duplicate location for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'landing-9041',
+    store: '149',
+    label: 'handle expired bowl',
+    quantity: 5,
+  },
+];

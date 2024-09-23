@@ -1266,4 +1266,22 @@ export const GuardCancelledPickupSlotRows = [
     label: 'expose stale loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'landing-6467',
+    store: '602',
+    label: 'normalise stale location',
+    quantity: 10,
+  },
+  {
+    id: 'landing-6877',
+    store: '266',
+    label: 'retry oversized bowl on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'landing-3713',
+    store: '131',
+    label: 'handle expired receipt',
+    quantity: 1,
+  },
 ];
