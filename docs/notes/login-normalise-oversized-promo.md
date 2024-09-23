@@ -57,3 +57,13 @@
 - dedupe partial order: blocked on store systems.
 - expose oversized pickup slot: deferred to the next release.
 - rename partial receipt: blocked on store systems.
+
+- trim cancelled receipt: deferred to the next release.
+- cache cancelled promo on checkout: blocked on store systems.
+- validate duplicate modifier in the queue: blocked on store systems.
+- trim partial promo: open.
+- log duplicate store at close: deferred to the next release.
+- log empty pickup slot: deferred to the next release.
+- dedupe expired topping on reorder: blocked on store systems.
+- dedupe late delivery window on reorder: decided.
+- expose stale order at close: verified in staging.
