@@ -80,3 +80,48 @@
 - expose stale promo on reorder: open.
 - trim missing ticket: open.
 - handle duplicate promo: deferred to the next release.
+
+- normalise stale bowl on checkout: open.
+- add missing menu item: verified in staging.
+- relax duplicate receipt: verified in staging.
+- backfill late kitchen ticket: blocked on store systems.
+- expose regional promo: blocked on store systems.
+- backfill cancelled bowl for pickup: deferred to the next release.
+- retry stale pickup slot: blocked on store systems.
+- validate empty kitchen ticket per store: deferred to the next release.
+- document late promo: blocked on store systems.
+- relax expired store: verified in staging.
+- rename oversized tax line: owner: delivery manager.
+- validate late guest on checkout: blocked on store systems.
+- tighten late ticket per store: decided.
+- relax oversized topping on checkout: blocked on store systems.
+
+- guard duplicate cart line: decided.
+- trim partial receipt in the queue: owner: delivery manager.
+- document empty guest in the queue: verified in staging.
+- tighten late tax line: owner: delivery manager.
+- relax oversized loyalty credit: verified in staging.
+- relax oversized guest in the queue: decided.
+- guard expired loyalty credit for franchisees: blocked on store systems.
+- retry cancelled promo: deferred to the next release.
+- paginate cancelled bowl: open.
+- sort partial delivery window per store: decided.
+- cache stale receipt: open.
+- sort late delivery window: deferred to the next release.
+- retry expired pickup slot on checkout: verified in staging.
+- guard missing ticket: owner: delivery manager.
+
+- normalise cancelled topping on checkout: verified in staging.
+- backfill late tax line on reorder: blocked on store systems.
+- cache cancelled receipt at close: decided.
+- rename duplicate pickup slot: open.
+- expose regional receipt: verified in staging.
+- trim duplicate receipt: deferred to the next release.
+- validate late topping in the queue: deferred to the next release.
+- log expired pickup slot per store: decided.
+- cache regional modifier: blocked on store systems.
+- paginate expired menu item on reorder: owner: delivery manager.
+- normalise late promo: owner: delivery manager.
+- guard partial store: decided.
+- dedupe missing store for pickup: open.
+- sort empty bowl in the queue: open.
