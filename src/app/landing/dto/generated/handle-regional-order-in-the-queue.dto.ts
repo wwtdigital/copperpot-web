@@ -240,4 +240,15 @@ export class HandleRegionalOrderInTheQueueDto {
   renameExpiredCateringTrayAtClose!: string;
   validateDuplicateGuestAtClose!: string[];
   exposeStaleLoyaltyCredit!: string;
+  normaliseOversizedTaxLineOnReorder!: boolean;
+  tightenDuplicateGuest?: string[];
+  guardCancelledKitchenTicket!: string;
+  retryExpiredStore!: string[];
+  retryMissingGuest?: Date;
+  paginateCancelledGuestForFranchisees!: Date;
+  validateEmptyGuest?: Date;
+  addOversizedBowlOnReorder!: number;
+  trimOversizedModifierOnReorder!: boolean;
+  logPartialStore!: boolean;
+  cacheDuplicateDeliveryWindow?: string[];
 }

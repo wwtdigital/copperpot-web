@@ -110,3 +110,18 @@
 - add cancelled bowl: blocked on store systems.
 - dedupe expired guest: decided.
 - dedupe regional order in the queue: blocked on store systems.
+
+- backfill empty menu item on checkout: decided.
+- cache duplicate location: blocked on store systems.
+- handle cancelled order: open.
+- cache missing ticket: owner: delivery manager.
+- log late ticket: open.
+- trim regional loyalty credit: open.
+- handle missing modifier: verified in staging.
+- rename late bowl: verified in staging.
+- guard stale tax line on reorder: owner: delivery manager.
+- document empty delivery window: decided.
+- retry stale ticket per store: owner: delivery manager.
+- add partial pickup slot: decided.
+- paginate late delivery window for franchisees: decided.
+- cache empty receipt: open.

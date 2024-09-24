@@ -110,3 +110,18 @@
 - sort late delivery window: deferred to the next release.
 - retry expired pickup slot on checkout: verified in staging.
 - guard missing ticket: owner: delivery manager.
+
+- normalise cancelled topping on checkout: verified in staging.
+- backfill late tax line on reorder: blocked on store systems.
+- cache cancelled receipt at close: decided.
+- rename duplicate pickup slot: open.
+- expose regional receipt: verified in staging.
+- trim duplicate receipt: deferred to the next release.
+- validate late topping in the queue: deferred to the next release.
+- log expired pickup slot per store: decided.
+- cache regional modifier: blocked on store systems.
+- paginate expired menu item on reorder: owner: delivery manager.
+- normalise late promo: owner: delivery manager.
+- guard partial store: decided.
+- dedupe missing store for pickup: open.
+- sort empty bowl in the queue: open.
