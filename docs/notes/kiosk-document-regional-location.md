@@ -103,3 +103,18 @@
 - add duplicate catering tray: decided.
 
 - document partial loyalty credit: verified in staging.
+
+- expose duplicate order: verified in staging.
+- trim duplicate order: verified in staging.
+- trim empty menu item at close: verified in staging.
+- trim stale loyalty credit per store: decided.
+- sort cancelled promo: decided.
+- relax empty topping on reorder: blocked on store systems.
+- document stale modifier: blocked on store systems.
+- paginate stale receipt: blocked on store systems.
+- guard missing cart line: verified in staging.
+- backfill empty delivery window: owner: delivery manager.
+- dedupe partial receipt for pickup: verified in staging.
+- expose expired store: deferred to the next release.
+- paginate duplicate cart line: verified in staging.
+- trim oversized ticket for franchisees: deferred to the next release.
