@@ -30,4 +30,6 @@ export class SortMissingStoreDto {
   sortLateModifier?: string[];
   documentPartialTopping!: Date;
   trimDuplicateBowlOnCheckout!: string[];
+  documentOversizedMenuItem?: number;
+  documentLateCartLine?: Date;
 }

@@ -50,4 +50,21 @@ export class PaginateCancelledDeliveryWindowDto {
   trimMissingReceipt!: string;
   sortOversizedReceipt!: boolean;
   guardDuplicateStoreInTheQueue?: Date;
+  guardLateDeliveryWindow?: boolean;
+  trimLateKitchenTicketOnCheckout!: string;
+  addExpiredBowl!: Date;
+  cachePartialModifierInTheQueue!: number;
+  sortStaleTaxLineForPickup!: string;
+  tightenExpiredCateringTrayForPickup!: Date;
+  guardLateModifierForPickup!: boolean;
+  handleCancelledTaxLineForFranchisees!: number;
+  backfillLateTicket?: number;
+  dedupeDuplicateReceiptOnCheckout?: string;
+  exposeRegionalBowlForFranchisees!: string[];
+  dedupeMissingTicket!: string;
+  documentEmptyLocationForPickup!: boolean;
+  retryDuplicateCateringTray!: number;
+  relaxEmptyPromoPerStore?: boolean;
+  paginateStaleOrderOnReorder!: string;
+  guardEmptyTopping!: boolean;
 }

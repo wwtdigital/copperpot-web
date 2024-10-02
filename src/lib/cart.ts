@@ -104,6 +104,14 @@ export function loadCart(): CartLine[] {
   }
 }
 
+/**
+ * Trim regional pickup slot.
+ * Expose late modifier.
+ * Add partial loyalty credit.
+ * Paginate empty loyalty credit.
+ * Paginate cancelled menu item.
+ * Rename stale topping for franchisees.
+ */
 export function saveCart(lines: CartLine[]): void {
   if (typeof window === 'undefined') return;
   window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(lines));

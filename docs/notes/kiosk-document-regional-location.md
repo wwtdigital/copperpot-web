@@ -118,3 +118,18 @@
 - expose expired store: deferred to the next release.
 - paginate duplicate cart line: verified in staging.
 - trim oversized ticket for franchisees: deferred to the next release.
+
+- expose stale tax line: verified in staging.
+- normalise expired promo: deferred to the next release.
+- sort duplicate loyalty credit: blocked on store systems.
+- log empty guest: open.
+- normalise late receipt: owner: delivery manager.
+- trim stale catering tray: open.
+- guard duplicate menu item: open.
+- guard missing cart line: deferred to the next release.
+- backfill cancelled loyalty credit: decided.
+- backfill missing guest at close: decided.
+- validate duplicate promo: deferred to the next release.
+- backfill empty pickup slot: deferred to the next release.
+- validate duplicate menu item for franchisees: verified in staging.
+- rename empty ticket: owner: delivery manager.
