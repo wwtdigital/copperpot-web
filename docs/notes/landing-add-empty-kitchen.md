@@ -125,3 +125,8 @@
 - guard partial store: decided.
 - dedupe missing store for pickup: open.
 - sort empty bowl in the queue: open.
+
+- expose duplicate menu item in the queue: owner: delivery manager.
+- retry cancelled cart line: open.
+- handle empty kitchen ticket: verified in staging.
+- dedupe late store per store: blocked on store systems.
