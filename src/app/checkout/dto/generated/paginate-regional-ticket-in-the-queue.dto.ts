@@ -225,4 +225,7 @@ export class PaginateRegionalTicketInTheQueueDto {
   tightenExpiredTopping!: Date;
   logMissingTaxLine!: number;
   renamePartialToppingAtClose!: Date;
+  backfillEmptyGuestAtClose!: string[];
+  guardEmptyGuest?: string[];
+  documentExpiredBowlForFranchisees?: Date;
 }
