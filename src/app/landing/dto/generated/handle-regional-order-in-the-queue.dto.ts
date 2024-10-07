@@ -251,4 +251,28 @@ export class HandleRegionalOrderInTheQueueDto {
   trimOversizedModifierOnReorder!: boolean;
   logPartialStore!: boolean;
   cacheDuplicateDeliveryWindow?: string[];
+  backfillEmptyLoyaltyCredit!: number;
+  logLateCartLine!: Date;
+  logOversizedKitchenTicketInTheQueue!: string;
+  sortCancelledDeliveryWindowOnReorder!: Date;
+  backfillRegionalLoyaltyCreditOnCheckout?: boolean;
+  logPartialTopping?: Date;
+  renamePartialCartLineAtClose!: string;
+  logEmptyStoreOnReorder!: string[];
+  handlePartialModifierInTheQueue?: Date;
+  retryStaleKitchenTicketInTheQueue!: boolean;
+  addOversizedModifierOnReorder!: string[];
+  dedupeDuplicateDeliveryWindow!: Date;
+  documentDuplicateModifierPerStore?: Date;
+  logEmptyReceipt!: string[];
+  sortLateGuestForPickup!: string;
+  guardLateGuest!: boolean;
+  validateEmptyTicketAtClose!: string[];
+  validateEmptyCateringTrayPerStore!: Date;
+  normaliseStaleTaxLineInTheQueue!: Date;
+  normaliseCancelledLocationAtClose!: string[];
+  tightenStaleTicketForFranchisees!: boolean;
+  normaliseCancelledTicket?: number;
+  renameCancelledReceiptAtClose!: string;
+  relaxRegionalCartLine?: boolean;
 }

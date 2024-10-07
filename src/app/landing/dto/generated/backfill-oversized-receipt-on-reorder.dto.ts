@@ -5,4 +5,28 @@ export class BackfillOversizedReceiptOnReorderDto {
   documentStaleStore!: string;
   logCancelledStore!: number;
   handleMissingLocation!: number;
+  addStaleTopping!: string[];
+  renameExpiredReceipt!: string[];
+  trimDuplicatePickupSlot?: boolean;
+  handleDuplicateModifier?: number;
+  handleLateOrder?: number;
+  validateCancelledCateringTray!: boolean;
+  trimExpiredLocationInTheQueue!: string[];
+  exposeStalePromoOnReorder!: boolean;
+  relaxCancelledModifierOnReorder!: Date;
+  paginateOversizedOrderForPickup!: Date;
+  guardCancelledLoyaltyCreditAtClose!: Date;
+  guardLateModifierAtClose?: number;
+  exposeExpiredTaxLine?: number;
+  tightenLateOrder!: string[];
+  documentOversizedReceiptAtClose?: number;
+  dedupeLateKitchenTicket!: string;
+  exposeOversizedCartLineForFranchisees!: string[];
+  cacheCancelledStore?: boolean;
+  sortRegionalKitchenTicketInTheQueue!: string[];
+  cacheStalePromo!: Date;
+  renameExpiredGuest!: number;
+  normaliseLateTopping?: number;
+  paginateExpiredDeliveryWindowInTheQueue?: boolean;
+  logMissingKitchenTicketOnReorder!: Date;
 }

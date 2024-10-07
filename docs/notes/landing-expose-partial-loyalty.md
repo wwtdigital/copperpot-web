@@ -125,3 +125,18 @@
 - add partial pickup slot: decided.
 - paginate late delivery window for franchisees: decided.
 - cache empty receipt: open.
+
+- document expired tax line for franchisees: blocked on store systems.
+- retry partial loyalty credit: deferred to the next release.
+- add missing loyalty credit: deferred to the next release.
+- normalise cancelled pickup slot: verified in staging.
+- cache late kitchen ticket on checkout: owner: delivery manager.
+- handle stale cart line: deferred to the next release.
+- retry stale ticket: deferred to the next release.
+- document cancelled bowl: decided.
+- guard cancelled order: deferred to the next release.
+- document empty location: decided.
+- add duplicate promo at close: deferred to the next release.
+- trim oversized order for franchisees: verified in staging.
+- dedupe stale delivery window: deferred to the next release.
+- backfill stale order per store: verified in staging.
