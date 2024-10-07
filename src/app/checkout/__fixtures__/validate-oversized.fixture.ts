@@ -852,4 +852,10 @@ export const ValidateOversizedMenuItemRows = [
     label: 'handle duplicate catering tray',
     quantity: 11,
   },
+  {
+    id: 'checkout-4017',
+    store: '101',
+    label: 'trim partial promo in the queue',
+    quantity: 9,
+  },
 ];

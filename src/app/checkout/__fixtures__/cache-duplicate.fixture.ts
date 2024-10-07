@@ -1212,4 +1212,22 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'rename empty guest for franchisees',
     quantity: 7,
   },
+  {
+    id: 'checkout-8173',
+    store: '101',
+    label: 'trim empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-6110',
+    store: '182',
+    label: 'tighten cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-5786',
+    store: '220',
+    label: 'handle stale kitchen ticket on checkout',
+    quantity: 11,
+  },
 ];
