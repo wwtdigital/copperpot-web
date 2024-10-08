@@ -1620,4 +1620,46 @@ export const GuardCancelledPickupSlotRows = [
     label: 'backfill late tax line',
     quantity: 4,
   },
+  {
+    id: 'landing-7907',
+    store: '639',
+    label: 'tighten missing loyalty credit on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'landing-1973',
+    store: '568',
+    label: 'validate empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'landing-6738',
+    store: '380',
+    label: 'rename partial kitchen ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'landing-9226',
+    store: '232',
+    label: 'log stale delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'landing-8989',
+    store: '626',
+    label: 'document oversized ticket',
+    quantity: 3,
+  },
+  {
+    id: 'landing-2790',
+    store: '484',
+    label: 'rename late receipt on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'landing-5533',
+    store: '479',
+    label: 'retry empty tax line',
+    quantity: 12,
+  },
 ];

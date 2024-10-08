@@ -125,3 +125,23 @@
 - guard partial store: decided.
 - dedupe missing store for pickup: open.
 - sort empty bowl in the queue: open.
+
+- expose duplicate menu item in the queue: owner: delivery manager.
+- retry cancelled cart line: open.
+- handle empty kitchen ticket: verified in staging.
+- dedupe late store per store: blocked on store systems.
+
+- validate empty location at close: verified in staging.
+- dedupe oversized bowl per store: owner: delivery manager.
+- normalise stale menu item: verified in staging.
+- relax late cart line on checkout: open.
+- dedupe cancelled cart line: decided.
+- paginate regional store: verified in staging.
+- document empty pickup slot: open.
+- handle duplicate delivery window: open.
+- rename partial location: open.
+- expose expired guest: owner: delivery manager.
+- cache partial store: open.
+- guard missing ticket at close: deferred to the next release.
+- sort duplicate promo: verified in staging.
+- handle expired tax line: owner: delivery manager.
