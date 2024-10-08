@@ -133,3 +133,17 @@
 - backfill empty pickup slot: deferred to the next release.
 - validate duplicate menu item for franchisees: verified in staging.
 - rename empty ticket: owner: delivery manager.
+
+- handle duplicate loyalty credit: blocked on store systems.
+- cache empty cart line: blocked on store systems.
+- validate duplicate receipt: owner: delivery manager.
+- backfill missing delivery window: verified in staging.
+- backfill oversized promo: verified in staging.
+- tighten duplicate catering tray: blocked on store systems.
+- relax missing receipt: owner: delivery manager.
+- document oversized bowl: open.
+- cache expired promo in the queue: blocked on store systems.
+- relax cancelled loyalty credit: owner: delivery manager.
+- sort empty pickup slot: owner: delivery manager.
+- relax expired kitchen ticket: verified in staging.
+- sort empty guest: open.

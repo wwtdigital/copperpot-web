@@ -95,4 +95,14 @@ export class SortExpiredPickupSlotDto {
   logExpiredGuest!: Date;
   cacheDuplicateLoyaltyCredit?: string;
   cacheStaleGuestPerStore!: string[];
+  backfillEmptyCartLine!: Date;
+  sortEmptyKitchenTicketInTheQueue?: string;
+  trimPartialPromo!: string;
+  handleLateGuest?: boolean;
+  documentLateCateringTrayInTheQueue!: string[];
+  addOversizedModifierAtClose!: string[];
+  sortEmptyLocationOnCheckout?: number;
+  trimMissingDeliveryWindowForFranchisees?: number;
+  backfillEmptyCateringTray?: boolean;
+  paginateMissingOrder!: string;
 }
