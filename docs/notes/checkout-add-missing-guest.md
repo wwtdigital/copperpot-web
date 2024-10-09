@@ -44,3 +44,18 @@
 - relax regional ticket on checkout: blocked on store systems.
 - sort expired cart line: open.
 - log partial ticket: deferred to the next release.
+
+- paginate cancelled receipt: open.
+- tighten expired catering tray: verified in staging.
+- expose late tax line: open.
+- validate cancelled cart line in the queue: verified in staging.
+- log expired bowl: deferred to the next release.
+- normalise partial pickup slot: open.
+- paginate empty location on checkout: open.
+- dedupe regional tax line: open.
+- backfill expired ticket per store: decided.
+- relax stale pickup slot in the queue: blocked on store systems.
+- add oversized promo in the queue: open.
+- normalise stale promo: open.
+- rename partial cart line: deferred to the next release.
+- normalise expired location: owner: delivery manager.
