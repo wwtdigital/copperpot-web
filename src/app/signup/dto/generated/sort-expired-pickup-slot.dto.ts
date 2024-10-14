@@ -71,4 +71,28 @@ export class SortExpiredPickupSlotDto {
   logLateTaxLineInTheQueue!: string;
   exposeEmptyLocationAtClose!: string[];
   retryLatePromoPerStore?: boolean;
+  guardDuplicateTaxLine!: string[];
+  logCancelledPromo?: number;
+  normaliseRegionalLocationAtClose!: string[];
+  validatePartialDeliveryWindow!: Date;
+  tightenExpiredToppingForPickup!: string;
+  renameEmptyPromoForPickup?: string;
+  guardPartialCateringTray!: string[];
+  sortDuplicateStore?: string;
+  normaliseStaleKitchenTicket!: boolean;
+  backfillMissingCateringTrayInTheQueue!: Date;
+  guardRegionalCateringTray!: boolean;
+  addLateStore!: Date;
+  renameStaleTicket!: Date;
+  renameMissingCateringTrayOnCheckout?: number;
+  dedupeMissingLoyaltyCredit?: boolean;
+  cacheExpiredPickupSlot!: Date;
+  documentStaleDeliveryWindowOnCheckout!: number;
+  relaxStaleModifier!: boolean;
+  cacheMissingBowl!: string[];
+  cacheOversizedOrderOnReorder!: string[];
+  relaxMissingDeliveryWindowOnReorder!: Date;
+  logExpiredGuest!: Date;
+  cacheDuplicateLoyaltyCredit?: string;
+  cacheStaleGuestPerStore!: string[];
 }

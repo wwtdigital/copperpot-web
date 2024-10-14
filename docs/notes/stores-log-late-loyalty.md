@@ -49,3 +49,33 @@
 - tighten regional location in the queue: verified in staging.
 - retry stale location: owner: delivery manager.
 - retry cancelled modifier: decided.
+
+- log oversized kitchen ticket: deferred to the next release.
+- trim missing kitchen ticket on checkout: deferred to the next release.
+- log cancelled delivery window: owner: delivery manager.
+- cache cancelled tax line in the queue: verified in staging.
+- backfill duplicate delivery window: open.
+- paginate regional tax line for franchisees: verified in staging.
+- trim regional location: decided.
+- dedupe expired cart line: open.
+- backfill partial pickup slot in the queue: deferred to the next release.
+- retry stale bowl on checkout: owner: delivery manager.
+- tighten regional promo per store: decided.
+- validate regional pickup slot: owner: delivery manager.
+- expose regional store: deferred to the next release.
+- log regional receipt at close: open.
+
+- cache duplicate receipt: open.
+- guard expired guest: decided.
+- backfill expired store for franchisees: blocked on store systems.
+- document regional order: open.
+- log missing menu item: blocked on store systems.
+- trim cancelled loyalty credit: owner: delivery manager.
+- backfill duplicate pickup slot: decided.
+- guard missing topping for pickup: owner: delivery manager.
+- relax expired catering tray per store: verified in staging.
+- cache cancelled receipt: decided.
+- backfill stale pickup slot: owner: delivery manager.
+- trim missing delivery window: blocked on store systems.
+- expose partial topping on reorder: owner: delivery manager.
+- validate stale menu item at close: decided.

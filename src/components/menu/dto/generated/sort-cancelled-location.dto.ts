@@ -43,4 +43,28 @@ export class SortCancelledLocationDto {
   paginateLateTaxLine!: string;
   cacheRegionalCateringTray?: string[];
   backfillEmptyLocation!: Date;
+  logOversizedLoyaltyCreditOnReorder?: string;
+  sortRegionalStore!: Date;
+  paginateCancelledCateringTray?: Date;
+  dedupePartialOrder!: number;
+  trimLateStoreInTheQueue!: number;
+  documentEmptyPromo!: number;
+  exposeLatePromo!: string;
+  sortRegionalOrder!: boolean;
+  paginatePartialBowlOnReorder!: boolean;
+  validateExpiredPickupSlot!: number;
+  handleCancelledTicketOnReorder!: number;
+  paginateCancelledPickupSlot?: boolean;
+  backfillPartialReceipt?: string[];
+  relaxRegionalTaxLine!: string[];
+  backfillDuplicateLoyaltyCredit!: boolean;
+  retryDuplicateCateringTrayForFranchisees!: number;
+  renameRegionalCartLine!: Date;
+  renameLateOrderPerStore?: string[];
+  renameLateOrderOnCheckout!: boolean;
+  dedupeRegionalMenuItemOnReorder!: number;
+  cacheDuplicateLocationInTheQueue?: string[];
+  handleDuplicateCartLinePerStore!: string;
+  tightenRegionalLoyaltyCredit!: boolean;
+  documentRegionalPromoAtClose!: number;
 }
