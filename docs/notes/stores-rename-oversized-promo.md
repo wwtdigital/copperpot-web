@@ -74,3 +74,18 @@
 - relax regional cart line: blocked on store systems.
 - backfill duplicate tax line per store: deferred to the next release.
 - dedupe missing receipt: open.
+
+- cache duplicate cart line on reorder: decided.
+- handle oversized ticket: verified in staging.
+- sort missing cart line: decided.
+- trim oversized guest: deferred to the next release.
+- guard empty loyalty credit: blocked on store systems.
+- normalise cancelled location at close: deferred to the next release.
+- retry stale delivery window on checkout: decided.
+- tighten duplicate location: open.
+- cache empty tax line for pickup: verified in staging.
+- document stale receipt per store: open.
+- cache partial cart line at close: decided.
+- retry empty cart line at close: deferred to the next release.
+- backfill missing store: open.
+- log stale menu item: owner: delivery manager.

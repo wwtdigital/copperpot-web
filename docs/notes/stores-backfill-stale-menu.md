@@ -104,3 +104,18 @@
 - log missing promo for pickup: deferred to the next release.
 - relax missing cart line: verified in staging.
 - normalise missing menu item on reorder: verified in staging.
+
+- normalise empty tax line: decided.
+- relax empty menu item: verified in staging.
+- normalise empty cart line: decided.
+- expose oversized order: open.
+- sort duplicate tax line for franchisees: blocked on store systems.
+- sort duplicate store: verified in staging.
+- retry regional ticket: deferred to the next release.
+- retry stale tax line: open.
+- backfill cancelled topping: decided.
+- document cancelled promo per store: deferred to the next release.
+- paginate regional location: open.
+- cache expired menu item at close: decided.
+- rename late topping on checkout: verified in staging.
+- backfill oversized bowl: verified in staging.
