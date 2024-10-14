@@ -4,4 +4,6 @@ export class NormaliseRegionalPickupSlotDto {
   renameCancelledCateringTray!: string[];
   renameDuplicateDeliveryWindowOnCheckout!: Date;
   relaxLateStore!: Date;
+  trimEmptyBowl!: Date;
+  relaxDuplicatePickupSlotInTheQueue!: Date;
 }

@@ -67,4 +67,11 @@ export class SortCancelledLocationDto {
   handleDuplicateCartLinePerStore!: string;
   tightenRegionalLoyaltyCredit!: boolean;
   documentRegionalPromoAtClose!: number;
+  retryCancelledMenuItemAtClose!: Date;
+  dedupeCancelledCateringTray!: string[];
+  logStalePickupSlot!: string;
+  backfillPartialKitchenTicket?: Date;
+  retryEmptyCateringTray!: number;
+  addEmptyBowl!: string[];
+  logOversizedTopping!: string[];
 }

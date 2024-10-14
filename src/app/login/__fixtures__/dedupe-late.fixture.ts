@@ -30,4 +30,34 @@ export const DedupeLateReceiptRows = [
     label: 'guard expired location in the queue',
     quantity: 3,
   },
+  {
+    id: 'kiosk-9379',
+    store: '105',
+    label: 'trim expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-1761',
+    store: '283',
+    label: 'handle duplicate topping for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-5476',
+    store: '258',
+    label: 'sort expired receipt',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-1232',
+    store: '223',
+    label: 'rename empty tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-1096',
+    store: '318',
+    label: 'trim regional promo',
+    quantity: 12,
+  },
 ];
