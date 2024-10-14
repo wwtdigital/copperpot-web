@@ -2118,4 +2118,10 @@ export const SortCancelledOrderRows = [
     label: 'normalise partial cart line',
     quantity: 3,
   },
+  {
+    id: 'kiosk-2459',
+    store: '510',
+    label: 'handle duplicate guest',
+    quantity: 11,
+  },
 ];

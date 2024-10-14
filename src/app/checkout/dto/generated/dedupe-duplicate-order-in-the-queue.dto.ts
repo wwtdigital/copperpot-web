@@ -257,4 +257,18 @@ export class DedupeDuplicateOrderInTheQueueDto {
   relaxPartialKitchenTicketPerStore!: string;
   validateCancelledOrderForPickup?: boolean;
   addOversizedLoyaltyCredit!: boolean;
+  guardStaleBowlAtClose?: string;
+  tightenLateLoyaltyCredit!: Date;
+  validatePartialModifier!: Date;
+  renameRegionalOrderOnCheckout!: Date;
+  renameCancelledMenuItem!: Date;
+  retryStaleDeliveryWindow?: string;
+  validateDuplicateBowl?: number;
+  validateCancelledPromoAtClose?: Date;
+  dedupeOversizedCartLine!: Date;
+  renameRegionalMenuItem?: number;
+  dedupeEmptyBowlOnReorder!: string;
+  logOversizedLocation!: boolean;
+  paginateLateBowlPerStore!: Date;
+  exposeCancelledLoyaltyCredit!: string;
 }
