@@ -89,3 +89,33 @@
 - tighten late menu item: decided.
 - validate regional guest: open.
 - validate oversized pickup slot: verified in staging.
+
+- dedupe stale pickup slot: blocked on store systems.
+- sort partial ticket on checkout: verified in staging.
+- document cancelled receipt: verified in staging.
+- sort empty delivery window: owner: delivery manager.
+- relax stale delivery window for pickup: blocked on store systems.
+- add duplicate promo: deferred to the next release.
+- sort oversized ticket: decided.
+- guard partial pickup slot: decided.
+- retry stale catering tray: verified in staging.
+- handle cancelled guest: verified in staging.
+- retry late catering tray: deferred to the next release.
+- log missing promo for pickup: deferred to the next release.
+- relax missing cart line: verified in staging.
+- normalise missing menu item on reorder: verified in staging.
+
+- normalise empty tax line: decided.
+- relax empty menu item: verified in staging.
+- normalise empty cart line: decided.
+- expose oversized order: open.
+- sort duplicate tax line for franchisees: blocked on store systems.
+- sort duplicate store: verified in staging.
+- retry regional ticket: deferred to the next release.
+- retry stale tax line: open.
+- backfill cancelled topping: decided.
+- document cancelled promo per store: deferred to the next release.
+- paginate regional location: open.
+- cache expired menu item at close: decided.
+- rename late topping on checkout: verified in staging.
+- backfill oversized bowl: verified in staging.

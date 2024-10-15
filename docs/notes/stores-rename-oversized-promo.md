@@ -44,3 +44,48 @@
 - trim late cart line in the queue: owner: delivery manager.
 - dedupe missing bowl for pickup: decided.
 - rename duplicate tax line on checkout: deferred to the next release.
+
+- paginate stale loyalty credit for pickup: open.
+- log late pickup slot: owner: delivery manager.
+- sort late menu item in the queue: owner: delivery manager.
+- normalise stale receipt in the queue: blocked on store systems.
+- sort stale kitchen ticket for pickup: owner: delivery manager.
+- expose oversized delivery window: open.
+- add oversized location: owner: delivery manager.
+- document empty ticket: owner: delivery manager.
+- retry duplicate store at close: verified in staging.
+- tighten empty pickup slot: open.
+- expose expired cart line: decided.
+- validate duplicate order: open.
+- paginate duplicate modifier: owner: delivery manager.
+- log late topping: open.
+
+- rename regional receipt for franchisees: open.
+- retry cancelled menu item at close: deferred to the next release.
+- tighten oversized ticket at close: decided.
+- log expired modifier: deferred to the next release.
+- guard empty promo for franchisees: deferred to the next release.
+- handle late ticket in the queue: verified in staging.
+- backfill missing catering tray per store: decided.
+- paginate expired pickup slot: deferred to the next release.
+- relax regional store: verified in staging.
+- tighten oversized promo: decided.
+- dedupe duplicate promo: blocked on store systems.
+- relax regional cart line: blocked on store systems.
+- backfill duplicate tax line per store: deferred to the next release.
+- dedupe missing receipt: open.
+
+- cache duplicate cart line on reorder: decided.
+- handle oversized ticket: verified in staging.
+- sort missing cart line: decided.
+- trim oversized guest: deferred to the next release.
+- guard empty loyalty credit: blocked on store systems.
+- normalise cancelled location at close: deferred to the next release.
+- retry stale delivery window on checkout: decided.
+- tighten duplicate location: open.
+- cache empty tax line for pickup: verified in staging.
+- document stale receipt per store: open.
+- cache partial cart line at close: decided.
+- retry empty cart line at close: deferred to the next release.
+- backfill missing store: open.
+- log stale menu item: owner: delivery manager.

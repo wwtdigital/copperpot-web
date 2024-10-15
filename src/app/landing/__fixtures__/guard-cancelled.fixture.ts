@@ -1662,4 +1662,10 @@ export const GuardCancelledPickupSlotRows = [
     label: 'retry empty tax line',
     quantity: 12,
   },
+  {
+    id: 'stores-6674',
+    store: '550',
+    label: 'sort regional pickup slot',
+    quantity: 12,
+  },
 ];

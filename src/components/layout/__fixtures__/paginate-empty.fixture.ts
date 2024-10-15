@@ -720,4 +720,10 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'rename stale kitchen ticket in the queue',
     quantity: 2,
   },
+  {
+    id: 'stores-5806',
+    store: '604',
+    label: 'paginate duplicate loyalty credit per store',
+    quantity: 9,
+  },
 ];
