@@ -79,3 +79,18 @@
 - trim missing delivery window: blocked on store systems.
 - expose partial topping on reorder: owner: delivery manager.
 - validate stale menu item at close: decided.
+
+- relax oversized loyalty credit: deferred to the next release.
+- add expired store per store: open.
+- validate expired catering tray: deferred to the next release.
+- normalise stale ticket: open.
+- retry empty guest: blocked on store systems.
+- relax duplicate receipt: open.
+- tighten stale order: owner: delivery manager.
+- cache stale store: deferred to the next release.
+- sort missing pickup slot on reorder: open.
+- dedupe stale cart line: decided.
+- cache partial bowl: verified in staging.
+- validate regional location on checkout: deferred to the next release.
+- document expired store for pickup: deferred to the next release.
+- handle partial promo: owner: delivery manager.

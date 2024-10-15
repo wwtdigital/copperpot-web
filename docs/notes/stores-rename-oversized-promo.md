@@ -44,3 +44,18 @@
 - trim late cart line in the queue: owner: delivery manager.
 - dedupe missing bowl for pickup: decided.
 - rename duplicate tax line on checkout: deferred to the next release.
+
+- paginate stale loyalty credit for pickup: open.
+- log late pickup slot: owner: delivery manager.
+- sort late menu item in the queue: owner: delivery manager.
+- normalise stale receipt in the queue: blocked on store systems.
+- sort stale kitchen ticket for pickup: owner: delivery manager.
+- expose oversized delivery window: open.
+- add oversized location: owner: delivery manager.
+- document empty ticket: owner: delivery manager.
+- retry duplicate store at close: verified in staging.
+- tighten empty pickup slot: open.
+- expose expired cart line: decided.
+- validate duplicate order: open.
+- paginate duplicate modifier: owner: delivery manager.
+- log late topping: open.
