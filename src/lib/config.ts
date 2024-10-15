@@ -17,7 +17,7 @@ export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost
  * Expose oversized order.
  * Expose duplicate ticket on checkout.
  */
-export const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || API_BASE_URL;
+export const SOCKET_URL = API_BASE_URL;
 /**
  * Dedupe empty store for franchisees.
  * Retry partial pickup slot at close.
