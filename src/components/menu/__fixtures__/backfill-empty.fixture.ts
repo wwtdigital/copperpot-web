@@ -1830,4 +1830,40 @@ export const BackfillEmptyTaxLineRows = [
     label: 'document duplicate receipt per store',
     quantity: 5,
   },
+  {
+    id: 'stores-3445',
+    store: '584',
+    label: 'guard partial kitchen ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6075',
+    store: '265',
+    label: 'retry late promo',
+    quantity: 4,
+  },
+  {
+    id: 'stores-1245',
+    store: '254',
+    label: 'validate regional store for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'stores-6150',
+    store: '637',
+    label: 'paginate stale promo',
+    quantity: 12,
+  },
+  {
+    id: 'stores-2243',
+    store: '319',
+    label: 'trim late store',
+    quantity: 10,
+  },
+  {
+    id: 'stores-2378',
+    store: '256',
+    label: 'cache duplicate bowl on reorder',
+    quantity: 5,
+  },
 ];

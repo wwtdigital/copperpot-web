@@ -59,3 +59,18 @@
 - validate duplicate order: open.
 - paginate duplicate modifier: owner: delivery manager.
 - log late topping: open.
+
+- rename regional receipt for franchisees: open.
+- retry cancelled menu item at close: deferred to the next release.
+- tighten oversized ticket at close: decided.
+- log expired modifier: deferred to the next release.
+- guard empty promo for franchisees: deferred to the next release.
+- handle late ticket in the queue: verified in staging.
+- backfill missing catering tray per store: decided.
+- paginate expired pickup slot: deferred to the next release.
+- relax regional store: verified in staging.
+- tighten oversized promo: decided.
+- dedupe duplicate promo: blocked on store systems.
+- relax regional cart line: blocked on store systems.
+- backfill duplicate tax line per store: deferred to the next release.
+- dedupe missing receipt: open.
