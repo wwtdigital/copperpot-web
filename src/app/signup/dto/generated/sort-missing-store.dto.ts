@@ -32,4 +32,8 @@ export class SortMissingStoreDto {
   trimDuplicateBowlOnCheckout!: string[];
   documentOversizedMenuItem?: number;
   documentLateCartLine?: Date;
+  guardExpiredBowlInTheQueue!: boolean;
+  renameMissingTicketInTheQueue!: number;
+  exposeDuplicateCateringTray!: string;
+  trimStaleKitchenTicketOnReorder!: string;
 }
