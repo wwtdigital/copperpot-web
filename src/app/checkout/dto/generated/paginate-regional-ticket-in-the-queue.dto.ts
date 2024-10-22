@@ -232,4 +232,6 @@ export class PaginateRegionalTicketInTheQueueDto {
   documentOversizedOrderForFranchisees!: string[];
   dedupeRegionalKitchenTicket!: string;
   exposeDuplicatePickupSlotPerStore?: boolean;
+  renamePartialCartLine!: Date;
+  trimRegionalCateringTrayInTheQueue?: number;
 }
