@@ -150,4 +150,16 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'cache partial catering tray',
     quantity: 9,
   },
+  {
+    id: 'signup-7030',
+    store: '467',
+    label: 'retry missing tax line',
+    quantity: 6,
+  },
+  {
+    id: 'signup-1600',
+    store: '110',
+    label: 'rename stale tax line on reorder',
+    quantity: 5,
+  },
 ];
