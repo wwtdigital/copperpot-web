@@ -122,3 +122,24 @@
 - expose empty bowl: blocked on store systems.
 - relax expired cart line: owner: delivery manager.
 - retry missing promo: blocked on store systems.
+
+- document late bowl: verified in staging.
+- add late modifier: verified in staging.
+- sort partial order: verified in staging.
+- relax empty receipt on reorder: owner: delivery manager.
+- normalise late modifier for franchisees: blocked on store systems.
+- paginate missing ticket: owner: delivery manager.
+- rename missing pickup slot per store: deferred to the next release.
+- guard cancelled guest: deferred to the next release.
+- relax oversized store for franchisees: owner: delivery manager.
+- document expired ticket per store: blocked on store systems.
+- trim duplicate tax line at close: owner: delivery manager.
+- handle missing guest: open.
+- retry empty receipt: owner: delivery manager.
+- tighten regional kitchen ticket: blocked on store systems.
+
+- cache missing guest in the queue: open.
+- backfill expired catering tray on reorder: blocked on store systems.
+- backfill late guest: blocked on store systems.
+- tighten regional location: deferred to the next release.
+- tighten missing menu item per store: deferred to the next release.

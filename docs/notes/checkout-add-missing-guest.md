@@ -59,3 +59,18 @@
 - normalise stale promo: open.
 - rename partial cart line: deferred to the next release.
 - normalise expired location: owner: delivery manager.
+
+- handle cancelled topping: verified in staging.
+- relax late ticket: open.
+- expose duplicate pickup slot: decided.
+- sort empty ticket: verified in staging.
+- log regional kitchen ticket in the queue: verified in staging.
+- paginate stale bowl: verified in staging.
+- sort empty tax line: verified in staging.
+- validate partial delivery window: verified in staging.
+- dedupe oversized loyalty credit: verified in staging.
+- validate oversized tax line on reorder: owner: delivery manager.
+- document missing topping: deferred to the next release.
+- validate expired cart line: decided.
+- retry missing bowl: verified in staging.
+- normalise cancelled kitchen ticket for franchisees: blocked on store systems.

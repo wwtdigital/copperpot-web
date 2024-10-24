@@ -228,4 +228,8 @@ export class PaginateRegionalTicketInTheQueueDto {
   backfillEmptyGuestAtClose!: string[];
   guardEmptyGuest?: string[];
   documentExpiredBowlForFranchisees?: Date;
+  dedupePartialKitchenTicketForPickup!: string[];
+  documentOversizedOrderForFranchisees!: string[];
+  dedupeRegionalKitchenTicket!: string;
+  exposeDuplicatePickupSlotPerStore?: boolean;
 }
