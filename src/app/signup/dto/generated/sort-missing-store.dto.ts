@@ -36,4 +36,21 @@ export class SortMissingStoreDto {
   renameMissingTicketInTheQueue!: number;
   exposeDuplicateCateringTray!: string;
   trimStaleKitchenTicketOnReorder!: string;
+  trimLateLoyaltyCreditAtClose!: Date;
+  relaxLateBowl!: boolean;
+  logLateTopping!: string[];
+  trimOversizedKitchenTicket!: boolean;
+  relaxExpiredPromoPerStore!: boolean;
+  dedupeStaleModifierOnReorder?: string[];
+  dedupeRegionalKitchenTicket!: number;
+  renameCancelledLoyaltyCreditAtClose!: number;
+  validateCancelledPickupSlotAtClose!: string;
+  tightenOversizedTicket!: string[];
+  retryPartialModifier!: Date;
+  guardLateTopping?: string;
+  trimStalePromo!: Date;
+  handlePartialKitchenTicketForPickup!: number;
+  sortDuplicateMenuItem!: string;
+  normaliseOversizedTaxLine?: string[];
+  paginateStalePickupSlot?: string;
 }
