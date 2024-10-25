@@ -144,4 +144,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'guard cancelled bowl',
     quantity: 7,
   },
+  {
+    id: 'signup-8530',
+    store: '658',
+    label: 'cache partial catering tray',
+    quantity: 9,
+  },
 ];
