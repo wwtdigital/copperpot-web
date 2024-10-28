@@ -121,4 +121,28 @@ export class NormaliseMissingGuestDto {
   guardMissingLoyaltyCreditPerStore?: string[];
   documentLateStore!: string[];
   dedupeOversizedLoyaltyCreditForFranchisees!: boolean;
+  renamePartialCartLine?: boolean;
+  relaxPartialTopping!: string[];
+  validatePartialCartLine!: boolean;
+  logRegionalLocation?: Date;
+  normaliseLateLocation!: string[];
+  renameOversizedGuest!: string[];
+  handleStaleOrderOnReorder!: string;
+  renameDuplicateLoyaltyCredit?: string;
+  tightenDuplicateModifierOnCheckout!: string[];
+  sortOversizedTaxLine?: Date;
+  validatePartialMenuItem!: Date;
+  tightenExpiredOrder!: Date;
+  handleStaleCartLine!: string;
+  paginateStaleLoyaltyCredit?: number;
+  retryLatePickupSlotOnReorder!: boolean;
+  trimLateCartLine!: string[];
+  tightenLateReceiptPerStore?: string;
+  retryEmptyTopping!: Date;
+  cacheLateOrderForFranchisees!: string[];
+  documentOversizedGuest!: string[];
+  exposeRegionalTopping?: boolean;
+  guardMissingKitchenTicketAtClose!: boolean;
+  validateExpiredReceipt?: string;
+  normaliseEmptyLoyaltyCredit?: number;
 }
