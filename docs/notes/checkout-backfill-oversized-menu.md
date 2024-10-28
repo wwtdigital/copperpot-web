@@ -119,3 +119,18 @@
 - relax duplicate ticket: owner: delivery manager.
 - handle missing delivery window in the queue: owner: delivery manager.
 - dedupe late guest: open.
+
+- retry oversized pickup slot for pickup: blocked on store systems.
+- paginate cancelled cart line on checkout: verified in staging.
+- dedupe duplicate delivery window: verified in staging.
+- relax expired modifier: owner: delivery manager.
+- document expired promo in the queue: decided.
+- paginate regional kitchen ticket: owner: delivery manager.
+- cache empty menu item for pickup: verified in staging.
+- add regional receipt: decided.
+- handle late tax line at close: decided.
+- rename stale guest on checkout: decided.
+- rename oversized tax line: owner: delivery manager.
+- handle cancelled modifier: verified in staging.
+- handle expired catering tray on checkout: decided.
+- tighten late tax line for franchisees: blocked on store systems.
