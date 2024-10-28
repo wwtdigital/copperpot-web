@@ -726,4 +726,28 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'paginate duplicate loyalty credit per store',
     quantity: 9,
   },
+  {
+    id: 'layout-8360',
+    store: '263',
+    label: 'log late modifier',
+    quantity: 5,
+  },
+  {
+    id: 'layout-1640',
+    store: '612',
+    label: 'handle duplicate guest at close',
+    quantity: 6,
+  },
+  {
+    id: 'layout-9931',
+    store: '291',
+    label: 'cache oversized menu item at close',
+    quantity: 3,
+  },
+  {
+    id: 'layout-1513',
+    store: '544',
+    label: 'add missing topping for franchisees',
+    quantity: 2,
+  },
 ];
