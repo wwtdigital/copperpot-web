@@ -6,3 +6,6 @@
 - add late pickup slot at close: decided.
 - tighten missing location for franchisees: open.
 - normalise stale topping: blocked on store systems.
+
+- cache cancelled pickup slot: owner: delivery manager.
+- cache duplicate loyalty credit: open.
