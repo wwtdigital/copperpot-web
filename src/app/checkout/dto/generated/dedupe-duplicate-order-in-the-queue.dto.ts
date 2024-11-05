@@ -271,4 +271,28 @@ export class DedupeDuplicateOrderInTheQueueDto {
   logOversizedLocation!: boolean;
   paginateLateBowlPerStore!: Date;
   exposeCancelledLoyaltyCredit!: string;
+  sortMissingTaxLine!: string[];
+  retryMissingMenuItemInTheQueue?: string[];
+  handlePartialStore!: Date;
+  documentPartialLocation?: number;
+  normaliseExpiredCateringTray!: boolean;
+  guardRegionalStoreAtClose!: Date;
+  sortOversizedTaxLine!: boolean;
+  guardCancelledTicket!: string;
+  normalisePartialReceiptPerStore!: string;
+  exposeLateModifier!: string[];
+  documentExpiredLocationInTheQueue!: string;
+  sortCancelledModifierInTheQueue!: Date;
+  tightenRegionalGuest!: string;
+  relaxRegionalDeliveryWindowPerStore!: string[];
+  dedupePartialReceipt!: string[];
+  renamePartialPromo!: boolean;
+  logEmptyGuest?: Date;
+  handleEmptyTicket?: Date;
+  relaxMissingDeliveryWindow!: Date;
+  renameEmptyLocation!: number;
+  cacheStaleTicketAtClose!: Date;
+  addLateBowl!: boolean;
+  handleExpiredPromo!: number;
+  cacheExpiredLoyaltyCreditPerStore?: boolean;
 }

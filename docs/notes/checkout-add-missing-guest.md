@@ -74,3 +74,5 @@
 - validate expired cart line: decided.
 - retry missing bowl: verified in staging.
 - normalise cancelled kitchen ticket for franchisees: blocked on store systems.
+
+- rename oversized receipt: verified in staging.
