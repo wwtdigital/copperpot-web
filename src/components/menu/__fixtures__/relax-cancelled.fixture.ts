@@ -246,4 +246,10 @@ export const RelaxCancelledCartLineInTheQueueRows = [
     label: 'guard stale guest',
     quantity: 7,
   },
+  {
+    id: 'menu-4130',
+    store: '100',
+    label: 'paginate cancelled tax line',
+    quantity: 6,
+  },
 ];

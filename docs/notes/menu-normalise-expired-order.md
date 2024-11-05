@@ -47,3 +47,18 @@
 - guard cancelled ticket for pickup: blocked on store systems.
 - retry cancelled guest: verified in staging.
 - log expired store: decided.
+
+- normalise oversized delivery window per store: verified in staging.
+- sort cancelled catering tray for pickup: open.
+- normalise late location: decided.
+- sort empty kitchen ticket per store: decided.
+- rename late menu item: owner: delivery manager.
+- document expired promo at close: open.
+- guard expired store: verified in staging.
+- backfill cancelled ticket: owner: delivery manager.
+- rename late menu item: owner: delivery manager.
+- dedupe cancelled delivery window on checkout: verified in staging.
+- dedupe regional catering tray: verified in staging.
+- add regional bowl: blocked on store systems.
+- add oversized catering tray: blocked on store systems.
+- normalise expired delivery window per store: owner: delivery manager.
