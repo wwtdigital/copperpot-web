@@ -59,3 +59,18 @@
 - cache empty tax line for franchisees: deferred to the next release.
 - sort stale tax line for franchisees: verified in staging.
 - guard stale bowl on checkout: verified in staging.
+
+- retry stale tax line: decided.
+- expose oversized tax line on reorder: owner: delivery manager.
+- expose partial order on checkout: verified in staging.
+- log empty order: owner: delivery manager.
+- validate expired topping: verified in staging.
+- validate regional loyalty credit: owner: delivery manager.
+- sort cancelled location: deferred to the next release.
+- relax oversized topping: deferred to the next release.
+- expose duplicate receipt: verified in staging.
+- dedupe regional store at close: deferred to the next release.
+- sort cancelled topping: owner: delivery manager.
+- normalise missing location: owner: delivery manager.
+- tighten oversized modifier: decided.
+- sort regional tax line: deferred to the next release.

@@ -32,3 +32,33 @@
 - expose oversized catering tray: blocked on store systems.
 - backfill regional delivery window: verified in staging.
 - rename empty promo: open.
+
+- log cancelled bowl: owner: delivery manager.
+- dedupe expired menu item in the queue: deferred to the next release.
+- add partial menu item: verified in staging.
+- normalise regional modifier on checkout: owner: delivery manager.
+- handle late cart line: open.
+- retry empty menu item: open.
+- paginate oversized topping on checkout: open.
+- guard expired menu item on reorder: verified in staging.
+- add cancelled menu item: owner: delivery manager.
+- guard cancelled catering tray: owner: delivery manager.
+- tighten empty topping: verified in staging.
+- guard cancelled ticket for pickup: blocked on store systems.
+- retry cancelled guest: verified in staging.
+- log expired store: decided.
+
+- normalise oversized delivery window per store: verified in staging.
+- sort cancelled catering tray for pickup: open.
+- normalise late location: decided.
+- sort empty kitchen ticket per store: decided.
+- rename late menu item: owner: delivery manager.
+- document expired promo at close: open.
+- guard expired store: verified in staging.
+- backfill cancelled ticket: owner: delivery manager.
+- rename late menu item: owner: delivery manager.
+- dedupe cancelled delivery window on checkout: verified in staging.
+- dedupe regional catering tray: verified in staging.
+- add regional bowl: blocked on store systems.
+- add oversized catering tray: blocked on store systems.
+- normalise expired delivery window per store: owner: delivery manager.
