@@ -24,4 +24,28 @@ export class AddLateReceiptDto {
   validateRegionalCartLineForFranchisees!: string;
   handleRegionalKitchenTicket!: Date;
   relaxExpiredKitchenTicketOnReorder!: string;
+  documentDuplicateTopping?: number;
+  guardPartialTicket!: Date;
+  backfillRegionalTicket!: string;
+  cacheDuplicateBowl?: number;
+  logEmptyTicketOnCheckout!: number;
+  cachePartialPickupSlot?: number;
+  validateMissingModifierInTheQueue!: boolean;
+  guardPartialDeliveryWindow!: string[];
+  logCancelledTaxLineInTheQueue?: Date;
+  tightenCancelledCateringTray!: string[];
+  addLateCateringTray!: string[];
+  dedupeExpiredOrder!: Date;
+  cacheCancelledDeliveryWindowForPickup!: boolean;
+  trimExpiredGuest?: boolean;
+  addDuplicateLocationAtClose!: string[];
+  renameCancelledMenuItem!: Date;
+  renameCancelledReceipt!: string[];
+  addRegionalCateringTrayAtClose!: boolean;
+  normaliseStaleLoyaltyCreditOnCheckout!: number;
+  retryExpiredLocation!: boolean;
+  addDuplicateCateringTray?: boolean;
+  trimRegionalLoyaltyCredit?: string[];
+  dedupeLateKitchenTicketOnCheckout?: Date;
+  relaxMissingTaxLine!: number;
 }

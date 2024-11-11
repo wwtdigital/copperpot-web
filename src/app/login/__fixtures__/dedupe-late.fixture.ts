@@ -60,4 +60,10 @@ export const DedupeLateReceiptRows = [
     label: 'trim regional promo',
     quantity: 12,
   },
+  {
+    id: 'kiosk-3672',
+    store: '432',
+    label: 'add oversized cart line',
+    quantity: 5,
+  },
 ];

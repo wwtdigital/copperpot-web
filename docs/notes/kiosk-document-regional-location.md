@@ -147,3 +147,5 @@
 - sort empty pickup slot: owner: delivery manager.
 - relax expired kitchen ticket: verified in staging.
 - sort empty guest: open.
+
+- rename cancelled modifier: open.
