@@ -50,4 +50,11 @@ export class ValidateMissingPickupSlotOnReorderDto {
   logStaleToppingAtClose!: number;
   relaxDuplicateReceipt?: Date;
   guardExpiredGuestForPickup?: number;
+  handleEmptyPromoForFranchisees?: string[];
+  relaxEmptyTaxLine!: boolean;
+  dedupeMissingTaxLine!: string[];
+  exposePartialMenuItemForPickup!: boolean;
+  exposeCancelledModifier!: string[];
+  tightenRegionalStore?: boolean;
+  handleMissingStore!: number;
 }

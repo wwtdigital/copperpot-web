@@ -29,4 +29,19 @@ export class BackfillOversizedReceiptOnReorderDto {
   normaliseLateTopping?: number;
   paginateExpiredDeliveryWindowInTheQueue?: boolean;
   logMissingKitchenTicketOnReorder!: Date;
+  exposeStaleStoreOnCheckout!: boolean;
+  cacheStaleLoyaltyCredit!: boolean;
+  paginateOversizedGuest!: string[];
+  dedupeMissingLoyaltyCredit?: string;
+  tightenRegionalOrderForPickup?: Date;
+  normaliseCancelledTaxLine?: string;
+  paginateEmptyBowl?: Date;
+  normaliseStaleModifier!: string;
+  renameDuplicateOrder!: string[];
+  sortOversizedGuestInTheQueue!: Date;
+  validateCancelledLoyaltyCredit?: string;
+  addStaleKitchenTicket!: string;
+  relaxLateCartLine!: Date;
+  cacheDuplicateKitchenTicketForPickup?: boolean;
+  exposeLateBowlOnReorder!: Date;
 }
