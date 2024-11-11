@@ -198,4 +198,10 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'trim stale loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'layout-8550',
+    store: '628',
+    label: 'log cancelled cart line for pickup',
+    quantity: 5,
+  },
 ];
