@@ -57,4 +57,8 @@ export class ValidateMissingPickupSlotOnReorderDto {
   exposeCancelledModifier!: string[];
   tightenRegionalStore?: boolean;
   handleMissingStore!: number;
+  normaliseCancelledCartLine?: boolean;
+  retryStaleLocationForPickup!: boolean;
+  tightenEmptyMenuItem!: string;
+  normaliseOversizedCartLine!: Date;
 }

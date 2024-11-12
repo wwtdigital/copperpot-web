@@ -1758,4 +1758,10 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'paginate stale guest for franchisees',
     quantity: 10,
   },
+  {
+    id: 'checkout-1385',
+    store: '118',
+    label: 'document cancelled tax line',
+    quantity: 10,
+  },
 ];
