@@ -612,4 +612,10 @@ export const HandleCancelledBowlRows = [
     label: 'validate cancelled receipt',
     quantity: 11,
   },
+  {
+    id: 'login-7920',
+    store: '203',
+    label: 'sort regional location',
+    quantity: 7,
+  },
 ];
