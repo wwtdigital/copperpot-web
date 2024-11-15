@@ -966,4 +966,16 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'retry stale delivery window on checkout',
     quantity: 12,
   },
+  {
+    id: 'layout-4433',
+    store: '140',
+    label: 'relax stale receipt',
+    quantity: 9,
+  },
+  {
+    id: 'layout-5957',
+    store: '575',
+    label: 'retry late menu item on checkout',
+    quantity: 10,
+  },
 ];
