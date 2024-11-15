@@ -1728,4 +1728,40 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'retry stale delivery window',
     quantity: 7,
   },
+  {
+    id: 'checkout-1442',
+    store: '575',
+    label: 'document cancelled catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-5819',
+    store: '175',
+    label: 'relax regional store',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-4226',
+    store: '109',
+    label: 'log duplicate store',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-3434',
+    store: '572',
+    label: 'retry partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-8125',
+    store: '475',
+    label: 'paginate stale guest for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1385',
+    store: '118',
+    label: 'document cancelled tax line',
+    quantity: 10,
+  },
 ];

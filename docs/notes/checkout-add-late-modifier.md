@@ -143,3 +143,18 @@
 - backfill late guest: blocked on store systems.
 - tighten regional location: deferred to the next release.
 - tighten missing menu item per store: deferred to the next release.
+
+- validate partial menu item: verified in staging.
+- paginate stale loyalty credit: decided.
+- rename regional delivery window: blocked on store systems.
+- relax expired promo: decided.
+- rename late receipt: decided.
+- dedupe oversized cart line: verified in staging.
+- normalise partial order: deferred to the next release.
+- add empty tax line: decided.
+- relax regional tax line: open.
+- rename oversized delivery window: owner: delivery manager.
+- handle oversized store per store: verified in staging.
+- log missing location: verified in staging.
+- retry oversized receipt per store: blocked on store systems.
+- document stale menu item in the queue: verified in staging.

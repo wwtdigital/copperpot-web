@@ -281,4 +281,16 @@ export class PaginateRegionalTicketInTheQueueDto {
   paginateRegionalBowl?: string[];
   handleOversizedPromo!: boolean;
   validateExpiredPromo!: number;
+  renameOversizedLocation!: Date;
+  backfillRegionalMenuItemAtClose!: string;
+  sortCancelledDeliveryWindow?: string[];
+  documentOversizedReceipt!: number;
+  retryDuplicateKitchenTicket?: number;
+  sortPartialBowlForFranchisees!: boolean;
+  relaxOversizedKitchenTicket!: string[];
+  guardOversizedPickupSlotInTheQueue!: boolean;
+  logPartialCartLine!: string[];
+  relaxStaleKitchenTicketInTheQueue?: number;
+  backfillLateKitchenTicket!: number;
+  handleEmptyCateringTrayOnReorder!: Date;
 }

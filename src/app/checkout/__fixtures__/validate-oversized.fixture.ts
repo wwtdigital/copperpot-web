@@ -1080,4 +1080,16 @@ export const ValidateOversizedMenuItemRows = [
     label: 'add stale cart line at close',
     quantity: 12,
   },
+  {
+    id: 'checkout-9887',
+    store: '440',
+    label: 'guard late location per store',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-8921',
+    store: '522',
+    label: 'expose duplicate topping',
+    quantity: 8,
+  },
 ];
