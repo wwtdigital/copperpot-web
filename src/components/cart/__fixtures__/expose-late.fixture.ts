@@ -84,4 +84,10 @@ export const ExposeLateReceiptAtCloseRows = [
     label: 'tighten stale guest on reorder',
     quantity: 5,
   },
+  {
+    id: 'cart-1020',
+    store: '368',
+    label: 'normalise regional order for franchisees',
+    quantity: 2,
+  },
 ];

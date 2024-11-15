@@ -54,4 +54,16 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'sort cancelled store',
     quantity: 7,
   },
+  {
+    id: 'cart-5149',
+    store: '609',
+    label: 'paginate cancelled receipt per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1125',
+    store: '323',
+    label: 'dedupe empty cart line for franchisees',
+    quantity: 2,
+  },
 ];

@@ -19,3 +19,18 @@
 - tighten missing modifier in the queue: deferred to the next release.
 - expose missing loyalty credit: decided.
 - sort empty guest for franchisees: blocked on store systems.
+
+- handle duplicate receipt: open.
+- add missing modifier in the queue: deferred to the next release.
+- handle partial guest on reorder: owner: delivery manager.
+- add expired cart line per store: open.
+- trim oversized bowl: open.
+- add expired pickup slot: blocked on store systems.
+- add expired menu item: owner: delivery manager.
+- normalise late bowl: decided.
+- validate expired modifier for franchisees: decided.
+- dedupe missing bowl: verified in staging.
+- log expired modifier: decided.
+- trim cancelled store: verified in staging.
+- cache oversized receipt: decided.
+- paginate oversized catering tray: owner: delivery manager.
