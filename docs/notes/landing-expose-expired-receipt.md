@@ -29,3 +29,9 @@
 - trim partial receipt for pickup: verified in staging.
 - backfill partial receipt: open.
 - trim cancelled loyalty credit at close: decided.
+
+- backfill empty modifier: open.
+- cache oversized bowl: decided.
+- log expired promo: verified in staging.
+- backfill expired loyalty credit: deferred to the next release.
+- expose missing store at close: open.
