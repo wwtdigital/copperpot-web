@@ -47,4 +47,23 @@ export class CacheOversizedReceiptDto {
   cacheEmptyTopping!: string;
   sortDuplicateKitchenTicketForPickup?: Date;
   cachePartialTopping!: number;
+  tightenMissingTicket!: string;
+  cacheLateTopping!: Date;
+  cacheDuplicateReceipt!: string[];
+  dedupePartialPickupSlotForPickup!: number;
+  renamePartialCateringTray?: string;
+  exposeExpiredTaxLineOnReorder!: Date;
+  retryPartialCartLine!: string[];
+  addOversizedDeliveryWindow?: boolean;
+  relaxMissingTicket?: string;
+  normaliseOversizedTaxLineForPickup!: boolean;
+  exposeMissingLocation?: string;
+  normaliseDuplicateModifierInTheQueue!: string;
+  tightenEmptyLoyaltyCreditForFranchisees!: number;
+  addCancelledPickupSlotOnCheckout!: boolean;
+  guardEmptyToppingOnCheckout!: string;
+  addEmptyLoyaltyCredit!: Date;
+  sortOversizedGuest!: string;
+  relaxCancelledGuest?: string;
+  renameLateTopping?: number;
 }
