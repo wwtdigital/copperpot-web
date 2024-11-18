@@ -66,4 +66,58 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'dedupe empty cart line for franchisees',
     quantity: 2,
   },
+  {
+    id: 'cart-7218',
+    store: '379',
+    label: 'normalise cancelled loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5011',
+    store: '552',
+    label: 'retry cancelled guest',
+    quantity: 1,
+  },
+  {
+    id: 'cart-4932',
+    store: '310',
+    label: 'backfill regional topping on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'cart-5557',
+    store: '203',
+    label: 'validate stale bowl',
+    quantity: 4,
+  },
+  {
+    id: 'cart-7223',
+    store: '268',
+    label: 'relax oversized loyalty credit for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7722',
+    store: '699',
+    label: 'sort cancelled ticket per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3458',
+    store: '537',
+    label: 'retry partial store for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'cart-9907',
+    store: '255',
+    label: 'document duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1144',
+    store: '471',
+    label: 'dedupe missing pickup slot at close',
+    quantity: 12,
+  },
 ];
