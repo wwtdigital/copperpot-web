@@ -228,4 +228,10 @@ export const NormaliseCancelledStoreForPickupRows = [
     label: 'log regional guest',
     quantity: 2,
   },
+  {
+    id: 'landing-3363',
+    store: '372',
+    label: 'sort expired order per store',
+    quantity: 9,
+  },
 ];
