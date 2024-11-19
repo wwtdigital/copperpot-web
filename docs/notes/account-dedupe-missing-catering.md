@@ -19,3 +19,18 @@
 - dedupe stale loyalty credit: open.
 - handle partial bowl: open.
 - document empty topping: decided.
+
+- expose missing store: blocked on store systems.
+- validate regional cart line: owner: delivery manager.
+- trim late topping on checkout: verified in staging.
+- cache cancelled ticket: verified in staging.
+- retry regional tax line: deferred to the next release.
+- document missing pickup slot: owner: delivery manager.
+- retry expired order: owner: delivery manager.
+- rename regional guest at close: owner: delivery manager.
+- document cancelled catering tray for pickup: open.
+- dedupe cancelled menu item for pickup: owner: delivery manager.
+- document missing location: decided.
+- normalise oversized modifier: deferred to the next release.
+- sort duplicate promo: open.
+- retry late cart line: owner: delivery manager.
