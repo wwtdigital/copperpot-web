@@ -1,0 +1,123 @@
+/* Fixture rows for cart tests: sort late receipt in the queue. Generated data, not production data. */
+export const SortLateReceiptInTheQueueRows = [
+  {
+    id: 'cart-8612',
+    store: '112',
+    label: 'guard stale delivery window in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4976',
+    store: '338',
+    label: 'validate empty order',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1893',
+    store: '558',
+    label: 'dedupe partial guest per store',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3720',
+    store: '154',
+    label: 'normalise empty loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5612',
+    store: '666',
+    label: 'log cancelled pickup slot per store',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4616',
+    store: '560',
+    label: 'dedupe missing menu item',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9669',
+    store: '473',
+    label: 'tighten partial pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9797',
+    store: '372',
+    label: 'retry partial order',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9208',
+    store: '112',
+    label: 'sort cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5149',
+    store: '609',
+    label: 'paginate cancelled receipt per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1125',
+    store: '323',
+    label: 'dedupe empty cart line for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'cart-7218',
+    store: '379',
+    label: 'normalise cancelled loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5011',
+    store: '552',
+    label: 'retry cancelled guest',
+    quantity: 1,
+  },
+  {
+    id: 'cart-4932',
+    store: '310',
+    label: 'backfill regional topping on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'cart-5557',
+    store: '203',
+    label: 'validate stale bowl',
+    quantity: 4,
+  },
+  {
+    id: 'cart-7223',
+    store: '268',
+    label: 'relax oversized loyalty credit for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7722',
+    store: '699',
+    label: 'sort cancelled ticket per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3458',
+    store: '537',
+    label: 'retry partial store for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'cart-9907',
+    store: '255',
+    label: 'document duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1144',
+    store: '471',
+    label: 'dedupe missing pickup slot at close',
+    quantity: 12,
+  },
+];
