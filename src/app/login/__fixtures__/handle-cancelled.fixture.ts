@@ -618,4 +618,34 @@ export const HandleCancelledBowlRows = [
     label: 'sort regional location',
     quantity: 7,
   },
+  {
+    id: 'login-1433',
+    store: '483',
+    label: 'relax cancelled ticket',
+    quantity: 8,
+  },
+  {
+    id: 'login-3652',
+    store: '191',
+    label: 'cache partial promo',
+    quantity: 5,
+  },
+  {
+    id: 'login-3968',
+    store: '436',
+    label: 'sort missing store',
+    quantity: 12,
+  },
+  {
+    id: 'login-8199',
+    store: '413',
+    label: 'retry stale cart line',
+    quantity: 6,
+  },
+  {
+    id: 'login-1162',
+    store: '406',
+    label: 'cache regional tax line per store',
+    quantity: 2,
+  },
 ];
