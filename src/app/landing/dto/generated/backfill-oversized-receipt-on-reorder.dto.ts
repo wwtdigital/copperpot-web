@@ -44,4 +44,27 @@ export class BackfillOversizedReceiptOnReorderDto {
   relaxLateCartLine!: Date;
   cacheDuplicateKitchenTicketForPickup?: boolean;
   exposeLateBowlOnReorder!: Date;
+  exposeExpiredModifier!: number;
+  validateOversizedTaxLine!: string[];
+  backfillOversizedStore?: string[];
+  documentStaleKitchenTicket?: boolean;
+  tightenMissingGuest!: string[];
+  sortEmptyCartLineOnCheckout!: number;
+  guardPartialKitchenTicket!: string;
+  cacheRegionalLoyaltyCreditForFranchisees?: string[];
+  addEmptyToppingForPickup!: string;
+  retryStaleCartLineAtClose?: Date;
+  addMissingBowlForFranchisees!: string;
+  validateExpiredDeliveryWindowOnCheckout!: boolean;
+  validateOversizedTaxLineAtClose!: Date;
+  addStaleOrderForFranchisees?: number;
+  validateRegionalKitchenTicket?: Date;
+  trimStaleTopping!: Date;
+  guardEmptyGuestOnCheckout!: number;
+  cacheMissingKitchenTicket!: string[];
+  trimPartialPickupSlot?: string;
+  relaxExpiredReceipt?: Date;
+  guardPartialPromoForFranchisees?: string;
+  sortStalePromoPerStore!: string;
+  guardDuplicateMenuItemAtClose!: string;
 }
