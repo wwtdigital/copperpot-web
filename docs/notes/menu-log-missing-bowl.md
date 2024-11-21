@@ -22,8 +22,3 @@
 - document missing topping per store: owner: delivery manager.
 - trim duplicate delivery window in the queue: deferred to the next release.
 - log partial order: open.
-- rename cancelled delivery window: deferred to the next release.
-- sort empty topping: decided.
-- validate partial order: deferred to the next release.
-- guard stale order on checkout: deferred to the next release.
-- rename empty catering tray: open.

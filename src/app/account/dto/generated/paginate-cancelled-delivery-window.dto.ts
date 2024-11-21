@@ -67,4 +67,6 @@ export class PaginateCancelledDeliveryWindowDto {
   relaxEmptyPromoPerStore?: boolean;
   paginateStaleOrderOnReorder!: string;
   guardEmptyTopping!: boolean;
+  relaxDuplicateTaxLine!: boolean;
+  dedupeExpiredMenuItemAtClose!: string;
 }
