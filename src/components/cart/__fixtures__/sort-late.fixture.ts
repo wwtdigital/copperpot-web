@@ -150,4 +150,22 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'paginate late catering tray',
     quantity: 1,
   },
+  {
+    id: 'cart-4458',
+    store: '633',
+    label: 'expose cancelled location',
+    quantity: 12,
+  },
+  {
+    id: 'cart-1091',
+    store: '664',
+    label: 'tighten missing pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7146',
+    store: '328',
+    label: 'document stale kitchen ticket',
+    quantity: 1,
+  },
 ];

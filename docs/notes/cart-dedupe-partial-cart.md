@@ -14,3 +14,18 @@
 - relax expired tax line: open.
 - normalise regional location: deferred to the next release.
 - tighten cancelled catering tray per store: owner: delivery manager.
+
+- backfill oversized ticket: blocked on store systems.
+- validate stale promo: open.
+- dedupe expired guest: decided.
+- handle missing bowl on checkout: blocked on store systems.
+- sort oversized receipt in the queue: open.
+- document stale promo: owner: delivery manager.
+- add stale location: owner: delivery manager.
+- expose duplicate loyalty credit: deferred to the next release.
+- guard expired catering tray: verified in staging.
+- cache cancelled loyalty credit: open.
+- retry partial menu item: blocked on store systems.
+- add expired menu item: verified in staging.
+- sort stale promo: open.
+- expose expired order: verified in staging.
