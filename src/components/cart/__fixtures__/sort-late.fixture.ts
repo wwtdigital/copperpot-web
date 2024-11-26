@@ -120,4 +120,34 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'dedupe missing pickup slot at close',
     quantity: 12,
   },
+  {
+    id: 'cart-8955',
+    store: '140',
+    label: 'document partial loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'cart-5250',
+    store: '459',
+    label: 'rename missing delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'cart-3268',
+    store: '223',
+    label: 'guard missing loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5787',
+    store: '281',
+    label: 'tighten oversized kitchen ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1253',
+    store: '242',
+    label: 'paginate late catering tray',
+    quantity: 1,
+  },
 ];
