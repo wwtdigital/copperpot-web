@@ -169,4 +169,26 @@ export class NormaliseMissingGuestDto {
   retryOversizedBowl!: number;
   backfillPartialDeliveryWindow!: string[];
   logPartialPickupSlot!: Date;
+  guardLateStorePerStore!: boolean;
+  handlePartialTaxLineInTheQueue!: string[];
+  addDuplicateMenuItemOnCheckout!: string[];
+  addEmptyCartLine!: number;
+  documentLateMenuItemOnCheckout!: boolean;
+  dedupeExpiredTicket!: number;
+  exposeCancelledReceipt!: string;
+  tightenStaleTaxLine!: boolean;
+  normalisePartialKitchenTicket!: number;
+  dedupeRegionalCartLine!: number;
+  normalisePartialOrderForPickup?: number;
+  guardEmptyDeliveryWindowForFranchisees!: boolean;
+  guardRegionalStore?: boolean;
+  addMissingTicketAtClose!: Date;
+  exposeMissingMenuItemOnCheckout?: number;
+  renameRegionalPromoForPickup?: Date;
+  renameExpiredCateringTrayForPickup!: string[];
+  relaxEmptyMenuItem!: Date;
+  addEmptyCateringTray?: string[];
+  trimCancelledReceipt?: boolean;
+  retryRegionalPickupSlotPerStore!: number;
+  renameOversizedTaxLineForPickup!: string[];
 }
