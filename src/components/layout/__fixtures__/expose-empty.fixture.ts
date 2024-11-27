@@ -306,4 +306,10 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'normalise partial tax line in the queue',
     quantity: 3,
   },
+  {
+    id: 'layout-7929',
+    store: '132',
+    label: 'log regional tax line',
+    quantity: 2,
+  },
 ];

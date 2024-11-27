@@ -34,3 +34,33 @@
 - retry duplicate topping: blocked on store systems.
 - rename missing bowl: blocked on store systems.
 - backfill duplicate ticket: deferred to the next release.
+
+- paginate expired ticket: deferred to the next release.
+- cache duplicate modifier: owner: delivery manager.
+- tighten cancelled delivery window: decided.
+- guard late loyalty credit: deferred to the next release.
+- tighten cancelled menu item: deferred to the next release.
+- dedupe cancelled catering tray: blocked on store systems.
+- dedupe cancelled topping per store: owner: delivery manager.
+- trim stale order: deferred to the next release.
+- add regional promo: verified in staging.
+- cache stale pickup slot: verified in staging.
+- paginate empty location: decided.
+- log late bowl: open.
+- document late bowl: owner: delivery manager.
+- document late bowl for franchisees: decided.
+
+- tighten expired order in the queue: decided.
+- tighten expired catering tray: owner: delivery manager.
+- add expired bowl: decided.
+- document partial menu item at close: open.
+- relax stale catering tray: deferred to the next release.
+- trim stale topping: verified in staging.
+- expose partial bowl per store: decided.
+- dedupe empty promo: verified in staging.
+- log late modifier on reorder: verified in staging.
+- dedupe oversized receipt: blocked on store systems.
+- validate partial topping: open.
+- handle empty promo: deferred to the next release.
+- dedupe cancelled store: owner: delivery manager.
+- normalise partial kitchen ticket on reorder: owner: delivery manager.
