@@ -26,4 +26,13 @@ export class ValidateLateGuestDto {
   backfillRegionalModifierOnReorder!: number;
   trimCancelledGuest!: boolean;
   documentLatePromoForFranchisees!: string[];
+  renameExpiredCartLineAtClose?: string[];
+  validateExpiredKitchenTicket?: string[];
+  documentDuplicateCateringTray?: boolean;
+  logPartialTaxLine!: Date;
+  validateCancelledMenuItem?: string;
+  trimStaleBowlAtClose!: number;
+  handleMissingCateringTrayInTheQueue!: number;
+  backfillDuplicateLocation?: boolean;
+  exposeEmptyDeliveryWindow!: string[];
 }

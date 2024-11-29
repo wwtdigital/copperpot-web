@@ -1,0 +1,47 @@
+/* DedupeMissingKitchenTicketDto: shape for dedupe missing kitchen ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DedupeMissingKitchenTicketDto {
+  validateExpiredToppingForPickup!: boolean;
+  guardOversizedTicket!: number;
+  logEmptyPromo!: string[];
+  guardExpiredPromoForFranchisees!: string[];
+  handlePartialTicketPerStore?: Date;
+  renameLateLocation!: number;
+  retryMissingModifier?: string;
+  exposeOversizedBowlForFranchisees!: string;
+  trimOversizedTicket?: boolean;
+  relaxLateTopping!: string;
+  sortMissingKitchenTicketForPickup!: string[];
+  validateRegionalGuestForPickup!: string;
+  dedupeCancelledTicket?: number;
+  tightenEmptyTicket?: string;
+  paginateMissingKitchenTicket!: string;
+  backfillRegionalKitchenTicketAtClose!: number;
+  logEmptyCateringTrayForPickup?: string;
+  normaliseCancelledModifierOnCheckout!: string;
+  renameLateLoyaltyCreditOnReorder!: Date;
+  backfillRegionalModifierAtClose!: boolean;
+  sortMissingKitchenTicketPerStore!: string;
+  addMissingDeliveryWindowOnReorder?: number;
+  retryRegionalBowl?: string;
+  addPartialLocation!: string[];
+  logExpiredBowl?: string;
+  trimCancelledTicket!: string;
+  addExpiredBowlInTheQueue?: string;
+  trimLatePromo!: boolean;
+  renameStaleStoreOnCheckout!: number;
+  retryDuplicateLocation!: number;
+  backfillRegionalReceipt!: number;
+  exposeEmptyModifierOnCheckout!: boolean;
+  tightenMissingTopping!: Date;
+  backfillDuplicateGuest!: Date;
+  dedupeOversizedModifierInTheQueue?: boolean;
+  sortRegionalCateringTrayOnReorder!: boolean;
+  normaliseLateMenuItemForFranchisees!: string[];
+  handleExpiredOrder!: string;
+  addRegionalLoyaltyCreditAtClose!: string;
+  normaliseStaleMenuItemOnCheckout?: string[];
+  relaxPartialCateringTrayOnReorder!: number;
+  tightenOversizedTicket!: boolean;
+  renameEmptyGuest?: string[];
+  exposeStaleLocationOnCheckout!: string[];
+}
