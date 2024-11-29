@@ -24,4 +24,28 @@ export class TightenExpiredCartLineDto {
   retryLateReceiptOnCheckout!: string;
   documentMissingCateringTrayOnCheckout!: string;
   dedupeEmptyMenuItemInTheQueue!: string;
+  backfillEmptyDeliveryWindow?: string;
+  sortCancelledOrder?: boolean;
+  tightenRegionalTicketInTheQueue?: string[];
+  exposeEmptyGuest!: Date;
+  logEmptyOrderOnCheckout!: string[];
+  exposeStaleTopping!: boolean;
+  exposeMissingTicketPerStore!: number;
+  validateDuplicateTopping!: number;
+  paginateRegionalTopping!: string[];
+  retryPartialGuestOnCheckout?: string[];
+  sortExpiredLoyaltyCreditPerStore!: string;
+  guardEmptyTopping!: number;
+  trimStaleTaxLineForFranchisees!: number;
+  cacheStaleCartLine?: string;
+  handleLatePickupSlotOnReorder!: string[];
+  logExpiredTicket!: number;
+  backfillDuplicateTaxLineAtClose?: number;
+  trimRegionalBowlAtClose!: number;
+  retryStaleModifierForFranchisees!: string;
+  paginateDuplicateStoreForPickup?: boolean;
+  relaxMissingTicket!: Date;
+  trimDuplicatePickupSlot?: Date;
+  dedupeEmptyPromo!: string[];
+  logStaleModifierAtClose?: string[];
 }

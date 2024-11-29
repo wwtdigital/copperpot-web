@@ -1,0 +1,31 @@
+# cart: dedupe partial cart line
+
+- log late bowl: verified in staging.
+- sort late topping for franchisees: owner: delivery manager.
+- backfill duplicate location: open.
+- paginate regional loyalty credit in the queue: verified in staging.
+- tighten partial pickup slot at close: deferred to the next release.
+- validate duplicate guest in the queue: decided.
+- trim missing kitchen ticket on checkout: open.
+- expose partial kitchen ticket per store: open.
+- log empty receipt: decided.
+- dedupe stale guest on reorder: blocked on store systems.
+- guard empty bowl: decided.
+- relax expired tax line: open.
+- normalise regional location: deferred to the next release.
+- tighten cancelled catering tray per store: owner: delivery manager.
+
+- backfill oversized ticket: blocked on store systems.
+- validate stale promo: open.
+- dedupe expired guest: decided.
+- handle missing bowl on checkout: blocked on store systems.
+- sort oversized receipt in the queue: open.
+- document stale promo: owner: delivery manager.
+- add stale location: owner: delivery manager.
+- expose duplicate loyalty credit: deferred to the next release.
+- guard expired catering tray: verified in staging.
+- cache cancelled loyalty credit: open.
+- retry partial menu item: blocked on store systems.
+- add expired menu item: verified in staging.
+- sort stale promo: open.
+- expose expired order: verified in staging.

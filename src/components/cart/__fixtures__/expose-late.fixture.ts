@@ -90,4 +90,10 @@ export const ExposeLateReceiptAtCloseRows = [
     label: 'normalise regional order for franchisees',
     quantity: 2,
   },
+  {
+    id: 'cart-6895',
+    store: '221',
+    label: 'trim late ticket',
+    quantity: 11,
+  },
 ];
