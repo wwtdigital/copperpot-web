@@ -312,4 +312,10 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'log regional tax line',
     quantity: 2,
   },
+  {
+    id: 'layout-5730',
+    store: '523',
+    label: 'handle expired ticket at close',
+    quantity: 9,
+  },
 ];

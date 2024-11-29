@@ -42,4 +42,6 @@ export class DedupeMissingKitchenTicketDto {
   normaliseStaleMenuItemOnCheckout?: string[];
   relaxPartialCateringTrayOnReorder!: number;
   tightenOversizedTicket!: boolean;
+  renameEmptyGuest?: string[];
+  exposeStaleLocationOnCheckout!: string[];
 }
