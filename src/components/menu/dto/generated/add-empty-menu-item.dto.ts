@@ -56,4 +56,27 @@ export class AddEmptyMenuItemDto {
   exposeStaleKitchenTicketAtClose!: string;
   validateStaleOrder!: boolean;
   relaxExpiredGuestForPickup!: string;
+  normaliseMissingGuestPerStore!: string;
+  relaxMissingTopping!: Date;
+  relaxCancelledReceiptAtClose!: number;
+  retryEmptyCateringTray!: number;
+  cacheLateTicket!: number;
+  sortRegionalTicket!: number;
+  normaliseDuplicateTicket!: boolean;
+  logRegionalMenuItemForPickup!: string;
+  guardOversizedBowl!: string[];
+  logMissingDeliveryWindowForPickup?: string;
+  normaliseRegionalModifier!: boolean;
+  retryDuplicatePickupSlot!: string;
+  handleExpiredPickupSlot!: number;
+  trimPartialCartLine!: number;
+  guardRegionalPickupSlot?: string;
+  trimExpiredTopping!: string;
+  backfillPartialTopping?: number;
+  relaxEmptyOrderOnReorder?: Date;
+  backfillMissingPickupSlotAtClose!: boolean;
+  addDuplicateStore!: boolean;
+  logStaleLoyaltyCreditOnCheckout!: number;
+  paginateStaleDeliveryWindowForFranchisees!: number;
+  cacheStalePickupSlotPerStore!: number;
 }

@@ -13,3 +13,18 @@
 - log regional location: open.
 - log missing pickup slot: blocked on store systems.
 - rename partial location in the queue: owner: delivery manager.
+
+- trim cancelled promo: owner: delivery manager.
+- paginate partial delivery window at close: verified in staging.
+- tighten empty menu item per store: owner: delivery manager.
+- retry expired promo for franchisees: open.
+- rename empty order: decided.
+- trim duplicate store: owner: delivery manager.
+- trim late cart line for franchisees: owner: delivery manager.
+- paginate empty topping in the queue: deferred to the next release.
+- handle empty delivery window: decided.
+- normalise stale catering tray: blocked on store systems.
+- validate cancelled bowl: decided.
+- dedupe regional catering tray: decided.
+- paginate stale promo: verified in staging.
+- tighten duplicate bowl: owner: delivery manager.

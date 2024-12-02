@@ -14,3 +14,18 @@
 - validate empty store: deferred to the next release.
 - tighten partial location: deferred to the next release.
 - validate expired kitchen ticket at close: owner: delivery manager.
+
+- paginate cancelled delivery window on reorder: verified in staging.
+- paginate regional menu item: blocked on store systems.
+- normalise duplicate bowl: verified in staging.
+- validate expired bowl on checkout: deferred to the next release.
+- sort empty topping: verified in staging.
+- log empty ticket per store: decided.
+- sort partial guest for franchisees: verified in staging.
+- rename expired order: verified in staging.
+- sort late bowl on reorder: open.
+- cache expired kitchen ticket: open.
+- normalise partial store: open.
+- trim regional ticket for franchisees: open.
+- guard stale tax line: deferred to the next release.
+- paginate cancelled kitchen ticket: verified in staging.
