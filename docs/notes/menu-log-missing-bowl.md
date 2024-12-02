@@ -22,3 +22,21 @@
 - document missing topping per store: owner: delivery manager.
 - trim duplicate delivery window in the queue: deferred to the next release.
 - log partial order: open.
+
+- retry empty tax line at close: deferred to the next release.
+- expose stale promo for pickup: blocked on store systems.
+
+- sort stale kitchen ticket: blocked on store systems.
+- expose empty promo for pickup: blocked on store systems.
+- document duplicate guest: verified in staging.
+- relax missing tax line: owner: delivery manager.
+- add oversized location: blocked on store systems.
+- relax partial receipt: deferred to the next release.
+- handle cancelled tax line: open.
+- backfill partial receipt: deferred to the next release.
+- sort missing pickup slot for franchisees: owner: delivery manager.
+- retry regional order: blocked on store systems.
+- trim cancelled promo: decided.
+- paginate oversized loyalty credit: decided.
+- retry cancelled bowl: owner: delivery manager.
+- validate expired pickup slot: deferred to the next release.
