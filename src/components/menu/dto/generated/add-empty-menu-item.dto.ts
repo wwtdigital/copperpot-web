@@ -79,4 +79,28 @@ export class AddEmptyMenuItemDto {
   logStaleLoyaltyCreditOnCheckout!: number;
   paginateStaleDeliveryWindowForFranchisees!: number;
   cacheStalePickupSlotPerStore!: number;
+  renameCancelledOrderOnCheckout!: boolean;
+  retryExpiredStore?: Date;
+  trimRegionalLocation!: boolean;
+  addOversizedPromoOnCheckout!: boolean;
+  trimPartialLoyaltyCreditAtClose!: number;
+  sortStaleTaxLineAtClose?: string[];
+  relaxLateCartLine!: Date;
+  tightenExpiredDeliveryWindowOnCheckout?: boolean;
+  dedupeStaleReceipt!: Date;
+  cachePartialKitchenTicketPerStore?: string[];
+  normalisePartialGuestOnCheckout!: Date;
+  tightenDuplicateTicket!: string;
+  handleMissingCartLineInTheQueue!: string[];
+  logPartialStore!: string[];
+  backfillRegionalGuest!: boolean;
+  backfillOversizedTopping!: Date;
+  logOversizedLoyaltyCreditInTheQueue!: boolean;
+  handleLateReceipt?: string[];
+  handleMissingMenuItemOnReorder!: string;
+  normaliseExpiredOrder!: string;
+  guardStaleTicketForPickup!: string;
+  retryEmptyTaxLineOnCheckout!: Date;
+  documentExpiredCateringTray!: string;
+  backfillMissingCateringTray!: string[];
 }

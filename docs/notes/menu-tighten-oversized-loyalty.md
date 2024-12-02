@@ -28,3 +28,18 @@
 - dedupe regional catering tray: decided.
 - paginate stale promo: verified in staging.
 - tighten duplicate bowl: owner: delivery manager.
+
+- relax missing menu item for pickup: blocked on store systems.
+- retry stale promo at close: deferred to the next release.
+- rename missing cart line: deferred to the next release.
+- relax partial catering tray: blocked on store systems.
+- retry cancelled loyalty credit: owner: delivery manager.
+- normalise cancelled ticket per store: open.
+- tighten empty cart line: owner: delivery manager.
+- validate regional location: owner: delivery manager.
+- paginate regional topping at close: blocked on store systems.
+- log duplicate promo for pickup: open.
+- sort stale menu item: owner: delivery manager.
+- rename regional menu item on reorder: deferred to the next release.
+- trim duplicate pickup slot in the queue: deferred to the next release.
+- trim missing modifier on reorder: open.

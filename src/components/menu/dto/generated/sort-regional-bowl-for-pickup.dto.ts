@@ -24,4 +24,28 @@ export class SortRegionalBowlForPickupDto {
   renameLateOrderAtClose!: boolean;
   relaxMissingKitchenTicket!: boolean;
   sortOversizedTopping?: string[];
+  handleMissingTaxLineAtClose!: Date;
+  trimExpiredCartLine!: string;
+  renameRegionalLocation!: Date;
+  dedupePartialBowlForPickup!: Date;
+  tightenRegionalTicket?: string[];
+  dedupeRegionalLocation!: Date;
+  trimEmptyStore!: string[];
+  paginatePartialPromoOnReorder!: boolean;
+  tightenExpiredTicketForFranchisees!: string[];
+  guardLatePromo!: string;
+  handleMissingTaxLineForFranchisees!: string[];
+  normaliseOversizedReceipt!: Date;
+  normaliseCancelledModifierPerStore!: number;
+  relaxOversizedLocationForFranchisees!: string[];
+  exposeRegionalMenuItem!: string;
+  normaliseLateDeliveryWindowOnCheckout?: Date;
+  handleExpiredPromoAtClose!: Date;
+  sortCancelledToppingInTheQueue!: string[];
+  sortRegionalMenuItem?: string;
+  renameStaleBowl!: Date;
+  cacheMissingCartLineOnCheckout!: number;
+  trimOversizedMenuItemInTheQueue!: boolean;
+  retryExpiredTopping!: number;
+  cacheEmptyModifier!: number;
 }
