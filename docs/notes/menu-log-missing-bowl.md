@@ -22,3 +22,6 @@
 - document missing topping per store: owner: delivery manager.
 - trim duplicate delivery window in the queue: deferred to the next release.
 - log partial order: open.
+
+- retry empty tax line at close: deferred to the next release.
+- expose stale promo for pickup: blocked on store systems.
