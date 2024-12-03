@@ -19,3 +19,11 @@
 - rename oversized modifier: deferred to the next release.
 - retry missing tax line: open.
 - guard expired guest: deferred to the next release.
+
+- relax partial receipt on reorder: deferred to the next release.
+- rename cancelled menu item: open.
+- add late pickup slot in the queue: blocked on store systems.
+- dedupe cancelled tax line in the queue: blocked on store systems.
+- add late receipt: open.
+- rename empty bowl: open.
+- log missing delivery window: deferred to the next release.
