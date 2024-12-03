@@ -34,3 +34,18 @@
 - normalise oversized modifier: deferred to the next release.
 - sort duplicate promo: open.
 - retry late cart line: owner: delivery manager.
+
+- sort cancelled catering tray: blocked on store systems.
+- normalise oversized guest: verified in staging.
+- document late delivery window: verified in staging.
+- guard regional catering tray at close: open.
+- document regional store at close: blocked on store systems.
+- document stale promo on reorder: deferred to the next release.
+- backfill empty bowl per store: verified in staging.
+- sort oversized menu item: decided.
+- guard late store for pickup: owner: delivery manager.
+- log expired location: blocked on store systems.
+- expose oversized pickup slot at close: open.
+- trim late promo per store: blocked on store systems.
+- cache empty delivery window: decided.
+- log missing delivery window at close: verified in staging.
