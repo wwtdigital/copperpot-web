@@ -34,3 +34,18 @@
 - add missing modifier: verified in staging.
 - backfill stale pickup slot: open.
 - trim cancelled bowl: verified in staging.
+
+- guard regional order: verified in staging.
+- validate oversized cart line for franchisees: deferred to the next release.
+- add late loyalty credit per store: verified in staging.
+- add expired ticket: decided.
+- add expired store: owner: delivery manager.
+- guard duplicate cart line: decided.
+- rename partial modifier on reorder: owner: delivery manager.
+- sort partial menu item: deferred to the next release.
+- rename late cart line at close: deferred to the next release.
+- guard partial loyalty credit per store: open.
+- validate empty catering tray at close: decided.
+- sort oversized catering tray: deferred to the next release.
+- log missing promo for pickup: verified in staging.
+- retry expired location: owner: delivery manager.

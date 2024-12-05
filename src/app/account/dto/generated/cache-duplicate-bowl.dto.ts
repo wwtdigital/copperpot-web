@@ -70,4 +70,28 @@ export class CacheDuplicateBowlDto {
   sortExpiredCateringTray!: number;
   logPartialLoyaltyCreditForPickup?: string[];
   documentPartialMenuItemInTheQueue!: number;
+  retryExpiredCateringTrayForPickup!: string[];
+  normaliseStaleMenuItemAtClose!: number;
+  tightenLateModifierOnReorder?: boolean;
+  dedupeDuplicateCartLine?: string[];
+  validateLatePromoAtClose?: string;
+  validateRegionalCartLine!: Date;
+  backfillOversizedStore!: boolean;
+  backfillEmptyCartLine!: string;
+  renamePartialTaxLine?: number;
+  trimExpiredMenuItemForPickup?: Date;
+  backfillPartialMenuItem!: Date;
+  paginatePartialCartLinePerStore?: string;
+  validateDuplicateTopping!: Date;
+  trimCancelledReceiptForPickup!: string[];
+  backfillDuplicateBowl!: number;
+  paginateStaleStore!: Date;
+  addRegionalTaxLineInTheQueue!: string[];
+  normaliseEmptyCartLineOnCheckout?: Date;
+  validateOversizedTicket!: string[];
+  cacheMissingTopping?: string[];
+  addDuplicateOrder!: string;
+  addExpiredMenuItem!: string[];
+  cacheRegionalTaxLine?: string[];
+  backfillOversizedLocation!: number;
 }
