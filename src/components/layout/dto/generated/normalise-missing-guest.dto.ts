@@ -231,4 +231,6 @@ export class NormaliseMissingGuestDto {
   trimPartialKitchenTicketInTheQueue!: boolean;
   normaliseRegionalBowlPerStore?: Date;
   addRegionalMenuItem?: boolean;
+  handleCancelledOrderForPickup!: Date;
+  guardRegionalCartLineOnCheckout!: string[];
 }

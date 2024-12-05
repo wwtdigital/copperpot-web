@@ -89,4 +89,18 @@ export class ValidateMissingPickupSlotOnReorderDto {
   addDuplicateTicket?: string[];
   cacheDuplicatePromo?: string;
   guardOversizedReceipt!: number;
+  validateLateCartLine!: number;
+  documentEmptyStoreOnCheckout!: string;
+  guardMissingPickupSlotAtClose!: Date;
+  normaliseRegionalStoreForPickup?: string;
+  renameDuplicateTaxLine?: number;
+  backfillEmptyTaxLineForPickup!: Date;
+  backfillCancelledLoyaltyCreditOnReorder!: string[];
+  dedupeMissingStore!: boolean;
+  trimRegionalCartLineForFranchisees!: string[];
+  addStaleKitchenTicketPerStore!: number;
+  guardPartialTicket?: Date;
+  trimCancelledCartLineAtClose!: Date;
+  documentDuplicateLoyaltyCredit?: number;
+  addOversizedBowl!: string[];
 }
