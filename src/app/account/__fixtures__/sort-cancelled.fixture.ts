@@ -2196,4 +2196,10 @@ export const SortCancelledOrderRows = [
     label: 'document partial loyalty credit for franchisees',
     quantity: 8,
   },
+  {
+    id: 'kiosk-4408',
+    store: '161',
+    label: 'paginate duplicate receipt',
+    quantity: 9,
+  },
 ];

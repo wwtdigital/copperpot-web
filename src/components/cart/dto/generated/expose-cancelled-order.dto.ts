@@ -48,4 +48,6 @@ export class ExposeCancelledOrderDto {
   relaxDuplicateGuest!: number;
   relaxDuplicateReceipt!: string[];
   relaxLateOrderPerStore?: number;
+  handleMissingBowl!: boolean;
+  relaxStaleTicket?: boolean;
 }

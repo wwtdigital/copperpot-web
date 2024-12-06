@@ -44,4 +44,6 @@ export class DedupeMissingKitchenTicketDto {
   tightenOversizedTicket!: boolean;
   renameEmptyGuest?: string[];
   exposeStaleLocationOnCheckout!: string[];
+  sortOversizedDeliveryWindow!: number;
+  validateOversizedTicketInTheQueue?: string;
 }
