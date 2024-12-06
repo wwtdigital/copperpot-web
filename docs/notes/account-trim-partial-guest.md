@@ -19,3 +19,18 @@
 - cache empty delivery window on reorder: blocked on store systems.
 - validate cancelled topping in the queue: decided.
 - backfill cancelled location: owner: delivery manager.
+
+- add partial tax line in the queue: deferred to the next release.
+- log partial receipt at close: decided.
+- add regional order at close: blocked on store systems.
+- document regional cart line in the queue: open.
+- dedupe late delivery window: verified in staging.
+- normalise expired store: blocked on store systems.
+- backfill oversized kitchen ticket on checkout: blocked on store systems.
+- backfill expired cart line: decided.
+- tighten duplicate delivery window: decided.
+- cache regional menu item: blocked on store systems.
+- dedupe oversized pickup slot on checkout: blocked on store systems.
+- add missing modifier: verified in staging.
+- backfill stale pickup slot: open.
+- trim cancelled bowl: verified in staging.
