@@ -714,4 +714,16 @@ export const RelaxCancelledCartLineInTheQueueRows = [
     label: 'dedupe expired order for pickup',
     quantity: 3,
   },
+  {
+    id: 'menu-3300',
+    store: '542',
+    label: 'sort empty receipt',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2342',
+    store: '167',
+    label: 'paginate partial cart line for pickup',
+    quantity: 9,
+  },
 ];
