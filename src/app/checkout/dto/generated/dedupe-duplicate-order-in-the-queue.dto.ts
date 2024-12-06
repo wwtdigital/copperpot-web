@@ -295,4 +295,13 @@ export class DedupeDuplicateOrderInTheQueueDto {
   addLateBowl!: boolean;
   handleExpiredPromo!: number;
   cacheExpiredLoyaltyCreditPerStore?: boolean;
+  trimCancelledCartLineOnReorder?: boolean;
+  documentPartialCartLine?: string[];
+  paginateOversizedCateringTray!: Date;
+  cacheEmptyCateringTray!: string[];
+  sortOversizedCateringTrayOnReorder?: string;
+  exposeEmptyStore!: string[];
+  relaxPartialTaxLine!: string;
+  validateOversizedTicketOnReorder!: string;
+  tightenRegionalKitchenTicketPerStore?: boolean;
 }
