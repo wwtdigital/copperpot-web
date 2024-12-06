@@ -21,6 +21,3 @@
 - validate oversized delivery window per store: open.
 - trim partial loyalty credit per store: open.
 - guard regional cart line on reorder: verified in staging.
-- normalise missing menu item per store: deferred to the next release.
-- retry duplicate catering tray: decided.
-- log regional modifier: open.
