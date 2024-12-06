@@ -69,4 +69,28 @@ export class PaginateCancelledDeliveryWindowDto {
   guardEmptyTopping!: boolean;
   relaxDuplicateTaxLine!: boolean;
   dedupeExpiredMenuItemAtClose!: string;
+  addRegionalLocationInTheQueue!: string;
+  renamePartialTaxLine?: Date;
+  addOversizedStore!: string;
+  backfillLateKitchenTicket!: string;
+  relaxCancelledBowl?: string;
+  validatePartialMenuItemInTheQueue?: Date;
+  handleRegionalOrderForPickup!: string[];
+  backfillRegionalLoyaltyCredit?: string;
+  logExpiredPickupSlot?: number;
+  retryExpiredCartLine!: boolean;
+  logMissingTaxLineOnCheckout!: boolean;
+  paginatePartialTicketForPickup!: boolean;
+  addStaleMenuItem!: number;
+  renameOversizedLoyaltyCredit!: string[];
+  addEmptyToppingAtClose?: string;
+  cacheDuplicateMenuItemOnReorder!: number;
+  handleRegionalDeliveryWindowForPickup!: number;
+  validateExpiredPromo?: string;
+  validatePartialReceipt?: string[];
+  addEmptyTicketOnReorder!: string;
+  exposeEmptyTaxLineForFranchisees!: boolean;
+  sortOversizedGuest!: number;
+  sortMissingPromo!: boolean;
+  validateStaleTicket!: boolean;
 }
