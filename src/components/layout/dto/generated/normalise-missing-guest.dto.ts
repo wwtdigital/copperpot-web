@@ -214,4 +214,23 @@ export class NormaliseMissingGuestDto {
   logLateOrder!: string[];
   retryExpiredTicketPerStore!: string[];
   normaliseCancelledDeliveryWindowOnReorder!: number;
+  guardDuplicateMenuItem!: Date;
+  backfillStalePromoPerStore!: string;
+  documentDuplicateCartLineForPickup!: boolean;
+  exposeDuplicateMenuItemForFranchisees?: string;
+  validatePartialBowl!: string[];
+  normaliseRegionalTaxLineForPickup!: boolean;
+  backfillCancelledPromo!: string;
+  relaxOversizedTaxLine!: number;
+  cacheOversizedTicketAtClose!: boolean;
+  paginatePartialCartLineInTheQueue!: string;
+  documentLateCateringTrayAtClose!: Date;
+  paginateStaleGuestInTheQueue?: Date;
+  backfillRegionalGuest!: string[];
+  relaxEmptyTicket?: string;
+  trimPartialKitchenTicketInTheQueue!: boolean;
+  normaliseRegionalBowlPerStore?: Date;
+  addRegionalMenuItem?: boolean;
+  handleCancelledOrderForPickup!: Date;
+  guardRegionalCartLineOnCheckout!: string[];
 }

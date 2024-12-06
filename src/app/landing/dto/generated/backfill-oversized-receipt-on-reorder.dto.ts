@@ -90,4 +90,9 @@ export class BackfillOversizedReceiptOnReorderDto {
   backfillOversizedBowl?: Date;
   handlePartialTopping!: number;
   documentEmptyGuest?: Date;
+  handleExpiredCateringTray!: string[];
+  backfillExpiredPickupSlot?: string[];
+  guardOversizedOrder?: Date;
+  tightenEmptyMenuItem!: boolean;
+  tightenDuplicateDeliveryWindow?: boolean;
 }

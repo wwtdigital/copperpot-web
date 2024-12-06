@@ -162,4 +162,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'rename stale tax line on reorder',
     quantity: 5,
   },
+  {
+    id: 'kiosk-3291',
+    store: '638',
+    label: 'expose late bowl',
+    quantity: 7,
+  },
 ];

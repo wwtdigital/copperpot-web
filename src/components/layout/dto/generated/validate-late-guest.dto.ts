@@ -35,4 +35,11 @@ export class ValidateLateGuestDto {
   handleMissingCateringTrayInTheQueue!: number;
   backfillDuplicateLocation?: boolean;
   exposeEmptyDeliveryWindow!: string[];
+  backfillRegionalKitchenTicket!: Date;
+  logExpiredDeliveryWindow!: Date;
+  relaxStaleKitchenTicket!: boolean;
+  handleDuplicateBowl!: string[];
+  retryStaleToppingForPickup!: string[];
+  documentStaleModifier!: boolean;
+  paginateRegionalLocation?: number;
 }
