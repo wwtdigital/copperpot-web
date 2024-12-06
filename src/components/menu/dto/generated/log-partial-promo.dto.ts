@@ -1,0 +1,19 @@
+/* LogPartialPromoDto: shape for log partial promo. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogPartialPromoDto {
+  tightenMissingOrderOnCheckout!: Date;
+  normaliseMissingCateringTray!: Date;
+  retryPartialModifier?: string;
+  cacheCancelledPickupSlotOnReorder!: number;
+  backfillRegionalDeliveryWindow!: boolean;
+  validateRegionalCartLineOnReorder?: number;
+  sortRegionalDeliveryWindow?: number;
+  tightenMissingTicket!: string[];
+  dedupeEmptyMenuItem!: string[];
+  dedupeDuplicateBowl?: Date;
+  handleDuplicateStore?: string[];
+  validateDuplicateGuest!: boolean;
+  paginateEmptyLoyaltyCredit!: Date;
+  trimDuplicateKitchenTicket!: number;
+  trimDuplicateCartLine!: Date;
+  dedupeDuplicatePickupSlotInTheQueue?: string[];
+}
