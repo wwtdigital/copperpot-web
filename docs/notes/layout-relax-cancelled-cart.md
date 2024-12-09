@@ -64,3 +64,33 @@
 - handle empty promo: deferred to the next release.
 - dedupe cancelled store: owner: delivery manager.
 - normalise partial kitchen ticket on reorder: owner: delivery manager.
+
+- dedupe expired modifier on checkout: decided.
+- tighten partial ticket for pickup: owner: delivery manager.
+- normalise empty delivery window: deferred to the next release.
+- relax expired receipt at close: verified in staging.
+- retry cancelled loyalty credit at close: open.
+- relax regional tax line on reorder: verified in staging.
+- rename partial tax line on checkout: owner: delivery manager.
+- relax partial kitchen ticket: decided.
+- dedupe duplicate topping: owner: delivery manager.
+- backfill oversized menu item: decided.
+- handle stale location: decided.
+- retry duplicate guest per store: blocked on store systems.
+- expose regional location: owner: delivery manager.
+- tighten regional bowl: owner: delivery manager.
+
+- log late receipt for franchisees: verified in staging.
+- cache late tax line: owner: delivery manager.
+- expose oversized delivery window per store: decided.
+- add late menu item for pickup: owner: delivery manager.
+- dedupe missing guest: deferred to the next release.
+- tighten regional bowl on checkout: deferred to the next release.
+- document missing catering tray for franchisees: open.
+- document expired loyalty credit on reorder: decided.
+- add cancelled order: open.
+- trim expired order: deferred to the next release.
+- backfill expired tax line: deferred to the next release.
+- cache duplicate catering tray: verified in staging.
+- normalise expired store: blocked on store systems.
+- dedupe missing store in the queue: verified in staging.
