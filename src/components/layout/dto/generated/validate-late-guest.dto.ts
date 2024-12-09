@@ -42,4 +42,28 @@ export class ValidateLateGuestDto {
   retryStaleToppingForPickup!: string[];
   documentStaleModifier!: boolean;
   paginateRegionalLocation?: number;
+  renameMissingKitchenTicketForPickup?: boolean;
+  exposeOversizedLoyaltyCreditOnCheckout!: boolean;
+  trimLateGuest?: number;
+  documentStaleGuestForFranchisees!: string[];
+  renamePartialStore!: number;
+  renamePartialDeliveryWindow!: Date;
+  sortCancelledReceipt?: string;
+  paginateMissingPickupSlotOnCheckout!: string;
+  guardCancelledGuest!: string;
+  documentLateOrderOnCheckout!: number;
+  backfillMissingToppingOnCheckout!: boolean;
+  renameOversizedMenuItem?: number;
+  backfillEmptyTicket!: boolean;
+  documentRegionalKitchenTicket!: string;
+  normaliseDuplicateLoyaltyCreditOnCheckout!: string[];
+  handleRegionalReceipt!: boolean;
+  handleOversizedCateringTray!: string[];
+  exposePartialTaxLine!: string;
+  backfillPartialLoyaltyCreditForFranchisees!: string[];
+  validateOversizedStoreOnCheckout?: Date;
+  logMissingReceipt?: string[];
+  cacheRegionalLoyaltyCreditInTheQueue!: Date;
+  renameStaleTicket!: Date;
+  cacheLateTaxLine!: string[];
 }

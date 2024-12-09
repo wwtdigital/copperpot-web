@@ -257,4 +257,27 @@ export class NormaliseMissingGuestDto {
   backfillStaleOrder?: boolean;
   exposePartialTaxLine?: string[];
   addOversizedTicket!: string;
+  logExpiredOrder!: string[];
+  renameDuplicateDeliveryWindowPerStore!: number;
+  addStaleTicketAtClose!: string;
+  handleStaleCateringTray!: Date;
+  normaliseExpiredToppingAtClose!: string[];
+  backfillMissingPromo?: string;
+  guardStaleMenuItemForPickup?: Date;
+  paginateOversizedReceipt?: number;
+  dedupeRegionalOrder!: boolean;
+  trimCancelledCateringTrayOnReorder!: number;
+  normaliseLateTaxLine!: string[];
+  handleEmptyTaxLineForFranchisees!: string;
+  logStaleTopping!: string;
+  retryOversizedKitchenTicket?: boolean;
+  paginateStaleStore!: boolean;
+  paginateCancelledMenuItem!: string;
+  guardStaleStore!: Date;
+  logStaleCateringTray?: Date;
+  retryExpiredStoreOnCheckout!: number;
+  retryCancelledPromo!: number;
+  cacheMissingOrder!: string[];
+  trimEmptyReceipt!: Date;
+  tightenMissingDeliveryWindow!: number;
 }
