@@ -64,3 +64,18 @@
 - handle empty promo: deferred to the next release.
 - dedupe cancelled store: owner: delivery manager.
 - normalise partial kitchen ticket on reorder: owner: delivery manager.
+
+- dedupe expired modifier on checkout: decided.
+- tighten partial ticket for pickup: owner: delivery manager.
+- normalise empty delivery window: deferred to the next release.
+- relax expired receipt at close: verified in staging.
+- retry cancelled loyalty credit at close: open.
+- relax regional tax line on reorder: verified in staging.
+- rename partial tax line on checkout: owner: delivery manager.
+- relax partial kitchen ticket: decided.
+- dedupe duplicate topping: owner: delivery manager.
+- backfill oversized menu item: decided.
+- handle stale location: decided.
+- retry duplicate guest per store: blocked on store systems.
+- expose regional location: owner: delivery manager.
+- tighten regional bowl: owner: delivery manager.
