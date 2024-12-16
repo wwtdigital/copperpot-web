@@ -126,4 +126,46 @@ export const DedupeLateReceiptRows = [
     label: 'log late kitchen ticket on reorder',
     quantity: 12,
   },
+  {
+    id: 'login-8364',
+    store: '197',
+    label: 'cache oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'login-1176',
+    store: '246',
+    label: 'cache regional store',
+    quantity: 3,
+  },
+  {
+    id: 'login-7247',
+    store: '586',
+    label: 'validate expired menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'login-4034',
+    store: '597',
+    label: 'handle late catering tray for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'login-8558',
+    store: '687',
+    label: 'tighten late kitchen ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'login-9223',
+    store: '555',
+    label: 'retry stale location',
+    quantity: 2,
+  },
+  {
+    id: 'login-5557',
+    store: '561',
+    label: 'backfill regional kitchen ticket',
+    quantity: 8,
+  },
 ];
