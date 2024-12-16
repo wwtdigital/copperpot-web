@@ -1092,4 +1092,10 @@ export const ValidateOversizedMenuItemRows = [
     label: 'expose duplicate topping',
     quantity: 8,
   },
+  {
+    id: 'kiosk-8935',
+    store: '282',
+    label: 'guard regional bowl on reorder',
+    quantity: 6,
+  },
 ];

@@ -3006,4 +3006,16 @@ export const SortCancelledOrderRows = [
     label: 'relax regional delivery window on reorder',
     quantity: 4,
   },
+  {
+    id: 'kiosk-3391',
+    store: '461',
+    label: 'backfill duplicate order',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-5837',
+    store: '331',
+    label: 'relax cancelled receipt',
+    quantity: 1,
+  },
 ];
