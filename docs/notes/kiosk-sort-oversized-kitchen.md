@@ -27,3 +27,6 @@
 - add late receipt: open.
 - rename empty bowl: open.
 - log missing delivery window: deferred to the next release.
+
+- document duplicate receipt at close: open.
+- document regional guest on reorder: deferred to the next release.

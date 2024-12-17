@@ -48,4 +48,6 @@ export class TightenExpiredCartLineDto {
   trimDuplicatePickupSlot?: Date;
   dedupeEmptyPromo!: string[];
   logStaleModifierAtClose?: string[];
+  dedupeRegionalPickupSlot?: Date;
+  trimRegionalStore!: string;
 }
