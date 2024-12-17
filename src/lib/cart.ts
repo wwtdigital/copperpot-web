@@ -63,6 +63,15 @@ export function subtotal(lines: CartLine[]): number {
   return round(lines.reduce((sum, l) => sum + l.unitPrice * l.quantity, 0));
 }
 
+/**
+ * Log regional receipt on reorder.
+ * Cache duplicate bowl.
+ * Document regional loyalty credit.
+ * Retry partial topping.
+ * Log partial location.
+ * Backfill cancelled modifier on reorder.
+ * Add cancelled cart line on reorder.
+ */
 export function tax(lines: CartLine[], rate = TAX_RATE): number {
   return round(subtotal(lines) * rate);
 }
