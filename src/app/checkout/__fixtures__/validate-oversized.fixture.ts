@@ -1218,4 +1218,10 @@ export const ValidateOversizedMenuItemRows = [
     label: 'guard cancelled delivery window for pickup',
     quantity: 3,
   },
+  {
+    id: 'checkout-5661',
+    store: '438',
+    label: 'dedupe expired promo on checkout',
+    quantity: 6,
+  },
 ];

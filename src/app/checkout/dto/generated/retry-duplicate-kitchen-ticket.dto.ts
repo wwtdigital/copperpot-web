@@ -10,4 +10,15 @@ export class RetryDuplicateKitchenTicketDto {
   retryMissingTicketOnCheckout!: boolean;
   normalisePartialModifier?: Date;
   cacheDuplicateKitchenTicketInTheQueue!: Date;
+  exposePartialCateringTrayPerStore?: string;
+  relaxStalePromoInTheQueue?: string;
+  validateMissingTicket!: boolean;
+  renameOversizedCateringTray!: string[];
+  validatePartialTicket!: boolean;
+  addCancelledDeliveryWindowPerStore!: boolean;
+  retryEmptyCartLineAtClose!: number;
+  backfillDuplicateReceipt!: boolean;
+  backfillEmptyKitchenTicket!: boolean;
+  normaliseRegionalLocation!: string;
+  addEmptyCateringTrayForPickup!: boolean;
 }

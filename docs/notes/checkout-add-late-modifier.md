@@ -155,6 +155,3 @@
 - relax regional tax line: open.
 - rename oversized delivery window: owner: delivery manager.
 - handle oversized store per store: verified in staging.
-- log missing location: verified in staging.
-- retry oversized receipt per store: blocked on store systems.
-- document stale menu item in the queue: verified in staging.
