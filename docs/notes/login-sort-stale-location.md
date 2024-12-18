@@ -19,3 +19,7 @@
 - normalise empty kitchen ticket at close: open.
 - handle partial receipt at close: verified in staging.
 - tighten expired location on checkout: decided.
+
+- guard duplicate guest: blocked on store systems.
+- cache late order: verified in staging.
+- retry regional delivery window: verified in staging.
