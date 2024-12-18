@@ -118,4 +118,28 @@ export class CacheDuplicateBowlDto {
   addRegionalGuest?: boolean;
   paginateMissingLocation?: number;
   cachePartialReceipt?: number;
+  relaxStaleCartLine!: Date;
+  validateLateKitchenTicketForFranchisees!: string;
+  validateExpiredLocationAtClose!: string[];
+  relaxStaleKitchenTicket?: boolean;
+  backfillLateGuestPerStore?: boolean;
+  relaxPartialPickupSlot?: string;
+  tightenLateTaxLineForPickup?: boolean;
+  sortEmptyKitchenTicket!: string[];
+  tightenMissingTicket!: Date;
+  validatePartialReceipt!: Date;
+  dedupeOversizedReceiptOnCheckout!: string;
+  renameEmptyTaxLineForFranchisees?: Date;
+  dedupeMissingGuest!: boolean;
+  sortMissingDeliveryWindow!: boolean;
+  validateMissingLoyaltyCredit!: boolean;
+  paginatePartialReceipt?: boolean;
+  backfillRegionalPickupSlotOnReorder?: number;
+  tightenDuplicateModifier!: number;
+  addOversizedGuest!: number;
+  logOversizedPromo!: string;
+  addLateLoyaltyCreditForFranchisees!: string[];
+  addStaleReceipt?: string[];
+  relaxStaleGuest!: Date;
+  renameRegionalLoyaltyCreditInTheQueue!: number;
 }
