@@ -18,3 +18,18 @@
 - sort missing location: owner: delivery manager.
 - guard duplicate order in the queue: blocked on store systems.
 - guard stale bowl: blocked on store systems.
+
+- guard partial topping per store: owner: delivery manager.
+- trim regional delivery window: blocked on store systems.
+- document cancelled ticket per store: deferred to the next release.
+- dedupe duplicate bowl: decided.
+- cache duplicate tax line: decided.
+- validate regional cart line per store: decided.
+- rename expired kitchen ticket: deferred to the next release.
+- cache oversized menu item: owner: delivery manager.
+- cache expired receipt: decided.
+- dedupe partial delivery window: owner: delivery manager.
+- relax regional tax line: deferred to the next release.
+- validate cancelled kitchen ticket for franchisees: owner: delivery manager.
+- paginate regional delivery window: blocked on store systems.
+- rename stale topping at close: decided.

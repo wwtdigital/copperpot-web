@@ -34,3 +34,18 @@
 - sort regional bowl for franchisees: verified in staging.
 - dedupe stale kitchen ticket: deferred to the next release.
 - expose duplicate tax line: verified in staging.
+
+- backfill late location at close: blocked on store systems.
+- tighten duplicate bowl: owner: delivery manager.
+- handle missing menu item: blocked on store systems.
+- validate missing location for pickup: decided.
+- tighten duplicate menu item for pickup: verified in staging.
+- validate cancelled topping in the queue: decided.
+- handle partial delivery window: verified in staging.
+- relax empty cart line: verified in staging.
+- relax empty menu item: open.
+- log duplicate store: deferred to the next release.
+- backfill late pickup slot in the queue: deferred to the next release.
+- paginate late topping: verified in staging.
+- normalise partial topping: deferred to the next release.
+- validate stale pickup slot: deferred to the next release.
