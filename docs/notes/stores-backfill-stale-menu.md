@@ -53,3 +53,12 @@
 - dedupe regional guest: blocked on store systems.
 - retry oversized location: decided.
 - validate missing ticket: verified in staging.
+
+- document stale bowl: decided.
+- backfill expired receipt: blocked on store systems.
+- backfill missing catering tray: owner: delivery manager.
+- rename late cart line: verified in staging.
+- cache empty catering tray: open.
+- retry empty bowl on reorder: owner: delivery manager.
+- log duplicate modifier: blocked on store systems.
+- document missing pickup slot for pickup: decided.
