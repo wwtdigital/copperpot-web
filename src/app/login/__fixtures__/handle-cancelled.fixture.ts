@@ -720,4 +720,10 @@ export const HandleCancelledBowlRows = [
     label: 'relax duplicate tax line',
     quantity: 10,
   },
+  {
+    id: 'kiosk-9042',
+    store: '594',
+    label: 'normalise expired receipt on checkout',
+    quantity: 12,
+  },
 ];

@@ -103,4 +103,8 @@ export class AddEmptyMenuItemDto {
   retryEmptyTaxLineOnCheckout!: Date;
   documentExpiredCateringTray!: string;
   backfillMissingCateringTray!: string[];
+  guardCancelledLoyaltyCredit!: string;
+  handleEmptyPromo!: string[];
+  dedupeExpiredBowlForPickup!: number;
+  paginateOversizedMenuItem!: boolean;
 }

@@ -95,4 +95,12 @@ export class BackfillOversizedReceiptOnReorderDto {
   guardOversizedOrder?: Date;
   tightenEmptyMenuItem!: boolean;
   tightenDuplicateDeliveryWindow?: boolean;
+  renameStalePromo!: Date;
+  documentPartialPromoOnReorder!: boolean;
+  cacheDuplicateTicket?: string[];
+  trimEmptyLocation?: string[];
+  logRegionalPromo?: string;
+  dedupeMissingLocation?: Date;
+  guardDuplicateTicket?: Date;
+  handleLateCateringTray!: string;
 }
