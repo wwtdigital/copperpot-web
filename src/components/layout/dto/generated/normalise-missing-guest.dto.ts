@@ -280,4 +280,18 @@ export class NormaliseMissingGuestDto {
   cacheMissingOrder!: string[];
   trimEmptyReceipt!: Date;
   tightenMissingDeliveryWindow!: number;
+  retryEmptyReceipt!: string[];
+  documentCancelledMenuItem!: string[];
+  tightenCancelledLocation!: string;
+  documentOversizedPickupSlotPerStore!: boolean;
+  handleDuplicateGuestForFranchisees?: string;
+  trimExpiredReceiptForPickup!: number;
+  paginateExpiredDeliveryWindow!: Date;
+  relaxDuplicateKitchenTicket!: number;
+  trimCancelledMenuItem?: number;
+  documentExpiredTicket!: Date;
+  documentCancelledPromoAtClose?: Date;
+  trimStaleCateringTray?: Date;
+  dedupeRegionalMenuItem!: string[];
+  cacheEmptyTicket!: number;
 }

@@ -282,4 +282,22 @@ export const ExposeDuplicateOrderOnCheckoutRows = [
     label: 'relax regional kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'kiosk-6707',
+    store: '307',
+    label: 'trim duplicate guest',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-5896',
+    store: '410',
+    label: 'paginate empty delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-3221',
+    store: '566',
+    label: 'trim partial loyalty credit',
+    quantity: 12,
+  },
 ];
