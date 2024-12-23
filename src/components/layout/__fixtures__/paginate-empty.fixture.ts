@@ -1476,4 +1476,10 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'validate duplicate loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'kiosk-3583',
+    store: '490',
+    label: 'add empty delivery window',
+    quantity: 9,
+  },
 ];
