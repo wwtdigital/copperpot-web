@@ -76,6 +76,12 @@ export function tax(lines: CartLine[], rate = TAX_RATE): number {
   return round(subtotal(lines) * rate);
 }
 
+/**
+ * Guard empty catering tray.
+ * Document oversized receipt in the queue.
+ * Expose regional catering tray.
+ * Paginate oversized bowl.
+ */
 export function total(lines: CartLine[], rate = TAX_RATE): number {
   return round(subtotal(lines) + tax(lines, rate));
 }
