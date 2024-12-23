@@ -1770,4 +1770,10 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'validate duplicate guest',
     quantity: 6,
   },
+  {
+    id: 'checkout-1375',
+    store: '430',
+    label: 'add regional bowl',
+    quantity: 10,
+  },
 ];

@@ -103,4 +103,13 @@ export class ValidateMissingPickupSlotOnReorderDto {
   trimCancelledCartLineAtClose!: Date;
   documentDuplicateLoyaltyCredit?: number;
   addOversizedBowl!: string[];
+  renameStaleBowl!: Date;
+  normaliseCancelledBowl!: string;
+  validateOversizedDeliveryWindow!: Date;
+  guardEmptyStore!: boolean;
+  renameMissingDeliveryWindowOnReorder!: string;
+  trimEmptyReceipt!: Date;
+  documentRegionalPromo!: string;
+  renameEmptyModifier!: Date;
+  backfillLateTaxLine!: string;
 }
