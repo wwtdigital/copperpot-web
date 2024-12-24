@@ -94,4 +94,28 @@ export class CacheDuplicateBowlDto {
   addExpiredMenuItem!: string[];
   cacheRegionalTaxLine?: string[];
   backfillOversizedLocation!: number;
+  addOversizedLocation!: string[];
+  tightenOversizedCartLine!: Date;
+  trimCancelledDeliveryWindow!: string;
+  documentEmptyPickupSlot!: Date;
+  addCancelledOrder!: string[];
+  cacheMissingPickupSlot!: string;
+  renameExpiredCateringTray?: string[];
+  retryDuplicateTicket!: Date;
+  exposeLateMenuItem?: number;
+  exposeLateTopping!: number;
+  normaliseMissingStoreOnReorder?: string;
+  paginateExpiredLoyaltyCredit?: string;
+  documentLateBowl!: number;
+  logPartialModifierForPickup!: number;
+  trimLateKitchenTicketOnCheckout!: number;
+  handleLateLocation!: number;
+  relaxPartialGuest!: Date;
+  tightenPartialTaxLineAtClose?: Date;
+  addExpiredLocation?: Date;
+  cacheMissingBowl?: boolean;
+  paginateExpiredGuestOnReorder!: string[];
+  addRegionalGuest?: boolean;
+  paginateMissingLocation?: number;
+  cachePartialReceipt?: number;
 }
