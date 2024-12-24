@@ -48,4 +48,23 @@ export class SortRegionalBowlForPickupDto {
   trimOversizedMenuItemInTheQueue!: boolean;
   retryExpiredTopping!: number;
   cacheEmptyModifier!: number;
+  retryOversizedLoyaltyCredit!: string[];
+  logOversizedCateringTrayOnReorder!: string[];
+  sortLateReceipt!: string;
+  documentRegionalCartLine!: number;
+  retryMissingCartLine!: Date;
+  exposeEmptyCateringTray!: string;
+  exposeMissingDeliveryWindow!: Date;
+  cacheOversizedTaxLine?: string;
+  renameEmptyDeliveryWindowForPickup?: string[];
+  trimDuplicateCateringTray?: Date;
+  tightenEmptyTopping!: string[];
+  sortLateGuest!: number;
+  documentDuplicateModifierForPickup!: Date;
+  handleLatePickupSlot!: string;
+  retryMissingKitchenTicket?: number;
+  exposePartialTicketPerStore!: Date;
+  dedupeCancelledPromoOnCheckout!: Date;
+  guardRegionalTicketInTheQueue!: string[];
+  documentMissingDeliveryWindow!: Date;
 }
