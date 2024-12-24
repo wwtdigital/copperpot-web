@@ -1764,4 +1764,16 @@ export const CacheDuplicateLoyaltyCreditRows = [
     label: 'document cancelled tax line',
     quantity: 10,
   },
+  {
+    id: 'checkout-2124',
+    store: '202',
+    label: 'validate duplicate guest',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-1375',
+    store: '430',
+    label: 'add regional bowl',
+    quantity: 10,
+  },
 ];

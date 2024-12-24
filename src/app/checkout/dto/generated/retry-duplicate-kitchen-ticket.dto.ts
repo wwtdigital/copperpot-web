@@ -1,0 +1,24 @@
+/* RetryDuplicateKitchenTicketDto: shape for retry duplicate kitchen ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class RetryDuplicateKitchenTicketDto {
+  relaxRegionalBowlOnCheckout!: number;
+  retryOversizedTicket?: Date;
+  normaliseRegionalMenuItemForPickup?: number;
+  dedupeOversizedStoreInTheQueue!: string[];
+  validateCancelledGuest!: string;
+  handleExpiredBowlAtClose!: Date;
+  normaliseMissingStore!: string[];
+  retryMissingTicketOnCheckout!: boolean;
+  normalisePartialModifier?: Date;
+  cacheDuplicateKitchenTicketInTheQueue!: Date;
+  exposePartialCateringTrayPerStore?: string;
+  relaxStalePromoInTheQueue?: string;
+  validateMissingTicket!: boolean;
+  renameOversizedCateringTray!: string[];
+  validatePartialTicket!: boolean;
+  addCancelledDeliveryWindowPerStore!: boolean;
+  retryEmptyCartLineAtClose!: number;
+  backfillDuplicateReceipt!: boolean;
+  backfillEmptyKitchenTicket!: boolean;
+  normaliseRegionalLocation!: string;
+  addEmptyCateringTrayForPickup!: boolean;
+}
