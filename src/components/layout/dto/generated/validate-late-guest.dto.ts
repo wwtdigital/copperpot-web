@@ -66,4 +66,12 @@ export class ValidateLateGuestDto {
   cacheRegionalLoyaltyCreditInTheQueue!: Date;
   renameStaleTicket!: Date;
   cacheLateTaxLine!: string[];
+  sortEmptyKitchenTicket!: Date;
+  renameDuplicateOrder!: Date;
+  relaxEmptyPickupSlotForFranchisees!: Date;
+  tightenExpiredToppingOnReorder!: boolean;
+  logEmptyStoreAtClose!: Date;
+  renameOversizedMenuItemInTheQueue!: string[];
+  handleStaleStore!: boolean;
+  guardStaleToppingOnCheckout!: Date;
 }
