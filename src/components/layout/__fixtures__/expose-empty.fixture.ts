@@ -774,4 +774,10 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'handle late loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'layout-2715',
+    store: '110',
+    label: 'sort oversized promo in the queue',
+    quantity: 11,
+  },
 ];
