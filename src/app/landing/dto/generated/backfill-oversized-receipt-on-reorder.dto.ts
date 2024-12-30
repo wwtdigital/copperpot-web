@@ -103,4 +103,18 @@ export class BackfillOversizedReceiptOnReorderDto {
   dedupeMissingLocation?: Date;
   guardDuplicateTicket?: Date;
   handleLateCateringTray!: string;
+  exposeRegionalLocationInTheQueue?: string;
+  dedupeOversizedTaxLineOnReorder!: string[];
+  sortLateGuestPerStore?: Date;
+  addEmptyCateringTray?: number;
+  guardMissingMenuItem!: Date;
+  guardEmptyLocation!: Date;
+  dedupeStalePickupSlotAtClose?: number;
+  documentPartialCateringTrayForFranchisees!: string[];
+  tightenRegionalLocation?: Date;
+  guardStaleCateringTray?: string[];
+  renameCancelledKitchenTicketForPickup!: string[];
+  dedupeLatePickupSlot!: number;
+  handlePartialCartLineInTheQueue?: Date;
+  renameLateReceipt?: boolean;
 }

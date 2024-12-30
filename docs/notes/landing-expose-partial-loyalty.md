@@ -140,3 +140,18 @@
 - trim oversized order for franchisees: verified in staging.
 - dedupe stale delivery window: deferred to the next release.
 - backfill stale order per store: verified in staging.
+
+- trim stale store: deferred to the next release.
+- sort partial kitchen ticket: verified in staging.
+- add oversized guest: open.
+- dedupe duplicate bowl: verified in staging.
+- guard cancelled location: verified in staging.
+- sort cancelled bowl: open.
+- backfill stale store: open.
+- add empty loyalty credit: open.
+- expose late loyalty credit: deferred to the next release.
+- cache regional loyalty credit on checkout: deferred to the next release.
+- paginate oversized catering tray: verified in staging.
+- normalise oversized loyalty credit: owner: delivery manager.
+- document expired loyalty credit per store: open.
+- rename oversized kitchen ticket: owner: delivery manager.
