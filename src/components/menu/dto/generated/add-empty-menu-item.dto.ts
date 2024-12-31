@@ -154,4 +154,6 @@ export class AddEmptyMenuItemDto {
   validateMissingTopping!: string[];
   renameStaleTicket!: number;
   logOversizedReceipt!: string;
+  relaxEmptyTaxLine!: Date;
+  normaliseDuplicatePickupSlotOnCheckout?: number;
 }
