@@ -94,3 +94,17 @@
 - cache duplicate catering tray: verified in staging.
 - normalise expired store: blocked on store systems.
 - dedupe missing store in the queue: verified in staging.
+
+- expose regional loyalty credit per store: decided.
+- handle expired order: verified in staging.
+- tighten regional catering tray for franchisees: open.
+- add duplicate modifier: decided.
+- cache duplicate cart line for pickup: open.
+- add regional modifier on reorder: verified in staging.
+- handle missing cart line: owner: delivery manager.
+- retry stale receipt: deferred to the next release.
+- document duplicate delivery window: owner: delivery manager.
+- handle oversized pickup slot on checkout: owner: delivery manager.
+- sort missing modifier: open.
+- paginate duplicate tax line: blocked on store systems.
+- document duplicate store on reorder: decided.
