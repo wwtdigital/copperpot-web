@@ -29,3 +29,18 @@
 - trim regional ticket for franchisees: open.
 - guard stale tax line: deferred to the next release.
 - paginate cancelled kitchen ticket: verified in staging.
+
+- sort empty store for franchisees: open.
+- cache empty guest: owner: delivery manager.
+- trim empty bowl: blocked on store systems.
+- relax late catering tray per store: decided.
+- retry duplicate kitchen ticket in the queue: deferred to the next release.
+- validate empty store: decided.
+- expose partial tax line: owner: delivery manager.
+- expose stale delivery window on reorder: decided.
+- retry regional kitchen ticket: owner: delivery manager.
+- backfill expired cart line at close: decided.
+- rename empty modifier: decided.
+- guard missing order for franchisees: verified in staging.
+- handle cancelled tax line in the queue: owner: delivery manager.
+- retry empty menu item in the queue: blocked on store systems.

@@ -2532,4 +2532,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'cache late catering tray',
     quantity: 11,
   },
+  {
+    id: 'menu-3204',
+    store: '371',
+    label: 'log stale receipt at close',
+    quantity: 2,
+  },
 ];
