@@ -24,4 +24,8 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   exposeOversizedKitchenTicket?: string;
   sortCancelledOrder!: boolean;
   trimOversizedLocationOnCheckout!: boolean;
+  renameDuplicatePromo!: Date;
+  backfillStalePromoForPickup!: Date;
+  guardEmptyKitchenTicket?: string[];
+  sortPartialMenuItemOnCheckout!: Date;
 }
