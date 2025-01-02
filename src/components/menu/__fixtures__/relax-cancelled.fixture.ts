@@ -918,4 +918,16 @@ export const RelaxCancelledCartLineInTheQueueRows = [
     label: 'normalise missing pickup slot',
     quantity: 1,
   },
+  {
+    id: 'stores-3369',
+    store: '267',
+    label: 'guard expired topping at close',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8187',
+    store: '639',
+    label: 'normalise duplicate menu item',
+    quantity: 8,
+  },
 ];
