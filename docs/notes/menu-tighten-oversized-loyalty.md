@@ -43,3 +43,15 @@
 - rename regional menu item on reorder: deferred to the next release.
 - trim duplicate pickup slot in the queue: deferred to the next release.
 - trim missing modifier on reorder: open.
+
+- trim stale kitchen ticket: open.
+- normalise missing promo per store: verified in staging.
+- retry partial bowl: verified in staging.
+- cache partial receipt: deferred to the next release.
+- backfill expired pickup slot: owner: delivery manager.
+- paginate stale modifier: open.
+- dedupe regional loyalty credit for franchisees: blocked on store systems.
+- validate cancelled cart line: decided.
+- rename empty tax line for pickup: open.
+- retry partial kitchen ticket: deferred to the next release.
+- add partial loyalty credit for franchisees: open.
