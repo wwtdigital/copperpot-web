@@ -768,4 +768,16 @@ export const ExposeEmptyLoyaltyCreditOnReorderRows = [
     label: 'guard regional promo in the queue',
     quantity: 4,
   },
+  {
+    id: 'layout-9842',
+    store: '571',
+    label: 'handle late loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'layout-2715',
+    store: '110',
+    label: 'sort oversized promo in the queue',
+    quantity: 11,
+  },
 ];
