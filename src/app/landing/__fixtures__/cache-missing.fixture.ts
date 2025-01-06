@@ -126,4 +126,22 @@ export const CacheMissingModifierRows = [
     label: 'normalise missing guest',
     quantity: 8,
   },
+  {
+    id: 'landing-7999',
+    store: '200',
+    label: 'guard partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'landing-5573',
+    store: '305',
+    label: 'paginate regional ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'landing-3153',
+    store: '466',
+    label: 'guard late promo',
+    quantity: 7,
+  },
 ];

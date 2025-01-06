@@ -14,3 +14,6 @@
 - handle late topping on checkout: verified in staging.
 - expose stale topping: blocked on store systems.
 - dedupe cancelled ticket: blocked on store systems.
+
+- add late kitchen ticket on checkout: open.
+- sort missing catering tray per store: blocked on store systems.
