@@ -30,3 +30,12 @@
 
 - document duplicate receipt at close: open.
 - document regional guest on reorder: deferred to the next release.
+
+- normalise stale delivery window on checkout: decided.
+- log empty store: blocked on store systems.
+- rename late location: open.
+- backfill empty receipt: owner: delivery manager.
+- validate stale cart line: deferred to the next release.
+- validate missing order: open.
+- dedupe empty store for franchisees: open.
+- log oversized loyalty credit: decided.
