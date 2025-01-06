@@ -246,4 +246,22 @@ export const DedupeLateReceiptRows = [
     label: 'relax partial bowl',
     quantity: 8,
   },
+  {
+    id: 'stores-1219',
+    store: '197',
+    label: 'rename regional catering tray for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'stores-2333',
+    store: '146',
+    label: 'retry regional cart line',
+    quantity: 3,
+  },
+  {
+    id: 'stores-9918',
+    store: '687',
+    label: 'document regional pickup slot',
+    quantity: 8,
+  },
 ];
