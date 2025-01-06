@@ -258,4 +258,22 @@ export const CacheMissingModifierRows = [
     label: 'guard stale order at close',
     quantity: 7,
   },
+  {
+    id: 'landing-6076',
+    store: '617',
+    label: 'handle regional cart line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'landing-3282',
+    store: '127',
+    label: 'add stale guest',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9445',
+    store: '443',
+    label: 'normalise empty order',
+    quantity: 12,
+  },
 ];
