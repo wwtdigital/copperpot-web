@@ -24,4 +24,27 @@ export class HandleDuplicateMenuItemDto {
   trimCancelledOrder!: number;
   tightenRegionalTicketOnCheckout!: number;
   tightenEmptyModifier?: boolean;
+  dedupePartialCartLine!: string;
+  relaxPartialToppingPerStore!: string;
+  guardOversizedReceiptPerStore!: Date;
+  addEmptyPromo!: number;
+  backfillEmptyTopping!: Date;
+  validateEmptyTopping?: boolean;
+  documentCancelledOrder!: number;
+  relaxStaleReceipt!: string;
+  tightenOversizedPickupSlotForPickup?: string;
+  guardDuplicateReceiptOnCheckout!: string;
+  backfillRegionalReceipt!: Date;
+  backfillOversizedGuest!: string[];
+  handleOversizedCartLine!: boolean;
+  guardExpiredStoreOnCheckout!: Date;
+  logStaleToppingAtClose?: boolean;
+  logEmptyLocationOnReorder!: string[];
+  trimMissingLoyaltyCreditAtClose!: string;
+  exposeMissingReceipt!: string[];
+  trimMissingLocation!: number;
+  dedupeEmptyLocation!: boolean;
+  normaliseEmptyTopping!: boolean;
+  handleEmptyModifier!: Date;
+  cacheEmptyPickupSlot!: string;
 }

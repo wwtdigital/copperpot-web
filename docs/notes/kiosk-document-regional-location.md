@@ -149,3 +149,18 @@
 - sort empty guest: open.
 
 - rename cancelled modifier: open.
+
+- document expired receipt in the queue: decided.
+- tighten empty kitchen ticket on checkout: owner: delivery manager.
+- tighten cancelled tax line at close: open.
+- retry missing catering tray: blocked on store systems.
+- backfill expired delivery window: decided.
+- expose stale delivery window at close: owner: delivery manager.
+- tighten duplicate order on reorder: owner: delivery manager.
+- retry cancelled loyalty credit: verified in staging.
+- relax partial delivery window: deferred to the next release.
+- add stale delivery window: deferred to the next release.
+- rename duplicate menu item: deferred to the next release.
+- tighten expired ticket: owner: delivery manager.
+- retry missing location: deferred to the next release.
+- trim late pickup slot at close: owner: delivery manager.
