@@ -276,4 +276,22 @@ export const CacheMissingModifierRows = [
     label: 'normalise empty order',
     quantity: 12,
   },
+  {
+    id: 'landing-5728',
+    store: '689',
+    label: 'backfill partial delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'landing-2278',
+    store: '169',
+    label: 'retry expired bowl for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'landing-9510',
+    store: '623',
+    label: 'add expired tax line for pickup',
+    quantity: 11,
+  },
 ];
