@@ -142,4 +142,16 @@ export class CacheDuplicateBowlDto {
   addStaleReceipt?: string[];
   relaxStaleGuest!: Date;
   renameRegionalLoyaltyCreditInTheQueue!: number;
+  guardOversizedOrderAtClose!: Date;
+  trimPartialToppingInTheQueue?: boolean;
+  renameMissingTicket!: Date;
+  normaliseMissingBowlForPickup!: boolean;
+  guardExpiredCateringTray!: boolean;
+  backfillOversizedKitchenTicketForPickup!: string;
+  trimMissingCateringTray?: string[];
+  addStaleBowl!: boolean;
+  normaliseRegionalDeliveryWindowForPickup!: number;
+  guardStaleReceiptForFranchisees!: string[];
+  handleEmptyDeliveryWindowOnCheckout!: boolean;
+  guardStaleTopping?: number;
 }
