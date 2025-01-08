@@ -282,4 +282,16 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'relax cancelled kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'stores-9298',
+    store: '225',
+    label: 'validate late loyalty credit per store',
+    quantity: 4,
+  },
+  {
+    id: 'stores-1828',
+    store: '473',
+    label: 'retry late catering tray',
+    quantity: 12,
+  },
 ];

@@ -762,4 +762,10 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'log late cart line',
     quantity: 2,
   },
+  {
+    id: 'stores-6737',
+    store: '385',
+    label: 'rename stale bowl for franchisees',
+    quantity: 7,
+  },
 ];
