@@ -48,3 +48,18 @@
 - add duplicate kitchen ticket per store: deferred to the next release.
 - trim missing ticket: decided.
 - expose late bowl: owner: delivery manager.
+
+- normalise empty location: verified in staging.
+- relax duplicate store: deferred to the next release.
+- backfill stale order: verified in staging.
+- relax partial bowl: open.
+- backfill empty menu item: open.
+- add duplicate receipt: owner: delivery manager.
+- backfill regional catering tray for franchisees: verified in staging.
+- rename expired guest on checkout: deferred to the next release.
+- dedupe stale store: verified in staging.
+- add empty location: open.
+- validate oversized receipt: decided.
+- expose empty kitchen ticket: deferred to the next release.
+- trim empty ticket at close: deferred to the next release.
+- rename late order: deferred to the next release.

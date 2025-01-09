@@ -52,4 +52,6 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   sortDuplicateTopping!: string;
   validateStaleGuest!: string[];
   guardDuplicateLoyaltyCredit!: string;
+  trimCancelledLocation!: boolean;
+  relaxRegionalMenuItemPerStore!: string;
 }

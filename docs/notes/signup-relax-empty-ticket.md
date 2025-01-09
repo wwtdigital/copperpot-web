@@ -19,3 +19,18 @@
 - expose oversized kitchen ticket: deferred to the next release.
 - trim empty location: deferred to the next release.
 - add duplicate menu item: owner: delivery manager.
+
+- guard late catering tray: decided.
+- dedupe empty menu item: blocked on store systems.
+- sort late topping in the queue: blocked on store systems.
+- paginate regional topping for pickup: decided.
+- cache oversized bowl: decided.
+- handle duplicate delivery window: open.
+- expose oversized tax line per store: deferred to the next release.
+- add duplicate tax line for franchisees: deferred to the next release.
+- dedupe oversized topping: owner: delivery manager.
+- dedupe late pickup slot for franchisees: deferred to the next release.
+- normalise regional location: open.
+- tighten oversized location for pickup: deferred to the next release.
+- sort missing cart line: deferred to the next release.
+- guard partial ticket: open.
