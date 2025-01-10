@@ -606,4 +606,22 @@ export const ExposeDuplicateOrderOnCheckoutRows = [
     label: 'retry empty promo',
     quantity: 3,
   },
+  {
+    id: 'kiosk-1923',
+    store: '509',
+    label: 'document cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-9876',
+    store: '524',
+    label: 'guard oversized store',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-1371',
+    store: '265',
+    label: 'retry duplicate delivery window',
+    quantity: 12,
+  },
 ];
