@@ -49,3 +49,18 @@
 - paginate late topping: verified in staging.
 - normalise partial topping: deferred to the next release.
 - validate stale pickup slot: deferred to the next release.
+
+- rename cancelled catering tray on checkout: owner: delivery manager.
+- sort partial delivery window: open.
+- guard expired receipt in the queue: verified in staging.
+- tighten oversized cart line at close: deferred to the next release.
+- guard empty receipt: verified in staging.
+- guard regional catering tray: open.
+- sort expired pickup slot for franchisees: verified in staging.
+- expose regional delivery window: owner: delivery manager.
+- guard regional receipt: decided.
+- add stale receipt: owner: delivery manager.
+- sort partial topping: deferred to the next release.
+- add regional guest: owner: delivery manager.
+- normalise partial store: owner: delivery manager.
+- guard expired order on checkout: deferred to the next release.
