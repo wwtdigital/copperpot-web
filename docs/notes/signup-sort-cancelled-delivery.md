@@ -33,3 +33,18 @@
 - validate cancelled kitchen ticket for franchisees: owner: delivery manager.
 - paginate regional delivery window: blocked on store systems.
 - rename stale topping at close: decided.
+
+- document missing kitchen ticket for franchisees: verified in staging.
+- relax missing receipt for franchisees: owner: delivery manager.
+- paginate cancelled loyalty credit in the queue: owner: delivery manager.
+- tighten empty order: deferred to the next release.
+- rename late promo on checkout: verified in staging.
+- trim stale store: deferred to the next release.
+- document oversized order at close: open.
+- trim missing order: owner: delivery manager.
+- expose late delivery window: verified in staging.
+- trim stale receipt: open.
+- trim stale topping for pickup: owner: delivery manager.
+- add duplicate kitchen ticket per store: deferred to the next release.
+- trim missing ticket: decided.
+- expose late bowl: owner: delivery manager.

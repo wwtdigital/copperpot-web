@@ -474,4 +474,22 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'expose empty location at close',
     quantity: 1,
   },
+  {
+    id: 'signup-4577',
+    store: '170',
+    label: 'backfill late cart line at close',
+    quantity: 7,
+  },
+  {
+    id: 'signup-2917',
+    store: '480',
+    label: 'handle missing location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'signup-9068',
+    store: '128',
+    label: 'document missing pickup slot on reorder',
+    quantity: 11,
+  },
 ];
