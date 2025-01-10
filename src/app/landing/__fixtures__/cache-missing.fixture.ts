@@ -294,4 +294,16 @@ export const CacheMissingModifierRows = [
     label: 'add expired tax line for pickup',
     quantity: 11,
   },
+  {
+    id: 'landing-4141',
+    store: '615',
+    label: 'retry stale modifier',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9424',
+    store: '529',
+    label: 'relax missing topping',
+    quantity: 4,
+  },
 ];
