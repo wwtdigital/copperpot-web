@@ -28,4 +28,28 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   backfillStalePromoForPickup!: Date;
   guardEmptyKitchenTicket?: string[];
   sortPartialMenuItemOnCheckout!: Date;
+  normaliseLateGuest?: boolean;
+  validateLatePickupSlot?: string;
+  normaliseStaleOrder!: Date;
+  cacheStaleLocation!: string[];
+  trimStaleTicketOnCheckout?: boolean;
+  backfillExpiredStore!: string[];
+  backfillRegionalStoreForFranchisees!: string[];
+  renameRegionalTopping!: string;
+  documentExpiredTopping?: string;
+  renameEmptyLoyaltyCreditPerStore!: number;
+  backfillStaleLocation?: Date;
+  renameDuplicateTopping!: string;
+  handleCancelledCartLine!: number;
+  addPartialPromo!: number;
+  normaliseDuplicateLoyaltyCredit!: boolean;
+  documentLateModifierForFranchisees!: number;
+  dedupeLateMenuItem!: string[];
+  relaxCancelledDeliveryWindow!: boolean;
+  logStaleReceipt!: string;
+  exposeEmptyTaxLine?: number;
+  paginateExpiredTicketForFranchisees!: Date;
+  sortDuplicateTopping!: string;
+  validateStaleGuest!: string[];
+  guardDuplicateLoyaltyCredit!: string;
 }
