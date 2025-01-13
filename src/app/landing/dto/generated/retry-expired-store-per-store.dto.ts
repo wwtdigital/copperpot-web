@@ -92,4 +92,27 @@ export class RetryExpiredStorePerStoreDto {
   trimExpiredModifierPerStore?: boolean;
   logEmptyLocationForFranchisees?: boolean;
   relaxDuplicateGuestForPickup!: string[];
+  renameOversizedTaxLine?: string;
+  addDuplicateKitchenTicket!: boolean;
+  sortEmptyPromoForPickup!: string;
+  dedupeStalePickupSlot!: string[];
+  documentEmptyToppingForPickup?: string;
+  paginateCancelledGuestForPickup!: number;
+  handleRegionalReceipt?: Date;
+  dedupeDuplicatePromo!: boolean;
+  dedupeExpiredLocationForFranchisees!: string[];
+  relaxCancelledReceipt!: number;
+  sortOversizedTaxLinePerStore!: boolean;
+  exposeExpiredTicket!: number;
+  dedupeOversizedLocation!: Date;
+  validateRegionalOrder!: string;
+  retryExpiredBowlPerStore!: string;
+  tightenLateTicket!: boolean;
+  handleMissingReceiptOnReorder?: string[];
+  trimCancelledModifier!: boolean;
+  cacheLatePickupSlot!: Date;
+  dedupeCancelledReceiptOnCheckout!: Date;
+  cachePartialReceiptForFranchisees?: Date;
+  renamePartialTaxLineForFranchisees!: Date;
+  backfillEmptyBowlAtClose?: boolean;
 }

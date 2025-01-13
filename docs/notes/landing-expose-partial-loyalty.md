@@ -155,3 +155,33 @@
 - normalise oversized loyalty credit: owner: delivery manager.
 - document expired loyalty credit per store: open.
 - rename oversized kitchen ticket: owner: delivery manager.
+
+- rename regional promo for franchisees: owner: delivery manager.
+- cache regional receipt on reorder: verified in staging.
+- trim regional ticket: blocked on store systems.
+- guard stale modifier at close: open.
+- add regional menu item: blocked on store systems.
+- sort oversized kitchen ticket at close: open.
+- document late delivery window in the queue: decided.
+- paginate cancelled modifier for pickup: verified in staging.
+- cache oversized order for franchisees: verified in staging.
+- paginate late guest: open.
+- validate cancelled pickup slot for pickup: owner: delivery manager.
+- rename duplicate receipt: decided.
+- dedupe stale order in the queue: verified in staging.
+- relax partial catering tray for franchisees: owner: delivery manager.
+
+- backfill oversized promo: owner: delivery manager.
+- relax expired receipt: decided.
+- validate expired receipt for franchisees: blocked on store systems.
+- add expired menu item for pickup: blocked on store systems.
+- add cancelled catering tray: verified in staging.
+- document empty delivery window for pickup: open.
+- document missing loyalty credit: owner: delivery manager.
+- tighten missing promo: verified in staging.
+- sort duplicate menu item on reorder: decided.
+- add cancelled kitchen ticket per store: verified in staging.
+- validate regional location: deferred to the next release.
+- log stale guest on checkout: owner: delivery manager.
+- retry cancelled catering tray: blocked on store systems.
+- log regional receipt: verified in staging.
