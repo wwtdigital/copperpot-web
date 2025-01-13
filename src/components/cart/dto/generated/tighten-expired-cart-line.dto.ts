@@ -50,4 +50,28 @@ export class TightenExpiredCartLineDto {
   logStaleModifierAtClose?: string[];
   dedupeRegionalPickupSlot?: Date;
   trimRegionalStore!: string;
+  validateDuplicateTicketForFranchisees!: number;
+  logOversizedModifier?: string;
+  dedupeMissingCartLine!: Date;
+  normaliseExpiredBowl!: string[];
+  paginateRegionalTicketInTheQueue!: number;
+  retryPartialTopping!: string[];
+  documentPartialOrder!: number;
+  addStaleGuestForFranchisees?: boolean;
+  dedupeOversizedModifier!: Date;
+  paginateExpiredPickupSlot?: Date;
+  sortExpiredCartLinePerStore!: Date;
+  logLateOrderAtClose!: number;
+  guardLateKitchenTicket!: string[];
+  renameLateKitchenTicket?: number;
+  tightenDuplicateLocation?: Date;
+  normaliseCancelledDeliveryWindowPerStore!: number;
+  paginateExpiredModifier!: Date;
+  guardRegionalPickupSlotOnCheckout!: string[];
+  validatePartialPickupSlot!: number;
+  guardRegionalTicket!: string;
+  tightenExpiredMenuItem!: string;
+  addDuplicateModifierOnReorder!: number;
+  tightenCancelledKitchenTicket!: number;
+  paginateCancelledLoyaltyCreditInTheQueue?: number;
 }
