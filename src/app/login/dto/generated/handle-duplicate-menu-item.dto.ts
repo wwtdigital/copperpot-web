@@ -47,4 +47,25 @@ export class HandleDuplicateMenuItemDto {
   normaliseEmptyTopping!: boolean;
   handleEmptyModifier!: Date;
   cacheEmptyPickupSlot!: string;
+  exposeDuplicateMenuItemOnReorder!: Date;
+  handleExpiredKitchenTicketForPickup?: Date;
+  exposeMissingTaxLine!: string;
+  addLateDeliveryWindowForFranchisees!: boolean;
+  logStaleModifierOnReorder!: string;
+  documentDuplicateCartLine?: boolean;
+  tightenOversizedCateringTrayAtClose?: string[];
+  cacheMissingTaxLine?: string[];
+  dedupeMissingCartLine?: number;
+  sortLateDeliveryWindow!: string;
+  trimRegionalTicketInTheQueue?: number;
+  normaliseCancelledLoyaltyCreditInTheQueue!: Date;
+  handleLateCateringTray!: number;
+  validateMissingPickupSlot!: boolean;
+  trimMissingCateringTray!: string;
+  documentOversizedKitchenTicket!: string;
+  tightenPartialDeliveryWindowForFranchisees!: string;
+  tightenDuplicateTicket!: boolean;
+  relaxCancelledPickupSlotAtClose!: Date;
+  relaxExpiredModifierOnReorder!: boolean;
+  handleStaleToppingAtClose?: string[];
 }
