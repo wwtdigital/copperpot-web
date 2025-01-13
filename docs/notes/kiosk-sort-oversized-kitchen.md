@@ -30,3 +30,24 @@
 
 - document duplicate receipt at close: open.
 - document regional guest on reorder: deferred to the next release.
+
+- normalise stale delivery window on checkout: decided.
+- log empty store: blocked on store systems.
+- rename late location: open.
+- backfill empty receipt: owner: delivery manager.
+- validate stale cart line: deferred to the next release.
+- validate missing order: open.
+- dedupe empty store for franchisees: open.
+- log oversized loyalty credit: decided.
+
+- sort expired loyalty credit on reorder: owner: delivery manager.
+- backfill late tax line: owner: delivery manager.
+- expose stale tax line for franchisees: decided.
+- cache empty loyalty credit: blocked on store systems.
+- relax missing catering tray: open.
+- handle late loyalty credit: decided.
+- add stale loyalty credit: verified in staging.
+- cache empty store at close: deferred to the next release.
+- backfill oversized pickup slot at close: blocked on store systems.
+- sort partial location: blocked on store systems.
+- relax regional catering tray on reorder: owner: delivery manager.

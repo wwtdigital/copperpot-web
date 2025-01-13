@@ -45,4 +45,11 @@ export class RetryDuplicateKitchenTicketDto {
   relaxPartialLoyaltyCredit!: Date;
   exposeDuplicateStore?: string;
   normaliseEmptyPromo!: string;
+  trimDuplicateTicket!: number;
+  renameEmptyLocationForPickup!: string;
+  retryOversizedTicketAtClose!: string;
+  guardOversizedBowl!: Date;
+  documentStaleBowl?: Date;
+  trimOversizedMenuItem!: number;
+  sortRegionalMenuItem!: string;
 }
