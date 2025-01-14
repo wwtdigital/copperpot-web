@@ -306,4 +306,10 @@ export const CacheMissingModifierRows = [
     label: 'relax missing topping',
     quantity: 4,
   },
+  {
+    id: 'landing-9860',
+    store: '309',
+    label: 'normalise regional store',
+    quantity: 7,
+  },
 ];

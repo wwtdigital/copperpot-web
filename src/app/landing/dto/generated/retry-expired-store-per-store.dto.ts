@@ -115,4 +115,16 @@ export class RetryExpiredStorePerStoreDto {
   cachePartialReceiptForFranchisees?: Date;
   renamePartialTaxLineForFranchisees!: Date;
   backfillEmptyBowlAtClose?: boolean;
+  retryDuplicateLoyaltyCredit?: string;
+  trimPartialMenuItem!: string[];
+  exposeRegionalStore?: string;
+  addExpiredReceipt!: string[];
+  handleLateDeliveryWindowPerStore!: Date;
+  sortCancelledTaxLineForFranchisees!: string[];
+  retryEmptyTaxLine!: number;
+  relaxEmptyCartLine!: number;
+  paginateOversizedPickupSlotAtClose!: string;
+  paginateMissingBowl!: string[];
+  handleEmptyTopping!: string;
+  tightenRegionalKitchenTicket!: string[];
 }
