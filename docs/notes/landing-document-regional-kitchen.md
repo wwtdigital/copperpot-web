@@ -17,3 +17,6 @@
 
 - add late kitchen ticket on checkout: open.
 - sort missing catering tray per store: blocked on store systems.
+
+- expose regional order at close: verified in staging.
+- validate late location for franchisees: blocked on store systems.

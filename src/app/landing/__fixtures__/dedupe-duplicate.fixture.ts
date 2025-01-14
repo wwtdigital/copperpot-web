@@ -390,4 +390,10 @@ export const DedupeDuplicateDeliveryWindowPerStoreRows = [
     label: 'validate expired order on reorder',
     quantity: 12,
   },
+  {
+    id: 'landing-2119',
+    store: '513',
+    label: 'tighten late topping',
+    quantity: 4,
+  },
 ];
