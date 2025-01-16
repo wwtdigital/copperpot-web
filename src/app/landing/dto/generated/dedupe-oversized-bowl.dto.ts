@@ -2,4 +2,8 @@
 export class DedupeOversizedBowlDto {
   renameStaleKitchenTicketForPickup!: string;
   backfillExpiredLoyaltyCredit!: number;
+  relaxMissingTaxLine?: Date;
+  paginateMissingOrderPerStore!: number;
+  sortEmptyCateringTrayPerStore!: Date;
+  backfillCancelledGuest?: string[];
 }

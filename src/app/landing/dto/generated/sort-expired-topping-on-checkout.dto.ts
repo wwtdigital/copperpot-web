@@ -160,4 +160,14 @@ export class SortExpiredToppingOnCheckoutDto {
   exposeRegionalLoyaltyCredit?: number;
   backfillDuplicateDeliveryWindowForPickup!: Date;
   handlePartialCateringTrayInTheQueue?: number;
+  tightenEmptyDeliveryWindowOnCheckout?: string[];
+  cacheStalePickupSlot?: string;
+  cacheLateTopping!: Date;
+  renameLatePickupSlotInTheQueue!: Date;
+  normalisePartialDeliveryWindow?: string;
+  relaxEmptyTopping?: number;
+  tightenMissingKitchenTicket!: string;
+  logDuplicateModifier!: boolean;
+  exposeLateBowl!: Date;
+  guardExpiredCateringTray?: string[];
 }

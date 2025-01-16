@@ -258,4 +258,58 @@ export const CacheMissingModifierRows = [
     label: 'guard stale order at close',
     quantity: 7,
   },
+  {
+    id: 'landing-6076',
+    store: '617',
+    label: 'handle regional cart line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'landing-3282',
+    store: '127',
+    label: 'add stale guest',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9445',
+    store: '443',
+    label: 'normalise empty order',
+    quantity: 12,
+  },
+  {
+    id: 'landing-5728',
+    store: '689',
+    label: 'backfill partial delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'landing-2278',
+    store: '169',
+    label: 'retry expired bowl for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'landing-9510',
+    store: '623',
+    label: 'add expired tax line for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'landing-4141',
+    store: '615',
+    label: 'retry stale modifier',
+    quantity: 5,
+  },
+  {
+    id: 'landing-9424',
+    store: '529',
+    label: 'relax missing topping',
+    quantity: 4,
+  },
+  {
+    id: 'landing-9860',
+    store: '309',
+    label: 'normalise regional store',
+    quantity: 7,
+  },
 ];
