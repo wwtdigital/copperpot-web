@@ -16,4 +16,11 @@ export class LogPartialPromoDto {
   trimDuplicateKitchenTicket!: number;
   trimDuplicateCartLine!: Date;
   dedupeDuplicatePickupSlotInTheQueue?: string[];
+  renameStaleCateringTrayOnCheckout?: string;
+  cacheStaleTopping!: string;
+  documentEmptyGuest!: Date;
+  documentLateLoyaltyCredit?: string;
+  dedupeRegionalBowl?: number;
+  relaxMissingModifierInTheQueue!: Date;
+  exposeDuplicateToppingForPickup!: boolean;
 }

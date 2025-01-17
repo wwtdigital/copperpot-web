@@ -624,4 +624,46 @@ export const ExposeDuplicateOrderOnCheckoutRows = [
     label: 'retry duplicate delivery window',
     quantity: 12,
   },
+  {
+    id: 'kiosk-7495',
+    store: '431',
+    label: 'document empty ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-8944',
+    store: '373',
+    label: 'normalise regional topping',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-6923',
+    store: '507',
+    label: 'handle late bowl for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-5954',
+    store: '264',
+    label: 'normalise empty tax line',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-3949',
+    store: '532',
+    label: 'sort partial delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-7385',
+    store: '363',
+    label: 'sort cancelled menu item on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-5370',
+    store: '586',
+    label: 'trim expired loyalty credit',
+    quantity: 1,
+  },
 ];
