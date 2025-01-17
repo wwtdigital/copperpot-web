@@ -3018,4 +3018,46 @@ export const SortCancelledOrderRows = [
     label: 'relax cancelled receipt',
     quantity: 1,
   },
+  {
+    id: 'kiosk-3090',
+    store: '131',
+    label: 'expose duplicate location',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-6876',
+    store: '329',
+    label: 'expose stale catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-3396',
+    store: '696',
+    label: 'rename partial guest',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-4361',
+    store: '583',
+    label: 'log late tax line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-3228',
+    store: '643',
+    label: 'document regional ticket',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-4908',
+    store: '500',
+    label: 'document regional catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-2510',
+    store: '474',
+    label: 'normalise late receipt',
+    quantity: 1,
+  },
 ];
