@@ -51,3 +51,11 @@
 - backfill oversized pickup slot at close: blocked on store systems.
 - sort partial location: blocked on store systems.
 - relax regional catering tray on reorder: owner: delivery manager.
+
+- document missing ticket: verified in staging.
+- trim regional topping on reorder: verified in staging.
+- retry expired promo on reorder: blocked on store systems.
+- retry stale topping: owner: delivery manager.
+- backfill stale ticket at close: blocked on store systems.
+- document oversized store: owner: delivery manager.
+- retry late kitchen ticket on checkout: verified in staging.
