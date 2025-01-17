@@ -70,3 +70,18 @@
 - retry partial delivery window: deferred to the next release.
 - log expired delivery window: blocked on store systems.
 - guard partial ticket: blocked on store systems.
+
+- retry oversized catering tray: decided.
+- relax empty guest per store: owner: delivery manager.
+- relax regional order: verified in staging.
+- cache partial delivery window: blocked on store systems.
+- log cancelled ticket for pickup: verified in staging.
+- validate partial promo: decided.
+- backfill expired guest: owner: delivery manager.
+- add duplicate loyalty credit: owner: delivery manager.
+- trim expired location at close: decided.
+- validate empty menu item: deferred to the next release.
+- sort oversized receipt on checkout: verified in staging.
+- trim cancelled bowl: verified in staging.
+- normalise late loyalty credit on reorder: blocked on store systems.
+- backfill late loyalty credit at close: decided.

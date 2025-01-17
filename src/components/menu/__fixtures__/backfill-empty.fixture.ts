@@ -2778,4 +2778,52 @@ export const BackfillEmptyTaxLineRows = [
     label: 'trim regional delivery window per store',
     quantity: 5,
   },
+  {
+    id: 'menu-5108',
+    store: '419',
+    label: 'backfill cancelled topping at close',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4677',
+    store: '226',
+    label: 'document stale bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9544',
+    store: '270',
+    label: 'normalise missing ticket per store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-1349',
+    store: '118',
+    label: 'log expired bowl',
+    quantity: 12,
+  },
+  {
+    id: 'menu-3013',
+    store: '199',
+    label: 'tighten late tax line',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2193',
+    store: '137',
+    label: 'sort duplicate receipt for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1269',
+    store: '197',
+    label: 'handle cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8645',
+    store: '437',
+    label: 'guard stale receipt',
+    quantity: 9,
+  },
 ];
