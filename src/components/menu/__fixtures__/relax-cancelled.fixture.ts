@@ -1062,4 +1062,52 @@ export const RelaxCancelledCartLineInTheQueueRows = [
     label: 'dedupe late store for franchisees',
     quantity: 1,
   },
+  {
+    id: 'menu-9927',
+    store: '179',
+    label: 'dedupe expired location',
+    quantity: 9,
+  },
+  {
+    id: 'menu-5766',
+    store: '236',
+    label: 'paginate oversized location for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8461',
+    store: '331',
+    label: 'validate late catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4347',
+    store: '170',
+    label: 'guard stale topping per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9829',
+    store: '289',
+    label: 'relax missing pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-6383',
+    store: '686',
+    label: 'trim late ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-9646',
+    store: '497',
+    label: 'rename stale store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2572',
+    store: '420',
+    label: 'paginate oversized delivery window on reorder',
+    quantity: 7,
+  },
 ];

@@ -47,4 +47,6 @@ export class LogPartialPromoDto {
   guardRegionalLocationForPickup!: string[];
   trimMissingKitchenTicket!: string[];
   validateLateCateringTrayForPickup!: number;
+  trimRegionalStoreAtClose?: string;
+  tightenMissingKitchenTicketForFranchisees!: number;
 }
