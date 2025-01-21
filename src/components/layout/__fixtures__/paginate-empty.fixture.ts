@@ -1704,4 +1704,40 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'tighten cancelled catering tray for franchisees',
     quantity: 3,
   },
+  {
+    id: 'layout-4469',
+    store: '660',
+    label: 'rename empty pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'layout-4865',
+    store: '465',
+    label: 'relax late cart line',
+    quantity: 3,
+  },
+  {
+    id: 'layout-9916',
+    store: '386',
+    label: 'log cancelled catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'layout-4940',
+    store: '371',
+    label: 'guard stale order',
+    quantity: 9,
+  },
+  {
+    id: 'layout-3921',
+    store: '528',
+    label: 'validate empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'layout-8993',
+    store: '411',
+    label: 'log late ticket',
+    quantity: 11,
+  },
 ];

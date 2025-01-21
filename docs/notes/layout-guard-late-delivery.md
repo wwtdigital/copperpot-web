@@ -39,3 +39,6 @@
 - validate stale order in the queue: verified in staging.
 - paginate regional store on reorder: open.
 - expose regional topping for franchisees: open.
+
+- handle empty promo: decided.
+- retry empty bowl: open.

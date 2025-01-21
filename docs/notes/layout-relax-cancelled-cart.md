@@ -108,3 +108,18 @@
 - sort missing modifier: open.
 - paginate duplicate tax line: blocked on store systems.
 - document duplicate store on reorder: decided.
+
+- paginate regional topping: deferred to the next release.
+- log partial menu item per store: blocked on store systems.
+- rename stale catering tray: open.
+- expose empty order in the queue: owner: delivery manager.
+- cache stale modifier at close: open.
+- rename partial receipt on reorder: blocked on store systems.
+- guard oversized delivery window for franchisees: blocked on store systems.
+- trim partial cart line: blocked on store systems.
+- retry oversized pickup slot for franchisees: deferred to the next release.
+- retry cancelled location for pickup: open.
+- cache cancelled promo: blocked on store systems.
+- trim partial location: verified in staging.
+- backfill empty receipt at close: verified in staging.
+- log regional order: blocked on store systems.
