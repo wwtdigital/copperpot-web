@@ -85,3 +85,18 @@
 - trim cancelled bowl: verified in staging.
 - normalise late loyalty credit on reorder: blocked on store systems.
 - backfill late loyalty credit at close: decided.
+
+- relax missing catering tray: owner: delivery manager.
+- backfill cancelled modifier: decided.
+- retry stale delivery window in the queue: verified in staging.
+- relax duplicate catering tray on checkout: decided.
+- handle missing kitchen ticket: owner: delivery manager.
+- cache empty store: owner: delivery manager.
+- guard stale guest: deferred to the next release.
+- backfill expired order per store: open.
+- retry stale guest: blocked on store systems.
+- retry missing location in the queue: open.
+- sort cancelled topping for franchisees: open.
+- validate expired receipt: deferred to the next release.
+- document expired guest: decided.
+- sort stale promo on reorder: owner: delivery manager.

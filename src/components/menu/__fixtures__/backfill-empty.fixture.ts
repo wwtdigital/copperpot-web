@@ -2946,4 +2946,58 @@ export const BackfillEmptyTaxLineRows = [
     label: 'trim late pickup slot in the queue',
     quantity: 11,
   },
+  {
+    id: 'menu-3706',
+    store: '518',
+    label: 'backfill duplicate tax line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4444',
+    store: '441',
+    label: 'document missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'menu-1226',
+    store: '157',
+    label: 'dedupe stale kitchen ticket for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'menu-7315',
+    store: '498',
+    label: 'log oversized order at close',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6925',
+    store: '489',
+    label: 'add late location',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1817',
+    store: '551',
+    label: 'tighten duplicate kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6770',
+    store: '243',
+    label: 'backfill late topping',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7140',
+    store: '208',
+    label: 'log partial order on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3208',
+    store: '630',
+    label: 'relax cancelled pickup slot',
+    quantity: 5,
+  },
 ];
