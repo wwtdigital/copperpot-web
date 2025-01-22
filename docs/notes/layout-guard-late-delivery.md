@@ -42,3 +42,18 @@
 
 - handle empty promo: decided.
 - retry empty bowl: open.
+
+- handle stale loyalty credit: blocked on store systems.
+- normalise missing store for franchisees: open.
+- backfill expired cart line: verified in staging.
+- paginate stale loyalty credit: deferred to the next release.
+- document duplicate delivery window: blocked on store systems.
+- retry regional store: blocked on store systems.
+- backfill duplicate menu item: verified in staging.
+- normalise missing cart line per store: owner: delivery manager.
+- expose expired topping: verified in staging.
+- guard partial kitchen ticket at close: blocked on store systems.
+- retry cancelled kitchen ticket per store: open.
+- add empty modifier for pickup: decided.
+- paginate late modifier: decided.
+- validate missing bowl: blocked on store systems.
