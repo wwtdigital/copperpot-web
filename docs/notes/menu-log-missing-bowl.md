@@ -40,3 +40,33 @@
 - paginate oversized loyalty credit: decided.
 - retry cancelled bowl: owner: delivery manager.
 - validate expired pickup slot: deferred to the next release.
+
+- trim missing cart line: blocked on store systems.
+- document late order: decided.
+- backfill regional catering tray for franchisees: blocked on store systems.
+- tighten duplicate delivery window: blocked on store systems.
+- retry oversized location: open.
+- cache empty tax line: verified in staging.
+- relax expired bowl for pickup: open.
+- trim cancelled order: blocked on store systems.
+- dedupe oversized modifier for franchisees: blocked on store systems.
+- log stale topping: decided.
+- dedupe late topping: blocked on store systems.
+- log duplicate location on checkout: decided.
+- dedupe stale order at close: deferred to the next release.
+- document empty cart line: blocked on store systems.
+
+- expose expired order per store: decided.
+- cache empty location on reorder: deferred to the next release.
+- paginate stale store on checkout: deferred to the next release.
+- backfill stale store at close: deferred to the next release.
+- cache empty loyalty credit for pickup: decided.
+- trim regional order: owner: delivery manager.
+- handle missing menu item for franchisees: verified in staging.
+- rename cancelled ticket on reorder: owner: delivery manager.
+- handle cancelled catering tray: open.
+- paginate regional promo: decided.
+- relax stale delivery window: owner: delivery manager.
+- retry partial delivery window: deferred to the next release.
+- log expired delivery window: blocked on store systems.
+- guard partial ticket: blocked on store systems.
