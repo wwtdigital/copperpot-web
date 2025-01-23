@@ -930,4 +930,16 @@ export const RelaxCancelledCartLineInTheQueueRows = [
     label: 'normalise duplicate menu item',
     quantity: 8,
   },
+  {
+    id: 'menu-2711',
+    store: '603',
+    label: 'sort duplicate pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9084',
+    store: '300',
+    label: 'retry stale loyalty credit per store',
+    quantity: 8,
+  },
 ];
