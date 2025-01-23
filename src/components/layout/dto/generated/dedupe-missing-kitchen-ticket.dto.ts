@@ -162,4 +162,19 @@ export class DedupeMissingKitchenTicketDto {
   relaxPartialGuest!: Date;
   renameCancelledDeliveryWindowForFranchisees!: number;
   relaxMissingPickupSlotOnCheckout!: boolean;
+  normaliseOversizedKitchenTicket!: string;
+  addMissingReceipt?: boolean;
+  dedupeCancelledToppingOnReorder!: number;
+  addRegionalTicketForPickup!: string;
+  guardPartialTicket!: string[];
+  cachePartialGuest!: Date;
+  backfillEmptyPromoOnReorder!: string[];
+  addMissingPickupSlotInTheQueue!: string[];
+  addEmptyLocation!: Date;
+  sortPartialTicketInTheQueue?: boolean;
+  relaxLateBowlOnCheckout!: string;
+  guardPartialTaxLine!: boolean;
+  relaxDuplicateOrder?: Date;
+  backfillCancelledTicket!: string[];
+  sortOversizedMenuItem!: boolean;
 }

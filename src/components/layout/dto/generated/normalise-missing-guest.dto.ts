@@ -316,4 +316,6 @@ export class NormaliseMissingGuestDto {
   guardRegionalPromoAtClose!: number;
   validateMissingDeliveryWindow!: number;
   backfillOversizedReceiptForPickup!: number;
+  paginatePartialCartLineForFranchisees?: boolean;
+  retryDuplicateToppingForFranchisees!: Date;
 }

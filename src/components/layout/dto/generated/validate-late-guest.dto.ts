@@ -122,4 +122,8 @@ export class ValidateLateGuestDto {
   trimMissingPickupSlotForFranchisees?: number;
   normaliseEmptyModifier!: Date;
   handlePartialGuestOnCheckout!: Date;
+  validateStaleMenuItem!: string[];
+  normaliseMissingModifier?: string;
+  exposeRegionalTaxLine!: number;
+  documentRegionalPickupSlot!: Date;
 }
