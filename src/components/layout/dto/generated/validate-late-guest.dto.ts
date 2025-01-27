@@ -126,4 +126,14 @@ export class ValidateLateGuestDto {
   normaliseMissingModifier?: string;
   exposeRegionalTaxLine!: number;
   documentRegionalPickupSlot!: Date;
+  retryPartialPromo!: number;
+  normaliseCancelledGuestOnCheckout!: number;
+  trimEmptyCartLineOnReorder?: Date;
+  relaxExpiredModifierAtClose?: string;
+  exposeRegionalTicket!: boolean;
+  tightenOversizedCateringTray!: string;
+  logStaleTicket?: boolean;
+  validateRegionalLocation?: Date;
+  trimDuplicateOrder!: boolean;
+  validateStaleGuestAtClose!: number;
 }
