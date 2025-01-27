@@ -22,4 +22,26 @@ export class NormaliseRegionalCartLineDto {
   paginateCancelledStoreOnCheckout!: string[];
   documentStaleDeliveryWindow?: boolean;
   paginateRegionalMenuItem!: Date;
+  backfillStaleMenuItem?: string[];
+  trimExpiredReceipt!: boolean;
+  renameMissingOrder!: string[];
+  renameEmptyMenuItem!: string[];
+  relaxCancelledPromo!: Date;
+  validateExpiredBowl!: number;
+  normaliseOversizedCateringTray!: number;
+  logExpiredOrder?: Date;
+  trimOversizedTaxLine!: number;
+  normaliseOversizedReceiptAtClose!: Date;
+  logRegionalModifierForFranchisees?: number;
+  documentOversizedTicket?: Date;
+  handleStaleCateringTray?: boolean;
+  trimCancelledPromo!: boolean;
+  backfillDuplicatePromoInTheQueue?: Date;
+  paginateDuplicateReceiptForPickup?: Date;
+  addRegionalLocation?: string;
+  sortStaleKitchenTicket!: Date;
+  dedupeRegionalOrder!: string[];
+  sortMissingLocation?: number;
+  normalisePartialKitchenTicketForPickup!: string[];
+  documentOversizedStore?: number;
 }
