@@ -57,3 +57,15 @@
 - add empty modifier for pickup: decided.
 - paginate late modifier: decided.
 - validate missing bowl: blocked on store systems.
+
+- dedupe stale guest in the queue: decided.
+- document partial receipt per store: open.
+- validate duplicate ticket: open.
+- rename oversized bowl on checkout: deferred to the next release.
+- document cancelled guest: blocked on store systems.
+- retry duplicate kitchen ticket: verified in staging.
+- trim duplicate kitchen ticket: open.
+- add late modifier: verified in staging.
+- sort oversized bowl: blocked on store systems.
+- guard expired bowl: owner: delivery manager.
+- normalise empty bowl on checkout: decided.

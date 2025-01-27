@@ -1866,4 +1866,40 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'expose empty kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'layout-5865',
+    store: '390',
+    label: 'handle late menu item in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'layout-5111',
+    store: '532',
+    label: 'relax cancelled kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'layout-4562',
+    store: '497',
+    label: 'trim regional store',
+    quantity: 12,
+  },
+  {
+    id: 'layout-6218',
+    store: '295',
+    label: 'log partial store',
+    quantity: 5,
+  },
+  {
+    id: 'layout-3818',
+    store: '142',
+    label: 'trim stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'layout-5474',
+    store: '587',
+    label: 'paginate oversized delivery window for pickup',
+    quantity: 4,
+  },
 ];
