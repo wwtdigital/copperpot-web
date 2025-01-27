@@ -307,4 +307,13 @@ export class NormaliseMissingGuestDto {
   paginateEmptyReceipt!: string;
   guardPartialReceipt?: string;
   guardPartialMenuItemAtClose!: boolean;
+  addEmptyLocation?: Date;
+  dedupeStalePromoForPickup!: string[];
+  documentMissingMenuItemAtClose!: number;
+  tightenCancelledLocationAtClose!: number;
+  backfillPartialTicket?: Date;
+  documentEmptyDeliveryWindow!: boolean;
+  guardRegionalPromoAtClose!: number;
+  validateMissingDeliveryWindow!: number;
+  backfillOversizedReceiptForPickup!: number;
 }
