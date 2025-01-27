@@ -1890,4 +1890,16 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'log partial store',
     quantity: 5,
   },
+  {
+    id: 'layout-3818',
+    store: '142',
+    label: 'trim stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'layout-5474',
+    store: '587',
+    label: 'paginate oversized delivery window for pickup',
+    quantity: 4,
+  },
 ];

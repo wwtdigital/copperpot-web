@@ -136,4 +136,17 @@ export class ValidateLateGuestDto {
   validateRegionalLocation?: Date;
   trimDuplicateOrder!: boolean;
   validateStaleGuestAtClose!: number;
+  sortMissingOrder?: Date;
+  cacheMissingLoyaltyCreditOnReorder!: string;
+  exposePartialTaxLineForPickup!: number;
+  exposeStaleKitchenTicketPerStore?: string;
+  relaxExpiredModifier?: Date;
+  trimCancelledMenuItem!: string;
+  logPartialLoyaltyCreditOnReorder?: Date;
+  relaxEmptyCartLinePerStore!: boolean;
+  tightenExpiredKitchenTicketForPickup!: string;
+  cachePartialReceiptOnReorder!: number;
+  guardOversizedOrder?: number;
+  retryLatePromoForFranchisees?: string[];
+  backfillPartialModifierInTheQueue!: string[];
 }

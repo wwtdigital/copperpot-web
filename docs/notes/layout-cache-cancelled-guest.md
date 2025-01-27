@@ -36,3 +36,7 @@
 - add empty catering tray: open.
 - log oversized menu item on checkout: deferred to the next release.
 - cache duplicate topping for pickup: blocked on store systems.
+
+- sort duplicate pickup slot: verified in staging.
+- trim missing location: blocked on store systems.
+- tighten expired bowl: deferred to the next release.
