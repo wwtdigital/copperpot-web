@@ -1,0 +1,123 @@
+/* Fixture rows for signup tests: add oversized topping per store. Generated data, not production data. */
+export const AddOversizedToppingPerStoreRows = [
+  {
+    id: 'signup-3221',
+    store: '675',
+    label: 'tighten missing cart line per store',
+    quantity: 9,
+  },
+  {
+    id: 'signup-2891',
+    store: '581',
+    label: 'paginate oversized tax line per store',
+    quantity: 10,
+  },
+  {
+    id: 'signup-7747',
+    store: '662',
+    label: 'retry regional location on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'signup-8872',
+    store: '151',
+    label: 'document cancelled topping in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'signup-6465',
+    store: '677',
+    label: 'retry duplicate kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'signup-7645',
+    store: '578',
+    label: 'add late kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'signup-3275',
+    store: '371',
+    label: 'dedupe late catering tray in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'signup-3178',
+    store: '570',
+    label: 'relax stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'signup-2311',
+    store: '403',
+    label: 'log regional loyalty credit per store',
+    quantity: 9,
+  },
+  {
+    id: 'signup-6813',
+    store: '133',
+    label: 'retry stale modifier at close',
+    quantity: 5,
+  },
+  {
+    id: 'signup-9636',
+    store: '250',
+    label: 'relax cancelled guest in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'signup-5185',
+    store: '416',
+    label: 'validate duplicate receipt',
+    quantity: 6,
+  },
+  {
+    id: 'signup-7508',
+    store: '640',
+    label: 'validate cancelled topping',
+    quantity: 2,
+  },
+  {
+    id: 'signup-4546',
+    store: '328',
+    label: 'paginate empty topping',
+    quantity: 5,
+  },
+  {
+    id: 'signup-1463',
+    store: '468',
+    label: 'dedupe empty menu item',
+    quantity: 4,
+  },
+  {
+    id: 'signup-7298',
+    store: '403',
+    label: 'tighten empty promo',
+    quantity: 6,
+  },
+  {
+    id: 'signup-1638',
+    store: '149',
+    label: 'handle regional guest',
+    quantity: 11,
+  },
+  {
+    id: 'signup-9393',
+    store: '404',
+    label: 'retry late kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'signup-2626',
+    store: '551',
+    label: 'expose oversized catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'signup-1757',
+    store: '606',
+    label: 'add oversized store for pickup',
+    quantity: 7,
+  },
+];

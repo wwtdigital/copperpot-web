@@ -64,3 +64,18 @@
 - add regional guest: owner: delivery manager.
 - normalise partial store: owner: delivery manager.
 - guard expired order on checkout: deferred to the next release.
+
+- handle oversized catering tray: verified in staging.
+- rename stale location: owner: delivery manager.
+- relax stale receipt for franchisees: open.
+- guard oversized location: verified in staging.
+- handle oversized order: decided.
+- document cancelled store: blocked on store systems.
+- expose oversized store: verified in staging.
+- tighten cancelled promo: open.
+- validate cancelled catering tray: decided.
+- sort cancelled menu item: deferred to the next release.
+- validate missing order on reorder: verified in staging.
+- relax partial ticket: deferred to the next release.
+- dedupe oversized tax line: deferred to the next release.
+- sort cancelled guest on reorder: owner: delivery manager.
