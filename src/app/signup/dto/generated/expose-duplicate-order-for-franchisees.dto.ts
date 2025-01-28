@@ -100,4 +100,25 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   normaliseEmptyOrderInTheQueue?: number;
   handleRegionalKitchenTicket!: boolean;
   validatePartialCateringTray!: boolean;
+  documentRegionalTopping?: string[];
+  relaxPartialCateringTrayForPickup?: Date;
+  renameStaleModifierOnReorder!: string;
+  retryEmptyBowlForFranchisees!: Date;
+  backfillDuplicateDeliveryWindow!: string[];
+  trimStaleBowl!: boolean;
+  addMissingLoyaltyCreditForPickup?: Date;
+  logOversizedLocationAtClose?: boolean;
+  tightenMissingStore!: boolean;
+  tightenRegionalPromo!: boolean;
+  exposeOversizedStore!: number;
+  guardEmptyLoyaltyCredit!: string[];
+  renameStaleTicket?: Date;
+  tightenMissingToppingAtClose?: string[];
+  handleMissingBowl!: string[];
+  relaxMissingPickupSlotPerStore?: boolean;
+  tightenEmptyToppingAtClose?: boolean;
+  dedupeOversizedPickupSlot!: Date;
+  trimEmptyDeliveryWindow!: number;
+  paginateMissingGuest!: number;
+  trimDuplicateCateringTray!: number;
 }
