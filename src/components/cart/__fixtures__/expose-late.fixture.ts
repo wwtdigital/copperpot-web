@@ -174,4 +174,10 @@ export const ExposeLateReceiptAtCloseRows = [
     label: 'document regional menu item',
     quantity: 11,
   },
+  {
+    id: 'kiosk-4784',
+    store: '552',
+    label: 'log partial menu item on checkout',
+    quantity: 11,
+  },
 ];

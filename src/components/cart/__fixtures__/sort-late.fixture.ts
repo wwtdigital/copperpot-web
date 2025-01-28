@@ -168,4 +168,22 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'document stale kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'kiosk-4252',
+    store: '361',
+    label: 'backfill regional promo on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-3569',
+    store: '512',
+    label: 'validate empty bowl in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-9705',
+    store: '544',
+    label: 'handle duplicate tax line',
+    quantity: 4,
+  },
 ];
