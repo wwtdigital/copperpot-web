@@ -44,4 +44,28 @@ export class NormaliseRegionalCartLineDto {
   sortMissingLocation?: number;
   normalisePartialKitchenTicketForPickup!: string[];
   documentOversizedStore?: number;
+  relaxExpiredCateringTrayAtClose!: string;
+  relaxStaleGuest!: boolean;
+  tightenDuplicateStore!: Date;
+  addStaleTopping!: number;
+  logStaleCateringTrayAtClose!: string;
+  guardLateGuest!: Date;
+  exposeEmptyCartLine!: Date;
+  sortLateBowlForPickup!: boolean;
+  tightenExpiredGuest?: string[];
+  renameOversizedOrder?: boolean;
+  paginateOversizedCartLine!: boolean;
+  validateCancelledLoyaltyCredit!: number;
+  addDuplicateLocationAtClose?: string;
+  cacheLateStore?: string;
+  retryOversizedCartLine!: number;
+  guardStaleBowl!: number;
+  validateMissingPromo?: string;
+  sortPartialCartLine!: boolean;
+  retryOversizedPickupSlot?: string;
+  tightenMissingPickupSlot?: string;
+  handleCancelledTicketInTheQueue?: string;
+  normalisePartialCartLine?: string[];
+  logEmptyStore!: string[];
+  validateMissingStoreInTheQueue!: boolean;
 }
