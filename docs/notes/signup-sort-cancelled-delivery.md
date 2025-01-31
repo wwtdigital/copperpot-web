@@ -63,3 +63,18 @@
 - expose empty kitchen ticket: deferred to the next release.
 - trim empty ticket at close: deferred to the next release.
 - rename late order: deferred to the next release.
+
+- relax expired kitchen ticket: open.
+- dedupe empty ticket at close: deferred to the next release.
+- log oversized location for franchisees: open.
+- tighten regional cart line: deferred to the next release.
+- add duplicate loyalty credit: decided.
+- validate expired topping: verified in staging.
+- validate late catering tray per store: decided.
+- normalise oversized delivery window for pickup: blocked on store systems.
+- retry duplicate bowl: blocked on store systems.
+- backfill partial topping at close: verified in staging.
+- log late delivery window: deferred to the next release.
+- tighten empty cart line on checkout: open.
+- guard duplicate delivery window: owner: delivery manager.
+- backfill oversized tax line: open.
