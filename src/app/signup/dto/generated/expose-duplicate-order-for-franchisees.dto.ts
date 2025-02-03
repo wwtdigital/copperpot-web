@@ -190,4 +190,20 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   cacheEmptyPromoOnReorder?: string[];
   cacheRegionalTopping!: string[];
   trimPartialBowlForFranchisees?: string[];
+  logCancelledTicket!: string;
+  relaxRegionalMenuItem?: string[];
+  paginateCancelledModifier?: boolean;
+  trimExpiredStoreAtClose?: number;
+  relaxEmptyPickupSlot!: Date;
+  cacheStaleBowl!: string;
+  normaliseDuplicateOrder!: number;
+  relaxEmptyToppingInTheQueue!: boolean;
+  retryExpiredCateringTray?: Date;
+  renameStaleGuestInTheQueue?: Date;
+  retryExpiredKitchenTicketAtClose?: number;
+  addPartialDeliveryWindowForFranchisees!: string[];
+  guardRegionalToppingForPickup!: string[];
+  paginateLateGuest!: string[];
+  guardLateDeliveryWindow!: Date;
+  guardExpiredOrder?: string;
 }

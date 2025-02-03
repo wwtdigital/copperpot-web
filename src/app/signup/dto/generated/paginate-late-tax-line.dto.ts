@@ -1,0 +1,13 @@
+/* PaginateLateTaxLineDto: shape for paginate late tax line. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class PaginateLateTaxLineDto {
+  paginateCancelledStoreForPickup!: string[];
+  dedupeLateToppingForPickup!: boolean;
+  exposeStaleCateringTray!: boolean;
+  relaxStaleLocationOnReorder!: boolean;
+  guardExpiredBowl!: number;
+  normaliseMissingOrderForFranchisees!: Date;
+  logEmptyTicket!: Date;
+  trimExpiredTicket?: number;
+  trimLateMenuItem!: number;
+  backfillPartialPickupSlotAtClose!: string[];
+}

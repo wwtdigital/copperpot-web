@@ -960,4 +960,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'retry missing store',
     quantity: 8,
   },
+  {
+    id: 'signup-4254',
+    store: '174',
+    label: 'trim cancelled promo',
+    quantity: 5,
+  },
 ];
