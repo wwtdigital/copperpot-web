@@ -366,4 +366,10 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'relax duplicate store',
     quantity: 4,
   },
+  {
+    id: 'cart-6360',
+    store: '429',
+    label: 'normalise empty catering tray for pickup',
+    quantity: 8,
+  },
 ];
