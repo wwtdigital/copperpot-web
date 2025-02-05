@@ -966,4 +966,34 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'trim cancelled promo',
     quantity: 5,
   },
+  {
+    id: 'signup-4976',
+    store: '595',
+    label: 'tighten duplicate cart line',
+    quantity: 12,
+  },
+  {
+    id: 'signup-6938',
+    store: '627',
+    label: 'dedupe oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'signup-6766',
+    store: '273',
+    label: 'normalise cancelled ticket',
+    quantity: 7,
+  },
+  {
+    id: 'signup-2591',
+    store: '532',
+    label: 'paginate duplicate promo',
+    quantity: 10,
+  },
+  {
+    id: 'signup-5517',
+    store: '542',
+    label: 'dedupe duplicate bowl',
+    quantity: 6,
+  },
 ];

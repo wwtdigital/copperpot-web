@@ -79,3 +79,6 @@
 - relax partial ticket: deferred to the next release.
 - dedupe oversized tax line: deferred to the next release.
 - sort cancelled guest on reorder: owner: delivery manager.
+
+- handle late store: open.
+- sort expired kitchen ticket: owner: delivery manager.
