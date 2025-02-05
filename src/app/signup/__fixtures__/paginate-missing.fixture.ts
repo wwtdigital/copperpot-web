@@ -36,4 +36,58 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'expose regional delivery window in the queue',
     quantity: 6,
   },
+  {
+    id: 'signup-7576',
+    store: '690',
+    label: 'validate expired pickup slot in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'signup-6324',
+    store: '282',
+    label: 'trim oversized pickup slot on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'signup-8890',
+    store: '249',
+    label: 'validate empty location per store',
+    quantity: 10,
+  },
+  {
+    id: 'signup-6700',
+    store: '416',
+    label: 'log duplicate tax line',
+    quantity: 5,
+  },
+  {
+    id: 'signup-9540',
+    store: '676',
+    label: 'rename oversized delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'signup-9420',
+    store: '310',
+    label: 'rename duplicate promo',
+    quantity: 7,
+  },
+  {
+    id: 'signup-5128',
+    store: '158',
+    label: 'rename regional tax line',
+    quantity: 1,
+  },
+  {
+    id: 'signup-9953',
+    store: '400',
+    label: 'backfill cancelled receipt in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'signup-2628',
+    store: '564',
+    label: 'expose oversized delivery window for franchisees',
+    quantity: 9,
+  },
 ];
