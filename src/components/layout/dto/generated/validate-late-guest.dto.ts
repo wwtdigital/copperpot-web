@@ -167,4 +167,24 @@ export class ValidateLateGuestDto {
   logPartialBowl!: boolean;
   validateCancelledTicketAtClose?: Date;
   documentOversizedLocation!: boolean;
+  documentLateToppingForPickup!: Date;
+  addPartialGuest?: string[];
+  sortLatePickupSlotOnCheckout!: string[];
+  relaxExpiredPromoPerStore?: Date;
+  guardCancelledBowl!: number;
+  dedupeMissingBowl!: number;
+  relaxDuplicateTopping!: boolean;
+  guardMissingPromo!: number;
+  renameEmptyTicket?: boolean;
+  retryPartialLocationOnReorder!: number;
+  normaliseCancelledPromoOnReorder!: string;
+  exposeMissingTaxLineOnCheckout!: number;
+  exposeMissingTopping!: boolean;
+  relaxExpiredGuest!: string[];
+  exposeLateCartLine!: string[];
+  tightenLateKitchenTicketOnCheckout!: number;
+  paginateStaleModifierOnCheckout!: number;
+  tightenStaleCateringTray!: string[];
+  guardExpiredCartLine?: boolean;
+  validateExpiredModifierOnReorder!: Date;
 }

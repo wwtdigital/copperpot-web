@@ -69,3 +69,18 @@
 - sort oversized bowl: blocked on store systems.
 - guard expired bowl: owner: delivery manager.
 - normalise empty bowl on checkout: decided.
+
+- validate partial order: owner: delivery manager.
+- guard partial bowl: deferred to the next release.
+- guard regional tax line: open.
+- dedupe oversized delivery window: deferred to the next release.
+- log missing tax line: verified in staging.
+- validate stale menu item on checkout: owner: delivery manager.
+- document empty ticket: decided.
+- normalise duplicate topping for franchisees: deferred to the next release.
+- handle partial guest in the queue: decided.
+- validate missing ticket: decided.
+- dedupe regional topping at close: deferred to the next release.
+- cache missing tax line on reorder: open.
+- trim partial ticket for franchisees: decided.
+- retry regional ticket: open.
