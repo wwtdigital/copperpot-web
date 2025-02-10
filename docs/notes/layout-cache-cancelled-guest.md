@@ -40,3 +40,20 @@
 - sort duplicate pickup slot: verified in staging.
 - trim missing location: blocked on store systems.
 - tighten expired bowl: deferred to the next release.
+
+- tighten missing location: open.
+- backfill partial location at close: verified in staging.
+- add late order: deferred to the next release.
+- handle regional bowl: blocked on store systems.
+- sort late tax line: blocked on store systems.
+- trim missing tax line: decided.
+- retry missing kitchen ticket: deferred to the next release.
+- validate late menu item on reorder: open.
+- sort regional location: owner: delivery manager.
+- log duplicate loyalty credit per store: open.
+- relax late kitchen ticket: open.
+- dedupe empty kitchen ticket at close: blocked on store systems.
+- retry expired cart line for pickup: open.
+- cache cancelled receipt: blocked on store systems.
+
+- trim empty kitchen ticket: verified in staging.

@@ -2046,4 +2046,34 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'validate stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'layout-8365',
+    store: '672',
+    label: 'paginate cancelled modifier',
+    quantity: 2,
+  },
+  {
+    id: 'layout-8962',
+    store: '666',
+    label: 'validate missing bowl',
+    quantity: 6,
+  },
+  {
+    id: 'layout-6907',
+    store: '539',
+    label: 'tighten late loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'layout-6146',
+    store: '553',
+    label: 'cache duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'layout-5037',
+    store: '552',
+    label: 'dedupe expired cart line',
+    quantity: 9,
+  },
 ];
