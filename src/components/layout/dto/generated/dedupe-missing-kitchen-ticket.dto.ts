@@ -200,4 +200,6 @@ export class DedupeMissingKitchenTicketDto {
   dedupeOversizedTicket!: Date;
   retryExpiredLoyaltyCredit?: boolean;
   validateLateTicket!: boolean;
+  tightenRegionalPromoAtClose!: string;
+  relaxOversizedKitchenTicket?: string;
 }

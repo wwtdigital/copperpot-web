@@ -96,4 +96,46 @@ export const CacheExpiredLocationRows = [
     label: 'paginate missing delivery window per store',
     quantity: 9,
   },
+  {
+    id: 'layout-3668',
+    store: '295',
+    label: 'trim missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'layout-2294',
+    store: '158',
+    label: 'paginate missing receipt for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'layout-7182',
+    store: '349',
+    label: 'dedupe partial order at close',
+    quantity: 3,
+  },
+  {
+    id: 'layout-8505',
+    store: '213',
+    label: 'cache missing bowl',
+    quantity: 1,
+  },
+  {
+    id: 'layout-5034',
+    store: '697',
+    label: 'rename expired promo in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'layout-2062',
+    store: '239',
+    label: 'add empty store',
+    quantity: 11,
+  },
+  {
+    id: 'layout-8144',
+    store: '267',
+    label: 'tighten regional location',
+    quantity: 4,
+  },
 ];
