@@ -78,4 +78,22 @@ export const CacheExpiredLocationRows = [
     label: 'retry duplicate promo',
     quantity: 7,
   },
+  {
+    id: 'layout-9276',
+    store: '503',
+    label: 'rename expired topping on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'layout-1605',
+    store: '629',
+    label: 'document partial bowl on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'layout-4131',
+    store: '556',
+    label: 'paginate missing delivery window per store',
+    quantity: 9,
+  },
 ];

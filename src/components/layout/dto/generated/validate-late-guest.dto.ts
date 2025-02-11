@@ -149,4 +149,22 @@ export class ValidateLateGuestDto {
   guardOversizedOrder?: number;
   retryLatePromoForFranchisees?: string[];
   backfillPartialModifierInTheQueue!: string[];
+  paginateEmptyKitchenTicketForFranchisees!: boolean;
+  retryCancelledMenuItemAtClose!: string[];
+  renameEmptyKitchenTicketOnCheckout?: number;
+  relaxDuplicatePromo?: Date;
+  renameDuplicateDeliveryWindowPerStore!: string[];
+  relaxPartialTaxLine!: Date;
+  documentLateBowlForPickup!: boolean;
+  documentEmptyTicketForFranchisees!: string[];
+  addOversizedCateringTray?: number;
+  renameStalePickupSlot!: boolean;
+  tightenDuplicateKitchenTicket!: boolean;
+  exposeCancelledBowlOnCheckout!: Date;
+  dedupeEmptyMenuItem?: string[];
+  backfillMissingKitchenTicket!: number;
+  relaxRegionalLocationOnCheckout!: boolean;
+  logPartialBowl!: boolean;
+  validateCancelledTicketAtClose?: Date;
+  documentOversizedLocation!: boolean;
 }
