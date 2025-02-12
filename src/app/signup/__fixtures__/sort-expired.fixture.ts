@@ -1008,4 +1008,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'expose oversized kitchen ticket for franchisees',
     quantity: 3,
   },
+  {
+    id: 'signup-1751',
+    store: '352',
+    label: 'trim partial delivery window',
+    quantity: 2,
+  },
 ];

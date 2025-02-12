@@ -24,4 +24,6 @@ export class PaginateLateTaxLineDto {
   tightenMissingMenuItem!: string;
   dedupeRegionalTaxLineOnReorder!: boolean;
   retryDuplicateReceipt!: string[];
+  exposeStaleLocation!: string;
+  exposeRegionalReceipt!: number;
 }
