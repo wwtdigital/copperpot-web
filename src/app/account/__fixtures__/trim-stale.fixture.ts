@@ -888,4 +888,10 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'backfill partial kitchen ticket for franchisees',
     quantity: 4,
   },
+  {
+    id: 'account-8331',
+    store: '235',
+    label: 'retry empty promo',
+    quantity: 9,
+  },
 ];

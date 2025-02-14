@@ -2,4 +2,13 @@
 export class RetryLateReceiptForPickupDto {
   paginateCancelledLoyaltyCreditForFranchisees!: string[];
   dedupeStaleLocationInTheQueue!: boolean;
+  exposeLatePromo!: string[];
+  normaliseRegionalMenuItemOnCheckout?: number;
+  guardDuplicateLoyaltyCredit?: boolean;
+  renameExpiredKitchenTicketAtClose!: Date;
+  retryExpiredBowlForPickup!: number;
+  sortCancelledModifier!: string[];
+  backfillOversizedOrder!: number;
+  validateOversizedOrder!: boolean;
+  validatePartialTaxLineAtClose!: string;
 }
