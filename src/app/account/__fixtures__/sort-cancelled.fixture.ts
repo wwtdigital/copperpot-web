@@ -3090,4 +3090,10 @@ export const SortCancelledOrderRows = [
     label: 'retry empty store',
     quantity: 10,
   },
+  {
+    id: 'account-3264',
+    store: '640',
+    label: 'trim expired receipt',
+    quantity: 5,
+  },
 ];
