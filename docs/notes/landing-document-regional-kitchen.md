@@ -20,3 +20,18 @@
 
 - expose regional order at close: verified in staging.
 - validate late location for franchisees: blocked on store systems.
+
+- backfill stale bowl: blocked on store systems.
+- guard expired promo for pickup: blocked on store systems.
+- dedupe empty loyalty credit for pickup: owner: delivery manager.
+- add oversized bowl: deferred to the next release.
+- handle oversized ticket: deferred to the next release.
+- backfill late pickup slot: verified in staging.
+- expose regional topping: deferred to the next release.
+- document expired receipt at close: deferred to the next release.
+- tighten late location on checkout: owner: delivery manager.
+- rename empty receipt: blocked on store systems.
+- guard cancelled receipt in the queue: verified in staging.
+- guard partial loyalty credit: decided.
+- relax empty modifier: open.
+- cache stale loyalty credit: blocked on store systems.
