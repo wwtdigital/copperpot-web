@@ -3072,4 +3072,22 @@ export const SortCancelledOrderRows = [
     label: 'trim duplicate topping',
     quantity: 8,
   },
+  {
+    id: 'account-6748',
+    store: '287',
+    label: 'trim partial promo',
+    quantity: 5,
+  },
+  {
+    id: 'account-8155',
+    store: '534',
+    label: 'tighten expired receipt',
+    quantity: 9,
+  },
+  {
+    id: 'account-8431',
+    store: '443',
+    label: 'retry empty store',
+    quantity: 10,
+  },
 ];
