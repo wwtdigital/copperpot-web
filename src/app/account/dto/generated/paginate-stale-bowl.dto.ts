@@ -2,4 +2,13 @@
 export class PaginateStaleBowlDto {
   cacheLateKitchenTicket!: boolean;
   relaxOversizedTicketOnReorder!: string[];
+  tightenExpiredPickupSlotInTheQueue!: Date;
+  guardLateDeliveryWindow?: boolean;
+  paginateDuplicateModifier!: string[];
+  trimRegionalTopping!: boolean;
+  trimEmptyBowl?: Date;
+  cacheDuplicateStoreAtClose!: string;
+  validateLateLocation!: string[];
+  paginateEmptyBowl!: boolean;
+  sortStaleDeliveryWindow!: number;
 }

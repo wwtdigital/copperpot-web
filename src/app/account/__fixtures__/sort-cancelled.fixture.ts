@@ -3096,4 +3096,10 @@ export const SortCancelledOrderRows = [
     label: 'trim expired receipt',
     quantity: 5,
   },
+  {
+    id: 'account-3645',
+    store: '173',
+    label: 'dedupe partial loyalty credit for pickup',
+    quantity: 7,
+  },
 ];
