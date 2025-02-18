@@ -35,3 +35,33 @@
 - log expired promo: verified in staging.
 - backfill expired loyalty credit: deferred to the next release.
 - expose missing store at close: open.
+
+- guard duplicate loyalty credit on reorder: verified in staging.
+- rename late location in the queue: decided.
+- normalise duplicate menu item on reorder: open.
+- rename regional location for pickup: decided.
+- validate missing pickup slot: decided.
+- backfill late tax line per store: verified in staging.
+- backfill empty guest for pickup: verified in staging.
+- expose empty pickup slot on checkout: deferred to the next release.
+- rename partial kitchen ticket: decided.
+- document regional ticket: blocked on store systems.
+- backfill expired modifier: open.
+- rename duplicate modifier: blocked on store systems.
+- guard late receipt at close: verified in staging.
+- expose oversized catering tray on checkout: open.
+
+- log empty guest: deferred to the next release.
+- relax duplicate delivery window: verified in staging.
+- rename oversized receipt: owner: delivery manager.
+- relax partial store: open.
+- guard missing modifier: verified in staging.
+- add stale loyalty credit: open.
+- log cancelled promo: verified in staging.
+- cache expired guest: open.
+- relax late menu item: deferred to the next release.
+- backfill expired guest at close: blocked on store systems.
+- sort stale location: deferred to the next release.
+- rename empty delivery window on reorder: deferred to the next release.
+- expose late receipt on checkout: owner: delivery manager.
+- validate late store per store: decided.
