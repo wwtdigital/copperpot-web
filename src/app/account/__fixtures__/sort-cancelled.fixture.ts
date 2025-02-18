@@ -3060,4 +3060,46 @@ export const SortCancelledOrderRows = [
     label: 'normalise late receipt',
     quantity: 1,
   },
+  {
+    id: 'account-7546',
+    store: '629',
+    label: 'rename oversized promo for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'account-4468',
+    store: '363',
+    label: 'trim duplicate topping',
+    quantity: 8,
+  },
+  {
+    id: 'account-6748',
+    store: '287',
+    label: 'trim partial promo',
+    quantity: 5,
+  },
+  {
+    id: 'account-8155',
+    store: '534',
+    label: 'tighten expired receipt',
+    quantity: 9,
+  },
+  {
+    id: 'account-8431',
+    store: '443',
+    label: 'retry empty store',
+    quantity: 10,
+  },
+  {
+    id: 'account-3264',
+    store: '640',
+    label: 'trim expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'account-3645',
+    store: '173',
+    label: 'dedupe partial loyalty credit for pickup',
+    quantity: 7,
+  },
 ];
