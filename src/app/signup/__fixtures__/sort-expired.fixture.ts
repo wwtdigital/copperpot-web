@@ -996,4 +996,16 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'dedupe duplicate bowl',
     quantity: 6,
   },
+  {
+    id: 'signup-8044',
+    store: '551',
+    label: 'relax oversized receipt per store',
+    quantity: 1,
+  },
+  {
+    id: 'signup-3162',
+    store: '365',
+    label: 'expose oversized kitchen ticket for franchisees',
+    quantity: 3,
+  },
 ];

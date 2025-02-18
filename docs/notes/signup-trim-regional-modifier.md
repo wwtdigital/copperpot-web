@@ -82,3 +82,6 @@
 
 - handle late store: open.
 - sort expired kitchen ticket: owner: delivery manager.
+
+- relax missing bowl at close: deferred to the next release.
+- validate missing modifier: verified in staging.
