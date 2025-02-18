@@ -26,4 +26,12 @@ export class PaginateLateTaxLineDto {
   retryDuplicateReceipt!: string[];
   exposeStaleLocation!: string;
   exposeRegionalReceipt!: number;
+  trimMissingLocationForFranchisees!: boolean;
+  guardEmptyDeliveryWindowPerStore?: Date;
+  sortCancelledOrderOnCheckout!: Date;
+  renameOversizedKitchenTicket!: boolean;
+  validateCancelledCartLine!: boolean;
+  cacheDuplicateKitchenTicket!: boolean;
+  trimStaleTicket!: string[];
+  logOversizedGuest!: boolean;
 }
