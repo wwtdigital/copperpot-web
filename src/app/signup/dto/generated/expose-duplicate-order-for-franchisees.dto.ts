@@ -206,4 +206,20 @@ export class ExposeDuplicateOrderForFranchiseesDto {
   paginateLateGuest!: string[];
   guardLateDeliveryWindow!: Date;
   guardExpiredOrder?: string;
+  dedupeMissingPickupSlotAtClose!: string;
+  sortRegionalLocationAtClose?: boolean;
+  validateExpiredModifier?: number;
+  paginateCancelledBowl!: number;
+  cacheMissingLocation!: string;
+  guardLateStore!: number;
+  relaxEmptyTicket!: number;
+  addOversizedLoyaltyCreditPerStore!: number;
+  documentPartialCateringTray!: boolean;
+  relaxOversizedDeliveryWindow!: number;
+  paginateLatePromo!: number;
+  logLatePickupSlot!: string[];
+  logCancelledTaxLine!: boolean;
+  renameExpiredLoyaltyCredit?: boolean;
+  trimEmptyGuestOnCheckout?: string[];
+  normaliseCancelledCartLine?: number;
 }

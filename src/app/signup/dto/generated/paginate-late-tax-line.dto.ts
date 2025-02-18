@@ -10,4 +10,28 @@ export class PaginateLateTaxLineDto {
   trimExpiredTicket?: number;
   trimLateMenuItem!: number;
   backfillPartialPickupSlotAtClose!: string[];
+  handleRegionalPromoInTheQueue!: string[];
+  documentDuplicatePickupSlotPerStore!: number;
+  paginateDuplicateModifierOnReorder!: string[];
+  normaliseStaleMenuItem?: string[];
+  relaxDuplicateTicketOnCheckout?: number;
+  retryLateOrderOnCheckout!: number;
+  dedupeLateDeliveryWindowPerStore?: number;
+  normaliseDuplicateTicket!: string;
+  dedupeMissingModifier!: string[];
+  tightenOversizedPromo?: boolean;
+  tightenMissingBowl!: Date;
+  tightenMissingMenuItem!: string;
+  dedupeRegionalTaxLineOnReorder!: boolean;
+  retryDuplicateReceipt!: string[];
+  exposeStaleLocation!: string;
+  exposeRegionalReceipt!: number;
+  trimMissingLocationForFranchisees!: boolean;
+  guardEmptyDeliveryWindowPerStore?: Date;
+  sortCancelledOrderOnCheckout!: Date;
+  renameOversizedKitchenTicket!: boolean;
+  validateCancelledCartLine!: boolean;
+  cacheDuplicateKitchenTicket!: boolean;
+  trimStaleTicket!: string[];
+  logOversizedGuest!: boolean;
 }

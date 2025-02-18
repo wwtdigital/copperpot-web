@@ -90,4 +90,22 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'expose oversized delivery window for franchisees',
     quantity: 9,
   },
+  {
+    id: 'signup-3870',
+    store: '656',
+    label: 'tighten empty loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'signup-7824',
+    store: '325',
+    label: 'dedupe late guest',
+    quantity: 8,
+  },
+  {
+    id: 'signup-7166',
+    store: '105',
+    label: 'tighten missing loyalty credit',
+    quantity: 5,
+  },
 ];
