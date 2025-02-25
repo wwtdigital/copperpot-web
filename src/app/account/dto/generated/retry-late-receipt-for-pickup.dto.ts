@@ -11,4 +11,13 @@ export class RetryLateReceiptForPickupDto {
   backfillOversizedOrder!: number;
   validateOversizedOrder!: boolean;
   validatePartialTaxLineAtClose!: string;
+  dedupeDuplicateModifier!: string;
+  tightenEmptyCateringTray!: boolean;
+  retryExpiredGuestAtClose?: string;
+  relaxEmptyLoyaltyCredit!: Date;
+  retryDuplicateModifierOnCheckout!: number;
+  validateOversizedDeliveryWindowForPickup!: number;
+  exposeStaleModifierInTheQueue?: number;
+  guardStalePromo!: boolean;
+  exposeExpiredReceipt!: Date;
 }

@@ -3102,4 +3102,10 @@ export const SortCancelledOrderRows = [
     label: 'dedupe partial loyalty credit for pickup',
     quantity: 7,
   },
+  {
+    id: 'account-2784',
+    store: '632',
+    label: 'handle duplicate kitchen ticket',
+    quantity: 4,
+  },
 ];

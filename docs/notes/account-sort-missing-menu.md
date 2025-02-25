@@ -14,3 +14,33 @@
 - tighten partial tax line: blocked on store systems.
 - expose regional topping: open.
 - backfill late pickup slot: open.
+
+- document late ticket in the queue: blocked on store systems.
+- trim duplicate guest: verified in staging.
+- trim duplicate modifier at close: decided.
+- rename late bowl for franchisees: owner: delivery manager.
+- tighten duplicate location in the queue: decided.
+- backfill missing topping: decided.
+- cache missing loyalty credit for franchisees: verified in staging.
+- document oversized pickup slot on reorder: deferred to the next release.
+- trim cancelled order in the queue: verified in staging.
+- log regional guest: deferred to the next release.
+- log empty promo: deferred to the next release.
+- tighten oversized loyalty credit: blocked on store systems.
+- guard regional order: owner: delivery manager.
+- log partial tax line: decided.
+
+- normalise stale topping in the queue: open.
+- paginate empty menu item: blocked on store systems.
+- rename partial modifier: blocked on store systems.
+- validate empty cart line: owner: delivery manager.
+- cache empty bowl at close: deferred to the next release.
+- sort stale menu item: decided.
+- rename late modifier for pickup: owner: delivery manager.
+- expose duplicate modifier for pickup: decided.
+- backfill empty pickup slot in the queue: owner: delivery manager.
+- validate late delivery window: verified in staging.
+- cache duplicate topping: open.
+- paginate regional store on reorder: deferred to the next release.
+- log oversized promo for franchisees: open.
+- trim regional store: verified in staging.
