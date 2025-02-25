@@ -55,3 +55,18 @@
 - rename empty tax line for pickup: open.
 - retry partial kitchen ticket: deferred to the next release.
 - add partial loyalty credit for franchisees: open.
+
+- paginate stale pickup slot on checkout: decided.
+- trim duplicate catering tray: deferred to the next release.
+- handle empty order: verified in staging.
+- log cancelled topping on checkout: decided.
+- guard regional ticket: verified in staging.
+- add missing order on checkout: open.
+- tighten empty ticket per store: deferred to the next release.
+- cache empty guest: open.
+- validate duplicate guest for franchisees: deferred to the next release.
+- handle late cart line: owner: delivery manager.
+- trim regional store for franchisees: decided.
+- log expired delivery window in the queue: blocked on store systems.
+- add late guest for pickup: deferred to the next release.
+- cache expired ticket: blocked on store systems.
