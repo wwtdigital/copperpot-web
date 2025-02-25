@@ -24,4 +24,28 @@ export class RenameCancelledCartLineDto {
   cacheCancelledLocationInTheQueue?: number;
   cacheCancelledStore?: string;
   normaliseRegionalKitchenTicket?: string;
+  paginateDuplicateTopping?: boolean;
+  logOversizedTaxLine!: number;
+  backfillPartialPickupSlotAtClose!: Date;
+  paginateOversizedCateringTrayPerStore!: boolean;
+  relaxOversizedKitchenTicket!: boolean;
+  sortStaleKitchenTicketPerStore?: boolean;
+  paginateExpiredOrderForPickup!: Date;
+  cacheRegionalCartLineAtClose!: number;
+  retryPartialPromo?: string[];
+  normalisePartialTicket?: number;
+  relaxStaleOrder!: Date;
+  guardMissingPickupSlotForPickup!: string;
+  handlePartialModifier!: string[];
+  renameOversizedTicket!: string;
+  trimMissingTicketOnReorder!: Date;
+  handleExpiredReceipt?: string;
+  paginateExpiredTaxLine!: string;
+  validateOversizedPickupSlotAtClose!: string;
+  sortPartialStore!: number;
+  backfillOversizedStore?: Date;
+  retryMissingBowl?: number;
+  tightenOversizedLocationForPickup!: number;
+  sortMissingPickupSlotPerStore!: string;
+  addMissingModifierInTheQueue?: number;
 }

@@ -48,4 +48,28 @@ export class HandleStaleStoreDto {
   documentPartialCateringTrayPerStore!: boolean;
   sortLateCateringTrayOnReorder!: string;
   renamePartialPickupSlot!: string;
+  handleStaleOrder!: string[];
+  backfillMissingMenuItemPerStore!: number;
+  backfillEmptyOrderForFranchisees?: string[];
+  documentExpiredPickupSlot!: Date;
+  validateOversizedLocationInTheQueue?: string;
+  exposeDuplicatePickupSlotInTheQueue!: boolean;
+  normaliseOversizedPickupSlotForFranchisees!: string;
+  renameStaleOrderForFranchisees?: Date;
+  logCancelledCartLineOnReorder!: Date;
+  normaliseOversizedReceipt!: Date;
+  validateLateTicket!: boolean;
+  paginateEmptyStorePerStore?: Date;
+  documentMissingTicketOnCheckout!: string[];
+  relaxMissingCartLine!: Date;
+  backfillExpiredBowl!: number;
+  sortPartialReceipt!: number;
+  cacheDuplicateDeliveryWindowForFranchisees?: number;
+  dedupeCancelledOrderForFranchisees?: number;
+  documentExpiredTicketPerStore?: Date;
+  validateExpiredTopping!: string;
+  backfillMissingGuestForFranchisees!: string;
+  renameStaleLoyaltyCreditAtClose?: boolean;
+  sortEmptyMenuItem!: Date;
+  tightenEmptyTicketAtClose!: string;
 }

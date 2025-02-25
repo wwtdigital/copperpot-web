@@ -1,0 +1,123 @@
+/* Fixture rows for landing tests: guard regional delivery window for pickup. Generated data, not production data. */
+export const GuardRegionalDeliveryWindowForPickupRows = [
+  {
+    id: 'landing-9439',
+    store: '235',
+    label: 'normalise empty store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'landing-3376',
+    store: '446',
+    label: 'validate oversized bowl in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'landing-7870',
+    store: '251',
+    label: 'add late pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'landing-8981',
+    store: '314',
+    label: 'retry cancelled delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'landing-2090',
+    store: '625',
+    label: 'normalise stale menu item at close',
+    quantity: 1,
+  },
+  {
+    id: 'landing-3375',
+    store: '307',
+    label: 'relax missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'landing-5687',
+    store: '331',
+    label: 'tighten stale promo',
+    quantity: 7,
+  },
+  {
+    id: 'landing-1393',
+    store: '612',
+    label: 'paginate empty promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'landing-9762',
+    store: '635',
+    label: 'trim regional loyalty credit on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'landing-7885',
+    store: '541',
+    label: 'paginate expired store',
+    quantity: 12,
+  },
+  {
+    id: 'landing-9785',
+    store: '233',
+    label: 'handle stale location',
+    quantity: 9,
+  },
+  {
+    id: 'landing-5903',
+    store: '105',
+    label: 'trim duplicate menu item in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'landing-9510',
+    store: '526',
+    label: 'retry regional modifier',
+    quantity: 3,
+  },
+  {
+    id: 'landing-6039',
+    store: '136',
+    label: 'cache stale store on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'landing-6584',
+    store: '338',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'landing-3725',
+    store: '382',
+    label: 'log stale menu item',
+    quantity: 2,
+  },
+  {
+    id: 'landing-6927',
+    store: '386',
+    label: 'tighten cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'landing-5801',
+    store: '400',
+    label: 'rename empty location',
+    quantity: 11,
+  },
+  {
+    id: 'landing-2844',
+    store: '135',
+    label: 'validate cancelled pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'landing-6601',
+    store: '487',
+    label: 'backfill duplicate order',
+    quantity: 7,
+  },
+];
