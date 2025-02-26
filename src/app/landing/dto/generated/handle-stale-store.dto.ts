@@ -72,4 +72,28 @@ export class HandleStaleStoreDto {
   renameStaleLoyaltyCreditAtClose?: boolean;
   sortEmptyMenuItem!: Date;
   tightenEmptyTicketAtClose!: string;
+  handleLateCartLine!: string;
+  normaliseRegionalToppingAtClose!: boolean;
+  trimLateCateringTray?: boolean;
+  guardRegionalTaxLinePerStore?: number;
+  tightenStalePickupSlotAtClose!: string[];
+  relaxCancelledOrder?: string;
+  paginateDuplicateToppingForFranchisees!: boolean;
+  cacheRegionalToppingInTheQueue?: string;
+  dedupePartialDeliveryWindow?: string[];
+  exposeExpiredPromo?: Date;
+  cacheEmptyLoyaltyCredit!: boolean;
+  guardRegionalTaxLine?: number;
+  relaxDuplicateLocationForPickup!: number;
+  guardRegionalTicketOnReorder!: boolean;
+  tightenCancelledGuest!: string[];
+  handleRegionalMenuItem!: boolean;
+  logPartialStore!: string[];
+  cacheStaleTopping?: string[];
+  logMissingOrder!: Date;
+  trimStaleReceiptAtClose!: boolean;
+  documentLateTaxLine?: string[];
+  exposeMissingCateringTrayOnCheckout!: Date;
+  normaliseRegionalStoreOnReorder!: number;
+  addDuplicatePromoForPickup!: Date;
 }
