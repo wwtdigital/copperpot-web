@@ -49,3 +49,18 @@
 - trim late promo per store: blocked on store systems.
 - cache empty delivery window: decided.
 - log missing delivery window at close: verified in staging.
+
+- expose missing topping on checkout: open.
+- backfill empty delivery window in the queue: decided.
+- retry late catering tray per store: open.
+- add late topping: owner: delivery manager.
+- rename stale location: blocked on store systems.
+- log expired menu item: decided.
+- sort missing kitchen ticket in the queue: blocked on store systems.
+- dedupe partial tax line for pickup: deferred to the next release.
+- cache stale order for pickup: owner: delivery manager.
+- handle cancelled kitchen ticket: deferred to the next release.
+- retry partial bowl in the queue: owner: delivery manager.
+- expose duplicate promo: deferred to the next release.
+- add missing pickup slot: open.
+- trim empty tax line: verified in staging.
