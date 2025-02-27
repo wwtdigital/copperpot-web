@@ -35,3 +35,18 @@
 - guard partial loyalty credit: decided.
 - relax empty modifier: open.
 - cache stale loyalty credit: blocked on store systems.
+
+- guard empty guest: blocked on store systems.
+- expose regional topping: open.
+- normalise late kitchen ticket: deferred to the next release.
+- tighten oversized loyalty credit: open.
+- add empty kitchen ticket: blocked on store systems.
+- log oversized bowl: blocked on store systems.
+- cache missing promo: owner: delivery manager.
+- dedupe partial catering tray: decided.
+- backfill late topping: owner: delivery manager.
+- rename stale cart line: verified in staging.
+- guard cancelled ticket: owner: delivery manager.
+- backfill expired cart line: owner: delivery manager.
+- validate stale location: deferred to the next release.
+- document oversized modifier: blocked on store systems.
