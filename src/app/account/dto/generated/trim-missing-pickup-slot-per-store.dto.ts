@@ -1,0 +1,46 @@
+/* TrimMissingPickupSlotPerStoreDto: shape for trim missing pickup slot per store. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TrimMissingPickupSlotPerStoreDto {
+  renamePartialLoyaltyCredit!: string[];
+  handleRegionalCartLine!: string;
+  backfillPartialCartLine!: number;
+  paginateDuplicateReceipt?: Date;
+  validateCancelledLoyaltyCreditOnReorder!: boolean;
+  guardPartialLocation!: boolean;
+  dedupeLateBowlPerStore!: Date;
+  validatePartialGuest?: boolean;
+  tightenDuplicateMenuItem!: Date;
+  backfillLateKitchenTicket?: string;
+  renamePartialKitchenTicketForPickup!: boolean;
+  sortCancelledModifier!: string;
+  exposeCancelledReceipt!: number;
+  normaliseEmptyTaxLine?: number;
+  renameExpiredGuest?: string[];
+  addExpiredBowl?: boolean;
+  paginateEmptyDeliveryWindow?: Date;
+  trimOversizedPickupSlotForPickup!: string[];
+  trimCancelledCateringTray!: boolean;
+  trimMissingGuest!: string;
+  renameMissingCateringTray!: Date;
+  logMissingPickupSlot!: boolean;
+  sortExpiredKitchenTicketInTheQueue!: number;
+  cacheLateModifierInTheQueue!: string[];
+  relaxLateDeliveryWindow!: string[];
+  sortOversizedTopping?: string;
+  cacheCancelledBowl?: string[];
+  validateExpiredTicket!: string[];
+  backfillDuplicateLocationAtClose!: Date;
+  renameOversizedPickupSlotAtClose!: number;
+  tightenStaleLocationInTheQueue?: string[];
+  handleEmptyStore!: string;
+  backfillEmptyReceiptOnReorder!: string;
+  logRegionalStore!: string;
+  documentStalePromoForFranchisees!: boolean;
+  cacheLateTopping!: Date;
+  validateDuplicateTicket!: Date;
+  renameCancelledLocationForFranchisees?: Date;
+  paginateLateCateringTrayAtClose!: number;
+  logMissingCateringTray!: string[];
+  exposeDuplicatePickupSlotForFranchisees?: number;
+  addMissingGuest!: string;
+  trimStaleStore?: Date;
+}
