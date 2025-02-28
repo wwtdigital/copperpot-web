@@ -2076,4 +2076,52 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'dedupe expired cart line',
     quantity: 9,
   },
+  {
+    id: 'layout-4784',
+    store: '181',
+    label: 'relax duplicate receipt on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'layout-2036',
+    store: '555',
+    label: 'retry partial topping on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'layout-6101',
+    store: '661',
+    label: 'handle oversized delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'layout-4890',
+    store: '510',
+    label: 'trim missing location',
+    quantity: 3,
+  },
+  {
+    id: 'layout-1659',
+    store: '379',
+    label: 'document late pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'layout-2717',
+    store: '685',
+    label: 'log duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'layout-5738',
+    store: '471',
+    label: 'validate partial ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'layout-8148',
+    store: '327',
+    label: 'handle expired kitchen ticket at close',
+    quantity: 8,
+  },
 ];
