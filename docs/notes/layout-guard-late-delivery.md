@@ -87,3 +87,18 @@
 - document oversized modifier on reorder: owner: delivery manager.
 - dedupe regional modifier: deferred to the next release.
 - add stale catering tray: blocked on store systems.
+
+- add expired receipt: decided.
+- rename missing topping on checkout: owner: delivery manager.
+- tighten oversized kitchen ticket: open.
+- trim expired pickup slot: blocked on store systems.
+- cache cancelled ticket: verified in staging.
+- guard regional catering tray at close: deferred to the next release.
+- relax partial pickup slot: open.
+- add late receipt per store: deferred to the next release.
+- normalise partial cart line for pickup: deferred to the next release.
+- dedupe partial bowl: open.
+- document partial catering tray per store: blocked on store systems.
+- tighten missing kitchen ticket for franchisees: verified in staging.
+- handle cancelled receipt in the queue: verified in staging.
+- guard oversized guest per store: owner: delivery manager.
