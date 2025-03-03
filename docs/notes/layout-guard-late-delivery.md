@@ -57,3 +57,33 @@
 - add empty modifier for pickup: decided.
 - paginate late modifier: decided.
 - validate missing bowl: blocked on store systems.
+
+- cache late store: owner: delivery manager.
+- expose stale pickup slot: verified in staging.
+- relax oversized bowl: blocked on store systems.
+- cache expired bowl per store: verified in staging.
+- document stale ticket: decided.
+- tighten cancelled receipt: owner: delivery manager.
+- log empty location at close: owner: delivery manager.
+- guard oversized order: blocked on store systems.
+- paginate duplicate store: owner: delivery manager.
+- dedupe expired guest: open.
+- document oversized location: decided.
+- guard oversized ticket at close: verified in staging.
+- normalise expired bowl: owner: delivery manager.
+- log oversized store for franchisees: owner: delivery manager.
+
+- trim regional delivery window at close: open.
+- tighten stale cart line: decided.
+- rename cancelled receipt: verified in staging.
+- cache stale promo: verified in staging.
+- cache expired catering tray: open.
+- relax duplicate menu item: open.
+- validate expired cart line on checkout: blocked on store systems.
+- trim partial promo: open.
+- relax missing store for franchisees: deferred to the next release.
+- cache partial receipt on checkout: owner: delivery manager.
+- log regional receipt: blocked on store systems.
+- document oversized modifier on reorder: owner: delivery manager.
+- dedupe regional modifier: deferred to the next release.
+- add stale catering tray: blocked on store systems.
