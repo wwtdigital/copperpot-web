@@ -198,4 +198,16 @@ export const CacheExpiredLocationRows = [
     label: 'tighten oversized menu item',
     quantity: 7,
   },
+  {
+    id: 'layout-3248',
+    store: '285',
+    label: 'retry oversized menu item',
+    quantity: 8,
+  },
+  {
+    id: 'layout-4539',
+    store: '528',
+    label: 'document missing catering tray on checkout',
+    quantity: 8,
+  },
 ];
