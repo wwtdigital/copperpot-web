@@ -147,3 +147,18 @@
 - validate partial menu item: verified in staging.
 - paginate stale loyalty credit: decided.
 - rename regional delivery window: blocked on store systems.
+
+- dedupe duplicate location: verified in staging.
+- cache regional receipt: owner: delivery manager.
+- cache missing guest: owner: delivery manager.
+- add expired topping on checkout: owner: delivery manager.
+- normalise regional cart line on reorder: verified in staging.
+- tighten cancelled ticket: open.
+- relax missing cart line: open.
+- document duplicate guest: verified in staging.
+- retry duplicate modifier: decided.
+- relax duplicate promo on reorder: open.
+- rename late ticket: open.
+- expose stale kitchen ticket: verified in staging.
+- sort stale location: open.
+- handle empty receipt: verified in staging.
