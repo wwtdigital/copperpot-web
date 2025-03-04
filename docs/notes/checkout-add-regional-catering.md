@@ -4,3 +4,5 @@
 - validate missing bowl at close: verified in staging.
 - log duplicate topping: open.
 - normalise duplicate guest: blocked on store systems.
+
+- expose missing modifier on reorder: blocked on store systems.
