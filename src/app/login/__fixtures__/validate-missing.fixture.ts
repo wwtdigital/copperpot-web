@@ -36,4 +36,34 @@ export const ValidateMissingStoreOnCheckoutRows = [
     label: 'log empty location',
     quantity: 7,
   },
+  {
+    id: 'login-6629',
+    store: '518',
+    label: 'normalise regional cart line for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'login-3835',
+    store: '434',
+    label: 'add late modifier',
+    quantity: 2,
+  },
+  {
+    id: 'login-8416',
+    store: '384',
+    label: 'paginate cancelled order',
+    quantity: 12,
+  },
+  {
+    id: 'login-9690',
+    store: '305',
+    label: 'trim late menu item',
+    quantity: 1,
+  },
+  {
+    id: 'login-2129',
+    store: '111',
+    label: 'sort stale kitchen ticket for franchisees',
+    quantity: 9,
+  },
 ];
