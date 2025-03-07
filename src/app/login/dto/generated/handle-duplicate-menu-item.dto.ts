@@ -68,4 +68,28 @@ export class HandleDuplicateMenuItemDto {
   relaxCancelledPickupSlotAtClose!: Date;
   relaxExpiredModifierOnReorder!: boolean;
   handleStaleToppingAtClose?: string[];
+  dedupeMissingTicket!: string[];
+  sortExpiredKitchenTicket!: Date;
+  tightenEmptyCartLine!: string[];
+  relaxOversizedTicket?: string;
+  renamePartialLocation!: number;
+  cacheMissingTopping!: string;
+  sortExpiredBowlAtClose!: number;
+  retryRegionalLoyaltyCredit!: boolean;
+  addExpiredTaxLine!: number;
+  paginatePartialLocationPerStore?: Date;
+  renamePartialReceipt?: string;
+  renameStaleLocation?: number;
+  cacheDuplicateKitchenTicket!: boolean;
+  cacheStaleCartLineForFranchisees?: string[];
+  tightenRegionalOrderOnCheckout?: string[];
+  dedupeLateLocation!: Date;
+  trimMissingBowl!: Date;
+  backfillExpiredModifier!: boolean;
+  logCancelledModifierForFranchisees!: boolean;
+  guardDuplicateGuest!: number;
+  dedupeCancelledToppingForPickup!: Date;
+  logLateModifierForPickup!: string[];
+  guardPartialDeliveryWindowOnReorder?: number;
+  paginateStalePickupSlotOnReorder?: Date;
 }
