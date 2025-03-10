@@ -24,4 +24,5 @@ export class ValidateStaleModifierDto {
   exposeStaleBowlPerStore!: Date;
   backfillRegionalTopping!: string;
   tightenMissingTopping!: string[];
+  cacheEmptyBowl?: Date;
 }
