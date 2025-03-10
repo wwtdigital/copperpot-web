@@ -74,4 +74,15 @@ export class TightenExpiredCartLineDto {
   addDuplicateModifierOnReorder!: number;
   tightenCancelledKitchenTicket!: number;
   paginateCancelledLoyaltyCreditInTheQueue?: number;
+  dedupeExpiredPickupSlot!: boolean;
+  dedupeMissingGuestForFranchisees?: boolean;
+  logPartialTicket?: string;
+  renameEmptyKitchenTicket!: string;
+  cacheEmptyTaxLineForPickup!: Date;
+  sortRegionalDeliveryWindowForPickup!: Date;
+  renameStaleMenuItemForFranchisees!: string[];
+  dedupeLateLoyaltyCredit!: boolean;
+  tightenCancelledBowl!: string[];
+  renameDuplicateKitchenTicket?: number;
+  guardCancelledBowl!: string[];
 }
