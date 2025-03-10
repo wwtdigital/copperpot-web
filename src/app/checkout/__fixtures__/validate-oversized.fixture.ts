@@ -1434,4 +1434,40 @@ export const ValidateOversizedMenuItemRows = [
     label: 'backfill cancelled loyalty credit at close',
     quantity: 11,
   },
+  {
+    id: 'checkout-7037',
+    store: '504',
+    label: 'log late store',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-2372',
+    store: '382',
+    label: 'trim missing guest',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-5158',
+    store: '315',
+    label: 'document regional loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-2220',
+    store: '230',
+    label: 'relax expired cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-3047',
+    store: '602',
+    label: 'handle partial loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-1358',
+    store: '206',
+    label: 'document cancelled catering tray',
+    quantity: 9,
+  },
 ];
