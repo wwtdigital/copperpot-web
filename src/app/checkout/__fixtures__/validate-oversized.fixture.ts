@@ -1368,4 +1368,58 @@ export const ValidateOversizedMenuItemRows = [
     label: 'normalise regional bowl',
     quantity: 12,
   },
+  {
+    id: 'checkout-4753',
+    store: '189',
+    label: 'dedupe empty delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-3835',
+    store: '651',
+    label: 'rename oversized bowl on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-6208',
+    store: '337',
+    label: 'add regional store at close',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-8022',
+    store: '214',
+    label: 'validate partial promo',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-4742',
+    store: '165',
+    label: 'log oversized modifier',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-8199',
+    store: '107',
+    label: 'normalise oversized promo for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5674',
+    store: '697',
+    label: 'document stale catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-8542',
+    store: '134',
+    label: 'handle expired menu item on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-9265',
+    store: '346',
+    label: 'dedupe regional store in the queue',
+    quantity: 11,
+  },
 ];
