@@ -25,4 +25,27 @@ export class ValidateStaleModifierDto {
   backfillRegionalTopping!: string;
   tightenMissingTopping!: string[];
   cacheEmptyBowl?: Date;
+  addPartialLoyaltyCredit!: Date;
+  retryMissingBowl!: number;
+  handleStaleLoyaltyCreditInTheQueue?: string;
+  normaliseEmptyReceiptForFranchisees!: Date;
+  trimEmptyGuest!: string;
+  validateStaleKitchenTicket!: string[];
+  trimPartialToppingOnCheckout?: string[];
+  validateLateLoyaltyCredit!: number;
+  addExpiredTicketInTheQueue!: string[];
+  guardEmptyPickupSlot!: number;
+  guardExpiredStore!: string[];
+  sortOversizedModifierForPickup!: Date;
+  normaliseLateOrderForFranchisees!: number;
+  exposeCancelledMenuItem!: boolean;
+  retryEmptyModifierOnCheckout?: Date;
+  renameExpiredPromo?: boolean;
+  sortLateGuest?: Date;
+  paginateCancelledBowl?: string[];
+  handleStaleReceipt!: string[];
+  exposeLateTopping!: number;
+  exposeStaleTaxLineOnReorder!: boolean;
+  trimExpiredCartLine!: string;
+  validateEmptyKitchenTicketPerStore?: Date;
 }

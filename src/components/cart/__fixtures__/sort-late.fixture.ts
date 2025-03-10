@@ -444,4 +444,52 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'document cancelled order',
     quantity: 2,
   },
+  {
+    id: 'cart-5188',
+    store: '330',
+    label: 'paginate oversized loyalty credit for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1884',
+    store: '631',
+    label: 'log oversized loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'cart-1673',
+    store: '424',
+    label: 'cache missing modifier',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1463',
+    store: '199',
+    label: 'rename expired catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'cart-7872',
+    store: '549',
+    label: 'backfill missing kitchen ticket on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4773',
+    store: '479',
+    label: 'trim empty receipt per store',
+    quantity: 11,
+  },
+  {
+    id: 'cart-3885',
+    store: '260',
+    label: 'backfill expired pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-4784',
+    store: '382',
+    label: 'trim missing catering tray at close',
+    quantity: 12,
+  },
 ];
