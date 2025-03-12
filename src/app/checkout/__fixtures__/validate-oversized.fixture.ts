@@ -1470,4 +1470,40 @@ export const ValidateOversizedMenuItemRows = [
     label: 'document cancelled catering tray',
     quantity: 9,
   },
+  {
+    id: 'checkout-5427',
+    store: '248',
+    label: 'sort cancelled location per store',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-5806',
+    store: '346',
+    label: 'backfill partial topping',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-9926',
+    store: '158',
+    label: 'rename missing ticket',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-5402',
+    store: '305',
+    label: 'cache cancelled topping',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-1406',
+    store: '203',
+    label: 'guard empty location',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-4493',
+    store: '356',
+    label: 'cache oversized promo per store',
+    quantity: 11,
+  },
 ];
