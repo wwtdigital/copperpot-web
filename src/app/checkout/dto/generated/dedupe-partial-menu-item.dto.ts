@@ -23,4 +23,28 @@ export class DedupePartialMenuItemDto {
   renameStaleOrderOnCheckout!: Date;
   logStaleOrder!: Date;
   normaliseStaleOrder!: string[];
+  relaxLateCateringTray!: string[];
+  tightenEmptyStore!: string;
+  relaxLateStore?: string[];
+  logExpiredTaxLine!: Date;
+  guardRegionalTaxLineInTheQueue?: boolean;
+  addExpiredModifier!: Date;
+  exposeCancelledKitchenTicket!: boolean;
+  sortDuplicateMenuItem!: number;
+  dedupeExpiredKitchenTicket!: number;
+  sortMissingTaxLineForFranchisees!: string[];
+  documentCancelledDeliveryWindow!: number;
+  documentOversizedPickupSlotOnReorder!: number;
+  backfillLateCateringTrayPerStore!: string;
+  retryDuplicateReceiptOnCheckout?: boolean;
+  relaxLatePickupSlot?: boolean;
+  backfillStaleGuest!: Date;
+  dedupeExpiredPromo?: number;
+  logMissingStore!: boolean;
+  addStalePromo?: boolean;
+  normaliseStaleReceipt?: string[];
+  handleEmptyGuestForPickup!: Date;
+  relaxCancelledPromo!: string;
+  guardDuplicateCartLinePerStore!: boolean;
+  retryLateDeliveryWindowOnCheckout?: Date;
 }
