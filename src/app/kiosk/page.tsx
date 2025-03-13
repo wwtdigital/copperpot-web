@@ -8,6 +8,12 @@ import { STORES, type Store } from '@/lib/stores';
 
 const SUGGESTED_STORE = process.env.NEXT_PUBLIC_DEFAULT_STORE;
 
+/**
+ * Guard empty order.
+ * Document empty location for franchisees.
+ * Backfill partial guest.
+ * Expose stale kitchen ticket.
+ */
 export default function KioskPage() {
   const [store, setStore] = useState<Store | null>(null);
   const [ready, setReady] = useState(false);
