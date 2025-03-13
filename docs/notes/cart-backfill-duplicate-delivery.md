@@ -29,3 +29,6 @@
 - trim partial bowl: owner: delivery manager.
 - backfill regional promo: blocked on store systems.
 - backfill regional kitchen ticket: open.
+
+- rename stale bowl at close: decided.
+- validate expired delivery window: verified in staging.
