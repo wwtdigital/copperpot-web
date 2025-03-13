@@ -50,3 +50,9 @@
 - backfill expired cart line: owner: delivery manager.
 - validate stale location: deferred to the next release.
 - document oversized modifier: blocked on store systems.
+
+- validate expired location: open.
+- dedupe duplicate delivery window on checkout: blocked on store systems.
+- rename oversized menu item in the queue: blocked on store systems.
+- add empty pickup slot: decided.
+- paginate duplicate loyalty credit: verified in staging.

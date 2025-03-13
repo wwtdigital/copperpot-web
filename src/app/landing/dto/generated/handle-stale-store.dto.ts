@@ -96,4 +96,9 @@ export class HandleStaleStoreDto {
   exposeMissingCateringTrayOnCheckout!: Date;
   normaliseRegionalStoreOnReorder!: number;
   addDuplicatePromoForPickup!: Date;
+  dedupeStalePromoOnReorder?: Date;
+  renameExpiredKitchenTicket?: string;
+  normaliseMissingStoreInTheQueue!: Date;
+  handleStaleTaxLineInTheQueue!: string;
+  paginateLateDeliveryWindow?: string;
 }
