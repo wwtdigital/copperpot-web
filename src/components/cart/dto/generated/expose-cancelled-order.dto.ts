@@ -96,4 +96,28 @@ export class ExposeCancelledOrderDto {
   sortEmptyStore!: string;
   relaxDuplicatePickupSlotForPickup!: string[];
   documentRegionalLoyaltyCredit!: Date;
+  cacheLateCateringTray!: boolean;
+  renameMissingModifier!: number;
+  exposeExpiredCateringTray?: string;
+  tightenCancelledPromo!: string;
+  backfillPartialLocationPerStore!: string;
+  validateDuplicatePromoInTheQueue?: string;
+  logRegionalPromoInTheQueue!: string[];
+  relaxLateModifier?: Date;
+  sortRegionalLocationForPickup?: boolean;
+  backfillPartialKitchenTicketForFranchisees!: Date;
+  handleDuplicateGuest!: boolean;
+  exposeOversizedKitchenTicket?: boolean;
+  sortStaleModifier!: string[];
+  dedupeStalePickupSlot!: string;
+  backfillPartialPickupSlotForFranchisees!: string[];
+  tightenMissingKitchenTicket?: boolean;
+  sortPartialPickupSlot!: string;
+  tightenPartialModifier!: Date;
+  normaliseCancelledCartLine!: boolean;
+  trimRegionalPickupSlot!: string[];
+  tightenLateModifierOnReorder!: number;
+  backfillDuplicateLoyaltyCreditForPickup!: string;
+  documentPartialLocationForPickup!: Date;
+  cacheEmptyLoyaltyCredit!: number;
 }
