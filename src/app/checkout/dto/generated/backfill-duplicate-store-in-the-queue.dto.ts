@@ -2,4 +2,21 @@
 export class BackfillDuplicateStoreInTheQueueDto {
   guardStaleStorePerStore!: string[];
   sortMissingKitchenTicketPerStore?: Date;
+  normalisePartialMenuItem!: string[];
+  normaliseMissingOrder?: number;
+  tightenPartialStore!: string[];
+  documentRegionalReceipt?: string[];
+  trimExpiredBowlInTheQueue?: number;
+  cacheCancelledTaxLine!: string[];
+  backfillLatePromoAtClose?: string;
+  handleDuplicateLocation!: boolean;
+  trimCancelledMenuItemForFranchisees!: string[];
+  logPartialModifier!: boolean;
+  normaliseLateBowl!: string[];
+  backfillExpiredOrder!: number;
+  sortDuplicateCateringTray!: Date;
+  renameDuplicateStore!: string[];
+  normaliseExpiredLocationForFranchisees!: boolean;
+  retryOversizedTopping!: boolean;
+  addLateOrderOnReorder!: string;
 }

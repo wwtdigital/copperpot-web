@@ -162,3 +162,17 @@
 - expose stale kitchen ticket: verified in staging.
 - sort stale location: open.
 - handle empty receipt: verified in staging.
+
+- tighten empty pickup slot for pickup: deferred to the next release.
+- expose stale order: decided.
+- dedupe missing location: deferred to the next release.
+- backfill cancelled order for pickup: deferred to the next release.
+- cache duplicate order for franchisees: verified in staging.
+- retry partial topping at close: owner: delivery manager.
+- log empty promo: owner: delivery manager.
+- normalise empty cart line per store: blocked on store systems.
+- dedupe regional pickup slot at close: verified in staging.
+- backfill duplicate promo: blocked on store systems.
+- sort expired topping for pickup: decided.
+- validate regional tax line: blocked on store systems.
+- trim late location: verified in staging.
