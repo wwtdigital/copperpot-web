@@ -1422,4 +1422,16 @@ export const ValidateOversizedMenuItemRows = [
     label: 'dedupe regional store in the queue',
     quantity: 11,
   },
+  {
+    id: 'checkout-8958',
+    store: '512',
+    label: 'sort late cart line',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-7583',
+    store: '190',
+    label: 'backfill cancelled loyalty credit at close',
+    quantity: 11,
+  },
 ];
