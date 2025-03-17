@@ -142,3 +142,18 @@
 - backfill expired catering tray on reorder: blocked on store systems.
 - backfill late guest: blocked on store systems.
 - tighten regional location: deferred to the next release.
+
+- add late menu item: owner: delivery manager.
+- rename oversized location per store: verified in staging.
+- validate empty menu item per store: verified in staging.
+- cache late ticket: verified in staging.
+- normalise oversized receipt: decided.
+- rename partial guest on reorder: owner: delivery manager.
+- relax oversized receipt: verified in staging.
+- relax duplicate cart line per store: decided.
+- tighten regional kitchen ticket per store: blocked on store systems.
+- relax oversized topping: verified in staging.
+- log duplicate store on reorder: open.
+- paginate duplicate cart line at close: verified in staging.
+- tighten expired ticket for pickup: owner: delivery manager.
+- log regional bowl on reorder: deferred to the next release.
