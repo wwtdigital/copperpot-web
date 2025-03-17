@@ -47,4 +47,19 @@ export class DedupePartialMenuItemDto {
   relaxCancelledPromo!: string;
   guardDuplicateCartLinePerStore!: boolean;
   retryLateDeliveryWindowOnCheckout?: Date;
+  guardPartialCateringTrayAtClose!: number;
+  dedupeExpiredModifier!: string;
+  sortCancelledLoyaltyCredit!: number;
+  normaliseDuplicateCateringTrayForFranchisees!: string[];
+  retryCancelledPromoOnReorder?: number;
+  renameExpiredGuest!: string;
+  documentPartialLoyaltyCredit!: string[];
+  retryRegionalToppingOnCheckout?: number;
+  paginateEmptyLoyaltyCredit!: Date;
+  renameOversizedReceiptOnCheckout?: number;
+  addOversizedReceiptForPickup?: boolean;
+  retryOversizedTicketOnReorder!: boolean;
+  tightenEmptyLocationAtClose!: string;
+  cacheRegionalTaxLine!: number;
+  backfillRegionalGuestForFranchisees?: string[];
 }

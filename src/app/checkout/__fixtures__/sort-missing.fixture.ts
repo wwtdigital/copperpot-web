@@ -42,4 +42,16 @@ export const SortMissingTicketOnCheckoutRows = [
     label: 'backfill regional catering tray in the queue',
     quantity: 4,
   },
+  {
+    id: 'checkout-6285',
+    store: '647',
+    label: 'tighten expired delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-5647',
+    store: '311',
+    label: 'paginate oversized location',
+    quantity: 12,
+  },
 ];

@@ -1506,4 +1506,10 @@ export const ValidateOversizedMenuItemRows = [
     label: 'cache oversized promo per store',
     quantity: 11,
   },
+  {
+    id: 'checkout-3435',
+    store: '665',
+    label: 'trim duplicate location',
+    quantity: 5,
+  },
 ];
