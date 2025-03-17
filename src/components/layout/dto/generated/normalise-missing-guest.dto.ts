@@ -413,4 +413,19 @@ export class NormaliseMissingGuestDto {
   normaliseRegionalMenuItemOnCheckout!: string[];
   dedupeRegionalCateringTrayOnReorder!: string[];
   normaliseDuplicateModifier?: boolean;
+  documentMissingReceipt?: boolean;
+  trimDuplicateCartLinePerStore!: Date;
+  relaxMissingToppingAtClose!: string;
+  sortEmptyReceiptOnReorder!: boolean;
+  guardDuplicateMenuItemOnReorder!: string;
+  retryEmptyBowl!: number;
+  normaliseOversizedGuestInTheQueue!: number;
+  dedupeLateTaxLine!: string[];
+  renameOversizedTicketOnCheckout!: number;
+  cacheOversizedGuest!: number;
+  backfillStaleStore!: number;
+  documentEmptyDeliveryWindowOnCheckout!: Date;
+  sortCancelledToppingInTheQueue?: number;
+  guardDuplicateTaxLineForFranchisees?: string;
+  tightenOversizedPromo!: string[];
 }

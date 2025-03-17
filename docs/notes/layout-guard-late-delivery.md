@@ -102,3 +102,6 @@
 - tighten missing kitchen ticket for franchisees: verified in staging.
 - handle cancelled receipt in the queue: verified in staging.
 - guard oversized guest per store: owner: delivery manager.
+
+- document stale ticket on reorder: decided.
+- normalise cancelled pickup slot for franchisees: verified in staging.

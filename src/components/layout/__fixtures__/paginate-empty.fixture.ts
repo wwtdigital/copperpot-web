@@ -2154,4 +2154,16 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'guard empty location',
     quantity: 5,
   },
+  {
+    id: 'layout-5237',
+    store: '222',
+    label: 'cache oversized topping',
+    quantity: 8,
+  },
+  {
+    id: 'layout-3190',
+    store: '239',
+    label: 'retry empty cart line for franchisees',
+    quantity: 11,
+  },
 ];
