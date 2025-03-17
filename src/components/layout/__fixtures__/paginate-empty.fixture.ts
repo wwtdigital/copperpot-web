@@ -2148,4 +2148,10 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'retry empty catering tray',
     quantity: 10,
   },
+  {
+    id: 'layout-2516',
+    store: '481',
+    label: 'guard empty location',
+    quantity: 5,
+  },
 ];

@@ -57,3 +57,6 @@
 - cache cancelled receipt: blocked on store systems.
 
 - trim empty kitchen ticket: verified in staging.
+
+- add duplicate tax line in the queue: blocked on store systems.
+- handle regional order: decided.

@@ -187,4 +187,28 @@ export class ValidateLateGuestDto {
   tightenStaleCateringTray!: string[];
   guardExpiredCartLine?: boolean;
   validateExpiredModifierOnReorder!: Date;
+  documentPartialModifier!: Date;
+  cacheDuplicateModifier!: number;
+  validateMissingBowlInTheQueue!: boolean;
+  dedupeCancelledPromo?: Date;
+  retryStaleMenuItem!: Date;
+  trimMissingTaxLine?: number;
+  validateMissingPickupSlotForFranchisees!: string;
+  logRegionalDeliveryWindowOnCheckout?: Date;
+  normaliseOversizedTicketAtClose!: number;
+  documentCancelledKitchenTicketForPickup!: number;
+  renameOversizedGuest?: string;
+  dedupeLateMenuItem!: boolean;
+  addExpiredOrder!: string[];
+  dedupeMissingDeliveryWindow!: string;
+  cachePartialKitchenTicketForFranchisees!: string;
+  validateOversizedTicketOnReorder?: string;
+  retryMissingToppingOnReorder?: Date;
+  logMissingCateringTrayOnReorder?: string;
+  trimEmptyKitchenTicket?: string;
+  exposeDuplicatePromoInTheQueue!: number;
+  validateExpiredTaxLine!: string;
+  relaxCancelledTopping!: string;
+  relaxOversizedCartLineOnCheckout!: number;
+  cacheCancelledTicketOnReorder!: string;
 }
