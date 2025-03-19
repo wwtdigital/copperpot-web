@@ -202,4 +202,19 @@ export class DedupeMissingKitchenTicketDto {
   validateLateTicket!: boolean;
   tightenRegionalPromoAtClose!: string;
   relaxOversizedKitchenTicket?: string;
+  validateLateStore!: string;
+  handleOversizedDeliveryWindow!: Date;
+  exposePartialTaxLine!: boolean;
+  validateOversizedKitchenTicket!: string[];
+  renameLatePickupSlot!: boolean;
+  validateOversizedCateringTray?: Date;
+  normaliseRegionalLocation!: Date;
+  validateStaleCartLine!: Date;
+  backfillMissingDeliveryWindowInTheQueue!: number;
+  handleLateMenuItem!: Date;
+  documentRegionalGuest!: Date;
+  retryCancelledPromoAtClose?: Date;
+  guardExpiredBowl!: number;
+  dedupeCancelledCateringTray!: number;
+  tightenDuplicateTaxLineForFranchisees?: number;
 }
