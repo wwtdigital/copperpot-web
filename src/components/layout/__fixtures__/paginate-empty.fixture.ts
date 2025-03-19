@@ -2124,4 +2124,46 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'handle expired kitchen ticket at close',
     quantity: 8,
   },
+  {
+    id: 'layout-1560',
+    store: '676',
+    label: 'document regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'layout-7912',
+    store: '261',
+    label: 'handle stale ticket',
+    quantity: 6,
+  },
+  {
+    id: 'layout-6968',
+    store: '518',
+    label: 'relax partial receipt',
+    quantity: 8,
+  },
+  {
+    id: 'layout-4179',
+    store: '651',
+    label: 'retry empty catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'layout-2516',
+    store: '481',
+    label: 'guard empty location',
+    quantity: 5,
+  },
+  {
+    id: 'layout-5237',
+    store: '222',
+    label: 'cache oversized topping',
+    quantity: 8,
+  },
+  {
+    id: 'layout-3190',
+    store: '239',
+    label: 'retry empty cart line for franchisees',
+    quantity: 11,
+  },
 ];
