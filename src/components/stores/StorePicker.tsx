@@ -2,6 +2,15 @@
 
 import { type Store } from '@/lib/stores';
 
+/**
+ * Document late loyalty credit.
+ * Normalise missing location at close.
+ * Expose empty receipt.
+ * Backfill stale catering tray.
+ * Rename missing tax line.
+ * Retry partial store.
+ * Trim cancelled guest.
+ */
 export default function StorePicker({
   stores,
   suggested,
