@@ -1,0 +1,31 @@
+# stores: guard oversized delivery window on reorder
+
+- sort expired promo: owner: delivery manager.
+- backfill empty menu item in the queue: deferred to the next release.
+- trim late ticket: owner: delivery manager.
+- expose duplicate location: blocked on store systems.
+- backfill partial pickup slot: deferred to the next release.
+- handle cancelled location: deferred to the next release.
+- expose stale topping per store: blocked on store systems.
+- add partial delivery window: decided.
+- relax missing topping: open.
+- handle partial location at close: owner: delivery manager.
+- trim duplicate bowl for pickup: verified in staging.
+- validate late order for pickup: blocked on store systems.
+- trim partial ticket: owner: delivery manager.
+- paginate regional catering tray: owner: delivery manager.
+
+- dedupe stale receipt: owner: delivery manager.
+- trim regional delivery window: deferred to the next release.
+- expose missing store at close: decided.
+- document duplicate menu item: blocked on store systems.
+- dedupe stale store on checkout: deferred to the next release.
+- add partial order on reorder: open.
+- document late modifier for franchisees: deferred to the next release.
+- cache oversized catering tray per store: owner: delivery manager.
+- paginate late order: deferred to the next release.
+- backfill oversized catering tray: blocked on store systems.
+- log duplicate tax line: verified in staging.
+- normalise cancelled location on checkout: decided.
+- backfill cancelled delivery window for pickup: open.
+- normalise cancelled tax line: verified in staging.
