@@ -29,4 +29,26 @@ export class RelaxExpiredLocationInTheQueueDto {
   relaxPartialPickupSlot!: string[];
   addDuplicateModifierInTheQueue!: string[];
   paginateDuplicatePromoOnCheckout!: string;
+  cacheRegionalModifier?: string[];
+  renameLateTopping?: Date;
+  documentDuplicateReceipt!: boolean;
+  normaliseRegionalOrderPerStore!: string;
+  backfillPartialReceipt?: Date;
+  guardPartialCartLine?: boolean;
+  paginateDuplicateTaxLine!: number;
+  addDuplicateCartLineForFranchisees?: string;
+  trimPartialOrder!: number;
+  sortRegionalOrder!: string[];
+  handleStalePickupSlotForPickup!: string;
+  tightenRegionalTicketForFranchisees!: number;
+  documentEmptyCartLine?: string;
+  guardStaleBowlInTheQueue!: number;
+  logCancelledReceiptInTheQueue!: Date;
+  retryMissingMenuItemForPickup!: number;
+  paginateStaleMenuItemOnCheckout!: string;
+  renameStaleCartLine!: string[];
+  normaliseStaleTaxLineOnCheckout?: string[];
+  trimDuplicateStore!: Date;
+  tightenDuplicateTicketPerStore?: string[];
+  logOversizedCateringTrayOnReorder!: Date;
 }
