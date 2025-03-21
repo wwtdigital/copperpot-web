@@ -108,4 +108,10 @@ export const RetryDuplicateMenuItemPerStoreRows = [
     label: 'paginate partial order',
     quantity: 2,
   },
+  {
+    id: 'kiosk-5796',
+    store: '420',
+    label: 'log late delivery window',
+    quantity: 6,
+  },
 ];

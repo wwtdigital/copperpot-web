@@ -18,4 +18,15 @@ export class RelaxExpiredLocationInTheQueueDto {
   backfillStaleModifier!: string[];
   backfillRegionalMenuItemInTheQueue!: Date;
   renameMissingLoyaltyCreditForFranchisees!: number;
+  paginateCancelledKitchenTicketOnCheckout?: string[];
+  normaliseLateTaxLine!: string[];
+  tightenEmptyPickupSlotOnReorder?: string;
+  retryOversizedLoyaltyCredit?: boolean;
+  cacheMissingDeliveryWindowForFranchisees!: number;
+  documentExpiredTicket?: string;
+  tightenMissingLocation!: boolean;
+  addPartialReceiptOnReorder!: string;
+  relaxPartialPickupSlot!: string[];
+  addDuplicateModifierInTheQueue!: string[];
+  paginateDuplicatePromoOnCheckout!: string;
 }
