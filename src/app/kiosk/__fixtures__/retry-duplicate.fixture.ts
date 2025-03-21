@@ -1,0 +1,117 @@
+/* Fixture rows for kiosk tests: retry duplicate menu item per store. Generated data, not production data. */
+export const RetryDuplicateMenuItemPerStoreRows = [
+  {
+    id: 'kiosk-1811',
+    store: '350',
+    label: 'sort regional promo at close',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-8076',
+    store: '280',
+    label: 'retry late order',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-1714',
+    store: '103',
+    label: 'dedupe expired tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-6375',
+    store: '462',
+    label: 'dedupe stale modifier',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-5262',
+    store: '412',
+    label: 'validate late cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-3516',
+    store: '351',
+    label: 'tighten late store',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-8329',
+    store: '411',
+    label: 'log duplicate tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-6328',
+    store: '395',
+    label: 'trim oversized catering tray in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-3682',
+    store: '144',
+    label: 'expose oversized receipt for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-6741',
+    store: '693',
+    label: 'add oversized menu item at close',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-9101',
+    store: '178',
+    label: 'trim empty order',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-3495',
+    store: '543',
+    label: 'normalise cancelled guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-8773',
+    store: '297',
+    label: 'backfill missing store',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-2707',
+    store: '486',
+    label: 'trim regional modifier',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-8990',
+    store: '206',
+    label: 'log missing promo',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-7407',
+    store: '180',
+    label: 'paginate regional cart line',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-3166',
+    store: '569',
+    label: 'add cancelled catering tray for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-1199',
+    store: '372',
+    label: 'paginate partial order',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-5796',
+    store: '420',
+    label: 'log late delivery window',
+    quantity: 6,
+  },
+];

@@ -164,3 +164,33 @@
 - tighten expired ticket: owner: delivery manager.
 - retry missing location: deferred to the next release.
 - trim late pickup slot at close: owner: delivery manager.
+
+- cache oversized cart line per store: deferred to the next release.
+- log stale cart line: blocked on store systems.
+- backfill missing topping: blocked on store systems.
+- validate cancelled loyalty credit on checkout: blocked on store systems.
+- guard missing kitchen ticket for franchisees: decided.
+- expose missing menu item per store: verified in staging.
+- cache missing modifier on reorder: open.
+- document oversized modifier: deferred to the next release.
+- add regional kitchen ticket for franchisees: verified in staging.
+- relax partial promo: deferred to the next release.
+- cache oversized topping for pickup: verified in staging.
+- log late delivery window for pickup: decided.
+- sort partial store: deferred to the next release.
+- log expired catering tray: deferred to the next release.
+
+- paginate late modifier: verified in staging.
+- trim oversized receipt: owner: delivery manager.
+- tighten late tax line: open.
+- expose oversized location: blocked on store systems.
+- add missing location on reorder: deferred to the next release.
+- tighten regional cart line: blocked on store systems.
+- trim stale menu item: open.
+- guard duplicate guest: verified in staging.
+- paginate expired order at close: deferred to the next release.
+- handle stale location: owner: delivery manager.
+- trim duplicate topping on checkout: decided.
+- handle cancelled delivery window: decided.
+- backfill oversized order: owner: delivery manager.
+- guard oversized tax line on checkout: blocked on store systems.

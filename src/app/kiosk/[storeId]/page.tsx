@@ -20,6 +20,15 @@ type ApiMenuItem = {
 
 const IDLE_SECONDS = Number(process.env.NEXT_PUBLIC_KIOSK_IDLE_SECONDS ?? 90);
 
+/**
+ * Handle oversized ticket.
+ * Tighten cancelled cart line.
+ * Cache late kitchen ticket in the queue.
+ * Guard missing catering tray.
+ * Handle partial pickup slot.
+ * Guard cancelled modifier.
+ * Dedupe late pickup slot in the queue.
+ */
 export default function KioskOrderPage() {
   const { storeId } = useParams<{ storeId: string }>();
   const router = useRouter();
