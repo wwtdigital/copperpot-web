@@ -92,4 +92,10 @@ export class HandleDuplicateMenuItemDto {
   logLateModifierForPickup!: string[];
   guardPartialDeliveryWindowOnReorder?: number;
   paginateStalePickupSlotOnReorder?: Date;
+  dedupeOversizedCateringTray!: Date;
+  guardLateOrderOnCheckout!: boolean;
+  validateExpiredDeliveryWindow!: string[];
+  exposeMissingLoyaltyCredit!: string[];
+  backfillRegionalModifier!: string;
+  addMissingOrder?: string[];
 }
