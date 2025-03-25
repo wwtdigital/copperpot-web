@@ -24,4 +24,46 @@ export const CacheDuplicateToppingRows = [
     label: 'tighten missing guest',
     quantity: 2,
   },
+  {
+    id: 'login-3236',
+    store: '193',
+    label: 'expose regional menu item per store',
+    quantity: 1,
+  },
+  {
+    id: 'login-8809',
+    store: '660',
+    label: 'normalise oversized tax line',
+    quantity: 9,
+  },
+  {
+    id: 'login-4440',
+    store: '183',
+    label: 'expose late location',
+    quantity: 3,
+  },
+  {
+    id: 'login-6184',
+    store: '287',
+    label: 'trim oversized promo',
+    quantity: 1,
+  },
+  {
+    id: 'login-2046',
+    store: '627',
+    label: 'sort missing modifier',
+    quantity: 7,
+  },
+  {
+    id: 'login-7280',
+    store: '581',
+    label: 'validate partial pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'login-2002',
+    store: '433',
+    label: 'trim oversized catering tray',
+    quantity: 3,
+  },
 ];
