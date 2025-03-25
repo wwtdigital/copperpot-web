@@ -1,0 +1,105 @@
+/* Fixture rows for login tests: cache duplicate topping. Generated data, not production data. */
+export const CacheDuplicateToppingRows = [
+  {
+    id: 'login-3969',
+    store: '579',
+    label: 'handle cancelled bowl',
+    quantity: 6,
+  },
+  {
+    id: 'login-1844',
+    store: '126',
+    label: 'validate late location on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'login-8996',
+    store: '364',
+    label: 'backfill empty topping for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'login-6041',
+    store: '367',
+    label: 'tighten missing guest',
+    quantity: 2,
+  },
+  {
+    id: 'login-3236',
+    store: '193',
+    label: 'expose regional menu item per store',
+    quantity: 1,
+  },
+  {
+    id: 'login-8809',
+    store: '660',
+    label: 'normalise oversized tax line',
+    quantity: 9,
+  },
+  {
+    id: 'login-4440',
+    store: '183',
+    label: 'expose late location',
+    quantity: 3,
+  },
+  {
+    id: 'login-6184',
+    store: '287',
+    label: 'trim oversized promo',
+    quantity: 1,
+  },
+  {
+    id: 'login-2046',
+    store: '627',
+    label: 'sort missing modifier',
+    quantity: 7,
+  },
+  {
+    id: 'login-7280',
+    store: '581',
+    label: 'validate partial pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'login-2002',
+    store: '433',
+    label: 'trim oversized catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'login-5616',
+    store: '455',
+    label: 'guard empty modifier per store',
+    quantity: 3,
+  },
+  {
+    id: 'login-5093',
+    store: '555',
+    label: 'sort regional store for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'login-3498',
+    store: '429',
+    label: 'normalise late loyalty credit for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'login-7834',
+    store: '587',
+    label: 'guard oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'login-2255',
+    store: '268',
+    label: 'add duplicate location',
+    quantity: 7,
+  },
+  {
+    id: 'login-9358',
+    store: '171',
+    label: 'cache oversized promo',
+    quantity: 4,
+  },
+];
