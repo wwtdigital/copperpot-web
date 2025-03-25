@@ -157,3 +157,18 @@
 - paginate duplicate cart line at close: verified in staging.
 - tighten expired ticket for pickup: owner: delivery manager.
 - log regional bowl on reorder: deferred to the next release.
+
+- backfill partial receipt: deferred to the next release.
+- tighten stale pickup slot per store: verified in staging.
+- dedupe cancelled menu item on checkout: deferred to the next release.
+- dedupe regional location: deferred to the next release.
+- validate expired catering tray at close: open.
+- paginate oversized bowl on checkout: blocked on store systems.
+- relax regional store on reorder: decided.
+- retry late location on checkout: verified in staging.
+- handle late kitchen ticket: decided.
+- validate regional promo for franchisees: open.
+- dedupe oversized cart line: decided.
+- expose expired bowl on checkout: blocked on store systems.
+- trim duplicate order on reorder: deferred to the next release.
+- normalise partial order: deferred to the next release.
