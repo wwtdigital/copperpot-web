@@ -14,3 +14,7 @@
 - trim oversized cart line: decided.
 - handle late delivery window for franchisees: deferred to the next release.
 - backfill cancelled order: open.
+
+- paginate regional promo for pickup: open.
+- trim regional receipt: decided.
+- guard duplicate tax line: owner: delivery manager.

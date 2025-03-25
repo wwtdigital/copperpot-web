@@ -66,4 +66,40 @@ export const CacheDuplicateToppingRows = [
     label: 'trim oversized catering tray',
     quantity: 3,
   },
+  {
+    id: 'login-5616',
+    store: '455',
+    label: 'guard empty modifier per store',
+    quantity: 3,
+  },
+  {
+    id: 'login-5093',
+    store: '555',
+    label: 'sort regional store for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'login-3498',
+    store: '429',
+    label: 'normalise late loyalty credit for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'login-7834',
+    store: '587',
+    label: 'guard oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'login-2255',
+    store: '268',
+    label: 'add duplicate location',
+    quantity: 7,
+  },
+  {
+    id: 'login-9358',
+    store: '171',
+    label: 'cache oversized promo',
+    quantity: 4,
+  },
 ];
