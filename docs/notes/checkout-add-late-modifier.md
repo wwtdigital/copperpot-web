@@ -194,3 +194,18 @@
 - add empty loyalty credit for franchisees: deferred to the next release.
 - add partial menu item: deferred to the next release.
 - paginate missing promo in the queue: deferred to the next release.
+
+- dedupe empty loyalty credit on reorder: decided.
+- paginate stale receipt: blocked on store systems.
+- validate late store per store: blocked on store systems.
+- cache missing tax line per store: blocked on store systems.
+- relax late cart line for pickup: blocked on store systems.
+- paginate expired delivery window in the queue: deferred to the next release.
+- validate expired store: open.
+- backfill oversized menu item on checkout: decided.
+- validate duplicate receipt: decided.
+- guard partial menu item for pickup: blocked on store systems.
+- paginate empty promo: deferred to the next release.
+- relax expired catering tray on checkout: owner: delivery manager.
+- retry duplicate menu item: deferred to the next release.
+- normalise oversized order: blocked on store systems.
