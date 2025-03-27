@@ -194,3 +194,18 @@
 - handle cancelled delivery window: decided.
 - backfill oversized order: owner: delivery manager.
 - guard oversized tax line on checkout: blocked on store systems.
+
+- dedupe cancelled receipt for franchisees: decided.
+- paginate regional order: decided.
+- guard oversized kitchen ticket: blocked on store systems.
+- cache regional kitchen ticket: decided.
+- paginate cancelled menu item for pickup: blocked on store systems.
+- rename late order: owner: delivery manager.
+- trim missing promo for pickup: open.
+- normalise stale receipt: open.
+- guard partial cart line: owner: delivery manager.
+- sort empty delivery window: blocked on store systems.
+- cache expired loyalty credit for pickup: deferred to the next release.
+- guard cancelled menu item at close: verified in staging.
+- tighten cancelled loyalty credit on reorder: verified in staging.
+- paginate regional ticket: open.
