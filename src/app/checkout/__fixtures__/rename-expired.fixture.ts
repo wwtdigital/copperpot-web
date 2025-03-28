@@ -1,0 +1,123 @@
+/* Fixture rows for checkout tests: rename expired catering tray. Generated data, not production data. */
+export const RenameExpiredCateringTrayRows = [
+  {
+    id: 'checkout-6985',
+    store: '382',
+    label: 'guard duplicate menu item',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-8900',
+    store: '519',
+    label: 'document empty topping',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-8139',
+    store: '107',
+    label: 'handle duplicate catering tray on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-5807',
+    store: '603',
+    label: 'sort late kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-6533',
+    store: '271',
+    label: 'backfill duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-2183',
+    store: '144',
+    label: 'document missing pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-8130',
+    store: '543',
+    label: 'tighten regional loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-9220',
+    store: '400',
+    label: 'validate missing cart line on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-5371',
+    store: '644',
+    label: 'handle duplicate loyalty credit at close',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-8697',
+    store: '491',
+    label: 'retry regional pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-3062',
+    store: '477',
+    label: 'log oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-6955',
+    store: '673',
+    label: 'validate expired order on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6998',
+    store: '693',
+    label: 'handle late topping',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-1177',
+    store: '138',
+    label: 'normalise oversized pickup slot for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-8093',
+    store: '475',
+    label: 'trim partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-6543',
+    store: '491',
+    label: 'guard empty catering tray for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-9810',
+    store: '624',
+    label: 'handle oversized tax line per store',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-7687',
+    store: '313',
+    label: 'log late order',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-2921',
+    store: '567',
+    label: 'log oversized kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-9897',
+    store: '512',
+    label: 'expose empty pickup slot',
+    quantity: 7,
+  },
+];
