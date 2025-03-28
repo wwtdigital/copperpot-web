@@ -99,4 +99,28 @@ export class RetryDuplicateKitchenTicketDto {
   handleExpiredKitchenTicket?: string[];
   cacheStalePickupSlot!: number;
   trimOversizedCateringTray!: boolean;
+  sortDuplicateDeliveryWindowForFranchisees!: number;
+  renameMissingTopping!: Date;
+  dedupeOversizedBowlOnCheckout!: boolean;
+  logOversizedBowl?: string;
+  documentDuplicateOrder!: string[];
+  tightenCancelledKitchenTicket?: number;
+  relaxOversizedMenuItem!: boolean;
+  cacheExpiredStoreForPickup!: number;
+  sortLateKitchenTicketPerStore!: Date;
+  exposeDuplicateTicket!: number;
+  logDuplicateStore!: number;
+  paginateExpiredToppingForPickup!: number;
+  retryRegionalDeliveryWindow!: number;
+  tightenDuplicateOrderAtClose?: string;
+  validateOversizedCartLine!: string[];
+  documentExpiredCateringTray!: boolean;
+  normaliseCancelledTicket!: boolean;
+  retryOversizedStoreAtClose!: Date;
+  paginateOversizedDeliveryWindow?: string[];
+  tightenExpiredTaxLineOnCheckout?: boolean;
+  addOversizedTicket!: string;
+  sortOversizedLoyaltyCreditOnReorder?: string;
+  tightenRegionalKitchenTicketPerStore!: string;
+  tightenEmptyModifier!: Date;
 }

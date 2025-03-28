@@ -157,3 +157,40 @@
 - paginate duplicate cart line at close: verified in staging.
 - tighten expired ticket for pickup: owner: delivery manager.
 - log regional bowl on reorder: deferred to the next release.
+
+- backfill partial receipt: deferred to the next release.
+- tighten stale pickup slot per store: verified in staging.
+- dedupe cancelled menu item on checkout: deferred to the next release.
+- dedupe regional location: deferred to the next release.
+- validate expired catering tray at close: open.
+- paginate oversized bowl on checkout: blocked on store systems.
+- relax regional store on reorder: decided.
+- retry late location on checkout: verified in staging.
+- handle late kitchen ticket: decided.
+- validate regional promo for franchisees: open.
+- dedupe oversized cart line: decided.
+- expose expired bowl on checkout: blocked on store systems.
+- trim duplicate order on reorder: deferred to the next release.
+- normalise partial order: deferred to the next release.
+
+- tighten partial promo at close: owner: delivery manager.
+- guard stale bowl on reorder: verified in staging.
+- cache oversized ticket: open.
+- retry regional ticket for pickup: verified in staging.
+- handle expired receipt per store: owner: delivery manager.
+- backfill missing catering tray in the queue: decided.
+- rename partial cart line at close: verified in staging.
+- sort stale ticket: blocked on store systems.
+- handle oversized catering tray: verified in staging.
+- paginate late tax line on checkout: open.
+- document cancelled modifier: owner: delivery manager.
+- paginate duplicate promo: open.
+- guard empty receipt at close: decided.
+- handle partial promo: open.
+
+- backfill stale kitchen ticket in the queue: decided.
+- tighten late location in the queue: owner: delivery manager.
+- paginate stale promo at close: open.
+- add empty loyalty credit for franchisees: deferred to the next release.
+- add partial menu item: deferred to the next release.
+- paginate missing promo in the queue: deferred to the next release.
