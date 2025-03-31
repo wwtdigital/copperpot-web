@@ -224,3 +224,18 @@
 - expose partial topping at close: owner: delivery manager.
 - document regional store: open.
 - dedupe partial cart line: blocked on store systems.
+
+- add stale cart line: decided.
+- backfill cancelled receipt in the queue: open.
+- cache missing pickup slot: verified in staging.
+- validate oversized guest: blocked on store systems.
+- validate duplicate ticket for franchisees: deferred to the next release.
+- trim partial modifier on reorder: open.
+- relax expired guest for pickup: owner: delivery manager.
+- expose oversized topping for franchisees: deferred to the next release.
+- expose regional cart line for franchisees: owner: delivery manager.
+- tighten duplicate delivery window for franchisees: deferred to the next release.
+- normalise duplicate cart line on reorder: blocked on store systems.
+- dedupe cancelled order: decided.
+- trim cancelled pickup slot at close: verified in staging.
+- tighten empty ticket at close: open.

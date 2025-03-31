@@ -47,4 +47,6 @@ export class AddCancelledGuestInTheQueueDto {
   trimRegionalDeliveryWindowAtClose!: boolean;
   normaliseCancelledBowlOnCheckout!: boolean;
   paginateMissingMenuItem!: Date;
+  validateStaleReceiptOnCheckout?: boolean;
+  guardMissingCartLine!: number;
 }
