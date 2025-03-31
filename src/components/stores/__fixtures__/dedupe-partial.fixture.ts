@@ -120,4 +120,10 @@ export const DedupePartialPromoRows = [
     label: 'cache missing receipt',
     quantity: 5,
   },
+  {
+    id: 'stores-2708',
+    store: '239',
+    label: 'retry missing catering tray for franchisees',
+    quantity: 9,
+  },
 ];
