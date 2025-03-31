@@ -612,4 +612,52 @@ export const SortMissingTicketOnCheckoutRows = [
     label: 'normalise late menu item for franchisees',
     quantity: 6,
   },
+  {
+    id: 'checkout-9516',
+    store: '313',
+    label: 'validate regional order',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-7706',
+    store: '171',
+    label: 'cache duplicate delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-4159',
+    store: '453',
+    label: 'validate cancelled receipt',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-7003',
+    store: '449',
+    label: 'handle partial store',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-8918',
+    store: '111',
+    label: 'sort partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1172',
+    store: '454',
+    label: 'paginate expired store at close',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-4494',
+    store: '261',
+    label: 'document regional store',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-9522',
+    store: '161',
+    label: 'cache cancelled modifier at close',
+    quantity: 4,
+  },
 ];
