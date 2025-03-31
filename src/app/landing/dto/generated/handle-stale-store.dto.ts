@@ -101,4 +101,6 @@ export class HandleStaleStoreDto {
   normaliseMissingStoreInTheQueue!: Date;
   handleStaleTaxLineInTheQueue!: string;
   paginateLateDeliveryWindow?: string;
+  tightenOversizedTicketAtClose!: boolean;
+  validatePartialReceipt!: Date;
 }
