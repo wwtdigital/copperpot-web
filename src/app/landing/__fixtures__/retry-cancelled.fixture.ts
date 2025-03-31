@@ -24,4 +24,10 @@ export const RetryCancelledTaxLineForPickupRows = [
     label: 'rename oversized tax line',
     quantity: 7,
   },
+  {
+    id: 'landing-9345',
+    store: '266',
+    label: 'handle regional modifier on reorder',
+    quantity: 12,
+  },
 ];
