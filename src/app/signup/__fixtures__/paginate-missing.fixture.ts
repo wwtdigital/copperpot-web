@@ -108,4 +108,16 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'tighten missing loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'signup-4301',
+    store: '313',
+    label: 'log expired ticket',
+    quantity: 6,
+  },
+  {
+    id: 'signup-2141',
+    store: '139',
+    label: 'sort duplicate pickup slot at close',
+    quantity: 7,
+  },
 ];
