@@ -239,3 +239,33 @@
 - dedupe cancelled order: decided.
 - trim cancelled pickup slot at close: verified in staging.
 - tighten empty ticket at close: open.
+
+- backfill stale topping: open.
+- expose cancelled menu item in the queue: decided.
+- document cancelled tax line in the queue: open.
+- document duplicate bowl: deferred to the next release.
+- log regional cart line on checkout: decided.
+- paginate stale menu item for franchisees: decided.
+- relax duplicate guest for pickup: deferred to the next release.
+- relax oversized promo: open.
+- cache duplicate delivery window in the queue: verified in staging.
+- cache stale cart line per store: open.
+- paginate oversized store: blocked on store systems.
+- backfill stale guest on reorder: open.
+- relax late location: owner: delivery manager.
+- relax partial store: blocked on store systems.
+
+- validate expired delivery window: owner: delivery manager.
+- cache expired cart line: decided.
+- document missing modifier: blocked on store systems.
+- handle stale delivery window: open.
+- tighten partial receipt for franchisees: decided.
+- guard oversized catering tray for franchisees: deferred to the next release.
+- add cancelled pickup slot: decided.
+- guard expired store for pickup: blocked on store systems.
+- dedupe empty location for pickup: owner: delivery manager.
+- cache cancelled tax line for pickup: verified in staging.
+- paginate partial guest: decided.
+- cache duplicate tax line: decided.
+- rename late catering tray: owner: delivery manager.
+- retry oversized store: deferred to the next release.
