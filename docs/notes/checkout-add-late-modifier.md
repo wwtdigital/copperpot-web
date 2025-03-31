@@ -209,3 +209,18 @@
 - relax expired catering tray on checkout: owner: delivery manager.
 - retry duplicate menu item: deferred to the next release.
 - normalise oversized order: blocked on store systems.
+
+- handle late pickup slot for pickup: blocked on store systems.
+- sort expired menu item on reorder: verified in staging.
+- document stale ticket: deferred to the next release.
+- sort cancelled tax line on checkout: blocked on store systems.
+- normalise missing pickup slot on checkout: owner: delivery manager.
+- document late catering tray: deferred to the next release.
+- add duplicate receipt for franchisees: verified in staging.
+- trim partial menu item at close: deferred to the next release.
+- normalise missing kitchen ticket: decided.
+- tighten partial bowl: open.
+- sort cancelled tax line per store: deferred to the next release.
+- expose partial topping at close: owner: delivery manager.
+- document regional store: open.
+- dedupe partial cart line: blocked on store systems.

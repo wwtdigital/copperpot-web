@@ -123,4 +123,28 @@ export class RetryDuplicateKitchenTicketDto {
   sortOversizedLoyaltyCreditOnReorder?: string;
   tightenRegionalKitchenTicketPerStore!: string;
   tightenEmptyModifier!: Date;
+  handleEmptyLoyaltyCredit?: Date;
+  logCancelledOrderForPickup!: string[];
+  retryPartialLocation?: Date;
+  paginateRegionalStoreOnReorder!: Date;
+  retryMissingLocation!: boolean;
+  handleDuplicatePromo!: string[];
+  handleStalePickupSlot?: boolean;
+  cachePartialPickupSlotForFranchisees!: number;
+  renameMissingPromo!: Date;
+  renameDuplicateLoyaltyCredit!: Date;
+  sortOversizedLocationOnCheckout!: string[];
+  addMissingModifierOnCheckout!: boolean;
+  addStaleTopping?: boolean;
+  renamePartialMenuItem?: boolean;
+  handlePartialTicketForPickup!: number;
+  cacheDuplicateKitchenTicket!: string[];
+  tightenRegionalStoreForFranchisees!: Date;
+  relaxPartialReceipt!: Date;
+  validateEmptyMenuItem?: number;
+  guardDuplicateDeliveryWindowOnCheckout!: boolean;
+  exposeExpiredToppingAtClose!: string[];
+  retryCancelledCartLineOnReorder!: string[];
+  tightenLateKitchenTicket?: string[];
+  dedupeLatePromo!: string[];
 }
