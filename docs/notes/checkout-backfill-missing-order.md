@@ -4,3 +4,33 @@
 - paginate duplicate catering tray: deferred to the next release.
 
 - expose late ticket: decided.
+
+- tighten cancelled cart line for franchisees: blocked on store systems.
+- retry duplicate promo: owner: delivery manager.
+- validate late pickup slot: blocked on store systems.
+- expose expired guest: verified in staging.
+- trim cancelled ticket: open.
+- log regional bowl: blocked on store systems.
+- normalise stale kitchen ticket: deferred to the next release.
+- dedupe missing order at close: blocked on store systems.
+- trim duplicate delivery window: open.
+- retry stale tax line: verified in staging.
+- add cancelled ticket on reorder: blocked on store systems.
+- retry empty pickup slot: open.
+- add stale delivery window in the queue: owner: delivery manager.
+- dedupe oversized guest at close: verified in staging.
+
+- retry missing guest per store: owner: delivery manager.
+- trim duplicate promo: blocked on store systems.
+- tighten duplicate loyalty credit at close: blocked on store systems.
+- relax stale store: owner: delivery manager.
+- normalise missing topping: owner: delivery manager.
+- backfill missing order for pickup: blocked on store systems.
+- log partial tax line in the queue: decided.
+- normalise duplicate guest at close: verified in staging.
+- document expired topping on reorder: verified in staging.
+- add oversized order: decided.
+- add expired modifier: blocked on store systems.
+- rename empty modifier at close: open.
+- cache partial kitchen ticket: blocked on store systems.
+- handle stale bowl: open.

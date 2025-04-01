@@ -194,3 +194,48 @@
 - add empty loyalty credit for franchisees: deferred to the next release.
 - add partial menu item: deferred to the next release.
 - paginate missing promo in the queue: deferred to the next release.
+
+- dedupe empty loyalty credit on reorder: decided.
+- paginate stale receipt: blocked on store systems.
+- validate late store per store: blocked on store systems.
+- cache missing tax line per store: blocked on store systems.
+- relax late cart line for pickup: blocked on store systems.
+- paginate expired delivery window in the queue: deferred to the next release.
+- validate expired store: open.
+- backfill oversized menu item on checkout: decided.
+- validate duplicate receipt: decided.
+- guard partial menu item for pickup: blocked on store systems.
+- paginate empty promo: deferred to the next release.
+- relax expired catering tray on checkout: owner: delivery manager.
+- retry duplicate menu item: deferred to the next release.
+- normalise oversized order: blocked on store systems.
+
+- handle late pickup slot for pickup: blocked on store systems.
+- sort expired menu item on reorder: verified in staging.
+- document stale ticket: deferred to the next release.
+- sort cancelled tax line on checkout: blocked on store systems.
+- normalise missing pickup slot on checkout: owner: delivery manager.
+- document late catering tray: deferred to the next release.
+- add duplicate receipt for franchisees: verified in staging.
+- trim partial menu item at close: deferred to the next release.
+- normalise missing kitchen ticket: decided.
+- tighten partial bowl: open.
+- sort cancelled tax line per store: deferred to the next release.
+- expose partial topping at close: owner: delivery manager.
+- document regional store: open.
+- dedupe partial cart line: blocked on store systems.
+
+- add stale cart line: decided.
+- backfill cancelled receipt in the queue: open.
+- cache missing pickup slot: verified in staging.
+- validate oversized guest: blocked on store systems.
+- validate duplicate ticket for franchisees: deferred to the next release.
+- trim partial modifier on reorder: open.
+- relax expired guest for pickup: owner: delivery manager.
+- expose oversized topping for franchisees: deferred to the next release.
+- expose regional cart line for franchisees: owner: delivery manager.
+- tighten duplicate delivery window for franchisees: deferred to the next release.
+- normalise duplicate cart line on reorder: blocked on store systems.
+- dedupe cancelled order: decided.
+- trim cancelled pickup slot at close: verified in staging.
+- tighten empty ticket at close: open.
