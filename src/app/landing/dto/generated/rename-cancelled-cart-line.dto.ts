@@ -120,4 +120,28 @@ export class RenameCancelledCartLineDto {
   handleOversizedKitchenTicket?: number;
   sortExpiredDeliveryWindowAtClose!: boolean;
   documentCancelledDeliveryWindowForPickup!: Date;
+  sortCancelledPickupSlot!: string;
+  documentRegionalOrderForFranchisees!: boolean;
+  cacheRegionalTaxLine!: Date;
+  normaliseExpiredLoyaltyCreditForFranchisees!: number;
+  backfillPartialReceiptInTheQueue?: number;
+  normaliseLateReceiptInTheQueue!: number;
+  trimStaleKitchenTicketAtClose!: number;
+  dedupeCancelledTicket!: number;
+  retryOversizedPickupSlot?: number;
+  relaxExpiredPickupSlot!: number;
+  renamePartialOrderAtClose?: boolean;
+  handleLateDeliveryWindow!: Date;
+  tightenLateModifier?: string[];
+  cacheMissingGuest!: number;
+  guardEmptyPromoAtClose!: string[];
+  relaxStaleLocation!: Date;
+  logLateCateringTrayInTheQueue?: Date;
+  handleCancelledPickupSlot!: number;
+  cachePartialDeliveryWindow?: boolean;
+  cacheEmptyReceipt?: boolean;
+  cacheMissingCateringTray!: number;
+  relaxOversizedLoyaltyCredit!: number;
+  documentEmptyKitchenTicket!: string;
+  retryExpiredStore!: boolean;
 }
