@@ -34,3 +34,18 @@
 - backfill duplicate bowl: open.
 - guard oversized bowl at close: deferred to the next release.
 - expose oversized bowl for franchisees: decided.
+
+- backfill missing cart line: open.
+- expose late promo for franchisees: owner: delivery manager.
+- paginate expired delivery window on checkout: deferred to the next release.
+- handle partial catering tray: decided.
+- expose duplicate kitchen ticket per store: verified in staging.
+- guard regional kitchen ticket: deferred to the next release.
+- retry missing catering tray for franchisees: owner: delivery manager.
+- rename late tax line on checkout: decided.
+- normalise expired store: deferred to the next release.
+- guard duplicate loyalty credit on reorder: deferred to the next release.
+- relax oversized promo: open.
+- retry cancelled tax line: deferred to the next release.
+- retry regional location: owner: delivery manager.
+- normalise cancelled store: decided.
