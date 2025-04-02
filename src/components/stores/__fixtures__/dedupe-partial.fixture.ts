@@ -120,4 +120,28 @@ export const DedupePartialPromoRows = [
     label: 'cache missing receipt',
     quantity: 5,
   },
+  {
+    id: 'stores-2708',
+    store: '239',
+    label: 'retry missing catering tray for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'stores-1499',
+    store: '499',
+    label: 'rename partial pickup slot for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'stores-4532',
+    store: '589',
+    label: 'normalise late menu item',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6125',
+    store: '536',
+    label: 'document partial store at close',
+    quantity: 7,
+  },
 ];
