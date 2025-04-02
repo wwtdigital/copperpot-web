@@ -660,4 +660,52 @@ export const SortMissingTicketOnCheckoutRows = [
     label: 'cache cancelled modifier at close',
     quantity: 4,
   },
+  {
+    id: 'checkout-7494',
+    store: '301',
+    label: 'backfill cancelled bowl',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-3246',
+    store: '383',
+    label: 'handle stale modifier in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-8368',
+    store: '500',
+    label: 'document partial guest in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-2627',
+    store: '653',
+    label: 'expose cancelled modifier for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5351',
+    store: '422',
+    label: 'log partial ticket',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6331',
+    store: '404',
+    label: 'validate empty receipt on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-6362',
+    store: '420',
+    label: 'document duplicate receipt',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-8726',
+    store: '549',
+    label: 'retry stale pickup slot for pickup',
+    quantity: 10,
+  },
 ];

@@ -269,3 +269,18 @@
 - cache duplicate tax line: decided.
 - rename late catering tray: owner: delivery manager.
 - retry oversized store: deferred to the next release.
+
+- document late catering tray: owner: delivery manager.
+- trim expired store: owner: delivery manager.
+- rename expired menu item: blocked on store systems.
+- tighten oversized topping: decided.
+- add missing bowl: decided.
+- sort stale loyalty credit at close: owner: delivery manager.
+- relax empty tax line: blocked on store systems.
+- document partial bowl: deferred to the next release.
+- relax missing location per store: blocked on store systems.
+- validate expired promo: decided.
+- backfill late order: open.
+- document expired promo on reorder: verified in staging.
+- handle late catering tray: verified in staging.
+- guard empty pickup slot: verified in staging.

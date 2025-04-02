@@ -90,4 +90,8 @@ export class AddCancelledGuestInTheQueueDto {
   trimEmptyReceipt!: string[];
   paginateOversizedGuestPerStore!: number;
   logRegionalPickupSlot!: Date;
+  validateOversizedGuest?: Date;
+  logStaleGuestForFranchisees?: Date;
+  renamePartialMenuItem!: string[];
+  validateRegionalReceipt!: string;
 }
