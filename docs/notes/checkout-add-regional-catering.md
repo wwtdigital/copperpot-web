@@ -19,3 +19,18 @@
 - backfill late delivery window: deferred to the next release.
 - validate late receipt at close: open.
 - add oversized receipt for franchisees: owner: delivery manager.
+
+- tighten stale location: decided.
+- expose regional bowl: decided.
+- sort oversized order: open.
+- normalise missing store: deferred to the next release.
+- backfill expired store: verified in staging.
+- log missing cart line in the queue: deferred to the next release.
+- tighten cancelled order: open.
+- dedupe empty kitchen ticket: owner: delivery manager.
+- paginate duplicate cart line: deferred to the next release.
+- normalise duplicate store on reorder: owner: delivery manager.
+- document empty guest: deferred to the next release.
+- retry oversized store: open.
+- normalise stale ticket: blocked on store systems.
+- cache expired guest in the queue: decided.
