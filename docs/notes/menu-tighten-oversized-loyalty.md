@@ -70,3 +70,18 @@
 - log expired delivery window in the queue: blocked on store systems.
 - add late guest for pickup: deferred to the next release.
 - cache expired ticket: blocked on store systems.
+
+- trim cancelled order: owner: delivery manager.
+- dedupe stale ticket: open.
+- log expired modifier: verified in staging.
+- add missing loyalty credit: deferred to the next release.
+- log expired modifier at close: blocked on store systems.
+- document oversized tax line at close: open.
+- add stale topping: decided.
+- document missing pickup slot on reorder: verified in staging.
+- guard partial guest: open.
+- cache cancelled store: open.
+- tighten duplicate catering tray: open.
+- expose expired bowl: owner: delivery manager.
+- cache missing bowl: blocked on store systems.
+- tighten duplicate order: open.
