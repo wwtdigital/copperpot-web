@@ -78,3 +78,18 @@
 - tighten empty cart line on checkout: open.
 - guard duplicate delivery window: owner: delivery manager.
 - backfill oversized tax line: open.
+
+- backfill empty promo: deferred to the next release.
+- log stale receipt for pickup: verified in staging.
+- retry empty order: decided.
+- log late delivery window: decided.
+- document duplicate topping: open.
+- cache expired receipt: blocked on store systems.
+- expose partial bowl: owner: delivery manager.
+- relax duplicate catering tray: deferred to the next release.
+- dedupe regional guest: verified in staging.
+- retry expired topping: deferred to the next release.
+- cache regional store per store: open.
+- normalise empty pickup slot for franchisees: owner: delivery manager.
+- validate oversized cart line in the queue: verified in staging.
+- tighten partial order: deferred to the next release.
