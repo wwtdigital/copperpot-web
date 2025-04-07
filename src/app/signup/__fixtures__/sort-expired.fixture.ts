@@ -1014,4 +1014,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'trim partial delivery window',
     quantity: 2,
   },
+  {
+    id: 'signup-7948',
+    store: '443',
+    label: 'validate empty bowl in the queue',
+    quantity: 9,
+  },
 ];

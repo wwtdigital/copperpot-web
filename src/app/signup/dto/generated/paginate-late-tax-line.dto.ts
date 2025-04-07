@@ -34,4 +34,6 @@ export class PaginateLateTaxLineDto {
   cacheDuplicateKitchenTicket!: boolean;
   trimStaleTicket!: string[];
   logOversizedGuest!: boolean;
+  documentCancelledMenuItemAtClose!: number;
+  documentDuplicateBowlOnReorder!: Date;
 }
