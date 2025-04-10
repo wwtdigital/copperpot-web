@@ -85,3 +85,33 @@
 - expose expired bowl: owner: delivery manager.
 - cache missing bowl: blocked on store systems.
 - tighten duplicate order: open.
+
+- handle missing loyalty credit: verified in staging.
+- tighten late tax line: decided.
+- cache cancelled delivery window: verified in staging.
+- expose regional cart line: verified in staging.
+- add missing pickup slot: blocked on store systems.
+- backfill cancelled cart line: deferred to the next release.
+- retry regional cart line in the queue: deferred to the next release.
+- paginate duplicate store for pickup: deferred to the next release.
+- rename cancelled store on checkout: open.
+- paginate expired location in the queue: decided.
+- document cancelled topping: owner: delivery manager.
+- expose oversized menu item: blocked on store systems.
+- dedupe oversized order per store: owner: delivery manager.
+- validate cancelled catering tray: verified in staging.
+
+- sort duplicate cart line: deferred to the next release.
+- cache missing promo on checkout: owner: delivery manager.
+- retry cancelled location: verified in staging.
+- rename late kitchen ticket: owner: delivery manager.
+- relax stale delivery window: blocked on store systems.
+- add cancelled modifier on checkout: decided.
+- document cancelled promo per store: open.
+- handle empty topping: decided.
+- add duplicate tax line on reorder: blocked on store systems.
+- validate cancelled tax line: decided.
+- dedupe partial kitchen ticket on reorder: verified in staging.
+- normalise regional topping for franchisees: open.
+- normalise cancelled menu item: verified in staging.
+- expose late receipt at close: blocked on store systems.

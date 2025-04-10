@@ -115,3 +115,18 @@
 - backfill duplicate tax line: decided.
 - paginate partial loyalty credit on reorder: blocked on store systems.
 - relax late order: blocked on store systems.
+
+- expose empty location on checkout: deferred to the next release.
+- cache partial order on reorder: blocked on store systems.
+- dedupe empty modifier: open.
+- validate cancelled location for pickup: owner: delivery manager.
+- paginate late cart line: deferred to the next release.
+- log late cart line for franchisees: open.
+- add oversized receipt in the queue: deferred to the next release.
+- dedupe late guest: decided.
+- validate oversized promo for pickup: decided.
+- tighten oversized tax line: blocked on store systems.
+- trim stale promo: owner: delivery manager.
+- retry partial store for franchisees: open.
+- guard oversized guest: blocked on store systems.
+- dedupe expired kitchen ticket: verified in staging.

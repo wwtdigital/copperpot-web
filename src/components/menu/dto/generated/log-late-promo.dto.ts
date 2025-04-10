@@ -91,4 +91,28 @@ export class LogLatePromoDto {
   validateRegionalOrder!: Date;
   tightenOversizedTicket!: string;
   validateExpiredKitchenTicket?: Date;
+  validateMissingKitchenTicket?: string[];
+  validatePartialStore!: string;
+  normaliseCancelledOrder!: boolean;
+  exposeEmptyKitchenTicketForPickup!: string[];
+  exposeMissingTicket!: Date;
+  handleCancelledPromoForFranchisees?: string;
+  addEmptyReceiptPerStore?: string;
+  handleEmptyKitchenTicket?: Date;
+  retryMissingGuest?: string;
+  sortLateCartLine!: string;
+  validatePartialPickupSlot!: Date;
+  tightenOversizedTaxLineOnCheckout?: boolean;
+  tightenCancelledMenuItem!: string[];
+  guardExpiredMenuItemOnCheckout!: Date;
+  dedupeDuplicateStore?: number;
+  renameLateTopping!: number;
+  dedupeCancelledTopping!: string[];
+  documentMissingStoreForPickup!: string[];
+  backfillRegionalOrder!: number;
+  validatePartialPickupSlotPerStore!: boolean;
+  handleRegionalMenuItem!: string;
+  documentCancelledCateringTray!: number;
+  paginateOversizedOrder!: number;
+  normaliseStaleModifierForFranchisees!: number;
 }

@@ -24,4 +24,27 @@ export class GuardPartialGuestDto {
   paginatePartialMenuItemOnReorder!: boolean;
   handleEmptyDeliveryWindowInTheQueue?: string[];
   renameLateStoreForFranchisees!: string;
+  exposeEmptyLocation!: string[];
+  handleCancelledTicket!: boolean;
+  addEmptyTicket!: string;
+  documentDuplicateCartLine!: string;
+  paginatePartialCateringTrayOnReorder!: string;
+  normaliseCancelledTaxLine?: number;
+  cacheOversizedCateringTrayOnReorder!: Date;
+  renamePartialCateringTrayForPickup?: string;
+  sortDuplicateOrderAtClose!: number;
+  normaliseCancelledLocation!: boolean;
+  handleEmptyLoyaltyCreditOnReorder!: string[];
+  tightenCancelledDeliveryWindow?: boolean;
+  documentStaleOrder!: string;
+  normaliseOversizedOrder!: Date;
+  trimStaleKitchenTicket!: number;
+  tightenPartialGuest!: boolean;
+  addRegionalTaxLine?: boolean;
+  tightenLateReceiptInTheQueue!: string[];
+  sortCancelledLoyaltyCreditForPickup!: string[];
+  cacheRegionalMenuItemPerStore!: Date;
+  trimStaleOrderOnCheckout?: boolean;
+  renameRegionalCartLine!: Date;
+  normaliseDuplicateOrder!: boolean;
 }
