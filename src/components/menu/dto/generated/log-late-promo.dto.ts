@@ -19,4 +19,28 @@ export class LogLatePromoDto {
   tightenDuplicateTopping!: number;
   cacheMissingTopping!: boolean;
   normaliseEmptyDeliveryWindowPerStore?: string;
+  tightenCancelledPromoAtClose!: number;
+  dedupeLateLoyaltyCreditForFranchisees?: number;
+  documentCancelledPromoOnCheckout!: number;
+  dedupePartialPromo!: string[];
+  handlePartialGuest!: boolean;
+  documentCancelledCartLineInTheQueue!: Date;
+  sortStaleTopping!: boolean;
+  addPartialMenuItem!: Date;
+  addDuplicateReceipt?: boolean;
+  normaliseOversizedStore?: string;
+  tightenStaleModifierForFranchisees!: Date;
+  renamePartialToppingForFranchisees!: string;
+  logStaleTopping!: string[];
+  normaliseLateToppingForPickup?: number;
+  relaxCancelledKitchenTicketAtClose!: string;
+  documentPartialReceiptOnCheckout!: string[];
+  guardOversizedCateringTray!: boolean;
+  retryMissingStore?: boolean;
+  trimDuplicateLocation!: boolean;
+  validateStaleReceiptInTheQueue!: string[];
+  exposeEmptyTaxLinePerStore!: boolean;
+  logRegionalTaxLine!: string;
+  dedupeStaleLoyaltyCredit?: Date;
+  relaxStaleStore!: Date;
 }

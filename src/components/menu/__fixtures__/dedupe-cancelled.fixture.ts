@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: dedupe cancelled delivery window. Generated data, not production data. */
+export const DedupeCancelledDeliveryWindowRows = [
+  {
+    id: 'menu-8492',
+    store: '677',
+    label: 'relax missing topping',
+    quantity: 2,
+  },
+  {
+    id: 'menu-6866',
+    store: '360',
+    label: 'tighten missing ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'menu-4091',
+    store: '448',
+    label: 'dedupe late promo for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'menu-4195',
+    store: '169',
+    label: 'normalise regional loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1511',
+    store: '604',
+    label: 'document regional guest',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4259',
+    store: '519',
+    label: 'trim expired kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'menu-5260',
+    store: '587',
+    label: 'validate oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'menu-3856',
+    store: '362',
+    label: 'document expired ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1243',
+    store: '432',
+    label: 'paginate cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4797',
+    store: '439',
+    label: 'cache partial ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2928',
+    store: '254',
+    label: 'document missing kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7892',
+    store: '517',
+    label: 'guard oversized kitchen ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5644',
+    store: '310',
+    label: 'guard partial pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'menu-4284',
+    store: '423',
+    label: 'cache oversized modifier',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2347',
+    store: '673',
+    label: 'validate expired topping for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'menu-2401',
+    store: '496',
+    label: 'expose empty catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7947',
+    store: '679',
+    label: 'expose expired guest',
+    quantity: 6,
+  },
+  {
+    id: 'menu-2424',
+    store: '360',
+    label: 'dedupe empty promo',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1474',
+    store: '610',
+    label: 'add missing delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8196',
+    store: '394',
+    label: 'sort empty location at close',
+    quantity: 7,
+  },
+];
