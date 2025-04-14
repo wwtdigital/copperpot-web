@@ -34,3 +34,18 @@
 - retry oversized store: open.
 - normalise stale ticket: blocked on store systems.
 - cache expired guest in the queue: decided.
+
+- handle partial cart line: blocked on store systems.
+- handle late promo in the queue: open.
+- normalise expired loyalty credit for franchisees: deferred to the next release.
+- tighten missing delivery window: blocked on store systems.
+- log missing location: blocked on store systems.
+- cache empty order on reorder: decided.
+- backfill late location: owner: delivery manager.
+- relax expired pickup slot per store: blocked on store systems.
+- guard duplicate menu item: decided.
+- dedupe stale promo: decided.
+- document partial menu item: owner: delivery manager.
+- dedupe late bowl: open.
+- retry cancelled cart line: open.
+- validate late promo: owner: delivery manager.

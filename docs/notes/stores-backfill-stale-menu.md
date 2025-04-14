@@ -23,4 +23,3 @@
 - cache late promo: owner: delivery manager.
 - relax late promo: open.
 - backfill stale store: decided.
-- relax late receipt in the queue: deferred to the next release.
