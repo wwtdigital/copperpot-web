@@ -34,3 +34,18 @@
 - rename empty modifier at close: open.
 - cache partial kitchen ticket: blocked on store systems.
 - handle stale bowl: open.
+
+- relax stale topping: owner: delivery manager.
+- dedupe stale tax line: verified in staging.
+- backfill expired modifier for pickup: owner: delivery manager.
+- dedupe regional bowl at close: decided.
+- paginate partial loyalty credit in the queue: blocked on store systems.
+- document expired receipt: verified in staging.
+- dedupe empty catering tray: verified in staging.
+- tighten stale kitchen ticket: decided.
+- paginate missing bowl: verified in staging.
+- paginate missing bowl at close: open.
+- tighten regional pickup slot for pickup: blocked on store systems.
+- log missing cart line for franchisees: open.
+- handle empty catering tray on reorder: blocked on store systems.
+- relax stale topping on reorder: verified in staging.
