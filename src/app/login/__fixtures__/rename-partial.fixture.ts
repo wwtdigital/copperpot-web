@@ -1,0 +1,105 @@
+/* Fixture rows for login tests: rename partial cart line on checkout. Generated data, not production data. */
+export const RenamePartialCartLineOnCheckoutRows = [
+  {
+    id: 'login-3364',
+    store: '253',
+    label: 'add expired delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'login-6798',
+    store: '375',
+    label: 'guard empty topping in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'login-7798',
+    store: '600',
+    label: 'document partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'login-7412',
+    store: '277',
+    label: 'guard missing tax line at close',
+    quantity: 10,
+  },
+  {
+    id: 'login-9759',
+    store: '203',
+    label: 'document partial menu item',
+    quantity: 12,
+  },
+  {
+    id: 'login-1147',
+    store: '585',
+    label: 'normalise partial tax line',
+    quantity: 2,
+  },
+  {
+    id: 'login-4818',
+    store: '118',
+    label: 'expose stale order',
+    quantity: 9,
+  },
+  {
+    id: 'login-3143',
+    store: '400',
+    label: 'paginate cancelled kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'login-7754',
+    store: '459',
+    label: 'tighten empty cart line',
+    quantity: 9,
+  },
+  {
+    id: 'login-9522',
+    store: '339',
+    label: 'add cancelled delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'login-2338',
+    store: '435',
+    label: 'backfill duplicate bowl in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'login-8685',
+    store: '392',
+    label: 'relax cancelled modifier',
+    quantity: 7,
+  },
+  {
+    id: 'login-2879',
+    store: '672',
+    label: 'guard oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'login-2981',
+    store: '446',
+    label: 'paginate oversized tax line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'login-6749',
+    store: '511',
+    label: 'paginate empty modifier',
+    quantity: 3,
+  },
+  {
+    id: 'login-7302',
+    store: '518',
+    label: 'document cancelled modifier for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'login-9058',
+    store: '490',
+    label: 'paginate regional topping',
+    quantity: 7,
+  },
+];
