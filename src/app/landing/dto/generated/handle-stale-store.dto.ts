@@ -103,4 +103,28 @@ export class HandleStaleStoreDto {
   paginateLateDeliveryWindow?: string;
   tightenOversizedTicketAtClose!: boolean;
   validatePartialReceipt!: Date;
+  normaliseRegionalStore!: number;
+  sortRegionalCartLine!: Date;
+  guardRegionalLocation?: number;
+  trimRegionalPromo?: boolean;
+  validateExpiredBowl!: string[];
+  backfillMissingReceipt!: number;
+  renameCancelledDeliveryWindow!: boolean;
+  documentEmptyBowl?: Date;
+  exposeLateOrderForPickup?: string;
+  handleStaleLocation!: string;
+  backfillRegionalTaxLine!: boolean;
+  logExpiredBowlPerStore!: boolean;
+  trimLateLocation?: string[];
+  retryEmptyCartLineOnCheckout?: boolean;
+  backfillExpiredCartLine!: string[];
+  documentCancelledTopping!: Date;
+  backfillLateModifier?: string[];
+  exposeDuplicateTicket!: Date;
+  paginateMissingLoyaltyCredit!: Date;
+  exposeDuplicateGuest!: string[];
+  normaliseOversizedTopping!: Date;
+  retryDuplicateMenuItem!: string;
+  dedupeExpiredTicket?: string[];
+  renameEmptyPromo?: boolean;
 }
