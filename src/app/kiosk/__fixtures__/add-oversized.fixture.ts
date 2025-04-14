@@ -774,4 +774,10 @@ export const AddOversizedCateringTrayRows = [
     label: 'tighten stale promo per store',
     quantity: 5,
   },
+  {
+    id: 'kiosk-7016',
+    store: '369',
+    label: 'sort empty location',
+    quantity: 3,
+  },
 ];

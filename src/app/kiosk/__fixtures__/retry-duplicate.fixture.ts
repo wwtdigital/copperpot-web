@@ -240,4 +240,34 @@ export const RetryDuplicateMenuItemPerStoreRows = [
     label: 'log duplicate topping',
     quantity: 8,
   },
+  {
+    id: 'kiosk-5471',
+    store: '104',
+    label: 'expose empty catering tray in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-5132',
+    store: '563',
+    label: 'add duplicate cart line on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-7091',
+    store: '693',
+    label: 'expose regional guest for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-9840',
+    store: '353',
+    label: 'backfill duplicate topping for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-8525',
+    store: '280',
+    label: 'expose empty pickup slot for franchisees',
+    quantity: 7,
+  },
 ];
