@@ -98,4 +98,26 @@ export class HandleDuplicateMenuItemDto {
   exposeMissingLoyaltyCredit!: string[];
   backfillRegionalModifier!: string;
   addMissingOrder?: string[];
+  dedupeRegionalDeliveryWindow!: string;
+  handleStaleReceipt!: Date;
+  sortEmptyLoyaltyCredit?: number;
+  tightenPartialTicketForFranchisees!: number;
+  logCancelledTicket?: number;
+  relaxStaleModifier!: number;
+  sortOversizedKitchenTicketInTheQueue!: boolean;
+  backfillLateCartLine?: boolean;
+  exposePartialTopping!: string;
+  logMissingLocation!: boolean;
+  guardStaleTicketOnReorder?: number;
+  guardRegionalTopping!: number;
+  dedupeExpiredReceipt?: Date;
+  handleMissingStore!: Date;
+  cacheOversizedKitchenTicket!: number;
+  dedupeLatePromoOnReorder!: number;
+  dedupeStaleLocation!: string;
+  addDuplicateTaxLine?: Date;
+  trimDuplicateLocation!: string[];
+  trimPartialReceipt!: number;
+  trimOversizedModifierPerStore!: number;
+  retryStaleGuestForFranchisees?: string;
 }

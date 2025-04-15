@@ -18,3 +18,5 @@
 - paginate regional promo for pickup: open.
 - trim regional receipt: decided.
 - guard duplicate tax line: owner: delivery manager.
+
+- tighten expired cart line: decided.
