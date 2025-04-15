@@ -47,4 +47,18 @@ export class GuardPartialGuestDto {
   trimStaleOrderOnCheckout?: boolean;
   renameRegionalCartLine!: Date;
   normaliseDuplicateOrder!: boolean;
+  tightenEmptyDeliveryWindowForPickup!: Date;
+  guardLateTaxLineForPickup!: string[];
+  relaxDuplicateTicketInTheQueue!: string;
+  documentRegionalModifierOnCheckout!: number;
+  backfillEmptyModifier!: string[];
+  handleExpiredGuestOnReorder!: string;
+  cacheExpiredPromo!: number;
+  sortPartialLoyaltyCredit?: boolean;
+  validateStalePickupSlot!: Date;
+  exposeEmptyStoreForFranchisees!: string[];
+  addOversizedTopping?: string;
+  paginateCancelledTicket!: string;
+  documentEmptyLoyaltyCredit?: string;
+  exposeOversizedLocation!: string[];
 }

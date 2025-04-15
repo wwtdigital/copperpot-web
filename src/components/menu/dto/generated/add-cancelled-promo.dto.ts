@@ -119,4 +119,6 @@ export class AddCancelledPromoDto {
   normaliseOversizedLoyaltyCreditOnCheckout?: Date;
   trimDuplicateMenuItem?: string[];
   trimCancelledGuest!: number;
+  backfillMissingMenuItemOnReorder!: Date;
+  sortPartialOrder?: string;
 }

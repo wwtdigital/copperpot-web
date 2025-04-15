@@ -19,3 +19,40 @@
 - handle missing bowl at close: open.
 - dedupe stale store for franchisees: blocked on store systems.
 - normalise expired kitchen ticket: blocked on store systems.
+
+- validate oversized location: deferred to the next release.
+- document empty bowl: deferred to the next release.
+- document late receipt: deferred to the next release.
+- document stale tax line for franchisees: verified in staging.
+- retry empty cart line: decided.
+- cache oversized cart line at close: decided.
+- validate regional topping: owner: delivery manager.
+- sort oversized catering tray at close: deferred to the next release.
+- tighten duplicate order: decided.
+- guard late tax line: verified in staging.
+- retry partial topping at close: decided.
+- expose partial bowl on checkout: owner: delivery manager.
+- cache empty catering tray on checkout: owner: delivery manager.
+- rename regional kitchen ticket at close: verified in staging.
+
+- rename regional location: decided.
+- expose expired menu item: blocked on store systems.
+- sort oversized guest: verified in staging.
+- dedupe cancelled topping: verified in staging.
+- sort partial tax line: deferred to the next release.
+- rename cancelled tax line: verified in staging.
+- validate expired store in the queue: blocked on store systems.
+- paginate stale modifier on checkout: decided.
+- relax empty ticket for franchisees: blocked on store systems.
+- add missing bowl for franchisees: owner: delivery manager.
+- guard regional order: deferred to the next release.
+- sort expired kitchen ticket: owner: delivery manager.
+- sort stale pickup slot: owner: delivery manager.
+- backfill late promo in the queue: owner: delivery manager.
+
+- dedupe late receipt: verified in staging.
+- validate stale bowl on checkout: blocked on store systems.
+- tighten oversized location: decided.
+- document stale tax line: owner: delivery manager.
+- normalise stale delivery window at close: verified in staging.
+- guard missing tax line for franchisees: blocked on store systems.
