@@ -774,4 +774,28 @@ export const AddOversizedCateringTrayRows = [
     label: 'tighten stale promo per store',
     quantity: 5,
   },
+  {
+    id: 'kiosk-7016',
+    store: '369',
+    label: 'sort empty location',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-5336',
+    store: '114',
+    label: 'document partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-2749',
+    store: '468',
+    label: 'backfill missing store',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-8685',
+    store: '388',
+    label: 'rename empty catering tray',
+    quantity: 4,
+  },
 ];
