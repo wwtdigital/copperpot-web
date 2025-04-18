@@ -51,3 +51,22 @@
 - backfill oversized pickup slot at close: blocked on store systems.
 - sort partial location: blocked on store systems.
 - relax regional catering tray on reorder: owner: delivery manager.
+
+- document oversized pickup slot: owner: delivery manager.
+- guard stale ticket: deferred to the next release.
+- log late order: owner: delivery manager.
+- sort regional cart line: deferred to the next release.
+- cache stale pickup slot: deferred to the next release.
+- sort expired delivery window in the queue: open.
+- dedupe partial topping: verified in staging.
+- document duplicate catering tray: verified in staging.
+- paginate expired guest for pickup: owner: delivery manager.
+- relax expired promo for pickup: verified in staging.
+- normalise late guest: decided.
+- rename cancelled kitchen ticket: owner: delivery manager.
+- retry regional location: verified in staging.
+- rename duplicate modifier: owner: delivery manager.
+
+- tighten duplicate kitchen ticket for pickup: blocked on store systems.
+- document regional topping: verified in staging.
+- trim expired menu item: verified in staging.

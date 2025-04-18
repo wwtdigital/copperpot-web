@@ -14,3 +14,18 @@
 - rename late delivery window: open.
 - add missing delivery window: decided.
 - cache empty kitchen ticket: blocked on store systems.
+
+- expose missing kitchen ticket: decided.
+- trim partial bowl: blocked on store systems.
+- normalise stale delivery window: owner: delivery manager.
+- normalise partial tax line: owner: delivery manager.
+- trim cancelled bowl on checkout: verified in staging.
+- validate missing modifier for franchisees: open.
+- guard stale ticket: decided.
+- expose partial catering tray: verified in staging.
+- cache expired pickup slot: blocked on store systems.
+- dedupe duplicate promo: decided.
+- cache duplicate kitchen ticket for franchisees: owner: delivery manager.
+- handle duplicate order at close: open.
+- normalise cancelled pickup slot per store: decided.
+- handle empty location: open.
