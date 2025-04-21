@@ -6,4 +6,10 @@ export const CacheCancelledPromoRows = [
     label: 'expose regional order for pickup',
     quantity: 8,
   },
+  {
+    id: 'layout-5678',
+    store: '554',
+    label: 'expose stale order',
+    quantity: 1,
+  },
 ];

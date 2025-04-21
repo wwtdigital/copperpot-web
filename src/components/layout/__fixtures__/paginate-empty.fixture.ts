@@ -2166,4 +2166,46 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'retry empty cart line for franchisees',
     quantity: 11,
   },
+  {
+    id: 'layout-2234',
+    store: '593',
+    label: 'expose oversized kitchen ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'layout-7875',
+    store: '407',
+    label: 'paginate regional menu item',
+    quantity: 6,
+  },
+  {
+    id: 'layout-4849',
+    store: '489',
+    label: 'paginate partial cart line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'layout-9522',
+    store: '651',
+    label: 'rename stale location',
+    quantity: 9,
+  },
+  {
+    id: 'layout-2948',
+    store: '337',
+    label: 'document stale guest',
+    quantity: 12,
+  },
+  {
+    id: 'layout-5809',
+    store: '166',
+    label: 'retry duplicate tax line per store',
+    quantity: 7,
+  },
+  {
+    id: 'layout-5635',
+    store: '484',
+    label: 'paginate empty loyalty credit',
+    quantity: 1,
+  },
 ];
