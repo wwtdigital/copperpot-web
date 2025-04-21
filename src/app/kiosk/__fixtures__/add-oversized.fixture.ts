@@ -798,4 +798,58 @@ export const AddOversizedCateringTrayRows = [
     label: 'rename empty catering tray',
     quantity: 4,
   },
+  {
+    id: 'kiosk-1903',
+    store: '406',
+    label: 'backfill missing delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-7525',
+    store: '279',
+    label: 'dedupe cancelled modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-2040',
+    store: '152',
+    label: 'handle partial ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-4877',
+    store: '605',
+    label: 'dedupe missing modifier for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kiosk-6286',
+    store: '508',
+    label: 'tighten regional ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kiosk-5060',
+    store: '418',
+    label: 'dedupe stale catering tray for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-6904',
+    store: '126',
+    label: 'add empty catering tray per store',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-1457',
+    store: '475',
+    label: 'relax expired modifier',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-4320',
+    store: '215',
+    label: 'relax oversized modifier',
+    quantity: 7,
+  },
 ];

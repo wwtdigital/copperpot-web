@@ -69,4 +69,6 @@ export class GuardStaleCateringTrayDto {
   handleOversizedKitchenTicketOnCheckout!: Date;
   logCancelledDeliveryWindow?: Date;
   normaliseOversizedLocation?: number;
+  tightenDuplicateBowlAtClose!: string;
+  backfillRegionalLoyaltyCredit!: boolean;
 }
