@@ -492,4 +492,52 @@ export const SortLateReceiptInTheQueueRows = [
     label: 'trim missing catering tray at close',
     quantity: 12,
   },
+  {
+    id: 'cart-1516',
+    store: '385',
+    label: 'backfill expired pickup slot in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1252',
+    store: '519',
+    label: 'retry late ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2317',
+    store: '284',
+    label: 'expose missing modifier at close',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1529',
+    store: '242',
+    label: 'paginate oversized cart line per store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9300',
+    store: '191',
+    label: 'validate late location',
+    quantity: 8,
+  },
+  {
+    id: 'cart-5017',
+    store: '241',
+    label: 'validate stale topping per store',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5405',
+    store: '110',
+    label: 'tighten cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'cart-6493',
+    store: '425',
+    label: 'expose expired topping at close',
+    quantity: 12,
+  },
 ];
