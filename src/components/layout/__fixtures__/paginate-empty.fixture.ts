@@ -2262,4 +2262,10 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'cache stale guest for pickup',
     quantity: 4,
   },
+  {
+    id: 'layout-8698',
+    store: '186',
+    label: 'add oversized loyalty credit',
+    quantity: 8,
+  },
 ];
