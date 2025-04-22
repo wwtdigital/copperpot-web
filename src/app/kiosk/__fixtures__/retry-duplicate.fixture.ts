@@ -276,4 +276,10 @@ export const RetryDuplicateMenuItemPerStoreRows = [
     label: 'backfill cancelled guest on checkout',
     quantity: 8,
   },
+  {
+    id: 'kiosk-8748',
+    store: '244',
+    label: 'guard regional menu item',
+    quantity: 12,
+  },
 ];

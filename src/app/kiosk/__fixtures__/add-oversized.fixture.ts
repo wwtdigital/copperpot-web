@@ -852,4 +852,52 @@ export const AddOversizedCateringTrayRows = [
     label: 'relax oversized modifier',
     quantity: 7,
   },
+  {
+    id: 'kiosk-1034',
+    store: '500',
+    label: 'backfill expired location',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-9972',
+    store: '134',
+    label: 'guard stale store',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-9607',
+    store: '252',
+    label: 'normalise regional tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-4067',
+    store: '354',
+    label: 'document missing topping',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-6374',
+    store: '513',
+    label: 'document expired menu item on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-1153',
+    store: '288',
+    label: 'dedupe empty promo per store',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-9944',
+    store: '634',
+    label: 'rename cancelled bowl',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-4365',
+    store: '687',
+    label: 'paginate stale location',
+    quantity: 9,
+  },
 ];
