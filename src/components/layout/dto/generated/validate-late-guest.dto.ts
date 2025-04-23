@@ -211,4 +211,6 @@ export class ValidateLateGuestDto {
   relaxCancelledTopping!: string;
   relaxOversizedCartLineOnCheckout!: number;
   cacheCancelledTicketOnReorder!: string;
+  handleExpiredBowl!: boolean;
+  backfillLatePickupSlotForPickup?: boolean;
 }
