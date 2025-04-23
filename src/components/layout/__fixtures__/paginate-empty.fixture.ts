@@ -2208,4 +2208,58 @@ export const PaginateEmptyReceiptForPickupRows = [
     label: 'paginate empty loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'layout-9303',
+    store: '356',
+    label: 'validate stale pickup slot at close',
+    quantity: 2,
+  },
+  {
+    id: 'layout-6577',
+    store: '294',
+    label: 'expose regional ticket',
+    quantity: 9,
+  },
+  {
+    id: 'layout-9272',
+    store: '172',
+    label: 'dedupe regional kitchen ticket per store',
+    quantity: 2,
+  },
+  {
+    id: 'layout-1339',
+    store: '391',
+    label: 'relax oversized modifier',
+    quantity: 12,
+  },
+  {
+    id: 'layout-8037',
+    store: '264',
+    label: 'dedupe expired promo for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'layout-1870',
+    store: '657',
+    label: 'log empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'layout-3847',
+    store: '235',
+    label: 'validate late guest',
+    quantity: 1,
+  },
+  {
+    id: 'layout-8668',
+    store: '604',
+    label: 'cache late delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'layout-8895',
+    store: '118',
+    label: 'cache stale guest for pickup',
+    quantity: 4,
+  },
 ];
