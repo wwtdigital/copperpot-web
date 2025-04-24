@@ -51,4 +51,22 @@ export class RelaxExpiredLocationInTheQueueDto {
   trimDuplicateStore!: Date;
   tightenDuplicateTicketPerStore?: string[];
   logOversizedCateringTrayOnReorder!: Date;
+  handlePartialMenuItem?: string;
+  renameRegionalLocationForPickup?: string;
+  backfillCancelledTicket!: string[];
+  addStaleCartLineOnReorder!: number;
+  sortDuplicateModifierInTheQueue!: Date;
+  normaliseOversizedTaxLineForFranchisees!: boolean;
+  renameLateCateringTray?: boolean;
+  trimMissingPromoOnCheckout!: string;
+  dedupeOversizedDeliveryWindow!: string;
+  relaxLatePickupSlot?: number;
+  renameRegionalReceiptOnReorder!: number;
+  addMissingCateringTrayPerStore!: number;
+  sortRegionalCartLine?: Date;
+  trimDuplicateMenuItem!: Date;
+  documentStaleKitchenTicketInTheQueue!: Date;
+  documentDuplicateCartLine!: Date;
+  addDuplicateLoyaltyCreditAtClose?: number;
+  renameMissingStore?: number;
 }

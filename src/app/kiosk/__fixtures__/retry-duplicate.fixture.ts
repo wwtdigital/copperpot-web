@@ -270,4 +270,16 @@ export const RetryDuplicateMenuItemPerStoreRows = [
     label: 'expose empty pickup slot for franchisees',
     quantity: 7,
   },
+  {
+    id: 'kiosk-7699',
+    store: '350',
+    label: 'backfill cancelled guest on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-8748',
+    store: '244',
+    label: 'guard regional menu item',
+    quantity: 12,
+  },
 ];
