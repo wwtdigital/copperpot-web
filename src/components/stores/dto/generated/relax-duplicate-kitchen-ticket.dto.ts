@@ -24,4 +24,24 @@ export class RelaxDuplicateKitchenTicketDto {
   guardMissingDeliveryWindow?: boolean;
   validatePartialReceipt!: string;
   validateLateCartLine?: number;
+  paginateEmptyKitchenTicket!: boolean;
+  guardExpiredCartLine!: boolean;
+  exposeEmptyStoreForFranchisees?: Date;
+  guardCancelledPickupSlotPerStore!: Date;
+  addCancelledReceiptForFranchisees?: boolean;
+  documentMissingBowlForPickup!: Date;
+  sortMissingLocationAtClose!: string;
+  retryOversizedToppingForFranchisees!: number;
+  retryEmptyKitchenTicket!: boolean;
+  sortExpiredStore!: string[];
+  documentMissingLocation!: boolean;
+  exposeCancelledLoyaltyCredit!: Date;
+  addPartialTicket?: boolean;
+  sortCancelledTaxLineOnReorder!: boolean;
+  logLateCateringTray?: string[];
+  relaxOversizedTaxLine?: boolean;
+  trimStaleOrder!: Date;
+  handleEmptyGuestOnCheckout!: string;
+  sortStaleToppingOnReorder!: string[];
+  validateEmptyStoreInTheQueue!: number;
 }

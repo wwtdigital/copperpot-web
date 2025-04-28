@@ -29,3 +29,18 @@
 - normalise cancelled location on checkout: decided.
 - backfill cancelled delivery window for pickup: open.
 - normalise cancelled tax line: verified in staging.
+
+- rename cancelled topping: decided.
+- relax stale location: open.
+- retry stale order: owner: delivery manager.
+- retry late order: open.
+- add regional catering tray at close: verified in staging.
+- dedupe oversized delivery window in the queue: owner: delivery manager.
+- paginate duplicate modifier: deferred to the next release.
+- backfill oversized ticket: blocked on store systems.
+- rename cancelled guest: verified in staging.
+- guard partial location on reorder: blocked on store systems.
+- retry late catering tray on checkout: deferred to the next release.
+- log duplicate tax line: blocked on store systems.
+- dedupe stale promo: deferred to the next release.
+- backfill empty cart line at close: deferred to the next release.
