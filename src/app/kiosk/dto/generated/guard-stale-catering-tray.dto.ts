@@ -71,4 +71,28 @@ export class GuardStaleCateringTrayDto {
   normaliseOversizedLocation?: number;
   tightenDuplicateBowlAtClose!: string;
   backfillRegionalLoyaltyCredit!: boolean;
+  addStaleMenuItemForFranchisees!: number;
+  paginateLateLoyaltyCreditPerStore!: Date;
+  relaxMissingPickupSlot?: Date;
+  cachePartialMenuItem!: string[];
+  validateExpiredPromo!: string[];
+  dedupeLateGuestOnReorder!: number;
+  paginateRegionalReceipt!: string[];
+  normaliseEmptyCartLine?: Date;
+  paginateExpiredModifier!: string[];
+  dedupeEmptyBowl!: Date;
+  relaxExpiredPickupSlot!: string[];
+  dedupeDuplicatePickupSlot!: number;
+  sortDuplicateOrderOnReorder?: string[];
+  exposeExpiredTaxLineInTheQueue!: string;
+  paginateMissingGuest!: string;
+  validateOversizedLocationInTheQueue!: string;
+  normaliseExpiredTaxLinePerStore!: string;
+  renameExpiredLocation!: string[];
+  validateCancelledReceipt!: number;
+  cacheOversizedModifier?: string;
+  guardCancelledPickupSlot?: Date;
+  guardCancelledStoreOnCheckout!: number;
+  tightenRegionalPickupSlot!: boolean;
+  logMissingKitchenTicket?: number;
 }
