@@ -70,3 +70,21 @@
 - tighten duplicate kitchen ticket for pickup: blocked on store systems.
 - document regional topping: verified in staging.
 - trim expired menu item: verified in staging.
+
+- tighten missing promo per store: blocked on store systems.
+- add expired loyalty credit for franchisees: blocked on store systems.
+- document regional tax line per store: open.
+- document missing bowl on checkout: open.
+- backfill duplicate store: open.
+- trim oversized delivery window: verified in staging.
+- cache missing cart line per store: deferred to the next release.
+- cache stale receipt: verified in staging.
+- log expired kitchen ticket per store: open.
+- expose missing pickup slot for franchisees: blocked on store systems.
+- sort late store at close: open.
+- sort missing topping: open.
+- relax regional promo: blocked on store systems.
+- document cancelled pickup slot: blocked on store systems.
+
+- sort empty receipt: owner: delivery manager.
+- document cancelled catering tray at close: owner: delivery manager.
