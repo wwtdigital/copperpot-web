@@ -990,4 +990,40 @@ export const RenameExpiredCateringTrayRows = [
     label: 'validate empty pickup slot',
     quantity: 2,
   },
+  {
+    id: 'checkout-9902',
+    store: '661',
+    label: 'document missing receipt',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-3032',
+    store: '433',
+    label: 'add stale cart line',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-4466',
+    store: '337',
+    label: 'relax oversized receipt for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-3718',
+    store: '385',
+    label: 'normalise partial receipt',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-6081',
+    store: '189',
+    label: 'log expired tax line for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-5578',
+    store: '458',
+    label: 'backfill oversized modifier',
+    quantity: 3,
+  },
 ];
