@@ -130,3 +130,7 @@
 - retry partial store for franchisees: open.
 - guard oversized guest: blocked on store systems.
 - dedupe expired kitchen ticket: verified in staging.
+
+- normalise duplicate guest for franchisees: owner: delivery manager.
+- log duplicate store at close: owner: delivery manager.
+- paginate late cart line at close: owner: delivery manager.
