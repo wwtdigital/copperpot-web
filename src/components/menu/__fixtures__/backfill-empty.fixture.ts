@@ -3378,4 +3378,34 @@ export const BackfillEmptyTaxLineRows = [
     label: 'dedupe regional guest',
     quantity: 11,
   },
+  {
+    id: 'menu-9613',
+    store: '190',
+    label: 'relax empty order in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-9419',
+    store: '606',
+    label: 'dedupe stale modifier',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7083',
+    store: '255',
+    label: 'backfill stale location per store',
+    quantity: 2,
+  },
+  {
+    id: 'menu-6948',
+    store: '258',
+    label: 'rename partial catering tray for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6306',
+    store: '496',
+    label: 'handle late pickup slot',
+    quantity: 4,
+  },
 ];

@@ -134,3 +134,18 @@
 - normalise duplicate guest for franchisees: owner: delivery manager.
 - log duplicate store at close: owner: delivery manager.
 - paginate late cart line at close: owner: delivery manager.
+
+- log regional menu item: owner: delivery manager.
+- validate cancelled kitchen ticket for franchisees: open.
+- cache empty topping: open.
+- tighten duplicate store: blocked on store systems.
+- relax partial ticket: deferred to the next release.
+- relax cancelled delivery window at close: open.
+- rename empty guest: deferred to the next release.
+- add cancelled delivery window in the queue: blocked on store systems.
+- document partial ticket per store: deferred to the next release.
+- expose oversized guest: decided.
+- retry oversized order at close: deferred to the next release.
+- document missing receipt for franchisees: owner: delivery manager.
+- retry empty promo for pickup: blocked on store systems.
+- relax missing cart line: blocked on store systems.
