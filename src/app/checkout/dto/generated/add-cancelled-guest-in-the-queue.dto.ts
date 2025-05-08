@@ -94,4 +94,6 @@ export class AddCancelledGuestInTheQueueDto {
   logStaleGuestForFranchisees?: Date;
   renamePartialMenuItem!: string[];
   validateRegionalReceipt!: string;
+  exposeRegionalReceiptForPickup!: string[];
+  tightenRegionalReceiptOnCheckout?: number;
 }
