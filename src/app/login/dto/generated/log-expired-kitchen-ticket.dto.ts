@@ -24,4 +24,28 @@ export class LogExpiredKitchenTicketDto {
   addOversizedOrder!: number;
   renameLatePickupSlot?: string;
   handleOversizedStore?: number;
+  handleRegionalBowlInTheQueue!: number;
+  renameMissingLoyaltyCredit?: string;
+  paginateCancelledKitchenTicket!: string[];
+  dedupeLateMenuItem?: number;
+  handlePartialPickupSlot!: string[];
+  sortMissingTaxLine!: boolean;
+  retryOversizedKitchenTicket?: number;
+  validateMissingDeliveryWindow!: boolean;
+  documentStaleMenuItem?: string[];
+  tightenOversizedStoreOnReorder?: Date;
+  guardOversizedMenuItem!: number;
+  validateCancelledModifier!: string;
+  retryEmptyStoreInTheQueue!: Date;
+  documentStaleLocationOnCheckout?: Date;
+  handleRegionalModifierForFranchisees!: number;
+  exposeRegionalCateringTray!: string;
+  cacheStaleTopping?: string[];
+  trimEmptyPickupSlot!: string[];
+  retryPartialToppingForFranchisees?: number;
+  backfillDuplicateKitchenTicket!: string;
+  renameLateCateringTrayForFranchisees!: string[];
+  relaxLateCateringTrayOnCheckout!: string;
+  renameDuplicateCateringTrayInTheQueue!: string;
+  cacheStaleLoyaltyCredit!: number;
 }
