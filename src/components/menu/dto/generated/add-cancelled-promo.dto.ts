@@ -121,4 +121,28 @@ export class AddCancelledPromoDto {
   trimCancelledGuest!: number;
   backfillMissingMenuItemOnReorder!: Date;
   sortPartialOrder?: string;
+  exposeEmptyBowl?: boolean;
+  paginateMissingTicketForFranchisees?: number;
+  documentCancelledLoyaltyCredit!: Date;
+  validateOversizedLoyaltyCreditForPickup?: string;
+  dedupeLateModifierInTheQueue!: Date;
+  renameEmptyCateringTray!: string[];
+  retryPartialCateringTrayOnReorder!: string[];
+  trimCancelledLocation!: string;
+  dedupePartialPickupSlotPerStore?: string;
+  relaxLateTopping?: number;
+  renameExpiredTicket!: string[];
+  logPartialReceiptOnReorder!: string;
+  relaxExpiredTaxLine!: string;
+  guardOversizedPickupSlot!: string;
+  guardRegionalTaxLine!: string;
+  documentCancelledBowlForFranchisees!: Date;
+  tightenRegionalLocationForPickup!: string[];
+  validateExpiredTaxLineForFranchisees!: number;
+  handlePartialCartLine!: string;
+  guardDuplicateCartLine?: boolean;
+  normaliseRegionalCartLine!: string;
+  logEmptyOrderInTheQueue!: number;
+  exposeCancelledMenuItemAtClose?: string[];
+  retryMissingTopping!: string[];
 }

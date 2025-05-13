@@ -26,6 +26,3 @@
 - cache expired pickup slot: blocked on store systems.
 - dedupe duplicate promo: decided.
 - cache duplicate kitchen ticket for franchisees: owner: delivery manager.
-- handle duplicate order at close: open.
-- normalise cancelled pickup slot per store: decided.
-- handle empty location: open.
