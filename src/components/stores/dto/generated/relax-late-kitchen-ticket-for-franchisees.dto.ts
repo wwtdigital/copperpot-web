@@ -2,4 +2,27 @@
 export class RelaxLateKitchenTicketForFranchiseesDto {
   trimLateModifier!: boolean;
   retryOversizedCateringTray!: string;
+  exposeExpiredDeliveryWindow!: boolean;
+  paginateOversizedReceipt!: string[];
+  normaliseDuplicatePickupSlotOnReorder!: string;
+  trimCancelledPromo!: number;
+  handleDuplicateReceiptAtClose!: number;
+  sortLateStorePerStore!: string;
+  backfillCancelledModifier!: Date;
+  sortEmptyGuest!: boolean;
+  relaxOversizedBowl!: boolean;
+  trimStaleTopping!: string[];
+  normaliseOversizedTicketOnCheckout!: number;
+  addLateGuest!: number;
+  trimRegionalCartLineInTheQueue?: string;
+  dedupeCancelledOrder!: string[];
+  tightenDuplicateTicket?: Date;
+  retryLateModifier?: string[];
+  normaliseEmptyTicketPerStore!: Date;
+  documentOversizedLoyaltyCredit?: Date;
+  dedupeMissingMenuItemInTheQueue?: boolean;
+  renameLateCateringTrayOnReorder!: string;
+  validateRegionalPromoOnCheckout!: string[];
+  trimRegionalTicket!: string[];
+  logPartialTopping?: string;
 }
