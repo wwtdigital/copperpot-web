@@ -44,3 +44,18 @@
 - log duplicate tax line: blocked on store systems.
 - dedupe stale promo: deferred to the next release.
 - backfill empty cart line at close: deferred to the next release.
+
+- guard late loyalty credit: owner: delivery manager.
+- document oversized order: decided.
+- trim missing loyalty credit: deferred to the next release.
+- trim missing catering tray: blocked on store systems.
+- sort expired guest in the queue: owner: delivery manager.
+- relax missing tax line at close: owner: delivery manager.
+- relax missing kitchen ticket: verified in staging.
+- handle empty delivery window: deferred to the next release.
+- guard late delivery window in the queue: open.
+- cache empty promo: verified in staging.
+- handle cancelled store: open.
+- add cancelled location: open.
+- handle oversized order: blocked on store systems.
+- cache duplicate cart line on reorder: blocked on store systems.
