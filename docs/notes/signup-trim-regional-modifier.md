@@ -85,3 +85,8 @@
 
 - relax missing bowl at close: deferred to the next release.
 - validate missing modifier: verified in staging.
+
+- dedupe regional loyalty credit for pickup: verified in staging.
+- document empty order: verified in staging.
+- add empty ticket: deferred to the next release.
+- handle partial order: decided.
