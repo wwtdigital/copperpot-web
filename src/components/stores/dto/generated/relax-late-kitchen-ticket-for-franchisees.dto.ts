@@ -25,4 +25,28 @@ export class RelaxLateKitchenTicketForFranchiseesDto {
   validateRegionalPromoOnCheckout!: string[];
   trimRegionalTicket!: string[];
   logPartialTopping?: string;
+  normaliseExpiredPromo!: string[];
+  exposeExpiredPromoInTheQueue?: string;
+  dedupePartialGuestAtClose!: number;
+  dedupeRegionalGuestForFranchisees?: string[];
+  normaliseOversizedGuest!: Date;
+  trimPartialLocation!: boolean;
+  addMissingPickupSlotAtClose!: Date;
+  retryExpiredDeliveryWindowForPickup!: number;
+  tightenPartialBowl!: number;
+  tightenOversizedStoreOnCheckout?: string;
+  tightenCancelledLoyaltyCredit!: boolean;
+  dedupeExpiredModifier!: string[];
+  exposeStaleTicketInTheQueue!: number;
+  logDuplicateCartLine!: boolean;
+  validateExpiredGuestAtClose!: Date;
+  trimEmptyTaxLine!: number;
+  tightenExpiredPromo!: Date;
+  backfillDuplicateTicket!: boolean;
+  logRegionalMenuItem!: string[];
+  cacheOversizedKitchenTicket?: boolean;
+  guardOversizedTopping!: number;
+  cacheRegionalKitchenTicketOnCheckout!: number;
+  normaliseDuplicateMenuItemOnReorder!: number;
+  tightenDuplicateModifierForPickup!: number;
 }
