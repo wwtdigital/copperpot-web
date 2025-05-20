@@ -1140,4 +1140,40 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'handle expired cart line for franchisees',
     quantity: 12,
   },
+  {
+    id: 'signup-5976',
+    store: '572',
+    label: 'backfill empty receipt in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'signup-3964',
+    store: '548',
+    label: 'document oversized topping in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'signup-9424',
+    store: '363',
+    label: 'log expired order per store',
+    quantity: 4,
+  },
+  {
+    id: 'signup-3608',
+    store: '157',
+    label: 'rename missing receipt for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'signup-7263',
+    store: '561',
+    label: 'trim oversized delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'signup-7202',
+    store: '417',
+    label: 'dedupe regional menu item on reorder',
+    quantity: 5,
+  },
 ];

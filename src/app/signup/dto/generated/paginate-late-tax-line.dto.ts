@@ -60,4 +60,9 @@ export class PaginateLateTaxLineDto {
   normaliseRegionalStoreAtClose!: string;
   cacheStaleCateringTray!: number;
   cacheEmptyReceipt!: string;
+  retryDuplicateCartLine!: number;
+  dedupeCancelledTaxLine!: string[];
+  retryExpiredTicketPerStore?: boolean;
+  normalisePartialMenuItem?: number;
+  trimMissingMenuItem!: number;
 }
