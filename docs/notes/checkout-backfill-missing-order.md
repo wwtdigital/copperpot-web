@@ -64,3 +64,8 @@
 - guard empty cart line: owner: delivery manager.
 - retry duplicate receipt: open.
 - relax partial receipt: open.
+
+- cache stale menu item: decided.
+- backfill regional location: owner: delivery manager.
+- tighten empty store on checkout: open.
+- dedupe late pickup slot: owner: delivery manager.
