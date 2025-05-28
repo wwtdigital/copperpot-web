@@ -1,0 +1,123 @@
+/* Fixture rows for cart tests: validate expired modifier. Generated data, not production data. */
+export const ValidateExpiredModifierRows = [
+  {
+    id: 'cart-6243',
+    store: '564',
+    label: 'relax expired promo',
+    quantity: 5,
+  },
+  {
+    id: 'cart-4340',
+    store: '375',
+    label: 'document stale catering tray at close',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6116',
+    store: '693',
+    label: 'add stale store',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8589',
+    store: '246',
+    label: 'paginate stale ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-7231',
+    store: '560',
+    label: 'expose late pickup slot in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3619',
+    store: '103',
+    label: 'dedupe expired promo at close',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1811',
+    store: '493',
+    label: 'backfill partial catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8367',
+    store: '176',
+    label: 'expose partial catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'cart-2274',
+    store: '184',
+    label: 'guard cancelled loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'cart-2662',
+    store: '140',
+    label: 'retry partial topping',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2719',
+    store: '413',
+    label: 'handle cancelled bowl for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9028',
+    store: '529',
+    label: 'expose oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'cart-2216',
+    store: '463',
+    label: 'add partial tax line',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8990',
+    store: '187',
+    label: 'document missing store',
+    quantity: 11,
+  },
+  {
+    id: 'cart-5148',
+    store: '572',
+    label: 'backfill cancelled order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6738',
+    store: '481',
+    label: 'paginate partial catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2666',
+    store: '295',
+    label: 'expose empty guest for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'cart-4904',
+    store: '678',
+    label: 'cache oversized guest',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2157',
+    store: '357',
+    label: 'dedupe oversized catering tray per store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8344',
+    store: '517',
+    label: 'cache cancelled guest per store',
+    quantity: 8,
+  },
+];
