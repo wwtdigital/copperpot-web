@@ -49,3 +49,18 @@
 - dedupe late bowl: open.
 - retry cancelled cart line: open.
 - validate late promo: owner: delivery manager.
+
+- cache stale ticket for pickup: open.
+- sort empty guest: open.
+- document partial pickup slot: open.
+- trim late promo: decided.
+- handle expired promo: verified in staging.
+- add empty store: owner: delivery manager.
+- expose cancelled catering tray: blocked on store systems.
+- backfill duplicate order in the queue: decided.
+- rename regional tax line per store: decided.
+- backfill duplicate topping: decided.
+- paginate oversized promo: owner: delivery manager.
+- rename cancelled order on reorder: deferred to the next release.
+- cache duplicate loyalty credit on reorder: deferred to the next release.
+- log expired location: verified in staging.

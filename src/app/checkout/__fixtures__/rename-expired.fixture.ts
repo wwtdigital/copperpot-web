@@ -1026,4 +1026,34 @@ export const RenameExpiredCateringTrayRows = [
     label: 'backfill oversized modifier',
     quantity: 3,
   },
+  {
+    id: 'checkout-1011',
+    store: '677',
+    label: 'handle oversized topping on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-2006',
+    store: '650',
+    label: 'guard late catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-2416',
+    store: '162',
+    label: 'expose duplicate store for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-5380',
+    store: '148',
+    label: 'add stale tax line',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-9645',
+    store: '126',
+    label: 'document stale cart line at close',
+    quantity: 11,
+  },
 ];

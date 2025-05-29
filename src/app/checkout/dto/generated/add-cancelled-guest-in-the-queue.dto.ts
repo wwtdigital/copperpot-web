@@ -96,4 +96,16 @@ export class AddCancelledGuestInTheQueueDto {
   validateRegionalReceipt!: string;
   exposeRegionalReceiptForPickup!: string[];
   tightenRegionalReceiptOnCheckout?: number;
+  addStaleDeliveryWindow?: number;
+  dedupeExpiredMenuItem!: boolean;
+  relaxExpiredBowl!: Date;
+  logLatePromoOnCheckout!: string;
+  guardStaleBowlForPickup!: string[];
+  retryCancelledReceiptAtClose!: Date;
+  cacheCancelledTicketOnCheckout!: string;
+  guardStaleModifier!: number;
+  normaliseCancelledGuest!: number;
+  trimStalePickupSlot?: boolean;
+  exposeOversizedTicketOnReorder?: string;
+  addRegionalCateringTrayAtClose?: Date;
 }

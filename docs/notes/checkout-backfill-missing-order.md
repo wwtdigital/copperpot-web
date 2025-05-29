@@ -49,3 +49,37 @@
 - log missing cart line for franchisees: open.
 - handle empty catering tray on reorder: blocked on store systems.
 - relax stale topping on reorder: verified in staging.
+
+- trim late delivery window at close: owner: delivery manager.
+- dedupe partial pickup slot in the queue: owner: delivery manager.
+- sort regional loyalty credit in the queue: verified in staging.
+- paginate empty promo at close: owner: delivery manager.
+- relax oversized menu item: blocked on store systems.
+- tighten empty store: decided.
+- expose regional delivery window: blocked on store systems.
+- tighten empty loyalty credit: open.
+- normalise duplicate pickup slot on reorder: open.
+- tighten cancelled modifier: owner: delivery manager.
+- sort empty loyalty credit per store: open.
+- guard empty cart line: owner: delivery manager.
+- retry duplicate receipt: open.
+- relax partial receipt: open.
+
+- cache stale menu item: decided.
+- backfill regional location: owner: delivery manager.
+- tighten empty store on checkout: open.
+- dedupe late pickup slot: owner: delivery manager.
+
+- relax stale modifier: open.
+- trim late cart line at close: deferred to the next release.
+- log duplicate receipt: blocked on store systems.
+- normalise expired ticket: decided.
+- validate cancelled delivery window: open.
+- dedupe late loyalty credit per store: decided.
+- retry partial loyalty credit: deferred to the next release.
+- paginate expired catering tray: open.
+- normalise cancelled ticket: verified in staging.
+- dedupe cancelled guest: verified in staging.
+- guard cancelled receipt: open.
+- log oversized tax line: open.
+- relax missing ticket at close: open.
