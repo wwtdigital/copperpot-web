@@ -12,4 +12,16 @@ export const SortPartialBowlInTheQueueRows = [
     label: 'retry stale pickup slot',
     quantity: 9,
   },
+  {
+    id: 'checkout-2314',
+    store: '132',
+    label: 'add expired promo for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-4908',
+    store: '339',
+    label: 'log regional topping for pickup',
+    quantity: 10,
+  },
 ];
