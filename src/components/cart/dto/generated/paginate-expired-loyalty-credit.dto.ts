@@ -2,4 +2,6 @@
 export class PaginateExpiredLoyaltyCreditDto {
   addRegionalLoyaltyCredit!: string;
   retryRegionalTicket?: number;
+  handleDuplicateDeliveryWindowPerStore!: Date;
+  backfillLateCateringTrayAtClose!: string;
 }

@@ -168,4 +168,28 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'sort duplicate kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'cart-6438',
+    store: '242',
+    label: 'rename regional order',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3424',
+    store: '683',
+    label: 'validate regional guest on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4413',
+    store: '658',
+    label: 'relax missing menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1045',
+    store: '240',
+    label: 'expose empty store',
+    quantity: 10,
+  },
 ];
