@@ -24,4 +24,28 @@ export class RetryExpiredPromoDto {
   validatePartialReceiptForFranchisees!: string;
   exposeOversizedCateringTray!: boolean;
   documentRegionalCateringTrayInTheQueue?: Date;
+  paginateLateBowl!: Date;
+  normaliseExpiredLoyaltyCreditForFranchisees!: boolean;
+  documentDuplicatePickupSlotOnReorder!: boolean;
+  retryCancelledOrderAtClose!: boolean;
+  documentLateCartLine!: Date;
+  logExpiredToppingForPickup!: boolean;
+  dedupeLateGuestForFranchisees!: string;
+  exposeExpiredPromoInTheQueue!: string[];
+  logRegionalGuest?: number;
+  sortMissingModifierInTheQueue?: Date;
+  handleCancelledPickupSlotPerStore!: number;
+  validateMissingGuest?: number;
+  documentMissingPickupSlot?: string[];
+  normaliseDuplicateKitchenTicket!: number;
+  dedupeStaleMenuItem!: boolean;
+  exposeOversizedPickupSlot!: string[];
+  retryRegionalStorePerStore?: Date;
+  renamePartialModifierForPickup?: Date;
+  backfillExpiredKitchenTicket!: string[];
+  sortOversizedTaxLineOnReorder!: string;
+  normaliseEmptyLocationOnReorder!: string;
+  cacheRegionalReceipt!: string[];
+  retryDuplicateMenuItemAtClose!: Date;
+  documentEmptyTicket!: number;
 }
