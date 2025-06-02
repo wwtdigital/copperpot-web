@@ -57,3 +57,18 @@
 - log partial promo for franchisees: owner: delivery manager.
 - expose empty catering tray: verified in staging.
 - sort late promo for franchisees: owner: delivery manager.
+
+- validate regional order: blocked on store systems.
+- add expired cart line on reorder: owner: delivery manager.
+- guard oversized receipt: verified in staging.
+- paginate duplicate topping for pickup: owner: delivery manager.
+- validate partial modifier: open.
+- tighten oversized location: deferred to the next release.
+- normalise regional promo: owner: delivery manager.
+- log missing location: open.
+- trim duplicate bowl on checkout: decided.
+- expose oversized modifier: owner: delivery manager.
+- trim missing loyalty credit: owner: delivery manager.
+- relax expired promo on reorder: verified in staging.
+- retry empty modifier per store: deferred to the next release.
+- add stale topping: owner: delivery manager.
