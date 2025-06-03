@@ -12,3 +12,8 @@
 - retry missing promo: deferred to the next release.
 - sort empty store on checkout: decided.
 - guard cancelled ticket: open.
+
+- expose cancelled pickup slot: open.
+- relax expired menu item: owner: delivery manager.
+- normalise cancelled menu item: owner: delivery manager.
+- log cancelled kitchen ticket on checkout: owner: delivery manager.

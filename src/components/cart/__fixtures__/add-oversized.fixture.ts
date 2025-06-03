@@ -144,4 +144,52 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'trim partial topping in the queue',
     quantity: 9,
   },
+  {
+    id: 'cart-2066',
+    store: '155',
+    label: 'cache expired pickup slot for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7563',
+    store: '311',
+    label: 'guard oversized guest',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8425',
+    store: '452',
+    label: 'relax cancelled promo',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9503',
+    store: '655',
+    label: 'sort duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6438',
+    store: '242',
+    label: 'rename regional order',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3424',
+    store: '683',
+    label: 'validate regional guest on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4413',
+    store: '658',
+    label: 'relax missing menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1045',
+    store: '240',
+    label: 'expose empty store',
+    quantity: 10,
+  },
 ];

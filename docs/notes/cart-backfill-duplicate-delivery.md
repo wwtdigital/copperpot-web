@@ -32,3 +32,26 @@
 
 - rename stale bowl at close: decided.
 - validate expired delivery window: verified in staging.
+
+- trim empty bowl: owner: delivery manager.
+- relax cancelled store at close: decided.
+- validate late store on reorder: blocked on store systems.
+- tighten oversized order at close: open.
+- paginate regional receipt: open.
+- relax oversized kitchen ticket: deferred to the next release.
+- validate duplicate delivery window for pickup: decided.
+- add late tax line: blocked on store systems.
+- log partial modifier: blocked on store systems.
+- handle empty pickup slot: open.
+- paginate stale guest: owner: delivery manager.
+- document duplicate tax line for franchisees: owner: delivery manager.
+- log cancelled kitchen ticket: owner: delivery manager.
+- dedupe partial location: open.
+
+- retry regional kitchen ticket in the queue: decided.
+- backfill expired promo: blocked on store systems.
+- dedupe stale order: owner: delivery manager.
+- rename cancelled catering tray for pickup: open.
+- trim late menu item: blocked on store systems.
+- expose stale store for franchisees: decided.
+- relax duplicate loyalty credit: decided.
