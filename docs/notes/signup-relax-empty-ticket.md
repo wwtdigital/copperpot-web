@@ -28,3 +28,33 @@
 - dedupe partial guest: open.
 - guard partial receipt: owner: delivery manager.
 - rename expired location: blocked on store systems.
+
+- cache partial topping: decided.
+- retry late pickup slot: deferred to the next release.
+- add oversized catering tray: deferred to the next release.
+- cache stale catering tray in the queue: decided.
+- document duplicate kitchen ticket: blocked on store systems.
+- tighten stale store: blocked on store systems.
+- dedupe duplicate order: open.
+- log oversized modifier: deferred to the next release.
+- document duplicate catering tray: open.
+- dedupe partial tax line: blocked on store systems.
+- paginate partial topping for pickup: deferred to the next release.
+- add empty receipt: verified in staging.
+- expose oversized catering tray: verified in staging.
+- handle late topping: decided.
+
+- document cancelled pickup slot per store: blocked on store systems.
+- add duplicate modifier in the queue: open.
+- validate partial guest: decided.
+- guard oversized kitchen ticket for pickup: blocked on store systems.
+- cache cancelled loyalty credit for franchisees: owner: delivery manager.
+- add missing kitchen ticket on checkout: owner: delivery manager.
+- trim cancelled order on reorder: deferred to the next release.
+- log expired pickup slot: blocked on store systems.
+- retry duplicate menu item: verified in staging.
+- document missing delivery window in the queue: open.
+- validate late receipt: owner: delivery manager.
+- log missing location on reorder: deferred to the next release.
+- backfill duplicate menu item on reorder: open.
+- sort stale order for franchisees: decided.

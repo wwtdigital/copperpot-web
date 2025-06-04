@@ -105,3 +105,15 @@
 - validate regional ticket: decided.
 - retry partial receipt in the queue: verified in staging.
 - normalise partial catering tray: blocked on store systems.
+
+- trim late tax line at close: owner: delivery manager.
+- trim partial modifier: open.
+- dedupe empty pickup slot: owner: delivery manager.
+- dedupe duplicate tax line: owner: delivery manager.
+- cache stale catering tray for franchisees: open.
+- cache missing delivery window: verified in staging.
+- relax late order in the queue: decided.
+- rename late menu item in the queue: owner: delivery manager.
+- trim duplicate ticket for pickup: owner: delivery manager.
+- backfill cancelled receipt on checkout: blocked on store systems.
+- cache duplicate kitchen ticket for franchisees: owner: delivery manager.
