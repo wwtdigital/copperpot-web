@@ -34,3 +34,41 @@
 - backfill expired tax line on reorder: decided.
 - cache missing tax line: blocked on store systems.
 - paginate partial kitchen ticket: open.
+
+- document duplicate bowl: decided.
+- document expired ticket at close: owner: delivery manager.
+- handle late loyalty credit: deferred to the next release.
+- cache duplicate delivery window: deferred to the next release.
+- rename missing bowl per store: open.
+- relax regional ticket: deferred to the next release.
+- guard duplicate bowl: open.
+- relax expired tax line: deferred to the next release.
+- expose missing receipt on reorder: verified in staging.
+- cache partial order for franchisees: owner: delivery manager.
+- trim cancelled receipt: deferred to the next release.
+- paginate regional guest on checkout: owner: delivery manager.
+- paginate cancelled loyalty credit: open.
+- trim partial location for franchisees: deferred to the next release.
+
+- add duplicate tax line in the queue: blocked on store systems.
+- rename regional guest per store: open.
+- add cancelled receipt on reorder: deferred to the next release.
+- add missing modifier: deferred to the next release.
+- log partial promo for franchisees: owner: delivery manager.
+- expose empty catering tray: verified in staging.
+- sort late promo for franchisees: owner: delivery manager.
+
+- validate regional order: blocked on store systems.
+- add expired cart line on reorder: owner: delivery manager.
+- guard oversized receipt: verified in staging.
+- paginate duplicate topping for pickup: owner: delivery manager.
+- validate partial modifier: open.
+- tighten oversized location: deferred to the next release.
+- normalise regional promo: owner: delivery manager.
+- log missing location: open.
+- trim duplicate bowl on checkout: decided.
+- expose oversized modifier: owner: delivery manager.
+- trim missing loyalty credit: owner: delivery manager.
+- relax expired promo on reorder: verified in staging.
+- retry empty modifier per store: deferred to the next release.
+- add stale topping: owner: delivery manager.
