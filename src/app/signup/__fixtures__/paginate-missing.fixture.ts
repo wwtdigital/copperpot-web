@@ -246,4 +246,40 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'sort partial tax line at close',
     quantity: 10,
   },
+  {
+    id: 'signup-7603',
+    store: '600',
+    label: 'trim cancelled guest',
+    quantity: 9,
+  },
+  {
+    id: 'signup-5403',
+    store: '699',
+    label: 'validate oversized loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'signup-9194',
+    store: '187',
+    label: 'expose late pickup slot for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'signup-5192',
+    store: '531',
+    label: 'rename missing location',
+    quantity: 11,
+  },
+  {
+    id: 'signup-9388',
+    store: '616',
+    label: 'normalise stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'signup-2215',
+    store: '324',
+    label: 'dedupe empty modifier',
+    quantity: 2,
+  },
 ];

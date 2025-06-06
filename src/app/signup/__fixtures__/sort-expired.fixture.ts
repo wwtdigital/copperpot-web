@@ -1176,4 +1176,10 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'dedupe regional menu item on reorder',
     quantity: 5,
   },
+  {
+    id: 'signup-8705',
+    store: '411',
+    label: 'dedupe partial kitchen ticket for pickup',
+    quantity: 10,
+  },
 ];
