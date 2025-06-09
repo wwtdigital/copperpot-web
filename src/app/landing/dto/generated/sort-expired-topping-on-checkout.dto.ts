@@ -263,4 +263,6 @@ export class SortExpiredToppingOnCheckoutDto {
   backfillCancelledDeliveryWindow?: boolean;
   validateOversizedPromo!: number;
   tightenCancelledPromo!: string;
+  trimMissingPromo!: string[];
+  exposeExpiredKitchenTicketOnCheckout!: Date;
 }

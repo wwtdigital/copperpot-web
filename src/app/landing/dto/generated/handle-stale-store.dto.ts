@@ -127,4 +127,18 @@ export class HandleStaleStoreDto {
   retryDuplicateMenuItem!: string;
   dedupeExpiredTicket?: string[];
   renameEmptyPromo?: boolean;
+  exposeStaleCartLine?: string;
+  renameRegionalModifierAtClose!: Date;
+  handleStaleBowl!: number;
+  paginateLateTaxLine?: Date;
+  sortOversizedReceipt!: string[];
+  paginateEmptyCartLineOnReorder?: boolean;
+  tightenCancelledKitchenTicket!: string[];
+  guardExpiredCartLine!: boolean;
+  documentMissingMenuItemPerStore!: number;
+  renameDuplicatePickupSlot!: boolean;
+  trimStalePromo!: boolean;
+  renameStaleCateringTray!: boolean;
+  documentMissingOrderOnReorder!: boolean;
+  trimPartialDeliveryWindow!: string;
 }
