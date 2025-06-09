@@ -282,4 +282,52 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'dedupe empty modifier',
     quantity: 2,
   },
+  {
+    id: 'signup-4551',
+    store: '370',
+    label: 'sort stale menu item',
+    quantity: 12,
+  },
+  {
+    id: 'signup-2785',
+    store: '624',
+    label: 'guard duplicate topping on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'signup-2863',
+    store: '596',
+    label: 'cache regional loyalty credit for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'signup-4668',
+    store: '689',
+    label: 'add duplicate guest',
+    quantity: 8,
+  },
+  {
+    id: 'signup-7657',
+    store: '126',
+    label: 'rename cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'signup-7966',
+    store: '342',
+    label: 'guard regional ticket',
+    quantity: 4,
+  },
+  {
+    id: 'signup-2311',
+    store: '206',
+    label: 'relax expired ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'signup-5645',
+    store: '267',
+    label: 'trim regional topping for pickup',
+    quantity: 6,
+  },
 ];
