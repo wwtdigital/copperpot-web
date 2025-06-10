@@ -240,4 +240,10 @@ export const PaginateMissingBowlInTheQueueRows = [
     label: 'relax cancelled modifier',
     quantity: 7,
   },
+  {
+    id: 'signup-3145',
+    store: '580',
+    label: 'sort partial tax line at close',
+    quantity: 10,
+  },
 ];

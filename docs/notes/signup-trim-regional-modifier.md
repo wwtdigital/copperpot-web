@@ -90,3 +90,18 @@
 - document empty order: verified in staging.
 - add empty ticket: deferred to the next release.
 - handle partial order: decided.
+
+- trim regional location: owner: delivery manager.
+- validate regional ticket for franchisees: owner: delivery manager.
+- tighten cancelled ticket on reorder: blocked on store systems.
+- sort regional kitchen ticket for franchisees: owner: delivery manager.
+- log expired ticket in the queue: owner: delivery manager.
+- add late topping: decided.
+- paginate cancelled cart line: deferred to the next release.
+- validate regional topping for franchisees: deferred to the next release.
+- validate empty tax line: verified in staging.
+- tighten missing modifier: deferred to the next release.
+- retry partial tax line: verified in staging.
+- validate regional ticket: decided.
+- retry partial receipt in the queue: verified in staging.
+- normalise partial catering tray: blocked on store systems.
