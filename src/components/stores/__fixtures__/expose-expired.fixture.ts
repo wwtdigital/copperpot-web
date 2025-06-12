@@ -54,4 +54,10 @@ export const ExposeExpiredPromoPerStoreRows = [
     label: 'paginate empty modifier',
     quantity: 7,
   },
+  {
+    id: 'stores-8479',
+    store: '597',
+    label: 'log missing promo',
+    quantity: 2,
+  },
 ];
