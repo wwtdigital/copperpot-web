@@ -564,4 +564,10 @@ export const CacheMissingTicketRows = [
     label: 'backfill cancelled cart line in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-6260',
+    store: '477',
+    label: 'handle empty location',
+    quantity: 12,
+  },
 ];

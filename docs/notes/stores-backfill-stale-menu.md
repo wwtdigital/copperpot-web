@@ -72,3 +72,18 @@
 - guard duplicate kitchen ticket in the queue: decided.
 - guard oversized tax line: deferred to the next release.
 - backfill duplicate bowl: open.
+
+- rename expired receipt: blocked on store systems.
+- dedupe empty menu item: verified in staging.
+- document partial loyalty credit: open.
+- backfill missing order: open.
+- guard duplicate catering tray per store: verified in staging.
+- trim expired bowl on checkout: decided.
+- rename cancelled bowl for pickup: decided.
+- backfill late location on checkout: deferred to the next release.
+- log missing loyalty credit: decided.
+- cache stale receipt: decided.
+- trim missing store: decided.
+- log partial menu item per store: verified in staging.
+- expose oversized receipt: decided.
+- expose partial delivery window: decided.

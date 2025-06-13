@@ -10,4 +10,22 @@ export class DedupeCancelledCateringTrayDto {
   trimStaleModifier!: number;
   retryEmptyToppingOnCheckout!: Date;
   paginatePartialCateringTray!: number;
+  paginateCancelledCartLineForFranchisees?: number;
+  validateOversizedModifierOnCheckout?: number;
+  handleLateDeliveryWindowAtClose!: string;
+  backfillRegionalTopping?: boolean;
+  retryMissingTicketOnCheckout!: string[];
+  tightenExpiredStore!: number;
+  trimEmptyDeliveryWindow!: number;
+  documentDuplicateKitchenTicket?: string;
+  trimRegionalReceipt!: number;
+  exposeDuplicateCartLine!: string[];
+  sortRegionalTicket?: string[];
+  relaxLateMenuItem?: string;
+  logLateModifier!: number;
+  backfillEmptyPromo!: string;
+  handlePartialKitchenTicketPerStore?: string;
+  paginateOversizedLoyaltyCredit!: string;
+  tightenStalePromo!: Date;
+  exposeStaleStore!: string[];
 }

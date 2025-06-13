@@ -72,3 +72,18 @@
 - relax expired promo on reorder: verified in staging.
 - retry empty modifier per store: deferred to the next release.
 - add stale topping: owner: delivery manager.
+
+- backfill missing bowl per store: verified in staging.
+- backfill duplicate receipt per store: decided.
+- retry regional promo: decided.
+- relax stale store for franchisees: blocked on store systems.
+- relax cancelled order: verified in staging.
+- log oversized loyalty credit: owner: delivery manager.
+- backfill oversized modifier on checkout: owner: delivery manager.
+- retry missing order on reorder: owner: delivery manager.
+- sort stale kitchen ticket: verified in staging.
+- relax partial promo: owner: delivery manager.
+- trim oversized loyalty credit on checkout: owner: delivery manager.
+- tighten stale delivery window in the queue: verified in staging.
+- expose regional receipt on reorder: owner: delivery manager.
+- handle expired store: deferred to the next release.
