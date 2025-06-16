@@ -564,4 +564,58 @@ export const CacheMissingTicketRows = [
     label: 'backfill cancelled cart line in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-6260',
+    store: '477',
+    label: 'handle empty location',
+    quantity: 12,
+  },
+  {
+    id: 'stores-9504',
+    store: '484',
+    label: 'cache stale modifier',
+    quantity: 2,
+  },
+  {
+    id: 'stores-1651',
+    store: '496',
+    label: 'normalise empty guest',
+    quantity: 8,
+  },
+  {
+    id: 'stores-2019',
+    store: '309',
+    label: 'handle regional order',
+    quantity: 1,
+  },
+  {
+    id: 'stores-1424',
+    store: '462',
+    label: 'normalise partial receipt',
+    quantity: 9,
+  },
+  {
+    id: 'stores-4116',
+    store: '213',
+    label: 'guard missing cart line',
+    quantity: 8,
+  },
+  {
+    id: 'stores-9245',
+    store: '295',
+    label: 'rename cancelled modifier at close',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8110',
+    store: '567',
+    label: 'document oversized pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'stores-6772',
+    store: '200',
+    label: 'cache late store',
+    quantity: 10,
+  },
 ];
