@@ -60,4 +60,52 @@ export const ExposeExpiredPromoPerStoreRows = [
     label: 'log missing promo',
     quantity: 2,
   },
+  {
+    id: 'stores-3299',
+    store: '621',
+    label: 'trim regional menu item on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'stores-4929',
+    store: '382',
+    label: 'cache cancelled menu item on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'stores-8291',
+    store: '351',
+    label: 'dedupe oversized loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8829',
+    store: '482',
+    label: 'rename oversized kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'stores-7038',
+    store: '507',
+    label: 'log missing bowl',
+    quantity: 4,
+  },
+  {
+    id: 'stores-5993',
+    store: '152',
+    label: 'trim late receipt',
+    quantity: 2,
+  },
+  {
+    id: 'stores-4388',
+    store: '358',
+    label: 'tighten duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'stores-6883',
+    store: '614',
+    label: 'retry empty pickup slot for pickup',
+    quantity: 4,
+  },
 ];
