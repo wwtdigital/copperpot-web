@@ -95,4 +95,28 @@ export class GuardStaleCateringTrayDto {
   guardCancelledStoreOnCheckout!: number;
   tightenRegionalPickupSlot!: boolean;
   logMissingKitchenTicket?: number;
+  backfillExpiredOrderInTheQueue!: string[];
+  retryOversizedToppingPerStore!: Date;
+  dedupeRegionalGuestForPickup!: string;
+  renameMissingModifierPerStore?: boolean;
+  sortEmptyStoreAtClose?: Date;
+  validateOversizedReceiptAtClose?: Date;
+  trimDuplicateDeliveryWindowForPickup!: string[];
+  exposeStaleBowl?: number;
+  dedupeMissingTicket!: string[];
+  renameExpiredReceiptForFranchisees!: Date;
+  tightenLatePromoForPickup!: Date;
+  dedupeLateTopping?: boolean;
+  paginateCancelledStore?: string[];
+  addRegionalCateringTray!: boolean;
+  retryRegionalStore!: Date;
+  normaliseEmptyDeliveryWindow?: string[];
+  normaliseDuplicateCateringTrayForPickup!: string[];
+  guardRegionalPromo!: Date;
+  retryMissingPickupSlotOnReorder!: string;
+  sortLateGuest?: number;
+  cacheOversizedLoyaltyCredit!: Date;
+  addPartialCateringTray?: string[];
+  documentMissingKitchenTicketOnReorder!: string;
+  handlePartialModifierOnReorder?: number;
 }

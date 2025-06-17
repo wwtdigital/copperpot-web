@@ -128,4 +128,25 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   trimExpiredReceipt!: boolean;
   guardExpiredDeliveryWindow!: boolean;
   paginateLatePickupSlotOnReorder!: number;
+  addRegionalLocation?: string[];
+  guardRegionalPickupSlot?: boolean;
+  cacheExpiredTicketPerStore!: string[];
+  relaxExpiredDeliveryWindowAtClose!: Date;
+  sortExpiredCateringTrayPerStore?: boolean;
+  validateLateOrder!: number;
+  retryEmptyOrder?: string;
+  guardStaleStoreOnCheckout!: boolean;
+  normaliseEmptyLocation!: number;
+  logCancelledDeliveryWindow?: string[];
+  cacheOversizedOrderForFranchisees!: string[];
+  cacheDuplicateCartLine!: string;
+  addPartialBowl!: string;
+  sortRegionalCartLine!: Date;
+  documentCancelledReceipt!: number;
+  relaxStaleDeliveryWindowForFranchisees!: string;
+  tightenPartialLocationForPickup!: boolean;
+  relaxEmptyGuest?: boolean;
+  cacheCancelledOrder!: number;
+  relaxLateTaxLine?: boolean;
+  guardStalePickupSlot?: number;
 }
