@@ -36,4 +36,10 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'log cancelled order',
     quantity: 7,
   },
+  {
+    id: 'landing-5916',
+    store: '295',
+    label: 'retry empty bowl',
+    quantity: 10,
+  },
 ];

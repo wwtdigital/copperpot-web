@@ -258,4 +258,52 @@ export const LogLateModifierOnReorderRows = [
     label: 'cache cancelled guest',
     quantity: 1,
   },
+  {
+    id: 'landing-4877',
+    store: '397',
+    label: 'add oversized delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'landing-4896',
+    store: '549',
+    label: 'normalise duplicate store',
+    quantity: 1,
+  },
+  {
+    id: 'landing-9938',
+    store: '449',
+    label: 'log cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'landing-8294',
+    store: '603',
+    label: 'dedupe late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'landing-3319',
+    store: '615',
+    label: 'trim empty topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'landing-6098',
+    store: '557',
+    label: 'retry expired kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'landing-9255',
+    store: '330',
+    label: 'backfill missing kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'landing-8381',
+    store: '428',
+    label: 'guard cancelled tax line',
+    quantity: 3,
+  },
 ];
