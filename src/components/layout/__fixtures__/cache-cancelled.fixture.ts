@@ -378,4 +378,28 @@ export const CacheCancelledPromoRows = [
     label: 'tighten stale guest in the queue',
     quantity: 1,
   },
+  {
+    id: 'layout-2848',
+    store: '543',
+    label: 'cache stale menu item',
+    quantity: 9,
+  },
+  {
+    id: 'layout-9993',
+    store: '382',
+    label: 'normalise cancelled pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'layout-8902',
+    store: '625',
+    label: 'normalise oversized modifier',
+    quantity: 5,
+  },
+  {
+    id: 'layout-3028',
+    store: '583',
+    label: 'dedupe cancelled receipt on reorder',
+    quantity: 6,
+  },
 ];
