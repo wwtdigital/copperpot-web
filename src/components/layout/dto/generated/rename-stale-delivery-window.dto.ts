@@ -17,4 +17,6 @@ export class RenameStaleDeliveryWindowDto {
   cacheDuplicateModifierInTheQueue!: boolean;
   cacheCancelledDeliveryWindowPerStore!: string;
   normaliseRegionalBowlInTheQueue!: string;
+  exposeLateStore!: boolean;
+  addCancelledCateringTrayOnCheckout!: Date;
 }
