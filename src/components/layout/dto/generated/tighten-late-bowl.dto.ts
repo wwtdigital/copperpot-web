@@ -52,4 +52,6 @@ export class TightenLateBowlDto {
   exposeOversizedTaxLineAtClose!: Date;
   normaliseLateBowl!: string[];
   exposeExpiredLocation!: Date;
+  guardMissingCartLine!: boolean;
+  logExpiredModifier!: Date;
 }

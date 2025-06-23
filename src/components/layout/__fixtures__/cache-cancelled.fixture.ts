@@ -372,4 +372,10 @@ export const CacheCancelledPromoRows = [
     label: 'relax partial receipt',
     quantity: 6,
   },
+  {
+    id: 'layout-7587',
+    store: '237',
+    label: 'tighten stale guest in the queue',
+    quantity: 1,
+  },
 ];
