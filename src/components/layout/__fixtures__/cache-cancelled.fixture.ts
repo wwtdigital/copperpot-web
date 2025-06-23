@@ -234,4 +234,16 @@ export const CacheCancelledPromoRows = [
     label: 'add empty promo',
     quantity: 12,
   },
+  {
+    id: 'layout-7296',
+    store: '377',
+    label: 'rename empty tax line for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'layout-8348',
+    store: '350',
+    label: 'document late order on reorder',
+    quantity: 11,
+  },
 ];
