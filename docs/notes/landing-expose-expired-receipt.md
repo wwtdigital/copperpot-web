@@ -65,3 +65,18 @@
 - rename empty delivery window on reorder: deferred to the next release.
 - expose late receipt on checkout: owner: delivery manager.
 - validate late store per store: decided.
+
+- handle missing guest: decided.
+- document duplicate store: verified in staging.
+- paginate cancelled location per store: blocked on store systems.
+- dedupe regional delivery window: verified in staging.
+- add empty cart line: deferred to the next release.
+- validate oversized catering tray: verified in staging.
+- relax oversized kitchen ticket on checkout: blocked on store systems.
+- relax partial bowl on checkout: decided.
+- trim expired catering tray: blocked on store systems.
+- log regional tax line for pickup: deferred to the next release.
+- sort empty bowl for franchisees: decided.
+- guard empty ticket: verified in staging.
+- dedupe regional store: verified in staging.
+- log cancelled pickup slot at close: decided.
