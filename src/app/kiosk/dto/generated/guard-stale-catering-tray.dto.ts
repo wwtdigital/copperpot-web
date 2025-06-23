@@ -119,4 +119,28 @@ export class GuardStaleCateringTrayDto {
   addPartialCateringTray?: string[];
   documentMissingKitchenTicketOnReorder!: string;
   handlePartialModifierOnReorder?: number;
+  cacheOversizedTaxLineAtClose!: boolean;
+  logPartialStore!: boolean;
+  cacheMissingKitchenTicket!: string;
+  tightenCancelledLocation?: string;
+  handleEmptyMenuItem!: number;
+  handleCancelledDeliveryWindow!: string[];
+  retryExpiredLoyaltyCreditForPickup?: number;
+  exposeMissingBowlForPickup?: string[];
+  dedupeDuplicateTopping!: string[];
+  handleStaleTicket!: string;
+  relaxEmptyOrderInTheQueue?: string;
+  validateStaleMenuItem!: string[];
+  relaxEmptyMenuItem!: number;
+  tightenLateStore?: string[];
+  logOversizedModifierAtClose?: string;
+  guardLateTicketPerStore!: string[];
+  sortDuplicatePromoAtClose!: string;
+  guardPartialOrder?: string[];
+  renameMissingBowl!: number;
+  addMissingReceipt!: boolean;
+  trimMissingGuest!: Date;
+  guardRegionalTicket?: Date;
+  paginateDuplicateBowl!: boolean;
+  retryRegionalReceipt!: Date;
 }
