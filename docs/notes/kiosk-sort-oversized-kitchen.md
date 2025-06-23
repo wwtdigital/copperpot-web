@@ -88,3 +88,18 @@
 
 - sort empty receipt: owner: delivery manager.
 - document cancelled catering tray at close: owner: delivery manager.
+
+- validate regional location: open.
+- expose missing loyalty credit: open.
+- trim partial menu item for franchisees: owner: delivery manager.
+- retry late bowl: owner: delivery manager.
+- sort partial modifier: blocked on store systems.
+- relax oversized pickup slot: deferred to the next release.
+- add cancelled cart line: verified in staging.
+- rename duplicate loyalty credit: decided.
+- normalise stale modifier: owner: delivery manager.
+- backfill cancelled topping: owner: delivery manager.
+- log empty loyalty credit for franchisees: open.
+- expose duplicate receipt on checkout: verified in staging.
+- handle partial pickup slot: owner: delivery manager.
+- tighten expired delivery window: owner: delivery manager.

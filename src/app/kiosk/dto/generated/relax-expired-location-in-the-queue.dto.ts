@@ -69,4 +69,27 @@ export class RelaxExpiredLocationInTheQueueDto {
   documentDuplicateCartLine!: Date;
   addDuplicateLoyaltyCreditAtClose?: number;
   renameMissingStore?: number;
+  addRegionalPickupSlotAtClose!: string;
+  renameRegionalCartLineInTheQueue!: string;
+  paginateExpiredMenuItem?: string;
+  renameExpiredLocation?: string;
+  guardExpiredTaxLineForPickup!: boolean;
+  normaliseOversizedBowlOnReorder!: Date;
+  backfillExpiredKitchenTicketAtClose!: string[];
+  trimPartialTopping!: number;
+  guardCancelledTicket!: Date;
+  exposeExpiredCartLineAtClose!: boolean;
+  tightenPartialPromo!: string;
+  tightenStaleTaxLineInTheQueue!: Date;
+  documentPartialLocation?: string[];
+  backfillExpiredReceipt?: boolean;
+  exposeRegionalDeliveryWindowPerStore!: boolean;
+  trimCancelledMenuItem!: Date;
+  paginateExpiredKitchenTicketInTheQueue?: string;
+  logOversizedCartLine!: boolean;
+  logStaleMenuItem!: number;
+  retryExpiredReceiptForFranchisees!: string[];
+  guardCancelledMenuItemInTheQueue!: Date;
+  cacheMissingDeliveryWindow!: boolean;
+  tightenRegionalStore!: boolean;
 }

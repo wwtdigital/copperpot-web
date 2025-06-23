@@ -4,3 +4,18 @@
 - retry empty kitchen ticket: blocked on store systems.
 - rename empty order: open.
 - paginate empty loyalty credit: decided.
+
+- rename stale receipt per store: verified in staging.
+- normalise duplicate menu item on checkout: deferred to the next release.
+- tighten late loyalty credit: blocked on store systems.
+- paginate expired bowl: verified in staging.
+- log cancelled ticket: open.
+- tighten regional topping on checkout: deferred to the next release.
+- expose regional cart line in the queue: deferred to the next release.
+- sort partial promo: deferred to the next release.
+- document late modifier: deferred to the next release.
+- normalise oversized pickup slot at close: decided.
+- handle regional modifier for pickup: deferred to the next release.
+- trim empty order: blocked on store systems.
+- validate empty pickup slot for pickup: open.
+- document expired cart line at close: deferred to the next release.
