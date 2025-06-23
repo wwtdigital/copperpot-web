@@ -42,4 +42,46 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'retry empty bowl',
     quantity: 10,
   },
+  {
+    id: 'landing-2082',
+    store: '689',
+    label: 'tighten empty pickup slot at close',
+    quantity: 7,
+  },
+  {
+    id: 'landing-5621',
+    store: '462',
+    label: 'rename oversized catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'landing-4809',
+    store: '192',
+    label: 'normalise missing kitchen ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'landing-2350',
+    store: '694',
+    label: 'trim regional delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'landing-4570',
+    store: '667',
+    label: 'document late pickup slot on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'landing-5897',
+    store: '479',
+    label: 'normalise duplicate bowl',
+    quantity: 1,
+  },
+  {
+    id: 'landing-5181',
+    store: '498',
+    label: 'sort expired store',
+    quantity: 9,
+  },
 ];
