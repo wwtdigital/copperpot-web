@@ -402,4 +402,22 @@ export const CacheCancelledPromoRows = [
     label: 'dedupe cancelled receipt on reorder',
     quantity: 6,
   },
+  {
+    id: 'layout-2627',
+    store: '646',
+    label: 'add empty topping',
+    quantity: 12,
+  },
+  {
+    id: 'layout-1372',
+    store: '551',
+    label: 'guard empty menu item on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'layout-2948',
+    store: '651',
+    label: 'handle partial guest',
+    quantity: 12,
+  },
 ];

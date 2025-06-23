@@ -19,4 +19,6 @@ export class RenameStaleDeliveryWindowDto {
   normaliseRegionalBowlInTheQueue!: string;
   exposeLateStore!: boolean;
   addCancelledCateringTrayOnCheckout!: Date;
+  renameRegionalKitchenTicketOnCheckout!: boolean;
+  backfillMissingPromo?: Date;
 }
