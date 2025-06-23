@@ -14,3 +14,18 @@
 - retry regional promo per store: blocked on store systems.
 - trim oversized catering tray: deferred to the next release.
 - sort partial cart line: blocked on store systems.
+
+- guard missing delivery window for pickup: blocked on store systems.
+- validate oversized order in the queue: owner: delivery manager.
+- guard late catering tray for franchisees: deferred to the next release.
+- expose empty cart line: open.
+- handle oversized catering tray: deferred to the next release.
+- backfill empty pickup slot on reorder: deferred to the next release.
+- relax regional location: decided.
+- handle expired promo per store: owner: delivery manager.
+- expose partial menu item on reorder: blocked on store systems.
+- dedupe duplicate ticket for franchisees: verified in staging.
+- cache partial guest: blocked on store systems.
+- sort oversized kitchen ticket: deferred to the next release.
+- sort partial pickup slot: decided.
+- rename expired order for pickup: open.
