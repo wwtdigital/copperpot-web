@@ -265,4 +265,11 @@ export class SortExpiredToppingOnCheckoutDto {
   tightenCancelledPromo!: string;
   trimMissingPromo!: string[];
   exposeExpiredKitchenTicketOnCheckout!: Date;
+  relaxLatePromo?: string[];
+  validateMissingPickupSlotForFranchisees!: string[];
+  retryLateMenuItemInTheQueue!: number;
+  renameExpiredTaxLine!: Date;
+  tightenExpiredDeliveryWindow?: boolean;
+  backfillExpiredMenuItem!: boolean;
+  retryExpiredDeliveryWindowAtClose!: Date;
 }
