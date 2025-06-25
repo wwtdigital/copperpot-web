@@ -354,4 +354,22 @@ export const CacheCancelledPromoRows = [
     label: 'cache partial delivery window',
     quantity: 7,
   },
+  {
+    id: 'layout-4289',
+    store: '639',
+    label: 'handle empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'layout-7994',
+    store: '102',
+    label: 'dedupe late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'layout-5651',
+    store: '349',
+    label: 'relax partial receipt',
+    quantity: 6,
+  },
 ];
