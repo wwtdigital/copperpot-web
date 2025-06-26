@@ -420,4 +420,16 @@ export const CacheCancelledPromoRows = [
     label: 'handle partial guest',
     quantity: 12,
   },
+  {
+    id: 'layout-3191',
+    store: '306',
+    label: 'guard duplicate tax line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'layout-1409',
+    store: '663',
+    label: 'log duplicate delivery window on reorder',
+    quantity: 10,
+  },
 ];
