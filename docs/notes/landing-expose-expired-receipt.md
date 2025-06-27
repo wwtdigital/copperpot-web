@@ -80,3 +80,18 @@
 - guard empty ticket: verified in staging.
 - dedupe regional store: verified in staging.
 - log cancelled pickup slot at close: decided.
+
+- backfill expired delivery window: blocked on store systems.
+- trim duplicate loyalty credit: open.
+- validate stale guest at close: owner: delivery manager.
+- backfill empty bowl: blocked on store systems.
+- rename missing modifier: open.
+- dedupe partial store: decided.
+- dedupe stale ticket: deferred to the next release.
+- relax expired kitchen ticket: decided.
+- add duplicate cart line on checkout: deferred to the next release.
+- expose late bowl: verified in staging.
+- paginate empty modifier: blocked on store systems.
+- sort oversized topping: owner: delivery manager.
+- paginate late kitchen ticket: deferred to the next release.
+- relax regional loyalty credit in the queue: verified in staging.

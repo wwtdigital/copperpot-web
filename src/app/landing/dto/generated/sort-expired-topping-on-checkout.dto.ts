@@ -272,4 +272,26 @@ export class SortExpiredToppingOnCheckoutDto {
   tightenExpiredDeliveryWindow?: boolean;
   backfillExpiredMenuItem!: boolean;
   retryExpiredDeliveryWindowAtClose!: Date;
+  backfillStaleTicket!: string;
+  logCancelledCateringTray!: number;
+  validateEmptyKitchenTicket?: string[];
+  sortPartialPromo!: string;
+  handleCancelledDeliveryWindow?: string;
+  addPartialOrderPerStore?: string;
+  cacheExpiredLocationInTheQueue!: number;
+  handleOversizedOrder?: string[];
+  dedupeOversizedMenuItemOnReorder?: string;
+  cacheCancelledModifier!: boolean;
+  handleCancelledKitchenTicket!: number;
+  trimEmptyCartLineOnReorder!: boolean;
+  backfillMissingLoyaltyCredit!: string;
+  backfillPartialTaxLine!: boolean;
+  normaliseStaleBowl!: number;
+  sortStaleLoyaltyCredit?: string;
+  retryExpiredBowlPerStore!: number;
+  normaliseStaleLocationForPickup!: string[];
+  addStaleLocationPerStore!: string;
+  documentDuplicateCartLine!: boolean;
+  normaliseOversizedLoyaltyCreditOnReorder!: string[];
+  documentStalePickupSlot!: boolean;
 }
