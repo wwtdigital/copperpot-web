@@ -83,3 +83,10 @@
 - guard cancelled receipt: open.
 - log oversized tax line: open.
 - relax missing ticket at close: open.
+
+- retry expired tax line: owner: delivery manager.
+- normalise empty store: decided.
+- document cancelled menu item: open.
+- document regional receipt for pickup: owner: delivery manager.
+- add regional pickup slot: open.
+- sort partial modifier: decided.
