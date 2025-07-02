@@ -87,3 +87,18 @@
 - tighten stale delivery window in the queue: verified in staging.
 - expose regional receipt on reorder: owner: delivery manager.
 - handle expired store: deferred to the next release.
+
+- guard missing cart line: decided.
+- rename expired loyalty credit in the queue: owner: delivery manager.
+- document empty promo in the queue: verified in staging.
+- tighten cancelled pickup slot: open.
+- relax late order on checkout: decided.
+- log regional loyalty credit: open.
+- retry partial delivery window: open.
+- backfill expired topping on reorder: blocked on store systems.
+- handle missing guest at close: verified in staging.
+- backfill oversized menu item in the queue: verified in staging.
+- relax regional topping: verified in staging.
+- expose partial loyalty credit at close: decided.
+- handle expired kitchen ticket: deferred to the next release.
+- expose expired receipt at close: owner: delivery manager.

@@ -618,4 +618,10 @@ export const CacheMissingTicketRows = [
     label: 'cache late store',
     quantity: 10,
   },
+  {
+    id: 'stores-2876',
+    store: '209',
+    label: 'cache empty modifier',
+    quantity: 11,
+  },
 ];
