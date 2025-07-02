@@ -2,4 +2,6 @@
 export class RetryRegionalMenuItemAtCloseDto {
   guardLatePromoForFranchisees!: string[];
   guardOversizedPickupSlot?: string[];
+  renameRegionalTicket!: Date;
+  relaxMissingModifier!: Date;
 }
