@@ -58,3 +58,18 @@
 - log missing location on reorder: deferred to the next release.
 - backfill duplicate menu item on reorder: open.
 - sort stale order for franchisees: decided.
+
+- relax expired loyalty credit: deferred to the next release.
+- paginate cancelled topping: owner: delivery manager.
+- expose regional topping for franchisees: owner: delivery manager.
+- rename partial order at close: open.
+- retry regional tax line per store: open.
+- cache partial kitchen ticket on checkout: owner: delivery manager.
+- add missing store per store: blocked on store systems.
+- retry expired store: owner: delivery manager.
+- paginate cancelled delivery window: owner: delivery manager.
+- handle regional ticket: decided.
+- tighten empty receipt on reorder: open.
+- dedupe cancelled topping: owner: delivery manager.
+- dedupe missing receipt per store: blocked on store systems.
+- document cancelled promo: blocked on store systems.
