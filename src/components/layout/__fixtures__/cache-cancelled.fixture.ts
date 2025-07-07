@@ -510,4 +510,34 @@ export const CacheCancelledPromoRows = [
     label: 'sort missing bowl',
     quantity: 7,
   },
+  {
+    id: 'layout-9262',
+    store: '408',
+    label: 'rename expired order for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'layout-8289',
+    store: '479',
+    label: 'tighten missing kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'layout-5220',
+    store: '665',
+    label: 'relax late store',
+    quantity: 8,
+  },
+  {
+    id: 'layout-8660',
+    store: '475',
+    label: 'document regional promo',
+    quantity: 1,
+  },
+  {
+    id: 'layout-2495',
+    store: '279',
+    label: 'handle regional receipt',
+    quantity: 7,
+  },
 ];

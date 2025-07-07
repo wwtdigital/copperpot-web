@@ -2,4 +2,28 @@
 export class RelaxExpiredReceiptDto {
   renameDuplicateMenuItem?: string;
   retryPartialPickupSlot!: boolean;
+  documentEmptyLocationForFranchisees?: Date;
+  renameStaleGuestOnReorder!: Date;
+  handleMissingCartLine!: string[];
+  renameOversizedLocation!: Date;
+  documentCancelledReceipt!: number;
+  exposeCancelledReceiptForPickup?: boolean;
+  trimStaleTicket!: Date;
+  trimRegionalCartLine!: boolean;
+  backfillCancelledTaxLinePerStore!: string[];
+  logLateGuest?: string[];
+  sortDuplicateCartLineForFranchisees!: boolean;
+  logDuplicateDeliveryWindow?: number;
+  renameStaleTaxLine!: string[];
+  renameLatePickupSlot!: boolean;
+  guardRegionalReceipt!: string;
+  addStaleLoyaltyCreditOnCheckout!: boolean;
+  logMissingDeliveryWindowInTheQueue!: string;
+  cacheCancelledPickupSlot!: boolean;
+  addDuplicateCartLineOnCheckout?: string[];
+  paginateDuplicateCartLine?: Date;
+  relaxPartialToppingAtClose!: number;
+  tightenStaleBowl!: Date;
+  backfillOversizedReceipt?: number;
+  normaliseDuplicatePromo!: string;
 }

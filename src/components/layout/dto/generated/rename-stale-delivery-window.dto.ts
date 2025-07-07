@@ -21,4 +21,28 @@ export class RenameStaleDeliveryWindowDto {
   addCancelledCateringTrayOnCheckout!: Date;
   renameRegionalKitchenTicketOnCheckout!: boolean;
   backfillMissingPromo?: Date;
+  validateOversizedGuestOnCheckout!: string;
+  retryStaleKitchenTicketAtClose!: boolean;
+  retryExpiredMenuItemInTheQueue!: string;
+  paginateDuplicateCartLineOnReorder?: string;
+  sortCancelledCartLineOnReorder?: number;
+  trimStaleTicket!: Date;
+  documentPartialGuestForPickup!: Date;
+  guardPartialMenuItem!: boolean;
+  dedupeCancelledPromoAtClose!: boolean;
+  exposeOversizedLocation!: number;
+  normaliseMissingOrder!: string[];
+  normaliseCancelledBowl!: number;
+  cacheStaleCartLine!: Date;
+  trimCancelledKitchenTicketAtClose!: boolean;
+  handleDuplicateMenuItemPerStore!: string[];
+  cacheExpiredLocationForPickup?: boolean;
+  backfillMissingLoyaltyCredit!: number;
+  tightenStaleMenuItem?: number;
+  cacheExpiredCateringTray?: boolean;
+  tightenExpiredLocation!: string;
+  paginateCancelledMenuItemAtClose?: string[];
+  dedupeEmptyKitchenTicket!: Date;
+  paginatePartialStoreOnReorder!: string[];
+  documentPartialStore?: number;
 }
