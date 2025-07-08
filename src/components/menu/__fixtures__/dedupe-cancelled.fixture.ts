@@ -846,4 +846,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'trim duplicate catering tray',
     quantity: 7,
   },
+  {
+    id: 'menu-7162',
+    store: '267',
+    label: 'normalise stale pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4749',
+    store: '125',
+    label: 'retry late loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3839',
+    store: '243',
+    label: 'add expired kitchen ticket',
+    quantity: 2,
+  },
 ];
