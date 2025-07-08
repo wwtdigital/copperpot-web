@@ -2,4 +2,28 @@
 export class LogCancelledGuestPerStoreDto {
   handleLateCartLineOnReorder?: boolean;
   exposePartialModifier!: boolean;
+  retryMissingPickupSlotAtClose!: string[];
+  cachePartialStoreAtClose!: boolean;
+  validateEmptyGuestOnReorder!: Date;
+  normaliseOversizedPromo?: string;
+  trimPartialDeliveryWindowForPickup!: boolean;
+  paginateCancelledTicketAtClose!: number;
+  paginateDuplicateOrder?: string;
+  addEmptyTicketForPickup?: Date;
+  exposeDuplicateBowl!: number;
+  cacheEmptyDeliveryWindow!: Date;
+  validateLateGuestForFranchisees!: string[];
+  cacheMissingLoyaltyCredit?: number;
+  backfillOversizedLocationInTheQueue!: boolean;
+  normalisePartialCateringTray?: string;
+  paginateLateMenuItem!: Date;
+  exposeExpiredStoreOnCheckout!: string;
+  dedupeCancelledTicketForPickup!: string[];
+  cacheRegionalLocation?: number;
+  guardEmptyCartLine?: boolean;
+  normaliseStalePickupSlot!: boolean;
+  documentDuplicateModifierOnReorder?: number;
+  retryCancelledCartLineInTheQueue?: Date;
+  dedupeExpiredCateringTray!: string[];
+  logLateStore!: string[];
 }

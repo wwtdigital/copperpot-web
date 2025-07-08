@@ -86,4 +86,28 @@ export class PaginateLateTaxLineDto {
   cacheOversizedTopping!: boolean;
   dedupeRegionalToppingAtClose!: string;
   cacheStaleLoyaltyCredit!: string;
+  backfillRegionalGuest?: boolean;
+  backfillEmptyCateringTrayInTheQueue!: string;
+  handleOversizedStore?: number;
+  handleMissingMenuItem!: boolean;
+  handleOversizedStoreOnReorder?: boolean;
+  renameStaleBowl!: number;
+  trimExpiredKitchenTicket!: number;
+  logExpiredCartLinePerStore?: string[];
+  dedupeEmptyReceipt!: boolean;
+  tightenCancelledCateringTrayPerStore!: boolean;
+  addStaleDeliveryWindowInTheQueue!: number;
+  guardRegionalLocation!: boolean;
+  logMissingStore!: string[];
+  backfillMissingCateringTray?: number;
+  paginateDuplicateKitchenTicket?: string;
+  trimPartialModifierOnCheckout!: boolean;
+  logRegionalTaxLine!: boolean;
+  retryRegionalPromo!: number;
+  sortEmptyStoreForFranchisees!: Date;
+  validateRegionalTopping!: Date;
+  guardCancelledTopping!: Date;
+  paginateEmptyTopping!: string;
+  tightenLateMenuItem!: string[];
+  sortMissingLoyaltyCredit!: number;
 }
