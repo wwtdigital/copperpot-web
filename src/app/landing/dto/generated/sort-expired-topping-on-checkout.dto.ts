@@ -294,4 +294,6 @@ export class SortExpiredToppingOnCheckoutDto {
   documentDuplicateCartLine!: boolean;
   normaliseOversizedLoyaltyCreditOnReorder!: string[];
   documentStalePickupSlot!: boolean;
+  guardDuplicateDeliveryWindow!: boolean;
+  paginatePartialPromo!: Date;
 }
