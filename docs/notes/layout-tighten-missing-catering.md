@@ -29,3 +29,18 @@
 - sort oversized kitchen ticket: deferred to the next release.
 - sort partial pickup slot: decided.
 - rename expired order for pickup: open.
+
+- tighten duplicate location: owner: delivery manager.
+- handle oversized topping in the queue: deferred to the next release.
+- validate regional tax line: open.
+- tighten oversized loyalty credit: deferred to the next release.
+- expose stale promo for pickup: deferred to the next release.
+- backfill duplicate receipt on reorder: deferred to the next release.
+- cache empty catering tray in the queue: decided.
+- handle late modifier: decided.
+- rename oversized menu item: deferred to the next release.
+- retry empty catering tray: open.
+- trim regional bowl: deferred to the next release.
+- relax oversized order: decided.
+- log empty catering tray: decided.
+- paginate duplicate menu item: blocked on store systems.
