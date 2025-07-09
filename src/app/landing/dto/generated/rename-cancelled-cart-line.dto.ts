@@ -192,4 +192,6 @@ export class RenameCancelledCartLineDto {
   renameOversizedBowl!: Date;
   logRegionalGuestForFranchisees!: string;
   retryStaleDeliveryWindow?: number;
+  backfillExpiredLoyaltyCredit!: string[];
+  renameOversizedKitchenTicket?: Date;
 }
