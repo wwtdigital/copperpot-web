@@ -95,3 +95,18 @@
 - sort oversized topping: owner: delivery manager.
 - paginate late kitchen ticket: deferred to the next release.
 - relax regional loyalty credit in the queue: verified in staging.
+
+- paginate missing tax line: open.
+- handle partial topping at close: decided.
+- document expired menu item for franchisees: owner: delivery manager.
+- handle oversized promo: deferred to the next release.
+- rename empty store: verified in staging.
+- backfill cancelled receipt: verified in staging.
+- relax stale ticket: decided.
+- normalise duplicate cart line on reorder: blocked on store systems.
+- log missing guest at close: verified in staging.
+- normalise cancelled receipt in the queue: blocked on store systems.
+- validate duplicate cart line: deferred to the next release.
+- rename expired kitchen ticket: verified in staging.
+- relax expired pickup slot: owner: delivery manager.
+- handle stale delivery window for pickup: verified in staging.
