@@ -150,4 +150,22 @@ export const LogCancelledPromoRows = [
     label: 'add duplicate pickup slot',
     quantity: 9,
   },
+  {
+    id: 'kiosk-9161',
+    store: '338',
+    label: 'sort stale loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-6265',
+    store: '158',
+    label: 'trim expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-8859',
+    store: '226',
+    label: 'tighten empty topping',
+    quantity: 8,
+  },
 ];
