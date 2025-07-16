@@ -183,4 +183,8 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   handleMissingToppingOnReorder!: string;
   validateStaleLocation?: string;
   retryRegionalPickupSlot!: boolean;
+  backfillDuplicateKitchenTicket!: string;
+  documentStaleTopping?: boolean;
+  sortRegionalLocation!: boolean;
+  trimMissingBowlAtClose!: boolean;
 }
