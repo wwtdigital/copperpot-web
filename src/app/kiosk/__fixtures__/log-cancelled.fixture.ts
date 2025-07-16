@@ -168,4 +168,28 @@ export const LogCancelledPromoRows = [
     label: 'tighten empty topping',
     quantity: 8,
   },
+  {
+    id: 'kiosk-5754',
+    store: '176',
+    label: 'trim empty promo on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-9961',
+    store: '612',
+    label: 'sort missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-4546',
+    store: '158',
+    label: 'handle expired topping on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'kiosk-6198',
+    store: '516',
+    label: 'paginate duplicate modifier',
+    quantity: 8,
+  },
 ];
