@@ -19,3 +19,18 @@
 - trim empty order: blocked on store systems.
 - validate empty pickup slot for pickup: open.
 - document expired cart line at close: deferred to the next release.
+
+- sort regional menu item: decided.
+- cache duplicate pickup slot: blocked on store systems.
+- normalise cancelled bowl: deferred to the next release.
+- handle partial topping on reorder: open.
+- document missing promo: blocked on store systems.
+- log empty promo: verified in staging.
+- normalise oversized catering tray: owner: delivery manager.
+- dedupe missing catering tray: open.
+- handle expired order for pickup: blocked on store systems.
+- tighten duplicate catering tray: decided.
+- dedupe duplicate promo for franchisees: decided.
+- log regional menu item for franchisees: owner: delivery manager.
+- rename expired catering tray: open.
+- trim oversized location on checkout: verified in staging.
