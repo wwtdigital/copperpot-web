@@ -144,4 +144,10 @@ export const LogCancelledPromoRows = [
     label: 'backfill partial order on checkout',
     quantity: 11,
   },
+  {
+    id: 'kiosk-2905',
+    store: '660',
+    label: 'add duplicate pickup slot',
+    quantity: 9,
+  },
 ];
