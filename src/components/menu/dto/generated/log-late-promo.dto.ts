@@ -115,4 +115,22 @@ export class LogLatePromoDto {
   documentCancelledCateringTray!: number;
   paginateOversizedOrder!: number;
   normaliseStaleModifierForFranchisees!: number;
+  backfillPartialReceipt?: string;
+  guardStaleKitchenTicket!: string[];
+  trimCancelledCateringTrayOnReorder!: Date;
+  trimRegionalOrderForPickup!: string[];
+  retryOversizedBowl?: string[];
+  documentCancelledMenuItem?: number;
+  paginateCancelledLoyaltyCredit!: string[];
+  documentOversizedCartLineOnReorder?: string;
+  cachePartialCateringTrayForPickup?: boolean;
+  tightenEmptyReceipt!: string;
+  exposeCancelledMenuItem!: number;
+  backfillDuplicateCartLine?: boolean;
+  handleExpiredToppingInTheQueue!: Date;
+  sortEmptyStore?: number;
+  normaliseRegionalGuestOnReorder!: number;
+  tightenPartialMenuItemOnCheckout!: boolean;
+  backfillCancelledCateringTray!: Date;
+  validateRegionalTaxLine!: boolean;
 }

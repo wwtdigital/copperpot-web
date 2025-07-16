@@ -846,4 +846,58 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'trim duplicate catering tray',
     quantity: 7,
   },
+  {
+    id: 'menu-7162',
+    store: '267',
+    label: 'normalise stale pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4749',
+    store: '125',
+    label: 'retry late loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3839',
+    store: '243',
+    label: 'add expired kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-1767',
+    store: '197',
+    label: 'document missing modifier',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2041',
+    store: '202',
+    label: 'guard empty receipt',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7600',
+    store: '129',
+    label: 'validate duplicate store in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9908',
+    store: '575',
+    label: 'retry stale catering tray on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'menu-7308',
+    store: '155',
+    label: 'trim missing bowl at close',
+    quantity: 11,
+  },
+  {
+    id: 'menu-6832',
+    store: '521',
+    label: 'backfill cancelled ticket',
+    quantity: 12,
+  },
 ];
