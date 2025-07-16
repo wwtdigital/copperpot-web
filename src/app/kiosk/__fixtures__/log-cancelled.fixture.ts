@@ -192,4 +192,16 @@ export const LogCancelledPromoRows = [
     label: 'paginate duplicate modifier',
     quantity: 8,
   },
+  {
+    id: 'kiosk-7009',
+    store: '155',
+    label: 'cache empty location at close',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-7869',
+    store: '468',
+    label: 'trim missing pickup slot',
+    quantity: 6,
+  },
 ];

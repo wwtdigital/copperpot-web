@@ -1578,4 +1578,10 @@ export const AddOversizedCateringTrayRows = [
     label: 'log expired promo on reorder',
     quantity: 6,
   },
+  {
+    id: 'kiosk-7087',
+    store: '237',
+    label: 'trim expired delivery window on reorder',
+    quantity: 12,
+  },
 ];
