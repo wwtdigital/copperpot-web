@@ -3744,4 +3744,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'validate missing tax line',
     quantity: 2,
   },
+  {
+    id: 'menu-7320',
+    store: '180',
+    label: 'normalise cancelled modifier',
+    quantity: 5,
+  },
 ];
