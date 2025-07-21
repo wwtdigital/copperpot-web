@@ -14,3 +14,18 @@
 - sort missing cart line: verified in staging.
 - paginate oversized loyalty credit: verified in staging.
 - expose partial tax line: open.
+
+- relax partial store: owner: delivery manager.
+- trim partial receipt: verified in staging.
+- document oversized location: open.
+- paginate empty topping: deferred to the next release.
+- document stale guest for franchisees: decided.
+- handle cancelled kitchen ticket on reorder: owner: delivery manager.
+- sort late promo: deferred to the next release.
+- tighten cancelled loyalty credit: decided.
+- paginate duplicate modifier for franchisees: deferred to the next release.
+- rename late receipt: deferred to the next release.
+- tighten stale menu item: owner: delivery manager.
+- guard late catering tray per store: deferred to the next release.
+- rename cancelled modifier on reorder: verified in staging.
+- log expired tax line: decided.
