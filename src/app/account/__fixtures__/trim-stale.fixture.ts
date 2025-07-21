@@ -1224,4 +1224,16 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'sort oversized ticket per store',
     quantity: 12,
   },
+  {
+    id: 'account-3689',
+    store: '183',
+    label: 'add expired bowl for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'account-8907',
+    store: '327',
+    label: 'document cancelled cart line at close',
+    quantity: 2,
+  },
 ];
