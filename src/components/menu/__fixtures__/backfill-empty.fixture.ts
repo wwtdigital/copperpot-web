@@ -3672,4 +3672,22 @@ export const BackfillEmptyTaxLineRows = [
     label: 'sort expired menu item for franchisees',
     quantity: 9,
   },
+  {
+    id: 'menu-5476',
+    store: '693',
+    label: 'guard expired receipt per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6863',
+    store: '614',
+    label: 'dedupe expired bowl per store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5753',
+    store: '267',
+    label: 'guard stale cart line',
+    quantity: 10,
+  },
 ];
