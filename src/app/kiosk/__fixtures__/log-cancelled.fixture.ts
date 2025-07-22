@@ -204,4 +204,22 @@ export const LogCancelledPromoRows = [
     label: 'trim missing pickup slot',
     quantity: 6,
   },
+  {
+    id: 'kiosk-6900',
+    store: '297',
+    label: 'handle partial catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-5160',
+    store: '104',
+    label: 'sort duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-3021',
+    store: '372',
+    label: 'trim duplicate loyalty credit for pickup',
+    quantity: 5,
+  },
 ];

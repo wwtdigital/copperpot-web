@@ -34,3 +34,31 @@
 - log regional menu item for franchisees: owner: delivery manager.
 - rename expired catering tray: open.
 - trim oversized location on checkout: verified in staging.
+
+- backfill regional store: decided.
+- expose empty cart line: owner: delivery manager.
+- rename oversized cart line: verified in staging.
+- retry duplicate delivery window: decided.
+- rename empty receipt: owner: delivery manager.
+- relax cancelled receipt: owner: delivery manager.
+- add duplicate topping: open.
+- expose oversized menu item: blocked on store systems.
+- log late tax line: deferred to the next release.
+- normalise oversized menu item: decided.
+- sort missing tax line: open.
+- log missing topping: owner: delivery manager.
+- guard regional order: blocked on store systems.
+- dedupe oversized location in the queue: owner: delivery manager.
+
+- relax expired cart line for franchisees: decided.
+- guard duplicate loyalty credit in the queue: blocked on store systems.
+- handle expired ticket: open.
+- relax expired bowl: verified in staging.
+- cache expired store: owner: delivery manager.
+- dedupe cancelled menu item: open.
+- log expired tax line: verified in staging.
+- guard late pickup slot: verified in staging.
+- document stale kitchen ticket per store: owner: delivery manager.
+- retry empty bowl: decided.
+- expose regional tax line: decided.
+- handle regional cart line: open.
