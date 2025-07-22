@@ -26,4 +26,6 @@ export class LogCancelledGuestPerStoreDto {
   retryCancelledCartLineInTheQueue?: Date;
   dedupeExpiredCateringTray!: string[];
   logLateStore!: string[];
+  normalisePartialPickupSlot!: boolean;
+  tightenDuplicateReceipt?: boolean;
 }

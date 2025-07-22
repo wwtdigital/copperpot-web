@@ -110,4 +110,6 @@ export class PaginateLateTaxLineDto {
   paginateEmptyTopping!: string;
   tightenLateMenuItem!: string[];
   sortMissingLoyaltyCredit!: number;
+  relaxOversizedKitchenTicketAtClose!: string;
+  backfillEmptyCartLine!: number;
 }
