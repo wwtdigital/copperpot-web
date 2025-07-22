@@ -1182,4 +1182,58 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'log late order',
     quantity: 10,
   },
+  {
+    id: 'account-4795',
+    store: '589',
+    label: 'validate stale order',
+    quantity: 10,
+  },
+  {
+    id: 'account-3226',
+    store: '569',
+    label: 'relax missing receipt',
+    quantity: 7,
+  },
+  {
+    id: 'account-8704',
+    store: '305',
+    label: 'trim stale menu item on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'account-3270',
+    store: '492',
+    label: 'paginate stale catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'account-9552',
+    store: '149',
+    label: 'sort stale modifier on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'account-7424',
+    store: '368',
+    label: 'retry partial modifier in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'account-9689',
+    store: '280',
+    label: 'sort oversized ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'account-3689',
+    store: '183',
+    label: 'add expired bowl for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'account-8907',
+    store: '327',
+    label: 'document cancelled cart line at close',
+    quantity: 2,
+  },
 ];

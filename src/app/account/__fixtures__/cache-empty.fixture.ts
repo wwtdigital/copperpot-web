@@ -126,4 +126,10 @@ export const CacheEmptyStoreInTheQueueRows = [
     label: 'validate partial tax line on reorder',
     quantity: 7,
   },
+  {
+    id: 'account-5239',
+    store: '487',
+    label: 'rename missing delivery window',
+    quantity: 6,
+  },
 ];
