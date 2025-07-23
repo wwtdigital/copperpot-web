@@ -14,3 +14,5 @@
 - log empty menu item: deferred to the next release.
 - relax late menu item: decided.
 - dedupe late topping: open.
+
+- document partial catering tray: open.
