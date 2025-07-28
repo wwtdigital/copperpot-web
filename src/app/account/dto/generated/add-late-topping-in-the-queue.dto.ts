@@ -24,4 +24,28 @@ export class AddLateToppingInTheQueueDto {
   handleOversizedKitchenTicketPerStore!: boolean;
   guardOversizedOrder?: number;
   retryCancelledCartLine!: string[];
+  relaxCancelledLoyaltyCredit?: Date;
+  relaxMissingLocationOnReorder!: string[];
+  tightenDuplicateToppingInTheQueue!: Date;
+  paginateStalePickupSlot!: boolean;
+  cacheEmptyCateringTrayAtClose!: string[];
+  exposeStaleModifierForPickup!: boolean;
+  retryStaleCateringTrayPerStore!: number;
+  trimMissingPromo!: string;
+  tightenExpiredModifier!: number;
+  cacheDuplicateToppingForPickup?: boolean;
+  validateEmptyPickupSlot!: number;
+  retryPartialKitchenTicket!: number;
+  logLateModifier?: string[];
+  handleRegionalReceiptInTheQueue!: string;
+  cacheExpiredTicketPerStore!: Date;
+  tightenRegionalLoyaltyCredit?: Date;
+  paginateCancelledStore!: number;
+  guardRegionalDeliveryWindow!: boolean;
+  dedupeCancelledTaxLineAtClose?: number;
+  guardPartialCateringTray!: string[];
+  normaliseCancelledDeliveryWindowForPickup!: Date;
+  dedupeMissingPickupSlotForPickup!: number;
+  handleEmptyKitchenTicketOnCheckout!: boolean;
+  handleDuplicatePickupSlot!: string;
 }
