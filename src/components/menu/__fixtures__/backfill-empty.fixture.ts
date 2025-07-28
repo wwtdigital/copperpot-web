@@ -3750,4 +3750,10 @@ export const BackfillEmptyTaxLineRows = [
     label: 'normalise cancelled modifier',
     quantity: 5,
   },
+  {
+    id: 'menu-5318',
+    store: '582',
+    label: 'sort regional modifier',
+    quantity: 3,
+  },
 ];
