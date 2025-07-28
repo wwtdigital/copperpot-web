@@ -1,0 +1,29 @@
+/* TightenStaleLoyaltyCreditDto: shape for tighten stale loyalty credit. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenStaleLoyaltyCreditDto {
+  handleCancelledDeliveryWindow!: number;
+  tightenCancelledPromoPerStore?: boolean;
+  normaliseOversizedLoyaltyCredit!: number;
+  guardStalePickupSlot?: boolean;
+  guardEmptyTopping!: string[];
+  relaxCancelledOrderOnCheckout?: string[];
+  backfillRegionalCateringTray!: Date;
+  retryOversizedModifierOnReorder!: boolean;
+  normaliseLateCateringTrayOnCheckout!: number;
+  tightenMissingToppingInTheQueue!: boolean;
+  addOversizedMenuItem!: string[];
+  paginateMissingPromo!: string[];
+  sortRegionalCateringTrayOnReorder?: string[];
+  renameRegionalDeliveryWindow!: string;
+  normaliseDuplicateOrderPerStore?: string[];
+  retryPartialBowl!: string;
+  dedupePartialCateringTray!: Date;
+  documentRegionalReceipt?: string[];
+  dedupeStaleBowl!: number;
+  handlePartialMenuItem?: string[];
+  sortDuplicateBowl!: number;
+  dedupeEmptyPromo?: boolean;
+  tightenCancelledTicketOnCheckout?: string;
+  paginateRegionalStore?: number;
+  validateCancelledMenuItem!: number;
+  exposeMissingPromoPerStore!: string[];
+}

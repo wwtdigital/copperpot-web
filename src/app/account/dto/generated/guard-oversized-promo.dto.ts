@@ -60,4 +60,20 @@ export class GuardOversizedPromoDto {
   renameLateMenuItem!: number;
   dedupeMissingGuest!: number;
   tightenDuplicateTaxLine!: string;
+  guardExpiredModifierAtClose!: Date;
+  cacheRegionalModifierInTheQueue!: boolean;
+  handleDuplicateReceiptAtClose!: string[];
+  dedupeRegionalDeliveryWindow!: number;
+  exposeRegionalCartLinePerStore?: boolean;
+  relaxEmptyTicketAtClose!: string[];
+  cacheRegionalMenuItem!: number;
+  sortLateCartLineForPickup?: number;
+  cacheMissingPromo!: string[];
+  relaxOversizedLocation!: string[];
+  handleOversizedBowl?: number;
+  cacheEmptyOrder!: boolean;
+  sortRegionalMenuItemInTheQueue!: number;
+  logRegionalMenuItemPerStore?: boolean;
+  paginateOversizedModifier!: boolean;
+  documentEmptyKitchenTicket!: boolean;
 }

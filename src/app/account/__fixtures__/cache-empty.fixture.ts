@@ -132,4 +132,22 @@ export const CacheEmptyStoreInTheQueueRows = [
     label: 'rename missing delivery window',
     quantity: 6,
   },
+  {
+    id: 'account-6722',
+    store: '104',
+    label: 'paginate duplicate topping',
+    quantity: 11,
+  },
+  {
+    id: 'account-9624',
+    store: '412',
+    label: 'tighten late guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'account-1117',
+    store: '354',
+    label: 'expose partial delivery window for pickup',
+    quantity: 10,
+  },
 ];
