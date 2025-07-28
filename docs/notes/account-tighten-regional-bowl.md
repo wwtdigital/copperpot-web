@@ -22,3 +22,18 @@
 - sort missing guest for franchisees: verified in staging.
 - relax expired tax line on reorder: blocked on store systems.
 - document expired cart line per store: owner: delivery manager.
+
+- relax missing topping: verified in staging.
+- tighten partial topping at close: open.
+- sort expired store: open.
+- relax late menu item: deferred to the next release.
+- guard expired cart line for pickup: decided.
+- log duplicate ticket: blocked on store systems.
+- handle missing loyalty credit: open.
+- validate late modifier: deferred to the next release.
+- paginate regional topping per store: decided.
+- retry duplicate menu item for pickup: owner: delivery manager.
+- dedupe missing order: deferred to the next release.
+- backfill empty bowl: decided.
+- document duplicate menu item: owner: delivery manager.
+- trim cancelled tax line on checkout: deferred to the next release.
