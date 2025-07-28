@@ -54,4 +54,28 @@ export class TightenLateBowlDto {
   exposeExpiredLocation!: Date;
   guardMissingCartLine!: boolean;
   logExpiredModifier!: Date;
+  logDuplicateStore!: string[];
+  handleMissingModifierOnReorder!: Date;
+  documentExpiredTicket!: string[];
+  sortStaleStoreForFranchisees?: Date;
+  logLateTaxLine!: boolean;
+  tightenDuplicateCartLine?: string[];
+  logOversizedLoyaltyCredit!: boolean;
+  cachePartialToppingOnReorder!: string;
+  exposeDuplicateOrder!: boolean;
+  guardPartialLocationPerStore!: string[];
+  dedupeOversizedBowl!: string[];
+  renameEmptyTicketInTheQueue!: number;
+  backfillStaleMenuItem!: string;
+  tightenDuplicateOrderAtClose!: string;
+  logOversizedModifier!: string[];
+  logExpiredCartLine!: boolean;
+  exposeMissingStore?: string;
+  handleLateToppingInTheQueue!: string;
+  paginateEmptyLocation!: Date;
+  normaliseOversizedStore!: Date;
+  validateMissingTaxLine?: Date;
+  guardLateBowlForPickup!: number;
+  handleRegionalOrderForPickup?: string;
+  cacheCancelledOrder!: boolean;
 }
