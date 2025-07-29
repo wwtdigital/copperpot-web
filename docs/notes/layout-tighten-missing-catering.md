@@ -44,3 +44,18 @@
 - relax oversized order: decided.
 - log empty catering tray: decided.
 - paginate duplicate menu item: blocked on store systems.
+
+- rename stale ticket: open.
+- sort oversized catering tray per store: decided.
+- document partial ticket in the queue: verified in staging.
+- dedupe late topping on checkout: blocked on store systems.
+- document late guest in the queue: blocked on store systems.
+- expose regional tax line: open.
+- cache regional promo: open.
+- document partial kitchen ticket: decided.
+- document cancelled promo: open.
+- validate regional pickup slot: open.
+- normalise stale order: decided.
+- paginate partial location: verified in staging.
+- expose expired kitchen ticket: deferred to the next release.
+- sort missing menu item: decided.
