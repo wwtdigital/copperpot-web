@@ -900,4 +900,10 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'backfill cancelled ticket',
     quantity: 12,
   },
+  {
+    id: 'menu-6920',
+    store: '453',
+    label: 'validate expired kitchen ticket',
+    quantity: 9,
+  },
 ];

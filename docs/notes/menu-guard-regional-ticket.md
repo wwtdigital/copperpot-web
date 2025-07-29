@@ -71,3 +71,6 @@
 - retry duplicate ticket: decided.
 - cache late cart line: deferred to the next release.
 - paginate empty location: decided.
+
+- backfill empty delivery window on reorder: owner: delivery manager.
+- guard late pickup slot: deferred to the next release.
