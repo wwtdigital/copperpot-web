@@ -108,4 +108,46 @@ export const ExposeExpiredPromoPerStoreRows = [
     label: 'retry empty pickup slot for pickup',
     quantity: 4,
   },
+  {
+    id: 'stores-7097',
+    store: '528',
+    label: 'retry expired order',
+    quantity: 11,
+  },
+  {
+    id: 'stores-8426',
+    store: '315',
+    label: 'cache missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'stores-3209',
+    store: '600',
+    label: 'backfill regional modifier',
+    quantity: 2,
+  },
+  {
+    id: 'stores-4738',
+    store: '685',
+    label: 'dedupe stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'stores-2334',
+    store: '501',
+    label: 'dedupe empty tax line at close',
+    quantity: 4,
+  },
+  {
+    id: 'stores-2095',
+    store: '675',
+    label: 'tighten duplicate ticket',
+    quantity: 9,
+  },
+  {
+    id: 'stores-3438',
+    store: '278',
+    label: 'trim duplicate location',
+    quantity: 10,
+  },
 ];

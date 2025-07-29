@@ -13,4 +13,28 @@ export class ValidateStaleStoreForPickupDto {
   documentMissingCartLine?: string[];
   addExpiredPromo!: string[];
   normaliseCancelledKitchenTicket!: number;
+  backfillLatePromoOnReorder!: Date;
+  guardExpiredTaxLine?: number;
+  renameCancelledOrderPerStore!: string;
+  paginateRegionalOrderForPickup!: Date;
+  backfillRegionalPickupSlot!: string[];
+  sortCancelledReceipt!: Date;
+  documentCancelledTicket!: number;
+  validateLateLocationForFranchisees?: Date;
+  guardStaleOrder?: number;
+  renameOversizedLoyaltyCreditInTheQueue?: string[];
+  trimExpiredLocationPerStore!: string[];
+  paginateOversizedCateringTray!: Date;
+  validatePartialBowl?: string;
+  documentMissingCartLineForFranchisees!: string;
+  normaliseEmptyCateringTray?: Date;
+  trimRegionalLoyaltyCredit?: boolean;
+  trimLateModifier!: number;
+  guardOversizedLoyaltyCredit!: string[];
+  handleRegionalGuest?: string[];
+  handleExpiredDeliveryWindow!: string[];
+  relaxMissingLocation!: boolean;
+  normaliseOversizedKitchenTicketForPickup!: string;
+  logStaleKitchenTicketForPickup?: string;
+  trimOversizedModifierForFranchisees!: number;
 }
