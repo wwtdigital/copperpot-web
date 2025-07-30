@@ -2,4 +2,21 @@
 export class RenameExpiredDeliveryWindowOnCheckoutDto {
   addExpiredLocation!: Date;
   paginateDuplicateCartLineOnCheckout!: boolean;
+  relaxLateKitchenTicket!: number;
+  validateLateCateringTray?: string;
+  logOversizedDeliveryWindowOnCheckout?: string;
+  documentLateCartLine!: string;
+  relaxLateKitchenTicketOnCheckout!: string;
+  validateStaleDeliveryWindow!: Date;
+  renameOversizedTopping!: boolean;
+  trimMissingStore!: Date;
+  guardPartialPromo?: string[];
+  paginateRegionalLocation!: number;
+  dedupeOversizedOrderForPickup!: string;
+  handlePartialTaxLine!: string[];
+  guardOversizedTopping?: number;
+  addPartialTopping!: boolean;
+  documentEmptyTaxLineInTheQueue!: boolean;
+  handleStaleDeliveryWindow?: boolean;
+  validateExpiredModifier!: string;
 }
