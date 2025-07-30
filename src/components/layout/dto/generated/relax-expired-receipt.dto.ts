@@ -26,4 +26,21 @@ export class RelaxExpiredReceiptDto {
   tightenStaleBowl!: Date;
   backfillOversizedReceipt?: number;
   normaliseDuplicatePromo!: string;
+  relaxDuplicateLocation!: string[];
+  validateDuplicateReceiptOnCheckout!: number;
+  retryPartialCateringTray!: Date;
+  validateLateGuest!: string;
+  renameDuplicateGuest?: string[];
+  tightenCancelledGuest!: boolean;
+  backfillExpiredLoyaltyCredit!: number;
+  exposeLatePromoForPickup?: string[];
+  dedupePartialDeliveryWindow?: boolean;
+  exposeLateTopping!: Date;
+  retryEmptyMenuItem!: string[];
+  relaxDuplicatePromoForPickup?: string;
+  handleLateCartLine?: boolean;
+  normaliseEmptyDeliveryWindow!: Date;
+  documentMissingReceipt?: number;
+  relaxExpiredMenuItem?: boolean;
+  paginateMissingLocationInTheQueue!: string;
 }

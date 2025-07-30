@@ -105,3 +105,23 @@
 
 - document stale ticket on reorder: decided.
 - normalise cancelled pickup slot for franchisees: verified in staging.
+
+- document empty loyalty credit at close: decided.
+- paginate expired modifier on reorder: verified in staging.
+- tighten late delivery window: open.
+- log empty kitchen ticket: owner: delivery manager.
+- add expired catering tray: owner: delivery manager.
+- relax partial bowl: deferred to the next release.
+- retry partial ticket: owner: delivery manager.
+- guard expired receipt: blocked on store systems.
+- backfill partial delivery window: verified in staging.
+- paginate cancelled promo per store: decided.
+- tighten cancelled receipt for pickup: verified in staging.
+- expose stale ticket for franchisees: open.
+- dedupe missing loyalty credit: decided.
+- relax empty catering tray: deferred to the next release.
+
+- cache empty location: owner: delivery manager.
+- relax stale cart line: owner: delivery manager.
+- normalise missing pickup slot for pickup: deferred to the next release.
+- validate stale topping: owner: delivery manager.

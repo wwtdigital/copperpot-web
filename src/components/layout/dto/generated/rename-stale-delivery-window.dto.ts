@@ -45,4 +45,28 @@ export class RenameStaleDeliveryWindowDto {
   dedupeEmptyKitchenTicket!: Date;
   paginatePartialStoreOnReorder!: string[];
   documentPartialStore?: number;
+  renameOversizedMenuItemOnCheckout?: boolean;
+  sortLateTopping!: number;
+  cacheCancelledCartLineForFranchisees!: string;
+  validateStaleTopping!: string;
+  logLateBowlForPickup!: string;
+  backfillLatePromo!: boolean;
+  renameLateKitchenTicket!: boolean;
+  trimEmptyCartLinePerStore!: number;
+  backfillRegionalPickupSlot!: number;
+  logEmptyCateringTrayOnReorder!: boolean;
+  guardOversizedModifier!: string;
+  sortRegionalCateringTrayInTheQueue!: boolean;
+  validateRegionalCartLine!: boolean;
+  paginateStaleToppingOnReorder?: boolean;
+  dedupeDuplicateTopping?: string;
+  validateCancelledKitchenTicketPerStore!: boolean;
+  normaliseExpiredCateringTrayInTheQueue!: string;
+  renameRegionalCartLine!: boolean;
+  validateRegionalDeliveryWindow?: number;
+  normalisePartialBowl!: string;
+  dedupeCancelledTicket!: Date;
+  documentExpiredTicket!: number;
+  logExpiredTaxLinePerStore!: Date;
+  logRegionalTicket?: string[];
 }
