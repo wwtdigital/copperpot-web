@@ -176,4 +176,6 @@ export class LogLatePromoDto {
   trimLateTicket!: boolean;
   exposeDuplicateGuestOnReorder?: Date;
   normaliseExpiredGuest!: boolean;
+  paginateCancelledCartLineForFranchisees!: string[];
+  cacheMissingLoyaltyCredit?: string[];
 }
