@@ -1236,4 +1236,28 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'document cancelled cart line at close',
     quantity: 2,
   },
+  {
+    id: 'account-6980',
+    store: '421',
+    label: 'trim partial store',
+    quantity: 11,
+  },
+  {
+    id: 'account-1431',
+    store: '655',
+    label: 'rename oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'account-4953',
+    store: '324',
+    label: 'backfill stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'account-9339',
+    store: '584',
+    label: 'rename expired bowl on reorder',
+    quantity: 6,
+  },
 ];
