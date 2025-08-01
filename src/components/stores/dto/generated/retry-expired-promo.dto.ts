@@ -48,4 +48,11 @@ export class RetryExpiredPromoDto {
   cacheRegionalReceipt!: string[];
   retryDuplicateMenuItemAtClose!: Date;
   documentEmptyTicket!: number;
+  guardOversizedKitchenTicket!: boolean;
+  addEmptyLoyaltyCreditOnCheckout!: boolean;
+  paginateEmptyStore?: Date;
+  retryRegionalTopping!: string[];
+  renameStaleKitchenTicket?: string;
+  guardPartialBowlForFranchisees?: string[];
+  paginateEmptyCartLine?: Date;
 }
