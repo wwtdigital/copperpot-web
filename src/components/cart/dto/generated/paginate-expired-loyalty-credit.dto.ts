@@ -4,4 +4,28 @@ export class PaginateExpiredLoyaltyCreditDto {
   retryRegionalTicket?: number;
   handleDuplicateDeliveryWindowPerStore!: Date;
   backfillLateCateringTrayAtClose!: string;
+  handleMissingTaxLine!: string;
+  handleCancelledPickupSlot!: boolean;
+  tightenPartialReceipt!: Date;
+  cacheExpiredPromo!: string;
+  backfillLateMenuItemForPickup!: string[];
+  relaxExpiredMenuItemForPickup!: string[];
+  documentEmptyKitchenTicket?: string;
+  addCancelledCateringTray!: number;
+  sortLateGuest!: boolean;
+  exposeRegionalMenuItem!: string;
+  handlePartialLocation!: boolean;
+  normaliseOversizedToppingForFranchisees?: string[];
+  backfillEmptyCateringTray!: Date;
+  normalisePartialGuestForPickup!: boolean;
+  exposePartialCateringTrayAtClose!: string;
+  exposeCancelledMenuItem?: number;
+  paginateOversizedLocationPerStore?: number;
+  relaxEmptyLoyaltyCreditPerStore!: boolean;
+  validateEmptyCateringTray?: number;
+  retryPartialStore!: boolean;
+  documentPartialBowlAtClose?: string;
+  dedupeEmptyDeliveryWindow?: string[];
+  cachePartialLocationForFranchisees?: number;
+  paginateDuplicateCartLine!: number;
 }
