@@ -50,4 +50,7 @@ export class TightenStaleLoyaltyCreditDto {
   addPartialLocation!: number;
   tightenDuplicateStoreOnReorder!: boolean;
   dedupeEmptyCateringTray!: Date;
+  guardDuplicateMenuItem!: string[];
+  exposeCancelledCartLine?: Date;
+  renameStaleMenuItem!: string[];
 }
