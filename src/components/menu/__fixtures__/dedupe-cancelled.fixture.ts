@@ -906,4 +906,16 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'validate expired kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'menu-1234',
+    store: '433',
+    label: 'sort partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'menu-8588',
+    store: '639',
+    label: 'document late pickup slot',
+    quantity: 2,
+  },
 ];
