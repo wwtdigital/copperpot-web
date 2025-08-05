@@ -918,4 +918,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'document late pickup slot',
     quantity: 2,
   },
+  {
+    id: 'menu-6312',
+    store: '328',
+    label: 'sort missing loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'menu-8100',
+    store: '470',
+    label: 'relax late promo',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6028',
+    store: '512',
+    label: 'handle oversized pickup slot',
+    quantity: 7,
+  },
 ];
