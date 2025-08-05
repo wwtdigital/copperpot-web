@@ -129,4 +129,9 @@ export class SortStalePickupSlotDto {
   normaliseEmptyLoyaltyCredit!: string[];
   validateRegionalCartLine!: number;
   addStalePromoForPickup!: string;
+  normalisePartialCateringTrayAtClose!: string;
+  documentMissingPromoOnReorder!: string[];
+  logPartialDeliveryWindowOnCheckout!: string[];
+  backfillStaleLoyaltyCredit?: Date;
+  renameMissingBowlAtClose?: string[];
 }

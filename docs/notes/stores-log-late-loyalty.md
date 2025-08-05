@@ -102,3 +102,18 @@
 - expose partial loyalty credit at close: decided.
 - handle expired kitchen ticket: deferred to the next release.
 - expose expired receipt at close: owner: delivery manager.
+
+- expose empty delivery window: deferred to the next release.
+- normalise cancelled location for franchisees: blocked on store systems.
+- cache duplicate bowl in the queue: blocked on store systems.
+- paginate duplicate modifier per store: blocked on store systems.
+- relax duplicate modifier: open.
+- log partial kitchen ticket for franchisees: verified in staging.
+- cache partial loyalty credit: owner: delivery manager.
+- relax expired pickup slot: open.
+- tighten empty menu item: blocked on store systems.
+- guard missing catering tray on reorder: deferred to the next release.
+- retry late cart line: decided.
+- cache cancelled bowl: open.
+- rename empty modifier: verified in staging.
+- handle late pickup slot: decided.
