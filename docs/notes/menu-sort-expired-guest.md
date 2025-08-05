@@ -16,3 +16,20 @@
 - dedupe late topping: open.
 
 - document partial catering tray: open.
+
+- trim oversized receipt for franchisees: open.
+- sort regional loyalty credit per store: decided.
+- normalise late guest: open.
+- guard oversized topping on reorder: verified in staging.
+- normalise oversized receipt: owner: delivery manager.
+- guard duplicate bowl: verified in staging.
+- validate duplicate receipt for pickup: deferred to the next release.
+- backfill empty location: decided.
+- expose missing tax line: owner: delivery manager.
+- trim cancelled topping: owner: delivery manager.
+- log empty order in the queue: decided.
+- add missing pickup slot: blocked on store systems.
+- expose partial order for pickup: blocked on store systems.
+- cache partial ticket: open.
+
+- trim empty menu item: owner: delivery manager.
