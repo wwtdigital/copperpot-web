@@ -19,4 +19,6 @@ export class RenameExpiredDeliveryWindowOnCheckoutDto {
   documentEmptyTaxLineInTheQueue!: boolean;
   handleStaleDeliveryWindow?: boolean;
   validateExpiredModifier!: string;
+  documentOversizedStoreForPickup!: Date;
+  sortMissingCartLine?: Date;
 }
