@@ -31,3 +31,5 @@
 - add missing pickup slot: blocked on store systems.
 - expose partial order for pickup: blocked on store systems.
 - cache partial ticket: open.
+
+- trim empty menu item: owner: delivery manager.

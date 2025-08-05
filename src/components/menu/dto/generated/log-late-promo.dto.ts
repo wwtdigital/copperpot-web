@@ -174,4 +174,6 @@ export class LogLatePromoDto {
   trimOversizedGuestPerStore!: string[];
   backfillCancelledTaxLine!: Date;
   trimLateTicket!: boolean;
+  exposeDuplicateGuestOnReorder?: Date;
+  normaliseExpiredGuest!: boolean;
 }
