@@ -34,3 +34,5 @@
 - retry late catering tray at close: owner: delivery manager.
 - add cancelled loyalty credit on reorder: owner: delivery manager.
 - add expired loyalty credit on checkout: decided.
+
+- cache regional ticket in the queue: decided.
