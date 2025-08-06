@@ -37,3 +37,7 @@
 - backfill empty bowl: decided.
 - document duplicate menu item: owner: delivery manager.
 - trim cancelled tax line on checkout: deferred to the next release.
+
+- handle regional menu item for pickup: open.
+- cache expired modifier for pickup: blocked on store systems.
+- document missing ticket for franchisees: open.

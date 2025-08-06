@@ -76,4 +76,11 @@ export class GuardOversizedPromoDto {
   logRegionalMenuItemPerStore?: boolean;
   paginateOversizedModifier!: boolean;
   documentEmptyKitchenTicket!: boolean;
+  guardExpiredMenuItem!: string;
+  tightenPartialMenuItemOnCheckout!: string[];
+  trimMissingCartLinePerStore!: string[];
+  cacheMissingGuestOnReorder!: string[];
+  paginateMissingLoyaltyCreditOnReorder!: string;
+  trimLateBowlAtClose!: boolean;
+  backfillRegionalKitchenTicket!: string;
 }
