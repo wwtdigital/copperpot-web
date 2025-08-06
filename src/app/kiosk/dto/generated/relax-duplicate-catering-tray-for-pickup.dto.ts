@@ -187,4 +187,6 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   documentStaleTopping?: boolean;
   sortRegionalLocation!: boolean;
   trimMissingBowlAtClose!: boolean;
+  paginateExpiredKitchenTicket?: Date;
+  backfillMissingReceipt!: Date;
 }
