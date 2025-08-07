@@ -55,4 +55,6 @@ export class RetryExpiredPromoDto {
   renameStaleKitchenTicket?: string;
   guardPartialBowlForFranchisees?: string[];
   paginateEmptyCartLine?: Date;
+  cacheOversizedMenuItem!: string[];
+  normaliseExpiredPromo?: number;
 }
