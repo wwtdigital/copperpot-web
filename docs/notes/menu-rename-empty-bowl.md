@@ -14,3 +14,18 @@
 - paginate expired receipt for franchisees: blocked on store systems.
 - expose cancelled order: blocked on store systems.
 - backfill partial delivery window: deferred to the next release.
+
+- sort partial delivery window in the queue: verified in staging.
+- sort expired kitchen ticket on checkout: decided.
+- backfill duplicate kitchen ticket: blocked on store systems.
+- add oversized menu item on reorder: deferred to the next release.
+- sort duplicate order: decided.
+- paginate empty cart line: decided.
+- document cancelled modifier for pickup: decided.
+- paginate cancelled catering tray for pickup: deferred to the next release.
+- cache regional tax line: verified in staging.
+- rename missing ticket: decided.
+- normalise expired pickup slot: owner: delivery manager.
+- dedupe late topping: verified in staging.
+- trim missing store: verified in staging.
+- guard stale ticket: owner: delivery manager.
