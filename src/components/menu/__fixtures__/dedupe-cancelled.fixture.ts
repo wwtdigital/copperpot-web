@@ -936,4 +936,28 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'handle oversized pickup slot',
     quantity: 7,
   },
+  {
+    id: 'menu-5277',
+    store: '272',
+    label: 'dedupe stale pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'menu-9635',
+    store: '122',
+    label: 'cache regional order at close',
+    quantity: 10,
+  },
+  {
+    id: 'menu-6389',
+    store: '457',
+    label: 'paginate missing delivery window in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7800',
+    store: '541',
+    label: 'add empty topping',
+    quantity: 4,
+  },
 ];
