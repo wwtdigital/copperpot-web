@@ -6,4 +6,34 @@ export const CachePartialLocationRows = [
     label: 'trim stale location',
     quantity: 10,
   },
+  {
+    id: 'checkout-5698',
+    store: '513',
+    label: 'guard cancelled order',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-9020',
+    store: '388',
+    label: 'handle late order at close',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-6428',
+    store: '610',
+    label: 'dedupe partial menu item',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-7242',
+    store: '460',
+    label: 'guard cancelled order',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1050',
+    store: '246',
+    label: 'sort late modifier',
+    quantity: 2,
+  },
 ];

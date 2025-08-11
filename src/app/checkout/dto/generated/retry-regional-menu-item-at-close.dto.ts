@@ -4,4 +4,28 @@ export class RetryRegionalMenuItemAtCloseDto {
   guardOversizedPickupSlot?: string[];
   renameRegionalTicket!: Date;
   relaxMissingModifier!: Date;
+  normaliseMissingOrder!: string;
+  logDuplicateGuest?: boolean;
+  exposeCancelledKitchenTicket!: number;
+  dedupeOversizedTopping?: Date;
+  backfillStaleCateringTray!: Date;
+  trimExpiredKitchenTicketForPickup?: number;
+  backfillStaleReceipt!: string[];
+  backfillPartialReceiptForFranchisees!: string;
+  addOversizedCateringTrayOnCheckout!: number;
+  normaliseLateDeliveryWindow!: boolean;
+  paginateStaleBowl!: number;
+  cacheExpiredPickupSlot?: Date;
+  tightenPartialCateringTray!: string[];
+  paginateRegionalCartLineForPickup!: number;
+  guardExpiredCateringTray!: string[];
+  documentEmptyLocationPerStore!: number;
+  trimExpiredReceipt!: boolean;
+  exposeExpiredModifier!: Date;
+  cacheCancelledBowl!: string;
+  cacheMissingStore!: number;
+  cacheEmptyPromo!: string[];
+  addMissingKitchenTicket!: Date;
+  renameCancelledTaxLineOnReorder!: string;
+  handlePartialCateringTrayInTheQueue!: number;
 }
