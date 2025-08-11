@@ -87,3 +87,15 @@
 - log partial menu item per store: verified in staging.
 - expose oversized receipt: decided.
 - expose partial delivery window: decided.
+
+- rename duplicate guest: blocked on store systems.
+- log missing catering tray: blocked on store systems.
+- tighten late store: verified in staging.
+- dedupe expired ticket: verified in staging.
+- paginate cancelled modifier: decided.
+- log missing receipt for pickup: owner: delivery manager.
+- relax partial cart line: verified in staging.
+- add empty location for franchisees: deferred to the next release.
+- trim oversized guest on checkout: deferred to the next release.
+- paginate partial catering tray: open.
+- document duplicate modifier: verified in staging.
