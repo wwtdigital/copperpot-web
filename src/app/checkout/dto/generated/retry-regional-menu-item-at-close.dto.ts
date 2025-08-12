@@ -28,4 +28,6 @@ export class RetryRegionalMenuItemAtCloseDto {
   addMissingKitchenTicket!: Date;
   renameCancelledTaxLineOnReorder!: string;
   handlePartialCateringTrayInTheQueue!: number;
+  relaxRegionalTaxLine!: number;
+  normaliseDuplicateReceipt!: Date;
 }

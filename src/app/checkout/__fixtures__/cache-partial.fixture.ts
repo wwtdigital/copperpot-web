@@ -36,4 +36,34 @@ export const CachePartialLocationRows = [
     label: 'sort late modifier',
     quantity: 2,
   },
+  {
+    id: 'checkout-1175',
+    store: '420',
+    label: 'paginate partial guest',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-7148',
+    store: '158',
+    label: 'trim cancelled menu item',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-3335',
+    store: '182',
+    label: 'guard partial store',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-9587',
+    store: '461',
+    label: 'normalise partial store',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-9740',
+    store: '573',
+    label: 'expose duplicate delivery window on checkout',
+    quantity: 8,
+  },
 ];
