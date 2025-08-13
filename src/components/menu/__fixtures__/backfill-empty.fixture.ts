@@ -3756,4 +3756,58 @@ export const BackfillEmptyTaxLineRows = [
     label: 'sort regional modifier',
     quantity: 3,
   },
+  {
+    id: 'menu-7580',
+    store: '520',
+    label: 'dedupe cancelled menu item per store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8654',
+    store: '200',
+    label: 'relax cancelled promo',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8802',
+    store: '687',
+    label: 'relax oversized store',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5336',
+    store: '489',
+    label: 'cache stale modifier',
+    quantity: 3,
+  },
+  {
+    id: 'menu-1484',
+    store: '180',
+    label: 'trim expired order',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8290',
+    store: '291',
+    label: 'trim oversized loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3046',
+    store: '135',
+    label: 'expose empty topping in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'menu-6766',
+    store: '509',
+    label: 'validate empty cart line',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7545',
+    store: '467',
+    label: 'log stale catering tray',
+    quantity: 11,
+  },
 ];
