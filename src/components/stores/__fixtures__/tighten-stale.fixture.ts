@@ -36,4 +36,40 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'relax late receipt for pickup',
     quantity: 9,
   },
+  {
+    id: 'stores-7649',
+    store: '140',
+    label: 'normalise late store',
+    quantity: 5,
+  },
+  {
+    id: 'stores-8548',
+    store: '111',
+    label: 'relax cancelled ticket',
+    quantity: 1,
+  },
+  {
+    id: 'stores-8047',
+    store: '593',
+    label: 'log expired receipt',
+    quantity: 7,
+  },
+  {
+    id: 'stores-4756',
+    store: '266',
+    label: 'trim expired location',
+    quantity: 5,
+  },
+  {
+    id: 'stores-5748',
+    store: '494',
+    label: 'document oversized ticket',
+    quantity: 10,
+  },
+  {
+    id: 'stores-4883',
+    store: '410',
+    label: 'retry late order',
+    quantity: 3,
+  },
 ];
