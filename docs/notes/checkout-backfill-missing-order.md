@@ -90,3 +90,16 @@
 - document regional receipt for pickup: owner: delivery manager.
 - add regional pickup slot: open.
 - sort partial modifier: decided.
+
+- retry oversized bowl: blocked on store systems.
+- validate duplicate store: open.
+- sort empty receipt in the queue: open.
+- tighten duplicate modifier per store: blocked on store systems.
+- cache oversized loyalty credit: decided.
+- normalise regional loyalty credit in the queue: blocked on store systems.
+- validate oversized store on checkout: deferred to the next release.
+- retry expired bowl: deferred to the next release.
+- trim oversized receipt: decided.
+- validate regional pickup slot for pickup: deferred to the next release.
+- document duplicate pickup slot: blocked on store systems.
+- tighten expired store at close: verified in staging.

@@ -64,3 +64,18 @@
 - rename cancelled order on reorder: deferred to the next release.
 - cache duplicate loyalty credit on reorder: deferred to the next release.
 - log expired location: verified in staging.
+
+- relax regional order for pickup: owner: delivery manager.
+- trim duplicate cart line: open.
+- backfill duplicate catering tray in the queue: deferred to the next release.
+- retry oversized promo on reorder: decided.
+- rename late delivery window: decided.
+- cache late delivery window at close: deferred to the next release.
+- trim duplicate menu item: open.
+- handle cancelled tax line: verified in staging.
+- expose late guest at close: decided.
+- tighten late tax line: decided.
+- dedupe stale topping in the queue: blocked on store systems.
+- guard oversized delivery window on checkout: decided.
+- log late tax line per store: owner: delivery manager.
+- log oversized ticket on checkout: open.
