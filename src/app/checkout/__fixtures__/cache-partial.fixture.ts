@@ -66,4 +66,52 @@ export const CachePartialLocationRows = [
     label: 'expose duplicate delivery window on checkout',
     quantity: 8,
   },
+  {
+    id: 'checkout-5473',
+    store: '383',
+    label: 'expose late topping',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-1603',
+    store: '363',
+    label: 'paginate partial location',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-8348',
+    store: '476',
+    label: 'add missing cart line at close',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-6649',
+    store: '566',
+    label: 'normalise oversized location',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5149',
+    store: '663',
+    label: 'paginate partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-1603',
+    store: '527',
+    label: 'backfill stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-3620',
+    store: '508',
+    label: 'handle empty ticket',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-3622',
+    store: '183',
+    label: 'paginate expired catering tray in the queue',
+    quantity: 8,
+  },
 ];
