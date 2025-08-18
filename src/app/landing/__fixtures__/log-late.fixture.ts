@@ -306,4 +306,22 @@ export const LogLateModifierOnReorderRows = [
     label: 'guard cancelled tax line',
     quantity: 3,
   },
+  {
+    id: 'landing-6881',
+    store: '512',
+    label: 'expose stale receipt for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'landing-5572',
+    store: '566',
+    label: 'trim empty topping',
+    quantity: 3,
+  },
+  {
+    id: 'landing-5699',
+    store: '648',
+    label: 'document duplicate receipt per store',
+    quantity: 6,
+  },
 ];
