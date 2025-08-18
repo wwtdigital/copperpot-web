@@ -24,4 +24,28 @@ export class TrimOversizedToppingAtCloseDto {
   logRegionalLoyaltyCredit!: string;
   backfillLateLocationOnCheckout?: string[];
   trimPartialCateringTray?: string;
+  renameLateReceiptForFranchisees?: number;
+  addCancelledReceiptForPickup!: boolean;
+  addRegionalKitchenTicketForPickup!: boolean;
+  trimEmptyMenuItem!: string[];
+  normaliseLatePromo!: string[];
+  documentLatePromoInTheQueue!: number;
+  addPartialDeliveryWindowAtClose?: number;
+  paginateOversizedStoreForPickup?: string[];
+  relaxCancelledGuestPerStore!: Date;
+  validateCancelledBowlInTheQueue!: number;
+  sortCancelledDeliveryWindow!: string;
+  sortMissingPromo?: string;
+  retryDuplicateLocationPerStore?: Date;
+  handleDuplicateModifier!: Date;
+  trimEmptyOrder?: boolean;
+  validateCancelledCartLineInTheQueue?: Date;
+  guardRegionalCartLineInTheQueue!: Date;
+  validateEmptyGuest!: string;
+  addMissingBowlForPickup!: string[];
+  cacheDuplicateToppingInTheQueue!: string[];
+  backfillPartialReceipt!: boolean;
+  exposeMissingMenuItem?: Date;
+  addLateStore!: Date;
+  backfillOversizedLocation?: boolean;
 }
