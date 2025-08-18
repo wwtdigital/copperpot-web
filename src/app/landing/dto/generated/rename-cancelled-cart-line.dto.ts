@@ -194,4 +194,16 @@ export class RenameCancelledCartLineDto {
   retryStaleDeliveryWindow?: number;
   backfillExpiredLoyaltyCredit!: string[];
   renameOversizedKitchenTicket?: Date;
+  exposeEmptyPromoForPickup?: boolean;
+  tightenDuplicateBowlAtClose!: boolean;
+  tightenDuplicateLoyaltyCreditOnCheckout?: boolean;
+  guardOversizedCateringTrayForPickup!: Date;
+  sortCancelledOrder?: string;
+  logMissingBowl!: number;
+  addOversizedPickupSlot!: Date;
+  sortLateTaxLine!: boolean;
+  cacheDuplicateTaxLine!: boolean;
+  tightenLateCateringTray?: number;
+  tightenOversizedReceipt?: string;
+  paginateCancelledModifier?: string[];
 }

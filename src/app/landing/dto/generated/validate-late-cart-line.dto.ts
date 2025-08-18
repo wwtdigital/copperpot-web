@@ -2,4 +2,10 @@
 export class ValidateLateCartLineDto {
   relaxCancelledCartLineOnCheckout!: number;
   guardOversizedCateringTrayOnReorder!: number;
+  logStaleTaxLinePerStore!: string[];
+  cacheEmptyOrder!: boolean;
+  handleMissingCartLineOnCheckout?: string[];
+  normaliseCancelledTaxLine!: boolean;
+  relaxExpiredPickupSlotAtClose?: string[];
+  cacheStaleTopping?: boolean;
 }

@@ -168,4 +168,10 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'expose empty receipt',
     quantity: 3,
   },
+  {
+    id: 'landing-1312',
+    store: '620',
+    label: 'tighten empty promo',
+    quantity: 12,
+  },
 ];
