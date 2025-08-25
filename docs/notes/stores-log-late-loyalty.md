@@ -117,3 +117,18 @@
 - cache cancelled bowl: open.
 - rename empty modifier: verified in staging.
 - handle late pickup slot: decided.
+
+- log regional catering tray: open.
+- backfill missing bowl: decided.
+- rename oversized bowl per store: verified in staging.
+- handle stale modifier for pickup: open.
+- dedupe regional modifier: verified in staging.
+- log missing topping in the queue: deferred to the next release.
+- validate expired modifier per store: decided.
+- handle oversized menu item on reorder: verified in staging.
+- retry empty receipt at close: blocked on store systems.
+- log oversized tax line: owner: delivery manager.
+- relax empty promo: verified in staging.
+- log cancelled store: open.
+- cache stale cart line: blocked on store systems.
+- add oversized cart line: verified in staging.
