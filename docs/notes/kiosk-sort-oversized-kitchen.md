@@ -103,3 +103,18 @@
 - expose duplicate receipt on checkout: verified in staging.
 - handle partial pickup slot: owner: delivery manager.
 - tighten expired delivery window: owner: delivery manager.
+
+- add empty delivery window for franchisees: decided.
+- backfill expired receipt on reorder: decided.
+- normalise cancelled ticket in the queue: blocked on store systems.
+- document regional modifier: blocked on store systems.
+- trim oversized receipt: owner: delivery manager.
+- relax stale guest for franchisees: decided.
+- paginate stale topping: open.
+- dedupe late menu item for franchisees: deferred to the next release.
+- sort expired ticket: owner: delivery manager.
+- document late modifier: verified in staging.
+- retry late modifier: blocked on store systems.
+- paginate partial bowl for pickup: open.
+- backfill cancelled delivery window on checkout: blocked on store systems.
+- rename expired bowl for pickup: deferred to the next release.
