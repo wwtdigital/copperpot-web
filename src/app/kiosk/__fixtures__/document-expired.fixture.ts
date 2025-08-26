@@ -48,4 +48,40 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'relax missing promo on reorder',
     quantity: 9,
   },
+  {
+    id: 'kiosk-4291',
+    store: '494',
+    label: 'guard missing tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-2132',
+    store: '188',
+    label: 'log stale promo',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-4465',
+    store: '263',
+    label: 'add duplicate kitchen ticket for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-1797',
+    store: '408',
+    label: 'rename duplicate kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'kiosk-1565',
+    store: '397',
+    label: 'normalise regional guest',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-8336',
+    store: '681',
+    label: 'log missing bowl per store',
+    quantity: 4,
+  },
 ];
