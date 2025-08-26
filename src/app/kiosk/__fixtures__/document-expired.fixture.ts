@@ -24,4 +24,28 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'rename stale topping at close',
     quantity: 7,
   },
+  {
+    id: 'kiosk-4966',
+    store: '358',
+    label: 'normalise expired location at close',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-6887',
+    store: '405',
+    label: 'backfill stale receipt',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-8524',
+    store: '238',
+    label: 'sort stale loyalty credit in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-1176',
+    store: '414',
+    label: 'relax missing promo on reorder',
+    quantity: 9,
+  },
 ];
