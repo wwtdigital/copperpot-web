@@ -8,4 +8,27 @@ export class ValidateLateCartLineDto {
   normaliseCancelledTaxLine!: boolean;
   relaxExpiredPickupSlotAtClose?: string[];
   cacheStaleTopping?: boolean;
+  sortOversizedLoyaltyCreditOnCheckout!: boolean;
+  trimExpiredLocation?: string;
+  addLateTicketAtClose?: boolean;
+  cacheRegionalLocation!: string;
+  documentCancelledOrderPerStore!: Date;
+  renamePartialTicketPerStore!: string[];
+  addMissingMenuItem?: boolean;
+  validateMissingGuestForPickup!: boolean;
+  validateStalePromoOnCheckout!: Date;
+  sortEmptyLocationInTheQueue!: string;
+  dedupeDuplicateModifierInTheQueue!: Date;
+  normaliseCancelledPromo!: string;
+  dedupeLateModifierForPickup!: boolean;
+  backfillStaleDeliveryWindow?: number;
+  tightenOversizedLocationOnCheckout!: string;
+  addRegionalKitchenTicket!: string[];
+  retryMissingTicket!: Date;
+  tightenExpiredCartLine!: number;
+  validateExpiredLoyaltyCredit?: Date;
+  validateStalePromoAtClose!: Date;
+  validatePartialDeliveryWindow!: string;
+  sortPartialStore!: string[];
+  relaxRegionalPickupSlot?: number;
 }
