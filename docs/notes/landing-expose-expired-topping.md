@@ -14,3 +14,9 @@
 - sort late location: deferred to the next release.
 - backfill regional topping: verified in staging.
 - dedupe late store per store: verified in staging.
+
+- paginate partial modifier: verified in staging.
+- document oversized receipt: deferred to the next release.
+- tighten oversized pickup slot on checkout: blocked on store systems.
+- normalise late tax line: deferred to the next release.
+- log cancelled ticket: blocked on store systems.
