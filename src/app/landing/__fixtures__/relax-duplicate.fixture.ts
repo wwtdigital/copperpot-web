@@ -174,4 +174,10 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'tighten empty promo',
     quantity: 12,
   },
+  {
+    id: 'landing-4233',
+    store: '330',
+    label: 'dedupe missing catering tray',
+    quantity: 10,
+  },
 ];

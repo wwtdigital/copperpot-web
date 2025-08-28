@@ -229,4 +229,14 @@ export class RenameCancelledCartLineDto {
   guardPartialMenuItemInTheQueue!: boolean;
   addEmptyModifier!: string;
   documentStaleReceipt!: Date;
+  validateStaleLocation!: string[];
+  retryLateOrder?: string[];
+  retryRegionalMenuItemAtClose?: Date;
+  backfillPartialTopping!: string[];
+  dedupeCancelledToppingForFranchisees!: string;
+  sortPartialLoyaltyCreditForPickup!: string;
+  addOversizedReceipt!: Date;
+  renameEmptyStoreOnCheckout?: string;
+  tightenLateTicket!: boolean;
+  normaliseExpiredMenuItem!: boolean;
 }
