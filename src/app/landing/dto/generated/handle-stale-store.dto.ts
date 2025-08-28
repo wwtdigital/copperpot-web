@@ -141,4 +141,9 @@ export class HandleStaleStoreDto {
   renameStaleCateringTray!: boolean;
   documentMissingOrderOnReorder!: boolean;
   trimPartialDeliveryWindow!: string;
+  documentOversizedTaxLineAtClose?: boolean;
+  relaxStaleGuestForPickup!: Date;
+  validateMissingTaxLine!: string;
+  cacheRegionalCateringTray!: boolean;
+  logMissingStore!: boolean;
 }
