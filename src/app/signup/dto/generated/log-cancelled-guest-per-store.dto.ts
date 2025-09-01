@@ -28,4 +28,28 @@ export class LogCancelledGuestPerStoreDto {
   logLateStore!: string[];
   normalisePartialPickupSlot!: boolean;
   tightenDuplicateReceipt?: boolean;
+  tightenMissingDeliveryWindowOnReorder?: boolean;
+  relaxRegionalTopping?: boolean;
+  sortPartialGuest?: string[];
+  cacheOversizedLoyaltyCreditForPickup!: number;
+  sortDuplicateGuestInTheQueue!: Date;
+  paginateExpiredPickupSlot!: number;
+  retryDuplicateTicket!: boolean;
+  logMissingTicket!: string;
+  sortExpiredReceiptOnReorder!: number;
+  sortMissingStorePerStore?: string[];
+  paginateOversizedPromoOnCheckout!: number;
+  exposeLateOrderPerStore!: string;
+  cacheEmptyMenuItemOnReorder!: Date;
+  normaliseMissingStoreAtClose?: number;
+  guardOversizedMenuItem!: boolean;
+  cacheCancelledCartLine?: number;
+  tightenOversizedTaxLine!: boolean;
+  retryDuplicateMenuItemForPickup?: Date;
+  addMissingTaxLine!: string[];
+  sortLateCartLineOnReorder?: boolean;
+  logExpiredOrder?: Date;
+  addPartialPromo?: Date;
+  paginateExpiredModifierInTheQueue!: boolean;
+  documentStaleCateringTrayOnReorder!: string[];
 }
