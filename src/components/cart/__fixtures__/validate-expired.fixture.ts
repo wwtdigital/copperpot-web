@@ -318,4 +318,46 @@ export const ValidateExpiredModifierRows = [
     label: 'normalise cancelled order',
     quantity: 6,
   },
+  {
+    id: 'cart-3326',
+    store: '442',
+    label: 'dedupe cancelled menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5038',
+    store: '561',
+    label: 'sort expired delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'cart-6438',
+    store: '629',
+    label: 'paginate stale promo',
+    quantity: 4,
+  },
+  {
+    id: 'cart-3137',
+    store: '689',
+    label: 'cache expired promo',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8181',
+    store: '243',
+    label: 'sort regional location',
+    quantity: 10,
+  },
+  {
+    id: 'cart-8649',
+    store: '447',
+    label: 'cache cancelled delivery window for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4361',
+    store: '446',
+    label: 'normalise missing promo',
+    quantity: 9,
+  },
 ];

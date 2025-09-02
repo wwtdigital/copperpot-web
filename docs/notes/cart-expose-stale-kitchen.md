@@ -26,3 +26,7 @@
 - retry regional kitchen ticket: owner: delivery manager.
 - relax cancelled cart line on reorder: deferred to the next release.
 - validate missing guest in the queue: open.
+
+- paginate partial receipt for pickup: verified in staging.
+- add stale modifier in the queue: deferred to the next release.
+- add stale order on checkout: deferred to the next release.
