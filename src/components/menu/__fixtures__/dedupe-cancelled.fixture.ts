@@ -960,4 +960,10 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'add empty topping',
     quantity: 4,
   },
+  {
+    id: 'menu-7234',
+    store: '245',
+    label: 'guard cancelled kitchen ticket',
+    quantity: 11,
+  },
 ];
