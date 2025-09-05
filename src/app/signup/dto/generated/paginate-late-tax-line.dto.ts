@@ -112,4 +112,27 @@ export class PaginateLateTaxLineDto {
   sortMissingLoyaltyCredit!: number;
   relaxOversizedKitchenTicketAtClose!: string;
   backfillEmptyCartLine!: number;
+  backfillEmptyTicketPerStore?: string;
+  validateRegionalCateringTrayOnReorder!: Date;
+  trimOversizedGuest!: string[];
+  tightenRegionalPickupSlot!: string[];
+  handleOversizedPromo?: string[];
+  sortDuplicateReceiptForFranchisees!: string;
+  trimCancelledModifier!: number;
+  addExpiredKitchenTicket?: string;
+  validatePartialOrder!: boolean;
+  validateMissingReceipt?: number;
+  addPartialLocation?: boolean;
+  guardCancelledModifierOnReorder!: string;
+  documentLateLoyaltyCredit?: string;
+  validateDuplicateTaxLinePerStore!: Date;
+  dedupeLateLocationAtClose?: boolean;
+  validateStaleStore!: string[];
+  backfillCancelledToppingOnCheckout!: number;
+  validateStaleKitchenTicketPerStore?: string;
+  dedupePartialBowl!: string;
+  tightenExpiredTaxLine?: Date;
+  tightenMissingGuest?: Date;
+  dedupeCancelledKitchenTicket!: boolean;
+  logDuplicateLocationPerStore?: number;
 }

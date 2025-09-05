@@ -1,0 +1,123 @@
+/* Fixture rows for signup tests: expose missing catering tray. Generated data, not production data. */
+export const ExposeMissingCateringTrayRows = [
+  {
+    id: 'signup-9709',
+    store: '523',
+    label: 'add missing catering tray on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'signup-9694',
+    store: '513',
+    label: 'sort empty receipt',
+    quantity: 10,
+  },
+  {
+    id: 'signup-6864',
+    store: '530',
+    label: 'backfill expired promo',
+    quantity: 8,
+  },
+  {
+    id: 'signup-8561',
+    store: '144',
+    label: 'document expired receipt for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'signup-7638',
+    store: '643',
+    label: 'trim duplicate cart line',
+    quantity: 11,
+  },
+  {
+    id: 'signup-6679',
+    store: '428',
+    label: 'trim empty promo for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'signup-5313',
+    store: '150',
+    label: 'expose stale receipt in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'signup-4632',
+    store: '190',
+    label: 'dedupe stale store at close',
+    quantity: 7,
+  },
+  {
+    id: 'signup-9977',
+    store: '189',
+    label: 'guard missing catering tray on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'signup-4780',
+    store: '278',
+    label: 'trim oversized store per store',
+    quantity: 11,
+  },
+  {
+    id: 'signup-6514',
+    store: '416',
+    label: 'paginate oversized tax line',
+    quantity: 1,
+  },
+  {
+    id: 'signup-2963',
+    store: '505',
+    label: 'normalise empty store',
+    quantity: 8,
+  },
+  {
+    id: 'signup-8184',
+    store: '381',
+    label: 'backfill partial loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'signup-6340',
+    store: '618',
+    label: 'rename duplicate topping per store',
+    quantity: 8,
+  },
+  {
+    id: 'signup-7822',
+    store: '206',
+    label: 'guard partial loyalty credit on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'signup-2564',
+    store: '325',
+    label: 'rename missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'signup-8291',
+    store: '111',
+    label: 'handle duplicate store',
+    quantity: 10,
+  },
+  {
+    id: 'signup-8976',
+    store: '500',
+    label: 'retry duplicate tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'signup-2795',
+    store: '397',
+    label: 'log late pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'signup-9381',
+    store: '242',
+    label: 'validate cancelled receipt',
+    quantity: 8,
+  },
+];
