@@ -84,4 +84,10 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'validate regional bowl for franchisees',
     quantity: 3,
   },
+  {
+    id: 'stores-8110',
+    store: '447',
+    label: 'validate regional location per store',
+    quantity: 6,
+  },
 ];
