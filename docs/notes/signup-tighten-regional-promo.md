@@ -20,3 +20,14 @@
 - document oversized location: open.
 - paginate empty topping: deferred to the next release.
 - document stale guest for franchisees: decided.
+
+- paginate missing receipt on checkout: owner: delivery manager.
+- sort cancelled catering tray: open.
+- retry expired order: open.
+- cache cancelled cart line: open.
+- dedupe partial bowl: deferred to the next release.
+- paginate stale tax line: decided.
+- document stale catering tray: open.
+- document duplicate ticket for pickup: open.
+- expose missing kitchen ticket for franchisees: decided.
+- expose partial receipt: open.

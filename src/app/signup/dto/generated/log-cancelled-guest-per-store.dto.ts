@@ -52,4 +52,14 @@ export class LogCancelledGuestPerStoreDto {
   addPartialPromo?: Date;
   paginateExpiredModifierInTheQueue!: boolean;
   documentStaleCateringTrayOnReorder!: string[];
+  documentCancelledModifierForFranchisees!: Date;
+  guardEmptyTopping!: Date;
+  relaxStaleToppingAtClose?: string[];
+  handleExpiredDeliveryWindow!: number;
+  addDuplicatePickupSlot!: string;
+  handleStaleCateringTrayForPickup!: string[];
+  guardCancelledTicket!: string;
+  relaxCancelledReceipt!: Date;
+  trimOversizedTopping?: boolean;
+  backfillEmptyCateringTray!: number;
 }
