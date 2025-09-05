@@ -40,3 +40,16 @@
 - backfill oversized ticket: blocked on store systems.
 - rename cancelled guest: verified in staging.
 - guard partial location on reorder: blocked on store systems.
+
+- backfill expired bowl for pickup: deferred to the next release.
+- paginate partial catering tray for franchisees: verified in staging.
+- sort late tax line: verified in staging.
+- add cancelled cart line for franchisees: open.
+- backfill stale store: blocked on store systems.
+- handle oversized ticket: open.
+- rename stale topping: verified in staging.
+- handle cancelled modifier: decided.
+- validate partial store: owner: delivery manager.
+- backfill oversized pickup slot: blocked on store systems.
+- guard empty receipt: verified in staging.
+- trim partial topping: open.
