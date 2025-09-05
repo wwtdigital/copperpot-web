@@ -21,3 +21,8 @@
 - backfill late store: verified in staging.
 
 - normalise expired delivery window: open.
+
+- add missing bowl: owner: delivery manager.
+- retry regional kitchen ticket: owner: delivery manager.
+- relax cancelled cart line on reorder: deferred to the next release.
+- validate missing guest in the queue: open.
