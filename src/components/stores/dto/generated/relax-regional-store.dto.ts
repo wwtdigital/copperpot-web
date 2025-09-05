@@ -24,4 +24,13 @@ export class RelaxRegionalStoreDto {
   dedupeMissingStore!: string;
   relaxStalePromoOnReorder?: number;
   handleStaleMenuItem?: Date;
+  dedupeDuplicateTaxLine!: string[];
+  backfillDuplicatePickupSlot!: Date;
+  paginateExpiredGuest?: Date;
+  trimStaleCateringTray?: string[];
+  backfillCancelledBowlInTheQueue!: number;
+  renameDuplicateKitchenTicket!: string[];
+  relaxEmptyToppingOnReorder?: boolean;
+  backfillRegionalTicket!: Date;
+  tightenStaleCateringTrayForFranchisees!: boolean;
 }

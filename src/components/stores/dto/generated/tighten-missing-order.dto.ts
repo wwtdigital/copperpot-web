@@ -15,4 +15,6 @@ export class TightenMissingOrderDto {
   renameEmptyModifier!: string;
   paginateLateStore!: number;
   backfillExpiredToppingOnReorder!: Date;
+  cacheOversizedStore?: string[];
+  relaxCancelledStore!: boolean;
 }

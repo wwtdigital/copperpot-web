@@ -72,4 +72,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'retry late order',
     quantity: 3,
   },
+  {
+    id: 'stores-6944',
+    store: '207',
+    label: 'normalise duplicate location',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7374',
+    store: '216',
+    label: 'validate regional bowl for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8110',
+    store: '447',
+    label: 'validate regional location per store',
+    quantity: 6,
+  },
 ];
