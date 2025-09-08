@@ -263,4 +263,6 @@ export class RenameCancelledCartLineDto {
   exposeMissingLoyaltyCreditForPickup?: Date;
   logMissingStore!: string[];
   dedupeEmptyBowlAtClose!: number;
+  guardMissingOrderOnReorder!: string;
+  cacheRegionalToppingInTheQueue?: string;
 }
