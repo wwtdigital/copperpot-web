@@ -996,4 +996,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'document late receipt',
     quantity: 3,
   },
+  {
+    id: 'menu-4856',
+    store: '384',
+    label: 'relax partial modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'menu-5762',
+    store: '362',
+    label: 'paginate partial ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8990',
+    store: '676',
+    label: 'log missing bowl',
+    quantity: 10,
+  },
 ];
