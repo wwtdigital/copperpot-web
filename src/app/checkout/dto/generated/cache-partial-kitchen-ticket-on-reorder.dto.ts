@@ -1,0 +1,27 @@
+/* CachePartialKitchenTicketOnReorderDto: shape for cache partial kitchen ticket on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class CachePartialKitchenTicketOnReorderDto {
+  relaxPartialTopping!: string[];
+  documentMissingStoreOnCheckout?: string[];
+  documentCancelledModifier!: Date;
+  paginateOversizedTaxLinePerStore!: number;
+  renameOversizedLocationInTheQueue!: Date;
+  paginateStaleTicket!: Date;
+  logDuplicatePromo!: number;
+  addPartialGuestInTheQueue!: string;
+  relaxExpiredCartLine!: Date;
+  validateEmptyStore!: boolean;
+  tightenRegionalTaxLine!: string[];
+  validateOversizedToppingInTheQueue!: number;
+  retryPartialStore!: Date;
+  tightenMissingKitchenTicket?: string[];
+  handleStaleReceipt!: string[];
+  tightenLateTicket!: boolean;
+  retryExpiredDeliveryWindowForPickup?: boolean;
+  backfillLateLoyaltyCreditForPickup!: string[];
+  trimDuplicateGuest?: boolean;
+  logCancelledGuest!: string;
+  normaliseLateTicketOnReorder?: number;
+  exposeMissingKitchenTicketOnReorder!: string[];
+  sortOversizedReceipt!: number;
+  handlePartialDeliveryWindow!: Date;
+}
