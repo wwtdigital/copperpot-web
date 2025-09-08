@@ -960,4 +960,58 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'add empty topping',
     quantity: 4,
   },
+  {
+    id: 'menu-7234',
+    store: '245',
+    label: 'guard cancelled kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5128',
+    store: '347',
+    label: 'normalise regional loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1080',
+    store: '211',
+    label: 'sort oversized cart line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4049',
+    store: '386',
+    label: 'sort cancelled bowl on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'menu-5834',
+    store: '506',
+    label: 'validate empty location on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'menu-5205',
+    store: '217',
+    label: 'document late receipt',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4856',
+    store: '384',
+    label: 'relax partial modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'menu-5762',
+    store: '362',
+    label: 'paginate partial ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8990',
+    store: '676',
+    label: 'log missing bowl',
+    quantity: 10,
+  },
 ];

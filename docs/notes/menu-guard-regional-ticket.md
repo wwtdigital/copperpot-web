@@ -55,3 +55,18 @@
 - tighten oversized location: decided.
 - document stale tax line: owner: delivery manager.
 - normalise stale delivery window at close: verified in staging.
+
+- rename cancelled order: verified in staging.
+- handle partial location: verified in staging.
+- expose late guest: verified in staging.
+- paginate expired menu item: owner: delivery manager.
+- expose missing modifier: open.
+- retry empty pickup slot: owner: delivery manager.
+- paginate regional cart line: owner: delivery manager.
+- rename oversized store: owner: delivery manager.
+- log late kitchen ticket: decided.
+- sort stale topping per store: open.
+- document empty pickup slot: decided.
+- normalise duplicate receipt: deferred to the next release.
+- retry expired menu item: verified in staging.
+- paginate duplicate delivery window in the queue: open.
