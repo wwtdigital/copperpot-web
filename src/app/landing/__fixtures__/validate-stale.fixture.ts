@@ -72,4 +72,22 @@ export const ValidateStaleLoyaltyCreditAtCloseRows = [
     label: 'retry stale cart line',
     quantity: 7,
   },
+  {
+    id: 'landing-1905',
+    store: '100',
+    label: 'retry cancelled pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'landing-4514',
+    store: '159',
+    label: 'tighten cancelled delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'landing-4183',
+    store: '150',
+    label: 'handle duplicate promo',
+    quantity: 4,
+  },
 ];
