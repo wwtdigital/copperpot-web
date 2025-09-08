@@ -36,3 +36,7 @@
 - tighten oversized loyalty credit: blocked on store systems.
 - expose regional modifier: owner: delivery manager.
 - add cancelled store for franchisees: deferred to the next release.
+
+- trim missing location: owner: delivery manager.
+- add empty catering tray for franchisees: verified in staging.
+- relax partial menu item on reorder: verified in staging.
