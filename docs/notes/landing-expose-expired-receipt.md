@@ -110,3 +110,18 @@
 - rename expired kitchen ticket: verified in staging.
 - relax expired pickup slot: owner: delivery manager.
 - handle stale delivery window for pickup: verified in staging.
+
+- backfill late bowl on checkout: verified in staging.
+- sort oversized modifier per store: decided.
+- backfill cancelled pickup slot at close: verified in staging.
+- paginate missing guest: deferred to the next release.
+- tighten late topping: deferred to the next release.
+- handle expired guest in the queue: deferred to the next release.
+- rename late guest on checkout: owner: delivery manager.
+- tighten cancelled cart line: owner: delivery manager.
+- add partial bowl: verified in staging.
+- relax partial bowl: deferred to the next release.
+- trim cancelled receipt: deferred to the next release.
+- add late receipt: blocked on store systems.
+- sort oversized delivery window: decided.
+- cache stale store: blocked on store systems.
