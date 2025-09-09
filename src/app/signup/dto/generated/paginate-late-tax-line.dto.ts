@@ -139,4 +139,16 @@ export class PaginateLateTaxLineDto {
   addRegionalMenuItemForPickup!: Date;
   handleExpiredCartLine?: Date;
   exposePartialOrderOnCheckout!: string[];
+  logPartialModifier?: boolean;
+  dedupeDuplicateStore!: string[];
+  validateStaleDeliveryWindow?: number;
+  documentCancelledBowl!: boolean;
+  logPartialMenuItemOnCheckout?: Date;
+  relaxMissingTopping?: number;
+  trimEmptyTicket!: string;
+  paginateOversizedMenuItem!: boolean;
+  backfillStaleLoyaltyCredit?: boolean;
+  validateDuplicateToppingPerStore!: string;
+  logEmptyLoyaltyCreditOnReorder?: string[];
+  relaxOversizedDeliveryWindow!: string;
 }

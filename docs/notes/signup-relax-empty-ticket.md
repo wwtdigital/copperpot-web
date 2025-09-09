@@ -73,3 +73,16 @@
 - dedupe cancelled topping: owner: delivery manager.
 - dedupe missing receipt per store: blocked on store systems.
 - document cancelled promo: blocked on store systems.
+
+- cache stale cart line: owner: delivery manager.
+- rename regional cart line: deferred to the next release.
+- cache stale location for franchisees: open.
+- document regional tax line: deferred to the next release.
+- expose duplicate ticket per store: deferred to the next release.
+- backfill empty pickup slot on checkout: decided.
+- add expired menu item: blocked on store systems.
+- handle oversized location: decided.
+- relax stale catering tray for pickup: verified in staging.
+- paginate duplicate kitchen ticket: verified in staging.
+- paginate late menu item in the queue: decided.
+- dedupe empty delivery window: open.
