@@ -13,3 +13,18 @@
 - backfill duplicate tax line: blocked on store systems.
 - relax regional location: owner: delivery manager.
 - paginate late order: deferred to the next release.
+
+- backfill empty topping: blocked on store systems.
+- tighten expired ticket: open.
+- rename oversized tax line: deferred to the next release.
+- normalise regional menu item on checkout: owner: delivery manager.
+- relax oversized menu item: verified in staging.
+- retry duplicate delivery window for pickup: owner: delivery manager.
+- handle late kitchen ticket on checkout: deferred to the next release.
+- add duplicate menu item: blocked on store systems.
+- retry late receipt at close: decided.
+- handle empty receipt: verified in staging.
+- log empty store: deferred to the next release.
+- trim empty menu item per store: blocked on store systems.
+- normalise oversized bowl at close: deferred to the next release.
+- backfill empty delivery window: deferred to the next release.
