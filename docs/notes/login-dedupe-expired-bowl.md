@@ -13,4 +13,3 @@
 - backfill duplicate tax line: blocked on store systems.
 - relax regional location: owner: delivery manager.
 - paginate late order: deferred to the next release.
-- sort missing kitchen ticket: deferred to the next release.
