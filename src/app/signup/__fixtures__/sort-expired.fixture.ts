@@ -1968,4 +1968,28 @@ export const SortExpiredMenuItemAtCloseRows = [
     label: 'backfill cancelled guest',
     quantity: 12,
   },
+  {
+    id: 'signup-4659',
+    store: '491',
+    label: 'guard empty kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'signup-3168',
+    store: '525',
+    label: 'backfill empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'signup-1479',
+    store: '370',
+    label: 'tighten duplicate pickup slot on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'signup-9732',
+    store: '171',
+    label: 'add partial kitchen ticket on reorder',
+    quantity: 11,
+  },
 ];

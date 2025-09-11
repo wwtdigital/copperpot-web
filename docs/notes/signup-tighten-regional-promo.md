@@ -31,3 +31,27 @@
 - document duplicate ticket for pickup: open.
 - expose missing kitchen ticket for franchisees: decided.
 - expose partial receipt: open.
+
+- relax late kitchen ticket at close: deferred to the next release.
+- tighten oversized loyalty credit: blocked on store systems.
+- expose regional modifier: owner: delivery manager.
+- add cancelled store for franchisees: deferred to the next release.
+
+- trim missing location: owner: delivery manager.
+- add empty catering tray for franchisees: verified in staging.
+- relax partial menu item on reorder: verified in staging.
+
+- retry expired delivery window per store: open.
+- add missing tax line: blocked on store systems.
+- validate duplicate topping for pickup: verified in staging.
+- guard missing store: verified in staging.
+- trim oversized catering tray at close: deferred to the next release.
+- backfill cancelled promo: deferred to the next release.
+- tighten late catering tray: deferred to the next release.
+- handle cancelled delivery window: blocked on store systems.
+- backfill duplicate ticket: deferred to the next release.
+- log duplicate kitchen ticket: verified in staging.
+- rename cancelled guest: open.
+- dedupe oversized promo: open.
+- rename duplicate cart line: owner: delivery manager.
+- add cancelled guest on checkout: owner: delivery manager.
