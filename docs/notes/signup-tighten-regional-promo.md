@@ -31,3 +31,8 @@
 - document duplicate ticket for pickup: open.
 - expose missing kitchen ticket for franchisees: decided.
 - expose partial receipt: open.
+
+- relax late kitchen ticket at close: deferred to the next release.
+- tighten oversized loyalty credit: blocked on store systems.
+- expose regional modifier: owner: delivery manager.
+- add cancelled store for franchisees: deferred to the next release.

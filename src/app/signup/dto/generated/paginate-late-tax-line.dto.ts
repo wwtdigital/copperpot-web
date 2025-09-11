@@ -135,4 +135,8 @@ export class PaginateLateTaxLineDto {
   tightenMissingGuest?: Date;
   dedupeCancelledKitchenTicket!: boolean;
   logDuplicateLocationPerStore?: number;
+  trimOversizedTicket!: string[];
+  addRegionalMenuItemForPickup!: Date;
+  handleExpiredCartLine?: Date;
+  exposePartialOrderOnCheckout!: string[];
 }
