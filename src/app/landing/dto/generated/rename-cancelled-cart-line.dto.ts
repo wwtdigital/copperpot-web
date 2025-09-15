@@ -265,4 +265,16 @@ export class RenameCancelledCartLineDto {
   dedupeEmptyBowlAtClose!: number;
   guardMissingOrderOnReorder!: string;
   cacheRegionalToppingInTheQueue?: string;
+  validateRegionalCateringTray!: Date;
+  addDuplicateTicketPerStore!: number;
+  dedupeEmptyPickupSlot!: string[];
+  relaxExpiredLoyaltyCreditOnCheckout!: boolean;
+  trimStaleLoyaltyCreditPerStore!: number;
+  renameEmptyTicket?: string;
+  sortCancelledCateringTrayForFranchisees?: Date;
+  tightenStaleKitchenTicket!: Date;
+  normaliseCancelledTicket!: boolean;
+  logRegionalBowl!: string[];
+  tightenMissingReceipt!: string[];
+  backfillLateTaxLine!: number;
 }
