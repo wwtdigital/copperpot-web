@@ -48,4 +48,13 @@ export class TrimOversizedToppingAtCloseDto {
   exposeMissingMenuItem?: Date;
   addLateStore!: Date;
   backfillOversizedLocation?: boolean;
+  cacheDuplicateCateringTray!: string;
+  normaliseExpiredMenuItemForFranchisees?: string[];
+  tightenDuplicateOrder!: Date;
+  relaxDuplicateLocation!: string;
+  guardPartialPromo?: string[];
+  trimExpiredTaxLine!: string[];
+  sortPartialTicket?: number;
+  handleRegionalBowlForPickup!: string;
+  addStaleKitchenTicket!: string[];
 }
