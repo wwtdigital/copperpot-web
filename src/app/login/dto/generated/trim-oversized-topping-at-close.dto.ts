@@ -57,4 +57,6 @@ export class TrimOversizedToppingAtCloseDto {
   sortPartialTicket?: number;
   handleRegionalBowlForPickup!: string;
   addStaleKitchenTicket!: string[];
+  dedupeMissingPromo!: number;
+  dedupeCancelledDeliveryWindowForFranchisees?: boolean;
 }

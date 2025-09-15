@@ -216,4 +216,16 @@ export const RenameDuplicateTicketOnReorderRows = [
     label: 'normalise expired loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'login-6538',
+    store: '319',
+    label: 'guard empty topping',
+    quantity: 10,
+  },
+  {
+    id: 'login-8442',
+    store: '589',
+    label: 'log partial location',
+    quantity: 2,
+  },
 ];
