@@ -144,4 +144,16 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'tighten late bowl on checkout',
     quantity: 1,
   },
+  {
+    id: 'kiosk-2808',
+    store: '197',
+    label: 'handle duplicate store on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-1183',
+    store: '608',
+    label: 'document duplicate cart line',
+    quantity: 8,
+  },
 ];
