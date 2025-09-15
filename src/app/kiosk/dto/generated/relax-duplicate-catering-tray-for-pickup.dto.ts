@@ -189,4 +189,6 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   trimMissingBowlAtClose!: boolean;
   paginateExpiredKitchenTicket?: Date;
   backfillMissingReceipt!: Date;
+  addDuplicateTaxLine?: string[];
+  exposeDuplicateCartLineOnCheckout?: string;
 }
