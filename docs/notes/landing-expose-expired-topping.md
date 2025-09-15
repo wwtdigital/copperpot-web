@@ -20,3 +20,7 @@
 - tighten oversized pickup slot on checkout: blocked on store systems.
 - normalise late tax line: deferred to the next release.
 - log cancelled ticket: blocked on store systems.
+
+- add late pickup slot: open.
+- trim expired tax line: owner: delivery manager.
+- normalise partial menu item in the queue: blocked on store systems.

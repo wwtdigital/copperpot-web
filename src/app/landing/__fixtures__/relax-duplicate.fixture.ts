@@ -240,4 +240,28 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'relax missing delivery window in the queue',
     quantity: 12,
   },
+  {
+    id: 'landing-9289',
+    store: '302',
+    label: 'log expired catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'landing-3379',
+    store: '142',
+    label: 'tighten empty cart line',
+    quantity: 12,
+  },
+  {
+    id: 'landing-5326',
+    store: '131',
+    label: 'validate regional receipt',
+    quantity: 1,
+  },
+  {
+    id: 'landing-7957',
+    store: '608',
+    label: 'cache cancelled catering tray',
+    quantity: 2,
+  },
 ];
