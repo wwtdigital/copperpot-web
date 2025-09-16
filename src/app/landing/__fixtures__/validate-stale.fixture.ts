@@ -90,4 +90,22 @@ export const ValidateStaleLoyaltyCreditAtCloseRows = [
     label: 'handle duplicate promo',
     quantity: 4,
   },
+  {
+    id: 'landing-6832',
+    store: '366',
+    label: 'add late menu item per store',
+    quantity: 10,
+  },
+  {
+    id: 'landing-4585',
+    store: '528',
+    label: 'expose expired ticket',
+    quantity: 2,
+  },
+  {
+    id: 'landing-1197',
+    store: '381',
+    label: 'validate expired catering tray per store',
+    quantity: 11,
+  },
 ];
