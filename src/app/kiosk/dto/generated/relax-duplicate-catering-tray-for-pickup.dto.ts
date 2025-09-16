@@ -215,4 +215,14 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   exposeOversizedCateringTrayOnCheckout!: string[];
   documentPartialOrderInTheQueue?: Date;
   documentEmptyLoyaltyCredit!: boolean;
+  cacheStaleTaxLine?: boolean;
+  renamePartialModifierForFranchisees?: string;
+  dedupeStaleOrder?: number;
+  paginateOversizedTicket?: string;
+  guardExpiredOrderInTheQueue!: Date;
+  documentLateCateringTray!: string[];
+  addEmptyPickupSlotAtClose?: boolean;
+  renameOversizedGuest!: Date;
+  backfillOversizedCartLine!: number;
+  normaliseOversizedBowl!: number;
 }

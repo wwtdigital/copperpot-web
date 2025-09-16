@@ -92,4 +92,23 @@ export class RelaxExpiredLocationInTheQueueDto {
   guardCancelledMenuItemInTheQueue!: Date;
   cacheMissingDeliveryWindow!: boolean;
   tightenRegionalStore!: boolean;
+  addOversizedTaxLineInTheQueue!: Date;
+  handleStaleReceiptOnCheckout?: string[];
+  sortRegionalPickupSlot?: string;
+  guardMissingModifierOnCheckout?: Date;
+  trimStaleDeliveryWindowForPickup!: string[];
+  addEmptyTopping?: string[];
+  tightenStaleModifier!: Date;
+  logExpiredKitchenTicket?: boolean;
+  addMissingMenuItem!: string[];
+  documentPartialLoyaltyCredit!: Date;
+  normaliseMissingCateringTray!: Date;
+  normaliseCancelledOrderPerStore?: Date;
+  documentLateStoreAtClose!: Date;
+  validateEmptyStoreOnCheckout?: string;
+  normaliseMissingModifierForPickup?: Date;
+  handleLateStore!: string[];
+  sortCancelledTicket?: string[];
+  guardCancelledStore!: string[];
+  tightenPartialPickupSlot!: string[];
 }

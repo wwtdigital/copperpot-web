@@ -14,3 +14,9 @@
 - trim partial modifier per store: decided.
 - validate cancelled store: verified in staging.
 - guard stale promo in the queue: open.
+
+- paginate stale kitchen ticket for pickup: verified in staging.
+- guard empty menu item on checkout: decided.
+- log oversized loyalty credit for franchisees: blocked on store systems.
+- validate partial receipt: open.
+- dedupe regional location per store: decided.
