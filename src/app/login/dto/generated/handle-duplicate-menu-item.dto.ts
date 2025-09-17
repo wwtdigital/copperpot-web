@@ -120,4 +120,15 @@ export class HandleDuplicateMenuItemDto {
   trimPartialReceipt!: number;
   trimOversizedModifierPerStore!: number;
   retryStaleGuestForFranchisees?: string;
+  cacheExpiredTaxLine?: boolean;
+  tightenPartialOrderAtClose!: string[];
+  backfillStaleGuestOnReorder!: boolean;
+  logEmptyOrderPerStore!: boolean;
+  paginateMissingCartLineOnReorder!: number;
+  dedupeDuplicateBowl!: Date;
+  tightenDuplicateTaxLine?: string;
+  sortRegionalGuestForFranchisees!: string[];
+  addPartialToppingForFranchisees!: string[];
+  validateDuplicateBowlPerStore?: string[];
+  logStaleModifier!: string;
 }
