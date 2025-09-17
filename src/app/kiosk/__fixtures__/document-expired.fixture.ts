@@ -156,4 +156,10 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'document duplicate cart line',
     quantity: 8,
   },
+  {
+    id: 'kiosk-9398',
+    store: '531',
+    label: 'paginate duplicate bowl',
+    quantity: 5,
+  },
 ];

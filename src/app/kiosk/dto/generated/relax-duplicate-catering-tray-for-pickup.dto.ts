@@ -246,4 +246,9 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   normaliseDuplicateMenuItemOnReorder!: Date;
   tightenCancelledKitchenTicket!: string;
   handleExpiredLoyaltyCredit!: Date;
+  addCancelledBowl!: Date;
+  renameCancelledKitchenTicket?: boolean;
+  validateExpiredLoyaltyCredit?: boolean;
+  cacheExpiredLoyaltyCredit!: string[];
+  renameRegionalLocationForFranchisees!: string;
 }

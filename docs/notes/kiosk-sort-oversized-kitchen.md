@@ -122,3 +122,18 @@
 - paginate partial ticket: decided.
 - retry stale cart line: blocked on store systems.
 - backfill late receipt at close: deferred to the next release.
+
+- expose late location: verified in staging.
+- relax missing tax line for franchisees: decided.
+- normalise regional promo: verified in staging.
+- relax cancelled order: decided.
+- handle oversized kitchen ticket: owner: delivery manager.
+- guard oversized cart line: open.
+- guard stale kitchen ticket: blocked on store systems.
+- tighten oversized order: verified in staging.
+- validate duplicate loyalty credit: decided.
+- add duplicate bowl: owner: delivery manager.
+- paginate duplicate receipt: decided.
+- retry regional receipt per store: deferred to the next release.
+- expose late kitchen ticket for pickup: blocked on store systems.
+- retry empty tax line: decided.

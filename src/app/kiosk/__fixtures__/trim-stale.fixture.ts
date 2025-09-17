@@ -378,4 +378,10 @@ export const TrimStaleDeliveryWindowRows = [
     label: 'add empty topping for franchisees',
     quantity: 4,
   },
+  {
+    id: 'kiosk-1420',
+    store: '139',
+    label: 'document cancelled guest',
+    quantity: 9,
+  },
 ];
