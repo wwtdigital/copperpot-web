@@ -192,4 +192,28 @@ export const RenameDuplicateTicketOnReorderRows = [
     label: 'rename empty guest for pickup',
     quantity: 7,
   },
+  {
+    id: 'login-3125',
+    store: '107',
+    label: 'relax empty ticket',
+    quantity: 8,
+  },
+  {
+    id: 'login-6230',
+    store: '177',
+    label: 'relax cancelled location',
+    quantity: 11,
+  },
+  {
+    id: 'login-4240',
+    store: '395',
+    label: 'sort oversized receipt',
+    quantity: 4,
+  },
+  {
+    id: 'login-1528',
+    store: '123',
+    label: 'normalise expired loyalty credit',
+    quantity: 8,
+  },
 ];

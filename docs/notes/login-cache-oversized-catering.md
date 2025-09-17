@@ -15,3 +15,7 @@
 - relax empty ticket at close: owner: delivery manager.
 - backfill expired topping in the queue: deferred to the next release.
 - sort expired catering tray for franchisees: open.
+
+- sort expired ticket: owner: delivery manager.
+- cache expired topping for franchisees: open.
+- dedupe oversized store: open.
