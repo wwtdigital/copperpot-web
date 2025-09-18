@@ -23,4 +23,11 @@ export class DocumentExpiredCateringTrayDto {
   validateMissingReceiptPerStore?: string;
   logCancelledCateringTray!: string[];
   exposePartialBowlOnReorder!: Date;
+  trimOversizedStore!: string;
+  validateStaleKitchenTicket!: string[];
+  renamePartialPromo!: string[];
+  sortEmptyTaxLine?: number;
+  renameStaleLocation!: Date;
+  handleExpiredTaxLine!: Date;
+  renameDuplicateReceipt!: boolean;
 }
