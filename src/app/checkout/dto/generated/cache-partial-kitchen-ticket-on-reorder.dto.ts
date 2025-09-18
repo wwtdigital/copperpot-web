@@ -24,4 +24,25 @@ export class CachePartialKitchenTicketOnReorderDto {
   exposeMissingKitchenTicketOnReorder!: string[];
   sortOversizedReceipt!: number;
   handlePartialDeliveryWindow!: Date;
+  guardCancelledPromo!: Date;
+  renameCancelledToppingForPickup!: string[];
+  validateDuplicateBowlForFranchisees!: boolean;
+  documentDuplicateTicket?: boolean;
+  validatePartialReceiptForPickup!: string[];
+  tightenMissingLocation?: Date;
+  logPartialLocation?: string[];
+  dedupeDuplicateMenuItemInTheQueue!: Date;
+  backfillCancelledBowlOnCheckout!: boolean;
+  sortMissingReceiptOnReorder!: string;
+  renameStaleModifier!: string;
+  dedupeExpiredCateringTray!: string[];
+  handleRegionalPickupSlot?: boolean;
+  backfillRegionalGuest?: Date;
+  normaliseDuplicateStoreAtClose!: string[];
+  handleOversizedPromo!: string;
+  backfillMissingGuestOnCheckout!: number;
+  logMissingStore?: Date;
+  handleDuplicateReceiptOnCheckout?: Date;
+  documentLateOrder?: string[];
+  tightenPartialCartLine!: string;
 }
