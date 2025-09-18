@@ -1014,4 +1014,46 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'log missing bowl',
     quantity: 10,
   },
+  {
+    id: 'menu-8688',
+    store: '618',
+    label: 'handle cancelled catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-6022',
+    store: '118',
+    label: 'cache regional location at close',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6538',
+    store: '463',
+    label: 'relax partial menu item',
+    quantity: 6,
+  },
+  {
+    id: 'menu-6531',
+    store: '180',
+    label: 'rename regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'menu-9011',
+    store: '264',
+    label: 'guard cancelled tax line per store',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1570',
+    store: '678',
+    label: 'relax partial menu item',
+    quantity: 2,
+  },
+  {
+    id: 'menu-3512',
+    store: '320',
+    label: 'rename stale store for franchisees',
+    quantity: 12,
+  },
 ];
