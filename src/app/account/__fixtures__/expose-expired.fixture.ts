@@ -54,4 +54,46 @@ export const ExposeExpiredOrderRows = [
     label: 'rename expired cart line',
     quantity: 8,
   },
+  {
+    id: 'account-5163',
+    store: '178',
+    label: 'document late delivery window on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'account-4798',
+    store: '247',
+    label: 'normalise late bowl',
+    quantity: 6,
+  },
+  {
+    id: 'account-9849',
+    store: '390',
+    label: 'sort late modifier',
+    quantity: 2,
+  },
+  {
+    id: 'account-4260',
+    store: '670',
+    label: 'paginate empty location per store',
+    quantity: 9,
+  },
+  {
+    id: 'account-9300',
+    store: '453',
+    label: 'guard late location in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'account-3006',
+    store: '377',
+    label: 'cache empty order at close',
+    quantity: 6,
+  },
+  {
+    id: 'account-2687',
+    store: '388',
+    label: 'guard missing promo for pickup',
+    quantity: 3,
+  },
 ];
