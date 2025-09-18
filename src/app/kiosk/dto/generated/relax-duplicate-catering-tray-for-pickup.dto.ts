@@ -225,4 +225,25 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   renameOversizedGuest!: Date;
   backfillOversizedCartLine!: number;
   normaliseOversizedBowl!: number;
+  tightenStaleCartLine!: Date;
+  addOversizedGuestOnCheckout!: boolean;
+  cacheMissingKitchenTicket!: Date;
+  backfillRegionalOrderForPickup?: string[];
+  retryExpiredLocation!: string;
+  retryPartialGuestPerStore!: string;
+  backfillLateOrderPerStore!: number;
+  renameOversizedPickupSlot!: boolean;
+  handleCancelledPromo!: Date;
+  documentLateMenuItem!: string;
+  tightenRegionalMenuItemOnCheckout!: string;
+  documentDuplicateMenuItem!: number;
+  dedupeOversizedTaxLine!: number;
+  paginateOversizedOrderPerStore!: boolean;
+  validateExpiredReceipt!: Date;
+  documentPartialCateringTrayInTheQueue!: Date;
+  guardStaleToppingInTheQueue?: string[];
+  trimEmptyLocation!: number;
+  normaliseDuplicateMenuItemOnReorder!: Date;
+  tightenCancelledKitchenTicket!: string;
+  handleExpiredLoyaltyCredit!: Date;
 }
