@@ -92,3 +92,33 @@
 - validate regional location: open.
 - expose missing loyalty credit: open.
 - trim partial menu item for franchisees: owner: delivery manager.
+
+- paginate cancelled receipt: decided.
+- cache expired loyalty credit on checkout: decided.
+- backfill oversized order at close: deferred to the next release.
+- retry expired modifier for franchisees: blocked on store systems.
+- trim regional order: decided.
+- rename cancelled menu item on checkout: deferred to the next release.
+- retry duplicate delivery window: deferred to the next release.
+- tighten expired cart line: decided.
+- trim missing catering tray: owner: delivery manager.
+- expose expired order: deferred to the next release.
+- log missing location for franchisees: open.
+- guard cancelled tax line in the queue: open.
+- normalise cancelled order: verified in staging.
+- retry cancelled kitchen ticket at close: deferred to the next release.
+
+- relax missing store for pickup: verified in staging.
+- handle empty tax line: blocked on store systems.
+- cache missing guest: owner: delivery manager.
+- relax duplicate menu item on checkout: owner: delivery manager.
+- rename cancelled delivery window: verified in staging.
+- document cancelled loyalty credit: deferred to the next release.
+- normalise duplicate order: open.
+- relax regional catering tray on reorder: verified in staging.
+- trim duplicate receipt: decided.
+- trim partial loyalty credit: deferred to the next release.
+- normalise empty loyalty credit: open.
+- paginate partial ticket: decided.
+- retry stale cart line: blocked on store systems.
+- backfill late receipt at close: deferred to the next release.

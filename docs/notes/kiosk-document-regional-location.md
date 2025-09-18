@@ -45,3 +45,18 @@
 - expose oversized menu item: blocked on store systems.
 - log late tax line: deferred to the next release.
 - normalise oversized menu item: decided.
+
+- expose partial kitchen ticket: owner: delivery manager.
+- validate oversized store in the queue: owner: delivery manager.
+- normalise partial kitchen ticket: deferred to the next release.
+- handle cancelled pickup slot: verified in staging.
+- log late order: deferred to the next release.
+- validate late delivery window: owner: delivery manager.
+- handle missing catering tray per store: decided.
+- log expired pickup slot at close: deferred to the next release.
+- cache missing store at close: deferred to the next release.
+- relax late loyalty credit: deferred to the next release.
+- trim stale modifier: decided.
+- normalise missing pickup slot: owner: delivery manager.
+- retry oversized ticket: blocked on store systems.
+- trim stale promo: blocked on store systems.

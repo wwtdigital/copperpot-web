@@ -23,4 +23,6 @@ export class DocumentExpiredCateringTrayDto {
   validateMissingReceiptPerStore?: string;
   logCancelledCateringTray!: string[];
   exposePartialBowlOnReorder!: Date;
+  trimOversizedStore!: string;
+  validateStaleKitchenTicket!: string[];
 }
