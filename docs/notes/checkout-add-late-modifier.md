@@ -165,3 +165,14 @@
 - validate expired catering tray at close: open.
 - paginate oversized bowl on checkout: blocked on store systems.
 - relax regional store on reorder: decided.
+
+- dedupe partial promo: verified in staging.
+- tighten regional loyalty credit: verified in staging.
+- backfill expired guest per store: decided.
+- rename missing modifier: open.
+- validate duplicate location: blocked on store systems.
+- add empty menu item: owner: delivery manager.
+- guard missing location per store: deferred to the next release.
+- backfill duplicate promo on checkout: decided.
+- normalise missing guest: verified in staging.
+- cache late bowl for pickup: owner: delivery manager.

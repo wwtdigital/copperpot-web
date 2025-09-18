@@ -36,4 +36,13 @@ export class CachePartialKitchenTicketOnReorderDto {
   sortMissingReceiptOnReorder!: string;
   renameStaleModifier!: string;
   dedupeExpiredCateringTray!: string[];
+  handleRegionalPickupSlot?: boolean;
+  backfillRegionalGuest?: Date;
+  normaliseDuplicateStoreAtClose!: string[];
+  handleOversizedPromo!: string;
+  backfillMissingGuestOnCheckout!: number;
+  logMissingStore?: Date;
+  handleDuplicateReceiptOnCheckout?: Date;
+  documentLateOrder?: string[];
+  tightenPartialCartLine!: string;
 }
