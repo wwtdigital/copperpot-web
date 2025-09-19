@@ -1260,4 +1260,52 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'rename expired bowl on reorder',
     quantity: 6,
   },
+  {
+    id: 'account-7512',
+    store: '312',
+    label: 'add empty menu item',
+    quantity: 9,
+  },
+  {
+    id: 'account-2793',
+    store: '665',
+    label: 'relax partial modifier at close',
+    quantity: 12,
+  },
+  {
+    id: 'account-6882',
+    store: '435',
+    label: 'relax expired order',
+    quantity: 3,
+  },
+  {
+    id: 'account-9665',
+    store: '119',
+    label: 'document late location',
+    quantity: 5,
+  },
+  {
+    id: 'account-6091',
+    store: '100',
+    label: 'tighten late promo',
+    quantity: 12,
+  },
+  {
+    id: 'account-5084',
+    store: '638',
+    label: 'document duplicate receipt',
+    quantity: 12,
+  },
+  {
+    id: 'account-7901',
+    store: '549',
+    label: 'validate partial topping',
+    quantity: 9,
+  },
+  {
+    id: 'account-7851',
+    store: '492',
+    label: 'backfill duplicate tax line',
+    quantity: 12,
+  },
 ];
