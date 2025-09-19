@@ -60,3 +60,18 @@
 - normalise missing pickup slot: owner: delivery manager.
 - retry oversized ticket: blocked on store systems.
 - trim stale promo: blocked on store systems.
+
+- relax expired cart line on checkout: decided.
+- document partial promo: open.
+- cache oversized location: owner: delivery manager.
+- rename regional catering tray in the queue: blocked on store systems.
+- expose missing tax line: verified in staging.
+- normalise stale delivery window in the queue: decided.
+- validate expired catering tray: verified in staging.
+- dedupe oversized order: decided.
+- tighten empty catering tray: blocked on store systems.
+- cache expired tax line at close: deferred to the next release.
+- dedupe cancelled guest: deferred to the next release.
+- paginate missing delivery window: verified in staging.
+- add stale topping: blocked on store systems.
+- retry expired ticket: verified in staging.

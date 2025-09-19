@@ -111,4 +111,6 @@ export class RelaxExpiredLocationInTheQueueDto {
   sortCancelledTicket?: string[];
   guardCancelledStore!: string[];
   tightenPartialPickupSlot!: string[];
+  cacheStaleBowlForPickup!: number;
+  handleCancelledMenuItem?: boolean;
 }
