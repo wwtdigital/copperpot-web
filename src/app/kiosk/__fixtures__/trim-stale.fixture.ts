@@ -366,4 +366,16 @@ export const TrimStaleDeliveryWindowRows = [
     label: 'tighten cancelled tax line',
     quantity: 12,
   },
+  {
+    id: 'kiosk-2687',
+    store: '397',
+    label: 'sort stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'kiosk-5411',
+    store: '548',
+    label: 'add empty topping for franchisees',
+    quantity: 4,
+  },
 ];
