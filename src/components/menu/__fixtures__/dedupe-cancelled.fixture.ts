@@ -1056,4 +1056,16 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'rename stale store for franchisees',
     quantity: 12,
   },
+  {
+    id: 'menu-9663',
+    store: '105',
+    label: 'guard duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3270',
+    store: '486',
+    label: 'paginate late store',
+    quantity: 12,
+  },
 ];
