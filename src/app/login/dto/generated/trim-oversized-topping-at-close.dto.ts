@@ -59,4 +59,28 @@ export class TrimOversizedToppingAtCloseDto {
   addStaleKitchenTicket!: string[];
   dedupeMissingPromo!: number;
   dedupeCancelledDeliveryWindowForFranchisees?: boolean;
+  tightenMissingCateringTray!: Date;
+  tightenStaleTaxLineOnReorder!: string[];
+  renameOversizedPromoForPickup?: boolean;
+  relaxCancelledGuest!: string;
+  exposeStaleDeliveryWindowOnCheckout!: number;
+  logExpiredMenuItem?: boolean;
+  trimOversizedCateringTrayAtClose!: boolean;
+  exposePartialLocation!: string[];
+  handleCancelledPromo!: number;
+  retryLateBowl!: string[];
+  tightenMissingTopping!: number;
+  relaxExpiredLocationOnCheckout!: number;
+  guardOversizedOrderOnReorder!: number;
+  normaliseDuplicateCartLine?: number;
+  backfillStaleLocation!: number;
+  logEmptyOrderForPickup!: Date;
+  renameExpiredModifierOnReorder!: string[];
+  trimExpiredPromo!: string;
+  handleCancelledDeliveryWindow!: string[];
+  addRegionalPickupSlot?: number;
+  retryStaleTopping?: string[];
+  cacheExpiredPickupSlot!: Date;
+  handleMissingMenuItem!: string[];
+  tightenMissingToppingAtClose!: string[];
 }
