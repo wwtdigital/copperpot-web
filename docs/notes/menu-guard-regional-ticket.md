@@ -70,3 +70,18 @@
 - normalise duplicate receipt: deferred to the next release.
 - retry expired menu item: verified in staging.
 - paginate duplicate delivery window in the queue: open.
+
+- retry late delivery window: owner: delivery manager.
+- retry expired delivery window: open.
+- document oversized cart line on reorder: owner: delivery manager.
+- add late menu item at close: owner: delivery manager.
+- guard late modifier: verified in staging.
+- add late bowl: open.
+- dedupe expired pickup slot in the queue: open.
+- sort partial tax line on reorder: decided.
+- document duplicate guest: deferred to the next release.
+- backfill stale cart line in the queue: open.
+- paginate duplicate order per store: blocked on store systems.
+- cache partial kitchen ticket for franchisees: open.
+- normalise late modifier: owner: delivery manager.
+- validate late kitchen ticket: deferred to the next release.
