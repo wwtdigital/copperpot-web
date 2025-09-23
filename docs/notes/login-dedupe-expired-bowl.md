@@ -28,3 +28,18 @@
 - trim empty menu item per store: blocked on store systems.
 - normalise oversized bowl at close: deferred to the next release.
 - backfill empty delivery window: deferred to the next release.
+
+- guard empty tax line for franchisees: owner: delivery manager.
+- tighten regional loyalty credit at close: blocked on store systems.
+- guard empty catering tray: decided.
+- relax oversized kitchen ticket on reorder: owner: delivery manager.
+- relax expired ticket: open.
+- cache oversized tax line: decided.
+- retry cancelled store: open.
+- trim oversized topping: open.
+- guard empty delivery window: verified in staging.
+- backfill oversized order: deferred to the next release.
+- tighten missing receipt for pickup: deferred to the next release.
+- sort oversized topping: owner: delivery manager.
+- dedupe missing receipt in the queue: blocked on store systems.
+- expose partial topping: blocked on store systems.
