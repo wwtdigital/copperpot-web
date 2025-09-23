@@ -228,4 +228,10 @@ export const RenameDuplicateTicketOnReorderRows = [
     label: 'log partial location',
     quantity: 2,
   },
+  {
+    id: 'login-4169',
+    store: '176',
+    label: 'validate oversized store',
+    quantity: 8,
+  },
 ];

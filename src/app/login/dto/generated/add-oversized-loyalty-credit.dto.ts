@@ -24,4 +24,9 @@ export class AddOversizedLoyaltyCreditDto {
   trimRegionalStoreOnCheckout!: number;
   handleStaleTopping?: boolean;
   guardCancelledPromoOnReorder!: boolean;
+  tightenDuplicateTicket!: number;
+  guardDuplicateOrder?: boolean;
+  normaliseMissingCartLine!: boolean;
+  trimExpiredStore!: string[];
+  addStaleKitchenTicket!: string[];
 }

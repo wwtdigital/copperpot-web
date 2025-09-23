@@ -43,3 +43,18 @@
 - sort oversized topping: owner: delivery manager.
 - dedupe missing receipt in the queue: blocked on store systems.
 - expose partial topping: blocked on store systems.
+
+- cache regional catering tray for franchisees: blocked on store systems.
+- add regional bowl: deferred to the next release.
+- dedupe expired receipt in the queue: open.
+- cache regional menu item: verified in staging.
+- normalise duplicate ticket on checkout: decided.
+- backfill oversized kitchen ticket on checkout: verified in staging.
+- log oversized receipt: deferred to the next release.
+- relax duplicate cart line for franchisees: verified in staging.
+- trim partial catering tray for pickup: deferred to the next release.
+- retry expired ticket: decided.
+- expose missing store: deferred to the next release.
+- backfill cancelled location: decided.
+- log partial cart line for franchisees: deferred to the next release.
+- backfill empty catering tray: open.

@@ -83,4 +83,14 @@ export class TrimOversizedToppingAtCloseDto {
   cacheExpiredPickupSlot!: Date;
   handleMissingMenuItem!: string[];
   tightenMissingToppingAtClose!: string[];
+  paginateExpiredKitchenTicket?: boolean;
+  renameMissingLoyaltyCredit!: string;
+  retryPartialDeliveryWindow!: Date;
+  relaxLateLocationForFranchisees?: number;
+  handlePartialCateringTrayOnCheckout!: number;
+  handleRegionalStoreForFranchisees?: string;
+  relaxExpiredPickupSlot!: string;
+  paginateExpiredPickupSlotOnReorder?: number;
+  handleEmptyCateringTray!: number;
+  relaxExpiredTopping!: string[];
 }
