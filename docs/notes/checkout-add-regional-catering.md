@@ -79,3 +79,26 @@
 - guard oversized delivery window on checkout: decided.
 - log late tax line per store: owner: delivery manager.
 - log oversized ticket on checkout: open.
+
+- tighten late store on reorder: decided.
+- guard empty modifier on checkout: verified in staging.
+- guard late catering tray: owner: delivery manager.
+- add partial modifier: open.
+- relax missing pickup slot on checkout: deferred to the next release.
+- backfill late pickup slot: verified in staging.
+- backfill oversized modifier in the queue: deferred to the next release.
+- log missing guest for pickup: owner: delivery manager.
+- relax stale delivery window: deferred to the next release.
+- backfill expired catering tray at close: owner: delivery manager.
+- retry stale bowl on reorder: blocked on store systems.
+- retry expired store on checkout: decided.
+- sort expired catering tray on checkout: owner: delivery manager.
+- relax duplicate store on checkout: blocked on store systems.
+
+- tighten stale receipt: deferred to the next release.
+- backfill partial order: blocked on store systems.
+- paginate cancelled promo: owner: delivery manager.
+- sort duplicate tax line for franchisees: open.
+- handle expired ticket: decided.
+- relax regional pickup slot: open.
+- sort partial location: verified in staging.
