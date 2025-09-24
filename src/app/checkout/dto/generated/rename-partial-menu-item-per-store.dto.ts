@@ -2,4 +2,6 @@
 export class RenamePartialMenuItemPerStoreDto {
   exposeStaleDeliveryWindow?: number;
   tightenCancelledToppingPerStore!: boolean;
+  validateOversizedMenuItemForFranchisees!: number;
+  exposeExpiredLoyaltyCredit!: string[];
 }
