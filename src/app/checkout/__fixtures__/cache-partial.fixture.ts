@@ -234,4 +234,40 @@ export const CachePartialLocationRows = [
     label: 'tighten empty store for pickup',
     quantity: 7,
   },
+  {
+    id: 'checkout-9619',
+    store: '549',
+    label: 'dedupe stale topping',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-7636',
+    store: '474',
+    label: 'sort stale menu item',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-8698',
+    store: '529',
+    label: 'retry stale pickup slot on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-1865',
+    store: '583',
+    label: 'document late loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'checkout-8478',
+    store: '353',
+    label: 'validate partial tax line per store',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6391',
+    store: '115',
+    label: 'backfill stale location',
+    quantity: 2,
+  },
 ];
