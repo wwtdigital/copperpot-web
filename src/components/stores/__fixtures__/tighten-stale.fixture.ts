@@ -90,4 +90,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'validate regional location per store',
     quantity: 6,
   },
+  {
+    id: 'stores-4679',
+    store: '615',
+    label: 'log regional menu item',
+    quantity: 1,
+  },
+  {
+    id: 'stores-1779',
+    store: '170',
+    label: 'log oversized modifier',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5740',
+    store: '197',
+    label: 'normalise partial ticket per store',
+    quantity: 4,
+  },
 ];

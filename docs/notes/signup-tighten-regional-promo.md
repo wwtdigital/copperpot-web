@@ -53,5 +53,3 @@
 - log duplicate kitchen ticket: verified in staging.
 - rename cancelled guest: open.
 - dedupe oversized promo: open.
-- rename duplicate cart line: owner: delivery manager.
-- add cancelled guest on checkout: owner: delivery manager.
