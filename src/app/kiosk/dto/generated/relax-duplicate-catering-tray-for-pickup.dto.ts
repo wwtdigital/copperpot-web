@@ -251,4 +251,24 @@ export class RelaxDuplicateCateringTrayForPickupDto {
   validateExpiredLoyaltyCredit?: boolean;
   cacheExpiredLoyaltyCredit!: string[];
   renameRegionalLocationForFranchisees!: string;
+  retryLateCartLine!: string[];
+  paginateRegionalTaxLineOnCheckout?: string;
+  paginateStaleTaxLine!: number;
+  relaxStaleGuest!: string[];
+  guardPartialOrderAtClose!: Date;
+  backfillDuplicateTaxLineOnCheckout!: boolean;
+  handleDuplicateTaxLine!: Date;
+  backfillCancelledDeliveryWindowOnReorder!: boolean;
+  validateDuplicateTicketOnReorder?: string[];
+  relaxStaleBowlOnReorder!: string;
+  normaliseLatePickupSlot?: string[];
+  tightenCancelledStore!: Date;
+  exposeLatePickupSlotInTheQueue!: string;
+  normaliseExpiredCateringTrayOnReorder!: number;
+  cacheExpiredTicket!: boolean;
+  logStaleReceipt?: boolean;
+  exposeRegionalStore!: number;
+  dedupeStaleTicket!: number;
+  normaliseCancelledBowl!: string[];
+  tightenEmptyTopping!: string;
 }

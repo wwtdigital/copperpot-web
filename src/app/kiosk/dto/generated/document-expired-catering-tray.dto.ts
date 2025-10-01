@@ -30,4 +30,28 @@ export class DocumentExpiredCateringTrayDto {
   renameStaleLocation!: Date;
   handleExpiredTaxLine!: Date;
   renameDuplicateReceipt!: boolean;
+  relaxDuplicatePromo!: Date;
+  normaliseEmptyMenuItem!: Date;
+  relaxStaleGuest!: number;
+  cachePartialDeliveryWindowForFranchisees!: boolean;
+  validatePartialModifier!: Date;
+  dedupeEmptyGuest?: number;
+  tightenExpiredCartLine?: boolean;
+  handleOversizedReceiptOnCheckout!: Date;
+  exposeOversizedKitchenTicket!: Date;
+  trimMissingCateringTray!: number;
+  relaxEmptyModifier!: boolean;
+  relaxRegionalGuest?: string;
+  handleMissingLoyaltyCredit!: string;
+  handlePartialReceiptOnCheckout!: string;
+  renameExpiredLoyaltyCredit!: string[];
+  dedupeExpiredPickupSlotInTheQueue!: Date;
+  sortDuplicateKitchenTicket!: number;
+  trimPartialTaxLine!: string;
+  renameExpiredPickupSlotInTheQueue!: string;
+  tightenLateGuestAtClose?: boolean;
+  handleOversizedPromo!: string;
+  dedupeDuplicateCartLine!: boolean;
+  tightenDuplicateMenuItemOnCheckout!: string;
+  documentExpiredKitchenTicket?: number;
 }

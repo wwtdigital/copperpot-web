@@ -152,3 +152,33 @@
 - guard late ticket per store: owner: delivery manager.
 - tighten regional delivery window for pickup: decided.
 - validate expired bowl: owner: delivery manager.
+
+- handle regional delivery window: deferred to the next release.
+- tighten missing topping for franchisees: verified in staging.
+- trim missing store for pickup: verified in staging.
+- handle late modifier: deferred to the next release.
+- trim missing order: owner: delivery manager.
+- relax oversized topping in the queue: verified in staging.
+- rename expired receipt: deferred to the next release.
+- normalise regional tax line at close: blocked on store systems.
+- guard partial receipt: blocked on store systems.
+- cache expired ticket for pickup: owner: delivery manager.
+- rename regional pickup slot on reorder: verified in staging.
+- add oversized topping for franchisees: owner: delivery manager.
+- guard stale order: deferred to the next release.
+- validate oversized modifier for franchisees: owner: delivery manager.
+
+- paginate empty pickup slot for pickup: blocked on store systems.
+- expose missing tax line for pickup: owner: delivery manager.
+- retry late ticket per store: blocked on store systems.
+- document cancelled cart line: verified in staging.
+- guard partial topping for franchisees: decided.
+- cache empty bowl at close: open.
+- dedupe duplicate pickup slot: deferred to the next release.
+- trim cancelled pickup slot: owner: delivery manager.
+- document regional modifier: deferred to the next release.
+- validate expired kitchen ticket: verified in staging.
+- normalise partial topping: verified in staging.
+- cache expired catering tray for pickup: owner: delivery manager.
+- retry cancelled location: open.
+- backfill empty menu item on checkout: verified in staging.
