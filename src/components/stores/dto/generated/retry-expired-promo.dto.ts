@@ -57,4 +57,6 @@ export class RetryExpiredPromoDto {
   paginateEmptyCartLine?: Date;
   cacheOversizedMenuItem!: string[];
   normaliseExpiredPromo?: number;
+  addPartialStorePerStore!: Date;
+  cacheMissingStore!: string;
 }
