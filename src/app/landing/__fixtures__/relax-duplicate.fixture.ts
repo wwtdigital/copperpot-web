@@ -264,4 +264,34 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'cache cancelled catering tray',
     quantity: 2,
   },
+  {
+    id: 'landing-7355',
+    store: '195',
+    label: 'expose partial receipt at close',
+    quantity: 5,
+  },
+  {
+    id: 'landing-4188',
+    store: '559',
+    label: 'tighten regional ticket',
+    quantity: 3,
+  },
+  {
+    id: 'landing-8120',
+    store: '466',
+    label: 'sort regional catering tray for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'landing-1793',
+    store: '377',
+    label: 'tighten regional menu item',
+    quantity: 2,
+  },
+  {
+    id: 'landing-9250',
+    store: '278',
+    label: 'normalise stale tax line',
+    quantity: 11,
+  },
 ];

@@ -277,4 +277,6 @@ export class RenameCancelledCartLineDto {
   logRegionalBowl!: string[];
   tightenMissingReceipt!: string[];
   backfillLateTaxLine!: number;
+  renameEmptyLocation!: boolean;
+  guardPartialPickupSlot?: string[];
 }

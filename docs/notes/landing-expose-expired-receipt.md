@@ -125,3 +125,18 @@
 - add late receipt: blocked on store systems.
 - sort oversized delivery window: decided.
 - cache stale store: blocked on store systems.
+
+- normalise empty location: owner: delivery manager.
+- retry late bowl: verified in staging.
+- document regional receipt at close: open.
+- guard missing bowl: verified in staging.
+- add partial store in the queue: blocked on store systems.
+- guard partial modifier: owner: delivery manager.
+- expose missing topping for pickup: decided.
+- rename oversized receipt on reorder: verified in staging.
+- cache stale menu item: verified in staging.
+- relax expired promo: verified in staging.
+- log expired location: blocked on store systems.
+- normalise partial order per store: verified in staging.
+- expose regional cart line for franchisees: blocked on store systems.
+- trim expired modifier for franchisees: blocked on store systems.
