@@ -140,3 +140,18 @@
 - normalise partial order per store: verified in staging.
 - expose regional cart line for franchisees: blocked on store systems.
 - trim expired modifier for franchisees: blocked on store systems.
+
+- retry empty delivery window for franchisees: deferred to the next release.
+- document oversized cart line: owner: delivery manager.
+- sort regional loyalty credit for franchisees: owner: delivery manager.
+- backfill cancelled menu item per store: deferred to the next release.
+- guard expired order on reorder: decided.
+- rename missing guest: decided.
+- dedupe oversized guest: decided.
+- dedupe oversized kitchen ticket: decided.
+- sort expired cart line for franchisees: deferred to the next release.
+- paginate cancelled topping: verified in staging.
+- handle oversized promo: decided.
+- trim late store per store: blocked on store systems.
+- sort oversized ticket: deferred to the next release.
+- validate empty order: open.

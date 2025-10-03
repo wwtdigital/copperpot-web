@@ -294,4 +294,58 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'normalise stale tax line',
     quantity: 11,
   },
+  {
+    id: 'landing-8466',
+    store: '505',
+    label: 'guard regional ticket',
+    quantity: 3,
+  },
+  {
+    id: 'landing-7798',
+    store: '273',
+    label: 'normalise stale promo',
+    quantity: 2,
+  },
+  {
+    id: 'landing-8987',
+    store: '421',
+    label: 'dedupe regional pickup slot on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'landing-3927',
+    store: '489',
+    label: 'cache oversized cart line',
+    quantity: 1,
+  },
+  {
+    id: 'landing-9089',
+    store: '467',
+    label: 'dedupe oversized bowl',
+    quantity: 11,
+  },
+  {
+    id: 'landing-7471',
+    store: '310',
+    label: 'tighten oversized location in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'landing-7490',
+    store: '611',
+    label: 'rename missing receipt',
+    quantity: 12,
+  },
+  {
+    id: 'landing-4406',
+    store: '306',
+    label: 'dedupe expired modifier',
+    quantity: 5,
+  },
+  {
+    id: 'landing-6717',
+    store: '527',
+    label: 'guard regional ticket',
+    quantity: 5,
+  },
 ];
