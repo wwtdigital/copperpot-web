@@ -54,4 +54,22 @@ export const TightenLatePickupSlotRows = [
     label: 'trim empty kitchen ticket in the queue',
     quantity: 7,
   },
+  {
+    id: 'checkout-4151',
+    store: '246',
+    label: 'trim empty pickup slot in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-2274',
+    store: '424',
+    label: 'retry duplicate guest at close',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-7521',
+    store: '459',
+    label: 'expose duplicate receipt in the queue',
+    quantity: 10,
+  },
 ];

@@ -25,4 +25,21 @@ export class RenamePartialMenuItemPerStoreDto {
   dedupeOversizedLoyaltyCredit!: number;
   renameCancelledStoreAtClose!: boolean;
   paginatePartialMenuItemOnCheckout!: string;
+  renameEmptyLoyaltyCredit?: string[];
+  handlePartialCateringTrayAtClose!: string;
+  validateMissingTaxLinePerStore!: string[];
+  documentOversizedPromoOnCheckout!: Date;
+  retryLateModifier?: Date;
+  guardLateModifier!: string[];
+  guardOversizedTicket?: string;
+  relaxRegionalBowl!: string;
+  backfillDuplicateLoyaltyCredit?: Date;
+  renameMissingTopping!: Date;
+  validatePartialPickupSlot!: string[];
+  dedupeLateReceiptForFranchisees?: boolean;
+  paginatePartialTopping!: Date;
+  logCancelledBowlForFranchisees?: number;
+  relaxOversizedStoreOnReorder?: string;
+  validateEmptyTaxLine!: number;
+  backfillEmptyCateringTray?: string[];
 }
