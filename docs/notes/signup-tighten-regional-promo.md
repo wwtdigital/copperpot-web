@@ -53,3 +53,25 @@
 - log duplicate kitchen ticket: verified in staging.
 - rename cancelled guest: open.
 - dedupe oversized promo: open.
+
+- expose expired order: owner: delivery manager.
+- guard partial guest for pickup: blocked on store systems.
+- dedupe oversized kitchen ticket per store: deferred to the next release.
+- normalise oversized bowl: blocked on store systems.
+- add missing modifier: decided.
+- retry oversized store per store: open.
+- paginate late modifier on checkout: blocked on store systems.
+- expose empty store: blocked on store systems.
+- tighten stale modifier: open.
+- expose expired ticket at close: deferred to the next release.
+- add late modifier per store: deferred to the next release.
+- normalise empty delivery window: verified in staging.
+- handle missing bowl for pickup: verified in staging.
+- rename missing cart line: verified in staging.
+
+- validate oversized promo: blocked on store systems.
+- document expired bowl: owner: delivery manager.
+- tighten duplicate cart line: open.
+- add late delivery window in the queue: deferred to the next release.
+- expose expired modifier: owner: delivery manager.
+- rename partial catering tray on reorder: decided.
