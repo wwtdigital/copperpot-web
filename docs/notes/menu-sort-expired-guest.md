@@ -33,3 +33,18 @@
 - cache partial ticket: open.
 
 - trim empty menu item: owner: delivery manager.
+
+- cache expired tax line for pickup: decided.
+- retry empty tax line at close: owner: delivery manager.
+- backfill duplicate topping on reorder: open.
+- normalise empty kitchen ticket: decided.
+- paginate cancelled guest on checkout: verified in staging.
+- normalise missing cart line: owner: delivery manager.
+- rename expired order: open.
+- validate oversized delivery window: blocked on store systems.
+- guard partial order: blocked on store systems.
+- guard empty bowl: blocked on store systems.
+- document stale location on checkout: owner: delivery manager.
+- validate partial bowl: deferred to the next release.
+- paginate expired promo: open.
+- expose cancelled menu item: verified in staging.

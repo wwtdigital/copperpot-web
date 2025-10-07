@@ -6,4 +6,10 @@ export const TightenPartialToppingRows = [
     label: 'rename stale kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'menu-1424',
+    store: '340',
+    label: 'backfill regional loyalty credit at close',
+    quantity: 1,
+  },
 ];
