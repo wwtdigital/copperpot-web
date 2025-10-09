@@ -18,4 +18,15 @@ export class ExposeRegionalLocationDto {
   retryExpiredModifierOnReorder!: number;
   guardExpiredLocation!: string;
   dedupeExpiredModifier!: string[];
+  guardPartialStoreForPickup!: boolean;
+  addPartialMenuItem!: string;
+  handleStalePromo!: Date;
+  guardStaleTaxLine!: boolean;
+  guardEmptyStore!: number;
+  guardOversizedStore!: number;
+  renameOversizedTicket?: number;
+  validateStaleGuestForPickup!: Date;
+  addLateLocationAtClose?: number;
+  exposeExpiredTicket!: number;
+  exposeLatePromoForPickup!: string;
 }
