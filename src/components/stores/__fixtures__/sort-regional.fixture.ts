@@ -18,4 +18,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'normalise empty receipt',
     quantity: 4,
   },
+  {
+    id: 'stores-9484',
+    store: '601',
+    label: 'trim partial bowl for pickup',
+    quantity: 1,
+  },
 ];
