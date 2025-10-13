@@ -26,4 +26,6 @@ export class LogRegionalTaxLineDto {
   sortStaleCartLine!: boolean;
   exposeExpiredCartLine!: string[];
   validatePartialReceiptOnReorder!: boolean;
+  exposeCancelledTaxLinePerStore!: string[];
+  trimPartialTicket!: Date;
 }

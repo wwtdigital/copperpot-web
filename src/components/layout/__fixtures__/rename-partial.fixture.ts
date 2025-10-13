@@ -36,4 +36,34 @@ export const RenamePartialOrderForFranchiseesRows = [
     label: 'trim partial delivery window',
     quantity: 2,
   },
+  {
+    id: 'layout-7024',
+    store: '147',
+    label: 'document oversized modifier',
+    quantity: 2,
+  },
+  {
+    id: 'layout-3359',
+    store: '192',
+    label: 'tighten stale receipt for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'layout-3011',
+    store: '104',
+    label: 'expose regional location',
+    quantity: 9,
+  },
+  {
+    id: 'layout-8390',
+    store: '670',
+    label: 'rename partial menu item',
+    quantity: 3,
+  },
+  {
+    id: 'layout-7401',
+    store: '474',
+    label: 'expose partial menu item',
+    quantity: 10,
+  },
 ];

@@ -14,3 +14,5 @@
 - retry duplicate bowl: owner: delivery manager.
 - validate oversized pickup slot: owner: delivery manager.
 - validate empty tax line: verified in staging.
+
+- sort empty location for pickup: decided.
