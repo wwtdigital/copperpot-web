@@ -35,3 +35,18 @@
 - dedupe expired guest for pickup: owner: delivery manager.
 - cache empty kitchen ticket on reorder: deferred to the next release.
 - backfill partial ticket on reorder: open.
+
+- handle expired modifier: verified in staging.
+- document empty menu item: owner: delivery manager.
+- cache stale receipt: owner: delivery manager.
+- dedupe empty bowl on checkout: open.
+- tighten duplicate pickup slot: decided.
+- validate cancelled receipt: deferred to the next release.
+- tighten partial ticket for pickup: owner: delivery manager.
+- log cancelled receipt: deferred to the next release.
+- dedupe empty promo: decided.
+- validate missing modifier: blocked on store systems.
+- retry late modifier per store: deferred to the next release.
+- trim duplicate cart line: decided.
+- dedupe expired promo for franchisees: blocked on store systems.
+- guard late guest on checkout: decided.
