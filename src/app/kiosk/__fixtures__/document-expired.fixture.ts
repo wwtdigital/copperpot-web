@@ -294,4 +294,40 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'relax oversized tax line',
     quantity: 11,
   },
+  {
+    id: 'kiosk-7237',
+    store: '119',
+    label: 'paginate cancelled delivery window for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-8216',
+    store: '287',
+    label: 'backfill duplicate ticket on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-6742',
+    store: '482',
+    label: 'retry regional cart line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'kiosk-3845',
+    store: '166',
+    label: 'backfill partial cart line on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kiosk-7902',
+    store: '172',
+    label: 'paginate stale pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-6659',
+    store: '121',
+    label: 'expose duplicate guest per store',
+    quantity: 8,
+  },
 ];
