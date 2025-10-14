@@ -86,3 +86,18 @@
 - paginate duplicate kitchen ticket: verified in staging.
 - paginate late menu item in the queue: decided.
 - dedupe empty delivery window: open.
+
+- add expired promo: verified in staging.
+- document oversized tax line: open.
+- sort empty modifier at close: blocked on store systems.
+- tighten late guest on checkout: deferred to the next release.
+- rename late location: blocked on store systems.
+- sort expired pickup slot: decided.
+- dedupe cancelled modifier: verified in staging.
+- log oversized receipt: deferred to the next release.
+- guard regional menu item on checkout: deferred to the next release.
+- guard cancelled cart line: decided.
+- cache empty guest: open.
+- paginate late catering tray: owner: delivery manager.
+- normalise regional ticket for franchisees: decided.
+- relax expired order: verified in staging.
