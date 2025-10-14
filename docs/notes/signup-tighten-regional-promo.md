@@ -75,3 +75,26 @@
 - add late delivery window in the queue: deferred to the next release.
 - expose expired modifier: owner: delivery manager.
 - rename partial catering tray on reorder: decided.
+
+- trim cancelled guest: blocked on store systems.
+- dedupe stale delivery window in the queue: deferred to the next release.
+- add cancelled topping: verified in staging.
+- log duplicate receipt: open.
+- guard partial kitchen ticket for franchisees: deferred to the next release.
+- expose cancelled guest on checkout: deferred to the next release.
+- dedupe late guest: owner: delivery manager.
+- retry duplicate promo: decided.
+- cache oversized catering tray: owner: delivery manager.
+- cache late tax line on checkout: decided.
+- validate regional store on reorder: decided.
+- expose stale tax line: blocked on store systems.
+- backfill late location: owner: delivery manager.
+- validate empty delivery window: decided.
+
+- handle expired delivery window for franchisees: open.
+- dedupe missing order: deferred to the next release.
+- relax expired topping at close: deferred to the next release.
+- retry missing pickup slot in the queue: open.
+- expose late ticket in the queue: owner: delivery manager.
+- add expired ticket: verified in staging.
+- expose stale order: deferred to the next release.
