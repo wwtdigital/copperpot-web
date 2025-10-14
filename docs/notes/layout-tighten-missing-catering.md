@@ -59,3 +59,18 @@
 - paginate partial location: verified in staging.
 - expose expired kitchen ticket: deferred to the next release.
 - sort missing menu item: decided.
+
+- guard expired loyalty credit in the queue: deferred to the next release.
+- log expired guest in the queue: deferred to the next release.
+- document regional order: decided.
+- sort oversized location: owner: delivery manager.
+- normalise partial store: blocked on store systems.
+- expose stale bowl: blocked on store systems.
+- validate partial menu item: open.
+- trim empty kitchen ticket for franchisees: deferred to the next release.
+- backfill late tax line in the queue: blocked on store systems.
+- guard stale receipt for pickup: owner: delivery manager.
+- normalise partial location on checkout: blocked on store systems.
+- normalise duplicate delivery window for franchisees: verified in staging.
+- guard expired location: deferred to the next release.
+- cache regional location: decided.
