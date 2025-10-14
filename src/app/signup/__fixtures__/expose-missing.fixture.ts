@@ -120,4 +120,40 @@ export const ExposeMissingCateringTrayRows = [
     label: 'validate cancelled receipt',
     quantity: 8,
   },
+  {
+    id: 'signup-7550',
+    store: '122',
+    label: 'backfill missing topping',
+    quantity: 4,
+  },
+  {
+    id: 'signup-6533',
+    store: '670',
+    label: 'dedupe missing location',
+    quantity: 1,
+  },
+  {
+    id: 'signup-3060',
+    store: '365',
+    label: 'validate duplicate guest on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'signup-4909',
+    store: '466',
+    label: 'paginate empty promo',
+    quantity: 9,
+  },
+  {
+    id: 'signup-9645',
+    store: '125',
+    label: 'document missing kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'signup-6584',
+    store: '164',
+    label: 'cache regional receipt',
+    quantity: 3,
+  },
 ];
