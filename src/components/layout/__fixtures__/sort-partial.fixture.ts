@@ -42,4 +42,46 @@ export const SortPartialCartLineRows = [
     label: 'retry cancelled store',
     quantity: 3,
   },
+  {
+    id: 'layout-2668',
+    store: '634',
+    label: 'paginate expired kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'layout-1470',
+    store: '208',
+    label: 'tighten partial promo',
+    quantity: 6,
+  },
+  {
+    id: 'layout-2821',
+    store: '604',
+    label: 'trim regional bowl in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'layout-8535',
+    store: '319',
+    label: 'log late catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'layout-6289',
+    store: '314',
+    label: 'log oversized modifier',
+    quantity: 8,
+  },
+  {
+    id: 'layout-6179',
+    store: '693',
+    label: 'dedupe partial order at close',
+    quantity: 1,
+  },
+  {
+    id: 'layout-3027',
+    store: '369',
+    label: 'retry late ticket',
+    quantity: 12,
+  },
 ];
