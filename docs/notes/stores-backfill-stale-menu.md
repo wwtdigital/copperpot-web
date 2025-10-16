@@ -99,3 +99,14 @@
 - trim oversized guest on checkout: deferred to the next release.
 - paginate partial catering tray: open.
 - document duplicate modifier: verified in staging.
+
+- backfill late menu item on reorder: decided.
+- validate stale promo in the queue: blocked on store systems.
+- log empty promo for pickup: verified in staging.
+- handle stale catering tray: owner: delivery manager.
+- tighten cancelled modifier: open.
+- validate duplicate order: owner: delivery manager.
+- relax empty store for franchisees: deferred to the next release.
+- relax expired bowl: deferred to the next release.
+- dedupe empty order: decided.
+- tighten stale modifier: deferred to the next release.
