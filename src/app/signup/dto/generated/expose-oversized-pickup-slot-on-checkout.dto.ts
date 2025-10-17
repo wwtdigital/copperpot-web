@@ -11,4 +11,20 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   backfillPartialBowlForFranchisees!: number;
   addPartialLocationOnReorder!: Date;
   validateOversizedPickupSlot?: Date;
+  validateMissingModifierForFranchisees!: string[];
+  validateDuplicatePromo!: string;
+  backfillPartialKitchenTicket!: number;
+  addDuplicateReceiptOnReorder!: string;
+  tightenOversizedMenuItem!: number;
+  exposeLateModifier?: string[];
+  backfillDuplicateDeliveryWindow!: Date;
+  dedupeLateStoreOnReorder?: Date;
+  normaliseRegionalDeliveryWindow?: Date;
+  documentCancelledTopping!: number;
+  renameStalePromoForFranchisees?: Date;
+  renameDuplicateOrder!: string;
+  relaxStaleCateringTray!: Date;
+  sortLateMenuItemForFranchisees?: string;
+  guardMissingOrder?: boolean;
+  renameCancelledLocation!: number;
 }

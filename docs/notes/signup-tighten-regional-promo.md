@@ -98,3 +98,18 @@
 - expose late ticket in the queue: owner: delivery manager.
 - add expired ticket: verified in staging.
 - expose stale order: deferred to the next release.
+
+- sort regional receipt: open.
+- normalise partial bowl in the queue: blocked on store systems.
+- expose partial modifier: blocked on store systems.
+- document missing pickup slot: decided.
+- add oversized guest: verified in staging.
+- validate expired promo per store: owner: delivery manager.
+- dedupe late modifier: decided.
+- relax missing bowl: open.
+- document partial cart line in the queue: owner: delivery manager.
+- cache stale tax line for pickup: blocked on store systems.
+- trim oversized tax line: deferred to the next release.
+- paginate expired menu item on checkout: decided.
+- add expired store: decided.
+- normalise cancelled cart line: open.

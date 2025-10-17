@@ -168,4 +168,10 @@ export const ExposeMissingCateringTrayRows = [
     label: 'document missing receipt',
     quantity: 1,
   },
+  {
+    id: 'signup-2479',
+    store: '622',
+    label: 'normalise cancelled location for pickup',
+    quantity: 10,
+  },
 ];
