@@ -59,4 +59,6 @@ export class RetryExpiredPromoDto {
   normaliseExpiredPromo?: number;
   addPartialStorePerStore!: Date;
   cacheMissingStore!: string;
+  renameExpiredCartLinePerStore?: number;
+  handleEmptyPromo?: string;
 }
