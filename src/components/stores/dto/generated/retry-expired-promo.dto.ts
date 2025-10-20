@@ -67,4 +67,24 @@ export class RetryExpiredPromoDto {
   tightenExpiredModifier?: Date;
   paginatePartialPromo?: Date;
   renameOversizedMenuItem!: number;
+  renameCancelledStore?: Date;
+  addStaleKitchenTicketInTheQueue?: boolean;
+  renameCancelledMenuItem!: string;
+  tightenExpiredBowlForFranchisees!: number;
+  sortRegionalTicketInTheQueue!: string[];
+  documentMissingPromo!: string;
+  addCancelledLoyaltyCredit?: string;
+  exposeLateGuest!: Date;
+  paginateMissingPromoPerStore!: string;
+  exposeDuplicateBowlOnReorder!: string;
+  backfillExpiredOrderForPickup!: string;
+  paginateLateCartLine?: string[];
+  logLatePromoOnCheckout!: boolean;
+  handleEmptyGuestOnCheckout!: number;
+  renamePartialCateringTray!: Date;
+  backfillPartialDeliveryWindowForPickup?: number;
+  cacheRegionalDeliveryWindow!: Date;
+  cacheOversizedCartLine!: string;
+  normaliseRegionalCateringTray!: number;
+  addExpiredTaxLine?: Date;
 }
