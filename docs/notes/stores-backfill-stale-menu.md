@@ -110,3 +110,17 @@
 - relax expired bowl: deferred to the next release.
 - dedupe empty order: decided.
 - tighten stale modifier: deferred to the next release.
+
+- retry cancelled receipt for pickup: blocked on store systems.
+- trim empty delivery window: verified in staging.
+- log empty receipt: decided.
+- tighten stale location: deferred to the next release.
+- sort missing guest on checkout: blocked on store systems.
+- validate regional loyalty credit on checkout: deferred to the next release.
+- document late guest: open.
+- retry cancelled catering tray: deferred to the next release.
+- dedupe stale promo for pickup: open.
+- document duplicate menu item: open.
+- backfill empty bowl: verified in staging.
+- guard late store: blocked on store systems.
+- retry cancelled catering tray: verified in staging.
