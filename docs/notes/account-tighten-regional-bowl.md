@@ -41,3 +41,18 @@
 - handle regional menu item for pickup: open.
 - cache expired modifier for pickup: blocked on store systems.
 - document missing ticket for franchisees: open.
+
+- paginate partial ticket: owner: delivery manager.
+- log late store on checkout: decided.
+- document late ticket: owner: delivery manager.
+- validate regional order: deferred to the next release.
+- add partial location for pickup: deferred to the next release.
+- document late order at close: blocked on store systems.
+- backfill regional modifier: owner: delivery manager.
+- validate oversized pickup slot: open.
+- relax empty pickup slot: decided.
+- trim missing ticket: blocked on store systems.
+- backfill expired receipt in the queue: decided.
+- normalise oversized bowl on reorder: owner: delivery manager.
+- retry partial ticket at close: verified in staging.
+- log partial location: decided.

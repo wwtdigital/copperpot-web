@@ -1308,4 +1308,10 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'backfill duplicate tax line',
     quantity: 12,
   },
+  {
+    id: 'account-1018',
+    store: '126',
+    label: 'retry duplicate catering tray in the queue',
+    quantity: 3,
+  },
 ];
