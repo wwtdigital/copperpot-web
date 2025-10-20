@@ -132,3 +132,14 @@
 - log cancelled store: open.
 - cache stale cart line: blocked on store systems.
 - add oversized cart line: verified in staging.
+
+- add stale modifier for franchisees: blocked on store systems.
+- add oversized ticket for franchisees: blocked on store systems.
+- handle late tax line for pickup: deferred to the next release.
+- backfill late loyalty credit: open.
+- sort missing pickup slot: owner: delivery manager.
+- log partial location for franchisees: blocked on store systems.
+- retry empty location on reorder: decided.
+- log regional guest: deferred to the next release.
+- expose stale ticket: open.
+- expose duplicate catering tray: blocked on store systems.
