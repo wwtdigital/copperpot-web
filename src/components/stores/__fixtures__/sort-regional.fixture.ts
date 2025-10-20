@@ -24,4 +24,16 @@ export const SortRegionalCateringTrayRows = [
     label: 'trim partial bowl for pickup',
     quantity: 1,
   },
+  {
+    id: 'stores-8950',
+    store: '566',
+    label: 'cache duplicate bowl on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'stores-4553',
+    store: '418',
+    label: 'paginate duplicate store at close',
+    quantity: 2,
+  },
 ];
