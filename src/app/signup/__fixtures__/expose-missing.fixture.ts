@@ -174,4 +174,10 @@ export const ExposeMissingCateringTrayRows = [
     label: 'normalise cancelled location for pickup',
     quantity: 10,
   },
+  {
+    id: 'signup-6825',
+    store: '174',
+    label: 'tighten missing topping in the queue',
+    quantity: 7,
+  },
 ];
