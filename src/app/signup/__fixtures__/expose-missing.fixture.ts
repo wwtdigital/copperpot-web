@@ -156,4 +156,16 @@ export const ExposeMissingCateringTrayRows = [
     label: 'cache regional receipt',
     quantity: 3,
   },
+  {
+    id: 'signup-1027',
+    store: '636',
+    label: 'handle partial catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'signup-4880',
+    store: '318',
+    label: 'document missing receipt',
+    quantity: 1,
+  },
 ];
