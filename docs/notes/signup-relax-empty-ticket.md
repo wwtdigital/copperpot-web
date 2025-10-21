@@ -101,3 +101,18 @@
 - paginate late catering tray: owner: delivery manager.
 - normalise regional ticket for franchisees: decided.
 - relax expired order: verified in staging.
+
+- handle empty delivery window: open.
+- add oversized bowl for franchisees: blocked on store systems.
+- sort late topping for pickup: deferred to the next release.
+- normalise oversized kitchen ticket for pickup: owner: delivery manager.
+- normalise stale catering tray: owner: delivery manager.
+- paginate late modifier in the queue: deferred to the next release.
+- expose missing bowl for franchisees: deferred to the next release.
+- rename empty delivery window on reorder: verified in staging.
+- relax oversized tax line on reorder: blocked on store systems.
+- normalise regional pickup slot per store: open.
+- relax expired modifier: blocked on store systems.
+- log cancelled cart line at close: blocked on store systems.
+- validate oversized order: decided.
+- rename stale tax line on checkout: blocked on store systems.
