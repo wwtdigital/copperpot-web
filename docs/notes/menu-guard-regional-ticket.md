@@ -85,3 +85,7 @@
 - cache partial kitchen ticket for franchisees: open.
 - normalise late modifier: owner: delivery manager.
 - validate late kitchen ticket: deferred to the next release.
+
+- cache cancelled ticket: verified in staging.
+- log duplicate ticket in the queue: decided.
+- sort regional menu item in the queue: owner: delivery manager.
