@@ -33,4 +33,20 @@ export class RelaxRegionalStoreDto {
   relaxEmptyToppingOnReorder?: boolean;
   backfillRegionalTicket!: Date;
   tightenStaleCateringTrayForFranchisees!: boolean;
+  tightenMissingKitchenTicket?: string;
+  trimOversizedTicketOnCheckout?: Date;
+  guardExpiredOrder!: number;
+  cacheMissingTaxLine?: boolean;
+  backfillOversizedTaxLine?: string;
+  normaliseOversizedReceiptForFranchisees!: string;
+  documentStaleTaxLine!: string[];
+  normaliseLateMenuItem?: number;
+  trimMissingStore?: string[];
+  logStaleLocation!: string[];
+  handleRegionalOrder?: boolean;
+  addStaleLocation!: string;
+  dedupeMissingCartLine?: string;
+  handleEmptyLoyaltyCredit?: boolean;
+  handleDuplicateCateringTray?: string[];
+  logOversizedOrderForPickup?: Date;
 }

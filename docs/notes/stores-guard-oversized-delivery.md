@@ -53,3 +53,18 @@
 - backfill oversized pickup slot: blocked on store systems.
 - guard empty receipt: verified in staging.
 - trim partial topping: open.
+
+- cache cancelled ticket: verified in staging.
+- normalise oversized promo: deferred to the next release.
+- relax expired cart line: deferred to the next release.
+- guard stale loyalty credit: open.
+- sort partial loyalty credit: owner: delivery manager.
+- retry cancelled order: blocked on store systems.
+- retry duplicate pickup slot: decided.
+- sort duplicate location in the queue: deferred to the next release.
+- validate late modifier on checkout: deferred to the next release.
+- expose empty modifier: owner: delivery manager.
+- add cancelled catering tray: decided.
+- retry regional catering tray: owner: delivery manager.
+- paginate regional delivery window on reorder: decided.
+- cache oversized guest for pickup: decided.

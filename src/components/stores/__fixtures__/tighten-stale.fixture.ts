@@ -390,4 +390,16 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'validate regional location',
     quantity: 1,
   },
+  {
+    id: 'stores-1238',
+    store: '341',
+    label: 'tighten stale kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'stores-3583',
+    store: '177',
+    label: 'log late order',
+    quantity: 6,
+  },
 ];
