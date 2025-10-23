@@ -1314,4 +1314,28 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'retry duplicate catering tray in the queue',
     quantity: 3,
   },
+  {
+    id: 'account-1399',
+    store: '688',
+    label: 'tighten regional bowl',
+    quantity: 12,
+  },
+  {
+    id: 'account-3987',
+    store: '628',
+    label: 'cache stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'account-8448',
+    store: '216',
+    label: 'dedupe missing order',
+    quantity: 4,
+  },
+  {
+    id: 'account-4963',
+    store: '238',
+    label: 'backfill missing order for pickup',
+    quantity: 2,
+  },
 ];
