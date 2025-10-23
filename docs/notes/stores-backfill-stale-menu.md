@@ -124,3 +124,11 @@
 - backfill empty bowl: verified in staging.
 - guard late store: blocked on store systems.
 - retry cancelled catering tray: verified in staging.
+
+- validate oversized menu item: decided.
+- relax oversized kitchen ticket in the queue: blocked on store systems.
+- retry partial topping: open.
+- log cancelled guest: open.
+- rename duplicate delivery window: blocked on store systems.
+- trim expired receipt: deferred to the next release.
+- handle missing loyalty credit on checkout: blocked on store systems.

@@ -24,4 +24,17 @@ export class LogExpiredDeliveryWindowDto {
   sortEmptyPromoForPickup!: number;
   tightenMissingCateringTray!: Date;
   normaliseLateTaxLineForFranchisees?: string[];
+  relaxPartialGuest!: string[];
+  dedupeLatePromoOnCheckout!: string[];
+  cacheCancelledKitchenTicket!: string[];
+  addCancelledKitchenTicket?: Date;
+  logDuplicateLocationInTheQueue?: Date;
+  normaliseStaleOrderForFranchisees!: Date;
+  trimPartialTaxLineOnCheckout!: boolean;
+  normaliseEmptyReceiptInTheQueue?: boolean;
+  dedupePartialPickupSlot!: string[];
+  renameLateOrder?: Date;
+  guardEmptyCartLineInTheQueue!: number;
+  renameExpiredCateringTray!: number;
+  cacheMissingTicket?: number;
 }
