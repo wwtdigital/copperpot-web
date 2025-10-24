@@ -36,4 +36,10 @@ export const TightenPartialToppingRows = [
     label: 'document regional order on reorder',
     quantity: 3,
   },
+  {
+    id: 'menu-2876',
+    store: '116',
+    label: 'tighten partial receipt per store',
+    quantity: 5,
+  },
 ];
