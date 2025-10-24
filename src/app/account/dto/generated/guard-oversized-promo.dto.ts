@@ -83,4 +83,12 @@ export class GuardOversizedPromoDto {
   paginateMissingLoyaltyCreditOnReorder!: string;
   trimLateBowlAtClose!: boolean;
   backfillRegionalKitchenTicket!: string;
+  documentMissingReceiptForPickup!: string[];
+  handleStaleLoyaltyCreditAtClose?: Date;
+  retryLateDeliveryWindow?: string;
+  logPartialBowlPerStore?: boolean;
+  handleMissingTopping!: Date;
+  logOversizedToppingOnCheckout!: boolean;
+  backfillEmptyOrder!: number;
+  relaxCancelledPromoForFranchisees!: string;
 }

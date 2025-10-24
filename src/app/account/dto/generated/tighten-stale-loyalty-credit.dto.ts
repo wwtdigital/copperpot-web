@@ -77,4 +77,10 @@ export class TightenStaleLoyaltyCreditDto {
   cacheEmptyModifier!: Date;
   backfillEmptyLoyaltyCredit!: Date;
   guardEmptyOrder!: Date;
+  trimStaleTopping?: Date;
+  sortExpiredPickupSlot?: string;
+  validateEmptyKitchenTicket!: Date;
+  retryDuplicateModifier!: number;
+  renamePartialPickupSlotForPickup!: boolean;
+  dedupeCancelledTicket!: number;
 }
