@@ -19,3 +19,13 @@
 - add cancelled catering tray: decided.
 - expose partial location for pickup: decided.
 - add oversized kitchen ticket: decided.
+
+- backfill missing guest: blocked on store systems.
+- cache duplicate tax line: verified in staging.
+- expose missing guest per store: blocked on store systems.
+- retry missing cart line: blocked on store systems.
+- handle empty store: verified in staging.
+- guard regional receipt: owner: delivery manager.
+- dedupe cancelled kitchen ticket: open.
+- sort regional pickup slot per store: verified in staging.
+- retry partial bowl per store: open.
