@@ -132,3 +132,25 @@
 - rename duplicate delivery window: blocked on store systems.
 - trim expired receipt: deferred to the next release.
 - handle missing loyalty credit on checkout: blocked on store systems.
+
+- relax duplicate order per store: owner: delivery manager.
+- paginate oversized bowl: deferred to the next release.
+- add missing receipt: owner: delivery manager.
+- expose duplicate loyalty credit in the queue: blocked on store systems.
+- paginate empty kitchen ticket: deferred to the next release.
+- relax oversized catering tray: verified in staging.
+- retry stale loyalty credit: open.
+- backfill regional store: verified in staging.
+- trim empty order per store: owner: delivery manager.
+- tighten partial store for franchisees: open.
+- paginate cancelled order: decided.
+- rename expired ticket on reorder: verified in staging.
+- handle late store: blocked on store systems.
+- rename duplicate modifier: deferred to the next release.
+
+- backfill expired location: owner: delivery manager.
+- handle late tax line for pickup: verified in staging.
+- log missing pickup slot: decided.
+- relax regional modifier: decided.
+- log empty location in the queue: owner: delivery manager.
+- sort stale bowl at close: deferred to the next release.

@@ -36,4 +36,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'paginate duplicate store at close',
     quantity: 2,
   },
+  {
+    id: 'stores-8189',
+    store: '659',
+    label: 'log expired modifier at close',
+    quantity: 12,
+  },
 ];

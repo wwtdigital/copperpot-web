@@ -68,3 +68,18 @@
 - retry regional catering tray: owner: delivery manager.
 - paginate regional delivery window on reorder: decided.
 - cache oversized guest for pickup: decided.
+
+- sort duplicate topping on checkout: open.
+- dedupe duplicate guest: decided.
+- rename partial loyalty credit on reorder: decided.
+- guard stale ticket: blocked on store systems.
+- handle partial location: verified in staging.
+- expose partial guest per store: deferred to the next release.
+- add oversized cart line on reorder: blocked on store systems.
+- trim partial guest: verified in staging.
+- guard expired catering tray for franchisees: owner: delivery manager.
+- expose stale kitchen ticket per store: verified in staging.
+- validate oversized loyalty credit: decided.
+- paginate stale menu item on reorder: blocked on store systems.
+- expose missing order at close: open.
+- paginate partial pickup slot: open.

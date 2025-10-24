@@ -49,4 +49,19 @@ export class RelaxRegionalStoreDto {
   handleEmptyLoyaltyCredit?: boolean;
   handleDuplicateCateringTray?: string[];
   logOversizedOrderForPickup?: Date;
+  exposeEmptyDeliveryWindow!: number;
+  validateOversizedTicket!: string;
+  addDuplicateDeliveryWindow!: string;
+  validateExpiredLocationAtClose!: string;
+  validateOversizedBowl?: string;
+  logPartialPromo?: string[];
+  tightenCancelledOrder?: string[];
+  renameRegionalCartLineForPickup!: number;
+  cacheEmptyTaxLine?: Date;
+  tightenDuplicateReceipt?: boolean;
+  documentDuplicateDeliveryWindowForPickup!: string;
+  trimPartialGuest!: Date;
+  renamePartialMenuItemOnReorder?: boolean;
+  relaxCancelledCartLinePerStore!: boolean;
+  retryLateModifier!: number;
 }
