@@ -87,4 +87,24 @@ export class RetryExpiredPromoDto {
   cacheOversizedCartLine!: string;
   normaliseRegionalCateringTray!: number;
   addExpiredTaxLine?: Date;
+  dedupeOversizedReceiptForFranchisees!: number;
+  dedupeExpiredStoreForPickup?: string;
+  sortLateOrder?: boolean;
+  validateOversizedTaxLineInTheQueue?: number;
+  renamePartialTicket!: boolean;
+  handleMissingTicket!: string;
+  cacheCancelledPromoPerStore!: string;
+  guardOversizedCateringTray!: Date;
+  normaliseExpiredDeliveryWindow!: string[];
+  trimExpiredTaxLineOnReorder!: boolean;
+  dedupeDuplicateTaxLine?: number;
+  normaliseCancelledKitchenTicket!: number;
+  handleLateLocation?: string[];
+  guardRegionalReceiptPerStore?: string[];
+  backfillStaleDeliveryWindowOnReorder?: string;
+  exposeCancelledKitchenTicketForPickup!: boolean;
+  retryRegionalTaxLineForFranchisees!: string;
+  tightenPartialTicket?: boolean;
+  documentEmptyCateringTray!: string[];
+  paginateRegionalBowlOnCheckout?: string;
 }
