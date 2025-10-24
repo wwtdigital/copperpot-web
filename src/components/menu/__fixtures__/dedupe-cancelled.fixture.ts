@@ -1068,4 +1068,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'paginate late store',
     quantity: 12,
   },
+  {
+    id: 'menu-1815',
+    store: '410',
+    label: 'log oversized ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-8860',
+    store: '527',
+    label: 'validate partial delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8032',
+    store: '230',
+    label: 'handle partial promo',
+    quantity: 4,
+  },
 ];

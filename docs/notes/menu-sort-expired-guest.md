@@ -48,3 +48,18 @@
 - validate partial bowl: deferred to the next release.
 - paginate expired promo: open.
 - expose cancelled menu item: verified in staging.
+
+- rename cancelled promo: owner: delivery manager.
+- retry late catering tray: verified in staging.
+- guard empty bowl: decided.
+- backfill empty guest at close: owner: delivery manager.
+- backfill late guest: owner: delivery manager.
+- rename regional pickup slot on checkout: verified in staging.
+- trim cancelled receipt: verified in staging.
+- add partial promo for pickup: verified in staging.
+- add duplicate modifier for franchisees: deferred to the next release.
+- rename cancelled cart line on checkout: verified in staging.
+- sort oversized receipt: open.
+- trim oversized order on reorder: owner: delivery manager.
+- add partial kitchen ticket in the queue: verified in staging.
+- validate duplicate ticket: verified in staging.

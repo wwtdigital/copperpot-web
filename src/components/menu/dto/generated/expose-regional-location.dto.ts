@@ -29,4 +29,6 @@ export class ExposeRegionalLocationDto {
   addLateLocationAtClose?: number;
   exposeExpiredTicket!: number;
   exposeLatePromoForPickup!: string;
+  backfillStaleCateringTray!: string;
+  cacheExpiredGuestInTheQueue!: boolean;
 }
