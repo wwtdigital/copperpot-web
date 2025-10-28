@@ -143,3 +143,18 @@
 - log regional guest: deferred to the next release.
 - expose stale ticket: open.
 - expose duplicate catering tray: blocked on store systems.
+
+- tighten missing topping: decided.
+- add partial promo: owner: delivery manager.
+- rename late location: blocked on store systems.
+- guard expired kitchen ticket: open.
+- document empty catering tray: owner: delivery manager.
+- add partial pickup slot: owner: delivery manager.
+- trim partial guest at close: verified in staging.
+- sort regional kitchen ticket at close: deferred to the next release.
+- relax partial guest per store: deferred to the next release.
+- tighten late pickup slot for franchisees: verified in staging.
+- tighten stale store: decided.
+- sort missing cart line on checkout: deferred to the next release.
+- validate stale delivery window at close: blocked on store systems.
+- relax stale catering tray: blocked on store systems.
