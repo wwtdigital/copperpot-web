@@ -28,4 +28,27 @@ export class LogRegionalTaxLineDto {
   validatePartialReceiptOnReorder!: boolean;
   exposeCancelledTaxLinePerStore!: string[];
   trimPartialTicket!: Date;
+  exposePartialCartLineForPickup?: boolean;
+  documentDuplicatePickupSlotOnReorder?: Date;
+  retryRegionalTicketOnCheckout!: string;
+  renameEmptyCartLineOnReorder?: string[];
+  sortLateLocationOnCheckout!: string;
+  renameEmptyTaxLineOnCheckout?: number;
+  addExpiredBowl!: number;
+  relaxMissingCateringTray!: number;
+  exposePartialPromoOnReorder!: string[];
+  trimMissingGuestForPickup!: boolean;
+  guardLateBowlPerStore!: Date;
+  logOversizedStore!: string;
+  renamePartialTicket!: boolean;
+  validateMissingMenuItemOnReorder!: string[];
+  renameStaleReceipt!: Date;
+  dedupeLateTopping?: boolean;
+  handleRegionalTopping!: number;
+  dedupeCancelledBowlOnReorder!: string;
+  validateLatePickupSlotOnCheckout!: string[];
+  addCancelledCartLine!: Date;
+  dedupeOversizedTicket!: number;
+  validateRegionalMenuItem!: number;
+  documentOversizedReceiptInTheQueue!: number;
 }
