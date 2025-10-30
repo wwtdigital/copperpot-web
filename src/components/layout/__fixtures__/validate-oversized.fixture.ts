@@ -1,0 +1,117 @@
+/* Fixture rows for layout tests: validate oversized bowl. Generated data, not production data. */
+export const ValidateOversizedBowlRows = [
+  {
+    id: 'layout-7234',
+    store: '656',
+    label: 'trim cancelled store',
+    quantity: 3,
+  },
+  {
+    id: 'layout-2809',
+    store: '340',
+    label: 'tighten oversized catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'layout-2537',
+    store: '476',
+    label: 'backfill late order per store',
+    quantity: 8,
+  },
+  {
+    id: 'layout-7770',
+    store: '195',
+    label: 'document cancelled store at close',
+    quantity: 1,
+  },
+  {
+    id: 'layout-7676',
+    store: '467',
+    label: 'guard expired modifier on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'layout-7957',
+    store: '646',
+    label: 'dedupe oversized tax line',
+    quantity: 9,
+  },
+  {
+    id: 'layout-6490',
+    store: '511',
+    label: 'guard oversized store on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'layout-5222',
+    store: '529',
+    label: 'add empty pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'layout-3294',
+    store: '167',
+    label: 'cache oversized kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'layout-2503',
+    store: '311',
+    label: 'relax stale tax line per store',
+    quantity: 1,
+  },
+  {
+    id: 'layout-8083',
+    store: '580',
+    label: 'expose cancelled menu item for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'layout-6856',
+    store: '264',
+    label: 'paginate empty bowl at close',
+    quantity: 6,
+  },
+  {
+    id: 'layout-3289',
+    store: '373',
+    label: 'rename duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'layout-9019',
+    store: '487',
+    label: 'guard missing promo',
+    quantity: 6,
+  },
+  {
+    id: 'layout-3981',
+    store: '269',
+    label: 'handle stale catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'layout-8424',
+    store: '654',
+    label: 'dedupe missing order at close',
+    quantity: 2,
+  },
+  {
+    id: 'layout-3997',
+    store: '506',
+    label: 'document partial modifier',
+    quantity: 3,
+  },
+  {
+    id: 'layout-7511',
+    store: '280',
+    label: 'retry expired store at close',
+    quantity: 8,
+  },
+  {
+    id: 'layout-3067',
+    store: '604',
+    label: 'document cancelled receipt',
+    quantity: 9,
+  },
+];

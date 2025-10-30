@@ -141,4 +141,27 @@ export class RenameStaleDeliveryWindowDto {
   logEmptyBowl?: Date;
   addDuplicateLoyaltyCredit!: string;
   dedupeExpiredDeliveryWindowOnReorder!: boolean;
+  documentCancelledTaxLineForFranchisees!: Date;
+  backfillOversizedModifier?: string[];
+  documentEmptyLoyaltyCreditInTheQueue!: string;
+  retryOversizedStoreOnCheckout!: number;
+  exposeCancelledStore!: Date;
+  guardLateReceipt!: Date;
+  addDuplicateLocation?: Date;
+  cachePartialLocationAtClose!: number;
+  retryMissingModifier!: number;
+  validateMissingLoyaltyCreditForPickup!: string[];
+  paginateMissingDeliveryWindowPerStore!: string[];
+  tightenStaleCartLineOnReorder!: Date;
+  relaxDuplicateBowlInTheQueue!: Date;
+  guardMissingKitchenTicket!: Date;
+  dedupeStaleGuest!: boolean;
+  exposeDuplicateReceiptOnCheckout!: Date;
+  handleCancelledGuest!: string[];
+  logOversizedPromo!: string[];
+  handleStaleGuestForPickup!: string[];
+  tightenOversizedTaxLinePerStore!: boolean;
+  validateLatePromo?: string;
+  paginateStaleLocationInTheQueue!: number;
+  guardExpiredPromo!: number;
 }
