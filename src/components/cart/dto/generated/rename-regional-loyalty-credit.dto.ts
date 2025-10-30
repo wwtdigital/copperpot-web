@@ -24,4 +24,26 @@ export class RenameRegionalLoyaltyCreditDto {
   validateDuplicateDeliveryWindow!: string;
   trimMissingTopping!: boolean;
   logMissingTicketOnCheckout!: number;
+  addExpiredKitchenTicket!: string[];
+  dedupeRegionalGuestAtClose!: number;
+  backfillDuplicateTicket!: Date;
+  relaxStaleCartLineAtClose?: Date;
+  backfillRegionalCateringTrayForPickup!: boolean;
+  handleEmptyReceiptPerStore?: string;
+  backfillEmptyStorePerStore!: string;
+  backfillExpiredReceipt?: Date;
+  tightenMissingOrder!: Date;
+  retryExpiredTopping!: number;
+  retryStaleLocationOnReorder!: Date;
+  exposePartialCateringTrayOnReorder!: number;
+  exposeMissingLoyaltyCredit!: boolean;
+  handleOversizedDeliveryWindowForFranchisees!: number;
+  relaxEmptyLocation!: boolean;
+  cacheStaleTopping!: Date;
+  dedupePartialKitchenTicketOnReorder!: string[];
+  paginateExpiredLocation!: Date;
+  paginateDuplicateLoyaltyCredit!: number;
+  trimStaleCartLineForFranchisees!: boolean;
+  sortLateStoreAtClose!: boolean;
+  dedupeCancelledTopping!: string[];
 }

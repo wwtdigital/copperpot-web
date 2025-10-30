@@ -14,3 +14,15 @@
 - backfill cancelled modifier: decided.
 - sort cancelled location: blocked on store systems.
 - sort late topping per store: decided.
+
+- normalise late bowl: open.
+- paginate missing modifier: owner: delivery manager.
+- log partial guest: decided.
+- log expired tax line: blocked on store systems.
+- relax stale receipt: deferred to the next release.
+- normalise regional guest at close: deferred to the next release.
+- sort cancelled kitchen ticket: verified in staging.
+- tighten partial pickup slot: blocked on store systems.
+- retry cancelled location for pickup: owner: delivery manager.
+- normalise cancelled pickup slot for franchisees: blocked on store systems.
+- dedupe expired store: decided.
