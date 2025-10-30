@@ -14,3 +14,18 @@
 - dedupe stale store: verified in staging.
 - expose partial cart line in the queue: open.
 - retry regional cart line: deferred to the next release.
+
+- normalise missing pickup slot: owner: delivery manager.
+- log missing topping: open.
+- paginate cancelled bowl: open.
+- log duplicate tax line for pickup: open.
+- log late tax line for pickup: decided.
+- validate regional ticket: open.
+- expose empty receipt: blocked on store systems.
+- rename partial order: blocked on store systems.
+- trim regional pickup slot: verified in staging.
+- rename expired receipt: owner: delivery manager.
+- normalise regional ticket: blocked on store systems.
+- validate duplicate cart line: blocked on store systems.
+- dedupe empty store: owner: delivery manager.
+- validate stale order: deferred to the next release.
