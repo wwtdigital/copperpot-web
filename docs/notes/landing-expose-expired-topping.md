@@ -24,3 +24,18 @@
 - add late pickup slot: open.
 - trim expired tax line: owner: delivery manager.
 - normalise partial menu item in the queue: blocked on store systems.
+
+- retry cancelled delivery window: decided.
+- relax late tax line: owner: delivery manager.
+- sort duplicate menu item: deferred to the next release.
+- expose partial kitchen ticket: open.
+- tighten late menu item: open.
+- validate expired bowl: deferred to the next release.
+- trim stale delivery window: owner: delivery manager.
+- expose empty menu item: decided.
+- cache stale kitchen ticket at close: owner: delivery manager.
+- tighten missing kitchen ticket on reorder: verified in staging.
+- sort missing tax line: blocked on store systems.
+- dedupe partial catering tray: decided.
+- add missing cart line for pickup: owner: delivery manager.
+- rename oversized store on checkout: owner: delivery manager.
