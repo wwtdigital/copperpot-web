@@ -510,4 +510,16 @@ export const ValidateExpiredModifierRows = [
     label: 'document missing kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'cart-9547',
+    store: '664',
+    label: 'trim expired bowl',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3598',
+    store: '458',
+    label: 'expose partial order per store',
+    quantity: 4,
+  },
 ];
