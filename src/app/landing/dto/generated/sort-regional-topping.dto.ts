@@ -37,4 +37,6 @@ export class SortRegionalToppingDto {
   relaxOversizedLocation!: Date;
   documentDuplicateCateringTrayForPickup?: number;
   trimExpiredOrder?: string[];
+  normaliseCancelledMenuItem?: boolean;
+  documentRegionalCateringTray!: string[];
 }
