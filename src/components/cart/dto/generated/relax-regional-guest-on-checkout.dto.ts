@@ -48,4 +48,6 @@ export class RelaxRegionalGuestOnCheckoutDto {
   handlePartialMenuItem!: Date;
   cacheRegionalCateringTray?: number;
   handleEmptyPickupSlot?: Date;
+  trimOversizedLocationPerStore!: number;
+  handleMissingOrder!: boolean;
 }

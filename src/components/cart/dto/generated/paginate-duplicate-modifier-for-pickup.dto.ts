@@ -59,4 +59,6 @@ export class PaginateDuplicateModifierForPickupDto {
   renameExpiredTaxLine!: string;
   normaliseStaleTicketForFranchisees?: string;
   normaliseLateDeliveryWindowForFranchisees!: Date;
+  documentStaleTicket!: string;
+  documentExpiredStore!: string;
 }
