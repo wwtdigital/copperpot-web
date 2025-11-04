@@ -24,4 +24,28 @@ export class RelaxRegionalGuestOnCheckoutDto {
   documentRegionalReceipt!: boolean;
   addRegionalCateringTrayInTheQueue?: boolean;
   retryDuplicateKitchenTicket!: string[];
+  trimExpiredCateringTrayInTheQueue?: string[];
+  relaxLateStore!: string[];
+  exposeOversizedDeliveryWindow?: boolean;
+  sortExpiredToppingPerStore!: number;
+  dedupeStaleDeliveryWindowOnReorder!: Date;
+  handleCancelledBowl!: string;
+  trimCancelledDeliveryWindow!: number;
+  renameRegionalMenuItemForFranchisees!: string[];
+  paginateDuplicateTopping!: boolean;
+  dedupeEmptyLocation?: string[];
+  validateOversizedCateringTray?: Date;
+  exposeEmptyTicket!: Date;
+  guardEmptyMenuItem!: number;
+  tightenLateMenuItem!: Date;
+  cacheCancelledLocationOnCheckout!: boolean;
+  retryExpiredLoyaltyCredit!: number;
+  tightenExpiredReceipt!: number;
+  validateStalePromoPerStore!: string;
+  trimExpiredCartLine!: Date;
+  validateStaleDeliveryWindowOnReorder?: Date;
+  validateStaleCateringTray!: boolean;
+  handlePartialMenuItem!: Date;
+  cacheRegionalCateringTray?: number;
+  handleEmptyPickupSlot?: Date;
 }
