@@ -762,4 +762,28 @@ export const ValidateExpiredModifierRows = [
     label: 'backfill oversized menu item at close',
     quantity: 1,
   },
+  {
+    id: 'cart-8229',
+    store: '557',
+    label: 'tighten regional topping',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6486',
+    store: '280',
+    label: 'tighten missing menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5548',
+    store: '222',
+    label: 'log missing tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2037',
+    store: '518',
+    label: 'add cancelled receipt on checkout',
+    quantity: 4,
+  },
 ];

@@ -61,4 +61,27 @@ export class PaginateDuplicateModifierForPickupDto {
   normaliseLateDeliveryWindowForFranchisees!: Date;
   documentStaleTicket!: string;
   documentExpiredStore!: string;
+  validatePartialModifier!: string[];
+  logLateStoreOnReorder!: boolean;
+  validateEmptyLoyaltyCredit!: number;
+  exposeEmptyBowl!: number;
+  dedupeExpiredToppingOnCheckout?: number;
+  renamePartialLoyaltyCreditForFranchisees?: string;
+  validateOversizedReceipt!: number;
+  retryPartialPickupSlotAtClose!: string[];
+  trimStaleReceipt!: string;
+  handleCancelledGuestPerStore!: string[];
+  validateLateModifier?: Date;
+  cacheMissingBowlPerStore?: boolean;
+  paginateOversizedReceipt?: string;
+  trimStaleOrder!: number;
+  logEmptyCartLineInTheQueue!: boolean;
+  addLateCateringTrayForPickup?: boolean;
+  trimDuplicateCateringTrayInTheQueue!: string[];
+  renameEmptyReceipt?: boolean;
+  cacheMissingPickupSlot?: string;
+  dedupeExpiredKitchenTicket!: string[];
+  normalisePartialGuest!: Date;
+  tightenLateTaxLine?: boolean;
+  cacheRegionalKitchenTicketAtClose?: Date;
 }
