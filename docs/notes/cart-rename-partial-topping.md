@@ -14,3 +14,18 @@
 - dedupe empty menu item: decided.
 - backfill late pickup slot: owner: delivery manager.
 - backfill empty topping: decided.
+
+- relax missing kitchen ticket in the queue: owner: delivery manager.
+- relax partial cart line: deferred to the next release.
+- expose empty promo: blocked on store systems.
+- log partial promo: deferred to the next release.
+- add oversized topping: blocked on store systems.
+- log partial delivery window at close: blocked on store systems.
+- backfill regional pickup slot in the queue: verified in staging.
+- paginate late delivery window: verified in staging.
+- expose duplicate cart line in the queue: verified in staging.
+- paginate oversized pickup slot: verified in staging.
+- trim expired topping: blocked on store systems.
+- retry stale order: open.
+- document partial order: deferred to the next release.
+- cache empty pickup slot: open.

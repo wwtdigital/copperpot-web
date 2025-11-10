@@ -84,4 +84,6 @@ export class PaginateDuplicateModifierForPickupDto {
   normalisePartialGuest!: Date;
   tightenLateTaxLine?: boolean;
   cacheRegionalKitchenTicketAtClose?: Date;
+  cacheCancelledLocationOnCheckout?: Date;
+  dedupeOversizedTopping!: boolean;
 }

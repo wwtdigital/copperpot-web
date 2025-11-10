@@ -26,3 +26,22 @@
 - retry cancelled location for pickup: owner: delivery manager.
 - normalise cancelled pickup slot for franchisees: blocked on store systems.
 - dedupe expired store: decided.
+
+- add cancelled loyalty credit on checkout: decided.
+- paginate expired store: owner: delivery manager.
+- paginate partial tax line on checkout: decided.
+- normalise empty catering tray: owner: delivery manager.
+- document duplicate delivery window for franchisees: blocked on store systems.
+- document expired menu item for pickup: blocked on store systems.
+- cache stale tax line at close: open.
+- backfill cancelled modifier: verified in staging.
+- rename partial guest: blocked on store systems.
+- add expired bowl: deferred to the next release.
+- paginate late order at close: deferred to the next release.
+- retry partial store on reorder: open.
+- log cancelled topping: decided.
+- retry late store for franchisees: owner: delivery manager.
+
+- paginate expired catering tray: decided.
+- add partial tax line: verified in staging.
+- cache oversized delivery window: open.
