@@ -210,4 +210,22 @@ export const SortPartialCartLineRows = [
     label: 'guard missing modifier',
     quantity: 7,
   },
+  {
+    id: 'layout-7305',
+    store: '556',
+    label: 'relax regional catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'layout-8852',
+    store: '134',
+    label: 'log empty topping',
+    quantity: 11,
+  },
+  {
+    id: 'layout-6844',
+    store: '385',
+    label: 'trim duplicate kitchen ticket',
+    quantity: 6,
+  },
 ];
