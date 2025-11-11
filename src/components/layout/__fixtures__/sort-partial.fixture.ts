@@ -210,4 +210,46 @@ export const SortPartialCartLineRows = [
     label: 'guard missing modifier',
     quantity: 7,
   },
+  {
+    id: 'layout-7305',
+    store: '556',
+    label: 'relax regional catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'layout-8852',
+    store: '134',
+    label: 'log empty topping',
+    quantity: 11,
+  },
+  {
+    id: 'layout-6844',
+    store: '385',
+    label: 'trim duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'layout-5297',
+    store: '292',
+    label: 'normalise stale menu item',
+    quantity: 11,
+  },
+  {
+    id: 'layout-1152',
+    store: '270',
+    label: 'add oversized menu item',
+    quantity: 8,
+  },
+  {
+    id: 'layout-9874',
+    store: '489',
+    label: 'relax regional modifier in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'layout-8097',
+    store: '360',
+    label: 'document empty menu item',
+    quantity: 2,
+  },
 ];

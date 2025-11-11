@@ -164,4 +164,12 @@ export class RenameStaleDeliveryWindowDto {
   validateLatePromo?: string;
   paginateStaleLocationInTheQueue!: number;
   guardExpiredPromo!: number;
+  exposeDuplicatePickupSlot!: boolean;
+  cacheRegionalPromo!: Date;
+  renameDuplicateTaxLine!: string[];
+  handlePartialTaxLine?: boolean;
+  addDuplicateModifier!: boolean;
+  documentRegionalLoyaltyCredit!: boolean;
+  retryMissingKitchenTicket!: string[];
+  guardLateBowlPerStore!: boolean;
 }
