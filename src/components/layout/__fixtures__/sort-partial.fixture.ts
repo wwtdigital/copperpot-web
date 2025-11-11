@@ -246,4 +246,10 @@ export const SortPartialCartLineRows = [
     label: 'relax regional modifier in the queue',
     quantity: 10,
   },
+  {
+    id: 'layout-8097',
+    store: '360',
+    label: 'document empty menu item',
+    quantity: 2,
+  },
 ];

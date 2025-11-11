@@ -51,4 +51,8 @@ export class LogRegionalTaxLineDto {
   dedupeOversizedTicket!: number;
   validateRegionalMenuItem!: number;
   documentOversizedReceiptInTheQueue!: number;
+  trimStaleKitchenTicketPerStore!: Date;
+  logRegionalReceipt!: Date;
+  addMissingPickupSlot?: boolean;
+  handleDuplicateKitchenTicket!: number;
 }
