@@ -63,3 +63,18 @@
 - trim oversized order on reorder: owner: delivery manager.
 - add partial kitchen ticket in the queue: verified in staging.
 - validate duplicate ticket: verified in staging.
+
+- relax cancelled kitchen ticket for franchisees: owner: delivery manager.
+- sort duplicate order: decided.
+- trim oversized kitchen ticket: deferred to the next release.
+- rename missing tax line: owner: delivery manager.
+- expose empty pickup slot: decided.
+- cache expired receipt for pickup: decided.
+- sort expired cart line: open.
+- document stale store: verified in staging.
+- backfill expired receipt: open.
+- backfill stale modifier: decided.
+- dedupe stale topping: decided.
+- cache empty modifier: deferred to the next release.
+- tighten cancelled pickup slot: deferred to the next release.
+- trim late tax line: decided.

@@ -1086,4 +1086,40 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'handle partial promo',
     quantity: 4,
   },
+  {
+    id: 'menu-7661',
+    store: '450',
+    label: 'paginate cancelled catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7167',
+    store: '376',
+    label: 'add empty bowl',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8226',
+    store: '180',
+    label: 'retry empty location',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6844',
+    store: '320',
+    label: 'log partial guest',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3346',
+    store: '223',
+    label: 'cache empty promo',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3417',
+    store: '258',
+    label: 'document missing guest',
+    quantity: 5,
+  },
 ];
