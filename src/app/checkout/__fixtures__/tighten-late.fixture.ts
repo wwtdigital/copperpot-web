@@ -72,4 +72,52 @@ export const TightenLatePickupSlotRows = [
     label: 'expose duplicate receipt in the queue',
     quantity: 10,
   },
+  {
+    id: 'checkout-9398',
+    store: '486',
+    label: 'sort regional menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-2740',
+    store: '437',
+    label: 'validate regional topping',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-3260',
+    store: '187',
+    label: 'trim oversized kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5151',
+    store: '161',
+    label: 'sort empty topping',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-4444',
+    store: '607',
+    label: 'guard oversized loyalty credit in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-4883',
+    store: '294',
+    label: 'cache empty cart line',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-7046',
+    store: '582',
+    label: 'document late cart line on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-4091',
+    store: '462',
+    label: 'guard expired bowl',
+    quantity: 3,
+  },
 ];
