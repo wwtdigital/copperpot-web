@@ -1338,4 +1338,22 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'backfill missing order for pickup',
     quantity: 2,
   },
+  {
+    id: 'account-9916',
+    store: '485',
+    label: 'rename cancelled ticket',
+    quantity: 5,
+  },
+  {
+    id: 'account-7301',
+    store: '455',
+    label: 'cache empty store',
+    quantity: 7,
+  },
+  {
+    id: 'account-7126',
+    store: '307',
+    label: 'normalise missing kitchen ticket',
+    quantity: 10,
+  },
 ];
