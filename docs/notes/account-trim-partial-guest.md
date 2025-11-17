@@ -29,3 +29,5 @@
 - dedupe cancelled kitchen ticket: open.
 - sort regional pickup slot per store: verified in staging.
 - retry partial bowl per store: open.
+
+- rename duplicate promo in the queue: deferred to the next release.

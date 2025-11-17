@@ -1410,4 +1410,16 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'log missing tax line for franchisees',
     quantity: 8,
   },
+  {
+    id: 'account-1738',
+    store: '244',
+    label: 'paginate late receipt',
+    quantity: 5,
+  },
+  {
+    id: 'account-9280',
+    store: '534',
+    label: 'relax late menu item',
+    quantity: 12,
+  },
 ];
