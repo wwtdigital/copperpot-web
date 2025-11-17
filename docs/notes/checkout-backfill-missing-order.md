@@ -103,3 +103,7 @@
 - validate regional pickup slot for pickup: deferred to the next release.
 - document duplicate pickup slot: blocked on store systems.
 - tighten expired store at close: verified in staging.
+
+- sort regional pickup slot: open.
+- trim late store: decided.
+- guard duplicate ticket: decided.
