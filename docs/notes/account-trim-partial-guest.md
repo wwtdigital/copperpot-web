@@ -31,3 +31,18 @@
 - retry partial bowl per store: open.
 
 - rename duplicate promo in the queue: deferred to the next release.
+
+- dedupe cancelled order: open.
+- backfill stale cart line on reorder: decided.
+- relax missing pickup slot for pickup: deferred to the next release.
+- guard expired receipt per store: verified in staging.
+- rename empty modifier: blocked on store systems.
+- paginate late cart line per store: decided.
+- retry late catering tray at close: blocked on store systems.
+- handle partial cart line for franchisees: deferred to the next release.
+- trim regional topping on reorder: deferred to the next release.
+- trim missing catering tray: open.
+- document duplicate promo: decided.
+- expose late location for franchisees: deferred to the next release.
+- document regional pickup slot in the queue: owner: delivery manager.
+- relax expired ticket: deferred to the next release.

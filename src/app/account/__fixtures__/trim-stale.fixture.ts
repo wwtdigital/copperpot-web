@@ -1422,4 +1422,10 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'relax late menu item',
     quantity: 12,
   },
+  {
+    id: 'account-9819',
+    store: '559',
+    label: 'document missing receipt for franchisees',
+    quantity: 6,
+  },
 ];
