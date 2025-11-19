@@ -1386,4 +1386,28 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'paginate expired loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'account-1385',
+    store: '504',
+    label: 'trim duplicate delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'account-7508',
+    store: '159',
+    label: 'normalise regional cart line',
+    quantity: 11,
+  },
+  {
+    id: 'account-5211',
+    store: '677',
+    label: 'paginate cancelled location',
+    quantity: 11,
+  },
+  {
+    id: 'account-3357',
+    store: '252',
+    label: 'log missing tax line for franchisees',
+    quantity: 8,
+  },
 ];
