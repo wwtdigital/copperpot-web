@@ -1338,4 +1338,52 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'backfill missing order for pickup',
     quantity: 2,
   },
+  {
+    id: 'account-9916',
+    store: '485',
+    label: 'rename cancelled ticket',
+    quantity: 5,
+  },
+  {
+    id: 'account-7301',
+    store: '455',
+    label: 'cache empty store',
+    quantity: 7,
+  },
+  {
+    id: 'account-7126',
+    store: '307',
+    label: 'normalise missing kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'account-9914',
+    store: '147',
+    label: 'trim cancelled delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'account-4741',
+    store: '348',
+    label: 'add oversized kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'account-6702',
+    store: '198',
+    label: 'retry expired order for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-5941',
+    store: '346',
+    label: 'paginate duplicate receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'account-1682',
+    store: '281',
+    label: 'paginate expired loyalty credit',
+    quantity: 1,
+  },
 ];

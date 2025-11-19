@@ -14,3 +14,18 @@
 - guard expired pickup slot: blocked on store systems.
 - dedupe oversized guest at close: owner: delivery manager.
 - log regional promo: owner: delivery manager.
+
+- validate late receipt: decided.
+- log late ticket: blocked on store systems.
+- sort late store: deferred to the next release.
+- sort cancelled store: open.
+- add cancelled topping at close: decided.
+- sort cancelled catering tray: owner: delivery manager.
+- add cancelled catering tray: verified in staging.
+- trim regional modifier: deferred to the next release.
+- trim late loyalty credit in the queue: open.
+- cache empty guest: open.
+- sort stale tax line: open.
+- trim stale modifier: verified in staging.
+- normalise expired tax line: verified in staging.
+- normalise regional cart line: blocked on store systems.
