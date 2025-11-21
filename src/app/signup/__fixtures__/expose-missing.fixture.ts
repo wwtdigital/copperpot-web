@@ -180,4 +180,22 @@ export const ExposeMissingCateringTrayRows = [
     label: 'tighten missing topping in the queue',
     quantity: 7,
   },
+  {
+    id: 'signup-3441',
+    store: '285',
+    label: 'relax regional receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'signup-2447',
+    store: '657',
+    label: 'sort regional order at close',
+    quantity: 5,
+  },
+  {
+    id: 'signup-2840',
+    store: '204',
+    label: 'sort empty location',
+    quantity: 7,
+  },
 ];

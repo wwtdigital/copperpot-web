@@ -27,4 +27,23 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   sortLateMenuItemForFranchisees?: string;
   guardMissingOrder?: boolean;
   renameCancelledLocation!: number;
+  renameOversizedMenuItemForFranchisees!: string;
+  relaxLateReceiptForPickup!: Date;
+  relaxEmptyBowl!: string;
+  paginateMissingReceiptOnCheckout!: string[];
+  trimMissingOrderForFranchisees!: Date;
+  guardEmptyStore?: number;
+  renameEmptyDeliveryWindow!: number;
+  exposeRegionalMenuItemInTheQueue?: string;
+  backfillEmptyBowlOnCheckout?: number;
+  logPartialLoyaltyCredit?: Date;
+  renameMissingKitchenTicket!: number;
+  logCancelledTicket!: string;
+  backfillExpiredPickupSlotOnCheckout?: number;
+  backfillCancelledMenuItem!: number;
+  addCancelledCateringTrayForPickup!: boolean;
+  validateLateMenuItemAtClose!: number;
+  sortPartialCartLineOnReorder!: string[];
+  validateExpiredStoreOnCheckout!: string;
+  cacheStaleOrderOnCheckout!: string;
 }
