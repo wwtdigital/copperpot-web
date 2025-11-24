@@ -33,4 +33,27 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   trimPartialMenuItemForFranchisees!: string;
   tightenCancelledBowl!: number;
   addRegionalReceipt!: Date;
+  normaliseLateKitchenTicket!: Date;
+  addPartialReceipt!: string[];
+  documentCancelledModifier!: Date;
+  logExpiredReceiptOnReorder!: boolean;
+  tightenOversizedOrder!: number;
+  relaxMissingStore!: boolean;
+  addMissingStoreForFranchisees?: boolean;
+  addExpiredCateringTrayForFranchisees!: string;
+  dedupeOversizedReceipt!: Date;
+  sortExpiredCartLineOnReorder!: string[];
+  validateExpiredOrder?: string;
+  addRegionalCartLine!: string[];
+  normaliseOversizedOrder!: string[];
+  logCancelledLocation!: string;
+  tightenDuplicateKitchenTicketOnCheckout!: number;
+  handleOversizedLocation!: boolean;
+  documentLateTaxLine!: number;
+  dedupeExpiredKitchenTicketPerStore!: string;
+  trimLateCateringTrayAtClose?: boolean;
+  retryMissingReceipt!: boolean;
+  sortDuplicateGuest!: boolean;
+  exposeDuplicateTicketAtClose?: string[];
+  relaxEmptyModifierOnCheckout!: number;
 }
