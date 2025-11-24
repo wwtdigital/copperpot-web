@@ -29,4 +29,6 @@ export class AddOversizedLoyaltyCreditDto {
   normaliseMissingCartLine!: boolean;
   trimExpiredStore!: string[];
   addStaleKitchenTicket!: string[];
+  trimCancelledLocationForFranchisees!: Date;
+  sortPartialBowlPerStore!: number;
 }

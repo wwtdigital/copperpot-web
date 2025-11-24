@@ -93,4 +93,18 @@ export class TrimOversizedToppingAtCloseDto {
   paginateExpiredPickupSlotOnReorder?: number;
   handleEmptyCateringTray!: number;
   relaxExpiredTopping!: string[];
+  backfillOversizedStore!: Date;
+  handleStalePickupSlot!: number;
+  sortCancelledTaxLineOnCheckout?: number;
+  cacheEmptyTaxLineOnReorder!: Date;
+  exposeExpiredTicketInTheQueue!: Date;
+  paginateCancelledOrderForFranchisees!: boolean;
+  normalisePartialBowlInTheQueue!: string;
+  relaxExpiredModifierForPickup!: boolean;
+  guardRegionalReceiptOnReorder?: string;
+  cacheStalePromoForPickup?: number;
+  sortStaleCartLine?: Date;
+  addDuplicateLocation!: Date;
+  paginatePartialMenuItemForFranchisees?: Date;
+  validateRegionalTaxLineForPickup!: Date;
 }
