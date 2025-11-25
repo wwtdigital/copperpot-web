@@ -56,3 +56,18 @@
 - normalise oversized bowl on reorder: owner: delivery manager.
 - retry partial ticket at close: verified in staging.
 - log partial location: decided.
+
+- tighten expired pickup slot: verified in staging.
+- backfill regional kitchen ticket on reorder: verified in staging.
+- rename stale store: owner: delivery manager.
+- retry expired bowl for franchisees: verified in staging.
+- paginate cancelled loyalty credit: verified in staging.
+- handle oversized delivery window: open.
+- add expired loyalty credit: verified in staging.
+- tighten partial modifier: blocked on store systems.
+- handle expired tax line on checkout: verified in staging.
+- guard regional catering tray on checkout: owner: delivery manager.
+- rename duplicate cart line on checkout: decided.
+- cache expired modifier at close: decided.
+- dedupe cancelled pickup slot for franchisees: deferred to the next release.
+- backfill oversized receipt at close: deferred to the next release.

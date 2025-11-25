@@ -46,3 +46,6 @@
 - expose late location for franchisees: deferred to the next release.
 - document regional pickup slot in the queue: owner: delivery manager.
 - relax expired ticket: deferred to the next release.
+
+- log expired location: verified in staging.
+- normalise empty modifier: open.

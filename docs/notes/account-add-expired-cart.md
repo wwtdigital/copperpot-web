@@ -29,3 +29,18 @@
 - trim stale modifier: verified in staging.
 - normalise expired tax line: verified in staging.
 - normalise regional cart line: blocked on store systems.
+
+- dedupe missing topping: open.
+- rename late tax line on checkout: owner: delivery manager.
+- handle expired delivery window: deferred to the next release.
+- retry duplicate pickup slot: owner: delivery manager.
+- backfill partial topping: deferred to the next release.
+- log empty loyalty credit: decided.
+- log missing loyalty credit: decided.
+- handle missing topping on reorder: deferred to the next release.
+- normalise late loyalty credit: deferred to the next release.
+- dedupe late store: verified in staging.
+- cache oversized delivery window on reorder: open.
+- sort stale modifier on reorder: owner: delivery manager.
+- dedupe late ticket at close: decided.
+- retry late guest: open.

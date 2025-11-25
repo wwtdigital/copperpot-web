@@ -1428,4 +1428,40 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'document missing receipt for franchisees',
     quantity: 6,
   },
+  {
+    id: 'account-7597',
+    store: '502',
+    label: 'handle empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'account-4279',
+    store: '145',
+    label: 'guard empty tax line',
+    quantity: 9,
+  },
+  {
+    id: 'account-6579',
+    store: '464',
+    label: 'relax stale catering tray on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'account-5065',
+    store: '384',
+    label: 'tighten cancelled delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'account-8911',
+    store: '172',
+    label: 'trim stale tax line',
+    quantity: 10,
+  },
+  {
+    id: 'account-1306',
+    store: '177',
+    label: 'expose duplicate delivery window',
+    quantity: 2,
+  },
 ];
