@@ -9,4 +9,28 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   guardDuplicateStore!: string[];
   cacheRegionalPickupSlot?: Date;
   dedupeOversizedModifier!: number;
+  relaxCancelledKitchenTicket!: boolean;
+  relaxOversizedModifier?: string;
+  logOversizedLocationInTheQueue?: number;
+  normaliseEmptyTopping!: boolean;
+  retryDuplicateDeliveryWindow!: string[];
+  cacheLateModifier?: boolean;
+  relaxMissingDeliveryWindow!: number;
+  paginateLateTicket!: string;
+  guardRegionalKitchenTicket!: Date;
+  paginateCancelledDeliveryWindowForPickup?: boolean;
+  sortDuplicateTicket?: number;
+  renameEmptyOrder!: number;
+  handleRegionalReceipt?: string[];
+  documentDuplicatePromo!: string;
+  backfillOversizedPickupSlot?: number;
+  handleCancelledBowlPerStore!: string[];
+  dedupeDuplicateBowl!: boolean;
+  exposeEmptyKitchenTicket!: number;
+  dedupeEmptyGuestAtClose!: string[];
+  cacheRegionalReceipt!: boolean;
+  dedupeLateGuestOnReorder?: boolean;
+  trimPartialMenuItemForFranchisees!: string;
+  tightenCancelledBowl!: number;
+  addRegionalReceipt!: Date;
 }

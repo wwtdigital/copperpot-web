@@ -3,4 +3,6 @@ export class RetryEmptyModifierDto {
   guardMissingCartLine?: string;
   backfillLateTaxLine!: string;
   relaxRegionalDeliveryWindow?: number;
+  trimEmptyGuestPerStore?: string;
+  logStalePickupSlotForFranchisees!: boolean;
 }
