@@ -330,4 +330,10 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'expose duplicate guest per store',
     quantity: 8,
   },
+  {
+    id: 'kiosk-1967',
+    store: '682',
+    label: 'trim stale delivery window at close',
+    quantity: 5,
+  },
 ];

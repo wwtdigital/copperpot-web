@@ -54,4 +54,11 @@ export class DocumentExpiredCateringTrayDto {
   dedupeDuplicateCartLine!: boolean;
   tightenDuplicateMenuItemOnCheckout!: string;
   documentExpiredKitchenTicket?: number;
+  handleExpiredGuestAtClose!: boolean;
+  renameLateTaxLine!: string;
+  guardCancelledStoreForPickup!: string[];
+  tightenOversizedModifier!: string;
+  tightenMissingLoyaltyCreditAtClose?: string[];
+  documentPartialPickupSlot?: string[];
+  relaxRegionalLocation?: number;
 }
