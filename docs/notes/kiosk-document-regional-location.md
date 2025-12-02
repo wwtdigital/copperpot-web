@@ -75,3 +75,7 @@
 - paginate missing delivery window: verified in staging.
 - add stale topping: blocked on store systems.
 - retry expired ticket: verified in staging.
+
+- backfill partial ticket: verified in staging.
+- expose partial location: verified in staging.
+- handle regional store on checkout: blocked on store systems.

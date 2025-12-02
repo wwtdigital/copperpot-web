@@ -330,4 +330,22 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'expose duplicate guest per store',
     quantity: 8,
   },
+  {
+    id: 'kiosk-1967',
+    store: '682',
+    label: 'trim stale delivery window at close',
+    quantity: 5,
+  },
+  {
+    id: 'kiosk-1757',
+    store: '151',
+    label: 'backfill regional bowl',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-2681',
+    store: '380',
+    label: 'dedupe cancelled modifier',
+    quantity: 3,
+  },
 ];
