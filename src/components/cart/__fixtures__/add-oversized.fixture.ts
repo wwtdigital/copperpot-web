@@ -762,4 +762,10 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'backfill late modifier',
     quantity: 6,
   },
+  {
+    id: 'cart-6478',
+    store: '693',
+    label: 'trim expired guest',
+    quantity: 3,
+  },
 ];
