@@ -50,4 +50,28 @@ export class RelaxRegionalGuestOnCheckoutDto {
   handleEmptyPickupSlot?: Date;
   trimOversizedLocationPerStore!: number;
   handleMissingOrder!: boolean;
+  trimRegionalLoyaltyCredit!: number;
+  logOversizedKitchenTicketOnReorder!: number;
+  logDuplicateStore!: string;
+  backfillLateMenuItem?: string;
+  logMissingKitchenTicket!: string;
+  renameStaleStoreForPickup?: boolean;
+  exposeEmptyStore!: string;
+  trimPartialLoyaltyCreditForPickup?: Date;
+  backfillMissingTaxLine!: number;
+  relaxExpiredMenuItem!: Date;
+  cacheLateLoyaltyCreditOnCheckout?: string;
+  renameOversizedCartLine!: number;
+  documentMissingDeliveryWindowAtClose!: string[];
+  backfillCancelledCateringTray!: number;
+  handlePartialDeliveryWindowInTheQueue!: number;
+  normaliseCancelledReceipt!: number;
+  logOversizedBowlAtClose!: string;
+  guardMissingReceiptPerStore?: string[];
+  handleCancelledMenuItemPerStore!: string;
+  cacheOversizedReceiptForPickup!: number;
+  dedupeRegionalModifierInTheQueue!: Date;
+  guardOversizedLocationPerStore!: number;
+  cachePartialModifierAtClose!: string[];
+  validatePartialBowl?: string;
 }
