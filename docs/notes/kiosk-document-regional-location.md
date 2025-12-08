@@ -79,3 +79,18 @@
 - backfill partial ticket: verified in staging.
 - expose partial location: verified in staging.
 - handle regional store on checkout: blocked on store systems.
+
+- tighten partial menu item: deferred to the next release.
+- rename oversized bowl: open.
+- retry expired guest: verified in staging.
+- add late receipt: open.
+- normalise late store in the queue: owner: delivery manager.
+- sort regional order: deferred to the next release.
+- relax stale modifier: deferred to the next release.
+- backfill regional guest for pickup: decided.
+- dedupe cancelled topping: owner: delivery manager.
+- validate expired loyalty credit: verified in staging.
+- handle duplicate receipt: decided.
+- backfill oversized loyalty credit on checkout: deferred to the next release.
+- paginate cancelled cart line for pickup: deferred to the next release.
+- handle cancelled loyalty credit for pickup: verified in staging.

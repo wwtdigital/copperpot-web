@@ -50,3 +50,18 @@
 - trim duplicate cart line: decided.
 - dedupe expired promo for franchisees: blocked on store systems.
 - guard late guest on checkout: decided.
+
+- cache late bowl: blocked on store systems.
+- normalise expired location per store: open.
+- relax missing kitchen ticket on checkout: decided.
+- add missing order: owner: delivery manager.
+- trim oversized loyalty credit: open.
+- relax partial location: deferred to the next release.
+- normalise duplicate catering tray: owner: delivery manager.
+- expose missing loyalty credit at close: owner: delivery manager.
+- sort cancelled topping for franchisees: owner: delivery manager.
+- guard expired topping on reorder: deferred to the next release.
+- handle empty menu item on checkout: deferred to the next release.
+- expose late guest: deferred to the next release.
+- cache cancelled guest per store: owner: delivery manager.
+- add oversized promo on reorder: open.

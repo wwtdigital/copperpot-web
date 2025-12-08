@@ -106,4 +106,3 @@
 
 - sort regional pickup slot: open.
 - trim late store: decided.
-- guard duplicate ticket: decided.
