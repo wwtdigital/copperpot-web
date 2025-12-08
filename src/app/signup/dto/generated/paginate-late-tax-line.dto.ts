@@ -195,4 +195,15 @@ export class PaginateLateTaxLineDto {
   dedupeCancelledMenuItem!: string;
   backfillPartialTicket!: Date;
   renameDuplicateDeliveryWindowForPickup!: number;
+  renameOversizedTaxLineOnCheckout!: boolean;
+  exposeEmptyCartLineForFranchisees!: boolean;
+  backfillDuplicateReceiptForPickup?: boolean;
+  handleRegionalStoreOnReorder!: string[];
+  trimRegionalMenuItemForFranchisees?: Date;
+  cacheMissingPickupSlot?: number;
+  validatePartialReceiptAtClose!: Date;
+  backfillMissingPromoForPickup!: string[];
+  exposeDuplicateReceipt!: string[];
+  guardExpiredBowlOnReorder!: string;
+  dedupeLatePromoPerStore!: string[];
 }

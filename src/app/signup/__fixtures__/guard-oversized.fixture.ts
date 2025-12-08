@@ -48,4 +48,16 @@ export const GuardOversizedDeliveryWindowForPickupRows = [
     label: 'handle cancelled menu item for franchisees',
     quantity: 3,
   },
+  {
+    id: 'signup-3470',
+    store: '321',
+    label: 'expose empty bowl',
+    quantity: 3,
+  },
+  {
+    id: 'signup-4623',
+    store: '185',
+    label: 'add stale bowl',
+    quantity: 4,
+  },
 ];
