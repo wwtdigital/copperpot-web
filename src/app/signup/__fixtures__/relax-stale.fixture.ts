@@ -18,4 +18,10 @@ export const RelaxStalePromoAtCloseRows = [
     label: 'add cancelled catering tray',
     quantity: 9,
   },
+  {
+    id: 'signup-3787',
+    store: '109',
+    label: 'log missing catering tray for franchisees',
+    quantity: 3,
+  },
 ];

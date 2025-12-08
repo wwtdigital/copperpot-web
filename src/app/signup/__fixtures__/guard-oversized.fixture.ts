@@ -42,4 +42,10 @@ export const GuardOversizedDeliveryWindowForPickupRows = [
     label: 'tighten missing loyalty credit on checkout',
     quantity: 2,
   },
+  {
+    id: 'signup-2207',
+    store: '607',
+    label: 'handle cancelled menu item for franchisees',
+    quantity: 3,
+  },
 ];
