@@ -78,4 +78,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'cache duplicate promo',
     quantity: 1,
   },
+  {
+    id: 'stores-6924',
+    store: '571',
+    label: 'rename duplicate cart line',
+    quantity: 7,
+  },
 ];

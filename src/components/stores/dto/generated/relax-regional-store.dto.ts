@@ -64,4 +64,23 @@ export class RelaxRegionalStoreDto {
   renamePartialMenuItemOnReorder?: boolean;
   relaxCancelledCartLinePerStore!: boolean;
   retryLateModifier!: number;
+  backfillPartialLoyaltyCredit!: boolean;
+  tightenEmptyGuestForFranchisees!: number;
+  sortCancelledOrderInTheQueue?: Date;
+  retryOversizedCateringTray?: boolean;
+  documentStaleLoyaltyCreditOnCheckout!: Date;
+  retryOversizedLocation!: string[];
+  backfillRegionalMenuItem!: Date;
+  addStaleReceipt?: string;
+  dedupeLatePromoPerStore?: string;
+  handleEmptyOrder!: string[];
+  tightenStaleCateringTrayAtClose?: boolean;
+  cacheMissingTicketAtClose!: string;
+  normaliseMissingTicket?: Date;
+  renameRegionalStore!: boolean;
+  normaliseStaleCateringTrayOnCheckout!: Date;
+  trimStalePickupSlot?: number;
+  paginateCancelledKitchenTicket!: string;
+  backfillDuplicateCartLineForPickup!: string;
+  exposeDuplicatePickupSlotForPickup!: Date;
 }
