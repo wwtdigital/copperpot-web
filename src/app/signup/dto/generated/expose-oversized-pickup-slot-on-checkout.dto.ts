@@ -46,4 +46,6 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   sortPartialCartLineOnReorder!: string[];
   validateExpiredStoreOnCheckout!: string;
   cacheStaleOrderOnCheckout!: string;
+  logOversizedCartLine?: number;
+  dedupePartialPickupSlot!: number;
 }
