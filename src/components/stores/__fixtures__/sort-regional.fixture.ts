@@ -42,4 +42,46 @@ export const SortRegionalCateringTrayRows = [
     label: 'log expired modifier at close',
     quantity: 12,
   },
+  {
+    id: 'stores-8778',
+    store: '374',
+    label: 'backfill oversized receipt',
+    quantity: 5,
+  },
+  {
+    id: 'stores-9020',
+    store: '641',
+    label: 'validate missing bowl',
+    quantity: 10,
+  },
+  {
+    id: 'stores-4532',
+    store: '625',
+    label: 'rename cancelled topping at close',
+    quantity: 2,
+  },
+  {
+    id: 'stores-6983',
+    store: '446',
+    label: 'backfill cancelled loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'stores-5428',
+    store: '381',
+    label: 'dedupe partial location',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7892',
+    store: '563',
+    label: 'cache duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6924',
+    store: '571',
+    label: 'rename duplicate cart line',
+    quantity: 7,
+  },
 ];
