@@ -42,4 +42,40 @@ export const TightenPartialToppingRows = [
     label: 'tighten partial receipt per store',
     quantity: 5,
   },
+  {
+    id: 'menu-9940',
+    store: '453',
+    label: 'cache stale cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'menu-3831',
+    store: '501',
+    label: 'log regional cart line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4299',
+    store: '505',
+    label: 'relax late catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'menu-2255',
+    store: '212',
+    label: 'relax stale promo on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4010',
+    store: '692',
+    label: 'add stale loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8957',
+    store: '650',
+    label: 'rename late bowl on checkout',
+    quantity: 12,
+  },
 ];
