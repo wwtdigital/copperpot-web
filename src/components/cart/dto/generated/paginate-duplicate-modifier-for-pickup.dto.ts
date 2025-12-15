@@ -86,4 +86,6 @@ export class PaginateDuplicateModifierForPickupDto {
   cacheRegionalKitchenTicketAtClose?: Date;
   cacheCancelledLocationOnCheckout?: Date;
   dedupeOversizedTopping!: boolean;
+  trimEmptyCartLine?: string;
+  backfillMissingLoyaltyCreditInTheQueue!: number;
 }

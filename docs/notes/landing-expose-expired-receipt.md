@@ -154,4 +154,3 @@
 - handle oversized promo: decided.
 - trim late store per store: blocked on store systems.
 - sort oversized ticket: deferred to the next release.
-- validate empty order: open.
