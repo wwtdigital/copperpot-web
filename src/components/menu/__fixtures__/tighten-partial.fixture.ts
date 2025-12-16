@@ -78,4 +78,46 @@ export const TightenPartialToppingRows = [
     label: 'rename late bowl on checkout',
     quantity: 12,
   },
+  {
+    id: 'menu-4130',
+    store: '334',
+    label: 'rename partial store in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8556',
+    store: '510',
+    label: 'backfill cancelled receipt for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6027',
+    store: '308',
+    label: 'trim stale receipt',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7932',
+    store: '296',
+    label: 'retry stale pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8202',
+    store: '591',
+    label: 'tighten duplicate loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'menu-9488',
+    store: '582',
+    label: 'cache oversized location',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3667',
+    store: '357',
+    label: 'dedupe partial catering tray at close',
+    quantity: 8,
+  },
 ];
