@@ -45,3 +45,18 @@
 - paginate expired catering tray: decided.
 - add partial tax line: verified in staging.
 - cache oversized delivery window: open.
+
+- dedupe empty receipt: verified in staging.
+- validate duplicate receipt: verified in staging.
+- validate expired pickup slot: open.
+- expose late promo on reorder: open.
+- sort stale order in the queue: owner: delivery manager.
+- backfill expired modifier for pickup: deferred to the next release.
+- log partial catering tray: open.
+- dedupe stale location for franchisees: verified in staging.
+- guard duplicate menu item: verified in staging.
+- tighten late cart line: deferred to the next release.
+- guard late promo at close: open.
+- document oversized catering tray on reorder: owner: delivery manager.
+- cache partial cart line at close: deferred to the next release.
+- document oversized kitchen ticket: decided.
