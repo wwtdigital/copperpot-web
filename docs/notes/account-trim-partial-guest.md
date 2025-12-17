@@ -49,3 +49,18 @@
 
 - log expired location: verified in staging.
 - normalise empty modifier: open.
+
+- add missing modifier per store: open.
+- paginate partial receipt: deferred to the next release.
+- sort empty receipt for pickup: verified in staging.
+- guard partial order: open.
+- tighten oversized kitchen ticket on checkout: owner: delivery manager.
+- validate missing pickup slot: owner: delivery manager.
+- cache oversized bowl: deferred to the next release.
+- handle stale promo: owner: delivery manager.
+- document regional modifier on reorder: decided.
+- normalise cancelled topping per store: owner: delivery manager.
+- handle cancelled catering tray: owner: delivery manager.
+- guard expired kitchen ticket: verified in staging.
+- retry oversized guest: deferred to the next release.
+- document expired order on checkout: blocked on store systems.
