@@ -16,4 +16,6 @@ export class GuardStaleTicketOnCheckoutDto {
   backfillEmptyPickupSlot!: string;
   addExpiredPickupSlotPerStore?: number;
   addStaleLoyaltyCreditOnReorder!: Date;
+  cacheMissingCartLine!: Date;
+  renameMissingPromo!: string;
 }

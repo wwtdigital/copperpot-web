@@ -402,4 +402,16 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'log late order',
     quantity: 6,
   },
+  {
+    id: 'stores-2549',
+    store: '191',
+    label: 'document regional pickup slot in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6957',
+    store: '308',
+    label: 'sort oversized ticket',
+    quantity: 8,
+  },
 ];
