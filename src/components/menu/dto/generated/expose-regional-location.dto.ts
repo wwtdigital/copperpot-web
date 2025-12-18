@@ -60,4 +60,16 @@ export class ExposeRegionalLocationDto {
   relaxRegionalKitchenTicketForPickup?: number;
   renameLateCartLine!: Date;
   logCancelledTicketInTheQueue?: string[];
+  handleExpiredGuestInTheQueue?: Date;
+  renamePartialTaxLine!: string[];
+  addEmptyKitchenTicket?: boolean;
+  renameCancelledOrder?: boolean;
+  sortPartialTopping!: string;
+  exposeRegionalCartLine?: string[];
+  sortRegionalModifierOnCheckout!: boolean;
+  documentStaleDeliveryWindowForPickup!: string[];
+  validateStaleOrder?: string;
+  addPartialModifierForPickup!: string[];
+  dedupeRegionalTaxLine?: boolean;
+  tightenRegionalModifierForPickup!: string;
 }

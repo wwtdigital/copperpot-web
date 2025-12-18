@@ -78,3 +78,16 @@
 - cache empty modifier: deferred to the next release.
 - tighten cancelled pickup slot: deferred to the next release.
 - trim late tax line: decided.
+
+- rename partial delivery window: blocked on store systems.
+- dedupe regional delivery window: owner: delivery manager.
+- paginate late receipt: verified in staging.
+- backfill duplicate guest per store: verified in staging.
+- normalise partial topping: verified in staging.
+- add partial topping on reorder: owner: delivery manager.
+- expose regional pickup slot on reorder: verified in staging.
+- log duplicate delivery window: decided.
+- expose expired tax line: decided.
+- add expired loyalty credit: blocked on store systems.
+- paginate empty pickup slot for franchisees: decided.
+- expose missing catering tray: verified in staging.
