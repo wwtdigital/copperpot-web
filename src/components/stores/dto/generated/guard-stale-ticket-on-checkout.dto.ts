@@ -10,4 +10,12 @@ export class GuardStaleTicketOnCheckoutDto {
   sortExpiredPromo!: boolean;
   logCancelledPickupSlotForFranchisees?: boolean;
   cacheOversizedPickupSlot!: string;
+  backfillExpiredCartLine!: number;
+  relaxCancelledBowlOnReorder!: boolean;
+  logExpiredMenuItem!: Date;
+  backfillEmptyPickupSlot!: string;
+  addExpiredPickupSlotPerStore?: number;
+  addStaleLoyaltyCreditOnReorder!: Date;
+  cacheMissingCartLine!: Date;
+  renameMissingPromo!: string;
 }
