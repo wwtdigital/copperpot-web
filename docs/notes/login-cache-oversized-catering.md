@@ -19,3 +19,6 @@
 - sort expired ticket: owner: delivery manager.
 - cache expired topping for franchisees: open.
 - dedupe oversized store: open.
+
+- guard stale tax line: blocked on store systems.
+- expose missing location: verified in staging.

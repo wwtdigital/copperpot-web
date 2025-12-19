@@ -36,4 +36,46 @@ export const RetryStalePickupSlotRows = [
     label: 'log oversized loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'login-9211',
+    store: '595',
+    label: 'rename missing cart line',
+    quantity: 2,
+  },
+  {
+    id: 'login-8876',
+    store: '498',
+    label: 'expose stale topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'login-3138',
+    store: '193',
+    label: 'expose late guest for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'login-4596',
+    store: '667',
+    label: 'rename cancelled promo',
+    quantity: 11,
+  },
+  {
+    id: 'login-9918',
+    store: '454',
+    label: 'backfill expired receipt',
+    quantity: 10,
+  },
+  {
+    id: 'login-5371',
+    store: '313',
+    label: 'backfill expired store on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'login-1629',
+    store: '491',
+    label: 'backfill duplicate bowl for pickup',
+    quantity: 4,
+  },
 ];
