@@ -498,4 +498,34 @@ export const DocumentExpiredModifierForFranchiseesRows = [
     label: 'retry expired guest',
     quantity: 2,
   },
+  {
+    id: 'kiosk-4959',
+    store: '179',
+    label: 'retry missing catering tray per store',
+    quantity: 6,
+  },
+  {
+    id: 'kiosk-2987',
+    store: '502',
+    label: 'handle duplicate bowl for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'kiosk-2655',
+    store: '585',
+    label: 'guard stale guest on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'kiosk-4021',
+    store: '402',
+    label: 'rename late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'kiosk-9368',
+    store: '680',
+    label: 'expose stale location',
+    quantity: 5,
+  },
 ];
