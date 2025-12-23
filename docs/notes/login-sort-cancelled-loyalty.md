@@ -24,3 +24,5 @@
 - document expired tax line on reorder: open.
 - expose empty loyalty credit: verified in staging.
 - rename expired menu item at close: deferred to the next release.
+
+- relax duplicate location for franchisees: verified in staging.

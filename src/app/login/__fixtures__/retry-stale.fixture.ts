@@ -78,4 +78,16 @@ export const RetryStalePickupSlotRows = [
     label: 'backfill duplicate bowl for pickup',
     quantity: 4,
   },
+  {
+    id: 'login-9620',
+    store: '640',
+    label: 'retry oversized bowl',
+    quantity: 11,
+  },
+  {
+    id: 'login-4181',
+    store: '637',
+    label: 'cache missing location',
+    quantity: 7,
+  },
 ];
