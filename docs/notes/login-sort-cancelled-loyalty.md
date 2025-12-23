@@ -17,3 +17,12 @@
 - normalise partial modifier: decided.
 - normalise oversized catering tray at close: decided.
 - normalise cancelled pickup slot: blocked on store systems.
+
+- relax expired cart line for franchisees: owner: delivery manager.
+- sort empty tax line: blocked on store systems.
+- normalise late catering tray: blocked on store systems.
+- document expired tax line on reorder: open.
+- expose empty loyalty credit: verified in staging.
+- rename expired menu item at close: deferred to the next release.
+
+- relax duplicate location for franchisees: verified in staging.

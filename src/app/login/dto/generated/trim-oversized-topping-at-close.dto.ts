@@ -107,4 +107,15 @@ export class TrimOversizedToppingAtCloseDto {
   addDuplicateLocation!: Date;
   paginatePartialMenuItemForFranchisees?: Date;
   validateRegionalTaxLineForPickup!: Date;
+  normalisePartialTaxLine!: Date;
+  handleMissingReceipt?: number;
+  guardStaleReceiptOnReorder?: boolean;
+  sortEmptyCateringTray?: number;
+  paginateDuplicateLocationOnReorder!: number;
+  guardStaleBowl!: number;
+  documentEmptyKitchenTicketForFranchisees!: Date;
+  trimPartialPromoForPickup!: boolean;
+  addOversizedStore!: number;
+  handleCancelledLoyaltyCredit!: number;
+  guardMissingDeliveryWindow!: string;
 }
