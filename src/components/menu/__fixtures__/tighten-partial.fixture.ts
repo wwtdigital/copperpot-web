@@ -120,4 +120,10 @@ export const TightenPartialToppingRows = [
     label: 'dedupe partial catering tray at close',
     quantity: 8,
   },
+  {
+    id: 'menu-5991',
+    store: '564',
+    label: 'tighten regional pickup slot on reorder',
+    quantity: 5,
+  },
 ];
