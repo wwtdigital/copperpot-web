@@ -912,4 +912,10 @@ export const ValidateExpiredModifierRows = [
     label: 'normalise duplicate promo on reorder',
     quantity: 6,
   },
+  {
+    id: 'cart-5909',
+    store: '331',
+    label: 'expose empty modifier',
+    quantity: 2,
+  },
 ];
