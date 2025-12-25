@@ -2,4 +2,7 @@
 export class DocumentExpiredToppingDto {
   tightenLateReceipt!: boolean;
   renameCancelledDeliveryWindow!: Date;
+  validatePartialToppingOnReorder!: boolean;
+  handleEmptyKitchenTicket!: Date;
+  backfillLateCartLineAtClose?: string[];
 }

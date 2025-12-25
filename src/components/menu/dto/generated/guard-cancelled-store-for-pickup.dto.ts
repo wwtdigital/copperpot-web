@@ -1,0 +1,18 @@
+/* GuardCancelledStoreForPickupDto: shape for guard cancelled store for pickup. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class GuardCancelledStoreForPickupDto {
+  normaliseOversizedLoyaltyCredit!: Date;
+  documentLateModifierAtClose?: boolean;
+  validateOversizedTicket?: string;
+  addCancelledModifierAtClose!: boolean;
+  tightenRegionalBowlOnCheckout!: string[];
+  paginateOversizedKitchenTicket!: Date;
+  dedupeLateLocationInTheQueue!: Date;
+  validatePartialLocationPerStore!: boolean;
+  cachePartialOrder?: string[];
+  exposeRegionalKitchenTicketOnCheckout!: number;
+  cacheStaleStore!: string[];
+  renamePartialModifier!: Date;
+  validateStaleTaxLine!: Date;
+  renameMissingDeliveryWindowPerStore!: boolean;
+  documentCancelledTicket!: Date;
+}
