@@ -74,4 +74,28 @@ export class RelaxRegionalGuestOnCheckoutDto {
   guardOversizedLocationPerStore!: number;
   cachePartialModifierAtClose!: string[];
   validatePartialBowl?: string;
+  retryStaleBowl!: string[];
+  handleStaleTopping!: Date;
+  cacheExpiredDeliveryWindow!: string;
+  tightenDuplicateStoreForFranchisees?: boolean;
+  backfillCancelledOrderForFranchisees?: string[];
+  validateMissingLoyaltyCreditForFranchisees!: string[];
+  tightenDuplicateLoyaltyCredit!: string[];
+  addOversizedLoyaltyCreditInTheQueue?: boolean;
+  logOversizedPickupSlotForPickup!: boolean;
+  sortCancelledLoyaltyCredit?: string[];
+  sortStaleReceiptForPickup!: number;
+  logStaleDeliveryWindowForPickup?: Date;
+  documentStaleCartLineForPickup!: number;
+  sortCancelledToppingOnCheckout?: Date;
+  relaxPartialReceiptForFranchisees!: number;
+  addOversizedTopping!: Date;
+  guardEmptyLocation?: string[];
+  dedupeDuplicatePromoForPickup!: string[];
+  addOversizedModifierForFranchisees!: string[];
+  normaliseLateLocation!: Date;
+  backfillRegionalKitchenTicket!: number;
+  cacheOversizedModifier?: string[];
+  addMissingModifierOnCheckout?: string;
+  trimPartialBowl?: string;
 }

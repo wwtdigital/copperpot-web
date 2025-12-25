@@ -138,4 +138,7 @@ export class PaginateDuplicateModifierForPickupDto {
   cacheCancelledCateringTray!: boolean;
   guardDuplicateStore!: number;
   retryRegionalTaxLine!: boolean;
+  relaxCancelledMenuItemPerStore!: boolean;
+  guardStaleTaxLine!: number;
+  normaliseStaleKitchenTicket!: string;
 }

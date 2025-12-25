@@ -60,3 +60,18 @@
 - document oversized catering tray on reorder: owner: delivery manager.
 - cache partial cart line at close: deferred to the next release.
 - document oversized kitchen ticket: decided.
+
+- validate stale pickup slot: verified in staging.
+- relax missing promo in the queue: blocked on store systems.
+- rename cancelled menu item at close: decided.
+- expose duplicate guest: open.
+- expose missing delivery window: owner: delivery manager.
+- cache cancelled location: verified in staging.
+- tighten regional catering tray: deferred to the next release.
+- validate empty tax line at close: blocked on store systems.
+- tighten late cart line: blocked on store systems.
+- validate partial tax line for franchisees: verified in staging.
+- add duplicate modifier: verified in staging.
+- backfill duplicate guest: deferred to the next release.
+- add missing topping: decided.
+- document cancelled catering tray: owner: delivery manager.
