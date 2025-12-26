@@ -516,4 +516,16 @@ export const RelaxDuplicateCartLineAtCloseRows = [
     label: 'expose regional pickup slot',
     quantity: 7,
   },
+  {
+    id: 'landing-5381',
+    store: '187',
+    label: 'handle empty menu item',
+    quantity: 1,
+  },
+  {
+    id: 'landing-7380',
+    store: '612',
+    label: 'normalise empty order on reorder',
+    quantity: 5,
+  },
 ];
