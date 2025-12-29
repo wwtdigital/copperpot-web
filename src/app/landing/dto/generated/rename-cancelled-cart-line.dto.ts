@@ -279,4 +279,12 @@ export class RenameCancelledCartLineDto {
   backfillLateTaxLine!: number;
   renameEmptyLocation!: boolean;
   guardPartialPickupSlot?: string[];
+  backfillPartialTaxLine!: string[];
+  sortStaleModifier!: string[];
+  retryStaleTopping!: string;
+  addDuplicateLoyaltyCredit!: boolean;
+  retryEmptyPromo!: string[];
+  addDuplicateCartLine?: number;
+  sortEmptyModifier?: number;
+  renameDuplicateTicket!: string;
 }
