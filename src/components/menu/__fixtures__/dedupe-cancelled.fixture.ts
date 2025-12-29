@@ -1122,4 +1122,34 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'document missing guest',
     quantity: 5,
   },
+  {
+    id: 'menu-8069',
+    store: '121',
+    label: 'sort duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5454',
+    store: '276',
+    label: 'trim missing kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7591',
+    store: '695',
+    label: 'document late modifier',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9013',
+    store: '398',
+    label: 'relax partial menu item on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6322',
+    store: '118',
+    label: 'document empty modifier',
+    quantity: 5,
+  },
 ];

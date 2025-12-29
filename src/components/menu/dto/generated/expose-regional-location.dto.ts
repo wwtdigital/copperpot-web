@@ -72,4 +72,14 @@ export class ExposeRegionalLocationDto {
   addPartialModifierForPickup!: string[];
   dedupeRegionalTaxLine?: boolean;
   tightenRegionalModifierForPickup!: string;
+  validateEmptyCateringTrayOnReorder!: string[];
+  exposeOversizedBowlPerStore?: string;
+  exposePartialKitchenTicketForPickup!: Date;
+  handleDuplicateReceipt!: Date;
+  retryMissingKitchenTicket!: string[];
+  sortOversizedBowl?: string[];
+  exposeOversizedBowl!: string[];
+  dedupeMissingLoyaltyCreditInTheQueue?: string[];
+  normaliseExpiredBowl!: string[];
+  exposeLateTaxLine?: string[];
 }
