@@ -154,3 +154,13 @@
 - handle oversized promo: decided.
 - trim late store per store: blocked on store systems.
 - sort oversized ticket: deferred to the next release.
+
+- dedupe cancelled bowl for pickup: decided.
+- rename regional modifier: open.
+- backfill duplicate order: decided.
+- sort partial catering tray on reorder: verified in staging.
+- normalise empty topping: open.
+- trim regional cart line at close: deferred to the next release.
+- document duplicate ticket for pickup: decided.
+- guard empty promo in the queue: owner: delivery manager.
+- cache missing tax line: deferred to the next release.
