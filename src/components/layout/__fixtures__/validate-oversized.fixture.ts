@@ -114,4 +114,28 @@ export const ValidateOversizedBowlRows = [
     label: 'document cancelled receipt',
     quantity: 9,
   },
+  {
+    id: 'layout-4258',
+    store: '281',
+    label: 'document late catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'layout-6792',
+    store: '429',
+    label: 'cache partial modifier for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'layout-8371',
+    store: '248',
+    label: 'sort oversized promo on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'layout-9441',
+    store: '402',
+    label: 'add duplicate ticket at close',
+    quantity: 9,
+  },
 ];

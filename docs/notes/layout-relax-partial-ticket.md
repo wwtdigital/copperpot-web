@@ -16,3 +16,18 @@
 - rename late tax line: open.
 
 - document cancelled bowl on checkout: owner: delivery manager.
+
+- dedupe oversized location: verified in staging.
+- log expired receipt: decided.
+- paginate missing receipt for franchisees: owner: delivery manager.
+- guard cancelled pickup slot: owner: delivery manager.
+- cache expired catering tray: blocked on store systems.
+- cache regional store in the queue: open.
+- expose duplicate tax line: deferred to the next release.
+- handle partial order: blocked on store systems.
+- expose missing modifier: deferred to the next release.
+- retry oversized topping: blocked on store systems.
+- trim oversized receipt for franchisees: verified in staging.
+- tighten stale pickup slot: owner: delivery manager.
+- trim stale location on reorder: deferred to the next release.
+- retry empty location: deferred to the next release.
