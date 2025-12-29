@@ -287,4 +287,6 @@ export class RenameCancelledCartLineDto {
   addDuplicateCartLine?: number;
   sortEmptyModifier?: number;
   renameDuplicateTicket!: string;
+  handleMissingCateringTrayInTheQueue?: string;
+  trimMissingPickupSlot!: Date;
 }
