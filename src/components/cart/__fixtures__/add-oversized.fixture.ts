@@ -1128,4 +1128,46 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'rename partial tax line',
     quantity: 6,
   },
+  {
+    id: 'cart-6812',
+    store: '526',
+    label: 'normalise oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'cart-3663',
+    store: '350',
+    label: 'backfill stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3366',
+    store: '293',
+    label: 'normalise missing store',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5637',
+    store: '650',
+    label: 'paginate late ticket',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2754',
+    store: '692',
+    label: 'trim late topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1185',
+    store: '420',
+    label: 'relax missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3358',
+    store: '373',
+    label: 'normalise duplicate pickup slot for pickup',
+    quantity: 6,
+  },
 ];
