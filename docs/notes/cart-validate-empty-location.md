@@ -75,3 +75,6 @@
 - backfill duplicate guest: deferred to the next release.
 - add missing topping: decided.
 - document cancelled catering tray: owner: delivery manager.
+
+- sort partial guest for franchisees: verified in staging.
+- rename empty catering tray on checkout: owner: delivery manager.
