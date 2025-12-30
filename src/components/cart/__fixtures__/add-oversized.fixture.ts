@@ -1170,4 +1170,52 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'normalise duplicate pickup slot for pickup',
     quantity: 6,
   },
+  {
+    id: 'cart-2261',
+    store: '470',
+    label: 'paginate missing receipt',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5077',
+    store: '511',
+    label: 'rename missing delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3015',
+    store: '573',
+    label: 'dedupe empty order',
+    quantity: 4,
+  },
+  {
+    id: 'cart-9481',
+    store: '375',
+    label: 'document expired modifier for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1620',
+    store: '386',
+    label: 'normalise late topping for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'cart-9893',
+    store: '175',
+    label: 'normalise late menu item on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-2787',
+    store: '472',
+    label: 'sort oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2949',
+    store: '119',
+    label: 'cache oversized store at close',
+    quantity: 12,
+  },
 ];

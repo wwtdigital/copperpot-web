@@ -141,4 +141,6 @@ export class PaginateDuplicateModifierForPickupDto {
   relaxCancelledMenuItemPerStore!: boolean;
   guardStaleTaxLine!: number;
   normaliseStaleKitchenTicket!: string;
+  normaliseStaleBowl!: string[];
+  retryRegionalLoyaltyCredit?: string;
 }
