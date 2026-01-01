@@ -85,4 +85,6 @@ export class DocumentExpiredCateringTrayDto {
   trimExpiredTicket!: string;
   retryDuplicateGuest!: number;
   paginateOversizedModifier?: string;
+  relaxPartialModifier?: boolean;
+  cacheStaleLoyaltyCreditOnCheckout?: string;
 }
