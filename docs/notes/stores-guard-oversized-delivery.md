@@ -83,3 +83,18 @@
 - paginate stale menu item on reorder: blocked on store systems.
 - expose missing order at close: open.
 - paginate partial pickup slot: open.
+
+- expose expired catering tray: verified in staging.
+- backfill stale bowl: deferred to the next release.
+- handle oversized ticket in the queue: owner: delivery manager.
+- document cancelled promo: deferred to the next release.
+- retry missing store: deferred to the next release.
+- expose missing loyalty credit: blocked on store systems.
+- log duplicate bowl for franchisees: deferred to the next release.
+- normalise oversized bowl for franchisees: owner: delivery manager.
+- relax oversized cart line on reorder: decided.
+- expose empty menu item: deferred to the next release.
+- guard duplicate tax line: verified in staging.
+- retry cancelled tax line: deferred to the next release.
+- document oversized topping on reorder: open.
+- dedupe oversized promo: owner: delivery manager.

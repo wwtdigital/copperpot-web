@@ -158,3 +158,12 @@
 - sort missing cart line on checkout: deferred to the next release.
 - validate stale delivery window at close: blocked on store systems.
 - relax stale catering tray: blocked on store systems.
+
+- backfill duplicate topping per store: blocked on store systems.
+- paginate cancelled promo: blocked on store systems.
+- dedupe late delivery window per store: blocked on store systems.
+- backfill partial guest: owner: delivery manager.
+- trim missing modifier: deferred to the next release.
+- retry duplicate menu item on checkout: blocked on store systems.
+- dedupe empty menu item: open.
+- rename oversized pickup slot: decided.
