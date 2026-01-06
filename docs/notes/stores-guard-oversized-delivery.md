@@ -98,3 +98,18 @@
 - retry cancelled tax line: deferred to the next release.
 - document oversized topping on reorder: open.
 - dedupe oversized promo: owner: delivery manager.
+
+- retry regional delivery window: verified in staging.
+- dedupe expired store for pickup: decided.
+- normalise expired location: blocked on store systems.
+- dedupe cancelled delivery window in the queue: open.
+- add missing order for pickup: deferred to the next release.
+- expose stale delivery window: decided.
+- add partial bowl: verified in staging.
+- cache late bowl for franchisees: blocked on store systems.
+- guard late guest per store: blocked on store systems.
+- expose empty promo on reorder: verified in staging.
+- guard empty modifier per store: owner: delivery manager.
+- cache expired promo for franchisees: blocked on store systems.
+- validate stale guest for pickup: verified in staging.
+- sort stale bowl: decided.
