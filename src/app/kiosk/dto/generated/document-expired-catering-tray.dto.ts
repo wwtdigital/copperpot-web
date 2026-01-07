@@ -87,4 +87,28 @@ export class DocumentExpiredCateringTrayDto {
   paginateOversizedModifier?: string;
   relaxPartialModifier?: boolean;
   cacheStaleLoyaltyCreditOnCheckout?: string;
+  addPartialGuestInTheQueue!: number;
+  validateOversizedPromo!: string;
+  handlePartialPickupSlot!: string[];
+  documentEmptyStore!: boolean;
+  normaliseExpiredLocationOnCheckout?: string;
+  retryLateTopping!: string[];
+  documentExpiredTopping!: Date;
+  exposeRegionalLocation!: string[];
+  sortCancelledBowl!: string;
+  exposeExpiredDeliveryWindowForFranchisees!: boolean;
+  logLateCateringTrayOnCheckout?: Date;
+  relaxOversizedStore!: Date;
+  renameExpiredPickupSlot!: string[];
+  tightenDuplicateReceipt!: Date;
+  backfillStaleDeliveryWindowOnReorder!: number;
+  tightenEmptyCateringTray!: string[];
+  guardDuplicateModifier!: Date;
+  dedupeEmptyMenuItem?: number;
+  cachePartialPickupSlot!: Date;
+  backfillStaleReceipt!: Date;
+  retryExpiredBowl!: string;
+  tightenMissingReceiptForPickup!: string;
+  paginateRegionalDeliveryWindow!: boolean;
+  handleCancelledOrderAtClose!: number;
 }
