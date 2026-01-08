@@ -158,3 +158,27 @@
 - sort missing cart line on checkout: deferred to the next release.
 - validate stale delivery window at close: blocked on store systems.
 - relax stale catering tray: blocked on store systems.
+
+- backfill duplicate topping per store: blocked on store systems.
+- paginate cancelled promo: blocked on store systems.
+- dedupe late delivery window per store: blocked on store systems.
+- backfill partial guest: owner: delivery manager.
+- trim missing modifier: deferred to the next release.
+- retry duplicate menu item on checkout: blocked on store systems.
+- dedupe empty menu item: open.
+- rename oversized pickup slot: decided.
+
+- trim partial store: verified in staging.
+- trim late order for franchisees: verified in staging.
+- paginate stale menu item for franchisees: open.
+- relax regional kitchen ticket: verified in staging.
+- handle missing location: decided.
+- expose partial promo: deferred to the next release.
+- dedupe oversized order at close: blocked on store systems.
+- sort partial ticket: decided.
+- tighten late ticket per store: deferred to the next release.
+- dedupe expired kitchen ticket per store: blocked on store systems.
+- dedupe stale pickup slot: decided.
+- expose partial catering tray per store: decided.
+- validate stale ticket: verified in staging.
+- paginate regional ticket: verified in staging.
