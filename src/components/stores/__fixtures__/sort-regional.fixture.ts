@@ -84,4 +84,34 @@ export const SortRegionalCateringTrayRows = [
     label: 'rename duplicate cart line',
     quantity: 7,
   },
+  {
+    id: 'stores-7895',
+    store: '315',
+    label: 'sort empty store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'stores-2204',
+    store: '134',
+    label: 'tighten missing pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4358',
+    store: '115',
+    label: 'tighten partial bowl',
+    quantity: 11,
+  },
+  {
+    id: 'stores-5898',
+    store: '180',
+    label: 'validate oversized catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'stores-6636',
+    store: '533',
+    label: 'expose cancelled ticket for franchisees',
+    quantity: 6,
+  },
 ];
