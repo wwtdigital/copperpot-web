@@ -182,3 +182,18 @@
 - expose partial catering tray per store: decided.
 - validate stale ticket: verified in staging.
 - paginate regional ticket: verified in staging.
+
+- handle oversized modifier on reorder: verified in staging.
+- tighten partial promo for franchisees: verified in staging.
+- retry empty tax line per store: verified in staging.
+- backfill regional location: blocked on store systems.
+- expose regional kitchen ticket: open.
+- guard stale modifier at close: blocked on store systems.
+- guard oversized kitchen ticket at close: decided.
+- expose partial ticket: owner: delivery manager.
+- cache expired bowl: blocked on store systems.
+- validate late promo: blocked on store systems.
+- backfill duplicate kitchen ticket: decided.
+- rename expired topping in the queue: owner: delivery manager.
+- tighten empty cart line: decided.
+- rename partial catering tray: blocked on store systems.

@@ -83,4 +83,25 @@ export class RelaxRegionalStoreDto {
   paginateCancelledKitchenTicket!: string;
   backfillDuplicateCartLineForPickup!: string;
   exposeDuplicatePickupSlotForPickup!: Date;
+  retryCancelledPromoForFranchisees!: boolean;
+  tightenCancelledReceiptForPickup?: string;
+  backfillLateTicket!: boolean;
+  addMissingOrderPerStore!: boolean;
+  paginatePartialPromoPerStore!: Date;
+  normaliseCancelledPromo!: string;
+  sortExpiredTaxLine!: number;
+  validateExpiredModifier!: string;
+  retryStaleStore!: number;
+  documentEmptyModifier!: string;
+  trimPartialPromo!: Date;
+  addPartialOrder!: number;
+  dedupePartialMenuItemAtClose!: string[];
+  documentExpiredKitchenTicket?: number;
+  guardEmptyReceiptForPickup?: string;
+  handleRegionalToppingInTheQueue!: Date;
+  renameExpiredOrderInTheQueue!: boolean;
+  dedupeMissingMenuItem?: Date;
+  tightenOversizedCateringTray?: Date;
+  relaxStaleGuestForFranchisees!: boolean;
+  tightenLatePromoOnReorder!: boolean;
 }

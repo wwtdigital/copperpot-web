@@ -120,4 +120,22 @@ export const SortRegionalCateringTrayRows = [
     label: 'relax partial location',
     quantity: 8,
   },
+  {
+    id: 'stores-8188',
+    store: '438',
+    label: 'guard expired promo',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8030',
+    store: '479',
+    label: 'rename missing cart line per store',
+    quantity: 8,
+  },
+  {
+    id: 'stores-8505',
+    store: '152',
+    label: 'sort partial promo',
+    quantity: 7,
+  },
 ];

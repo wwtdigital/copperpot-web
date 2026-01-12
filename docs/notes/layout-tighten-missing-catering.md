@@ -73,4 +73,3 @@
 - normalise partial location on checkout: blocked on store systems.
 - normalise duplicate delivery window for franchisees: verified in staging.
 - guard expired location: deferred to the next release.
-- cache regional location: decided.

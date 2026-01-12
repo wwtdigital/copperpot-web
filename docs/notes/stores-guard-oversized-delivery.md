@@ -113,3 +113,18 @@
 - cache expired promo for franchisees: blocked on store systems.
 - validate stale guest for pickup: verified in staging.
 - sort stale bowl: decided.
+
+- guard duplicate ticket: deferred to the next release.
+- retry expired menu item: open.
+- add cancelled location: blocked on store systems.
+- paginate late location: open.
+- relax oversized tax line per store: deferred to the next release.
+- trim stale ticket: decided.
+- add regional location for pickup: open.
+- tighten duplicate loyalty credit: deferred to the next release.
+- log stale promo: blocked on store systems.
+- sort oversized location: verified in staging.
+- add regional pickup slot: open.
+- retry late bowl: owner: delivery manager.
+- sort expired catering tray: deferred to the next release.
+- expose partial ticket at close: verified in staging.
