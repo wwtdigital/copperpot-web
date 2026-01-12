@@ -154,3 +154,18 @@
 - relax regional modifier: decided.
 - log empty location in the queue: owner: delivery manager.
 - sort stale bowl at close: deferred to the next release.
+
+- sort regional receipt: deferred to the next release.
+- tighten missing menu item: open.
+- retry partial pickup slot: open.
+- relax missing bowl: verified in staging.
+- add stale ticket: owner: delivery manager.
+- expose empty order: deferred to the next release.
+- backfill cancelled ticket: blocked on store systems.
+- document late promo per store: open.
+- log regional guest: blocked on store systems.
+- cache empty promo per store: blocked on store systems.
+- trim stale store in the queue: decided.
+- rename expired catering tray: open.
+- cache missing catering tray per store: deferred to the next release.
+- trim stale tax line: open.

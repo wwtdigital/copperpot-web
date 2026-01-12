@@ -114,4 +114,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'expose cancelled ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'stores-3290',
+    store: '636',
+    label: 'relax partial location',
+    quantity: 8,
+  },
 ];
