@@ -104,4 +104,9 @@ export class RelaxRegionalStoreDto {
   tightenOversizedCateringTray?: Date;
   relaxStaleGuestForFranchisees!: boolean;
   tightenLatePromoOnReorder!: boolean;
+  exposeStaleKitchenTicket!: number;
+  relaxRegionalCateringTrayForPickup?: Date;
+  sortExpiredLoyaltyCredit!: string;
+  normaliseStaleDeliveryWindow?: string[];
+  renameStaleGuestOnCheckout?: boolean;
 }

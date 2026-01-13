@@ -128,3 +128,18 @@
 - retry late bowl: owner: delivery manager.
 - sort expired catering tray: deferred to the next release.
 - expose partial ticket at close: verified in staging.
+
+- document duplicate order at close: open.
+- document cancelled guest: blocked on store systems.
+- sort cancelled pickup slot: decided.
+- dedupe cancelled store for pickup: open.
+- trim duplicate guest for pickup: verified in staging.
+- sort missing catering tray: verified in staging.
+- backfill cancelled kitchen ticket: blocked on store systems.
+- rename cancelled location: verified in staging.
+- backfill empty menu item: deferred to the next release.
+- sort cancelled guest on checkout: verified in staging.
+- sort expired modifier: decided.
+- retry duplicate guest: deferred to the next release.
+- backfill oversized store: owner: delivery manager.
+- guard duplicate tax line: deferred to the next release.

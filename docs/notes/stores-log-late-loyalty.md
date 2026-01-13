@@ -197,3 +197,18 @@
 - rename expired topping in the queue: owner: delivery manager.
 - tighten empty cart line: decided.
 - rename partial catering tray: blocked on store systems.
+
+- handle cancelled bowl at close: decided.
+- paginate oversized catering tray: blocked on store systems.
+- trim empty catering tray in the queue: blocked on store systems.
+- add partial loyalty credit in the queue: deferred to the next release.
+- retry late tax line in the queue: open.
+- sort expired loyalty credit for franchisees: deferred to the next release.
+- tighten partial loyalty credit: decided.
+- handle regional order per store: open.
+- log oversized pickup slot: owner: delivery manager.
+- paginate oversized delivery window on reorder: open.
+- expose duplicate guest on reorder: verified in staging.
+- rename oversized ticket at close: blocked on store systems.
+- expose cancelled pickup slot: verified in staging.
+- paginate stale tax line for franchisees: open.
