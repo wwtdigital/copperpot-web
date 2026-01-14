@@ -18,4 +18,15 @@ export class GuardStaleTicketOnCheckoutDto {
   addStaleLoyaltyCreditOnReorder!: Date;
   cacheMissingCartLine!: Date;
   renameMissingPromo!: string;
+  dedupeOversizedPickupSlotOnCheckout?: Date;
+  normaliseEmptyLocation?: boolean;
+  sortEmptyBowlOnCheckout!: Date;
+  exposeRegionalPickupSlot!: string[];
+  relaxMissingGuestOnReorder!: number;
+  cacheLateMenuItem!: string;
+  normaliseEmptyLoyaltyCredit?: boolean;
+  renameLateLocation!: string[];
+  handleLateStoreOnReorder?: number;
+  renameExpiredKitchenTicketPerStore!: number;
+  retryRegionalDeliveryWindow!: Date;
 }
