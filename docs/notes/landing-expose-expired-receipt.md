@@ -164,3 +164,33 @@
 - document duplicate ticket for pickup: decided.
 - guard empty promo in the queue: owner: delivery manager.
 - cache missing tax line: deferred to the next release.
+
+- add late kitchen ticket: verified in staging.
+- document stale pickup slot: blocked on store systems.
+- retry late topping for pickup: open.
+- rename duplicate kitchen ticket at close: blocked on store systems.
+- tighten regional menu item: open.
+- backfill cancelled kitchen ticket: verified in staging.
+- handle late ticket for franchisees: decided.
+- normalise cancelled guest: deferred to the next release.
+- rename cancelled receipt: decided.
+- tighten oversized promo in the queue: decided.
+- document empty cart line: owner: delivery manager.
+- backfill late ticket for pickup: open.
+- normalise expired location: blocked on store systems.
+- document regional order: blocked on store systems.
+
+- dedupe stale order: verified in staging.
+- backfill partial receipt: owner: delivery manager.
+- handle cancelled topping: deferred to the next release.
+- retry missing tax line for franchisees: decided.
+- relax regional receipt: verified in staging.
+- document late bowl on reorder: deferred to the next release.
+- trim regional menu item: blocked on store systems.
+- sort stale tax line: decided.
+- sort expired tax line: verified in staging.
+- backfill missing promo: decided.
+- sort missing ticket per store: owner: delivery manager.
+- expose empty loyalty credit: blocked on store systems.
+- backfill empty modifier for pickup: open.
+- tighten stale menu item: verified in staging.
