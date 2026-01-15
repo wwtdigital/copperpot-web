@@ -179,3 +179,18 @@
 - backfill late ticket for pickup: open.
 - normalise expired location: blocked on store systems.
 - document regional order: blocked on store systems.
+
+- dedupe stale order: verified in staging.
+- backfill partial receipt: owner: delivery manager.
+- handle cancelled topping: deferred to the next release.
+- retry missing tax line for franchisees: decided.
+- relax regional receipt: verified in staging.
+- document late bowl on reorder: deferred to the next release.
+- trim regional menu item: blocked on store systems.
+- sort stale tax line: decided.
+- sort expired tax line: verified in staging.
+- backfill missing promo: decided.
+- sort missing ticket per store: owner: delivery manager.
+- expose empty loyalty credit: blocked on store systems.
+- backfill empty modifier for pickup: open.
+- tighten stale menu item: verified in staging.
