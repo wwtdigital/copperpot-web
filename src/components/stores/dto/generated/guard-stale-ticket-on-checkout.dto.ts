@@ -29,4 +29,28 @@ export class GuardStaleTicketOnCheckoutDto {
   handleLateStoreOnReorder?: number;
   renameExpiredKitchenTicketPerStore!: number;
   retryRegionalDeliveryWindow!: Date;
+  validateMissingCartLineForPickup!: number;
+  sortEmptyGuest?: string;
+  retryOversizedGuest!: string;
+  backfillLateStoreForPickup?: string;
+  trimLateTaxLine?: boolean;
+  paginateDuplicateStoreInTheQueue!: number;
+  normaliseStaleTicket!: string;
+  trimExpiredModifier!: boolean;
+  dedupeMissingDeliveryWindowAtClose!: string;
+  trimMissingBowl?: number;
+  renameLatePromoOnCheckout!: boolean;
+  dedupeOversizedMenuItem!: string[];
+  logOversizedTopping!: string;
+  paginateCancelledReceipt?: string[];
+  documentMissingBowl!: Date;
+  exposeOversizedModifier!: string;
+  trimStaleKitchenTicketPerStore!: Date;
+  addPartialModifierForFranchisees?: boolean;
+  logOversizedDeliveryWindow!: Date;
+  retryDuplicateMenuItemOnCheckout!: string;
+  backfillRegionalOrder?: string[];
+  handleExpiredMenuItemForFranchisees!: string[];
+  guardMissingLocation?: number;
+  renameOversizedTaxLineInTheQueue!: boolean;
 }
