@@ -30,4 +30,6 @@ export class CacheOversizedGuestAtCloseDto {
   dedupePartialLocation?: string;
   tightenOversizedStore!: string[];
   addExpiredCateringTrayOnCheckout?: boolean;
+  sortPartialLoyaltyCredit?: Date;
+  logOversizedModifier!: string;
 }

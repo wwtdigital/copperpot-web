@@ -474,4 +474,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'validate stale cart line',
     quantity: 5,
   },
+  {
+    id: 'stores-8513',
+    store: '209',
+    label: 'add partial menu item',
+    quantity: 8,
+  },
+  {
+    id: 'stores-2536',
+    store: '659',
+    label: 'document stale delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'stores-4547',
+    store: '618',
+    label: 'cache oversized order on reorder',
+    quantity: 2,
+  },
 ];
