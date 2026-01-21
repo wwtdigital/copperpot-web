@@ -90,4 +90,22 @@ export const RetryStalePickupSlotRows = [
     label: 'cache missing location',
     quantity: 7,
   },
+  {
+    id: 'login-9945',
+    store: '151',
+    label: 'dedupe stale kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'login-8119',
+    store: '198',
+    label: 'validate stale bowl for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'login-1040',
+    store: '414',
+    label: 'document stale location',
+    quantity: 1,
+  },
 ];
