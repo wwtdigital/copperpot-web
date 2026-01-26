@@ -143,4 +143,28 @@ export class PaginateDuplicateModifierForPickupDto {
   normaliseStaleKitchenTicket!: string;
   normaliseStaleBowl!: string[];
   retryRegionalLoyaltyCredit?: string;
+  trimCancelledOrder?: string[];
+  trimDuplicateDeliveryWindowForFranchisees?: number;
+  addPartialPickupSlot!: string[];
+  paginateLateCartLine!: boolean;
+  cacheLateToppingForPickup?: string;
+  logPartialModifierAtClose!: number;
+  tightenExpiredMenuItem!: boolean;
+  relaxStaleBowl!: number;
+  retryDuplicateModifier!: string[];
+  normaliseMissingTaxLineOnCheckout?: string;
+  tightenMissingGuest!: boolean;
+  backfillEmptyLocationForFranchisees!: number;
+  validateExpiredPickupSlot?: Date;
+  exposeStaleLoyaltyCreditPerStore?: boolean;
+  retryRegionalPromo!: boolean;
+  handleStaleLocationForFranchisees!: string[];
+  relaxOversizedModifier!: number;
+  sortCancelledCartLineInTheQueue!: Date;
+  logDuplicateMenuItemPerStore?: string;
+  cacheEmptyOrder?: boolean;
+  backfillDuplicateBowlForFranchisees!: number;
+  trimMissingPromo?: number;
+  renameLateTaxLineOnReorder!: string[];
+  cacheMissingCateringTray!: Date;
 }
