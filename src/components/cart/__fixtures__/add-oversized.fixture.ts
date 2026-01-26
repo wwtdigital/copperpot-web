@@ -1338,4 +1338,10 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'retry oversized tax line',
     quantity: 9,
   },
+  {
+    id: 'cart-2375',
+    store: '204',
+    label: 'trim partial ticket at close',
+    quantity: 10,
+  },
 ];
