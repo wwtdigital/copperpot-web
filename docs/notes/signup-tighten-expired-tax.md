@@ -19,3 +19,5 @@
 - trim expired modifier: owner: delivery manager.
 - tighten duplicate location: open.
 - log oversized bowl: decided.
+
+- log regional menu item: open.
