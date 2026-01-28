@@ -228,4 +228,58 @@ export const RelaxStalePromoAtCloseRows = [
     label: 'document empty ticket',
     quantity: 1,
   },
+  {
+    id: 'signup-5718',
+    store: '268',
+    label: 'log regional bowl for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'signup-1690',
+    store: '355',
+    label: 'log regional ticket',
+    quantity: 7,
+  },
+  {
+    id: 'signup-8516',
+    store: '571',
+    label: 'backfill missing guest on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'signup-1712',
+    store: '398',
+    label: 'validate empty loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'signup-9487',
+    store: '647',
+    label: 'log partial pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'signup-6167',
+    store: '441',
+    label: 'tighten duplicate loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'signup-3763',
+    store: '166',
+    label: 'tighten partial location on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'signup-1917',
+    store: '456',
+    label: 'cache duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'signup-9082',
+    store: '201',
+    label: 'retry cancelled promo',
+    quantity: 1,
+  },
 ];

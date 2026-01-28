@@ -113,3 +113,7 @@
 - paginate expired menu item on checkout: decided.
 - add expired store: decided.
 - normalise cancelled cart line: open.
+
+- tighten duplicate store on checkout: deferred to the next release.
+- relax stale tax line: blocked on store systems.
+- cache missing cart line: decided.
