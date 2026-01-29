@@ -282,4 +282,28 @@ export const RelaxStalePromoAtCloseRows = [
     label: 'retry cancelled promo',
     quantity: 1,
   },
+  {
+    id: 'signup-4078',
+    store: '603',
+    label: 'sort duplicate topping',
+    quantity: 4,
+  },
+  {
+    id: 'signup-3474',
+    store: '395',
+    label: 'normalise oversized order for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'signup-8807',
+    store: '473',
+    label: 'rename oversized location',
+    quantity: 7,
+  },
+  {
+    id: 'signup-3731',
+    store: '406',
+    label: 'sort empty loyalty credit on checkout',
+    quantity: 8,
+  },
 ];
