@@ -80,4 +80,11 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   sortRegionalMenuItemInTheQueue!: string;
   renamePartialToppingOnReorder!: number;
   guardCancelledTaxLineOnCheckout!: Date;
+  retryLatePromo!: string[];
+  retryMissingBowl?: number;
+  addLateKitchenTicketForFranchisees!: number;
+  normaliseStaleStore?: string[];
+  tightenMissingPromoForFranchisees?: boolean;
+  guardRegionalToppingInTheQueue!: string[];
+  backfillCancelledMenuItemOnReorder!: string[];
 }

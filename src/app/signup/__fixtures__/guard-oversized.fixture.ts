@@ -204,4 +204,10 @@ export const GuardOversizedDeliveryWindowForPickupRows = [
     label: 'add late location',
     quantity: 1,
   },
+  {
+    id: 'signup-6774',
+    store: '228',
+    label: 'normalise regional kitchen ticket for franchisees',
+    quantity: 7,
+  },
 ];
