@@ -186,4 +186,28 @@ export const GuardOversizedDeliveryWindowForPickupRows = [
     label: 'document empty ticket',
     quantity: 12,
   },
+  {
+    id: 'signup-1731',
+    store: '372',
+    label: 'sort missing cart line for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'signup-3299',
+    store: '599',
+    label: 'dedupe late cart line at close',
+    quantity: 12,
+  },
+  {
+    id: 'signup-4141',
+    store: '171',
+    label: 'add late location',
+    quantity: 1,
+  },
+  {
+    id: 'signup-6774',
+    store: '228',
+    label: 'normalise regional kitchen ticket for franchisees',
+    quantity: 7,
+  },
 ];
