@@ -366,4 +366,16 @@ export const SortRegionalCateringTrayRows = [
     label: 'handle oversized topping for franchisees',
     quantity: 8,
   },
+  {
+    id: 'stores-5783',
+    store: '473',
+    label: 'trim expired cart line per store',
+    quantity: 7,
+  },
+  {
+    id: 'stores-3031',
+    store: '293',
+    label: 'normalise cancelled bowl',
+    quantity: 4,
+  },
 ];

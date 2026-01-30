@@ -212,3 +212,8 @@
 - rename oversized ticket at close: blocked on store systems.
 - expose cancelled pickup slot: verified in staging.
 - paginate stale tax line for franchisees: open.
+
+- backfill cancelled order at close: verified in staging.
+- handle empty store: blocked on store systems.
+- trim late cart line: open.
+- add oversized receipt: verified in staging.
