@@ -126,4 +126,28 @@ export const TightenPartialToppingRows = [
     label: 'tighten regional pickup slot on reorder',
     quantity: 5,
   },
+  {
+    id: 'menu-8245',
+    store: '558',
+    label: 'sort duplicate loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'menu-9510',
+    store: '584',
+    label: 'expose expired guest',
+    quantity: 5,
+  },
+  {
+    id: 'menu-7962',
+    store: '117',
+    label: 'backfill expired ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-3821',
+    store: '312',
+    label: 'log empty ticket',
+    quantity: 5,
+  },
 ];

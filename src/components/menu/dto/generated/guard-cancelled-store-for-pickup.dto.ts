@@ -15,4 +15,6 @@ export class GuardCancelledStoreForPickupDto {
   validateStaleTaxLine!: Date;
   renameMissingDeliveryWindowPerStore!: boolean;
   documentCancelledTicket!: Date;
+  normaliseCancelledModifier!: string;
+  exposeCancelledKitchenTicket?: number;
 }
