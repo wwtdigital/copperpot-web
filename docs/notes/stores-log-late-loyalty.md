@@ -217,3 +217,11 @@
 - handle empty store: blocked on store systems.
 - trim late cart line: open.
 - add oversized receipt: verified in staging.
+
+- retry duplicate kitchen ticket: blocked on store systems.
+- sort cancelled order in the queue: blocked on store systems.
+- paginate expired modifier at close: verified in staging.
+- tighten regional ticket: owner: delivery manager.
+- dedupe stale ticket: blocked on store systems.
+- guard regional guest: open.
+- dedupe regional guest: blocked on store systems.

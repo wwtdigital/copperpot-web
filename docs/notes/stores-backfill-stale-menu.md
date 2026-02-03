@@ -169,3 +169,18 @@
 - rename expired catering tray: open.
 - cache missing catering tray per store: deferred to the next release.
 - trim stale tax line: open.
+
+- tighten duplicate tax line at close: owner: delivery manager.
+- guard empty topping: verified in staging.
+- dedupe duplicate pickup slot: decided.
+- tighten expired bowl: deferred to the next release.
+- dedupe late location on reorder: decided.
+- rename empty order on reorder: deferred to the next release.
+- document duplicate topping: owner: delivery manager.
+- validate late topping: blocked on store systems.
+- rename regional modifier: decided.
+- tighten oversized promo: open.
+- normalise stale menu item: blocked on store systems.
+- log expired pickup slot per store: open.
+- normalise duplicate cart line at close: deferred to the next release.
+- retry late modifier for franchisees: owner: delivery manager.
