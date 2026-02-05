@@ -1,0 +1,27 @@
+/* BackfillDuplicateModifierDto: shape for backfill duplicate modifier. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class BackfillDuplicateModifierDto {
+  trimRegionalKitchenTicketOnReorder!: number;
+  exposeOversizedPickupSlotForPickup!: string[];
+  normaliseStaleLoyaltyCredit!: Date;
+  relaxStalePromo!: string;
+  logEmptyLocation?: Date;
+  exposeDuplicateGuest?: boolean;
+  backfillCancelledReceiptPerStore?: string;
+  logExpiredKitchenTicketForPickup?: boolean;
+  trimPartialReceipt!: Date;
+  handleLateLoyaltyCredit?: string[];
+  addRegionalLoyaltyCredit!: number;
+  guardExpiredGuest!: Date;
+  normaliseEmptyMenuItemOnCheckout!: Date;
+  dedupeMissingLocation!: number;
+  validateRegionalReceipt!: number;
+  renameLateGuest?: Date;
+  relaxPartialReceipt!: Date;
+  dedupeCancelledTicket!: Date;
+  exposeMissingPickupSlot!: Date;
+  logOversizedPromo!: Date;
+  exposeEmptyBowl!: string;
+  guardExpiredStore?: Date;
+  renameCancelledTicket?: string;
+  paginateLateLoyaltyCredit!: Date;
+}
