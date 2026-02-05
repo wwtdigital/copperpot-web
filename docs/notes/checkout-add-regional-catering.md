@@ -102,3 +102,18 @@
 - handle expired ticket: decided.
 - relax regional pickup slot: open.
 - sort partial location: verified in staging.
+
+- expose oversized tax line in the queue: blocked on store systems.
+- retry empty kitchen ticket: owner: delivery manager.
+- retry cancelled location: open.
+- backfill cancelled promo: decided.
+- validate regional promo: blocked on store systems.
+- sort partial cart line: verified in staging.
+- validate partial tax line: blocked on store systems.
+- guard empty location at close: decided.
+- rename oversized order: verified in staging.
+- add stale bowl: blocked on store systems.
+- relax cancelled loyalty credit: owner: delivery manager.
+- dedupe duplicate catering tray: blocked on store systems.
+- expose empty modifier at close: decided.
+- log missing pickup slot: deferred to the next release.
