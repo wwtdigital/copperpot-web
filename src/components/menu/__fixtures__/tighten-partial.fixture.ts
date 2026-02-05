@@ -150,4 +150,28 @@ export const TightenPartialToppingRows = [
     label: 'log empty ticket',
     quantity: 5,
   },
+  {
+    id: 'menu-1980',
+    store: '626',
+    label: 'document cancelled order in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'menu-2076',
+    store: '588',
+    label: 'validate partial bowl at close',
+    quantity: 6,
+  },
+  {
+    id: 'menu-7577',
+    store: '234',
+    label: 'log empty order',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7346',
+    store: '621',
+    label: 'expose expired order',
+    quantity: 1,
+  },
 ];
