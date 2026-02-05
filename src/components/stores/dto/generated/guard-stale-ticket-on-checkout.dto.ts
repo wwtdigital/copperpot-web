@@ -53,4 +53,10 @@ export class GuardStaleTicketOnCheckoutDto {
   handleExpiredMenuItemForFranchisees!: string[];
   guardMissingLocation?: number;
   renameOversizedTaxLineInTheQueue!: boolean;
+  handleRegionalPromo!: string;
+  retryOversizedTicket!: string;
+  exposePartialDeliveryWindowOnReorder!: boolean;
+  tightenEmptyBowl?: number;
+  addStalePickupSlot!: string[];
+  dedupeExpiredTaxLine!: Date;
 }

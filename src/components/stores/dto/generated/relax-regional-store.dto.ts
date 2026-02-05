@@ -109,4 +109,7 @@ export class RelaxRegionalStoreDto {
   sortExpiredLoyaltyCredit!: string;
   normaliseStaleDeliveryWindow?: string[];
   renameStaleGuestOnCheckout?: boolean;
+  tightenStaleStore?: boolean;
+  tightenCancelledTopping?: boolean;
+  exposeExpiredLocationOnCheckout!: string;
 }
