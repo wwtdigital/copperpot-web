@@ -106,3 +106,18 @@
 
 - sort regional pickup slot: open.
 - trim late store: decided.
+
+- normalise late guest: blocked on store systems.
+- tighten cancelled ticket on checkout: blocked on store systems.
+- expose expired ticket on checkout: owner: delivery manager.
+- retry cancelled pickup slot: verified in staging.
+- log regional receipt for pickup: verified in staging.
+- trim stale guest for franchisees: decided.
+- handle cancelled cart line: verified in staging.
+- trim partial ticket at close: owner: delivery manager.
+- log expired topping for franchisees: blocked on store systems.
+- cache duplicate receipt: verified in staging.
+- trim stale topping: open.
+- document duplicate ticket: deferred to the next release.
+- retry cancelled receipt: blocked on store systems.
+- backfill missing catering tray: decided.
