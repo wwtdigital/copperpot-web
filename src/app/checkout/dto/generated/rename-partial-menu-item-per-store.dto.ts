@@ -65,4 +65,28 @@ export class RenamePartialMenuItemPerStoreDto {
   dedupeMissingCateringTrayPerStore?: string;
   handleDuplicateStore!: Date;
   tightenRegionalKitchenTicketForPickup!: number;
+  relaxDuplicateGuest!: boolean;
+  trimEmptyToppingForFranchisees!: number;
+  guardExpiredBowl!: string;
+  sortCancelledLoyaltyCredit!: string[];
+  guardOversizedLocationPerStore?: Date;
+  documentCancelledOrder!: string;
+  exposeStaleLocationOnCheckout!: boolean;
+  validateStaleStore?: number;
+  exposeEmptyReceiptOnCheckout!: string;
+  normaliseStaleTicketForFranchisees!: string;
+  trimMissingModifierForFranchisees!: string[];
+  sortDuplicateCartLine!: string[];
+  retryLateTicket?: string[];
+  trimMissingGuest!: number;
+  sortEmptyPickupSlot!: string;
+  addRegionalTicket!: string[];
+  paginateMissingTopping!: number;
+  renamePartialOrderOnCheckout?: string[];
+  renameRegionalCartLine!: boolean;
+  validateRegionalOrder?: Date;
+  exposeDuplicateTicketForPickup!: Date;
+  normaliseRegionalCartLine!: boolean;
+  documentLateLocationOnCheckout!: Date;
+  addRegionalCateringTray!: boolean;
 }
