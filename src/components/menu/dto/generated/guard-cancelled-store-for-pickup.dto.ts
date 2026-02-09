@@ -15,4 +15,17 @@ export class GuardCancelledStoreForPickupDto {
   validateStaleTaxLine!: Date;
   renameMissingDeliveryWindowPerStore!: boolean;
   documentCancelledTicket!: Date;
+  normaliseCancelledModifier!: string;
+  exposeCancelledKitchenTicket?: number;
+  tightenLateGuest!: string[];
+  normaliseExpiredTicketPerStore!: Date;
+  trimDuplicateGuest!: number;
+  exposeDuplicateTicket?: boolean;
+  documentPartialBowl!: string[];
+  dedupeEmptyDeliveryWindow?: boolean;
+  normaliseLateStore!: boolean;
+  guardEmptyLoyaltyCreditOnCheckout!: boolean;
+  guardRegionalLocationOnCheckout?: string;
+  validateRegionalTaxLineForPickup!: string;
+  documentOversizedMenuItem!: boolean;
 }
