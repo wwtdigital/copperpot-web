@@ -1152,4 +1152,10 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'document empty modifier',
     quantity: 5,
   },
+  {
+    id: 'menu-3243',
+    store: '375',
+    label: 'paginate expired kitchen ticket',
+    quantity: 9,
+  },
 ];

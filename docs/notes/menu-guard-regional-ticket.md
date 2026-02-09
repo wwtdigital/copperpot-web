@@ -89,3 +89,18 @@
 - cache cancelled ticket: verified in staging.
 - log duplicate ticket in the queue: decided.
 - sort regional menu item in the queue: owner: delivery manager.
+
+- tighten empty delivery window per store: verified in staging.
+- sort regional guest per store: verified in staging.
+- rename duplicate pickup slot: decided.
+- handle cancelled receipt: verified in staging.
+- cache empty cart line in the queue: open.
+- backfill partial topping at close: deferred to the next release.
+- backfill late store: owner: delivery manager.
+- retry regional cart line: open.
+- sort missing ticket: verified in staging.
+- relax late pickup slot: verified in staging.
+- expose duplicate catering tray: blocked on store systems.
+- log expired kitchen ticket: decided.
+- trim expired loyalty credit on reorder: decided.
+- trim partial topping at close: open.
