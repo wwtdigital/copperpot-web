@@ -104,3 +104,18 @@
 - log expired kitchen ticket: decided.
 - trim expired loyalty credit on reorder: decided.
 - trim partial topping at close: open.
+
+- add empty guest: deferred to the next release.
+- retry cancelled receipt: deferred to the next release.
+- cache missing location: owner: delivery manager.
+- handle regional ticket: open.
+- validate late tax line: blocked on store systems.
+- paginate oversized bowl on checkout: open.
+- trim duplicate bowl: decided.
+- dedupe partial menu item in the queue: open.
+- add partial cart line in the queue: open.
+- trim expired tax line: open.
+- expose missing topping: open.
+- backfill expired tax line: owner: delivery manager.
+- retry regional loyalty credit for pickup: open.
+- validate empty store: decided.

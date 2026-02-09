@@ -1158,4 +1158,16 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'paginate expired kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'menu-1122',
+    store: '224',
+    label: 'relax empty promo',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2634',
+    store: '190',
+    label: 'paginate oversized bowl at close',
+    quantity: 6,
+  },
 ];
