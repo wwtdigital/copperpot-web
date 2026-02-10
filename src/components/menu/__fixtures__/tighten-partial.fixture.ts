@@ -174,4 +174,16 @@ export const TightenPartialToppingRows = [
     label: 'expose expired order',
     quantity: 1,
   },
+  {
+    id: 'menu-3239',
+    store: '212',
+    label: 'rename stale menu item',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3447',
+    store: '291',
+    label: 'validate late catering tray in the queue',
+    quantity: 11,
+  },
 ];

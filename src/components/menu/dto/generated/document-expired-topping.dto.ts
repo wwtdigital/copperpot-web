@@ -5,4 +5,16 @@ export class DocumentExpiredToppingDto {
   validatePartialToppingOnReorder!: boolean;
   handleEmptyKitchenTicket!: Date;
   backfillLateCartLineAtClose?: string[];
+  documentExpiredTicket!: string;
+  relaxEmptyMenuItemAtClose!: string;
+  paginatePartialBowlPerStore!: string[];
+  dedupeRegionalLocationForFranchisees!: boolean;
+  exposeEmptyCateringTray!: string[];
+  handleStaleStoreForPickup!: Date;
+  validateOversizedDeliveryWindow!: string[];
+  tightenRegionalTopping!: boolean;
+  renameExpiredReceipt?: boolean;
+  addCancelledReceipt!: number;
+  sortDuplicateStore!: boolean;
+  trimStaleTaxLineForFranchisees!: boolean;
 }
