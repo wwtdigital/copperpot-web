@@ -28,4 +28,12 @@ export class GuardCancelledStoreForPickupDto {
   guardRegionalLocationOnCheckout?: string;
   validateRegionalTaxLineForPickup!: string;
   documentOversizedMenuItem!: boolean;
+  renameCancelledLocation!: string;
+  sortRegionalKitchenTicket!: boolean;
+  tightenExpiredGuestAtClose!: number;
+  trimExpiredOrderAtClose?: string;
+  relaxMissingDeliveryWindowForFranchisees?: string[];
+  tightenMissingMenuItem?: boolean;
+  validateRegionalTaxLineAtClose?: boolean;
+  dedupeLateTicket!: Date;
 }

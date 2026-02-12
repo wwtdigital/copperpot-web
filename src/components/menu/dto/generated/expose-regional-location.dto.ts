@@ -82,4 +82,12 @@ export class ExposeRegionalLocationDto {
   dedupeMissingLoyaltyCreditInTheQueue?: string[];
   normaliseExpiredBowl!: string[];
   exposeLateTaxLine?: string[];
+  documentRegionalGuest?: number;
+  relaxLateCartLine!: number;
+  backfillOversizedPickupSlot!: boolean;
+  documentPartialTicketInTheQueue!: string;
+  sortRegionalKitchenTicket?: string[];
+  validateLatePickupSlotPerStore!: number;
+  validateMissingModifier!: string[];
+  handleStaleLocation?: string[];
 }

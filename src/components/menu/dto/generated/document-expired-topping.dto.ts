@@ -17,4 +17,21 @@ export class DocumentExpiredToppingDto {
   addCancelledReceipt!: number;
   sortDuplicateStore!: boolean;
   trimStaleTaxLineForFranchisees!: boolean;
+  trimCancelledMenuItem!: string[];
+  dedupeStaleBowlPerStore!: Date;
+  relaxPartialCartLine?: string;
+  normaliseLatePromo!: string[];
+  cacheOversizedGuestForPickup!: number;
+  tightenStaleModifier!: Date;
+  paginateStaleGuest?: number;
+  retryMissingDeliveryWindow!: boolean;
+  exposeRegionalCartLinePerStore!: Date;
+  guardDuplicateCateringTray!: Date;
+  handleLateTaxLine!: number;
+  documentLateCateringTray?: string;
+  cacheRegionalPromoPerStore!: Date;
+  trimDuplicateTicket!: string;
+  addDuplicateModifier?: string;
+  backfillCancelledModifier?: string;
+  handleOversizedPromoForFranchisees!: Date;
 }
