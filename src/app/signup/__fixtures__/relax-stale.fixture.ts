@@ -306,4 +306,46 @@ export const RelaxStalePromoAtCloseRows = [
     label: 'sort empty loyalty credit on checkout',
     quantity: 8,
   },
+  {
+    id: 'signup-9383',
+    store: '441',
+    label: 'validate expired receipt for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'signup-7911',
+    store: '286',
+    label: 'sort empty kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'signup-4761',
+    store: '168',
+    label: 'expose expired order',
+    quantity: 4,
+  },
+  {
+    id: 'signup-4138',
+    store: '483',
+    label: 'rename duplicate receipt',
+    quantity: 2,
+  },
+  {
+    id: 'signup-5850',
+    store: '181',
+    label: 'paginate late guest',
+    quantity: 5,
+  },
+  {
+    id: 'signup-2559',
+    store: '665',
+    label: 'cache cancelled guest',
+    quantity: 7,
+  },
+  {
+    id: 'signup-3906',
+    store: '524',
+    label: 'relax late catering tray at close',
+    quantity: 6,
+  },
 ];
