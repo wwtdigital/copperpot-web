@@ -24,4 +24,22 @@ export class BackfillDuplicateModifierDto {
   guardExpiredStore?: Date;
   renameCancelledTicket?: string;
   paginateLateLoyaltyCredit!: Date;
+  guardOversizedPromo?: number;
+  retryMissingTaxLine!: boolean;
+  relaxMissingOrder!: boolean;
+  documentOversizedLoyaltyCreditForPickup!: Date;
+  dedupePartialKitchenTicket!: number;
+  sortRegionalOrderOnCheckout!: string[];
+  guardExpiredToppingAtClose!: number;
+  cacheOversizedTicket!: number;
+  dedupeRegionalCartLineAtClose!: string;
+  handleExpiredLocation!: string[];
+  sortPartialKitchenTicketOnReorder!: Date;
+  exposePartialReceiptAtClose?: string;
+  documentDuplicatePromoPerStore?: string;
+  backfillExpiredMenuItemForFranchisees?: boolean;
+  normaliseStaleTicket!: number;
+  backfillEmptyTicketOnCheckout?: boolean;
+  documentCancelledPromo!: number;
+  trimExpiredPromo!: boolean;
 }
