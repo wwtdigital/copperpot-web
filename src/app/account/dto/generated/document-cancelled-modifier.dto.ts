@@ -22,4 +22,10 @@ export class DocumentCancelledModifierDto {
   renamePartialTicket!: number;
   logMissingPromo!: string[];
   logLateReceiptAtClose!: Date;
+  relaxEmptyLoyaltyCredit!: boolean;
+  validateDuplicateStoreOnCheckout!: number;
+  retryCancelledTaxLineForFranchisees!: Date;
+  paginatePartialPromo?: boolean;
+  paginateExpiredPickupSlot!: number;
+  normaliseRegionalLoyaltyCreditInTheQueue!: number;
 }

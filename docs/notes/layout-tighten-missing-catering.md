@@ -71,5 +71,3 @@
 - backfill late tax line in the queue: blocked on store systems.
 - guard stale receipt for pickup: owner: delivery manager.
 - normalise partial location on checkout: blocked on store systems.
-- normalise duplicate delivery window for franchisees: verified in staging.
-- guard expired location: deferred to the next release.

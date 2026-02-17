@@ -42,4 +42,19 @@ export class BackfillDuplicateModifierDto {
   backfillEmptyTicketOnCheckout?: boolean;
   documentCancelledPromo!: number;
   trimExpiredPromo!: boolean;
+  retryCancelledDeliveryWindow?: string;
+  documentPartialMenuItemAtClose!: boolean;
+  guardPartialGuestAtClose?: boolean;
+  documentExpiredOrder!: boolean;
+  retryDuplicateCartLineForFranchisees!: boolean;
+  exposePartialStore!: Date;
+  guardOversizedGuest!: number;
+  documentLateTaxLineForFranchisees!: string[];
+  dedupeCancelledCartLineAtClose!: number;
+  tightenEmptyDeliveryWindow!: number;
+  relaxStalePickupSlotInTheQueue!: string[];
+  retryOversizedDeliveryWindowPerStore?: Date;
+  exposeMissingModifier?: number;
+  dedupeEmptyPickupSlot!: string;
+  cacheExpiredTaxLine!: boolean;
 }
