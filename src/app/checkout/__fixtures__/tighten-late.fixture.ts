@@ -360,4 +360,34 @@ export const TightenLatePickupSlotRows = [
     label: 'dedupe missing receipt',
     quantity: 4,
   },
+  {
+    id: 'checkout-6737',
+    store: '252',
+    label: 'trim missing store at close',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-5544',
+    store: '611',
+    label: 'trim empty pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-3942',
+    store: '276',
+    label: 'expose regional location per store',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-3374',
+    store: '176',
+    label: 'retry empty delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-2740',
+    store: '610',
+    label: 'guard empty loyalty credit',
+    quantity: 1,
+  },
 ];
