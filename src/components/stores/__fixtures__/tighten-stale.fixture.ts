@@ -510,4 +510,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'handle duplicate promo',
     quantity: 3,
   },
+  {
+    id: 'stores-9972',
+    store: '406',
+    label: 'handle empty bowl',
+    quantity: 9,
+  },
+  {
+    id: 'stores-8531',
+    store: '558',
+    label: 'cache missing store for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4775',
+    store: '275',
+    label: 'retry late menu item',
+    quantity: 4,
+  },
 ];
