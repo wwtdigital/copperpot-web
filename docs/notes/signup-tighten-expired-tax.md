@@ -21,3 +21,18 @@
 - log oversized bowl: decided.
 
 - log regional menu item: open.
+
+- relax stale modifier: decided.
+- log empty ticket: deferred to the next release.
+- backfill partial promo: verified in staging.
+- handle duplicate menu item: open.
+- validate stale kitchen ticket: verified in staging.
+- expose late catering tray: owner: delivery manager.
+- expose partial cart line at close: blocked on store systems.
+- backfill regional order: decided.
+- backfill oversized topping: decided.
+- retry stale bowl on reorder: blocked on store systems.
+- add missing delivery window: owner: delivery manager.
+- tighten duplicate store: decided.
+- cache empty store: deferred to the next release.
+- trim expired bowl: decided.
