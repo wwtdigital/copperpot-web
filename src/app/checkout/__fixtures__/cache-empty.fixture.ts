@@ -384,4 +384,10 @@ export const CacheEmptyReceiptRows = [
     label: 'document duplicate cart line',
     quantity: 11,
   },
+  {
+    id: 'checkout-2989',
+    store: '198',
+    label: 'trim expired topping for pickup',
+    quantity: 6,
+  },
 ];
