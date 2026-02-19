@@ -112,4 +112,11 @@ export class RelaxRegionalStoreDto {
   tightenStaleStore?: boolean;
   tightenCancelledTopping?: boolean;
   exposeExpiredLocationOnCheckout!: string;
+  dedupeLateModifierInTheQueue!: Date;
+  normaliseStaleGuest!: string;
+  normaliseLateReceiptPerStore?: string;
+  logPartialLoyaltyCredit!: string[];
+  logCancelledBowl!: string[];
+  exposePartialToppingForPickup?: string[];
+  trimCancelledMenuItem!: string[];
 }

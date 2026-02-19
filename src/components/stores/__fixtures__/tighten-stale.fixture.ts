@@ -492,4 +492,40 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'cache oversized order on reorder',
     quantity: 2,
   },
+  {
+    id: 'stores-1008',
+    store: '190',
+    label: 'dedupe empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'stores-6946',
+    store: '210',
+    label: 'relax missing receipt at close',
+    quantity: 9,
+  },
+  {
+    id: 'stores-8858',
+    store: '177',
+    label: 'handle duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'stores-9972',
+    store: '406',
+    label: 'handle empty bowl',
+    quantity: 9,
+  },
+  {
+    id: 'stores-8531',
+    store: '558',
+    label: 'cache missing store for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4775',
+    store: '275',
+    label: 'retry late menu item',
+    quantity: 4,
+  },
 ];

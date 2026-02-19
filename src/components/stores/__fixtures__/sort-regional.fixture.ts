@@ -378,4 +378,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'normalise cancelled bowl',
     quantity: 4,
   },
+  {
+    id: 'stores-5037',
+    store: '103',
+    label: 'add expired kitchen ticket',
+    quantity: 3,
+  },
 ];

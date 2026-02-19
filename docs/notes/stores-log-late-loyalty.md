@@ -225,3 +225,8 @@
 - dedupe stale ticket: blocked on store systems.
 - guard regional guest: open.
 - dedupe regional guest: blocked on store systems.
+
+- trim duplicate ticket in the queue: owner: delivery manager.
+- retry oversized guest: deferred to the next release.
+- trim expired delivery window: open.
+- handle regional catering tray on reorder: deferred to the next release.
