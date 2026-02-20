@@ -90,4 +90,6 @@ export class ExposeRegionalLocationDto {
   validateLatePickupSlotPerStore!: number;
   validateMissingModifier!: string[];
   handleStaleLocation?: string[];
+  normaliseMissingPromo!: string[];
+  documentDuplicatePromo!: number;
 }
