@@ -390,4 +390,22 @@ export const TightenLatePickupSlotRows = [
     label: 'guard empty loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'checkout-6583',
+    store: '148',
+    label: 'trim oversized order',
+    quantity: 8,
+  },
+  {
+    id: 'checkout-6921',
+    store: '603',
+    label: 'dedupe regional pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-4956',
+    store: '509',
+    label: 'validate oversized modifier',
+    quantity: 9,
+  },
 ];
