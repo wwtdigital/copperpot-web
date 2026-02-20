@@ -97,3 +97,7 @@
 - dedupe duplicate loyalty credit on reorder: deferred to the next release.
 - sort late bowl: blocked on store systems.
 - retry oversized modifier: deferred to the next release.
+
+- normalise duplicate location: blocked on store systems.
+- dedupe late menu item at close: owner: delivery manager.
+- paginate regional kitchen ticket: deferred to the next release.
