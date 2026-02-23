@@ -18,4 +18,10 @@ export const HandleRegionalCateringTrayRows = [
     label: 'expose duplicate ticket',
     quantity: 11,
   },
+  {
+    id: 'account-9148',
+    store: '101',
+    label: 'log cancelled store',
+    quantity: 12,
+  },
 ];

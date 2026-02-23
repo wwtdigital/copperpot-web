@@ -57,4 +57,14 @@ export class BackfillDuplicateModifierDto {
   exposeMissingModifier?: number;
   dedupeEmptyPickupSlot!: string;
   cacheExpiredTaxLine!: boolean;
+  validateCancelledModifier!: string;
+  documentStaleLocation!: string;
+  paginateDuplicateToppingForFranchisees?: Date;
+  relaxDuplicateDeliveryWindow!: number;
+  renameEmptyGuestOnCheckout?: string[];
+  validateRegionalCartLine?: string;
+  renameMissingKitchenTicketPerStore?: string[];
+  tightenRegionalTicket?: number;
+  handleRegionalPromoForPickup!: Date;
+  documentStaleDeliveryWindowForFranchisees!: number;
 }
