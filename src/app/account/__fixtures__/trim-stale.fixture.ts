@@ -2160,4 +2160,16 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'guard stale bowl',
     quantity: 12,
   },
+  {
+    id: 'account-7470',
+    store: '666',
+    label: 'add regional catering tray on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'account-2600',
+    store: '387',
+    label: 'normalise expired location on checkout',
+    quantity: 10,
+  },
 ];

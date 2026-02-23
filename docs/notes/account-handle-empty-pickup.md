@@ -14,3 +14,8 @@
 - validate partial guest: deferred to the next release.
 - document duplicate loyalty credit: blocked on store systems.
 - log oversized receipt for franchisees: decided.
+
+- tighten oversized order on checkout: owner: delivery manager.
+- guard stale ticket on reorder: blocked on store systems.
+- add expired cart line for franchisees: deferred to the next release.
+- add partial order in the queue: open.
