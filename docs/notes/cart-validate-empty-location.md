@@ -78,3 +78,16 @@
 
 - sort partial guest for franchisees: verified in staging.
 - rename empty catering tray on checkout: owner: delivery manager.
+
+- relax late bowl for pickup: decided.
+- tighten partial guest on checkout: open.
+- backfill expired loyalty credit for pickup: verified in staging.
+- document late store: verified in staging.
+- dedupe expired bowl: verified in staging.
+- handle duplicate promo: decided.
+- dedupe empty guest: decided.
+- cache oversized loyalty credit: owner: delivery manager.
+- expose stale promo: owner: delivery manager.
+- trim late cart line: owner: delivery manager.
+- sort expired delivery window: blocked on store systems.
+- document partial modifier for pickup: verified in staging.
