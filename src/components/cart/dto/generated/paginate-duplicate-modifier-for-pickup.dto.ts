@@ -167,4 +167,6 @@ export class PaginateDuplicateModifierForPickupDto {
   trimMissingPromo?: number;
   renameLateTaxLineOnReorder!: string[];
   cacheMissingCateringTray!: Date;
+  addExpiredMenuItemForPickup!: string[];
+  normaliseMissingCateringTrayForPickup?: Date;
 }

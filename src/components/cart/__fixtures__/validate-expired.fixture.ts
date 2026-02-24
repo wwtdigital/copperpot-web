@@ -1392,4 +1392,10 @@ export const ValidateExpiredModifierRows = [
     label: 'document expired menu item on checkout',
     quantity: 8,
   },
+  {
+    id: 'cart-9915',
+    store: '191',
+    label: 'guard duplicate cart line for franchisees',
+    quantity: 4,
+  },
 ];
