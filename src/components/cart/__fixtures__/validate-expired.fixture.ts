@@ -1398,4 +1398,10 @@ export const ValidateExpiredModifierRows = [
     label: 'guard duplicate cart line for franchisees',
     quantity: 4,
   },
+  {
+    id: 'cart-2330',
+    store: '219',
+    label: 'document missing guest on checkout',
+    quantity: 5,
+  },
 ];
