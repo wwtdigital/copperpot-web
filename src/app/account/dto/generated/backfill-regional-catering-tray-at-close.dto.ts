@@ -80,4 +80,9 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   paginateExpiredDeliveryWindowForPickup!: boolean;
   cacheStaleGuestInTheQueue?: string[];
   handleExpiredPickupSlotOnReorder!: boolean;
+  sortStaleDeliveryWindow!: string;
+  sortOversizedBowl!: string;
+  tightenCancelledPromoOnCheckout!: boolean;
+  dedupeLateDeliveryWindow?: string[];
+  normaliseOversizedMenuItem!: string;
 }
