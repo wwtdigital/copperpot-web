@@ -1386,4 +1386,10 @@ export const ValidateExpiredModifierRows = [
     label: 'cache regional loyalty credit at close',
     quantity: 10,
   },
+  {
+    id: 'cart-1157',
+    store: '269',
+    label: 'document expired menu item on checkout',
+    quantity: 8,
+  },
 ];
