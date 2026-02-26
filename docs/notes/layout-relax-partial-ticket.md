@@ -28,3 +28,17 @@
 - expose missing modifier: deferred to the next release.
 - retry oversized topping: blocked on store systems.
 - trim oversized receipt for franchisees: verified in staging.
+
+- rename partial menu item on checkout: decided.
+- log missing ticket on checkout: decided.
+- backfill partial loyalty credit at close: verified in staging.
+- trim oversized pickup slot: verified in staging.
+- paginate regional modifier: verified in staging.
+- add empty location: open.
+- paginate stale delivery window: blocked on store systems.
+- tighten empty receipt: blocked on store systems.
+- guard oversized modifier at close: blocked on store systems.
+- normalise missing pickup slot: verified in staging.
+- paginate cancelled loyalty credit on checkout: deferred to the next release.
+- dedupe cancelled pickup slot: blocked on store systems.
+- trim late bowl: verified in staging.

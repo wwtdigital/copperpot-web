@@ -17,4 +17,20 @@ export class AddExpiredTaxLineDto {
   trimDuplicateKitchenTicket?: number;
   backfillStaleReceipt!: number;
   sortEmptyGuestOnCheckout!: boolean;
+  backfillLateGuest!: string;
+  normaliseMissingGuest!: Date;
+  renameRegionalLoyaltyCredit!: string;
+  exposeExpiredReceiptPerStore?: boolean;
+  backfillCancelledLoyaltyCredit!: boolean;
+  sortMissingPromoInTheQueue?: Date;
+  logStaleTopping!: string;
+  validateLateReceipt?: Date;
+  addPartialMenuItem!: number;
+  handlePartialBowlAtClose?: number;
+  logDuplicateCartLine!: number;
+  renamePartialCateringTray!: string;
+  retryRegionalTicket!: boolean;
+  handleMissingTicketAtClose?: number;
+  guardMissingTaxLineOnCheckout?: Date;
+  handleMissingMenuItem!: boolean;
 }

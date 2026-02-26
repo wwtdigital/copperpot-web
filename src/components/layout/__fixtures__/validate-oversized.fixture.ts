@@ -138,4 +138,22 @@ export const ValidateOversizedBowlRows = [
     label: 'add duplicate ticket at close',
     quantity: 9,
   },
+  {
+    id: 'layout-6458',
+    store: '253',
+    label: 'log duplicate pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'layout-4560',
+    store: '416',
+    label: 'rename stale store',
+    quantity: 2,
+  },
+  {
+    id: 'layout-3421',
+    store: '558',
+    label: 'relax duplicate topping',
+    quantity: 4,
+  },
 ];
