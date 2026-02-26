@@ -167,4 +167,10 @@ export class PaginateDuplicateModifierForPickupDto {
   trimMissingPromo?: number;
   renameLateTaxLineOnReorder!: string[];
   cacheMissingCateringTray!: Date;
+  addExpiredMenuItemForPickup!: string[];
+  normaliseMissingCateringTrayForPickup?: Date;
+  retryPartialPickupSlot!: number;
+  handlePartialReceipt!: string;
+  guardPartialLocationPerStore?: boolean;
+  retryStaleTopping?: Date;
 }

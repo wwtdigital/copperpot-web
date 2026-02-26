@@ -1386,4 +1386,22 @@ export const ValidateExpiredModifierRows = [
     label: 'cache regional loyalty credit at close',
     quantity: 10,
   },
+  {
+    id: 'cart-1157',
+    store: '269',
+    label: 'document expired menu item on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9915',
+    store: '191',
+    label: 'guard duplicate cart line for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'cart-2330',
+    store: '219',
+    label: 'document missing guest on checkout',
+    quantity: 5,
+  },
 ];
