@@ -33,4 +33,6 @@ export class AddExpiredTaxLineDto {
   handleMissingTicketAtClose?: number;
   guardMissingTaxLineOnCheckout?: Date;
   handleMissingMenuItem!: boolean;
+  normaliseRegionalGuestInTheQueue?: string[];
+  sortStaleTopping!: number;
 }
