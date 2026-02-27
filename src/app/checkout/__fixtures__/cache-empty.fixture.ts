@@ -390,4 +390,16 @@ export const CacheEmptyReceiptRows = [
     label: 'trim expired topping for pickup',
     quantity: 6,
   },
+  {
+    id: 'checkout-5542',
+    store: '573',
+    label: 'rename partial kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-8176',
+    store: '213',
+    label: 'guard partial guest on checkout',
+    quantity: 10,
+  },
 ];
