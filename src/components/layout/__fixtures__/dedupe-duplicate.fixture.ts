@@ -1,0 +1,99 @@
+/* Fixture rows for layout tests: dedupe duplicate cart line on checkout. Generated data, not production data. */
+export const DedupeDuplicateCartLineOnCheckoutRows = [
+  {
+    id: 'layout-7380',
+    store: '587',
+    label: 'log expired modifier',
+    quantity: 2,
+  },
+  {
+    id: 'layout-9117',
+    store: '491',
+    label: 'add regional loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'layout-1106',
+    store: '511',
+    label: 'tighten expired pickup slot in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'layout-4964',
+    store: '105',
+    label: 'paginate empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'layout-5777',
+    store: '422',
+    label: 'rename oversized modifier on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'layout-8094',
+    store: '345',
+    label: 'retry late receipt',
+    quantity: 5,
+  },
+  {
+    id: 'layout-6668',
+    store: '509',
+    label: 'tighten missing pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'layout-3377',
+    store: '411',
+    label: 'sort expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'layout-8841',
+    store: '580',
+    label: 'validate empty menu item at close',
+    quantity: 4,
+  },
+  {
+    id: 'layout-7265',
+    store: '435',
+    label: 'trim expired kitchen ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'layout-8401',
+    store: '103',
+    label: 'log regional topping at close',
+    quantity: 6,
+  },
+  {
+    id: 'layout-2234',
+    store: '132',
+    label: 'relax cancelled guest on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'layout-8070',
+    store: '511',
+    label: 'rename expired receipt',
+    quantity: 8,
+  },
+  {
+    id: 'layout-8189',
+    store: '252',
+    label: 'expose expired modifier',
+    quantity: 7,
+  },
+  {
+    id: 'layout-7893',
+    store: '154',
+    label: 'relax oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'layout-7712',
+    store: '286',
+    label: 'add empty pickup slot',
+    quantity: 9,
+  },
+];
