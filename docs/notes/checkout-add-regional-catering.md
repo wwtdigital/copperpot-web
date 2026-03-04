@@ -117,3 +117,6 @@
 - dedupe duplicate catering tray: blocked on store systems.
 - expose empty modifier at close: decided.
 - log missing pickup slot: deferred to the next release.
+
+- backfill cancelled guest at close: deferred to the next release.
+- validate partial receipt: open.

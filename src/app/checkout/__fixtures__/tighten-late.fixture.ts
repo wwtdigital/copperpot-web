@@ -408,4 +408,28 @@ export const TightenLatePickupSlotRows = [
     label: 'validate oversized modifier',
     quantity: 9,
   },
+  {
+    id: 'checkout-9926',
+    store: '555',
+    label: 'retry partial promo',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-4310',
+    store: '688',
+    label: 'dedupe stale kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'checkout-9522',
+    store: '614',
+    label: 'document oversized modifier',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-1760',
+    store: '635',
+    label: 'sort missing modifier',
+    quantity: 5,
+  },
 ];
