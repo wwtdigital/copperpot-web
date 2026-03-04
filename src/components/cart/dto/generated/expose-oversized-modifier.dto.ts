@@ -24,4 +24,26 @@ export class ExposeOversizedModifierDto {
   cacheRegionalBowl!: boolean;
   dedupeMissingCartLine!: string;
   validateCancelledStorePerStore!: string;
+  cacheDuplicateStore?: Date;
+  renameEmptyModifier!: boolean;
+  handleCancelledModifierForFranchisees!: boolean;
+  retryExpiredMenuItem!: string;
+  guardPartialCateringTray!: string;
+  documentLateOrderAtClose!: Date;
+  guardOversizedGuest?: number;
+  normaliseExpiredPromoInTheQueue!: number;
+  relaxOversizedLoyaltyCreditForFranchisees?: Date;
+  addRegionalDeliveryWindow!: number;
+  guardEmptyLocation!: Date;
+  trimCancelledTopping!: string[];
+  handleExpiredPickupSlot!: Date;
+  trimLateDeliveryWindow!: boolean;
+  normaliseLateCartLine!: string[];
+  validateOversizedCartLine?: boolean;
+  paginateEmptyLoyaltyCredit?: string;
+  paginateCancelledLoyaltyCredit!: number;
+  renameCancelledMenuItemPerStore?: number;
+  relaxPartialDeliveryWindow!: Date;
+  handleRegionalTopping!: number;
+  documentCancelledReceiptOnReorder!: Date;
 }
