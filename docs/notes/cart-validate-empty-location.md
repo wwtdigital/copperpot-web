@@ -91,3 +91,22 @@
 - trim late cart line: owner: delivery manager.
 - sort expired delivery window: blocked on store systems.
 - document partial modifier for pickup: verified in staging.
+
+- relax oversized store: owner: delivery manager.
+- backfill stale tax line: open.
+- sort oversized order on checkout: owner: delivery manager.
+- trim missing pickup slot: verified in staging.
+- tighten empty tax line: decided.
+- backfill empty receipt: open.
+- backfill empty kitchen ticket for pickup: blocked on store systems.
+- sort regional pickup slot: owner: delivery manager.
+- log stale catering tray at close: decided.
+- retry duplicate modifier: deferred to the next release.
+- cache oversized kitchen ticket: blocked on store systems.
+- cache duplicate order: open.
+- guard regional delivery window: owner: delivery manager.
+- rename late topping: verified in staging.
+
+- trim regional menu item: decided.
+- expose late order at close: open.
+- trim stale pickup slot per store: open.

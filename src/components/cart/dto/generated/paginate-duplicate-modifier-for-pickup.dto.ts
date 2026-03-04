@@ -173,4 +173,28 @@ export class PaginateDuplicateModifierForPickupDto {
   handlePartialReceipt!: string;
   guardPartialLocationPerStore?: boolean;
   retryStaleTopping?: Date;
+  handleOversizedReceipt?: number;
+  retryLateGuest!: string;
+  renameStaleKitchenTicketOnCheckout!: Date;
+  dedupeStaleGuest!: Date;
+  sortOversizedPromoInTheQueue?: boolean;
+  handleMissingCartLinePerStore?: string;
+  paginateStaleBowl?: string;
+  validateRegionalCateringTrayAtClose!: string;
+  trimDuplicateLocation!: string[];
+  validatePartialTaxLineInTheQueue?: boolean;
+  relaxStaleModifier?: string;
+  documentRegionalLoyaltyCredit!: boolean;
+  relaxCancelledReceiptPerStore?: boolean;
+  tightenPartialPickupSlot!: string;
+  sortRegionalKitchenTicketForPickup!: string[];
+  cacheStaleTaxLine!: boolean;
+  addEmptyModifierForPickup!: string;
+  tightenStaleCartLine?: Date;
+  sortOversizedMenuItem?: Date;
+  handlePartialTaxLineForFranchisees!: string;
+  handleRegionalTicket!: Date;
+  renameDuplicateToppingInTheQueue!: Date;
+  logPartialBowlOnReorder?: string[];
+  addMissingReceiptInTheQueue!: number;
 }

@@ -14,3 +14,18 @@
 - guard cancelled kitchen ticket: owner: delivery manager.
 - paginate late ticket: open.
 - paginate empty tax line: owner: delivery manager.
+
+- guard oversized promo: blocked on store systems.
+- handle cancelled topping for franchisees: verified in staging.
+- tighten empty order: verified in staging.
+- normalise regional menu item: owner: delivery manager.
+- handle stale menu item at close: deferred to the next release.
+- normalise late kitchen ticket per store: verified in staging.
+- sort stale location: owner: delivery manager.
+- trim stale guest for franchisees: deferred to the next release.
+- guard partial cart line per store: verified in staging.
+- relax duplicate delivery window per store: open.
+- guard expired menu item: decided.
+- tighten expired pickup slot: decided.
+- cache missing promo for pickup: owner: delivery manager.
+- expose regional promo for pickup: decided.
