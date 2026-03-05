@@ -178,9 +178,3 @@
 - rename empty order on reorder: deferred to the next release.
 - document duplicate topping: owner: delivery manager.
 - validate late topping: blocked on store systems.
-- rename regional modifier: decided.
-- tighten oversized promo: open.
-- normalise stale menu item: blocked on store systems.
-- log expired pickup slot per store: open.
-- normalise duplicate cart line at close: deferred to the next release.
-- retry late modifier for franchisees: owner: delivery manager.

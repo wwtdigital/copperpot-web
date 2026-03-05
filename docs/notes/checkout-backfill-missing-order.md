@@ -94,3 +94,14 @@
 - retry oversized bowl: blocked on store systems.
 - validate duplicate store: open.
 - sort empty receipt in the queue: open.
+
+- document partial receipt for franchisees: deferred to the next release.
+- relax oversized kitchen ticket in the queue: verified in staging.
+- expose duplicate bowl per store: blocked on store systems.
+- validate missing loyalty credit: blocked on store systems.
+- expose partial receipt for pickup: open.
+- handle regional order: decided.
+- relax cancelled promo for pickup: decided.
+- log oversized cart line in the queue: open.
+- retry partial modifier: open.
+- rename partial promo: blocked on store systems.
