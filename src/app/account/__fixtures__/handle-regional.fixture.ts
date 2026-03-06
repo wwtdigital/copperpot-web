@@ -24,4 +24,10 @@ export const HandleRegionalCateringTrayRows = [
     label: 'log cancelled store',
     quantity: 12,
   },
+  {
+    id: 'account-7013',
+    store: '272',
+    label: 'backfill expired order',
+    quantity: 10,
+  },
 ];
