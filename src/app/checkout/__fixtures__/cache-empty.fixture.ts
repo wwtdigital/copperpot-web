@@ -402,4 +402,22 @@ export const CacheEmptyReceiptRows = [
     label: 'guard partial guest on checkout',
     quantity: 10,
   },
+  {
+    id: 'checkout-6605',
+    store: '273',
+    label: 'validate partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-9544',
+    store: '347',
+    label: 'paginate partial receipt on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1792',
+    store: '110',
+    label: 'backfill partial delivery window',
+    quantity: 10,
+  },
 ];
