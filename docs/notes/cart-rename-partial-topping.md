@@ -29,3 +29,7 @@
 - retry stale order: open.
 - document partial order: deferred to the next release.
 - cache empty pickup slot: open.
+
+- paginate partial topping: decided.
+- document empty bowl on reorder: blocked on store systems.
+- trim stale menu item: open.

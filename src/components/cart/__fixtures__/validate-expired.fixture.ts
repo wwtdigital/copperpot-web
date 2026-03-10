@@ -1584,4 +1584,40 @@ export const ValidateExpiredModifierRows = [
     label: 'add regional order at close',
     quantity: 1,
   },
+  {
+    id: 'cart-5576',
+    store: '410',
+    label: 'tighten stale ticket',
+    quantity: 7,
+  },
+  {
+    id: 'cart-6877',
+    store: '571',
+    label: 'document stale receipt per store',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9201',
+    store: '506',
+    label: 'handle stale store in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9925',
+    store: '481',
+    label: 'guard expired topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1347',
+    store: '606',
+    label: 'validate late location',
+    quantity: 8,
+  },
+  {
+    id: 'cart-2190',
+    store: '629',
+    label: 'paginate partial cart line on checkout',
+    quantity: 1,
+  },
 ];
