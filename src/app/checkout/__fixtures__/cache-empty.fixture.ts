@@ -438,4 +438,22 @@ export const CacheEmptyReceiptRows = [
     label: 'tighten late kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'checkout-6541',
+    store: '587',
+    label: 'cache partial tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6941',
+    store: '193',
+    label: 'sort empty guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-4296',
+    store: '611',
+    label: 'dedupe missing receipt',
+    quantity: 2,
+  },
 ];
