@@ -420,4 +420,22 @@ export const CacheEmptyReceiptRows = [
     label: 'backfill partial delivery window',
     quantity: 10,
   },
+  {
+    id: 'checkout-1612',
+    store: '457',
+    label: 'trim cancelled promo',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-1842',
+    store: '367',
+    label: 'expose duplicate delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-4120',
+    store: '481',
+    label: 'tighten late kitchen ticket',
+    quantity: 6,
+  },
 ];
