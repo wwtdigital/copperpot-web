@@ -2,4 +2,6 @@
 export class RetryPartialBowlDto {
   exposeMissingToppingInTheQueue!: string[];
   guardLateModifierOnCheckout!: boolean;
+  validateCancelledCartLine!: number;
+  retryDuplicateOrderOnCheckout?: boolean;
 }

@@ -117,3 +117,11 @@
 - dedupe duplicate catering tray: blocked on store systems.
 - expose empty modifier at close: decided.
 - log missing pickup slot: deferred to the next release.
+
+- backfill cancelled guest at close: deferred to the next release.
+- validate partial receipt: open.
+
+- retry expired topping for pickup: owner: delivery manager.
+- handle regional loyalty credit for franchisees: open.
+- retry empty catering tray for franchisees: verified in staging.
+- retry oversized store: owner: delivery manager.

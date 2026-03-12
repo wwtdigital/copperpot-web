@@ -402,4 +402,58 @@ export const CacheEmptyReceiptRows = [
     label: 'guard partial guest on checkout',
     quantity: 10,
   },
+  {
+    id: 'checkout-6605',
+    store: '273',
+    label: 'validate partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'checkout-9544',
+    store: '347',
+    label: 'paginate partial receipt on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1792',
+    store: '110',
+    label: 'backfill partial delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-1612',
+    store: '457',
+    label: 'trim cancelled promo',
+    quantity: 9,
+  },
+  {
+    id: 'checkout-1842',
+    store: '367',
+    label: 'expose duplicate delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-4120',
+    store: '481',
+    label: 'tighten late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-6541',
+    store: '587',
+    label: 'cache partial tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-6941',
+    store: '193',
+    label: 'sort empty guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'checkout-4296',
+    store: '611',
+    label: 'dedupe missing receipt',
+    quantity: 2,
+  },
 ];
