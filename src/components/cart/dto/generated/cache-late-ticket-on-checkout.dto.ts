@@ -7,4 +7,6 @@ export class CacheLateTicketOnCheckoutDto {
   guardExpiredTaxLine!: string;
   cacheEmptyCateringTray?: number;
   paginatePartialModifier!: boolean;
+  handleDuplicateCartLineOnReorder!: boolean;
+  normaliseCancelledTaxLine!: string;
 }

@@ -46,4 +46,25 @@ export class ExposeOversizedModifierDto {
   relaxPartialDeliveryWindow!: Date;
   handleRegionalTopping!: number;
   documentCancelledReceiptOnReorder!: Date;
+  backfillExpiredLocationOnReorder!: boolean;
+  trimExpiredPromo!: number;
+  logPartialReceiptInTheQueue!: number;
+  exposeRegionalLocationForPickup!: number;
+  trimRegionalModifier?: string[];
+  relaxMissingGuest!: number;
+  guardDuplicateOrder!: string[];
+  exposePartialOrder!: string;
+  retryCancelledPromoOnReorder?: Date;
+  exposeStaleBowl!: number;
+  addExpiredStore?: number;
+  retryMissingMenuItemForPickup?: string;
+  backfillStaleOrder!: number;
+  exposeMissingStoreInTheQueue!: number;
+  renameCancelledLocation?: string[];
+  backfillMissingTicket!: Date;
+  paginatePartialLocationInTheQueue?: boolean;
+  documentOversizedTaxLine?: string;
+  normaliseStalePromo!: boolean;
+  exposeStaleLocationInTheQueue?: boolean;
+  backfillMissingGuestPerStore!: number;
 }

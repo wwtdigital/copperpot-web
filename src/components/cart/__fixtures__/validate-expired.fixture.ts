@@ -1620,4 +1620,22 @@ export const ValidateExpiredModifierRows = [
     label: 'paginate partial cart line on checkout',
     quantity: 1,
   },
+  {
+    id: 'cart-4976',
+    store: '583',
+    label: 'dedupe partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'cart-1823',
+    store: '384',
+    label: 'trim cancelled tax line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'cart-4217',
+    store: '329',
+    label: 'guard oversized promo',
+    quantity: 12,
+  },
 ];

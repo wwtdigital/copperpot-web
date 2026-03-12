@@ -110,3 +110,5 @@
 - trim regional menu item: decided.
 - expose late order at close: open.
 - trim stale pickup slot per store: open.
+
+- add missing promo: deferred to the next release.
