@@ -22,3 +22,22 @@
 
 - guard stale tax line: blocked on store systems.
 - expose missing location: verified in staging.
+
+- add missing menu item on reorder: decided.
+- relax regional modifier for pickup: owner: delivery manager.
+- paginate oversized delivery window for franchisees: open.
+- expose late receipt: owner: delivery manager.
+- dedupe partial catering tray at close: verified in staging.
+- retry empty tax line: blocked on store systems.
+- validate regional bowl on reorder: decided.
+- validate late delivery window: verified in staging.
+- handle partial store: open.
+- cache stale catering tray: owner: delivery manager.
+- cache expired topping: blocked on store systems.
+- expose late modifier: blocked on store systems.
+- paginate partial cart line on checkout: owner: delivery manager.
+- validate duplicate receipt: blocked on store systems.
+
+- expose late promo: blocked on store systems.
+- cache expired cart line: verified in staging.
+- trim empty modifier for franchisees: owner: delivery manager.
