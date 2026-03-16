@@ -1194,4 +1194,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'backfill missing topping',
     quantity: 7,
   },
+  {
+    id: 'menu-6248',
+    store: '181',
+    label: 'dedupe missing store',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3415',
+    store: '181',
+    label: 'trim expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1971',
+    store: '591',
+    label: 'log cancelled modifier on checkout',
+    quantity: 8,
+  },
 ];

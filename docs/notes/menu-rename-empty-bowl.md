@@ -24,3 +24,5 @@
 - log duplicate ticket for franchisees: decided.
 - relax stale location: decided.
 - cache late promo on reorder: deferred to the next release.
+
+- log regional promo in the queue: deferred to the next release.
