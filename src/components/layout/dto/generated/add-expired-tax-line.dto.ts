@@ -35,4 +35,27 @@ export class AddExpiredTaxLineDto {
   handleMissingMenuItem!: boolean;
   normaliseRegionalGuestInTheQueue?: string[];
   sortStaleTopping!: number;
+  renameOversizedTaxLineForFranchisees!: number;
+  dedupeOversizedBowl!: Date;
+  paginateLateCartLineForPickup!: string[];
+  validateLateModifier?: string;
+  validateLateStoreInTheQueue?: string[];
+  retryStaleDeliveryWindow!: string;
+  logLateOrder!: string[];
+  guardCancelledToppingPerStore?: number;
+  renameLateKitchenTicket?: boolean;
+  backfillEmptyPromo?: string[];
+  backfillLateModifier!: string;
+  sortOversizedPickupSlotOnReorder?: string;
+  handlePartialKitchenTicket?: number;
+  renameExpiredMenuItemAtClose?: string[];
+  validateOversizedDeliveryWindowOnCheckout!: boolean;
+  renameOversizedPickupSlotInTheQueue!: Date;
+  tightenRegionalTaxLine!: number;
+  sortPartialKitchenTicketInTheQueue!: boolean;
+  logRegionalPickupSlotForFranchisees?: string[];
+  trimEmptyPickupSlotOnCheckout!: string[];
+  addOversizedLoyaltyCredit!: boolean;
+  validatePartialTaxLine!: number;
+  trimExpiredLocation!: string;
 }
