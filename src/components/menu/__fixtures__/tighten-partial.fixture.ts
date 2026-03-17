@@ -186,4 +186,28 @@ export const TightenPartialToppingRows = [
     label: 'validate late catering tray in the queue',
     quantity: 11,
   },
+  {
+    id: 'menu-1589',
+    store: '336',
+    label: 'handle duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'menu-9486',
+    store: '184',
+    label: 'expose stale kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-5081',
+    store: '300',
+    label: 'backfill missing receipt',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9762',
+    store: '608',
+    label: 'paginate partial store',
+    quantity: 9,
+  },
 ];
