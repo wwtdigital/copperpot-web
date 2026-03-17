@@ -1170,4 +1170,46 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'paginate oversized bowl at close',
     quantity: 6,
   },
+  {
+    id: 'menu-7901',
+    store: '699',
+    label: 'expose cancelled catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3677',
+    store: '669',
+    label: 'paginate missing tax line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-9259',
+    store: '339',
+    label: 'retry missing topping',
+    quantity: 5,
+  },
+  {
+    id: 'menu-4250',
+    store: '157',
+    label: 'backfill missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'menu-6248',
+    store: '181',
+    label: 'dedupe missing store',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3415',
+    store: '181',
+    label: 'trim expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1971',
+    store: '591',
+    label: 'log cancelled modifier on checkout',
+    quantity: 8,
+  },
 ];
