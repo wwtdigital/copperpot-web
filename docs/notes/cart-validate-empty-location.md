@@ -110,3 +110,20 @@
 - trim regional menu item: decided.
 - expose late order at close: open.
 - trim stale pickup slot per store: open.
+
+- add missing promo: deferred to the next release.
+
+- add duplicate modifier: decided.
+- normalise empty order: blocked on store systems.
+- add regional topping in the queue: owner: delivery manager.
+- dedupe duplicate tax line: decided.
+- rename expired modifier: verified in staging.
+- trim oversized guest: blocked on store systems.
+- guard empty tax line: decided.
+- handle stale modifier: owner: delivery manager.
+- cache expired order for pickup: decided.
+- validate missing store on reorder: blocked on store systems.
+- dedupe stale promo: deferred to the next release.
+- add expired tax line: blocked on store systems.
+- trim late topping on reorder: open.
+- handle empty topping for pickup: deferred to the next release.

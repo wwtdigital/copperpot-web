@@ -197,4 +197,15 @@ export class PaginateDuplicateModifierForPickupDto {
   renameDuplicateToppingInTheQueue!: Date;
   logPartialBowlOnReorder?: string[];
   addMissingReceiptInTheQueue!: number;
+  paginateRegionalPickupSlotInTheQueue!: Date;
+  trimExpiredTaxLine?: Date;
+  exposeDuplicateOrderPerStore!: string;
+  exposeRegionalPromo!: string[];
+  tightenEmptyKitchenTicket!: Date;
+  paginateRegionalOrderOnReorder!: Date;
+  trimDuplicatePromo?: string[];
+  addExpiredOrder?: string[];
+  guardPartialKitchenTicket!: Date;
+  exposeDuplicateKitchenTicketInTheQueue!: number;
+  paginateRegionalTaxLine!: string;
 }
