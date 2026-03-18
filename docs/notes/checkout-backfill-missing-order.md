@@ -105,3 +105,5 @@
 - log oversized cart line in the queue: open.
 - retry partial modifier: open.
 - rename partial promo: blocked on store systems.
+
+- expose missing bowl on checkout: blocked on store systems.
