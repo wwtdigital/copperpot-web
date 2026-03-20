@@ -26,3 +26,18 @@
 - cache late promo on reorder: deferred to the next release.
 
 - log regional promo in the queue: deferred to the next release.
+
+- tighten cancelled menu item: open.
+- guard empty tax line on reorder: decided.
+- handle missing promo: owner: delivery manager.
+- paginate empty topping: deferred to the next release.
+- relax stale tax line: verified in staging.
+- validate cancelled store: owner: delivery manager.
+- sort regional bowl on checkout: owner: delivery manager.
+- validate regional loyalty credit for franchisees: decided.
+- document duplicate loyalty credit at close: blocked on store systems.
+- add missing promo: open.
+- tighten duplicate menu item: verified in staging.
+- dedupe partial menu item: verified in staging.
+- retry missing cart line: decided.
+- relax partial delivery window per store: verified in staging.
