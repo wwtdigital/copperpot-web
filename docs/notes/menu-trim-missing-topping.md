@@ -1,0 +1,31 @@
+# menu: trim missing topping in the queue
+
+- log oversized loyalty credit: owner: delivery manager.
+- handle missing ticket: owner: delivery manager.
+- rename missing promo for franchisees: open.
+- trim partial loyalty credit: decided.
+- log missing receipt for franchisees: blocked on store systems.
+- relax oversized delivery window for franchisees: decided.
+- retry stale loyalty credit: verified in staging.
+- retry cancelled receipt on checkout: decided.
+- normalise cancelled promo at close: deferred to the next release.
+- tighten missing store on reorder: owner: delivery manager.
+- log late loyalty credit: verified in staging.
+- dedupe duplicate menu item per store: deferred to the next release.
+- handle stale kitchen ticket: decided.
+- validate regional pickup slot for pickup: owner: delivery manager.
+
+- add regional store: blocked on store systems.
+- trim cancelled modifier for franchisees: verified in staging.
+- backfill oversized topping: verified in staging.
+- relax expired cart line: open.
+- validate stale topping on checkout: deferred to the next release.
+- dedupe duplicate receipt for franchisees: verified in staging.
+- cache cancelled tax line: open.
+- trim partial menu item: verified in staging.
+- trim stale cart line: blocked on store systems.
+- document partial delivery window for pickup: owner: delivery manager.
+- trim late topping: open.
+- backfill stale ticket per store: verified in staging.
+- validate duplicate catering tray: owner: delivery manager.
+- cache partial receipt: open.
