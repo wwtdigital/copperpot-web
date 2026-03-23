@@ -125,3 +125,8 @@
 - handle regional loyalty credit for franchisees: open.
 - retry empty catering tray for franchisees: verified in staging.
 - retry oversized store: owner: delivery manager.
+
+- retry regional cart line at close: owner: delivery manager.
+- rename duplicate bowl for pickup: owner: delivery manager.
+- retry duplicate receipt on checkout: decided.
+- retry empty cart line: open.
