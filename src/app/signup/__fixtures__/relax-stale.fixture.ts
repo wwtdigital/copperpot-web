@@ -414,4 +414,22 @@ export const RelaxStalePromoAtCloseRows = [
     label: 'tighten cancelled modifier',
     quantity: 8,
   },
+  {
+    id: 'signup-3135',
+    store: '564',
+    label: 'trim empty store',
+    quantity: 8,
+  },
+  {
+    id: 'signup-5614',
+    store: '549',
+    label: 'handle duplicate guest for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'signup-7402',
+    store: '670',
+    label: 'paginate partial loyalty credit',
+    quantity: 5,
+  },
 ];
