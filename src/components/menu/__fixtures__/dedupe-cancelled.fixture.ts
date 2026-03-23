@@ -1230,4 +1230,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'relax duplicate tax line',
     quantity: 4,
   },
+  {
+    id: 'menu-3553',
+    store: '330',
+    label: 'document expired delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4087',
+    store: '679',
+    label: 'normalise missing catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3955',
+    store: '399',
+    label: 'rename expired topping',
+    quantity: 9,
+  },
 ];
