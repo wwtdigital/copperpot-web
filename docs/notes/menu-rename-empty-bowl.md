@@ -41,3 +41,16 @@
 - dedupe partial menu item: verified in staging.
 - retry missing cart line: decided.
 - relax partial delivery window per store: verified in staging.
+
+- backfill cancelled tax line: owner: delivery manager.
+- retry regional promo: decided.
+- retry late pickup slot: blocked on store systems.
+- retry missing receipt: decided.
+- add oversized order: owner: delivery manager.
+- cache late bowl for pickup: open.
+- handle duplicate store per store: open.
+- dedupe late store on checkout: open.
+- validate stale guest: owner: delivery manager.
+- dedupe missing order at close: decided.
+- dedupe regional modifier per store: owner: delivery manager.
+- expose empty loyalty credit: open.
