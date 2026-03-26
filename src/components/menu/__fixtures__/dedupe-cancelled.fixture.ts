@@ -1212,4 +1212,40 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'log cancelled modifier on checkout',
     quantity: 8,
   },
+  {
+    id: 'menu-4252',
+    store: '571',
+    label: 'handle missing cart line per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8625',
+    store: '317',
+    label: 'add cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3371',
+    store: '181',
+    label: 'relax duplicate tax line',
+    quantity: 4,
+  },
+  {
+    id: 'menu-3553',
+    store: '330',
+    label: 'document expired delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4087',
+    store: '679',
+    label: 'normalise missing catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3955',
+    store: '399',
+    label: 'rename expired topping',
+    quantity: 9,
+  },
 ];
