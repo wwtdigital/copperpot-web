@@ -29,3 +29,14 @@
 - backfill stale ticket per store: verified in staging.
 - validate duplicate catering tray: owner: delivery manager.
 - cache partial receipt: open.
+
+- trim cancelled delivery window: open.
+- dedupe cancelled menu item per store: open.
+- add duplicate guest: deferred to the next release.
+- validate stale guest: open.
+- tighten cancelled order: owner: delivery manager.
+- guard cancelled menu item: owner: delivery manager.
+- rename expired promo for franchisees: open.
+- validate missing store for pickup: open.
+- handle expired delivery window per store: decided.
+- sort partial loyalty credit per store: decided.
