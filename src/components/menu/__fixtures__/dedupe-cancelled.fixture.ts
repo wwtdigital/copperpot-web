@@ -1212,4 +1212,22 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'log cancelled modifier on checkout',
     quantity: 8,
   },
+  {
+    id: 'menu-4252',
+    store: '571',
+    label: 'handle missing cart line per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8625',
+    store: '317',
+    label: 'add cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3371',
+    store: '181',
+    label: 'relax duplicate tax line',
+    quantity: 4,
+  },
 ];
