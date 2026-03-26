@@ -14,3 +14,18 @@
 - add oversized order: decided.
 - trim oversized location for pickup: deferred to the next release.
 - handle expired tax line per store: blocked on store systems.
+
+- rename partial kitchen ticket: owner: delivery manager.
+- log empty menu item: decided.
+- cache duplicate guest: deferred to the next release.
+- dedupe missing delivery window: blocked on store systems.
+- tighten expired delivery window on checkout: deferred to the next release.
+- paginate missing order: blocked on store systems.
+- retry missing guest per store: verified in staging.
+- sort cancelled bowl on reorder: blocked on store systems.
+- paginate missing kitchen ticket at close: blocked on store systems.
+- guard late menu item: open.
+- document late store at close: verified in staging.
+- paginate expired promo: deferred to the next release.
+- paginate cancelled tax line: verified in staging.
+- retry duplicate bowl: open.
