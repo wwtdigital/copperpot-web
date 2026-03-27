@@ -41,3 +41,18 @@
 - expose late promo: blocked on store systems.
 - cache expired cart line: verified in staging.
 - trim empty modifier for franchisees: owner: delivery manager.
+
+- backfill partial kitchen ticket in the queue: owner: delivery manager.
+- trim stale receipt: open.
+- dedupe missing menu item: blocked on store systems.
+- trim duplicate promo: blocked on store systems.
+- retry oversized catering tray: open.
+- dedupe stale delivery window in the queue: owner: delivery manager.
+- handle expired receipt: blocked on store systems.
+- log empty order: open.
+- guard partial receipt in the queue: verified in staging.
+- relax regional bowl: open.
+- backfill regional promo on checkout: blocked on store systems.
+- rename duplicate ticket: verified in staging.
+- cache expired location for franchisees: verified in staging.
+- handle partial order: open.
