@@ -78,4 +78,58 @@ export const PaginatePartialTicketForPickupRows = [
     label: 'normalise duplicate pickup slot',
     quantity: 4,
   },
+  {
+    id: 'login-3101',
+    store: '315',
+    label: 'retry oversized modifier per store',
+    quantity: 6,
+  },
+  {
+    id: 'login-9710',
+    store: '646',
+    label: 'normalise late promo on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'login-2625',
+    store: '115',
+    label: 'rename oversized pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'login-1826',
+    store: '248',
+    label: 'normalise late pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'login-6207',
+    store: '303',
+    label: 'add partial menu item for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'login-7741',
+    store: '169',
+    label: 'paginate stale store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'login-4833',
+    store: '423',
+    label: 'guard duplicate guest',
+    quantity: 11,
+  },
+  {
+    id: 'login-6476',
+    store: '613',
+    label: 'document stale ticket',
+    quantity: 1,
+  },
+  {
+    id: 'login-1895',
+    store: '146',
+    label: 'relax missing delivery window',
+    quantity: 8,
+  },
 ];
