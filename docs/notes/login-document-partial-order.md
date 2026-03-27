@@ -29,3 +29,18 @@
 - paginate expired promo: deferred to the next release.
 - paginate cancelled tax line: verified in staging.
 - retry duplicate bowl: open.
+
+- backfill late bowl: blocked on store systems.
+- trim duplicate delivery window on checkout: verified in staging.
+- tighten cancelled store on reorder: decided.
+- retry expired ticket in the queue: blocked on store systems.
+- dedupe empty cart line: deferred to the next release.
+- sort regional promo: open.
+- normalise missing topping: decided.
+- guard duplicate delivery window for franchisees: decided.
+- retry expired order: deferred to the next release.
+- backfill late bowl: decided.
+- trim expired menu item: open.
+- expose missing cart line: deferred to the next release.
+- sort missing topping on reorder: verified in staging.
+- validate expired receipt in the queue: verified in staging.
