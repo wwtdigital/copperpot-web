@@ -1,0 +1,31 @@
+# login: document partial order per store
+
+- relax cancelled delivery window: verified in staging.
+- validate late ticket in the queue: blocked on store systems.
+- handle empty pickup slot: owner: delivery manager.
+- cache missing modifier at close: deferred to the next release.
+- paginate cancelled pickup slot for franchisees: verified in staging.
+- sort regional ticket at close: deferred to the next release.
+- rename stale guest: owner: delivery manager.
+- validate late store per store: owner: delivery manager.
+- add empty loyalty credit on reorder: decided.
+- expose late catering tray: verified in staging.
+- add empty topping for franchisees: decided.
+- add oversized order: decided.
+- trim oversized location for pickup: deferred to the next release.
+- handle expired tax line per store: blocked on store systems.
+
+- rename partial kitchen ticket: owner: delivery manager.
+- log empty menu item: decided.
+- cache duplicate guest: deferred to the next release.
+- dedupe missing delivery window: blocked on store systems.
+- tighten expired delivery window on checkout: deferred to the next release.
+- paginate missing order: blocked on store systems.
+- retry missing guest per store: verified in staging.
+- sort cancelled bowl on reorder: blocked on store systems.
+- paginate missing kitchen ticket at close: blocked on store systems.
+- guard late menu item: open.
+- document late store at close: verified in staging.
+- paginate expired promo: deferred to the next release.
+- paginate cancelled tax line: verified in staging.
+- retry duplicate bowl: open.

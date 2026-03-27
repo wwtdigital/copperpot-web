@@ -66,4 +66,16 @@ export const PaginatePartialTicketForPickupRows = [
     label: 'rename regional location',
     quantity: 8,
   },
+  {
+    id: 'login-6054',
+    store: '537',
+    label: 'trim cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'login-5805',
+    store: '514',
+    label: 'normalise duplicate pickup slot',
+    quantity: 4,
+  },
 ];
