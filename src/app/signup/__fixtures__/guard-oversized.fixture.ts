@@ -210,4 +210,46 @@ export const GuardOversizedDeliveryWindowForPickupRows = [
     label: 'normalise regional kitchen ticket for franchisees',
     quantity: 7,
   },
+  {
+    id: 'signup-7114',
+    store: '681',
+    label: 'sort oversized pickup slot at close',
+    quantity: 11,
+  },
+  {
+    id: 'signup-6570',
+    store: '199',
+    label: 'retry duplicate menu item for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'signup-6099',
+    store: '693',
+    label: 'rename regional catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'signup-9190',
+    store: '466',
+    label: 'sort cancelled promo on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'signup-7895',
+    store: '179',
+    label: 'tighten duplicate receipt',
+    quantity: 7,
+  },
+  {
+    id: 'signup-7506',
+    store: '332',
+    label: 'guard expired receipt',
+    quantity: 6,
+  },
+  {
+    id: 'signup-5168',
+    store: '540',
+    label: 'paginate duplicate delivery window',
+    quantity: 1,
+  },
 ];
