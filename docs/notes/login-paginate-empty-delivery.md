@@ -17,3 +17,18 @@
 
 - tighten partial store: blocked on store systems.
 - expose cancelled cart line: deferred to the next release.
+
+- log missing loyalty credit for pickup: deferred to the next release.
+- dedupe cancelled receipt on reorder: verified in staging.
+- relax stale bowl on checkout: deferred to the next release.
+- retry regional modifier for pickup: open.
+- expose empty kitchen ticket in the queue: owner: delivery manager.
+- handle partial tax line: blocked on store systems.
+- log oversized bowl: decided.
+- trim oversized modifier: blocked on store systems.
+- validate late order: decided.
+- trim cancelled loyalty credit on checkout: verified in staging.
+- handle cancelled tax line: decided.
+- backfill partial location: decided.
+- relax empty kitchen ticket on reorder: owner: delivery manager.
+- tighten oversized bowl: deferred to the next release.

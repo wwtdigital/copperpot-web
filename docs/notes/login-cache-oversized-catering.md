@@ -56,3 +56,18 @@
 - rename duplicate ticket: verified in staging.
 - cache expired location for franchisees: verified in staging.
 - handle partial order: open.
+
+- handle cancelled location: owner: delivery manager.
+- trim cancelled promo: decided.
+- retry late pickup slot at close: open.
+- rename expired kitchen ticket for franchisees: verified in staging.
+- sort partial bowl: owner: delivery manager.
+- expose late topping per store: blocked on store systems.
+- cache missing topping: decided.
+- backfill stale receipt: blocked on store systems.
+- log regional kitchen ticket: decided.
+- retry duplicate menu item: blocked on store systems.
+- retry cancelled delivery window: open.
+- validate stale cart line on checkout: decided.
+- backfill stale delivery window: decided.
+- log duplicate kitchen ticket: verified in staging.
