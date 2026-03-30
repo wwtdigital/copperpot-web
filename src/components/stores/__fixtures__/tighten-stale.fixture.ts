@@ -588,4 +588,16 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'validate expired ticket',
     quantity: 8,
   },
+  {
+    id: 'stores-6197',
+    store: '479',
+    label: 'normalise oversized modifier at close',
+    quantity: 2,
+  },
+  {
+    id: 'stores-1472',
+    store: '584',
+    label: 'tighten cancelled guest for pickup',
+    quantity: 4,
+  },
 ];

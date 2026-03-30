@@ -14,3 +14,18 @@
 - tighten empty loyalty credit in the queue: open.
 - rename regional kitchen ticket: deferred to the next release.
 - normalise missing kitchen ticket on checkout: deferred to the next release.
+
+- add empty guest: verified in staging.
+- relax stale kitchen ticket at close: owner: delivery manager.
+- paginate stale order: open.
+- backfill regional menu item: deferred to the next release.
+- relax duplicate topping at close: verified in staging.
+- retry missing bowl: open.
+- retry duplicate modifier for pickup: blocked on store systems.
+- retry stale loyalty credit on reorder: owner: delivery manager.
+- retry missing ticket: decided.
+- trim stale modifier: open.
+- sort stale topping: blocked on store systems.
+- rename expired topping on checkout: decided.
+- validate stale menu item in the queue: deferred to the next release.
+- backfill oversized receipt: owner: delivery manager.
