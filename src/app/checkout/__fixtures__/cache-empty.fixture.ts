@@ -606,4 +606,22 @@ export const CacheEmptyReceiptRows = [
     label: 'handle duplicate receipt per store',
     quantity: 3,
   },
+  {
+    id: 'checkout-2774',
+    store: '393',
+    label: 'trim oversized location on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'checkout-4337',
+    store: '519',
+    label: 'backfill late modifier for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'checkout-5579',
+    store: '633',
+    label: 'rename regional promo',
+    quantity: 1,
+  },
 ];
