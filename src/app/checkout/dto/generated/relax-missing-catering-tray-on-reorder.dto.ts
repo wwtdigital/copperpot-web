@@ -2,4 +2,8 @@
 export class RelaxMissingCateringTrayOnReorderDto {
   sortStalePromo!: number;
   validateRegionalPromo!: number;
+  dedupeStaleTaxLineForFranchisees!: number;
+  retryRegionalTopping!: string[];
+  exposeOversizedDeliveryWindow?: string[];
+  backfillOversizedBowl?: string[];
 }
