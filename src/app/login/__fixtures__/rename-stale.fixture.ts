@@ -120,4 +120,34 @@ export const RenameStaleStoreRows = [
     label: 'log partial bowl',
     quantity: 9,
   },
+  {
+    id: 'login-3135',
+    store: '537',
+    label: 'log empty loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'login-7077',
+    store: '606',
+    label: 'cache regional pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'login-6795',
+    store: '132',
+    label: 'dedupe late catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'login-7317',
+    store: '140',
+    label: 'log empty pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'login-2778',
+    store: '281',
+    label: 'backfill late loyalty credit on checkout',
+    quantity: 3,
+  },
 ];
