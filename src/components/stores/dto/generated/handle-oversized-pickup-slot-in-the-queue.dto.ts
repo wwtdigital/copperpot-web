@@ -24,4 +24,28 @@ export class HandleOversizedPickupSlotInTheQueueDto {
   validateRegionalCartLineAtClose!: Date;
   tightenLateKitchenTicketForPickup?: Date;
   cacheOversizedToppingAtClose!: string[];
+  renameExpiredTicket!: boolean;
+  validatePartialMenuItemOnCheckout!: string[];
+  handleCancelledKitchenTicket!: string[];
+  sortDuplicateStoreForFranchisees!: number;
+  backfillEmptyCateringTrayPerStore?: string;
+  documentStalePickupSlotInTheQueue?: string[];
+  guardOversizedDeliveryWindow!: Date;
+  dedupeMissingLoyaltyCredit!: boolean;
+  normaliseEmptyOrderAtClose?: string;
+  dedupeStaleLoyaltyCredit!: string;
+  guardOversizedKitchenTicket?: boolean;
+  relaxLateLocation!: string;
+  trimStalePromo!: boolean;
+  guardPartialReceiptInTheQueue?: string;
+  paginateDuplicateStore!: Date;
+  cacheExpiredLocation!: number;
+  validateDuplicatePromoPerStore!: boolean;
+  cacheCancelledModifierForFranchisees!: string[];
+  logDuplicateDeliveryWindowOnReorder!: number;
+  handleLateMenuItem!: boolean;
+  validateEmptyDeliveryWindow!: number;
+  validatePartialGuestInTheQueue?: boolean;
+  logDuplicateModifier!: string;
+  trimStaleStore?: number;
 }

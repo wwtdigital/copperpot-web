@@ -178,3 +178,18 @@
 - rename empty order on reorder: deferred to the next release.
 - document duplicate topping: owner: delivery manager.
 - validate late topping: blocked on store systems.
+
+- relax expired menu item: decided.
+- guard regional bowl at close: decided.
+- paginate oversized menu item: decided.
+- log late catering tray: open.
+- paginate missing catering tray: open.
+- log regional kitchen ticket: open.
+- backfill regional topping on reorder: blocked on store systems.
+- paginate regional cart line: decided.
+- log stale location on checkout: blocked on store systems.
+- retry expired guest: decided.
+- expose late tax line at close: owner: delivery manager.
+- cache duplicate modifier: verified in staging.
+- relax missing delivery window: owner: delivery manager.
+- add cancelled ticket per store: blocked on store systems.
