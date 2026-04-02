@@ -600,4 +600,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'tighten cancelled guest for pickup',
     quantity: 4,
   },
+  {
+    id: 'stores-6441',
+    store: '503',
+    label: 'relax expired topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'stores-4709',
+    store: '624',
+    label: 'tighten duplicate modifier',
+    quantity: 5,
+  },
+  {
+    id: 'stores-1753',
+    store: '329',
+    label: 'rename late receipt on reorder',
+    quantity: 2,
+  },
 ];
