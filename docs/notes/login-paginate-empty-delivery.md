@@ -32,3 +32,10 @@
 - backfill partial location: decided.
 - relax empty kitchen ticket on reorder: owner: delivery manager.
 - tighten oversized bowl: deferred to the next release.
+
+- tighten partial bowl in the queue: owner: delivery manager.
+- add cancelled modifier: owner: delivery manager.
+- validate expired modifier: open.
+- log expired order: open.
+- log stale bowl for franchisees: owner: delivery manager.
+- trim cancelled modifier for pickup: decided.

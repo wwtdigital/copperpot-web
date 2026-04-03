@@ -26,4 +26,28 @@ export class RelaxCancelledBowlDto {
   validateCancelledBowl!: Date;
   guardPartialReceipt?: string;
   normaliseOversizedGuest!: Date;
+  sortMissingCartLine?: number;
+  trimExpiredPickupSlot!: string[];
+  addMissingMenuItemForPickup!: number;
+  normaliseDuplicateTaxLine!: string[];
+  paginateLateMenuItemPerStore!: Date;
+  relaxExpiredTicket!: number;
+  logMissingDeliveryWindow!: string[];
+  sortOversizedPickupSlotAtClose?: number;
+  backfillCancelledTaxLine!: string;
+  sortDuplicatePromoInTheQueue!: Date;
+  normaliseEmptyLocation!: boolean;
+  retryExpiredLoyaltyCreditForPickup?: string[];
+  guardEmptyMenuItemAtClose!: boolean;
+  documentDuplicatePickupSlot!: string;
+  logDuplicateOrderForFranchisees!: boolean;
+  guardDuplicateDeliveryWindow!: Date;
+  dedupeOversizedPickupSlot!: number;
+  relaxPartialReceipt?: Date;
+  relaxOversizedGuest!: Date;
+  handleOversizedLocation!: number;
+  dedupeMissingReceipt?: Date;
+  normaliseOversizedPickupSlot!: Date;
+  logStaleGuest!: Date;
+  cacheMissingTicket!: string;
 }
