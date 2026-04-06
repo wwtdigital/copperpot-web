@@ -42,3 +42,18 @@
 - paginate cancelled loyalty credit on checkout: deferred to the next release.
 - dedupe cancelled pickup slot: blocked on store systems.
 - trim late bowl: verified in staging.
+
+- validate missing ticket: deferred to the next release.
+- document stale pickup slot: verified in staging.
+- log empty cart line in the queue: verified in staging.
+- trim empty order on checkout: open.
+- backfill partial modifier on checkout: blocked on store systems.
+- relax late ticket on reorder: deferred to the next release.
+- expose stale tax line for pickup: blocked on store systems.
+- handle regional catering tray: blocked on store systems.
+- relax missing ticket: decided.
+- cache partial pickup slot on reorder: blocked on store systems.
+- normalise expired order for franchisees: verified in staging.
+- sort partial catering tray: owner: delivery manager.
+- rename regional cart line: blocked on store systems.
+- trim cancelled location: owner: delivery manager.

@@ -71,3 +71,18 @@
 - backfill late tax line in the queue: blocked on store systems.
 - guard stale receipt for pickup: owner: delivery manager.
 - normalise partial location on checkout: blocked on store systems.
+
+- sort expired location: verified in staging.
+- rename expired loyalty credit: owner: delivery manager.
+- handle oversized location in the queue: open.
+- log expired store for franchisees: blocked on store systems.
+- trim missing topping per store: deferred to the next release.
+- log empty kitchen ticket on reorder: owner: delivery manager.
+- retry stale receipt: decided.
+- expose expired topping: owner: delivery manager.
+- validate oversized catering tray: blocked on store systems.
+- normalise partial order on reorder: blocked on store systems.
+- expose expired bowl: open.
+- cache partial bowl: open.
+- backfill duplicate store: blocked on store systems.
+- sort empty topping: open.
