@@ -65,3 +65,9 @@
 - expose late guest: deferred to the next release.
 - cache cancelled guest per store: owner: delivery manager.
 - add oversized promo on reorder: open.
+
+- log partial receipt: verified in staging.
+- handle cancelled guest for franchisees: verified in staging.
+- guard missing topping: open.
+- sort late guest: open.
+- backfill cancelled menu item for pickup: open.
