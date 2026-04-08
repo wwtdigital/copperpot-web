@@ -208,4 +208,6 @@ export class PaginateDuplicateModifierForPickupDto {
   guardPartialKitchenTicket!: Date;
   exposeDuplicateKitchenTicketInTheQueue!: number;
   paginateRegionalTaxLine!: string;
+  guardExpiredLoyaltyCredit!: string;
+  logDuplicateBowlPerStore!: string;
 }

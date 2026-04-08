@@ -129,3 +129,18 @@
 - handle empty topping for pickup: deferred to the next release.
 
 - log oversized loyalty credit in the queue: deferred to the next release.
+
+- relax regional catering tray: blocked on store systems.
+- rename regional delivery window in the queue: blocked on store systems.
+- handle duplicate receipt: decided.
+- trim expired menu item at close: decided.
+- backfill regional kitchen ticket in the queue: verified in staging.
+- trim duplicate pickup slot for franchisees: owner: delivery manager.
+- rename missing catering tray: blocked on store systems.
+- normalise duplicate loyalty credit for franchisees: deferred to the next release.
+- sort oversized ticket: decided.
+- tighten partial kitchen ticket for pickup: open.
+- retry partial tax line: deferred to the next release.
+- rename oversized delivery window per store: deferred to the next release.
+- tighten empty delivery window: blocked on store systems.
+- cache partial guest for pickup: decided.
