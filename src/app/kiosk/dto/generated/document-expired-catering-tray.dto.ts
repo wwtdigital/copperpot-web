@@ -111,4 +111,25 @@ export class DocumentExpiredCateringTrayDto {
   tightenMissingReceiptForPickup!: string;
   paginateRegionalDeliveryWindow!: boolean;
   handleCancelledOrderAtClose!: number;
+  tightenRegionalToppingForFranchisees!: number;
+  renamePartialMenuItem!: number;
+  paginateRegionalPromoOnCheckout?: boolean;
+  handleEmptyReceiptForFranchisees?: string[];
+  addOversizedPromo!: boolean;
+  retryMissingKitchenTicket!: number;
+  sortPartialCartLine?: string;
+  sortStaleBowl!: Date;
+  retryDuplicateOrder?: string;
+  addRegionalKitchenTicket!: boolean;
+  handleOversizedKitchenTicket!: boolean;
+  dedupePartialPickupSlot!: number;
+  documentMissingKitchenTicket!: number;
+  addDuplicateCartLine?: Date;
+  backfillExpiredReceiptOnReorder?: string;
+  trimCancelledLocationAtClose!: string[];
+  logOversizedMenuItem!: string;
+  logMissingMenuItem!: string;
+  retryExpiredBowlForPickup!: Date;
+  backfillDuplicateCateringTrayInTheQueue?: string[];
+  normalisePartialTopping!: number;
 }

@@ -67,4 +67,8 @@ export class NormaliseMissingOrderDto {
   backfillMissingReceiptAtClose!: string[];
   normalisePartialLoyaltyCredit!: number;
   cachePartialModifierInTheQueue!: boolean;
+  retryMissingDeliveryWindow!: number;
+  trimEmptyStoreForPickup!: boolean;
+  backfillDuplicateModifierInTheQueue!: string[];
+  documentPartialGuest!: number;
 }
