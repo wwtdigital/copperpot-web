@@ -127,3 +127,5 @@
 - add expired tax line: blocked on store systems.
 - trim late topping on reorder: open.
 - handle empty topping for pickup: deferred to the next release.
+
+- log oversized loyalty credit in the queue: deferred to the next release.
