@@ -1572,4 +1572,22 @@ export const AddOversizedKitchenTicketPerStoreRows = [
     label: 'validate empty bowl for pickup',
     quantity: 9,
   },
+  {
+    id: 'cart-8536',
+    store: '354',
+    label: 'normalise cancelled loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3847',
+    store: '634',
+    label: 'normalise empty cart line',
+    quantity: 6,
+  },
+  {
+    id: 'cart-6017',
+    store: '683',
+    label: 'handle partial order on checkout',
+    quantity: 12,
+  },
 ];
