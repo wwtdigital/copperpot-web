@@ -96,4 +96,34 @@ export const DedupeDuplicateCartLineOnCheckoutRows = [
     label: 'add empty pickup slot',
     quantity: 9,
   },
+  {
+    id: 'layout-1642',
+    store: '494',
+    label: 'handle stale tax line for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'layout-1354',
+    store: '329',
+    label: 'normalise regional modifier for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'layout-9314',
+    store: '635',
+    label: 'dedupe late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'layout-8035',
+    store: '588',
+    label: 'handle oversized loyalty credit for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'layout-6491',
+    store: '681',
+    label: 'log partial order for pickup',
+    quantity: 10,
+  },
 ];
