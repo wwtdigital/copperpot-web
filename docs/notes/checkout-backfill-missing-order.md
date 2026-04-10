@@ -107,3 +107,5 @@
 - rename partial promo: blocked on store systems.
 
 - expose missing bowl on checkout: blocked on store systems.
+
+- validate late kitchen ticket: owner: delivery manager.
