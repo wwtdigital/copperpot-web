@@ -126,4 +126,28 @@ export const DedupeDuplicateCartLineOnCheckoutRows = [
     label: 'log partial order for pickup',
     quantity: 10,
   },
+  {
+    id: 'layout-5248',
+    store: '645',
+    label: 'validate stale topping',
+    quantity: 10,
+  },
+  {
+    id: 'layout-1453',
+    store: '262',
+    label: 'retry cancelled tax line',
+    quantity: 3,
+  },
+  {
+    id: 'layout-3711',
+    store: '226',
+    label: 'retry empty topping',
+    quantity: 8,
+  },
+  {
+    id: 'layout-3485',
+    store: '353',
+    label: 'document missing store on checkout',
+    quantity: 10,
+  },
 ];

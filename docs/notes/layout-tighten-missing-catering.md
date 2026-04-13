@@ -86,3 +86,6 @@
 - cache partial bowl: open.
 - backfill duplicate store: blocked on store systems.
 - sort empty topping: open.
+
+- retry regional bowl: verified in staging.
+- handle regional catering tray: owner: delivery manager.
