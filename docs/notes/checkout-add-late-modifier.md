@@ -101,3 +101,18 @@
 - normalise duplicate location: blocked on store systems.
 - dedupe late menu item at close: owner: delivery manager.
 - paginate regional kitchen ticket: deferred to the next release.
+
+- trim stale modifier: owner: delivery manager.
+- paginate duplicate store per store: deferred to the next release.
+- rename regional cart line for pickup: verified in staging.
+- trim empty cart line per store: open.
+- dedupe stale store: verified in staging.
+- handle stale promo: open.
+- expose expired modifier in the queue: decided.
+- trim late modifier: blocked on store systems.
+- cache expired delivery window per store: deferred to the next release.
+- rename regional guest at close: decided.
+- handle late pickup slot: open.
+- document stale menu item: decided.
+- add stale store at close: blocked on store systems.
+- relax cancelled store per store: decided.
