@@ -6,4 +6,6 @@ export class RelaxMissingCateringTrayOnReorderDto {
   retryRegionalTopping!: string[];
   exposeOversizedDeliveryWindow?: string[];
   backfillOversizedBowl?: string[];
+  tightenExpiredDeliveryWindowForPickup!: string[];
+  handleCancelledKitchenTicket!: string;
 }
