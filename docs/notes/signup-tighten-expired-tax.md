@@ -36,3 +36,18 @@
 - tighten duplicate store: decided.
 - cache empty store: deferred to the next release.
 - trim expired bowl: decided.
+
+- log late promo: deferred to the next release.
+- dedupe expired tax line: open.
+- backfill missing promo at close: verified in staging.
+- rename empty menu item per store: verified in staging.
+- relax late menu item on reorder: blocked on store systems.
+- document expired receipt: blocked on store systems.
+- trim duplicate guest: open.
+- validate expired delivery window: owner: delivery manager.
+- handle cancelled guest: blocked on store systems.
+- add stale bowl: owner: delivery manager.
+- paginate empty bowl for franchisees: blocked on store systems.
+- dedupe stale menu item: owner: delivery manager.
+- paginate expired ticket in the queue: blocked on store systems.
+- cache stale loyalty credit per store: verified in staging.
