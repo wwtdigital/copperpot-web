@@ -24,4 +24,6 @@ export class RetryCancelledToppingAtCloseDto {
   addMissingLocation?: boolean;
   cacheExpiredCartLine!: string[];
   cacheEmptyTicketForFranchisees!: string[];
+  backfillDuplicateModifierOnCheckout!: string;
+  sortDuplicatePromo!: number;
 }

@@ -120,4 +120,52 @@ export const GuardRegionalKitchenTicketAtCloseRows = [
     label: 'paginate expired topping',
     quantity: 10,
   },
+  {
+    id: 'signup-2141',
+    store: '182',
+    label: 'add empty location',
+    quantity: 6,
+  },
+  {
+    id: 'signup-6654',
+    store: '191',
+    label: 'sort stale delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'signup-9361',
+    store: '255',
+    label: 'dedupe missing guest',
+    quantity: 8,
+  },
+  {
+    id: 'signup-1610',
+    store: '468',
+    label: 'sort stale store per store',
+    quantity: 11,
+  },
+  {
+    id: 'signup-5762',
+    store: '252',
+    label: 'expose stale promo',
+    quantity: 4,
+  },
+  {
+    id: 'signup-9301',
+    store: '534',
+    label: 'document oversized catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'signup-9043',
+    store: '510',
+    label: 'paginate duplicate ticket',
+    quantity: 12,
+  },
+  {
+    id: 'signup-8744',
+    store: '389',
+    label: 'rename oversized cart line',
+    quantity: 8,
+  },
 ];
