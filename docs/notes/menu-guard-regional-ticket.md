@@ -119,3 +119,18 @@
 - backfill expired tax line: owner: delivery manager.
 - retry regional loyalty credit for pickup: open.
 - validate empty store: decided.
+
+- guard regional kitchen ticket on reorder: blocked on store systems.
+- guard expired menu item: open.
+- relax late topping: decided.
+- document expired topping: deferred to the next release.
+- validate empty promo for pickup: deferred to the next release.
+- handle empty catering tray on checkout: verified in staging.
+- guard partial guest at close: open.
+- normalise stale bowl in the queue: owner: delivery manager.
+- expose oversized modifier: blocked on store systems.
+- document partial pickup slot on reorder: verified in staging.
+- dedupe oversized order: open.
+- cache stale catering tray: decided.
+- handle duplicate loyalty credit: open.
+- backfill regional catering tray: blocked on store systems.
