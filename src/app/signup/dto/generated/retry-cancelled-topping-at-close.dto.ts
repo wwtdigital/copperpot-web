@@ -26,4 +26,28 @@ export class RetryCancelledToppingAtCloseDto {
   cacheEmptyTicketForFranchisees!: string[];
   backfillDuplicateModifierOnCheckout!: string;
   sortDuplicatePromo!: number;
+  guardRegionalLocation!: number;
+  exposeEmptyMenuItem?: number;
+  relaxExpiredPickupSlot?: Date;
+  sortPartialGuest!: string;
+  documentLatePickupSlot?: string;
+  retryMissingLocation!: number;
+  cacheLateReceiptPerStore!: string;
+  renamePartialCartLine!: Date;
+  tightenMissingBowl?: Date;
+  sortCancelledDeliveryWindow!: number;
+  guardRegionalGuestOnReorder?: string[];
+  trimRegionalToppingAtClose?: string;
+  dedupeStaleStoreOnCheckout?: boolean;
+  cacheOversizedTopping!: string[];
+  cacheExpiredStore!: string;
+  documentExpiredModifierForPickup?: string[];
+  exposeOversizedGuest!: Date;
+  paginateMissingOrder?: number;
+  sortOversizedMenuItem!: boolean;
+  dedupeCancelledReceiptForPickup?: string[];
+  sortEmptyGuestPerStore!: string;
+  validateExpiredStore!: boolean;
+  renamePartialTaxLineOnReorder!: Date;
+  normaliseEmptyKitchenTicket?: number;
 }

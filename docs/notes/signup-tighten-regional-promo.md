@@ -117,3 +117,18 @@
 - tighten duplicate store on checkout: deferred to the next release.
 - relax stale tax line: blocked on store systems.
 - cache missing cart line: decided.
+
+- expose missing tax line: open.
+- guard empty tax line on checkout: decided.
+- add regional topping: owner: delivery manager.
+- document oversized store: verified in staging.
+- dedupe regional location for pickup: owner: delivery manager.
+- guard stale modifier: decided.
+- validate oversized store: open.
+- tighten regional catering tray for franchisees: decided.
+- add partial tax line: deferred to the next release.
+- trim expired modifier: decided.
+- log stale tax line: verified in staging.
+- dedupe regional kitchen ticket: verified in staging.
+- cache expired ticket: decided.
+- sort stale topping for pickup: verified in staging.

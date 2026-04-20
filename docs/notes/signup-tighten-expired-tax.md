@@ -51,3 +51,6 @@
 - dedupe stale menu item: owner: delivery manager.
 - paginate expired ticket in the queue: blocked on store systems.
 - cache stale loyalty credit per store: verified in staging.
+
+- rename regional promo: deferred to the next release.
+- handle expired order: open.
