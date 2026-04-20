@@ -26,4 +26,6 @@ export class DedupeDuplicateOrderDto {
   dedupeLateBowl?: boolean;
   normaliseOversizedTaxLine!: number;
   relaxCancelledMenuItemOnCheckout?: string[];
+  sortOversizedDeliveryWindow!: number;
+  backfillPartialDeliveryWindow!: Date;
 }

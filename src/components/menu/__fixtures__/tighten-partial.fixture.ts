@@ -216,4 +216,28 @@ export const TightenPartialToppingRows = [
     label: 'document cancelled kitchen ticket on checkout',
     quantity: 3,
   },
+  {
+    id: 'menu-8304',
+    store: '110',
+    label: 'validate empty location',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9748',
+    store: '593',
+    label: 'sort partial tax line',
+    quantity: 5,
+  },
+  {
+    id: 'menu-2922',
+    store: '493',
+    label: 'validate cancelled receipt',
+    quantity: 10,
+  },
+  {
+    id: 'menu-4576',
+    store: '343',
+    label: 'cache stale cart line at close',
+    quantity: 5,
+  },
 ];

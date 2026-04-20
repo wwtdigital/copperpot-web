@@ -1254,4 +1254,10 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'paginate regional kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'menu-1827',
+    store: '482',
+    label: 'sort oversized store at close',
+    quantity: 11,
+  },
 ];
