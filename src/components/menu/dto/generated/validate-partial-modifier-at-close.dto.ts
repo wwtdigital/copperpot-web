@@ -16,4 +16,15 @@ export class ValidatePartialModifierAtCloseDto {
   logExpiredStore?: string[];
   dedupeMissingKitchenTicket!: number;
   cacheLateStore!: string[];
+  logOversizedCartLine?: string;
+  addOversizedCartLine!: string;
+  exposeDuplicateCateringTrayPerStore!: boolean;
+  normaliseOversizedDeliveryWindowInTheQueue!: string[];
+  exposeStaleLocationOnReorder?: boolean;
+  validateEmptyGuest!: Date;
+  documentCancelledTaxLine?: string;
+  tightenPartialKitchenTicket!: number;
+  normaliseDuplicateModifierForPickup!: boolean;
+  dedupeExpiredBowl!: Date;
+  tightenDuplicateStoreForFranchisees?: Date;
 }
