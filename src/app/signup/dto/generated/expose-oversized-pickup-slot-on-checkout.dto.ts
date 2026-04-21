@@ -87,4 +87,28 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   tightenMissingPromoForFranchisees?: boolean;
   guardRegionalToppingInTheQueue!: string[];
   backfillCancelledMenuItemOnReorder!: string[];
+  documentMissingLocationForPickup?: boolean;
+  exposeDuplicateLoyaltyCredit!: Date;
+  sortExpiredToppingForPickup!: number;
+  renameMissingCateringTray?: string[];
+  validateLateOrder!: Date;
+  handleCancelledTicket!: string;
+  addStaleTicket!: string;
+  validateStaleDeliveryWindowAtClose!: boolean;
+  renameOversizedMenuItem!: string;
+  normaliseMissingPromoOnCheckout!: string;
+  guardEmptyKitchenTicket?: number;
+  paginateStaleTopping!: number;
+  sortMissingCateringTray!: string[];
+  retryStaleKitchenTicketPerStore!: number;
+  handleCancelledMenuItem?: number;
+  retryEmptyReceiptInTheQueue?: string[];
+  relaxMissingKitchenTicketPerStore!: Date;
+  renameDuplicateTicketForFranchisees!: Date;
+  normaliseCancelledStorePerStore!: boolean;
+  dedupeLateKitchenTicket!: boolean;
+  relaxEmptyPromo!: boolean;
+  renameDuplicateTicketOnReorder?: Date;
+  documentLateModifier!: Date;
+  trimOversizedPickupSlot?: string;
 }
