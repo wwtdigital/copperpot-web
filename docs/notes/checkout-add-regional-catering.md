@@ -140,8 +140,3 @@
 - retry cancelled catering tray: open.
 - handle late pickup slot: verified in staging.
 - tighten duplicate guest: open.
-- dedupe late guest: verified in staging.
-- trim stale pickup slot in the queue: open.
-- sort partial guest per store: decided.
-- validate empty store: blocked on store systems.
-- rename missing guest: blocked on store systems.

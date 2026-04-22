@@ -9,4 +9,10 @@ export class CacheLateTicketOnCheckoutDto {
   paginatePartialModifier!: boolean;
   handleDuplicateCartLineOnReorder!: boolean;
   normaliseCancelledTaxLine!: string;
+  relaxExpiredCateringTray?: boolean;
+  backfillMissingCartLineOnCheckout!: Date;
+  renameDuplicateGuest!: string;
+  trimPartialLoyaltyCredit!: string[];
+  handleStaleMenuItemForPickup?: number;
+  retryDuplicatePickupSlot!: boolean;
 }
