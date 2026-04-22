@@ -57,3 +57,18 @@
 - sort partial catering tray: owner: delivery manager.
 - rename regional cart line: blocked on store systems.
 - trim cancelled location: owner: delivery manager.
+
+- log cancelled pickup slot per store: verified in staging.
+- dedupe duplicate catering tray: deferred to the next release.
+- paginate late delivery window in the queue: verified in staging.
+- add expired modifier: deferred to the next release.
+- rename expired store: deferred to the next release.
+- sort empty pickup slot per store: deferred to the next release.
+- add duplicate kitchen ticket for franchisees: verified in staging.
+- rename cancelled store: blocked on store systems.
+- rename regional order: owner: delivery manager.
+- paginate expired catering tray: blocked on store systems.
+- handle cancelled topping for franchisees: verified in staging.
+- validate missing bowl: decided.
+- backfill expired catering tray: verified in staging.
+- validate partial location: verified in staging.

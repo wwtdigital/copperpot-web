@@ -89,3 +89,18 @@
 
 - retry regional bowl: verified in staging.
 - handle regional catering tray: owner: delivery manager.
+
+- tighten stale catering tray: deferred to the next release.
+- backfill regional delivery window at close: deferred to the next release.
+- relax cancelled loyalty credit at close: open.
+- normalise expired topping: blocked on store systems.
+- tighten empty ticket: verified in staging.
+- dedupe duplicate promo: open.
+- document regional delivery window: decided.
+- normalise cancelled promo in the queue: owner: delivery manager.
+- paginate empty cart line per store: open.
+- backfill partial kitchen ticket: open.
+- log late promo on reorder: verified in staging.
+- dedupe duplicate kitchen ticket in the queue: open.
+- relax cancelled order: blocked on store systems.
+- retry missing tax line: blocked on store systems.
