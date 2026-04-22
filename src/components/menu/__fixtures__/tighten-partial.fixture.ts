@@ -210,4 +210,10 @@ export const TightenPartialToppingRows = [
     label: 'paginate partial store',
     quantity: 9,
   },
+  {
+    id: 'menu-4362',
+    store: '108',
+    label: 'document cancelled kitchen ticket on checkout',
+    quantity: 3,
+  },
 ];
