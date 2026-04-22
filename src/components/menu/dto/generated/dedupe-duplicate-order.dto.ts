@@ -13,4 +13,19 @@ export class DedupeDuplicateOrderDto {
   trimMissingToppingForFranchisees?: Date;
   handleExpiredPickupSlotOnReorder?: string;
   handleExpiredBowlOnReorder!: Date;
+  validateLateReceiptOnReorder!: string[];
+  normaliseExpiredModifierForPickup?: string[];
+  renameEmptyPickupSlot?: Date;
+  logEmptyReceiptInTheQueue!: string;
+  tightenRegionalTaxLine!: boolean;
+  normaliseEmptyTicketInTheQueue!: Date;
+  trimRegionalLoyaltyCreditForPickup?: number;
+  backfillEmptyReceiptForFranchisees!: Date;
+  documentCancelledTaxLineForFranchisees?: string;
+  relaxEmptyPickupSlot?: string;
+  dedupeLateBowl?: boolean;
+  normaliseOversizedTaxLine!: number;
+  relaxCancelledMenuItemOnCheckout?: string[];
+  sortOversizedDeliveryWindow!: number;
+  backfillPartialDeliveryWindow!: Date;
 }

@@ -1248,4 +1248,16 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'rename expired topping',
     quantity: 9,
   },
+  {
+    id: 'menu-3930',
+    store: '487',
+    label: 'paginate regional kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-1827',
+    store: '482',
+    label: 'sort oversized store at close',
+    quantity: 11,
+  },
 ];
