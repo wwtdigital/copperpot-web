@@ -1,0 +1,19 @@
+/* ValidatePartialModifierAtCloseDto: shape for validate partial modifier at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class ValidatePartialModifierAtCloseDto {
+  backfillDuplicateDeliveryWindowInTheQueue!: boolean;
+  logMissingKitchenTicket!: string;
+  retryRegionalTaxLine?: boolean;
+  validateExpiredMenuItem?: boolean;
+  validateDuplicateTopping!: boolean;
+  guardEmptyLocation!: string[];
+  logEmptyStore!: boolean;
+  logOversizedPromoForFranchisees?: string[];
+  addStaleTopping!: string[];
+  dedupeMissingTicket!: string[];
+  logStaleBowl!: number;
+  paginateEmptyPromoPerStore!: string;
+  tightenLateStoreInTheQueue!: string[];
+  logExpiredStore?: string[];
+  dedupeMissingKitchenTicket!: number;
+  cacheLateStore!: string[];
+}
