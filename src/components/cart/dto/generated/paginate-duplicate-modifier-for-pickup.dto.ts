@@ -228,4 +228,6 @@ export class PaginateDuplicateModifierForPickupDto {
   normaliseRegionalStoreAtClose!: number;
   relaxEmptyDeliveryWindow!: number;
   logPartialOrder!: number;
+  addOversizedBowl!: string[];
+  renameDuplicateGuestOnCheckout?: string[];
 }

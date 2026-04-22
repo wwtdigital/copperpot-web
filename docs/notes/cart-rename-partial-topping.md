@@ -33,3 +33,18 @@
 - paginate partial topping: decided.
 - document empty bowl on reorder: blocked on store systems.
 - trim stale menu item: open.
+
+- trim oversized receipt on checkout: blocked on store systems.
+- retry empty topping: decided.
+- dedupe empty catering tray: decided.
+- document cancelled pickup slot on reorder: blocked on store systems.
+- trim oversized guest: verified in staging.
+- relax missing receipt in the queue: blocked on store systems.
+- dedupe cancelled receipt at close: owner: delivery manager.
+- tighten regional delivery window for pickup: open.
+- paginate missing kitchen ticket for pickup: deferred to the next release.
+- log late tax line for franchisees: decided.
+- document regional cart line on checkout: deferred to the next release.
+- retry late menu item at close: deferred to the next release.
+- dedupe duplicate cart line: decided.
+- cache empty ticket: owner: delivery manager.
