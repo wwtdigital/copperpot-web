@@ -270,4 +270,10 @@ export const TightenPartialToppingRows = [
     label: 'cache late receipt',
     quantity: 7,
   },
+  {
+    id: 'menu-1614',
+    store: '388',
+    label: 'guard empty loyalty credit per store',
+    quantity: 4,
+  },
 ];

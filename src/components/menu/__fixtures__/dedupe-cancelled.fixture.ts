@@ -1260,4 +1260,46 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'sort oversized store at close',
     quantity: 11,
   },
+  {
+    id: 'menu-5466',
+    store: '286',
+    label: 'expose stale guest',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3629',
+    store: '208',
+    label: 'backfill expired tax line for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'menu-7913',
+    store: '349',
+    label: 'tighten regional location in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-9690',
+    store: '583',
+    label: 'normalise duplicate cart line on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1331',
+    store: '323',
+    label: 'sort regional kitchen ticket for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9462',
+    store: '611',
+    label: 'document missing cart line',
+    quantity: 1,
+  },
+  {
+    id: 'menu-8129',
+    store: '635',
+    label: 'trim empty order',
+    quantity: 12,
+  },
 ];
