@@ -132,4 +132,28 @@ export class DocumentExpiredCateringTrayDto {
   retryExpiredBowlForPickup!: Date;
   backfillDuplicateCateringTrayInTheQueue?: string[];
   normalisePartialTopping!: number;
+  trimOversizedReceiptInTheQueue!: string;
+  validateEmptyOrderInTheQueue!: Date;
+  normaliseOversizedTaxLineForPickup!: Date;
+  relaxCancelledGuest!: number;
+  normaliseCancelledTaxLine!: string;
+  cacheExpiredTicketInTheQueue!: Date;
+  exposePartialModifier!: Date;
+  addMissingGuest!: string;
+  handleOversizedCateringTray!: number;
+  normaliseRegionalPickupSlotOnReorder!: Date;
+  backfillMissingLocationOnCheckout?: string[];
+  cacheMissingPromoOnCheckout?: Date;
+  dedupeStaleOrder!: string[];
+  guardRegionalTicket!: Date;
+  dedupeMissingGuestForFranchisees!: string;
+  renameOversizedModifierInTheQueue!: string[];
+  backfillStaleModifier!: number;
+  dedupeLateReceipt!: boolean;
+  guardEmptyDeliveryWindow?: number;
+  dedupeDuplicateStore!: string[];
+  tightenOversizedReceiptForFranchisees?: number;
+  validateOversizedModifierForPickup?: string;
+  guardStaleOrder?: string;
+  validateRegionalLoyaltyCredit?: string[];
 }
