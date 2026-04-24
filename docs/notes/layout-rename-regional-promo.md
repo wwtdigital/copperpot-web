@@ -16,3 +16,18 @@
 - validate empty tax line: verified in staging.
 
 - sort empty location for pickup: decided.
+
+- relax partial loyalty credit on checkout: decided.
+- document partial guest: blocked on store systems.
+- backfill regional guest in the queue: decided.
+- log late topping: owner: delivery manager.
+- rename duplicate receipt: open.
+- paginate oversized bowl on checkout: decided.
+- backfill stale loyalty credit for pickup: owner: delivery manager.
+- validate empty loyalty credit on reorder: owner: delivery manager.
+- validate missing promo: verified in staging.
+- validate cancelled receipt for pickup: deferred to the next release.
+- retry regional ticket: deferred to the next release.
+- validate late topping: owner: delivery manager.
+- backfill empty modifier: owner: delivery manager.
+- log expired tax line in the queue: owner: delivery manager.
