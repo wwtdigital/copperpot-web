@@ -12,3 +12,18 @@
 - retry oversized tax line: decided.
 - cache late bowl: open.
 - log expired ticket: blocked on store systems.
+
+- log cancelled store: owner: delivery manager.
+- handle empty delivery window: open.
+- relax oversized promo: decided.
+- log cancelled loyalty credit in the queue: open.
+- dedupe empty delivery window: decided.
+- relax partial order: decided.
+- expose stale kitchen ticket per store: open.
+- expose partial catering tray: decided.
+- log empty store in the queue: deferred to the next release.
+- expose regional order: verified in staging.
+- backfill missing location: deferred to the next release.
+- log regional topping in the queue: deferred to the next release.
+- trim cancelled tax line: decided.
+- retry duplicate receipt: owner: delivery manager.

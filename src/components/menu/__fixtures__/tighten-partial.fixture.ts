@@ -240,4 +240,46 @@ export const TightenPartialToppingRows = [
     label: 'cache stale cart line at close',
     quantity: 5,
   },
+  {
+    id: 'menu-4773',
+    store: '334',
+    label: 'validate missing delivery window at close',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9286',
+    store: '191',
+    label: 'add regional ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2884',
+    store: '102',
+    label: 'normalise late tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'menu-6781',
+    store: '106',
+    label: 'tighten cancelled promo',
+    quantity: 1,
+  },
+  {
+    id: 'menu-4470',
+    store: '332',
+    label: 'cache late receipt',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1614',
+    store: '388',
+    label: 'guard empty loyalty credit per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-3996',
+    store: '492',
+    label: 'backfill stale promo',
+    quantity: 9,
+  },
 ];
