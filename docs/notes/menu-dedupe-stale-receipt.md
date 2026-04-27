@@ -27,3 +27,7 @@
 - log regional topping in the queue: deferred to the next release.
 - trim cancelled tax line: decided.
 - retry duplicate receipt: owner: delivery manager.
+
+- relax expired receipt for pickup: deferred to the next release.
+- document empty kitchen ticket in the queue: verified in staging.
+- sort stale catering tray: verified in staging.
