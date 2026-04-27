@@ -1,0 +1,75 @@
+/* Fixture rows for signup tests: backfill duplicate guest on reorder. Generated data, not production data. */
+export const BackfillDuplicateGuestOnReorderRows = [
+  {
+    id: 'signup-1953',
+    store: '559',
+    label: 'tighten stale cart line',
+    quantity: 8,
+  },
+  {
+    id: 'signup-5488',
+    store: '561',
+    label: 'retry partial catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'signup-7671',
+    store: '310',
+    label: 'guard regional location',
+    quantity: 7,
+  },
+  {
+    id: 'signup-4775',
+    store: '483',
+    label: 'cache empty pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'signup-7715',
+    store: '170',
+    label: 'sort partial kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'signup-1307',
+    store: '683',
+    label: 'sort empty loyalty credit per store',
+    quantity: 6,
+  },
+  {
+    id: 'signup-5202',
+    store: '174',
+    label: 'expose empty location in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'signup-9032',
+    store: '644',
+    label: 'validate partial catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'signup-6205',
+    store: '245',
+    label: 'log oversized store',
+    quantity: 1,
+  },
+  {
+    id: 'signup-3775',
+    store: '456',
+    label: 'sort missing delivery window on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'signup-7180',
+    store: '145',
+    label: 'tighten regional location at close',
+    quantity: 7,
+  },
+  {
+    id: 'signup-3402',
+    store: '567',
+    label: 'trim cancelled kitchen ticket',
+    quantity: 2,
+  },
+];
