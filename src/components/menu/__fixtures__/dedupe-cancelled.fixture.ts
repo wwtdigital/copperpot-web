@@ -1302,4 +1302,34 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'trim empty order',
     quantity: 12,
   },
+  {
+    id: 'menu-3222',
+    store: '348',
+    label: 'add partial ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-1739',
+    store: '563',
+    label: 'retry empty bowl on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4856',
+    store: '263',
+    label: 'guard oversized tax line',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7342',
+    store: '574',
+    label: 'retry regional location',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1427',
+    store: '235',
+    label: 'cache late menu item',
+    quantity: 2,
+  },
 ];

@@ -276,4 +276,10 @@ export const TightenPartialToppingRows = [
     label: 'guard empty loyalty credit per store',
     quantity: 4,
   },
+  {
+    id: 'menu-3996',
+    store: '492',
+    label: 'backfill stale promo',
+    quantity: 9,
+  },
 ];
