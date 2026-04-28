@@ -132,3 +132,8 @@
 - dedupe regional kitchen ticket: verified in staging.
 - cache expired ticket: decided.
 - sort stale topping for pickup: verified in staging.
+
+- validate regional tax line: owner: delivery manager.
+- trim late location: decided.
+- add duplicate cart line on checkout: deferred to the next release.
+- tighten partial location: deferred to the next release.
