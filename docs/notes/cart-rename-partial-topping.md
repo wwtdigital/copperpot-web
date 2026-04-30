@@ -48,3 +48,18 @@
 - retry late menu item at close: deferred to the next release.
 - dedupe duplicate cart line: decided.
 - cache empty ticket: owner: delivery manager.
+
+- relax missing promo: deferred to the next release.
+- paginate stale tax line: blocked on store systems.
+- backfill missing receipt on checkout: open.
+- log late menu item: decided.
+- document late catering tray per store: decided.
+- document oversized kitchen ticket per store: owner: delivery manager.
+- relax regional pickup slot on reorder: open.
+- trim late loyalty credit: owner: delivery manager.
+- handle cancelled topping: verified in staging.
+- backfill empty bowl on checkout: verified in staging.
+- handle cancelled receipt on reorder: deferred to the next release.
+- expose late topping: deferred to the next release.
+- document cancelled location for franchisees: deferred to the next release.
+- retry stale bowl: blocked on store systems.

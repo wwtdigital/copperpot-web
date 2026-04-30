@@ -29,3 +29,18 @@
 - tighten expired pickup slot: decided.
 - cache missing promo for pickup: owner: delivery manager.
 - expose regional promo for pickup: decided.
+
+- retry partial promo: verified in staging.
+- dedupe missing tax line in the queue: verified in staging.
+- sort missing tax line in the queue: owner: delivery manager.
+- log missing catering tray: deferred to the next release.
+- relax stale tax line at close: verified in staging.
+- backfill empty catering tray on reorder: owner: delivery manager.
+- rename missing ticket at close: deferred to the next release.
+- dedupe empty ticket at close: owner: delivery manager.
+- relax empty loyalty credit on reorder: verified in staging.
+- dedupe late menu item per store: owner: delivery manager.
+- document duplicate bowl: decided.
+- dedupe partial pickup slot: verified in staging.
+- handle cancelled cart line: verified in staging.
+- log missing ticket: owner: delivery manager.
