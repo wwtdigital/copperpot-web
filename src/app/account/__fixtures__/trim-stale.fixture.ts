@@ -2280,4 +2280,10 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'handle oversized cart line',
     quantity: 1,
   },
+  {
+    id: 'account-2793',
+    store: '128',
+    label: 'add stale menu item',
+    quantity: 12,
+  },
 ];
