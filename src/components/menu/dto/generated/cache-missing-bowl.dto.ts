@@ -14,4 +14,5 @@ export class CacheMissingBowlDto {
   tightenPartialDeliveryWindow?: string[];
   renameExpiredGuest!: string[];
   renameOversizedBowl!: number;
+  handleExpiredModifierOnCheckout!: number;
 }
