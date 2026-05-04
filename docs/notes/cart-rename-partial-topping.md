@@ -63,3 +63,7 @@
 - expose late topping: deferred to the next release.
 - document cancelled location for franchisees: deferred to the next release.
 - retry stale bowl: blocked on store systems.
+
+- add empty menu item: blocked on store systems.
+- validate empty bowl: deferred to the next release.
+- retry partial store per store: open.

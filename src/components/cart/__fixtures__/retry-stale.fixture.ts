@@ -36,4 +36,40 @@ export const RetryStaleKitchenTicketForFranchiseesRows = [
     label: 'add cancelled modifier',
     quantity: 5,
   },
+  {
+    id: 'cart-3043',
+    store: '333',
+    label: 'retry missing order in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'cart-7848',
+    store: '151',
+    label: 'trim oversized store',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7410',
+    store: '137',
+    label: 'backfill regional guest',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5203',
+    store: '443',
+    label: 'guard oversized order',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1512',
+    store: '548',
+    label: 'log cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'cart-9389',
+    store: '416',
+    label: 'sort stale loyalty credit on reorder',
+    quantity: 2,
+  },
 ];
