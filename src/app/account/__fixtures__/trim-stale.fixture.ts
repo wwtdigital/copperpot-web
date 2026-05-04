@@ -2262,4 +2262,40 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'sort stale cart line for pickup',
     quantity: 12,
   },
+  {
+    id: 'account-6226',
+    store: '396',
+    label: 'normalise regional tax line',
+    quantity: 4,
+  },
+  {
+    id: 'account-7250',
+    store: '119',
+    label: 'paginate stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'account-7841',
+    store: '385',
+    label: 'handle oversized cart line',
+    quantity: 1,
+  },
+  {
+    id: 'account-2793',
+    store: '128',
+    label: 'add stale menu item',
+    quantity: 12,
+  },
+  {
+    id: 'account-6888',
+    store: '288',
+    label: 'backfill empty order',
+    quantity: 10,
+  },
+  {
+    id: 'account-6578',
+    store: '374',
+    label: 'handle partial kitchen ticket',
+    quantity: 11,
+  },
 ];
