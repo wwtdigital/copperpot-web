@@ -2286,4 +2286,16 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'add stale menu item',
     quantity: 12,
   },
+  {
+    id: 'account-6888',
+    store: '288',
+    label: 'backfill empty order',
+    quantity: 10,
+  },
+  {
+    id: 'account-6578',
+    store: '374',
+    label: 'handle partial kitchen ticket',
+    quantity: 11,
+  },
 ];
