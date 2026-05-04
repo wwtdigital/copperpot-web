@@ -1392,4 +1392,28 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'sort partial catering tray',
     quantity: 12,
   },
+  {
+    id: 'menu-7208',
+    store: '564',
+    label: 'document empty store at close',
+    quantity: 1,
+  },
+  {
+    id: 'menu-4798',
+    store: '585',
+    label: 'retry expired location in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2080',
+    store: '341',
+    label: 'guard cancelled pickup slot in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3803',
+    store: '149',
+    label: 'paginate oversized store per store',
+    quantity: 6,
+  },
 ];

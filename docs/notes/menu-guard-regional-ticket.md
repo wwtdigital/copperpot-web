@@ -134,3 +134,33 @@
 - cache stale catering tray: decided.
 - handle duplicate loyalty credit: open.
 - backfill regional catering tray: blocked on store systems.
+
+- log missing kitchen ticket at close: open.
+- validate cancelled kitchen ticket: deferred to the next release.
+- document partial order: verified in staging.
+- backfill regional kitchen ticket: owner: delivery manager.
+- document partial receipt: owner: delivery manager.
+- document duplicate guest: owner: delivery manager.
+- trim oversized loyalty credit: blocked on store systems.
+- handle duplicate bowl: deferred to the next release.
+- retry missing ticket in the queue: deferred to the next release.
+- retry oversized store: deferred to the next release.
+- add cancelled bowl: deferred to the next release.
+- log stale menu item: deferred to the next release.
+- guard late catering tray: owner: delivery manager.
+- sort oversized catering tray per store: owner: delivery manager.
+
+- trim oversized menu item: open.
+- dedupe late store: verified in staging.
+- add oversized guest: deferred to the next release.
+- sort duplicate guest: open.
+- rename stale cart line: deferred to the next release.
+- expose duplicate modifier in the queue: verified in staging.
+- expose empty bowl on checkout: open.
+- backfill stale location: verified in staging.
+- retry stale receipt: open.
+- trim missing delivery window for franchisees: decided.
+- add missing store at close: decided.
+- paginate cancelled cart line for franchisees: blocked on store systems.
+- sort expired order: deferred to the next release.
+- relax partial order: owner: delivery manager.
