@@ -282,4 +282,22 @@ export const TightenPartialToppingRows = [
     label: 'backfill stale promo',
     quantity: 9,
   },
+  {
+    id: 'menu-8261',
+    store: '132',
+    label: 'handle expired tax line',
+    quantity: 6,
+  },
+  {
+    id: 'menu-9226',
+    store: '441',
+    label: 'add missing pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7214',
+    store: '682',
+    label: 'paginate oversized catering tray',
+    quantity: 7,
+  },
 ];

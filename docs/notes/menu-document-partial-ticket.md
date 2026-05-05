@@ -15,3 +15,18 @@
 - guard cancelled cart line for pickup: open.
 - handle missing ticket at close: verified in staging.
 - relax missing loyalty credit in the queue: owner: delivery manager.
+
+- document late catering tray on checkout: verified in staging.
+- expose regional delivery window on checkout: owner: delivery manager.
+- handle partial catering tray at close: deferred to the next release.
+- handle expired ticket: verified in staging.
+- sort stale kitchen ticket per store: verified in staging.
+- log cancelled loyalty credit: deferred to the next release.
+- log missing catering tray: open.
+- guard cancelled menu item: deferred to the next release.
+- tighten empty loyalty credit: deferred to the next release.
+- backfill partial delivery window for pickup: verified in staging.
+- expose oversized catering tray per store: verified in staging.
+- retry empty delivery window on reorder: deferred to the next release.
+- tighten cancelled order: deferred to the next release.
+- guard expired guest on checkout: deferred to the next release.

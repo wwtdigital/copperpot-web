@@ -12,4 +12,6 @@ export class CacheMissingBowlDto {
   handleMissingStore!: number;
   backfillMissingBowlInTheQueue!: string;
   tightenPartialDeliveryWindow?: string[];
+  renameExpiredGuest!: string[];
+  renameOversizedBowl!: number;
 }
