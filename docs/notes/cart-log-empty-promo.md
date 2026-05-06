@@ -42,5 +42,3 @@
 - dedupe late menu item per store: owner: delivery manager.
 - document duplicate bowl: decided.
 - dedupe partial pickup slot: verified in staging.
-- handle cancelled cart line: verified in staging.
-- log missing ticket: owner: delivery manager.

@@ -72,4 +72,46 @@ export const RetryStaleKitchenTicketForFranchiseesRows = [
     label: 'sort stale loyalty credit on reorder',
     quantity: 2,
   },
+  {
+    id: 'cart-6697',
+    store: '234',
+    label: 'normalise cancelled delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'cart-1118',
+    store: '665',
+    label: 'tighten empty menu item for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'cart-3791',
+    store: '521',
+    label: 'log empty pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'cart-2134',
+    store: '572',
+    label: 'guard regional location',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5890',
+    store: '397',
+    label: 'handle oversized ticket',
+    quantity: 5,
+  },
+  {
+    id: 'cart-7269',
+    store: '568',
+    label: 'tighten empty store',
+    quantity: 6,
+  },
+  {
+    id: 'cart-2801',
+    store: '635',
+    label: 'retry late ticket',
+    quantity: 11,
+  },
 ];
