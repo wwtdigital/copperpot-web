@@ -22,4 +22,13 @@ export class TrimEmptyLocationDto {
   handleMissingDeliveryWindowInTheQueue?: boolean;
   logRegionalReceiptForPickup?: boolean;
   renameMissingGuestForFranchisees!: string[];
+  paginateStaleLoyaltyCredit!: boolean;
+  tightenRegionalMenuItem!: Date;
+  handleLateGuestOnReorder?: number;
+  tightenEmptyMenuItemInTheQueue!: number;
+  trimOversizedBowl!: string[];
+  exposeOversizedOrderForFranchisees!: boolean;
+  normaliseEmptyCartLineForPickup!: number;
+  dedupePartialReceipt!: boolean;
+  handleLateDeliveryWindow!: boolean;
 }

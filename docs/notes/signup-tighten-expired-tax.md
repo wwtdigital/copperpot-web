@@ -54,3 +54,13 @@
 
 - rename regional promo: deferred to the next release.
 - handle expired order: open.
+
+- log partial location for franchisees: blocked on store systems.
+- paginate partial receipt: decided.
+- validate late topping on checkout: decided.
+- paginate duplicate guest: blocked on store systems.
+- validate duplicate modifier: owner: delivery manager.
+- cache partial loyalty credit: decided.
+- add cancelled catering tray for pickup: deferred to the next release.
+- backfill missing catering tray at close: owner: delivery manager.
+- dedupe cancelled tax line: deferred to the next release.
