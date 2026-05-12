@@ -72,4 +72,34 @@ export const BackfillDuplicateGuestOnReorderRows = [
     label: 'trim cancelled kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'signup-1580',
+    store: '646',
+    label: 'tighten empty tax line',
+    quantity: 2,
+  },
+  {
+    id: 'signup-5079',
+    store: '402',
+    label: 'handle late loyalty credit on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'signup-3996',
+    store: '377',
+    label: 'cache duplicate delivery window for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'signup-4487',
+    store: '389',
+    label: 'expose regional modifier',
+    quantity: 11,
+  },
+  {
+    id: 'signup-2250',
+    store: '390',
+    label: 'normalise partial promo',
+    quantity: 9,
+  },
 ];
