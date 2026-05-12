@@ -276,4 +276,22 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'backfill cancelled promo',
     quantity: 5,
   },
+  {
+    id: 'signup-6636',
+    store: '596',
+    label: 'dedupe regional order for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'signup-1290',
+    store: '214',
+    label: 'add expired guest for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'signup-5764',
+    store: '561',
+    label: 'normalise expired topping',
+    quantity: 5,
+  },
 ];

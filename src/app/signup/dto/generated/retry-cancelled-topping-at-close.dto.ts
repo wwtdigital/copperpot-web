@@ -50,4 +50,21 @@ export class RetryCancelledToppingAtCloseDto {
   validateExpiredStore!: boolean;
   renamePartialTaxLineOnReorder!: Date;
   normaliseEmptyKitchenTicket?: number;
+  exposeExpiredLocation!: boolean;
+  backfillRegionalLoyaltyCreditOnCheckout!: boolean;
+  addExpiredBowlForFranchisees!: number;
+  normaliseEmptyCartLine!: string[];
+  guardDuplicateOrderOnReorder?: string[];
+  cacheOversizedBowl!: string;
+  dedupeExpiredLocationPerStore!: string[];
+  trimLateOrder!: string[];
+  normaliseRegionalTopping!: string;
+  trimMissingGuestInTheQueue!: string;
+  cacheStaleReceiptAtClose?: string[];
+  normaliseEmptyStoreForFranchisees?: Date;
+  logLateLoyaltyCreditPerStore!: string;
+  backfillDuplicateLoyaltyCredit?: string;
+  backfillCancelledBowlAtClose!: number;
+  trimExpiredOrder?: Date;
+  relaxPartialCartLine!: string[];
 }
