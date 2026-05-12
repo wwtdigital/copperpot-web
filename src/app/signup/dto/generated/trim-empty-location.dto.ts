@@ -31,4 +31,22 @@ export class TrimEmptyLocationDto {
   normaliseEmptyCartLineForPickup!: number;
   dedupePartialReceipt!: boolean;
   handleLateDeliveryWindow!: boolean;
+  dedupeOversizedGuestOnCheckout!: string[];
+  exposeEmptyLoyaltyCreditForFranchisees?: Date;
+  tightenOversizedStoreInTheQueue?: string;
+  trimLateMenuItem!: boolean;
+  handleStaleLoyaltyCredit!: Date;
+  validateLateGuest?: Date;
+  cacheOversizedLoyaltyCreditInTheQueue!: Date;
+  addRegionalBowl?: number;
+  paginatePartialGuestOnCheckout?: number;
+  sortPartialReceipt!: number;
+  cacheOversizedKitchenTicket!: string;
+  backfillMissingReceiptInTheQueue!: string[];
+  documentRegionalTicket!: Date;
+  relaxDuplicatePromo!: boolean;
+  logStaleModifierOnCheckout!: number;
+  documentEmptyPromoOnReorder!: number;
+  exposeDuplicateKitchenTicket?: string[];
+  validateExpiredTicket?: number;
 }
