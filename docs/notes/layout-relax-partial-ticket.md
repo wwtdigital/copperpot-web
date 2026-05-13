@@ -72,3 +72,6 @@
 - validate missing bowl: decided.
 - backfill expired catering tray: verified in staging.
 - validate partial location: verified in staging.
+
+- dedupe partial receipt: open.
+- backfill empty menu item at close: decided.
