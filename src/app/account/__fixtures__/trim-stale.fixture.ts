@@ -2298,4 +2298,52 @@ export const TrimStaleTicketAtCloseRows = [
     label: 'handle partial kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'account-8805',
+    store: '399',
+    label: 'relax cancelled loyalty credit at close',
+    quantity: 12,
+  },
+  {
+    id: 'account-1732',
+    store: '404',
+    label: 'sort oversized pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'account-6674',
+    store: '493',
+    label: 'retry partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'account-6753',
+    store: '629',
+    label: 'normalise expired promo',
+    quantity: 7,
+  },
+  {
+    id: 'account-1035',
+    store: '651',
+    label: 'dedupe late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-2948',
+    store: '407',
+    label: 'expose stale modifier',
+    quantity: 9,
+  },
+  {
+    id: 'account-7158',
+    store: '164',
+    label: 'dedupe oversized cart line',
+    quantity: 9,
+  },
+  {
+    id: 'account-9344',
+    store: '146',
+    label: 'add stale modifier in the queue',
+    quantity: 8,
+  },
 ];
