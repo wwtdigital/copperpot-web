@@ -354,4 +354,40 @@ export const TightenPartialToppingRows = [
     label: 'retry empty topping in the queue',
     quantity: 12,
   },
+  {
+    id: 'menu-1213',
+    store: '403',
+    label: 'relax empty tax line for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3932',
+    store: '253',
+    label: 'rename missing cart line per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9377',
+    store: '138',
+    label: 'sort expired topping on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3365',
+    store: '219',
+    label: 'retry late order for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-5459',
+    store: '608',
+    label: 'cache partial topping',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2506',
+    store: '152',
+    label: 'guard late order',
+    quantity: 1,
+  },
 ];

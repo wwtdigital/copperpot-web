@@ -1416,4 +1416,10 @@ export const DedupeCancelledDeliveryWindowRows = [
     label: 'paginate oversized store per store',
     quantity: 6,
   },
+  {
+    id: 'menu-1528',
+    store: '620',
+    label: 'document cancelled cart line',
+    quantity: 6,
+  },
 ];
