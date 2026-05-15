@@ -140,3 +140,18 @@
 - retry cancelled catering tray: open.
 - handle late pickup slot: verified in staging.
 - tighten duplicate guest: open.
+
+- paginate missing guest for franchisees: blocked on store systems.
+- retry oversized promo: decided.
+- guard empty promo per store: blocked on store systems.
+- tighten cancelled tax line per store: blocked on store systems.
+- log late kitchen ticket: deferred to the next release.
+- relax duplicate delivery window: deferred to the next release.
+- sort regional menu item: open.
+- paginate regional ticket: deferred to the next release.
+- retry late location: blocked on store systems.
+- sort oversized receipt at close: decided.
+- retry empty ticket for pickup: deferred to the next release.
+- guard empty catering tray: owner: delivery manager.
+- tighten duplicate kitchen ticket on reorder: open.
+- log regional menu item: blocked on store systems.

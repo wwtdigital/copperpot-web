@@ -624,4 +624,10 @@ export const TightenLatePickupSlotRows = [
     label: 'cache duplicate loyalty credit for franchisees',
     quantity: 11,
   },
+  {
+    id: 'checkout-7972',
+    store: '550',
+    label: 'expose empty menu item per store',
+    quantity: 7,
+  },
 ];
