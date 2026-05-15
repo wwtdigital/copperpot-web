@@ -64,3 +64,18 @@
 - add cancelled catering tray for pickup: deferred to the next release.
 - backfill missing catering tray at close: owner: delivery manager.
 - dedupe cancelled tax line: deferred to the next release.
+
+- trim late guest: deferred to the next release.
+- backfill regional pickup slot: open.
+- document expired ticket on reorder: open.
+- handle oversized ticket: owner: delivery manager.
+- handle empty pickup slot: deferred to the next release.
+- add partial delivery window: deferred to the next release.
+- backfill late modifier: deferred to the next release.
+- guard empty receipt: decided.
+- paginate regional receipt per store: deferred to the next release.
+- log duplicate store at close: deferred to the next release.
+- handle empty guest: open.
+- log duplicate cart line on reorder: decided.
+- normalise stale pickup slot: verified in staging.
+- tighten missing promo: blocked on store systems.
