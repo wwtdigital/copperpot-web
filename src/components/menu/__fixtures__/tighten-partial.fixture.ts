@@ -390,4 +390,40 @@ export const TightenPartialToppingRows = [
     label: 'guard late order',
     quantity: 1,
   },
+  {
+    id: 'menu-4365',
+    store: '216',
+    label: 'handle cancelled catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'menu-1982',
+    store: '300',
+    label: 'tighten partial location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5837',
+    store: '447',
+    label: 'retry oversized catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7959',
+    store: '315',
+    label: 'retry missing cart line for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'menu-8071',
+    store: '368',
+    label: 'validate regional loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3899',
+    store: '207',
+    label: 'expose duplicate tax line',
+    quantity: 5,
+  },
 ];
