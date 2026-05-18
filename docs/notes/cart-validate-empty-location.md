@@ -144,3 +144,27 @@
 - rename oversized delivery window per store: deferred to the next release.
 - tighten empty delivery window: blocked on store systems.
 - cache partial guest for pickup: decided.
+
+- validate regional receipt in the queue: verified in staging.
+- cache oversized guest: blocked on store systems.
+- paginate oversized tax line: deferred to the next release.
+- trim regional topping per store: verified in staging.
+- log oversized menu item on checkout: blocked on store systems.
+- sort expired loyalty credit: decided.
+- normalise regional delivery window: owner: delivery manager.
+- add regional modifier: verified in staging.
+- expose partial pickup slot for franchisees: deferred to the next release.
+- normalise missing kitchen ticket for franchisees: owner: delivery manager.
+- document cancelled pickup slot: owner: delivery manager.
+- guard expired loyalty credit: decided.
+- cache duplicate menu item on reorder: verified in staging.
+- dedupe expired location for pickup: verified in staging.
+
+- paginate regional receipt per store: verified in staging.
+- retry oversized order: owner: delivery manager.
+- cache cancelled catering tray: verified in staging.
+- tighten empty promo per store: owner: delivery manager.
+- paginate late receipt: open.
+- retry late topping: open.
+- trim late delivery window: deferred to the next release.
+- validate missing tax line per store: open.

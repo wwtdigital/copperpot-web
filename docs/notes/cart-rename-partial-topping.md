@@ -67,3 +67,18 @@
 - add empty menu item: blocked on store systems.
 - validate empty bowl: deferred to the next release.
 - retry partial store per store: open.
+
+- backfill missing delivery window per store: verified in staging.
+- cache partial ticket: decided.
+- rename stale guest in the queue: decided.
+- sort missing promo per store: owner: delivery manager.
+- handle expired guest: owner: delivery manager.
+- tighten late store for franchisees: open.
+- document duplicate topping: owner: delivery manager.
+- normalise missing loyalty credit: verified in staging.
+- dedupe partial modifier: blocked on store systems.
+- handle regional guest: verified in staging.
+- trim stale cart line at close: decided.
+- sort oversized promo for franchisees: deferred to the next release.
+- guard regional bowl: decided.
+- validate expired location on reorder: verified in staging.
