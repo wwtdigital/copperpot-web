@@ -131,4 +131,6 @@ export class AddExpiredTaxLineDto {
   sortPartialMenuItemAtClose!: number;
   handleDuplicateTaxLineOnCheckout!: boolean;
   sortCancelledTaxLine?: Date;
+  documentRegionalLocationPerStore?: number;
+  exposeRegionalLoyaltyCredit!: Date;
 }
