@@ -94,4 +94,9 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   dedupePartialDeliveryWindow!: string[];
   documentStaleReceipt!: string[];
   logEmptyMenuItem!: string[];
+  relaxMissingDeliveryWindowPerStore!: boolean;
+  validateExpiredCartLine!: Date;
+  addRegionalDeliveryWindowInTheQueue!: boolean;
+  backfillExpiredCateringTray?: Date;
+  tightenCancelledPromoAtClose!: number;
 }
