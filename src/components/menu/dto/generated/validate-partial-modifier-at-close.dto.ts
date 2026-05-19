@@ -27,4 +27,22 @@ export class ValidatePartialModifierAtCloseDto {
   normaliseDuplicateModifierForPickup!: boolean;
   dedupeExpiredBowl!: Date;
   tightenDuplicateStoreForFranchisees?: Date;
+  relaxEmptyTaxLine!: number;
+  trimOversizedTaxLine!: string;
+  trimPartialTopping!: boolean;
+  normaliseEmptyToppingAtClose!: Date;
+  dedupeExpiredModifierInTheQueue!: Date;
+  logExpiredOrder!: string;
+  handleExpiredCateringTray!: boolean;
+  normaliseOversizedStore!: boolean;
+  handleStaleTicket!: string;
+  paginateExpiredGuest!: string;
+  addLateLoyaltyCreditOnReorder!: boolean;
+  backfillMissingLoyaltyCreditOnReorder!: number;
+  documentEmptyTicket!: string[];
+  renameEmptyOrderInTheQueue!: boolean;
+  guardEmptyKitchenTicket!: boolean;
+  exposeLatePickupSlot!: boolean;
+  handleLateLocationForPickup!: Date;
+  validateDuplicateTaxLine?: number;
 }

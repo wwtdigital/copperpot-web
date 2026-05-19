@@ -31,3 +31,18 @@
 - relax expired receipt for pickup: deferred to the next release.
 - document empty kitchen ticket in the queue: verified in staging.
 - sort stale catering tray: verified in staging.
+
+- cache stale cart line: deferred to the next release.
+- cache partial bowl: blocked on store systems.
+- sort duplicate guest: open.
+- retry partial kitchen ticket: decided.
+- backfill stale topping: owner: delivery manager.
+- handle duplicate modifier: owner: delivery manager.
+- normalise missing ticket: open.
+- document regional tax line: open.
+- validate partial catering tray for pickup: deferred to the next release.
+- handle late pickup slot: deferred to the next release.
+- rename cancelled menu item: owner: delivery manager.
+- dedupe late receipt: deferred to the next release.
+- validate late ticket at close: open.
+- document expired pickup slot on reorder: verified in staging.

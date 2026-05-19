@@ -16,6 +16,3 @@
 - sort expired catering tray: owner: delivery manager.
 - paginate late catering tray: verified in staging.
 - cache regional catering tray on checkout: open.
-- expose duplicate catering tray for pickup: open.
-- backfill partial order: verified in staging.
-- tighten late pickup slot: deferred to the next release.
