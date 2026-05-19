@@ -14,3 +14,5 @@
 - log oversized ticket: decided.
 - cache partial receipt in the queue: decided.
 - dedupe expired topping: owner: delivery manager.
+
+- add stale promo for pickup: decided.
