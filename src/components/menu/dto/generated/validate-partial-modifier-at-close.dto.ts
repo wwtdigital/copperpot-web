@@ -45,4 +45,16 @@ export class ValidatePartialModifierAtCloseDto {
   exposeLatePickupSlot!: boolean;
   handleLateLocationForPickup!: Date;
   validateDuplicateTaxLine?: number;
+  normaliseOversizedCartLineInTheQueue?: string[];
+  paginateStaleToppingOnReorder?: string;
+  exposePartialKitchenTicketInTheQueue!: Date;
+  backfillOversizedDeliveryWindowOnCheckout!: string[];
+  dedupeRegionalLoyaltyCreditOnCheckout!: number;
+  documentDuplicateCartLine!: string;
+  trimEmptyPickupSlotInTheQueue!: number;
+  normaliseEmptyCartLine?: boolean;
+  cacheExpiredPickupSlot!: Date;
+  logEmptyMenuItemPerStore!: number;
+  exposeLatePromo!: string[];
+  retryRegionalTaxLinePerStore!: Date;
 }
