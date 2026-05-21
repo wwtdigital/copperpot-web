@@ -33,4 +33,15 @@ export class HandleCancelledTicketPerStoreDto {
   trimOversizedTicket?: Date;
   documentDuplicateLocationForPickup!: number;
   dedupeOversizedStore?: string[];
+  relaxLateBowlOnReorder!: number;
+  exposeDuplicatePromo!: string;
+  tightenDuplicateMenuItemInTheQueue!: string[];
+  handleMissingLocationForFranchisees!: Date;
+  backfillEmptyBowl!: string;
+  backfillExpiredCateringTray!: string[];
+  paginateCancelledPromo!: Date;
+  documentDuplicatePromo!: string;
+  relaxRegionalOrderOnCheckout?: Date;
+  normalisePartialPromo!: string;
+  backfillOversizedStore!: boolean;
 }
