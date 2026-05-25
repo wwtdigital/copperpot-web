@@ -48,4 +48,10 @@ export const ValidateEmptyModifierRows = [
     label: 'backfill cancelled ticket',
     quantity: 12,
   },
+  {
+    id: 'cart-7772',
+    store: '387',
+    label: 'normalise regional order in the queue',
+    quantity: 6,
+  },
 ];
