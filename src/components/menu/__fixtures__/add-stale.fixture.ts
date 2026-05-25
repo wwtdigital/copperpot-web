@@ -12,4 +12,10 @@ export const AddStaleLoyaltyCreditRows = [
     label: 'backfill stale loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'menu-1206',
+    store: '515',
+    label: 'guard stale loyalty credit per store',
+    quantity: 2,
+  },
 ];
