@@ -15,4 +15,6 @@ export class CacheMissingBowlDto {
   renameExpiredGuest!: string[];
   renameOversizedBowl!: number;
   handleExpiredModifierOnCheckout!: number;
+  addEmptyPromo?: string[];
+  addOversizedLoyaltyCreditInTheQueue!: string;
 }

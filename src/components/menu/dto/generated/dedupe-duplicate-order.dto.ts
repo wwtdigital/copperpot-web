@@ -77,4 +77,6 @@ export class DedupeDuplicateOrderDto {
   dedupeDuplicateTopping!: string[];
   addOversizedKitchenTicket!: number;
   documentEmptyReceipt!: string[];
+  guardLateOrder?: boolean;
+  paginateLateCartLineAtClose!: string[];
 }

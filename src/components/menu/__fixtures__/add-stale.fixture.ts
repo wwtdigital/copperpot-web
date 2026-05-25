@@ -18,4 +18,22 @@ export const AddStaleLoyaltyCreditRows = [
     label: 'guard stale loyalty credit per store',
     quantity: 2,
   },
+  {
+    id: 'menu-6265',
+    store: '636',
+    label: 'trim late delivery window for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'menu-1493',
+    store: '127',
+    label: 'add duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1421',
+    store: '254',
+    label: 'retry regional menu item',
+    quantity: 12,
+  },
 ];
