@@ -48,4 +48,11 @@ export class HandlePartialOrderDto {
   logExpiredDeliveryWindow?: string[];
   validatePartialCateringTray!: Date;
   logRegionalLoyaltyCreditInTheQueue?: string[];
+  guardLateModifierOnReorder!: Date;
+  logLateStorePerStore!: string;
+  documentExpiredPickupSlot!: string[];
+  validateExpiredGuestOnReorder!: string[];
+  exposeStalePickupSlot!: number;
+  normaliseStaleKitchenTicketPerStore!: string[];
+  logMissingModifierOnReorder?: number;
 }
