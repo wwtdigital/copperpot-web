@@ -75,4 +75,8 @@ export class DedupeDuplicateOrderDto {
   retryExpiredTopping!: number;
   validateExpiredReceiptOnReorder!: Date;
   dedupeDuplicateTopping!: string[];
+  addOversizedKitchenTicket!: number;
+  documentEmptyReceipt!: string[];
+  guardLateOrder?: boolean;
+  paginateLateCartLineAtClose!: string[];
 }
