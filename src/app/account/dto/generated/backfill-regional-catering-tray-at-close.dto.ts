@@ -99,4 +99,15 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   addRegionalDeliveryWindowInTheQueue!: boolean;
   backfillExpiredCateringTray?: Date;
   tightenCancelledPromoAtClose!: number;
+  paginateMissingModifier?: boolean;
+  backfillPartialLoyaltyCreditOnCheckout!: string;
+  paginatePartialKitchenTicket!: string[];
+  validateStalePickupSlotAtClose!: number;
+  backfillOversizedGuestForFranchisees!: number;
+  handleRegionalOrderOnCheckout?: Date;
+  retryMissingTicket?: boolean;
+  tightenExpiredPickupSlotForPickup!: boolean;
+  sortOversizedPromoAtClose?: string[];
+  exposeDuplicateStoreOnReorder!: Date;
+  normaliseRegionalOrder!: boolean;
 }

@@ -16,4 +16,21 @@ export class HandleRegionalKitchenTicketDto {
   trimStaleCartLineAtClose!: boolean;
   trimPartialLocation?: string;
   relaxDuplicateTaxLine!: boolean;
+  sortDuplicateReceiptOnReorder!: string[];
+  documentOversizedPickupSlotAtClose!: string;
+  addDuplicateTicket!: boolean;
+  relaxLateOrderOnCheckout!: Date;
+  paginateMissingPromo!: string[];
+  backfillRegionalGuestAtClose?: Date;
+  backfillEmptyCateringTrayAtClose!: number;
+  logCancelledGuestAtClose!: string[];
+  documentDuplicateLoyaltyCredit?: string;
+  relaxExpiredGuestAtClose!: Date;
+  guardExpiredOrder!: boolean;
+  dedupeStaleCateringTrayForFranchisees!: string;
+  documentEmptyModifierForPickup?: string;
+  cacheDuplicatePromo?: boolean;
+  documentCancelledTicketOnReorder?: string;
+  exposePartialMenuItemAtClose!: string;
+  paginateExpiredGuest!: boolean;
 }
