@@ -66,4 +66,10 @@ export const RelaxStaleOrderRows = [
     label: 'rename cancelled catering tray on checkout',
     quantity: 10,
   },
+  {
+    id: 'account-5916',
+    store: '254',
+    label: 'rename late order',
+    quantity: 2,
+  },
 ];
