@@ -24,4 +24,28 @@ export const ValidateEmptyModifierRows = [
     label: 'rename stale cart line',
     quantity: 8,
   },
+  {
+    id: 'cart-9029',
+    store: '308',
+    label: 'cache late loyalty credit in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8281',
+    store: '219',
+    label: 'log cancelled location for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'cart-2821',
+    store: '668',
+    label: 'guard late catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3473',
+    store: '434',
+    label: 'backfill cancelled ticket',
+    quantity: 12,
+  },
 ];
