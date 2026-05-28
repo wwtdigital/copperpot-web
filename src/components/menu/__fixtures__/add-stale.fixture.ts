@@ -36,4 +36,16 @@ export const AddStaleLoyaltyCreditRows = [
     label: 'retry regional menu item',
     quantity: 12,
   },
+  {
+    id: 'menu-8202',
+    store: '143',
+    label: 'sort stale ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9550',
+    store: '637',
+    label: 'normalise empty tax line',
+    quantity: 7,
+  },
 ];

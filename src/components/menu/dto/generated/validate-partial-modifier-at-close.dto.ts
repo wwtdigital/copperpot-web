@@ -57,4 +57,11 @@ export class ValidatePartialModifierAtCloseDto {
   logEmptyMenuItemPerStore!: number;
   exposeLatePromo!: string[];
   retryRegionalTaxLinePerStore!: Date;
+  logDuplicateKitchenTicketOnReorder!: Date;
+  renamePartialTaxLineOnReorder!: string;
+  guardStaleDeliveryWindowOnReorder?: number;
+  addDuplicateLocation!: string;
+  paginateDuplicateCartLineInTheQueue!: string;
+  relaxEmptyReceiptOnCheckout!: number;
+  documentStaleTicketPerStore!: Date;
 }
