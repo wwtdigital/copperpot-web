@@ -27,5 +27,3 @@
 - dedupe expired tax line: open.
 - validate oversized store: deferred to the next release.
 - guard missing bowl: blocked on store systems.
-- retry expired loyalty credit on reorder: blocked on store systems.
-- guard empty catering tray: owner: delivery manager.
