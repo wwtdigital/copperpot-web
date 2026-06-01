@@ -96,4 +96,46 @@ export const ValidateEmptyModifierRows = [
     label: 'paginate missing pickup slot',
     quantity: 10,
   },
+  {
+    id: 'cart-4971',
+    store: '600',
+    label: 'validate expired catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3611',
+    store: '239',
+    label: 'log partial bowl for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1286',
+    store: '633',
+    label: 'tighten expired guest on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1973',
+    store: '579',
+    label: 'handle late topping',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1129',
+    store: '583',
+    label: 'document partial pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7720',
+    store: '282',
+    label: 'cache partial modifier',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7484',
+    store: '466',
+    label: 'relax late pickup slot on reorder',
+    quantity: 7,
+  },
 ];

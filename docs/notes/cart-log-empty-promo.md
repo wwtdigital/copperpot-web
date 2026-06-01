@@ -9,3 +9,6 @@
 - backfill empty store: open.
 - validate duplicate promo in the queue: owner: delivery manager.
 - log duplicate cart line: open.
+
+- handle missing location for franchisees: owner: delivery manager.
+- dedupe cancelled catering tray: deferred to the next release.
