@@ -138,4 +138,46 @@ export const ValidateEmptyModifierRows = [
     label: 'relax late pickup slot on reorder',
     quantity: 7,
   },
+  {
+    id: 'cart-9844',
+    store: '671',
+    label: 'dedupe empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6209',
+    store: '632',
+    label: 'paginate expired catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4981',
+    store: '405',
+    label: 'tighten late store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8691',
+    store: '213',
+    label: 'paginate empty guest',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8718',
+    store: '356',
+    label: 'add late kitchen ticket on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'cart-6100',
+    store: '663',
+    label: 'paginate stale tax line',
+    quantity: 6,
+  },
+  {
+    id: 'cart-6582',
+    store: '540',
+    label: 'paginate stale modifier',
+    quantity: 1,
+  },
 ];
