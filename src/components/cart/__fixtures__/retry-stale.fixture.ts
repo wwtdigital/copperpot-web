@@ -222,4 +222,10 @@ export const RetryStaleKitchenTicketForFranchiseesRows = [
     label: 'normalise regional store',
     quantity: 1,
   },
+  {
+    id: 'cart-1613',
+    store: '287',
+    label: 'guard missing guest for franchisees',
+    quantity: 12,
+  },
 ];

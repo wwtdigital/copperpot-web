@@ -54,4 +54,46 @@ export const ValidateEmptyModifierRows = [
     label: 'normalise regional order in the queue',
     quantity: 6,
   },
+  {
+    id: 'cart-1368',
+    store: '460',
+    label: 'add partial location',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6072',
+    store: '105',
+    label: 'sort duplicate catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9670',
+    store: '595',
+    label: 'normalise cancelled catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'cart-2087',
+    store: '626',
+    label: 'rename regional delivery window at close',
+    quantity: 1,
+  },
+  {
+    id: 'cart-3489',
+    store: '167',
+    label: 'handle late store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1182',
+    store: '293',
+    label: 'handle partial store for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7636',
+    store: '629',
+    label: 'paginate missing pickup slot',
+    quantity: 10,
+  },
 ];
