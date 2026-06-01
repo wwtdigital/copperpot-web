@@ -186,4 +186,46 @@ export const RetryStaleKitchenTicketForFranchiseesRows = [
     label: 'sort stale bowl',
     quantity: 9,
   },
+  {
+    id: 'cart-3871',
+    store: '239',
+    label: 'log empty receipt on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'cart-7371',
+    store: '119',
+    label: 'relax duplicate guest for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4190',
+    store: '172',
+    label: 'trim partial location',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1141',
+    store: '202',
+    label: 'relax late cart line',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4259',
+    store: '274',
+    label: 'relax duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8698',
+    store: '302',
+    label: 'normalise regional store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1613',
+    store: '287',
+    label: 'guard missing guest for franchisees',
+    quantity: 12,
+  },
 ];
