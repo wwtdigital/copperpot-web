@@ -270,4 +270,34 @@ export const RenameStaleStoreRows = [
     label: 'paginate empty guest',
     quantity: 4,
   },
+  {
+    id: 'login-4841',
+    store: '335',
+    label: 'retry partial order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'login-2639',
+    store: '425',
+    label: 'trim regional guest',
+    quantity: 7,
+  },
+  {
+    id: 'login-4566',
+    store: '642',
+    label: 'backfill missing location',
+    quantity: 3,
+  },
+  {
+    id: 'login-3205',
+    store: '388',
+    label: 'paginate missing receipt for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'login-6560',
+    store: '233',
+    label: 'dedupe cancelled store on checkout',
+    quantity: 3,
+  },
 ];

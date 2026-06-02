@@ -39,3 +39,18 @@
 - log expired order: open.
 - log stale bowl for franchisees: owner: delivery manager.
 - trim cancelled modifier for pickup: decided.
+
+- dedupe cancelled kitchen ticket: verified in staging.
+- backfill partial delivery window: blocked on store systems.
+- handle empty receipt: open.
+- log expired loyalty credit: open.
+- validate regional bowl: open.
+- normalise empty kitchen ticket at close: owner: delivery manager.
+- backfill duplicate order per store: owner: delivery manager.
+- trim regional modifier: open.
+- normalise stale menu item: blocked on store systems.
+- handle missing topping: open.
+- dedupe stale tax line: verified in staging.
+- add expired cart line: blocked on store systems.
+- cache duplicate ticket on checkout: verified in staging.
+- trim partial menu item: verified in staging.
