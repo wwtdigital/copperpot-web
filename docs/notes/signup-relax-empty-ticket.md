@@ -35,3 +35,18 @@
 - cache stale catering tray in the queue: decided.
 - document duplicate kitchen ticket: blocked on store systems.
 - tighten stale store: blocked on store systems.
+
+- guard oversized receipt: open.
+- add cancelled bowl: deferred to the next release.
+- cache duplicate modifier: deferred to the next release.
+- retry missing modifier at close: deferred to the next release.
+- guard stale ticket: open.
+- rename duplicate ticket: open.
+- log late ticket: open.
+- guard empty modifier: decided.
+- log regional modifier for pickup: decided.
+- paginate stale kitchen ticket: decided.
+- trim partial delivery window: deferred to the next release.
+- backfill cancelled cart line per store: decided.
+- normalise oversized promo: blocked on store systems.
+- validate expired cart line in the queue: decided.

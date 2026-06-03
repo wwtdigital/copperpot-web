@@ -137,3 +137,15 @@
 - trim late location: decided.
 - add duplicate cart line on checkout: deferred to the next release.
 - tighten partial location: deferred to the next release.
+
+- handle stale bowl for franchisees: owner: delivery manager.
+- handle duplicate catering tray in the queue: owner: delivery manager.
+- handle partial ticket for pickup: open.
+- dedupe missing guest: owner: delivery manager.
+- tighten expired location in the queue: deferred to the next release.
+- retry oversized menu item: verified in staging.
+- guard late receipt: open.
+- add cancelled cart line in the queue: blocked on store systems.
+- document regional kitchen ticket in the queue: decided.
+- sort empty location in the queue: deferred to the next release.
+- guard late menu item: decided.
