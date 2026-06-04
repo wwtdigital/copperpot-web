@@ -44,3 +44,18 @@
 - expose missing cart line: deferred to the next release.
 - sort missing topping on reorder: verified in staging.
 - validate expired receipt in the queue: verified in staging.
+
+- trim missing ticket: owner: delivery manager.
+- sort empty menu item: verified in staging.
+- guard expired receipt: blocked on store systems.
+- sort late kitchen ticket in the queue: owner: delivery manager.
+- retry cancelled receipt: deferred to the next release.
+- dedupe oversized store: verified in staging.
+- tighten oversized menu item: verified in staging.
+- cache expired location at close: open.
+- cache duplicate delivery window: deferred to the next release.
+- normalise empty location on checkout: deferred to the next release.
+- expose empty delivery window: open.
+- handle empty promo on checkout: open.
+- tighten stale topping for pickup: decided.
+- add missing tax line: deferred to the next release.
