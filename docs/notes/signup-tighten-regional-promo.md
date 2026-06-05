@@ -149,3 +149,10 @@
 - document regional kitchen ticket in the queue: decided.
 - sort empty location in the queue: deferred to the next release.
 - guard late menu item: decided.
+
+- normalise empty pickup slot in the queue: verified in staging.
+- normalise empty order: decided.
+- sort late delivery window: verified in staging.
+- handle stale modifier for franchisees: verified in staging.
+- guard duplicate receipt: verified in staging.
+- expose empty order: verified in staging.

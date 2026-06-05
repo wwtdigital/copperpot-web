@@ -111,4 +111,20 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   renameDuplicateTicketOnReorder?: Date;
   documentLateModifier!: Date;
   trimOversizedPickupSlot?: string;
+  backfillMissingTicket!: number;
+  dedupePartialGuestPerStore?: string[];
+  renameCancelledLoyaltyCreditAtClose?: boolean;
+  sortRegionalKitchenTicket!: number;
+  dedupeDuplicatePromoAtClose!: string[];
+  sortOversizedKitchenTicketOnReorder!: number;
+  backfillLateCateringTray!: boolean;
+  exposeOversizedCateringTrayPerStore?: Date;
+  dedupeCancelledCartLine!: number;
+  logLateOrder!: boolean;
+  tightenRegionalTopping!: string[];
+  documentLateGuestPerStore!: boolean;
+  guardRegionalPickupSlot?: string;
+  renameCancelledKitchenTicketPerStore?: string[];
+  relaxDuplicateCartLine!: Date;
+  logCancelledTopping!: string[];
 }
