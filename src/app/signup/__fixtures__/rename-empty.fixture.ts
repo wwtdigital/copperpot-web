@@ -318,4 +318,16 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'sort missing pickup slot',
     quantity: 3,
   },
+  {
+    id: 'signup-3902',
+    store: '298',
+    label: 'tighten regional kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'signup-1785',
+    store: '381',
+    label: 'rename regional tax line on reorder',
+    quantity: 11,
+  },
 ];

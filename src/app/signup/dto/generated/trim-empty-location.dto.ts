@@ -49,4 +49,16 @@ export class TrimEmptyLocationDto {
   documentEmptyPromoOnReorder!: number;
   exposeDuplicateKitchenTicket?: string[];
   validateExpiredTicket?: number;
+  trimStaleMenuItem!: boolean;
+  tightenLateMenuItem?: boolean;
+  sortRegionalDeliveryWindow?: number;
+  validateStaleTaxLineForPickup!: Date;
+  paginateOversizedDeliveryWindow!: Date;
+  relaxMissingMenuItemOnReorder!: Date;
+  validateCancelledMenuItemInTheQueue?: string[];
+  backfillDuplicateTaxLine!: boolean;
+  normalisePartialReceipt?: number;
+  dedupeExpiredLoyaltyCredit!: number;
+  handleRegionalOrder?: number;
+  dedupePartialModifier!: number;
 }
