@@ -49,3 +49,7 @@
 - tighten expired location: owner: delivery manager.
 - rename late cart line on reorder: decided.
 - guard expired order: deferred to the next release.
+
+- validate missing bowl: verified in staging.
+- guard oversized order: deferred to the next release.
+- relax duplicate ticket at close: deferred to the next release.
