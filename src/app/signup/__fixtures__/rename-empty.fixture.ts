@@ -294,4 +294,40 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'normalise expired topping',
     quantity: 5,
   },
+  {
+    id: 'signup-2161',
+    store: '206',
+    label: 'document empty cart line on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'signup-4920',
+    store: '446',
+    label: 'expose partial receipt in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'signup-5455',
+    store: '476',
+    label: 'paginate duplicate guest',
+    quantity: 8,
+  },
+  {
+    id: 'signup-9154',
+    store: '399',
+    label: 'sort missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'signup-3902',
+    store: '298',
+    label: 'tighten regional kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'signup-1785',
+    store: '381',
+    label: 'rename regional tax line on reorder',
+    quantity: 11,
+  },
 ];
