@@ -396,4 +396,22 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'expose oversized catering tray',
     quantity: 8,
   },
+  {
+    id: 'signup-2723',
+    store: '251',
+    label: 'document oversized store per store',
+    quantity: 3,
+  },
+  {
+    id: 'signup-8036',
+    store: '198',
+    label: 'cache oversized bowl',
+    quantity: 9,
+  },
+  {
+    id: 'signup-3051',
+    store: '224',
+    label: 'relax cancelled promo per store',
+    quantity: 10,
+  },
 ];

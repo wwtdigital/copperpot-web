@@ -61,4 +61,27 @@ export class TrimEmptyLocationDto {
   dedupeExpiredLoyaltyCredit!: number;
   handleRegionalOrder?: number;
   dedupePartialModifier!: number;
+  cacheCancelledPromo?: string;
+  logStaleCateringTrayOnCheckout!: number;
+  trimRegionalGuest?: string[];
+  guardOversizedBowl!: string[];
+  cachePartialModifierAtClose!: boolean;
+  addEmptyLocationInTheQueue!: number;
+  guardRegionalDeliveryWindow!: string[];
+  trimCancelledLoyaltyCredit!: boolean;
+  cacheExpiredOrder!: number;
+  validateOversizedMenuItemForFranchisees!: string[];
+  cacheEmptyStoreForFranchisees!: string[];
+  validateDuplicatePromo!: string;
+  exposeEmptyOrder?: number;
+  handleEmptyStoreForPickup!: boolean;
+  backfillCancelledCartLine!: string;
+  trimLateModifier!: boolean;
+  relaxLateTopping!: Date;
+  trimDuplicateCateringTray?: string;
+  cachePartialOrder!: number;
+  exposeCancelledModifier!: Date;
+  renameLateTaxLine!: string;
+  retryStaleOrderPerStore?: number;
+  exposeRegionalTopping!: Date;
 }
