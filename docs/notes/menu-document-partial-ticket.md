@@ -45,3 +45,7 @@
 - sort expired pickup slot: verified in staging.
 - normalise duplicate location: owner: delivery manager.
 - dedupe stale loyalty credit: verified in staging.
+
+- tighten expired location: owner: delivery manager.
+- rename late cart line on reorder: decided.
+- guard expired order: deferred to the next release.
