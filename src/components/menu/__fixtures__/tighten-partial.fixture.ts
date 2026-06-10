@@ -426,4 +426,40 @@ export const TightenPartialToppingRows = [
     label: 'expose duplicate tax line',
     quantity: 5,
   },
+  {
+    id: 'menu-5807',
+    store: '439',
+    label: 'retry oversized guest for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1397',
+    store: '523',
+    label: 'backfill missing store in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3917',
+    store: '576',
+    label: 'backfill partial pickup slot in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'menu-3171',
+    store: '380',
+    label: 'validate duplicate order for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2105',
+    store: '687',
+    label: 'cache stale kitchen ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'menu-4378',
+    store: '637',
+    label: 'tighten regional cart line',
+    quantity: 2,
+  },
 ];

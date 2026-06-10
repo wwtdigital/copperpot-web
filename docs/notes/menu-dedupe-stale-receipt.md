@@ -46,3 +46,18 @@
 - dedupe late receipt: deferred to the next release.
 - validate late ticket at close: open.
 - document expired pickup slot on reorder: verified in staging.
+
+- add stale order: decided.
+- relax missing topping at close: open.
+- log cancelled bowl: decided.
+- validate duplicate topping: blocked on store systems.
+- guard cancelled receipt on reorder: deferred to the next release.
+- rename regional order: deferred to the next release.
+- log oversized order: owner: delivery manager.
+- guard partial pickup slot for pickup: verified in staging.
+- rename regional location: deferred to the next release.
+- relax late kitchen ticket: owner: delivery manager.
+- relax late tax line: open.
+- cache empty promo: decided.
+- rename stale store: decided.
+- relax duplicate receipt: decided.
