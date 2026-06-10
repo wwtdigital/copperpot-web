@@ -127,4 +127,17 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   renameCancelledKitchenTicketPerStore?: string[];
   relaxDuplicateCartLine!: Date;
   logCancelledTopping!: string[];
+  addPartialStore!: number;
+  exposeDuplicateKitchenTicketAtClose!: string;
+  guardPartialOrder!: boolean;
+  normaliseRegionalDeliveryWindowInTheQueue!: string[];
+  paginateOversizedPickupSlot!: string[];
+  sortCancelledPickupSlot?: Date;
+  tightenLateToppingAtClose!: string;
+  paginateCancelledBowl!: number;
+  renameCancelledDeliveryWindow!: string;
+  handleCancelledTaxLine!: number;
+  renameRegionalGuest!: number;
+  relaxLateMenuItemForPickup!: number;
+  backfillLateModifier!: string[];
 }

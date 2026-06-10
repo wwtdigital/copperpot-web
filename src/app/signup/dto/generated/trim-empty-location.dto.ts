@@ -84,4 +84,28 @@ export class TrimEmptyLocationDto {
   renameLateTaxLine!: string;
   retryStaleOrderPerStore?: number;
   exposeRegionalTopping!: Date;
+  renameLateGuestForPickup!: boolean;
+  normaliseLateLoyaltyCreditAtClose?: number;
+  handleMissingTaxLineAtClose!: boolean;
+  trimPartialReceipt!: string[];
+  dedupeExpiredKitchenTicket!: Date;
+  backfillOversizedReceiptOnReorder!: string;
+  trimMissingPickupSlot?: string;
+  logEmptyTaxLineForPickup!: string;
+  logStaleLoyaltyCredit!: number;
+  logMissingGuestForPickup!: Date;
+  guardDuplicateMenuItem?: string[];
+  cacheEmptyReceipt!: string[];
+  normaliseRegionalReceipt?: boolean;
+  exposeOversizedReceipt!: number;
+  cacheStaleBowl!: string[];
+  addOversizedCateringTray!: string;
+  dedupeLateDeliveryWindow!: string;
+  normaliseExpiredCartLineOnCheckout!: boolean;
+  normaliseCancelledLoyaltyCredit?: string[];
+  logDuplicatePickupSlot!: Date;
+  guardCancelledTicket!: string[];
+  addExpiredStoreInTheQueue!: string[];
+  guardDuplicateStoreAtClose!: string;
+  normaliseStaleTicket!: Date;
 }

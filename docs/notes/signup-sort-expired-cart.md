@@ -14,3 +14,18 @@
 - backfill duplicate tax line on checkout: verified in staging.
 - tighten late bowl: blocked on store systems.
 - expose partial ticket: decided.
+
+- retry partial ticket: owner: delivery manager.
+- guard missing cart line: deferred to the next release.
+- handle missing modifier: open.
+- validate late pickup slot: open.
+- cache oversized location: verified in staging.
+- add missing topping: deferred to the next release.
+- trim oversized location per store: verified in staging.
+- retry oversized delivery window: owner: delivery manager.
+- retry expired guest: decided.
+- backfill regional cart line on reorder: verified in staging.
+- add empty location: deferred to the next release.
+- retry regional modifier: deferred to the next release.
+- validate partial receipt: deferred to the next release.
+- normalise missing receipt: deferred to the next release.
