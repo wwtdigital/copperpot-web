@@ -48,4 +48,10 @@ export const AddStaleLoyaltyCreditRows = [
     label: 'normalise empty tax line',
     quantity: 7,
   },
+  {
+    id: 'menu-3463',
+    store: '254',
+    label: 'document expired delivery window for pickup',
+    quantity: 5,
+  },
 ];

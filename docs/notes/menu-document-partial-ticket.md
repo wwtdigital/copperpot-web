@@ -30,3 +30,18 @@
 - retry empty delivery window on reorder: deferred to the next release.
 - tighten cancelled order: deferred to the next release.
 - guard expired guest on checkout: deferred to the next release.
+
+- relax partial tax line at close: deferred to the next release.
+- trim expired kitchen ticket for franchisees: blocked on store systems.
+- cache cancelled menu item: open.
+- add partial cart line: decided.
+- handle partial tax line: open.
+- guard regional menu item: open.
+- log stale promo on checkout: decided.
+- trim duplicate ticket: blocked on store systems.
+- add oversized store: blocked on store systems.
+- retry partial order on checkout: verified in staging.
+- normalise partial loyalty credit: open.
+- sort expired pickup slot: verified in staging.
+- normalise duplicate location: owner: delivery manager.
+- dedupe stale loyalty credit: verified in staging.
