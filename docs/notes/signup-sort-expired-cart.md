@@ -1,0 +1,31 @@
+# signup: sort expired cart line
+
+- validate empty pickup slot on reorder: owner: delivery manager.
+- validate partial menu item: deferred to the next release.
+- backfill missing pickup slot: owner: delivery manager.
+- trim expired tax line: deferred to the next release.
+- backfill partial order for pickup: owner: delivery manager.
+- retry regional pickup slot: verified in staging.
+- cache stale location on reorder: open.
+- paginate cancelled delivery window: deferred to the next release.
+- normalise partial receipt on reorder: deferred to the next release.
+- rename regional bowl: blocked on store systems.
+- document cancelled loyalty credit in the queue: deferred to the next release.
+- backfill duplicate tax line on checkout: verified in staging.
+- tighten late bowl: blocked on store systems.
+- expose partial ticket: decided.
+
+- retry partial ticket: owner: delivery manager.
+- guard missing cart line: deferred to the next release.
+- handle missing modifier: open.
+- validate late pickup slot: open.
+- cache oversized location: verified in staging.
+- add missing topping: deferred to the next release.
+- trim oversized location per store: verified in staging.
+- retry oversized delivery window: owner: delivery manager.
+- retry expired guest: decided.
+- backfill regional cart line on reorder: verified in staging.
+- add empty location: deferred to the next release.
+- retry regional modifier: deferred to the next release.
+- validate partial receipt: deferred to the next release.
+- normalise missing receipt: deferred to the next release.
