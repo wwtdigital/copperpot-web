@@ -29,3 +29,18 @@
 - retry regional modifier: deferred to the next release.
 - validate partial receipt: deferred to the next release.
 - normalise missing receipt: deferred to the next release.
+
+- log missing topping on reorder: verified in staging.
+- cache cancelled guest: owner: delivery manager.
+- trim duplicate pickup slot on checkout: blocked on store systems.
+- retry cancelled receipt per store: verified in staging.
+- retry empty promo per store: decided.
+- expose empty catering tray: decided.
+- relax empty promo on checkout: blocked on store systems.
+- document oversized order: blocked on store systems.
+- guard missing bowl: deferred to the next release.
+- handle stale receipt: blocked on store systems.
+- retry expired loyalty credit: verified in staging.
+- relax regional menu item: open.
+- rename duplicate modifier: verified in staging.
+- retry partial bowl at close: open.

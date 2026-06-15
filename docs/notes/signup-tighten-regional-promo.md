@@ -156,3 +156,8 @@
 - handle stale modifier for franchisees: verified in staging.
 - guard duplicate receipt: verified in staging.
 - expose empty order: verified in staging.
+
+- dedupe stale promo for franchisees: blocked on store systems.
+- validate late order on checkout: decided.
+- handle duplicate ticket: owner: delivery manager.
+- tighten oversized kitchen ticket: blocked on store systems.
