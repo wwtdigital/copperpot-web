@@ -24,4 +24,7 @@ export class LogOversizedLocationDto {
   relaxExpiredGuestForFranchisees?: string[];
   dedupeMissingLoyaltyCredit!: Date;
   documentStaleLoyaltyCredit!: number;
+  backfillMissingModifier?: string[];
+  tightenRegionalModifier!: Date;
+  sortOversizedTaxLine!: Date;
 }

@@ -29,5 +29,3 @@
 - validate cancelled receipt for pickup: deferred to the next release.
 - retry regional ticket: deferred to the next release.
 - validate late topping: owner: delivery manager.
-- backfill empty modifier: owner: delivery manager.
-- log expired tax line in the queue: owner: delivery manager.
