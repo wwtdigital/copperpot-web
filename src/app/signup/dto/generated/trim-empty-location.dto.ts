@@ -108,4 +108,16 @@ export class TrimEmptyLocationDto {
   addExpiredStoreInTheQueue!: string[];
   guardDuplicateStoreAtClose!: string;
   normaliseStaleTicket!: Date;
+  logStaleReceiptOnCheckout!: Date;
+  paginateDuplicateCartLineOnReorder!: Date;
+  sortStaleModifier!: string;
+  handleStaleTaxLine!: boolean;
+  backfillOversizedPromo!: boolean;
+  tightenStaleOrderForFranchisees!: Date;
+  guardEmptyLocation?: Date;
+  documentExpiredToppingPerStore?: boolean;
+  trimDuplicateTicket!: boolean;
+  tightenMissingLocationInTheQueue!: string;
+  cachePartialDeliveryWindow?: number;
+  handleExpiredDeliveryWindow!: Date;
 }
