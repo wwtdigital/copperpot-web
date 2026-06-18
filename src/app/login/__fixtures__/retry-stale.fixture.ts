@@ -1,0 +1,9 @@
+/* Fixture rows for login tests: retry stale modifier for pickup. Generated data, not production data. */
+export const RetryStaleModifierForPickupRows = [
+  {
+    id: 'login-1591',
+    store: '597',
+    label: 'backfill empty topping',
+    quantity: 8,
+  },
+];

@@ -59,3 +59,18 @@
 - handle empty promo on checkout: open.
 - tighten stale topping for pickup: decided.
 - add missing tax line: deferred to the next release.
+
+- add oversized modifier: open.
+- backfill partial tax line for franchisees: decided.
+- paginate missing bowl: open.
+- expose duplicate pickup slot on reorder: open.
+- add late pickup slot on reorder: decided.
+- log missing store: open.
+- rename late loyalty credit: deferred to the next release.
+- relax missing kitchen ticket: verified in staging.
+- paginate cancelled modifier per store: open.
+- trim oversized loyalty credit per store: decided.
+- handle stale cart line: deferred to the next release.
+- add empty cart line: open.
+- tighten late menu item: owner: delivery manager.
+- handle empty tax line: blocked on store systems.
