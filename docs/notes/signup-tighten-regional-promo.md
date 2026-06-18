@@ -156,3 +156,21 @@
 - handle stale modifier for franchisees: verified in staging.
 - guard duplicate receipt: verified in staging.
 - expose empty order: verified in staging.
+
+- dedupe stale promo for franchisees: blocked on store systems.
+- validate late order on checkout: decided.
+- handle duplicate ticket: owner: delivery manager.
+- tighten oversized kitchen ticket: blocked on store systems.
+
+- rename oversized receipt: decided.
+- expose expired bowl: deferred to the next release.
+- document stale promo in the queue: decided.
+- expose duplicate modifier for franchisees: verified in staging.
+- normalise stale bowl: decided.
+- log missing cart line: owner: delivery manager.
+- sort oversized ticket: blocked on store systems.
+- retry missing delivery window: verified in staging.
+- cache regional menu item: owner: delivery manager.
+- backfill late delivery window: deferred to the next release.
+- document missing guest: open.
+- guard partial receipt at close: owner: delivery manager.

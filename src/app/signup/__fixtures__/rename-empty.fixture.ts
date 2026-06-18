@@ -414,4 +414,10 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'relax cancelled promo per store',
     quantity: 10,
   },
+  {
+    id: 'signup-9809',
+    store: '314',
+    label: 'cache expired pickup slot',
+    quantity: 5,
+  },
 ];

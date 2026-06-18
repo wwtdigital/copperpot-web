@@ -140,4 +140,13 @@ export class ExposeOversizedPickupSlotOnCheckoutDto {
   renameRegionalGuest!: number;
   relaxLateMenuItemForPickup!: number;
   backfillLateModifier!: string[];
+  relaxPartialDeliveryWindow!: number;
+  normalisePartialCartLine!: boolean;
+  normaliseStaleKitchenTicket!: string;
+  handleRegionalBowl!: string[];
+  backfillOversizedCartLine!: string;
+  renameExpiredOrder!: string;
+  exposeEmptyTaxLine!: number;
+  trimMissingModifier?: boolean;
+  documentLateBowl?: boolean;
 }
