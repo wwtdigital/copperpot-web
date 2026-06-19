@@ -75,3 +75,33 @@
 
 - dedupe partial receipt: open.
 - backfill empty menu item at close: decided.
+
+- validate oversized loyalty credit at close: blocked on store systems.
+- guard stale promo: open.
+- relax cancelled menu item: deferred to the next release.
+- trim oversized cart line: blocked on store systems.
+- tighten missing catering tray: blocked on store systems.
+- validate cancelled promo for pickup: decided.
+- dedupe oversized bowl: blocked on store systems.
+- backfill cancelled bowl: verified in staging.
+- tighten oversized bowl at close: open.
+- normalise duplicate order per store: decided.
+- dedupe partial guest: blocked on store systems.
+- validate partial ticket: blocked on store systems.
+- normalise regional ticket: decided.
+- tighten expired delivery window on checkout: verified in staging.
+
+- tighten empty delivery window in the queue: deferred to the next release.
+- paginate missing store: decided.
+- sort late catering tray: blocked on store systems.
+- document duplicate order: verified in staging.
+- guard late store: decided.
+- trim empty receipt: open.
+- rename stale guest on checkout: owner: delivery manager.
+- relax stale bowl for pickup: deferred to the next release.
+- sort empty cart line for pickup: verified in staging.
+- trim expired modifier for pickup: open.
+- tighten stale store for pickup: owner: delivery manager.
+- expose expired ticket: open.
+- retry late menu item: blocked on store systems.
+- sort duplicate guest: verified in staging.

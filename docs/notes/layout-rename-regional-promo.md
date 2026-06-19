@@ -29,3 +29,12 @@
 - validate cancelled receipt for pickup: deferred to the next release.
 - retry regional ticket: deferred to the next release.
 - validate late topping: owner: delivery manager.
+
+- normalise duplicate ticket: deferred to the next release.
+- validate expired order in the queue: decided.
+- expose oversized location: decided.
+- sort stale order: open.
+- dedupe late pickup slot for pickup: blocked on store systems.
+- rename stale catering tray: blocked on store systems.
+- backfill oversized guest: verified in staging.
+- paginate regional order: blocked on store systems.
