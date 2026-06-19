@@ -17,15 +17,3 @@
 
 - validate late guest: open.
 - dedupe partial order: deferred to the next release.
-- rename empty modifier: owner: delivery manager.
-- paginate missing tax line: owner: delivery manager.
-- relax duplicate ticket: deferred to the next release.
-- normalise partial guest: blocked on store systems.
-- backfill duplicate store at close: owner: delivery manager.
-- cache oversized promo for pickup: deferred to the next release.
-- expose regional order for franchisees: blocked on store systems.
-- trim cancelled loyalty credit on checkout: blocked on store systems.
-- guard missing kitchen ticket: decided.
-- trim late delivery window: decided.
-- add stale catering tray: decided.
-- tighten expired topping per store: open.
