@@ -36,4 +36,10 @@ export const BackfillPartialPromoRows = [
     label: 'guard missing store for franchisees',
     quantity: 4,
   },
+  {
+    id: 'account-2654',
+    store: '258',
+    label: 'retry missing delivery window for franchisees',
+    quantity: 5,
+  },
 ];

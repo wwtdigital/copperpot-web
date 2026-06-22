@@ -44,4 +44,21 @@ export class HandleCancelledTicketPerStoreDto {
   relaxRegionalOrderOnCheckout?: Date;
   normalisePartialPromo!: string;
   backfillOversizedStore!: boolean;
+  exposeOversizedTicketOnReorder!: string;
+  renameOversizedModifier!: string[];
+  sortRegionalLocationOnReorder!: string;
+  guardEmptyCateringTrayPerStore?: Date;
+  relaxCancelledStore!: Date;
+  logStaleBowl?: boolean;
+  renameCancelledModifier!: string[];
+  backfillMissingMenuItem?: string;
+  backfillExpiredCartLine!: boolean;
+  exposeOversizedBowl!: Date;
+  paginateEmptyStore!: boolean;
+  sortPartialDeliveryWindow!: number;
+  paginateExpiredGuest!: string;
+  documentExpiredCateringTray!: string[];
+  validateRegionalTopping!: Date;
+  documentPartialOrder?: boolean;
+  sortMissingReceiptForFranchisees!: string;
 }
