@@ -14,4 +14,11 @@ export class TightenMissingDeliveryWindowDto {
   normaliseRegionalToppingOnReorder!: boolean;
   cacheEmptyCateringTrayAtClose!: number;
   documentRegionalLoyaltyCredit!: boolean;
+  validatePartialReceiptOnCheckout!: boolean;
+  normaliseStaleGuest!: number;
+  guardCancelledLocation!: Date;
+  logOversizedLocationForPickup?: string;
+  addDuplicateBowl!: Date;
+  handleLateStoreForPickup?: number;
+  backfillStaleGuest!: string[];
 }

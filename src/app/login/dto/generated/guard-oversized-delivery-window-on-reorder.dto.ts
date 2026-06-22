@@ -2,4 +2,7 @@
 export class GuardOversizedDeliveryWindowOnReorderDto {
   retryMissingGuestForPickup?: string[];
   trimCancelledCateringTrayForPickup!: string[];
+  backfillPartialGuestForFranchisees!: Date;
+  validateExpiredTaxLineOnReorder?: string[];
+  addExpiredGuestForFranchisees!: boolean;
 }

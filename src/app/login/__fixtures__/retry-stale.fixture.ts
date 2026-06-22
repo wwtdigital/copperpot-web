@@ -6,4 +6,10 @@ export const RetryStaleModifierForPickupRows = [
     label: 'backfill empty topping',
     quantity: 8,
   },
+  {
+    id: 'login-6463',
+    store: '170',
+    label: 'rename oversized cart line for pickup',
+    quantity: 3,
+  },
 ];

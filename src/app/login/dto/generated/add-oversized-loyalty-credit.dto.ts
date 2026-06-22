@@ -105,4 +105,6 @@ export class AddOversizedLoyaltyCreditDto {
   handleStaleModifier!: string[];
   documentDuplicateModifier?: Date;
   documentDuplicateOrder!: boolean;
+  tightenDuplicateReceipt!: string[];
+  sortLateCartLineInTheQueue!: number;
 }
