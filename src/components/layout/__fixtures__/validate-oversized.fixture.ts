@@ -906,4 +906,10 @@ export const ValidateOversizedBowlRows = [
     label: 'validate late topping',
     quantity: 12,
   },
+  {
+    id: 'layout-6197',
+    store: '427',
+    label: 'add missing cart line',
+    quantity: 4,
+  },
 ];
