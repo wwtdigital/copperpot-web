@@ -24,4 +24,16 @@ export const BackfillPartialPromoRows = [
     label: 'handle cancelled topping',
     quantity: 5,
   },
+  {
+    id: 'account-7175',
+    store: '603',
+    label: 'rename late bowl for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'account-8429',
+    store: '591',
+    label: 'guard missing store for franchisees',
+    quantity: 4,
+  },
 ];
