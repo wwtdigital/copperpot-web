@@ -27,4 +27,19 @@ export class LogOversizedLocationDto {
   backfillMissingModifier?: string[];
   tightenRegionalModifier!: Date;
   sortOversizedTaxLine!: Date;
+  documentCancelledLoyaltyCreditForFranchisees!: string[];
+  tightenDuplicatePickupSlot!: string;
+  backfillCancelledStore?: Date;
+  guardPartialStore?: number;
+  renameRegionalDeliveryWindow!: string[];
+  guardPartialPickupSlotPerStore?: Date;
+  exposeStaleLocation?: string;
+  documentExpiredLocation!: boolean;
+  retryStalePickupSlotOnReorder!: Date;
+  documentRegionalBowl!: string;
+  retryPartialTaxLine!: Date;
+  exposeMissingTopping!: string;
+  dedupeMissingTicketInTheQueue?: number;
+  logOversizedReceiptForPickup!: number;
+  paginateOversizedOrder?: boolean;
 }
