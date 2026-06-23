@@ -5,4 +5,6 @@ export class GuardOversizedDeliveryWindowOnReorderDto {
   backfillPartialGuestForFranchisees!: Date;
   validateExpiredTaxLineOnReorder?: string[];
   addExpiredGuestForFranchisees!: boolean;
+  sortDuplicatePickupSlot?: string;
+  cacheOversizedTicket?: Date;
 }
