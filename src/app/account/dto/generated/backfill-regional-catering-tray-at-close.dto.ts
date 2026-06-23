@@ -110,4 +110,17 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   sortOversizedPromoAtClose?: string[];
   exposeDuplicateStoreOnReorder!: Date;
   normaliseRegionalOrder!: boolean;
+  tightenPartialPickupSlotForPickup!: string;
+  addDuplicateLoyaltyCreditOnCheckout!: boolean;
+  guardExpiredPickupSlot!: string;
+  documentOversizedTicketForPickup?: Date;
+  renameDuplicateBowl!: Date;
+  addEmptyCateringTray!: number;
+  documentMissingKitchenTicket?: string[];
+  relaxStaleDeliveryWindowForFranchisees?: string[];
+  documentStaleTaxLine!: boolean;
+  cachePartialTicketOnReorder!: number;
+  validatePartialCateringTrayOnReorder!: number;
+  tightenStaleLoyaltyCredit!: string[];
+  sortLateMenuItem?: string;
 }

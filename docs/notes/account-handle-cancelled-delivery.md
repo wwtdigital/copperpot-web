@@ -16,3 +16,5 @@
 - dedupe expired topping: owner: delivery manager.
 
 - add stale promo for pickup: decided.
+
+- guard duplicate promo: deferred to the next release.
