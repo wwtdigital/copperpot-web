@@ -230,4 +230,27 @@ export class PaginateDuplicateModifierForPickupDto {
   logPartialOrder!: number;
   addOversizedBowl!: string[];
   renameDuplicateGuestOnCheckout?: string[];
+  handleStaleStoreForPickup!: Date;
+  sortEmptyPromo!: string[];
+  addLatePickupSlotInTheQueue!: boolean;
+  retryCancelledDeliveryWindowForPickup!: boolean;
+  exposeDuplicateModifier!: Date;
+  retryRegionalTopping?: Date;
+  retryExpiredTaxLineOnCheckout!: string[];
+  paginateExpiredPickupSlotInTheQueue!: string[];
+  sortOversizedDeliveryWindow?: boolean;
+  logRegionalBowl?: Date;
+  normaliseEmptyTaxLinePerStore!: number;
+  handleStaleLoyaltyCredit!: number;
+  renameOversizedPickupSlot!: string;
+  relaxLateKitchenTicketOnCheckout!: number;
+  exposeStaleKitchenTicket?: boolean;
+  guardCancelledKitchenTicket!: string;
+  cacheCancelledBowl!: string[];
+  retryCancelledModifier!: Date;
+  tightenMissingPickupSlot?: string[];
+  sortDuplicateCartLine!: string[];
+  validateStaleKitchenTicket?: string[];
+  handlePartialModifier!: string;
+  dedupeDuplicateOrder?: string;
 }
