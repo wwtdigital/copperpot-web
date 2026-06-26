@@ -174,4 +174,16 @@ export const DedupeDuplicateKitchenTicketRows = [
     label: 'expose oversized bowl',
     quantity: 7,
   },
+  {
+    id: 'layout-4293',
+    store: '660',
+    label: 'guard stale catering tray in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'layout-1728',
+    store: '477',
+    label: 'add missing location on reorder',
+    quantity: 12,
+  },
 ];
