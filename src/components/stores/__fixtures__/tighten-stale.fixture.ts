@@ -642,4 +642,10 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'document partial tax line on checkout',
     quantity: 3,
   },
+  {
+    id: 'stores-8304',
+    store: '299',
+    label: 'paginate missing topping',
+    quantity: 9,
+  },
 ];

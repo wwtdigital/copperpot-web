@@ -384,4 +384,16 @@ export const SortRegionalCateringTrayRows = [
     label: 'add expired kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'stores-9890',
+    store: '664',
+    label: 'relax late promo',
+    quantity: 9,
+  },
+  {
+    id: 'stores-9276',
+    store: '513',
+    label: 'paginate duplicate catering tray for pickup',
+    quantity: 12,
+  },
 ];
