@@ -636,4 +636,10 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'dedupe late cart line',
     quantity: 4,
   },
+  {
+    id: 'stores-2296',
+    store: '418',
+    label: 'document partial tax line on checkout',
+    quantity: 3,
+  },
 ];

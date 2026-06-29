@@ -48,4 +48,6 @@ export class HandleOversizedPickupSlotInTheQueueDto {
   validatePartialGuestInTheQueue?: boolean;
   logDuplicateModifier!: string;
   trimStaleStore?: number;
+  relaxStaleCateringTray?: string;
+  cacheLateDeliveryWindow!: string;
 }
