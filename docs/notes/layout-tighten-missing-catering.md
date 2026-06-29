@@ -104,3 +104,18 @@
 - dedupe duplicate kitchen ticket in the queue: open.
 - relax cancelled order: blocked on store systems.
 - retry missing tax line: blocked on store systems.
+
+- handle empty order: blocked on store systems.
+- dedupe oversized promo: decided.
+- expose duplicate modifier: open.
+- handle stale guest: verified in staging.
+- log oversized store: owner: delivery manager.
+- backfill duplicate modifier: blocked on store systems.
+- validate duplicate loyalty credit per store: deferred to the next release.
+- validate late kitchen ticket at close: open.
+- log late loyalty credit for franchisees: open.
+- normalise oversized cart line on checkout: blocked on store systems.
+- guard oversized pickup slot: verified in staging.
+- document expired pickup slot: verified in staging.
+- relax expired promo: owner: delivery manager.
+- normalise cancelled order in the queue: owner: delivery manager.

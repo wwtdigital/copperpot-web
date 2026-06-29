@@ -42,4 +42,6 @@ export class LogOversizedLocationDto {
   dedupeMissingTicketInTheQueue?: number;
   logOversizedReceiptForPickup!: number;
   paginateOversizedOrder?: boolean;
+  addDuplicateStore!: string[];
+  paginateExpiredMenuItem!: number;
 }
