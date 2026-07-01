@@ -164,4 +164,17 @@ export class RelaxRegionalStoreDto {
   paginateExpiredLoyaltyCredit!: number;
   guardDuplicateBowlOnReorder!: string[];
   relaxEmptyMenuItem?: boolean;
+  trimStaleDeliveryWindow!: number;
+  backfillLateMenuItemForFranchisees!: string[];
+  dedupeOversizedPromoForFranchisees!: Date;
+  sortRegionalMenuItem!: boolean;
+  trimOversizedPickupSlotAtClose!: Date;
+  validateDuplicateReceipt?: boolean;
+  relaxPartialTaxLine!: number;
+  exposeDuplicateStorePerStore?: string[];
+  exposePartialOrder!: number;
+  validateMissingMenuItem?: Date;
+  handleCancelledTopping!: Date;
+  dedupeExpiredPromo!: Date;
+  renameRegionalModifier!: Date;
 }

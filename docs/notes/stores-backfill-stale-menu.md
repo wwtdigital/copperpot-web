@@ -169,3 +169,9 @@
 - rename expired catering tray: open.
 - cache missing catering tray per store: deferred to the next release.
 - trim stale tax line: open.
+
+- handle oversized delivery window at close: deferred to the next release.
+- document missing catering tray: decided.
+- log missing loyalty credit per store: owner: delivery manager.
+- relax oversized ticket: open.
+- tighten regional modifier: open.

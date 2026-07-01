@@ -618,4 +618,34 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'rename late receipt on reorder',
     quantity: 2,
   },
+  {
+    id: 'stores-5941',
+    store: '225',
+    label: 'paginate missing store at close',
+    quantity: 7,
+  },
+  {
+    id: 'stores-9311',
+    store: '607',
+    label: 'guard empty topping per store',
+    quantity: 9,
+  },
+  {
+    id: 'stores-7124',
+    store: '585',
+    label: 'dedupe late cart line',
+    quantity: 4,
+  },
+  {
+    id: 'stores-2296',
+    store: '418',
+    label: 'document partial tax line on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8304',
+    store: '299',
+    label: 'paginate missing topping',
+    quantity: 9,
+  },
 ];
