@@ -12,4 +12,10 @@ export const RetryStaleModifierForPickupRows = [
     label: 'rename oversized cart line for pickup',
     quantity: 3,
   },
+  {
+    id: 'login-4112',
+    store: '509',
+    label: 'document missing receipt',
+    quantity: 3,
+  },
 ];
