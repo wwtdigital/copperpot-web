@@ -42,4 +42,12 @@ export class LogOversizedLocationDto {
   dedupeMissingTicketInTheQueue?: number;
   logOversizedReceiptForPickup!: number;
   paginateOversizedOrder?: boolean;
+  addDuplicateStore!: string[];
+  paginateExpiredMenuItem!: number;
+  normaliseEmptyMenuItemPerStore!: Date;
+  retryLateLocation?: Date;
+  tightenRegionalLoyaltyCredit!: string;
+  renamePartialCateringTray!: number;
+  tightenPartialMenuItem!: boolean;
+  logOversizedToppingOnReorder?: boolean;
 }

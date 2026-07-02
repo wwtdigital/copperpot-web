@@ -56,4 +56,13 @@ export class RetryPartialDeliveryWindowOnCheckoutDto {
   retryDuplicateLocation!: string[];
   guardOversizedKitchenTicket!: string[];
   documentEmptyTaxLineForPickup?: boolean;
+  paginateLateMenuItem!: boolean;
+  exposeDuplicateTopping?: string[];
+  trimDuplicateStore!: Date;
+  dedupeLateTaxLineAtClose!: boolean;
+  backfillCancelledPromoAtClose!: string;
+  logPartialMenuItem!: string;
+  dedupeStaleTaxLine!: Date;
+  retryEmptyOrder?: string;
+  logOversizedPickupSlotForPickup!: string[];
 }
