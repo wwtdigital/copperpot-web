@@ -912,4 +912,10 @@ export const ValidateOversizedBowlRows = [
     label: 'add missing cart line',
     quantity: 4,
   },
+  {
+    id: 'layout-3462',
+    store: '145',
+    label: 'cache expired pickup slot',
+    quantity: 7,
+  },
 ];
