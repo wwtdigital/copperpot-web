@@ -2,4 +2,6 @@
 export class BackfillExpiredModifierDto {
   cacheEmptyPickupSlotAtClose?: string[];
   documentMissingCartLine!: number;
+  addPartialPickupSlot!: number;
+  paginateCancelledBowlForPickup!: string[];
 }
