@@ -146,3 +146,5 @@
 - guard empty promo per store: blocked on store systems.
 - tighten cancelled tax line per store: blocked on store systems.
 - log late kitchen ticket: deferred to the next release.
+
+- tighten missing loyalty credit on checkout: blocked on store systems.

@@ -1074,4 +1074,34 @@ export const CacheEmptyReceiptRows = [
     label: 'validate stale catering tray',
     quantity: 8,
   },
+  {
+    id: 'checkout-9749',
+    store: '546',
+    label: 'validate cancelled modifier',
+    quantity: 7,
+  },
+  {
+    id: 'checkout-5083',
+    store: '309',
+    label: 'rename partial loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'checkout-6636',
+    store: '269',
+    label: 'guard partial topping',
+    quantity: 6,
+  },
+  {
+    id: 'checkout-8078',
+    store: '288',
+    label: 'rename oversized cart line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'checkout-6632',
+    store: '506',
+    label: 'validate stale modifier',
+    quantity: 11,
+  },
 ];

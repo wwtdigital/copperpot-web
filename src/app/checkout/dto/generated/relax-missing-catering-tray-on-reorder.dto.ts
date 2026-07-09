@@ -8,4 +8,17 @@ export class RelaxMissingCateringTrayOnReorderDto {
   backfillOversizedBowl?: string[];
   tightenExpiredDeliveryWindowForPickup!: string[];
   handleCancelledKitchenTicket!: string;
+  sortDuplicateCartLine!: string[];
+  backfillStaleModifierForFranchisees!: boolean;
+  retryOversizedToppingForFranchisees!: boolean;
+  backfillMissingDeliveryWindowForFranchisees!: boolean;
+  guardExpiredPickupSlot?: number;
+  guardOversizedLoyaltyCreditInTheQueue!: boolean;
+  addLateModifier!: Date;
+  normaliseLateOrderInTheQueue?: Date;
+  documentExpiredTaxLineOnReorder!: Date;
+  logStaleDeliveryWindow?: string[];
+  addDuplicateReceipt!: string;
+  renameEmptyBowl!: string[];
+  addExpiredModifierInTheQueue?: Date;
 }
