@@ -38,3 +38,18 @@
 - rename stale catering tray: blocked on store systems.
 - backfill oversized guest: verified in staging.
 - paginate regional order: blocked on store systems.
+
+- sort expired cart line for franchisees: decided.
+- sort regional pickup slot: owner: delivery manager.
+- rename partial tax line in the queue: verified in staging.
+- tighten duplicate bowl per store: decided.
+- relax stale topping: owner: delivery manager.
+- document oversized loyalty credit: deferred to the next release.
+- dedupe stale ticket in the queue: owner: delivery manager.
+- backfill oversized modifier at close: verified in staging.
+- dedupe duplicate store at close: decided.
+- retry expired location for pickup: deferred to the next release.
+- document oversized pickup slot for pickup: deferred to the next release.
+- paginate duplicate catering tray in the queue: blocked on store systems.
+- cache cancelled delivery window: open.
+- tighten duplicate modifier: owner: delivery manager.

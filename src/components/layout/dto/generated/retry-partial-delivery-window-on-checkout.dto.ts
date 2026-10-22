@@ -65,4 +65,18 @@ export class RetryPartialDeliveryWindowOnCheckoutDto {
   dedupeStaleTaxLine!: Date;
   retryEmptyOrder?: string;
   logOversizedPickupSlotForPickup!: string[];
+  tightenPartialModifier!: string;
+  trimExpiredLocation?: Date;
+  sortRegionalBowl!: boolean;
+  normaliseMissingDeliveryWindow!: number;
+  renameDuplicateTaxLine!: Date;
+  paginateMissingReceipt!: string;
+  sortExpiredLocation?: boolean;
+  exposeStaleModifierInTheQueue!: string[];
+  logRegionalLocation?: string;
+  guardEmptyLocationPerStore!: number;
+  exposeRegionalBowl!: string[];
+  validateDuplicateBowlInTheQueue!: string[];
+  validateCancelledReceipt!: string[];
+  exposeMissingCartLine!: string[];
 }
