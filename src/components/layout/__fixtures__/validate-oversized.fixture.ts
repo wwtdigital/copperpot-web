@@ -918,4 +918,10 @@ export const ValidateOversizedBowlRows = [
     label: 'cache expired pickup slot',
     quantity: 7,
   },
+  {
+    id: 'layout-7651',
+    store: '269',
+    label: 'normalise duplicate modifier',
+    quantity: 3,
+  },
 ];

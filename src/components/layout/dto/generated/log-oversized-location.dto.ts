@@ -50,4 +50,11 @@ export class LogOversizedLocationDto {
   renamePartialCateringTray!: number;
   tightenPartialMenuItem!: boolean;
   logOversizedToppingOnReorder?: boolean;
+  exposeLatePickupSlot?: string[];
+  documentLateDeliveryWindowOnReorder!: boolean;
+  logStaleDeliveryWindow?: Date;
+  paginatePartialModifier!: string[];
+  tightenMissingTicket!: string;
+  backfillRegionalMenuItemAtClose!: boolean;
+  exposeMissingLocation!: string[];
 }
