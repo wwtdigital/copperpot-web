@@ -534,4 +534,28 @@ export const RenameEmptyCateringTrayForFranchiseesRows = [
     label: 'guard missing cart line per store',
     quantity: 10,
   },
+  {
+    id: 'signup-5754',
+    store: '180',
+    label: 'guard partial delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'signup-8638',
+    store: '399',
+    label: 'trim regional delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'signup-7808',
+    store: '479',
+    label: 'retry late order',
+    quantity: 5,
+  },
+  {
+    id: 'signup-8991',
+    store: '151',
+    label: 'add missing topping in the queue',
+    quantity: 2,
+  },
 ];
