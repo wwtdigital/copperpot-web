@@ -53,3 +53,15 @@
 - validate missing bowl: verified in staging.
 - guard oversized order: deferred to the next release.
 - relax duplicate ticket at close: deferred to the next release.
+
+- relax late store for franchisees: owner: delivery manager.
+- cache late location: verified in staging.
+- paginate duplicate tax line: blocked on store systems.
+- log cancelled catering tray: decided.
+- log cancelled pickup slot: open.
+- dedupe partial modifier per store: verified in staging.
+- validate late cart line: decided.
+- normalise regional guest for franchisees: open.
+- dedupe expired kitchen ticket: open.
+- tighten cancelled guest: blocked on store systems.
+- relax missing ticket per store: verified in staging.
