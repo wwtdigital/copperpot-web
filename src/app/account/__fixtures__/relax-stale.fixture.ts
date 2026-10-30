@@ -72,4 +72,52 @@ export const RelaxStaleOrderRows = [
     label: 'rename late order',
     quantity: 2,
   },
+  {
+    id: 'account-3561',
+    store: '523',
+    label: 'relax late guest',
+    quantity: 6,
+  },
+  {
+    id: 'account-5753',
+    store: '497',
+    label: 'relax empty loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'account-5686',
+    store: '484',
+    label: 'normalise stale pickup slot on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'account-3052',
+    store: '682',
+    label: 'dedupe late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-1449',
+    store: '136',
+    label: 'normalise oversized loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'account-4468',
+    store: '226',
+    label: 'retry regional menu item',
+    quantity: 10,
+  },
+  {
+    id: 'account-1444',
+    store: '694',
+    label: 'log partial modifier',
+    quantity: 6,
+  },
+  {
+    id: 'account-9625',
+    store: '451',
+    label: 'rename regional guest on reorder',
+    quantity: 6,
+  },
 ];
