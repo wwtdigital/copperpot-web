@@ -175,3 +175,18 @@
 - log missing loyalty credit per store: owner: delivery manager.
 - relax oversized ticket: open.
 - tighten regional modifier: open.
+
+- log oversized modifier for franchisees: verified in staging.
+- tighten regional guest in the queue: deferred to the next release.
+- tighten expired menu item: deferred to the next release.
+- relax partial bowl on reorder: verified in staging.
+- retry regional guest: verified in staging.
+- expose late bowl: verified in staging.
+- handle expired store: deferred to the next release.
+- dedupe regional tax line for pickup: blocked on store systems.
+- normalise late promo: open.
+- retry regional tax line per store: deferred to the next release.
+- expose regional kitchen ticket at close: open.
+- dedupe partial loyalty credit on reorder: owner: delivery manager.
+- log regional bowl: decided.
+- dedupe empty order: blocked on store systems.

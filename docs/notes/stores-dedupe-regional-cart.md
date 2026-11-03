@@ -29,3 +29,33 @@
 - rename expired topping on checkout: decided.
 - validate stale menu item in the queue: deferred to the next release.
 - backfill oversized receipt: owner: delivery manager.
+
+- rename stale pickup slot: deferred to the next release.
+- log cancelled bowl: decided.
+- trim late location: verified in staging.
+- dedupe duplicate loyalty credit: open.
+- expose empty ticket: blocked on store systems.
+- add oversized menu item: decided.
+- normalise empty modifier: deferred to the next release.
+- trim regional store per store: decided.
+- tighten late kitchen ticket for pickup: open.
+- rename regional store: decided.
+- retry regional ticket: decided.
+- normalise cancelled ticket: decided.
+- paginate cancelled receipt: blocked on store systems.
+- backfill empty guest for franchisees: deferred to the next release.
+
+- validate duplicate kitchen ticket: open.
+- trim expired loyalty credit: decided.
+- rename regional ticket for pickup: verified in staging.
+- guard cancelled pickup slot: verified in staging.
+- rename oversized promo per store: deferred to the next release.
+- trim partial order: decided.
+- expose expired order: open.
+- validate empty menu item: verified in staging.
+- backfill stale bowl: deferred to the next release.
+- tighten cancelled catering tray: owner: delivery manager.
+- log partial ticket: open.
+- validate duplicate catering tray: verified in staging.
+- document late location: owner: delivery manager.
+- relax cancelled receipt: owner: delivery manager.
