@@ -648,4 +648,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'paginate missing topping',
     quantity: 9,
   },
+  {
+    id: 'stores-2017',
+    store: '145',
+    label: 'add oversized delivery window for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'stores-8866',
+    store: '433',
+    label: 'rename partial loyalty credit per store',
+    quantity: 5,
+  },
+  {
+    id: 'stores-8716',
+    store: '161',
+    label: 'normalise missing receipt on reorder',
+    quantity: 9,
+  },
 ];
