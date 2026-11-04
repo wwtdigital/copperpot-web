@@ -396,4 +396,10 @@ export const SortRegionalCateringTrayRows = [
     label: 'paginate duplicate catering tray for pickup',
     quantity: 12,
   },
+  {
+    id: 'stores-8292',
+    store: '384',
+    label: 'add missing catering tray',
+    quantity: 8,
+  },
 ];

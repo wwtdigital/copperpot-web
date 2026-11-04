@@ -50,4 +50,7 @@ export class HandleOversizedPickupSlotInTheQueueDto {
   trimStaleStore?: number;
   relaxStaleCateringTray?: string;
   cacheLateDeliveryWindow!: string;
+  paginateOversizedTaxLine!: boolean;
+  relaxRegionalPromo?: string[];
+  exposeCancelledReceipt!: Date;
 }
