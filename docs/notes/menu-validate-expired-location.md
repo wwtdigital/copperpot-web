@@ -17,3 +17,18 @@
 
 - validate late guest: open.
 - dedupe partial order: deferred to the next release.
+
+- handle cancelled cart line: deferred to the next release.
+- normalise oversized topping: owner: delivery manager.
+- handle oversized bowl on reorder: verified in staging.
+- handle regional modifier: owner: delivery manager.
+- validate late delivery window: decided.
+- dedupe empty promo per store: decided.
+- normalise partial menu item: blocked on store systems.
+- trim missing topping: verified in staging.
+- add partial receipt on reorder: deferred to the next release.
+- handle empty order: decided.
+- dedupe late bowl: verified in staging.
+- cache cancelled topping on reorder: verified in staging.
+- paginate partial loyalty credit on checkout: deferred to the next release.
+- tighten cancelled catering tray for pickup: deferred to the next release.
