@@ -558,4 +558,10 @@ export const AddStaleLoyaltyCreditRows = [
     label: 'paginate regional loyalty credit on reorder',
     quantity: 7,
   },
+  {
+    id: 'menu-4662',
+    store: '158',
+    label: 'dedupe late modifier',
+    quantity: 12,
+  },
 ];
