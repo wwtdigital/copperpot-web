@@ -48,4 +48,6 @@ export class TightenDuplicateTaxLineDto {
   trimMissingGuestForPickup!: number;
   trimEmptyMenuItemForFranchisees?: string;
   trimDuplicatePickupSlot!: string[];
+  addRegionalMenuItem!: number;
+  normaliseOversizedStoreAtClose!: string;
 }
