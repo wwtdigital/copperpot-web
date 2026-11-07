@@ -119,3 +119,18 @@
 - document expired pickup slot: verified in staging.
 - relax expired promo: owner: delivery manager.
 - normalise cancelled order in the queue: owner: delivery manager.
+
+- trim stale order per store: verified in staging.
+- expose empty topping: owner: delivery manager.
+- document regional guest for franchisees: decided.
+- backfill oversized delivery window: verified in staging.
+- tighten late tax line on checkout: owner: delivery manager.
+- add cancelled kitchen ticket: deferred to the next release.
+- log partial catering tray at close: blocked on store systems.
+- tighten cancelled loyalty credit on checkout: blocked on store systems.
+- expose oversized store: verified in staging.
+- guard late menu item: verified in staging.
+- log duplicate ticket: owner: delivery manager.
+- relax regional bowl on reorder: blocked on store systems.
+- add expired menu item: verified in staging.
+- validate partial ticket: verified in staging.

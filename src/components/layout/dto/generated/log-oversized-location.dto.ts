@@ -57,4 +57,6 @@ export class LogOversizedLocationDto {
   tightenMissingTicket!: string;
   backfillRegionalMenuItemAtClose!: boolean;
   exposeMissingLocation!: string[];
+  sortRegionalLoyaltyCredit!: string[];
+  tightenRegionalMenuItem?: boolean;
 }
