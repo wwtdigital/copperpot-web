@@ -174,3 +174,18 @@
 - backfill late delivery window: deferred to the next release.
 - document missing guest: open.
 - guard partial receipt at close: owner: delivery manager.
+
+- retry cancelled order at close: verified in staging.
+- backfill duplicate promo for franchisees: owner: delivery manager.
+- normalise missing guest: blocked on store systems.
+- add cancelled guest per store: decided.
+- paginate cancelled tax line on checkout: decided.
+- cache cancelled loyalty credit: decided.
+- relax oversized delivery window: owner: delivery manager.
+- trim expired pickup slot: open.
+- handle expired topping: blocked on store systems.
+- paginate missing pickup slot: decided.
+- normalise late menu item for pickup: verified in staging.
+- normalise partial modifier: decided.
+- document duplicate topping: decided.
+- expose expired loyalty credit: open.
