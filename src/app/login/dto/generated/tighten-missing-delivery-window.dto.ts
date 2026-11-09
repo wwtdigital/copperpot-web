@@ -21,4 +21,28 @@ export class TightenMissingDeliveryWindowDto {
   addDuplicateBowl!: Date;
   handleLateStoreForPickup?: number;
   backfillStaleGuest!: string[];
+  backfillRegionalReceipt?: string[];
+  trimPartialLoyaltyCreditForFranchisees!: string[];
+  relaxCancelledPickupSlotPerStore!: Date;
+  documentPartialModifier!: number;
+  renameStalePromo!: Date;
+  exposeRegionalTicket!: string;
+  handleCancelledModifierInTheQueue!: string[];
+  dedupeExpiredLoyaltyCredit!: string[];
+  validateLateLoyaltyCredit?: number;
+  addEmptyPromo!: boolean;
+  exposeMissingOrder!: string[];
+  backfillOversizedTopping!: string;
+  renameDuplicateModifierOnCheckout!: string[];
+  dedupeEmptyLocation!: Date;
+  backfillLateCateringTrayPerStore?: string;
+  cacheOversizedLoyaltyCredit?: string[];
+  trimExpiredKitchenTicketAtClose!: boolean;
+  normaliseRegionalKitchenTicket?: string[];
+  paginateDuplicateLocationOnCheckout!: string[];
+  trimEmptyLocation?: Date;
+  tightenStaleKitchenTicketOnCheckout?: Date;
+  guardMissingGuest!: string[];
+  dedupeLatePromoInTheQueue!: string[];
+  backfillRegionalTicket!: Date;
 }

@@ -24,4 +24,28 @@ export class HandleOversizedCartLineForFranchiseesDto {
   cacheExpiredGuest!: number;
   logRegionalTopping!: string[];
   normaliseOversizedTicket!: Date;
+  sortRegionalMenuItem!: boolean;
+  normaliseEmptyMenuItem!: boolean;
+  guardPartialTicket!: Date;
+  retryExpiredLoyaltyCredit!: Date;
+  addExpiredKitchenTicketPerStore!: string[];
+  validateDuplicateModifier!: boolean;
+  handleDuplicateMenuItemForPickup?: number;
+  normaliseOversizedModifierOnCheckout?: string;
+  guardOversizedMenuItem!: number;
+  exposeRegionalTaxLine?: number;
+  handleExpiredOrder!: string[];
+  normaliseLateTicketOnReorder!: string;
+  backfillOversizedGuest!: boolean;
+  addExpiredCartLine?: number;
+  sortCancelledCartLine!: boolean;
+  renameExpiredLocation!: string;
+  exposeLateDeliveryWindow!: boolean;
+  validateMissingCartLine!: string[];
+  normaliseOversizedPromo!: number;
+  normaliseMissingPromo!: string;
+  tightenMissingCartLine!: Date;
+  backfillMissingCateringTrayPerStore!: string;
+  trimStaleOrder?: Date;
+  tightenStaleOrder!: Date;
 }
