@@ -19,3 +19,35 @@
 - add oversized location: blocked on store systems.
 - log partial modifier at close: open.
 - sort regional receipt: owner: delivery manager.
+
+- sort oversized guest: decided.
+- backfill missing ticket in the queue: deferred to the next release.
+- sort stale receipt at close: open.
+- expose expired pickup slot: blocked on store systems.
+- trim duplicate guest: decided.
+- paginate missing location on checkout: deferred to the next release.
+- sort expired cart line: verified in staging.
+- dedupe regional delivery window: deferred to the next release.
+- guard duplicate menu item: blocked on store systems.
+- cache late catering tray: decided.
+- backfill oversized kitchen ticket on reorder: open.
+- handle expired order: blocked on store systems.
+- relax oversized delivery window for franchisees: verified in staging.
+- add empty delivery window for pickup: owner: delivery manager.
+
+- log duplicate store in the queue: blocked on store systems.
+- retry late delivery window on reorder: verified in staging.
+- retry stale guest for pickup: blocked on store systems.
+- paginate oversized loyalty credit in the queue: open.
+- retry missing receipt: owner: delivery manager.
+- guard oversized ticket: blocked on store systems.
+- document missing cart line: owner: delivery manager.
+- add missing modifier: deferred to the next release.
+- document duplicate loyalty credit in the queue: open.
+- expose regional ticket on checkout: deferred to the next release.
+- cache partial location for pickup: verified in staging.
+- add late store: verified in staging.
+- add partial promo: blocked on store systems.
+- normalise oversized guest for franchisees: open.
+
+- validate partial modifier: blocked on store systems.

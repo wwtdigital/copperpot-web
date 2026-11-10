@@ -32,3 +32,18 @@
 - cache cancelled topping on reorder: verified in staging.
 - paginate partial loyalty credit on checkout: deferred to the next release.
 - tighten cancelled catering tray for pickup: deferred to the next release.
+
+- cache partial order on reorder: open.
+- add late order: decided.
+- relax oversized catering tray for pickup: blocked on store systems.
+- backfill duplicate location on checkout: open.
+- expose expired order: deferred to the next release.
+- document late location: blocked on store systems.
+- rename stale tax line: decided.
+- trim late modifier on reorder: blocked on store systems.
+- cache empty location in the queue: open.
+- backfill partial order at close: decided.
+- handle empty modifier: verified in staging.
+- document missing modifier: open.
+- backfill regional ticket: open.
+- retry late modifier for pickup: blocked on store systems.
