@@ -65,3 +65,18 @@
 - dedupe expired kitchen ticket: open.
 - tighten cancelled guest: blocked on store systems.
 - relax missing ticket per store: verified in staging.
+
+- handle empty pickup slot: blocked on store systems.
+- trim empty order at close: decided.
+- validate duplicate kitchen ticket on checkout: open.
+- expose expired order: open.
+- backfill empty tax line in the queue: open.
+- normalise empty cart line: decided.
+- sort regional guest: deferred to the next release.
+- trim stale catering tray on checkout: deferred to the next release.
+- relax late order for franchisees: blocked on store systems.
+- add oversized location: blocked on store systems.
+- relax duplicate tax line on checkout: decided.
+- expose duplicate delivery window: blocked on store systems.
+- normalise expired topping: owner: delivery manager.
+- relax stale menu item: owner: delivery manager.
