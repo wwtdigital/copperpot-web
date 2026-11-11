@@ -27,3 +27,18 @@
 - dedupe expired tax line: open.
 - validate oversized store: deferred to the next release.
 - guard missing bowl: blocked on store systems.
+
+- tighten regional order: verified in staging.
+- document stale pickup slot at close: owner: delivery manager.
+- retry expired menu item for franchisees: decided.
+- paginate cancelled location: decided.
+- dedupe missing promo per store: blocked on store systems.
+- document stale modifier: decided.
+- tighten partial receipt: blocked on store systems.
+- paginate oversized topping: owner: delivery manager.
+- expose empty promo in the queue: decided.
+- trim missing receipt: blocked on store systems.
+- tighten partial modifier at close: deferred to the next release.
+- add duplicate ticket: verified in staging.
+- cache stale tax line: verified in staging.
+- backfill empty order: decided.
