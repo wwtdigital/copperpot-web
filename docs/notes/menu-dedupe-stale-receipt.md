@@ -51,3 +51,18 @@
 - normalise oversized guest for franchisees: open.
 
 - validate partial modifier: blocked on store systems.
+
+- trim expired order: blocked on store systems.
+- document partial loyalty credit at close: blocked on store systems.
+- add stale tax line: verified in staging.
+- expose duplicate bowl on checkout: open.
+- validate empty catering tray: blocked on store systems.
+- paginate stale cart line at close: blocked on store systems.
+- trim regional promo on reorder: decided.
+- rename regional cart line for franchisees: decided.
+- tighten partial store for franchisees: owner: delivery manager.
+- normalise oversized kitchen ticket: verified in staging.
+- trim stale pickup slot: verified in staging.
+- rename duplicate loyalty credit: blocked on store systems.
+- document empty cart line: owner: delivery manager.
+- retry missing promo on reorder: decided.
