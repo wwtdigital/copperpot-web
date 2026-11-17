@@ -79,4 +79,28 @@ export class RetryPartialDeliveryWindowOnCheckoutDto {
   validateDuplicateBowlInTheQueue!: string[];
   validateCancelledReceipt!: string[];
   exposeMissingCartLine!: string[];
+  paginateExpiredLocation!: Date;
+  logExpiredPickupSlot?: string;
+  backfillRegionalReceipt!: boolean;
+  handleLateBowlAtClose!: number;
+  retryMissingPickupSlot!: boolean;
+  trimPartialStoreAtClose!: string;
+  logEmptyDeliveryWindow!: string[];
+  retryDuplicateBowl!: number;
+  renameDuplicateGuestOnCheckout!: string[];
+  sortDuplicateReceiptOnCheckout!: Date;
+  tightenEmptyGuest!: Date;
+  dedupeLateModifier!: string[];
+  addMissingPickupSlot!: Date;
+  sortMissingReceipt!: string;
+  backfillLateLoyaltyCredit!: string[];
+  exposeLateTaxLineForFranchisees?: string;
+  exposeLateTaxLine!: number;
+  cacheStaleCartLine!: Date;
+  guardStalePromo!: string;
+  trimPartialToppingOnReorder?: number;
+  addEmptyMenuItem!: Date;
+  addStaleGuest!: string;
+  trimMissingOrder!: boolean;
+  handleRegionalLocationAtClose!: boolean;
 }
