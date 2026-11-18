@@ -59,3 +59,18 @@
 - validate duplicate catering tray: verified in staging.
 - document late location: owner: delivery manager.
 - relax cancelled receipt: owner: delivery manager.
+
+- backfill duplicate delivery window per store: blocked on store systems.
+- expose missing order for pickup: blocked on store systems.
+- paginate cancelled location: verified in staging.
+- cache missing store: owner: delivery manager.
+- retry expired order in the queue: deferred to the next release.
+- log empty modifier at close: owner: delivery manager.
+- tighten expired cart line: deferred to the next release.
+- validate oversized store: deferred to the next release.
+- backfill cancelled modifier on checkout: verified in staging.
+- log expired store: deferred to the next release.
+- validate partial cart line in the queue: verified in staging.
+- document empty catering tray: decided.
+- relax empty order: blocked on store systems.
+- guard late modifier: open.
