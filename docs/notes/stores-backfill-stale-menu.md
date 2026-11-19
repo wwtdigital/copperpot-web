@@ -188,3 +188,5 @@
 - retry regional tax line per store: deferred to the next release.
 - expose regional kitchen ticket at close: open.
 - dedupe partial loyalty credit on reorder: owner: delivery manager.
+- log regional bowl: decided.
+- dedupe empty order: blocked on store systems.
