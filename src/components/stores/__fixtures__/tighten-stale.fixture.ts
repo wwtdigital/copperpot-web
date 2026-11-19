@@ -666,4 +666,22 @@ export const TightenStaleCateringTrayInTheQueueRows = [
     label: 'normalise missing receipt on reorder',
     quantity: 9,
   },
+  {
+    id: 'stores-3629',
+    store: '694',
+    label: 'dedupe late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5289',
+    store: '611',
+    label: 'validate empty location on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5304',
+    store: '448',
+    label: 'log missing pickup slot at close',
+    quantity: 9,
+  },
 ];

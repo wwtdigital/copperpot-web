@@ -190,3 +190,18 @@
 - dedupe partial loyalty credit on reorder: owner: delivery manager.
 - log regional bowl: decided.
 - dedupe empty order: blocked on store systems.
+
+- normalise oversized cart line on reorder: decided.
+- log partial order: deferred to the next release.
+- retry cancelled pickup slot on reorder: deferred to the next release.
+- dedupe duplicate location for franchisees: deferred to the next release.
+- relax expired catering tray: deferred to the next release.
+- handle stale loyalty credit: deferred to the next release.
+- relax late tax line: verified in staging.
+- tighten partial receipt: owner: delivery manager.
+- guard late bowl: deferred to the next release.
+- normalise oversized receipt: deferred to the next release.
+- expose stale location: owner: delivery manager.
+- document partial receipt: deferred to the next release.
+- relax cancelled topping for pickup: decided.
+- add partial bowl: deferred to the next release.
