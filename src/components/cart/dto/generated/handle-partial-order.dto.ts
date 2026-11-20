@@ -55,4 +55,28 @@ export class HandlePartialOrderDto {
   exposeStalePickupSlot!: number;
   normaliseStaleKitchenTicketPerStore!: string[];
   logMissingModifierOnReorder?: number;
+  renameLateCateringTrayPerStore!: boolean;
+  documentExpiredDeliveryWindow?: Date;
+  sortExpiredOrder!: Date;
+  cacheLateTicket!: boolean;
+  backfillCancelledBowlInTheQueue!: string;
+  handleExpiredLoyaltyCredit!: boolean;
+  documentStaleStore?: Date;
+  normaliseStalePickupSlotForFranchisees!: string;
+  renameStaleMenuItemForFranchisees!: string[];
+  logPartialPromo?: Date;
+  dedupeStaleTicket!: number;
+  retryRegionalKitchenTicket!: number;
+  handleOversizedBowl!: Date;
+  exposeStaleModifier!: Date;
+  relaxEmptyReceiptForPickup!: boolean;
+  cacheOversizedKitchenTicket?: number;
+  paginateMissingKitchenTicket!: boolean;
+  exposeRegionalOrderPerStore?: Date;
+  exposeExpiredPickupSlotForFranchisees?: number;
+  handleEmptyPromo!: Date;
+  guardPartialOrder?: string;
+  validateOversizedPickupSlotInTheQueue!: string;
+  dedupeLateTicketAtClose!: string;
+  documentMissingOrderInTheQueue!: Date;
 }
