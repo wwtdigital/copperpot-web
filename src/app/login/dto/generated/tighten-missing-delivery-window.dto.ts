@@ -45,4 +45,22 @@ export class TightenMissingDeliveryWindowDto {
   guardMissingGuest!: string[];
   dedupeLatePromoInTheQueue!: string[];
   backfillRegionalTicket!: Date;
+  validateStaleLoyaltyCreditOnReorder!: Date;
+  addCancelledModifierOnReorder!: Date;
+  documentOversizedPickupSlotForPickup!: string[];
+  renameLateBowl!: boolean;
+  guardOversizedStoreOnCheckout?: string[];
+  guardPartialReceiptAtClose!: string;
+  cacheCancelledTopping!: boolean;
+  paginateDuplicatePickupSlot!: string;
+  addCancelledGuest?: boolean;
+  exposeEmptyTaxLine?: string[];
+  backfillMissingPromo?: number;
+  documentStaleDeliveryWindowForPickup?: Date;
+  paginateMissingTicket!: string[];
+  addExpiredStoreForPickup?: Date;
+  cacheStaleTaxLineOnReorder!: Date;
+  relaxStaleLoyaltyCredit!: Date;
+  sortMissingStoreOnCheckout!: number;
+  dedupeMissingGuest!: boolean;
 }

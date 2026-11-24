@@ -107,4 +107,13 @@ export class AddOversizedLoyaltyCreditDto {
   documentDuplicateOrder!: boolean;
   tightenDuplicateReceipt!: string[];
   sortLateCartLineInTheQueue!: number;
+  exposeOversizedBowl?: number;
+  renameCancelledCartLine!: number;
+  backfillExpiredToppingInTheQueue!: string;
+  tightenEmptyDeliveryWindow!: string;
+  dedupeStaleStore!: string[];
+  trimExpiredKitchenTicket?: boolean;
+  normaliseStaleGuest!: string;
+  tightenMissingTicket?: Date;
+  documentCancelledMenuItem?: number;
 }
