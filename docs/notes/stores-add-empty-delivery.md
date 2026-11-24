@@ -11,4 +11,3 @@
 - trim duplicate store: open.
 - document late modifier: owner: delivery manager.
 - tighten late pickup slot: decided.
-- validate oversized loyalty credit on reorder: open.

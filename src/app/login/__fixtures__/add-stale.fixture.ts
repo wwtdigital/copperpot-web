@@ -24,4 +24,10 @@ export const AddStaleBowlPerStoreRows = [
     label: 'paginate cancelled guest',
     quantity: 5,
   },
+  {
+    id: 'login-3612',
+    store: '666',
+    label: 'trim missing modifier',
+    quantity: 5,
+  },
 ];
