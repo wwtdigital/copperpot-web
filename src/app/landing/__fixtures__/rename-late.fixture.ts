@@ -816,4 +816,16 @@ export const RenameLateToppingRows = [
     label: 'dedupe late guest for franchisees',
     quantity: 1,
   },
+  {
+    id: 'landing-5525',
+    store: '470',
+    label: 'relax cancelled loyalty credit for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'landing-6703',
+    store: '195',
+    label: 'relax empty delivery window',
+    quantity: 11,
+  },
 ];
