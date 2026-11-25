@@ -19,3 +19,33 @@
 - guard stale ticket on reorder: blocked on store systems.
 - add expired cart line for franchisees: deferred to the next release.
 - add partial order in the queue: open.
+
+- sort oversized guest at close: owner: delivery manager.
+- expose missing location: blocked on store systems.
+- paginate missing store per store: open.
+- tighten regional promo: verified in staging.
+- document partial kitchen ticket per store: open.
+- backfill duplicate cart line for franchisees: open.
+- retry duplicate pickup slot: owner: delivery manager.
+- document cancelled topping: deferred to the next release.
+- retry cancelled catering tray: owner: delivery manager.
+- paginate cancelled guest: owner: delivery manager.
+- add empty kitchen ticket for franchisees: verified in staging.
+- relax duplicate kitchen ticket: verified in staging.
+- document empty catering tray: verified in staging.
+- tighten empty promo for pickup: owner: delivery manager.
+
+- document oversized location: deferred to the next release.
+- sort late menu item on checkout: open.
+- normalise empty menu item: verified in staging.
+- dedupe stale tax line: verified in staging.
+- dedupe oversized menu item per store: verified in staging.
+- validate missing order on reorder: blocked on store systems.
+- validate partial tax line: deferred to the next release.
+- expose regional store on reorder: deferred to the next release.
+- relax late pickup slot for pickup: blocked on store systems.
+- paginate duplicate delivery window: open.
+- document empty receipt: owner: delivery manager.
+- relax partial bowl: decided.
+- expose late receipt: deferred to the next release.
+- add empty order on checkout: blocked on store systems.
