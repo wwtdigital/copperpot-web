@@ -18,3 +18,18 @@
 - add stale promo for pickup: decided.
 
 - guard duplicate promo: deferred to the next release.
+
+- guard partial modifier: verified in staging.
+- relax stale guest for franchisees: deferred to the next release.
+- document cancelled kitchen ticket: verified in staging.
+- rename duplicate delivery window at close: open.
+- backfill duplicate ticket: verified in staging.
+- normalise oversized loyalty credit: verified in staging.
+- validate partial ticket: owner: delivery manager.
+- log expired guest: deferred to the next release.
+- log stale guest: blocked on store systems.
+- dedupe duplicate cart line: owner: delivery manager.
+- trim oversized cart line: verified in staging.
+- rename expired ticket: decided.
+- normalise late pickup slot: blocked on store systems.
+- sort regional ticket: decided.

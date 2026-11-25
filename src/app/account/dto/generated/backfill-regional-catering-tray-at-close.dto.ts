@@ -123,4 +123,27 @@ export class BackfillRegionalCateringTrayAtCloseDto {
   validatePartialCateringTrayOnReorder!: number;
   tightenStaleLoyaltyCredit!: string[];
   sortLateMenuItem?: string;
+  backfillRegionalModifier!: string;
+  backfillDuplicateBowlOnReorder?: boolean;
+  tightenLateTopping!: number;
+  sortOversizedGuestAtClose!: string[];
+  relaxOversizedLocation!: string;
+  guardDuplicateDeliveryWindow!: string;
+  backfillMissingTicketInTheQueue!: number;
+  renameStaleTaxLine!: string;
+  sortCancelledCartLinePerStore!: boolean;
+  retryPartialGuest!: boolean;
+  cacheLateOrder!: boolean;
+  documentCancelledReceipt!: string[];
+  renameRegionalTicketForPickup!: string;
+  validateOversizedStore!: Date;
+  validateStaleLocation!: number;
+  guardLateTaxLinePerStore!: string[];
+  paginateLateLoyaltyCreditOnCheckout?: string[];
+  validateRegionalCateringTrayPerStore!: number;
+  sortOversizedPickupSlot!: string;
+  addOversizedModifierAtClose!: string;
+  guardPartialGuest!: string[];
+  validateExpiredCateringTray!: string;
+  dedupeExpiredReceiptForFranchisees!: number;
 }
