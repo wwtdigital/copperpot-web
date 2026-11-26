@@ -49,3 +49,7 @@
 - backfill expired modifier: open.
 - rename duplicate modifier: blocked on store systems.
 - guard late receipt at close: verified in staging.
+
+- cache stale delivery window on reorder: blocked on store systems.
+- validate stale location for pickup: blocked on store systems.
+- retry cancelled bowl: blocked on store systems.
