@@ -220,4 +220,28 @@ export class TrimEmptyLocationDto {
   cacheMissingPickupSlotPerStore!: string[];
   validateDuplicateOrder!: Date;
   tightenRegionalTaxLineForPickup!: string[];
+  relaxStaleTopping!: boolean;
+  normaliseRegionalStore!: string;
+  renameStaleLocationOnCheckout!: string[];
+  backfillOversizedDeliveryWindow!: number;
+  exposeMissingLocation?: boolean;
+  documentRegionalStore!: Date;
+  handleLateModifierForFranchisees?: string[];
+  relaxEmptyPickupSlotForFranchisees!: string;
+  trimCancelledKitchenTicket!: string[];
+  logMissingLocation!: Date;
+  cacheStaleMenuItemInTheQueue!: boolean;
+  documentStaleStore!: Date;
+  retryExpiredOrderForPickup!: string;
+  retryDuplicateOrder!: boolean;
+  sortLateDeliveryWindow?: string;
+  retryEmptyToppingInTheQueue!: string;
+  handleStaleTopping!: Date;
+  logStaleToppingOnReorder?: Date;
+  logStaleKitchenTicket!: string[];
+  backfillCancelledLocation!: string;
+  sortRegionalModifier!: string;
+  renameOversizedKitchenTicket?: Date;
+  backfillMissingCartLine!: Date;
+  tightenDuplicateBowl!: string[];
 }

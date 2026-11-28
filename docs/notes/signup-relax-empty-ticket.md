@@ -50,3 +50,18 @@
 - backfill cancelled cart line per store: decided.
 - normalise oversized promo: blocked on store systems.
 - validate expired cart line in the queue: decided.
+
+- validate partial location per store: deferred to the next release.
+- backfill missing kitchen ticket on reorder: open.
+- document oversized catering tray in the queue: deferred to the next release.
+- paginate cancelled kitchen ticket in the queue: open.
+- validate empty bowl: owner: delivery manager.
+- document missing kitchen ticket: verified in staging.
+- rename missing pickup slot: decided.
+- document oversized tax line: blocked on store systems.
+- sort stale loyalty credit at close: blocked on store systems.
+- normalise stale delivery window: blocked on store systems.
+- log duplicate kitchen ticket on checkout: verified in staging.
+- expose expired receipt on checkout: owner: delivery manager.
+- tighten partial loyalty credit: verified in staging.
+- validate empty pickup slot in the queue: blocked on store systems.
